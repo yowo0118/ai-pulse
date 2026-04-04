@@ -112,6 +112,8 @@ def generate_reports(items: List[Dict[str, object]], output_dir: str = OUTPUT_DI
                 f"- {marker} **[{item.get('title', '')}]({item.get('url', '')})**"
                 f" | Score `{score}` | Source `{item.get('source', '')}` | Date `{item.get('published', '')}`"
             )
+            md_lines.append(f"  - EN: {item.get('summary_en', '')}")
+            md_lines.append(f"  - ZH: {item.get('summary_zh', '')}")
         md_lines.append("")
 
     md_lines.append("---")

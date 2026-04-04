@@ -5,7 +5,7 @@ import re
 import time
 import urllib.error
 import urllib.request
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 from config import CAT_INDUSTRY, AI_MODEL, CATEGORIES, MIN_SCORE, SCORING_SYSTEM_PROMPT, SCORING_USER_PROMPT
 
@@ -85,6 +85,16 @@ FUNDING_PATTERNS = [
     re.compile(r"raised\s+\$?\s?\d+(?:\.\d+)?\s?(?:billion|million|B|M)?", re.IGNORECASE),
     re.compile(r"series\s+[A-Z]\b", re.IGNORECASE),
 ]
+
+SUMMARY_SYSTEM_PROMPT = """
+You are a concise AI news analyst.
+Return JSON only:
+{
+  "summary_en": "1-2 sentence English summary",
+  "summary_zh": "1-2 sentence Chinese summary"
+}
+Focus on what happened, why it matters, and avoid hype.
+"""
 
 
 def _strip_markdown_code_fence(text: str) -> str:
@@ -315,6 +325,58 @@ def _call_openai(item: Dict[str, object]) -> Dict[str, object]:
     return _extract_json_block(str(content))
 
 
+def _call_openai_summary(item: Dict[str, object]) -> Dict[str, object]:
+    api_key = os.getenv("OPENAI_API_KEY", "").strip()
+    if not api_key:
+        raise RuntimeError("OPENAI_API_KEY is not set.")
+
+    model = os.getenv("OPENAI_SUMMARY_MODEL", os.getenv("OPENAI_MODEL", "gpt-4.1-mini"))
+    content = str(item.get("content", ""))[:1800]
+    user_prompt = (
+        f"Title: {item.get('title', '')}\n"
+        f"Source: {item.get('source', '')}\n"
+        f"Published: {item.get('published', '')}\n"
+        f"Content: {content}"
+    )
+    payload = {
+        "model": model,
+        "temperature": 0.2,
+        "max_tokens": 220,
+        "messages": [
+            {"role": "system", "content": SUMMARY_SYSTEM_PROMPT},
+            {"role": "user", "content": user_prompt},
+        ],
+    }
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}",
+    }
+
+    last_exc: Optional[Exception] = None
+    for attempt in range(3):
+        try:
+            result = _post_json("https://api.openai.com/v1/chat/completions", payload, headers)
+            choices = result.get("choices", [])
+            if not isinstance(choices, list) or not choices:
+                raise ValueError("Invalid OpenAI summary response: missing choices")
+            message = choices[0].get("message", {}) if isinstance(choices[0], dict) else {}
+            raw_text = str(message.get("content", "")) if isinstance(message, dict) else ""
+            return _extract_json_block(raw_text)
+        except urllib.error.HTTPError as exc:
+            last_exc = exc
+            if exc.code == 429 and attempt < 2:
+                time.sleep(2**attempt)
+                continue
+            raise
+        except Exception as exc:
+            last_exc = exc
+            break
+    if last_exc:
+        raise last_exc
+    raise RuntimeError("OpenAI summary call failed without details.")
+
+
 def _normalize_ai_output(item: Dict[str, object], ai_data: Dict[str, object], provider: str) -> Dict[str, object]:
     scored = copy.deepcopy(item)
     breakdown = ai_data.get("score_breakdown", {})
@@ -399,3 +461,29 @@ def score_items(items: List[Dict[str, object]], use_ai: bool = True, min_score: 
 
     scored_items.sort(key=lambda x: float(x.get("score", 0)), reverse=True)
     return scored_items
+
+
+def enrich_summaries_with_chatgpt(items: List[Dict[str, object]]) -> Tuple[List[Dict[str, object]], int]:
+    if not os.getenv("OPENAI_API_KEY", "").strip():
+        return items, 0
+
+    updated: List[Dict[str, object]] = []
+    success = 0
+    for idx, item in enumerate(items, start=1):
+        enriched = copy.deepcopy(item)
+        try:
+            summary_data = _call_openai_summary(item)
+            summary_en = str(summary_data.get("summary_en", "")).strip()
+            summary_zh = str(summary_data.get("summary_zh", "")).strip()
+            if summary_en:
+                enriched["summary_en"] = summary_en
+            if summary_zh:
+                enriched["summary_zh"] = summary_zh
+            if summary_en or summary_zh:
+                success += 1
+            enriched["summary_model"] = os.getenv("OPENAI_SUMMARY_MODEL", os.getenv("OPENAI_MODEL", "gpt-4.1-mini"))
+            time.sleep(0.5)
+        except Exception as exc:
+            print(f"[Summary] Item {idx} ChatGPT summary failed, keep fallback summary: {exc}")
+        updated.append(enriched)
+    return updated, success

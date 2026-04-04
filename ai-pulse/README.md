@@ -1,6 +1,6 @@
 # AI Pulse
 
-AI Pulse is a Python backend system that collects AI industry news from 30+ sources, scores each item with AI (or keyword fallback), and generates bilingual daily briefings in Markdown and JSON.
+AI Pulse is a Python backend system that collects AI industry news from 30+ sources, scores each item with AI (or keyword fallback), generates ChatGPT summaries for every item, and outputs bilingual daily briefings in Markdown and JSON.
 
 ## Quick Start
 
@@ -26,6 +26,8 @@ python main.py
 
 - `output/ai-pulse-YYYY-MM-DD.md`
 - `output/ai-pulse-YYYY-MM-DD.json`
+
+If `FEISHU_BOT_WEBHOOK` is configured, AI Pulse also sends the generated report to your Feishu bot automatically.
 
 ## CLI Usage
 
@@ -95,6 +97,8 @@ Workflow file: `.github/workflows/daily.yml`
 Set secret:
 
 - `ANTHROPIC_API_KEY` (optional; if not set, keyword fallback is used)
+- `OPENAI_API_KEY` (recommended for per-article ChatGPT summaries)
+- `FEISHU_BOT_WEBHOOK` (optional; for auto delivery to Feishu)
 
 ## Cron Example
 
@@ -108,6 +112,8 @@ Set secret:
 - Tune thresholds: `MIN_SCORE`, `MAX_PER_CATEGORY`, `TIME_WINDOW_HOURS`
 - Use Anthropic by setting `ANTHROPIC_API_KEY`
 - Use OpenAI by setting `OPENAI_API_KEY` (optional `OPENAI_MODEL`)
+- Set `OPENAI_SUMMARY_MODEL` to control the summary model (default follows `OPENAI_MODEL`, fallback `gpt-4.1-mini`)
+- Set `FEISHU_BOT_WEBHOOK` to push report text to your Feishu bot
 
 ## Notes
 

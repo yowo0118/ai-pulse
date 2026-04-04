@@ -2,13 +2,34 @@ import argparse
 import json
 import os
 import time
+import urllib.error
+import urllib.request
 from datetime import datetime
 from typing import List
 
 from collector import collect_all
 from config import OUTPUT_DIR, TIME_WINDOW_HOURS, add_rss_source, get_rss_feeds, list_rss_sources, remove_rss_source
 from reporter import generate_reports
-from scorer import score_items
+from scorer import enrich_summaries_with_chatgpt, score_items
+
+
+USER_AGENT = "AI-Pulse/1.0 (+https://example.com/ai-pulse)"
+REQUEST_TIMEOUT = 15
+
+
+def _sanitize_error_message(err: Exception) -> str:
+    text = str(err)
+    # Redact webhook token from URL-like text.
+    webhook = os.getenv("FEISHU_BOT_WEBHOOK", "").strip()
+    openai_key = os.getenv("OPENAI_API_KEY", "").strip()
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY", "").strip()
+    if webhook:
+        text = text.replace(webhook, "[REDACTED_WEBHOOK]")
+    if openai_key:
+        text = text.replace(openai_key, "[REDACTED_OPENAI_KEY]")
+    if anthropic_key:
+        text = text.replace(anthropic_key, "[REDACTED_ANTHROPIC_KEY]")
+    return text
 
 
 def print_banner() -> None:
@@ -58,6 +79,61 @@ def handle_source_management(args: argparse.Namespace) -> bool:
     return False
 
 
+def _post_json(url: str, payload: dict) -> dict:
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=data,
+        method="POST",
+        headers={
+            "User-Agent": USER_AGENT,
+            "Content-Type": "application/json",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
+        return json.loads(resp.read().decode("utf-8", errors="replace"))
+
+
+def send_report_to_feishu(md_path: str, scored: List[dict]) -> bool:
+    webhook = os.getenv("FEISHU_BOT_WEBHOOK", "").strip()
+    if not webhook:
+        return False
+
+    top = sorted(scored, key=lambda x: float(x.get("score", 0)), reverse=True)[:5]
+    lines = [
+        f"AI Pulse completed at {datetime.now().isoformat(timespec='seconds')}",
+        f"Total items: {len(scored)}",
+        "",
+        "Top stories:",
+    ]
+    for idx, item in enumerate(top, start=1):
+        lines.append(
+            f"{idx}. [{item.get('score', 0)}] {item.get('title', '')} | "
+            f"{item.get('summary_zh', item.get('summary_en', ''))}"
+        )
+    summary_text = "\n".join(lines)[:1800]
+
+    try:
+        _post_json(webhook, {"msg_type": "text", "content": {"text": summary_text}})
+    except Exception as exc:
+        print(f"[Feishu] Failed to send summary message: {_sanitize_error_message(exc)}")
+        return False
+
+    try:
+        with open(md_path, "r", encoding="utf-8") as f:
+            report_text = f.read()
+        chunk_size = 1800
+        for i in range(0, len(report_text), chunk_size):
+            chunk = report_text[i : i + chunk_size]
+            _post_json(webhook, {"msg_type": "text", "content": {"text": chunk}})
+            time.sleep(0.4)
+    except Exception as exc:
+        print(f"[Feishu] Failed when sending markdown body: {_sanitize_error_message(exc)}")
+        return False
+
+    return True
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="AI Pulse - Daily AI Intelligence Briefing")
     parser.add_argument("--collect-only", action="store_true", help="Only collect data, skip scoring/reporting")
@@ -102,6 +178,14 @@ def main() -> None:
             scored = score_items(items, use_ai=False, min_score=0)[:20]
         print(f"Fallback selected items: {len(scored)}")
 
+    if scored:
+        print_section("STEP 2.5/3 - CHATGPT SUMMARY")
+        if openai:
+            scored, summary_count = enrich_summaries_with_chatgpt(scored)
+            print(f"ChatGPT summaries updated: {summary_count}/{len(scored)}")
+        else:
+            print("OPENAI_API_KEY not set, keeping existing summaries.")
+
     if args.dry_run:
         elapsed = time.time() - start_ts
         print_section("DONE")
@@ -112,6 +196,13 @@ def main() -> None:
 
     print_section("STEP 3/3 - REPORT")
     md_path, json_path = generate_reports(scored, output_dir=OUTPUT_DIR)
+
+    print_section("STEP 3.5/3 - FEISHU BOT")
+    pushed = send_report_to_feishu(md_path, scored)
+    if pushed:
+        print("Feishu bot delivery: success")
+    else:
+        print("Feishu bot delivery: skipped or failed")
 
     elapsed = time.time() - start_ts
     print_section("DONE")
