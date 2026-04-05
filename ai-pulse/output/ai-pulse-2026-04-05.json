@@ -1,0 +1,597 @@
+{
+  "date": "2026-04-05",
+  "generated_at": "2026-04-05T02:06:57",
+  "stats": {
+    "total_items": 8,
+    "high_importance": 1,
+    "medium_importance": 7,
+    "categories_covered": 4
+  },
+  "top_stories": [
+    {
+      "id": "hn-47635033",
+      "title": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI",
+      "url": "https://github.com/borski/travel-hacking-toolkit",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "I use points and miles for most of my travel. Every booking comes down to the same decision: use points or pay cash? To answer that, you need award availability across multiple programs, cash prices, your current balances, transfer partner ratios, and the math to compare them. I got tired of doing it manually across a dozen tabs.This toolkit teaches Claude Code and OpenCode how to do it. 7 skills (markdown files with API docs and curl examples) and 6 MCP servers (real-time tools the AI calls directly).It searches award flights across 25+ mileage programs (Seats.aero), compares cash prices (Google Flights, Skiplagged, Kiwi.com, Duffel), pulls your loyalty balances (AwardWallet), searches hotels (Trivago, LiteAPI, Airbnb, Booking.com), finds ferry routes across 33 countries, and looks up weird hidden gems near your destination (Atlas Obscura).Reference data is included: transfer partner ratios for Chase UR, Amex MR, Bilt, Capital One, and Citi TY. Point valuations sourced from TPG, Upgraded Points, OMAAT, and View From The Wing. Alliance membership, sweet spot redemptions, booking windows, hotel chain brand lookups.5 of the 6 MCP servers need zero API keys. Clone, run setup.sh, start searching.Skills are, as usual, plain markdown. They work in OpenCode and Claude Code automatically (I added a tiny setup script), and they'll work in anything else that supports skills.PRs welcome! Help me expand the toolkit! :)https://github.com/borski/travel-hacking-toolkit",
+      "published": "2026-04-04T02:26:42+00:00",
+      "published_dt": "2026-04-04T02:26:42+00:00",
+      "hn_score": 89,
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "MCP"
+        ]
+      },
+      "summary_en": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI (Hacker News) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Hacker News 报道：Show HN: Travel Hacking Toolkit – Points search and trip planning with AI，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 0,
+      "items": []
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
+          "title": "Quoting Kyle Daigle",
+          "url": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "[GitHub] platform activity is surging. There were 1 billion commits in 2025. Now, it's 275 million per week, on pace for 14 billion this year if growth remains linear (spoiler: it won't.) GitHub Actions has grown from 500M minutes/week in 2023 to 1B minutes/week in 2025, and now 2.1B minutes so far this week. — Kyle Daigle, COO, GitHub Tags: github, github-actions",
+          "published": "2026-04-04T02:20:17+00:00",
+          "published_dt": "2026-04-04T02:20:17+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Quoting Kyle Daigle (Simon Willison) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Simon Willison 报道：Quoting Kyle Daigle，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+          "title": "Components of A Coding Agent",
+          "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+          "source": "Ahead of AI (Sebastian Raschka)",
+          "source_type": "rss",
+          "content": "In this article, I want to cover the overall design of coding agents and agent harnesses: what they are, how they work, and how the different pieces fit together in practice. Readers of my Build a Large Language Model (From Scratch) and Build a Large Reasoning Model (From Scratch) books often ask about agents, so I thought it would be useful to write a reference I can point to.More generally, agents have become an important topic because much of the recent progress in practical LLM systems is not just about better models, but about how we use them. In many real-world applications, the surrounding system, such as tool use, context management, and memory, plays as much of a role as the model itself. This also helps explain why systems like Claude Code or Codex can feel significantly more capable than the same models used in a plain chat interface.In this article, I lay out six of the main building blocks of a coding agent.Claude Code, Codex CLI, and Other Coding AgentsYou are probably familiar with Claude Code or the Codex CLI, but just to set the stage, they are essentially agentic coding tools that wrap an LLM in an application layer, a so-called agentic harness, to be more convenient and better-performing for coding tasks.Figure 1: Claude Code CLI, Codex CLI, and my Mini Coding Agent.Coding agents are engineered for software work where the notable parts are not only the model choice but the surrounding system, including repo context, tool design, prompt-cache stability, memory, and long-session continuity.That distinction matters because when we talk about the coding capabilities of LLMs, people often collapse the model, the reasoning behavior, and the agent product into one thing. But before getting into the coding agent specifics, let me briefly provide a bit more context on the difference between the broader concepts, the LLMs, reasoning models, and agents.On The Relationship Between LLMs, Reasoning Models, and AgentsAn LLM is the core next-token model. A reason",
+          "published": "2026-04-04T11:45:37+00:00",
+          "published_dt": "2026-04-04T11:45:37+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent",
+              "reasoning model"
+            ]
+          },
+          "summary_en": "Components of A Coding Agent (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：Components of A Coding Agent，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 3,
+      "items": [
+        {
+          "id": "hn-47635033",
+          "title": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI",
+          "url": "https://github.com/borski/travel-hacking-toolkit",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "I use points and miles for most of my travel. Every booking comes down to the same decision: use points or pay cash? To answer that, you need award availability across multiple programs, cash prices, your current balances, transfer partner ratios, and the math to compare them. I got tired of doing it manually across a dozen tabs.This toolkit teaches Claude Code and OpenCode how to do it. 7 skills (markdown files with API docs and curl examples) and 6 MCP servers (real-time tools the AI calls directly).It searches award flights across 25+ mileage programs (Seats.aero), compares cash prices (Google Flights, Skiplagged, Kiwi.com, Duffel), pulls your loyalty balances (AwardWallet), searches hotels (Trivago, LiteAPI, Airbnb, Booking.com), finds ferry routes across 33 countries, and looks up weird hidden gems near your destination (Atlas Obscura).Reference data is included: transfer partner ratios for Chase UR, Amex MR, Bilt, Capital One, and Citi TY. Point valuations sourced from TPG, Upgraded Points, OMAAT, and View From The Wing. Alliance membership, sweet spot redemptions, booking windows, hotel chain brand lookups.5 of the 6 MCP servers need zero API keys. Clone, run setup.sh, start searching.Skills are, as usual, plain markdown. They work in OpenCode and Claude Code automatically (I added a tiny setup script), and they'll work in anything else that supports skills.PRs welcome! Help me expand the toolkit! :)https://github.com/borski/travel-hacking-toolkit",
+          "published": "2026-04-04T02:26:42+00:00",
+          "published_dt": "2026-04-04T02:26:42+00:00",
+          "hn_score": 89,
+          "score": 8.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "MCP"
+            ]
+          },
+          "summary_en": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI (Hacker News) highlights a notable AI development with score 8.2.",
+          "summary_zh": "Hacker News 报道：Show HN: Travel Hacking Toolkit – Points search and trip planning with AI，综合评分 8.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
+          "title": "research-llm-apis 2026-04-04",
+          "url": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: research-llm-apis 2026-04-04 I'm working on a major change to my LLM Python library and CLI tool. LLM provides an abstraction layer over hundreds of different LLMs from dozens of different vendors thanks to its plugin system, and some of those vendors have grown new features over the past year which LLM's abstraction layer can't handle, such as server-side tool execution. To help design that new abstraction layer I had Claude Code read through the Python client libraries for Anthropic, OpenAI, Gemini and Mistral and use those to help craft curl commands to access the raw JSON for both streaming and non-streaming modes across a range of different scenarios. Both the scripts and the captured outputs now live in this new repo. Tags: llm, apis, json, llms",
+          "published": "2026-04-05T00:32:11+00:00",
+          "published_dt": "2026-04-05T00:32:11+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Mistral"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "research-llm-apis 2026-04-04 (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：research-llm-apis 2026-04-04，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47639779",
+          "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
+          "url": "https://sllm.cloud",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Running DeepSeek V3 (685B) requires 8×H100 GPUs which is about $14k/month. Most developers only need 15-25 tok/s. sllm lets you join a cohort of developers sharing a dedicated node. You reserve a spot with your card, and nobody is charged until the cohort fills. Prices start at $5/mo for smaller models.The LLMs are completely private (we don't log any traffic).The API is OpenAI-compatible (we run vLLM), so you just swap the base URL. Currently offering a few models.",
+          "published": "2026-04-04T15:18:58+00:00",
+          "published_dt": "2026-04-04T15:18:58+00:00",
+          "hn_score": 128,
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "vLLM"
+            ]
+          },
+          "summary_en": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens (Hacker News) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Hacker News 报道：Show HN: sllm – Split a GPU node with other developers, unlimited tokens，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3109429",
+          "title": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
+          "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "It’s about to become more expensive for Claude Code subscribers to use Anthropic’s coding assistant with OpenClaw and other third-party tools.",
+          "published": "2026-04-04T16:32:22+00:00",
+          "published_dt": "2026-04-04T16:32:22+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-05T02:06:53.996386+00:00",
+          "published_dt": "2026-04-05T02:06:53.996386+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-05T02:06:53.996386+00:00",
+          "published_dt": "2026-04-05T02:06:53.996386+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "hn-47635033",
+      "title": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI",
+      "url": "https://github.com/borski/travel-hacking-toolkit",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "I use points and miles for most of my travel. Every booking comes down to the same decision: use points or pay cash? To answer that, you need award availability across multiple programs, cash prices, your current balances, transfer partner ratios, and the math to compare them. I got tired of doing it manually across a dozen tabs.This toolkit teaches Claude Code and OpenCode how to do it. 7 skills (markdown files with API docs and curl examples) and 6 MCP servers (real-time tools the AI calls directly).It searches award flights across 25+ mileage programs (Seats.aero), compares cash prices (Google Flights, Skiplagged, Kiwi.com, Duffel), pulls your loyalty balances (AwardWallet), searches hotels (Trivago, LiteAPI, Airbnb, Booking.com), finds ferry routes across 33 countries, and looks up weird hidden gems near your destination (Atlas Obscura).Reference data is included: transfer partner ratios for Chase UR, Amex MR, Bilt, Capital One, and Citi TY. Point valuations sourced from TPG, Upgraded Points, OMAAT, and View From The Wing. Alliance membership, sweet spot redemptions, booking windows, hotel chain brand lookups.5 of the 6 MCP servers need zero API keys. Clone, run setup.sh, start searching.Skills are, as usual, plain markdown. They work in OpenCode and Claude Code automatically (I added a tiny setup script), and they'll work in anything else that supports skills.PRs welcome! Help me expand the toolkit! :)https://github.com/borski/travel-hacking-toolkit",
+      "published": "2026-04-04T02:26:42+00:00",
+      "published_dt": "2026-04-04T02:26:42+00:00",
+      "hn_score": 89,
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "MCP"
+        ]
+      },
+      "summary_en": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI (Hacker News) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Hacker News 报道：Show HN: Travel Hacking Toolkit – Points search and trip planning with AI，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
+      "title": "research-llm-apis 2026-04-04",
+      "url": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: research-llm-apis 2026-04-04 I'm working on a major change to my LLM Python library and CLI tool. LLM provides an abstraction layer over hundreds of different LLMs from dozens of different vendors thanks to its plugin system, and some of those vendors have grown new features over the past year which LLM's abstraction layer can't handle, such as server-side tool execution. To help design that new abstraction layer I had Claude Code read through the Python client libraries for Anthropic, OpenAI, Gemini and Mistral and use those to help craft curl commands to access the raw JSON for both streaming and non-streaming modes across a range of different scenarios. Both the scripts and the captured outputs now live in this new repo. Tags: llm, apis, json, llms",
+      "published": "2026-04-05T00:32:11+00:00",
+      "published_dt": "2026-04-05T00:32:11+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Mistral"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "research-llm-apis 2026-04-04 (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：research-llm-apis 2026-04-04，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-05T02:06:53.996386+00:00",
+      "published_dt": "2026-04-05T02:06:53.996386+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-05T02:06:53.996386+00:00",
+      "published_dt": "2026-04-05T02:06:53.996386+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
+      "title": "Quoting Kyle Daigle",
+      "url": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "[GitHub] platform activity is surging. There were 1 billion commits in 2025. Now, it's 275 million per week, on pace for 14 billion this year if growth remains linear (spoiler: it won't.) GitHub Actions has grown from 500M minutes/week in 2023 to 1B minutes/week in 2025, and now 2.1B minutes so far this week. — Kyle Daigle, COO, GitHub Tags: github, github-actions",
+      "published": "2026-04-04T02:20:17+00:00",
+      "published_dt": "2026-04-04T02:20:17+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Quoting Kyle Daigle (Simon Willison) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Simon Willison 报道：Quoting Kyle Daigle，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "title": "Components of A Coding Agent",
+      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "source": "Ahead of AI (Sebastian Raschka)",
+      "source_type": "rss",
+      "content": "In this article, I want to cover the overall design of coding agents and agent harnesses: what they are, how they work, and how the different pieces fit together in practice. Readers of my Build a Large Language Model (From Scratch) and Build a Large Reasoning Model (From Scratch) books often ask about agents, so I thought it would be useful to write a reference I can point to.More generally, agents have become an important topic because much of the recent progress in practical LLM systems is not just about better models, but about how we use them. In many real-world applications, the surrounding system, such as tool use, context management, and memory, plays as much of a role as the model itself. This also helps explain why systems like Claude Code or Codex can feel significantly more capable than the same models used in a plain chat interface.In this article, I lay out six of the main building blocks of a coding agent.Claude Code, Codex CLI, and Other Coding AgentsYou are probably familiar with Claude Code or the Codex CLI, but just to set the stage, they are essentially agentic coding tools that wrap an LLM in an application layer, a so-called agentic harness, to be more convenient and better-performing for coding tasks.Figure 1: Claude Code CLI, Codex CLI, and my Mini Coding Agent.Coding agents are engineered for software work where the notable parts are not only the model choice but the surrounding system, including repo context, tool design, prompt-cache stability, memory, and long-session continuity.That distinction matters because when we talk about the coding capabilities of LLMs, people often collapse the model, the reasoning behavior, and the agent product into one thing. But before getting into the coding agent specifics, let me briefly provide a bit more context on the difference between the broader concepts, the LLMs, reasoning models, and agents.On The Relationship Between LLMs, Reasoning Models, and AgentsAn LLM is the core next-token model. A reason",
+      "published": "2026-04-04T11:45:37+00:00",
+      "published_dt": "2026-04-04T11:45:37+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "reasoning model"
+        ]
+      },
+      "summary_en": "Components of A Coding Agent (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：Components of A Coding Agent，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47639779",
+      "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
+      "url": "https://sllm.cloud",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Running DeepSeek V3 (685B) requires 8×H100 GPUs which is about $14k/month. Most developers only need 15-25 tok/s. sllm lets you join a cohort of developers sharing a dedicated node. You reserve a spot with your card, and nobody is charged until the cohort fills. Prices start at $5/mo for smaller models.The LLMs are completely private (we don't log any traffic).The API is OpenAI-compatible (we run vLLM), so you just swap the base URL. Currently offering a few models.",
+      "published": "2026-04-04T15:18:58+00:00",
+      "published_dt": "2026-04-04T15:18:58+00:00",
+      "hn_score": 128,
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "vLLM"
+        ]
+      },
+      "summary_en": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens (Hacker News) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Hacker News 报道：Show HN: sllm – Split a GPU node with other developers, unlimited tokens，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109429",
+      "title": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
+      "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "It’s about to become more expensive for Claude Code subscribers to use Anthropic’s coding assistant with OpenClaw and other third-party tools.",
+      "published": "2026-04-04T16:32:22+00:00",
+      "published_dt": "2026-04-04T16:32:22+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
