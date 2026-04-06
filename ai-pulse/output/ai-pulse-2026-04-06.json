@@ -1,0 +1,678 @@
+{
+  "date": "2026-04-06",
+  "generated_at": "2026-04-06T02:08:06",
+  "stats": {
+    "total_items": 10,
+    "high_importance": 1,
+    "medium_importance": 9,
+    "categories_covered": 4
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything",
+      "title": "Syntaqlite Playground",
+      "url": "https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Tool: Syntaqlite Playground Lalit Maganti's syntaqlite is currently being discussed on Hacker News thanks to Eight years of wanting, three months of building with AI, a deep dive into how it was built. This inspired me to revisit a research project I ran when Lalit first released it a couple of weeks ago, where I tried it out and then compiled it to a WebAssembly wheel so it could run in Pyodide in a browser (the library itself uses C and Rust). This new playground loads up the Python library and provides a UI for trying out its different features: formating, parsing into an AST, validating, and tokenizing SQLite SQL queries. Update: not sure how I missed this but syntaqlite has its own WebAssembly playground linked to from the README. Tags: sql, ai-assisted-programming, sqlite, tools, agentic-engineering",
+      "published": "2026-04-05T19:32:59+00:00",
+      "published_dt": "2026-04-05T19:32:59+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Syntaqlite Playground (Simon Willison) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Simon Willison 报道：Syntaqlite Playground，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 0,
+      "items": []
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3109456",
+          "title": "Can orbital data centers help justify a massive valuation for SpaceX?",
+          "url": "https://techcrunch.com/2026/04/05/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "On the latest episode of TechCrunch’s Equity podcast, we debated Elon Musk's vision for data centers in space.",
+          "published": "2026-04-05T15:40:58+00:00",
+          "published_dt": "2026-04-05T15:40:58+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Can orbital data centers help justify a massive valuation for SpaceX? (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Can orbital data centers help justify a massive valuation for SpaceX?，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything",
+          "title": "Syntaqlite Playground",
+          "url": "https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Tool: Syntaqlite Playground Lalit Maganti's syntaqlite is currently being discussed on Hacker News thanks to Eight years of wanting, three months of building with AI, a deep dive into how it was built. This inspired me to revisit a research project I ran when Lalit first released it a couple of weeks ago, where I tried it out and then compiled it to a WebAssembly wheel so it could run in Pyodide in a browser (the library itself uses C and Rust). This new playground loads up the Python library and provides a UI for trying out its different features: formating, parsing into an AST, validating, and tokenizing SQLite SQL queries. Update: not sure how I missed this but syntaqlite has its own WebAssembly playground linked to from the README. Tags: sql, ai-assisted-programming, sqlite, tools, agentic-engineering",
+          "published": "2026-04-05T19:32:59+00:00",
+          "published_dt": "2026-04-05T19:32:59+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Syntaqlite Playground (Simon Willison) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Simon Willison 报道：Syntaqlite Playground，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
+          "title": "scan-for-secrets 0.2",
+          "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: scan-for-secrets 0.2 CLI tool now streams results as they are found rather than waiting until the end, which is better for large directories. -d/--directory option can now be used multiple times to scan multiple directories. New -f/--file option for specifying one or more individual files to scan. New scan_directory_iter(), scan_file() and scan_file_iter() Python API functions. New -v/--verbose option which shows each directory that is being scanned.",
+          "published": "2026-04-05T04:07:13+00:00",
+          "published_dt": "2026-04-05T04:07:13+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "scan-for-secrets 0.2 (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：scan-for-secrets 0.2，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything",
+          "title": "scan-for-secrets 0.1.1",
+          "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: scan-for-secrets 0.1.1 Added documentation of the escaping schemes that are also scanned. Removed unnecessary repr escaping scheme, which was already covered by json.",
+          "published": "2026-04-05T03:39:33+00:00",
+          "published_dt": "2026-04-05T03:39:33+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "scan-for-secrets 0.1.1 (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：scan-for-secrets 0.1.1，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
+          "title": "scan-for-secrets 0.1",
+          "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: scan-for-secrets 0.1 I like publishing transcripts of local Claude Code sessions using my claude-code-transcripts tool but I'm often paranoid that one of my API keys or similar secrets might inadvertently be revealed in the detailed log files. I built this new Python scanning tool to help reassure me. You can feed it secrets and have it scan for them in a specified directory: uvx scan-for-secrets $OPENAI_API_KEY -d logs-to-publish/ If you leave off the -d it defaults to the current directory. It doesn't just scan for the literal secrets - it also scans for common encodings of those secrets e.g. backslash or JSON escaping, as described in the README. If you have a set of secrets you always want to protect you can list commands to echo them in a ~/.scan-for-secrets.conf.sh file. Mine looks like this: llm keys get openai llm keys get anthropic llm keys get gemini llm keys get mistral awk -F= '/aws_secret_access_key/{print $2}' ~/.aws/credentials | xargs I built this tool using README-driven-development: I carefully constructed the README describing exactly how the tool should work, then dumped it into Claude Code and told it to build the actual tool (using red/green TDD, naturally.) Tags: projects, security, agentic-engineering, coding-agents, ai-assisted-programming, claude-code",
+          "published": "2026-04-05T03:27:13+00:00",
+          "published_dt": "2026-04-05T03:27:13+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Mistral"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "scan-for-secrets 0.1 (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：scan-for-secrets 0.1，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3109466",
+          "title": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
+          "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "AI skeptics aren’t the only ones warning users not to unthinkingly trust models’ outputs — that’s what the AI companies say themselves in their terms of service.",
+          "published": "2026-04-05T18:51:37+00:00",
+          "published_dt": "2026-04-05T18:51:37+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3108607",
+          "title": "In Japan, the robot isn’t coming for your job; it’s filling the one nobody wants",
+          "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Driven by labor shortages, Japan is pushing physical AI from pilot projects into real-world deployment.",
+          "published": "2026-04-05T14:00:00+00:00",
+          "published_dt": "2026-04-05T14:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "In Japan, the robot isn’t coming for your job; it’s filling the one nobody wants (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：In Japan, the robot isn’t coming for your job; it’s filling the one nobody wants，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47649117",
+          "title": "Someone at BrowserStack is leaking users' email addresses",
+          "url": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-05T13:14:38+00:00",
+          "published_dt": "2026-04-05T13:14:38+00:00",
+          "hn_score": 361,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Someone at BrowserStack is leaking users' email addresses (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Someone at BrowserStack is leaking users' email addresses，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-06T02:08:02.151026+00:00",
+          "published_dt": "2026-04-06T02:08:02.151026+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-06T02:08:02.151026+00:00",
+          "published_dt": "2026-04-06T02:08:02.151026+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything",
+      "title": "Syntaqlite Playground",
+      "url": "https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Tool: Syntaqlite Playground Lalit Maganti's syntaqlite is currently being discussed on Hacker News thanks to Eight years of wanting, three months of building with AI, a deep dive into how it was built. This inspired me to revisit a research project I ran when Lalit first released it a couple of weeks ago, where I tried it out and then compiled it to a WebAssembly wheel so it could run in Pyodide in a browser (the library itself uses C and Rust). This new playground loads up the Python library and provides a UI for trying out its different features: formating, parsing into an AST, validating, and tokenizing SQLite SQL queries. Update: not sure how I missed this but syntaqlite has its own WebAssembly playground linked to from the README. Tags: sql, ai-assisted-programming, sqlite, tools, agentic-engineering",
+      "published": "2026-04-05T19:32:59+00:00",
+      "published_dt": "2026-04-05T19:32:59+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Syntaqlite Playground (Simon Willison) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Simon Willison 报道：Syntaqlite Playground，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-06T02:08:02.151026+00:00",
+      "published_dt": "2026-04-06T02:08:02.151026+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-06T02:08:02.151026+00:00",
+      "published_dt": "2026-04-06T02:08:02.151026+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
+      "title": "scan-for-secrets 0.2",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: scan-for-secrets 0.2 CLI tool now streams results as they are found rather than waiting until the end, which is better for large directories. -d/--directory option can now be used multiple times to scan multiple directories. New -f/--file option for specifying one or more individual files to scan. New scan_directory_iter(), scan_file() and scan_file_iter() Python API functions. New -v/--verbose option which shows each directory that is being scanned.",
+      "published": "2026-04-05T04:07:13+00:00",
+      "published_dt": "2026-04-05T04:07:13+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "scan-for-secrets 0.2 (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：scan-for-secrets 0.2，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything",
+      "title": "scan-for-secrets 0.1.1",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: scan-for-secrets 0.1.1 Added documentation of the escaping schemes that are also scanned. Removed unnecessary repr escaping scheme, which was already covered by json.",
+      "published": "2026-04-05T03:39:33+00:00",
+      "published_dt": "2026-04-05T03:39:33+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "scan-for-secrets 0.1.1 (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：scan-for-secrets 0.1.1，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
+      "title": "scan-for-secrets 0.1",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: scan-for-secrets 0.1 I like publishing transcripts of local Claude Code sessions using my claude-code-transcripts tool but I'm often paranoid that one of my API keys or similar secrets might inadvertently be revealed in the detailed log files. I built this new Python scanning tool to help reassure me. You can feed it secrets and have it scan for them in a specified directory: uvx scan-for-secrets $OPENAI_API_KEY -d logs-to-publish/ If you leave off the -d it defaults to the current directory. It doesn't just scan for the literal secrets - it also scans for common encodings of those secrets e.g. backslash or JSON escaping, as described in the README. If you have a set of secrets you always want to protect you can list commands to echo them in a ~/.scan-for-secrets.conf.sh file. Mine looks like this: llm keys get openai llm keys get anthropic llm keys get gemini llm keys get mistral awk -F= '/aws_secret_access_key/{print $2}' ~/.aws/credentials | xargs I built this tool using README-driven-development: I carefully constructed the README describing exactly how the tool should work, then dumped it into Claude Code and told it to build the actual tool (using red/green TDD, naturally.) Tags: projects, security, agentic-engineering, coding-agents, ai-assisted-programming, claude-code",
+      "published": "2026-04-05T03:27:13+00:00",
+      "published_dt": "2026-04-05T03:27:13+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Mistral"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "scan-for-secrets 0.1 (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：scan-for-secrets 0.1，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109456",
+      "title": "Can orbital data centers help justify a massive valuation for SpaceX?",
+      "url": "https://techcrunch.com/2026/04/05/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On the latest episode of TechCrunch’s Equity podcast, we debated Elon Musk's vision for data centers in space.",
+      "published": "2026-04-05T15:40:58+00:00",
+      "published_dt": "2026-04-05T15:40:58+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Can orbital data centers help justify a massive valuation for SpaceX? (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Can orbital data centers help justify a massive valuation for SpaceX?，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109466",
+      "title": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
+      "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "AI skeptics aren’t the only ones warning users not to unthinkingly trust models’ outputs — that’s what the AI companies say themselves in their terms of service.",
+      "published": "2026-04-05T18:51:37+00:00",
+      "published_dt": "2026-04-05T18:51:37+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3108607",
+      "title": "In Japan, the robot isn’t coming for your job; it’s filling the one nobody wants",
+      "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Driven by labor shortages, Japan is pushing physical AI from pilot projects into real-world deployment.",
+      "published": "2026-04-05T14:00:00+00:00",
+      "published_dt": "2026-04-05T14:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "In Japan, the robot isn’t coming for your job; it’s filling the one nobody wants (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：In Japan, the robot isn’t coming for your job; it’s filling the one nobody wants，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47649117",
+      "title": "Someone at BrowserStack is leaking users' email addresses",
+      "url": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-05T13:14:38+00:00",
+      "published_dt": "2026-04-05T13:14:38+00:00",
+      "hn_score": 361,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Someone at BrowserStack is leaking users' email addresses (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Someone at BrowserStack is leaking users' email addresses，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
