@@ -1,0 +1,1508 @@
+{
+  "date": "2026-04-07",
+  "generated_at": "2026-04-07T02:03:53",
+  "stats": {
+    "total_items": 21,
+    "high_importance": 6,
+    "medium_importance": 15,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/ainews-gemma-4-crosses-2-million",
+      "title": "[AINews] Gemma 4 crosses 2 million downloads",
+      "url": "https://www.latent.space/p/ainews-gemma-4-crosses-2-million",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "We commented on this last Thursday, but Gemma 4’s continued deployment and positive reviews over the weekend has pushed it to around 2 million downloads in its first week!(For contrast, Gemma 3 totaled 6.7m downloads in the past year, Gemma 2 had 1.4m downloads since Jun 2024 launch, whereas Qwen 3.5 has gained about 27m downloads inclusive of the 1.5 months since their 397B-A17B flagship model drop)The Gemma 4 keynote will be live in 3 days from London, which you can bookmark now:Separately, we’d also highlight the Hermes Agent hype - our friends at the have a good writeup on the Hermes vs OpenClaw differences.AI News for 4/4/2026-4/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGemma 4’s Rapid Local Adoption and the On-Device Open Model MomentGemma 4 is driving a sharp “local-first” wave: multiple posts pointed to Gemma 4 becoming the top trending / #1 model on Hugging Face, with strong enthusiasm for its practical usability rather than just leaderboard performance—see @ClementDelangue, @GlennCameronjr, and @Yampeleg. The strongest signal was how quickly people were running it on consumer Apple hardware: @adrgrondin showed Gemma 4 E2B on an iPhone 17 Pro at roughly 40 tok/s with MLX; @enjojoyy reported a similar iPhone deployment; @_philschmid highlighted Gemma 4 E2B in AI Edge Gallery using skills for Wikipedia queries. Red Hat also published quantized Gemma 4 31B model cards in NVFP4 and FP8-block formats with instruction-following evals live, and reasoning/vision evals pending, via @RedHat_AI. Together these posts suggest Gemma 4 is not just another open release; it is becoming a reference point for edge inference, Apple Silicon tooling, and low-friction local deployment.The commercial implication is pressure on paid chat subscriptions and cloud dependence: some of the more vira",
+      "published": "2026-04-07T00:17:23+00:00",
+      "published_dt": "2026-04-07T00:17:23+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "[AINews] Gemma 4 crosses 2 million downloads (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Gemma 4 crosses 2 million downloads，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109755",
+      "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
+      "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Zero Shot, a new venture capital fund with deep ties to OpenAI, is aiming to raise $100 million for its first fund. It has already written some checks.",
+      "published": "2026-04-06T21:54:26+00:00",
+      "published_dt": "2026-04-06T21:54:26+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$100M",
+          "$100 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenAI alums have been quietly investing from a new, potentially $100M fund (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI alums have been quietly investing from a new, potentially $100M fund，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93393",
+      "title": "North America Q1 Funding Surges Across Stages To Record Level",
+      "url": "https://news.crunchbase.com/venture/funding-surges-all-stages-ai-north-america-q1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "The first quarter was one for the North American venture capital record books. U.S. and Canadian companies secured a staggering $252.6 billion in seed- through growth-stage funding rounds per Crunchbase data. That’s more than 3x the total raised in the prior quarter, and the largest quarterly total of all time. Predictably, artificial intelligence was the driver. More than 87% of Q1 investment went to companies in Crunchbase AI-related categories. To say these are record funding tallies is somewhat of an understatement. It’s more like Q1 smashed the prior quarterly record — $95.7 billion — set in Q3 2021. Just a single financing for OpenAI was bigger than the prior quarterly record for all startup funding rounds put together. And the four next-largest financings totaled almost as much as the prior quarter, which at the time we considered a very strong period for startup funding. So, in summary, it was a lot of money. For a more detailed picture, we drill down more deeply into how that largesse was distributed across stages and sectors. We also take a look at exits for the quarter, including both IPOs and acquisitions. Table of contents AI Later stage and technology growth Early stage Seed Exits Big picture: A paradigm shift Methodology Glossary of funding terms AI We’ll start with AI, since that’s where the overwhelming majority of the money went. A staggering $221 billion went to North American companies in Crunchbase AI-related categories in the first quarter. That’s about 6x the AI investment total from the prior quarter, which was itself no slacker on this front. For perspective, we charted out AI-related funding over the past 13 quarters to compare. A few megarounds for high-profile companies accounted for most of the quarter’s AI funding, led by OpenAI, Anthropic, xAI and Waymo. Later stage and technology growth These same names factor heavily in tallies for late-stage and technology-growth funding, which comprised the vast majority of total startup investment",
+      "published": "2026-04-06T11:00:14+00:00",
+      "published_dt": "2026-04-06T11:00:14+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$252.6 billion",
+          "$95.7 billion",
+          "$221 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "North America Q1 Funding Surges Across Stages To Record Level (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：North America Q1 Funding Surges Across Stages To Record Level，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/introducing-openai-safety-fellowship",
+      "title": "Announcing the OpenAI Safety Fellowship",
+      "url": "https://openai.com/index/introducing-openai-safety-fellowship",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
+      "published": "2026-04-06T10:00:00+00:00",
+      "published_dt": "2026-04-06T10:00:00+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "alignment",
+          "safety"
+        ]
+      },
+      "summary_en": "Announcing the OpenAI Safety Fellowship (OpenAI Blog) highlights a notable AI development with score 8.9.",
+      "summary_zh": "OpenAI Blog 报道：Announcing the OpenAI Safety Fellowship，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109153",
+      "title": "Spain’s Xoople raises $130 million Series B to map the Earth for AI",
+      "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The company is also announcing a deal with L3Harris to build the sensors for Xoople's spacecraft.",
+      "published": "2026-04-06T13:00:00+00:00",
+      "published_dt": "2026-04-06T13:00:00+00:00",
+      "score": 8.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$130 million",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Spain’s Xoople raises $130 million Series B to map the Earth for AI (TechCrunch AI) highlights a notable AI development with score 8.6.",
+      "summary_zh": "TechCrunch AI 报道：Spain’s Xoople raises $130 million Series B to map the Earth for AI，综合评分 8.6，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://openai.com/index/introducing-openai-safety-fellowship",
+          "title": "Announcing the OpenAI Safety Fellowship",
+          "url": "https://openai.com/index/introducing-openai-safety-fellowship",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
+          "published": "2026-04-06T10:00:00+00:00",
+          "published_dt": "2026-04-06T10:00:00+00:00",
+          "score": 8.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "alignment",
+              "safety"
+            ]
+          },
+          "summary_en": "Announcing the OpenAI Safety Fellowship (OpenAI Blog) highlights a notable AI development with score 8.9.",
+          "summary_zh": "OpenAI Blog 报道：Announcing the OpenAI Safety Fellowship，综合评分 8.9，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3109755",
+          "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
+          "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Zero Shot, a new venture capital fund with deep ties to OpenAI, is aiming to raise $100 million for its first fund. It has already written some checks.",
+          "published": "2026-04-06T21:54:26+00:00",
+          "published_dt": "2026-04-06T21:54:26+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$100M",
+              "$100 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "OpenAI alums have been quietly investing from a new, potentially $100M fund (TechCrunch AI) highlights a notable AI development with score 10.0.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI alums have been quietly investing from a new, potentially $100M fund，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93393",
+          "title": "North America Q1 Funding Surges Across Stages To Record Level",
+          "url": "https://news.crunchbase.com/venture/funding-surges-all-stages-ai-north-america-q1-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "The first quarter was one for the North American venture capital record books. U.S. and Canadian companies secured a staggering $252.6 billion in seed- through growth-stage funding rounds per Crunchbase data. That’s more than 3x the total raised in the prior quarter, and the largest quarterly total of all time. Predictably, artificial intelligence was the driver. More than 87% of Q1 investment went to companies in Crunchbase AI-related categories. To say these are record funding tallies is somewhat of an understatement. It’s more like Q1 smashed the prior quarterly record — $95.7 billion — set in Q3 2021. Just a single financing for OpenAI was bigger than the prior quarterly record for all startup funding rounds put together. And the four next-largest financings totaled almost as much as the prior quarter, which at the time we considered a very strong period for startup funding. So, in summary, it was a lot of money. For a more detailed picture, we drill down more deeply into how that largesse was distributed across stages and sectors. We also take a look at exits for the quarter, including both IPOs and acquisitions. Table of contents AI Later stage and technology growth Early stage Seed Exits Big picture: A paradigm shift Methodology Glossary of funding terms AI We’ll start with AI, since that’s where the overwhelming majority of the money went. A staggering $221 billion went to North American companies in Crunchbase AI-related categories in the first quarter. That’s about 6x the AI investment total from the prior quarter, which was itself no slacker on this front. For perspective, we charted out AI-related funding over the past 13 quarters to compare. A few megarounds for high-profile companies accounted for most of the quarter’s AI funding, led by OpenAI, Anthropic, xAI and Waymo. Later stage and technology growth These same names factor heavily in tallies for late-stage and technology-growth funding, which comprised the vast majority of total startup investment",
+          "published": "2026-04-06T11:00:14+00:00",
+          "published_dt": "2026-04-06T11:00:14+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$252.6 billion",
+              "$95.7 billion",
+              "$221 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "North America Q1 Funding Surges Across Stages To Record Level (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：North America Q1 Funding Surges Across Stages To Record Level，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3109153",
+          "title": "Spain’s Xoople raises $130 million Series B to map the Earth for AI",
+          "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The company is also announcing a deal with L3Harris to build the sensors for Xoople's spacecraft.",
+          "published": "2026-04-06T13:00:00+00:00",
+          "published_dt": "2026-04-06T13:00:00+00:00",
+          "score": 8.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$130 million",
+              "Series B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Spain’s Xoople raises $130 million Series B to map the Earth for AI (TechCrunch AI) highlights a notable AI development with score 8.6.",
+          "summary_zh": "TechCrunch AI 报道：Spain’s Xoople raises $130 million Series B to map the Earth for AI，综合评分 8.6，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "69cfdf2dbb847700018d75c9",
+          "title": "Harshita Arora Joins YC as General Partner",
+          "url": "https://www.ycombinator.com/blog/welcome-harshita/",
+          "source": "Y Combinator Blog",
+          "source_type": "rss",
+          "content": "We're thrilled to announce that Harshita Arora is joining Y Combinator as a General Partner.Harshita has been a Visiting Partner at YC since the Summer 2025 batch, making her the youngest visiting partner in YC's history.Harshita discovered coding at 13, dropped out of school at 15 to pursue it full-time, and by 16 had built Crypto Price Tracker, a crypto portfolio management app that was featured by Apple, which was subsequently acquired, and earned her India's Bal Shakti Puraskar, one of the country's highest honors for young achievers. She then received an O-1 visa, moved to San Francisco, and co-founded AtoB (YC S20).Harshita and her co-founder came into YC with an idea that got killed by Covid, and with zero background in trucking or payments, they spent weeks visiting truck stops until they found the idea that would become AtoB. Today, AtoB is a Series-C stage company building financial infrastructure for the trucking industry. Often described as \"Stripe for Trucking,\" it offers fleet cards, instant payouts, and modern financial tools, serving over 30,000 fleets across the US.As a General Partner, Harshita will work directly with YC founders at every stage of their companies. She brings deep fintech and infrastructure experience, a founder's instinct for product, and the perspective of someone who's been building companies since she was a teenager.We're super excited to have her on the team. Welcome, Harshita!",
+          "published": "2026-04-06T16:00:00+00:00",
+          "published_dt": "2026-04-06T16:00:00+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Y Combinator"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Harshita Arora Joins YC as General Partner (Y Combinator Blog) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Y Combinator Blog 报道：Harshita Arora Joins YC as General Partner，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=907427",
+          "title": "Iran threatens OpenAI’s Stargate data center in Abu Dhabi",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "An October 2025 image of OpenAI’s UAE Stargate data center under construction. | Image: G42 Iran's Islamic Revolutionary Guard Corps (IRGC) has published a video threatening OpenAI's planned Abu Dhabi data center if the US follows through on threats to attack the country's power plants, as reported earlier by Tom's Hardware. The video, which was published to an Iranian state-backed news outlet's X account on April 3rd, says the IRGC will carry out the \"complete and utter annihilation\" of US-linked energy and technology companies in the region, before showing an image of OpenAI's $30 billion in-progress Stargate facility in the United Arab Emirates. OpenAI's overarching $500 billion Stargate project includes investments from Oracle … Read the full story at The Verge.",
+          "published": "2026-04-06T15:54:19+00:00",
+          "published_dt": "2026-04-06T15:54:19+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$30 billion",
+              "$500 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Iran threatens OpenAI’s Stargate data center in Abu Dhabi (The Verge AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "The Verge AI 报道：Iran threatens OpenAI’s Stargate data center in Abu Dhabi，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything",
+          "title": "Google AI Edge Gallery",
+          "url": "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Google AI Edge Gallery Terrible name, really great app: this is Google's official app for running their Gemma 4 models (the E2B and E4B sizes, plus some members of the Gemma 3 family) directly on your iPhone. It works really well. The E2B model is a 2.54GB download and is both fast and genuinely useful. The app also provides \"ask questions about images\" and audio transcription (up to 30s) with the two small Gemma 4 models, and has an interesting \"skills\" demo which demonstrates tool calling against eight different interactive widgets, each implemented as an HTML page (though sadly the source code is not visible): interactive-map, kitchen-adventure, calculate-hash, text-spinner, mood-tracker, mnemonic-password, query-wikipedia, and qr-code. (That demo did freeze the app when I tried to add a follow-up prompt though.) This is the first time I've seen a local model vendor release an official app for trying out their models on in iPhone. Sadly it's missing permanent logs - conversations with this app are ephemeral. Via Hacker News Tags: google, iphone, ai, generative-ai, local-llms, llms, gemini, llm-tool-use",
+          "published": "2026-04-06T05:18:26+00:00",
+          "published_dt": "2026-04-06T05:18:26+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Google AI Edge Gallery (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：Google AI Edge Gallery，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3109710",
+          "title": "Google quietly launched an AI dictation app that works offline",
+          "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google's new offline-first dictation app uses Gemma AI models to take on the apps like Wispr Flow.",
+          "published": "2026-04-06T18:54:33+00:00",
+          "published_dt": "2026-04-06T18:54:33+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google quietly launched an AI dictation app that works offline (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Google quietly launched an AI dictation app that works offline，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3109473",
+          "title": "Startup Battlefield 200 applications open: a chance for VC access, TechCrunch coverage, and $100K",
+          "url": "https://techcrunch.com/2026/04/06/startup-battlefield-200-applications-open-get-vc-access-techcrunch-coverage-and-100k/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Nominate your startup, or one you know that deserves the spotlight, and finish the process by applying. Selected 200 have a chance at VC access, TechCrunch coverage, and $100K for Startup Battlefield 200. Applications close on May 27.",
+          "published": "2026-04-06T14:30:00+00:00",
+          "published_dt": "2026-04-06T14:30:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Startup Battlefield 200 applications open: a chance for VC access, TechCrunch coverage, and $100K (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Startup Battlefield 200 applications open: a chance for VC access, TechCrunch coverage, and $100K，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-gemma-4-crosses-2-million",
+          "title": "[AINews] Gemma 4 crosses 2 million downloads",
+          "url": "https://www.latent.space/p/ainews-gemma-4-crosses-2-million",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "We commented on this last Thursday, but Gemma 4’s continued deployment and positive reviews over the weekend has pushed it to around 2 million downloads in its first week!(For contrast, Gemma 3 totaled 6.7m downloads in the past year, Gemma 2 had 1.4m downloads since Jun 2024 launch, whereas Qwen 3.5 has gained about 27m downloads inclusive of the 1.5 months since their 397B-A17B flagship model drop)The Gemma 4 keynote will be live in 3 days from London, which you can bookmark now:Separately, we’d also highlight the Hermes Agent hype - our friends at the have a good writeup on the Hermes vs OpenClaw differences.AI News for 4/4/2026-4/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGemma 4’s Rapid Local Adoption and the On-Device Open Model MomentGemma 4 is driving a sharp “local-first” wave: multiple posts pointed to Gemma 4 becoming the top trending / #1 model on Hugging Face, with strong enthusiasm for its practical usability rather than just leaderboard performance—see @ClementDelangue, @GlennCameronjr, and @Yampeleg. The strongest signal was how quickly people were running it on consumer Apple hardware: @adrgrondin showed Gemma 4 E2B on an iPhone 17 Pro at roughly 40 tok/s with MLX; @enjojoyy reported a similar iPhone deployment; @_philschmid highlighted Gemma 4 E2B in AI Edge Gallery using skills for Wikipedia queries. Red Hat also published quantized Gemma 4 31B model cards in NVFP4 and FP8-block formats with instruction-following evals live, and reasoning/vision evals pending, via @RedHat_AI. Together these posts suggest Gemma 4 is not just another open release; it is becoming a reference point for edge inference, Apple Silicon tooling, and low-friction local deployment.The commercial implication is pressure on paid chat subscriptions and cloud dependence: some of the more vira",
+          "published": "2026-04-07T00:17:23+00:00",
+          "published_dt": "2026-04-07T00:17:23+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "inference",
+              "agent"
+            ]
+          },
+          "summary_en": "[AINews] Gemma 4 crosses 2 million downloads (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] Gemma 4 crosses 2 million downloads，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47660925",
+          "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
+          "url": "https://github.com/anthropics/claude-code/issues/42796",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-06T13:50:35+00:00",
+          "published_dt": "2026-04-06T13:50:35+00:00",
+          "hn_score": 762,
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates (Hacker News) highlights a notable AI development with score 6.8.",
+          "summary_zh": "Hacker News 报道：Issue: Claude Code is unusable for complex engineering tasks with Feb updates，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything",
+          "title": "scan-for-secrets 0.3",
+          "url": "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: scan-for-secrets 0.3 New -r/--redact option which shows the list of matches, asks for confirmation and then replaces every match with REDACTED, taking escaping rules into account. New Python function redact_file(file_path: str | Path, secrets: list[str], replacement: str = \"REDACTED\") -> int. Tags: projects",
+          "published": "2026-04-06T02:59:28+00:00",
+          "published_dt": "2026-04-06T02:59:28+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "scan-for-secrets 0.3 (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：scan-for-secrets 0.3，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47667717",
+          "title": "Anthropic expands partnership with Google and Broadcom for next-gen compute",
+          "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-06T21:52:08+00:00",
+          "published_dt": "2026-04-06T21:52:08+00:00",
+          "hn_score": 137,
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic expands partnership with Google and Broadcom for next-gen compute (Hacker News) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Hacker News 报道：Anthropic expands partnership with Google and Broadcom for next-gen compute，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything",
+          "title": "datasette-ports 0.2",
+          "url": "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette-ports 0.2 No longer requires Datasette - running uvx datasette-ports now works as well. Installing it as a Datasette plugin continues to provide the datasette ports command. Tags: datasette",
+          "published": "2026-04-06T03:25:43+00:00",
+          "published_dt": "2026-04-06T03:25:43+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "datasette-ports 0.2 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：datasette-ports 0.2，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3109575",
+          "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
+          "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impact.",
+          "published": "2026-04-06T15:55:55+00:00",
+          "published_dt": "2026-04-06T15:55:55+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+          "title": "Industrial policy for the Intelligence Age",
+          "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+          "published": "2026-04-06T02:30:00+00:00",
+          "published_dt": "2026-04-06T02:30:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Industrial policy for the Intelligence Age (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：Industrial policy for the Intelligence Age，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3109661",
+          "title": "Iran threatens ‘Stargate’ AI data centers",
+          "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Iran said it will target U.S.-linked data centers with new missile strikes, as the war between the U.S. and Iran escalates.",
+          "published": "2026-04-06T18:06:28+00:00",
+          "published_dt": "2026-04-06T18:06:28+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Iran threatens ‘Stargate’ AI data centers (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Iran threatens ‘Stargate’ AI data centers，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3062029",
+          "title": "How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others",
+          "url": "https://techcrunch.com/2026/04/06/how-to-use-chatgpt-apps-doordash-spotify-uber/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in ChatGPT.",
+          "published": "2026-04-06T14:11:42+00:00",
+          "published_dt": "2026-04-06T14:11:42+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3109491",
+          "title": "Ticket savings of up to $500 this week for TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/04/06/massive-ticket-savings-of-up-to-500-this-week-for-techcrunch-disrupt-2026/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Starting today, you have 5 days to save nearly $500 on your ticket to TechCrunch Disrupt 2026. This offer disappears Friday, April 10, at 11:59 p.m. PT. Register here to secure these low rates.",
+          "published": "2026-04-06T14:00:00+00:00",
+          "published_dt": "2026-04-06T14:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Ticket savings of up to $500 this week for TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Ticket savings of up to $500 this week for TechCrunch Disrupt 2026，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-07T02:03:50.310376+00:00",
+          "published_dt": "2026-04-07T02:03:50.310376+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-07T02:03:50.310376+00:00",
+          "published_dt": "2026-04-07T02:03:50.310376+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/ainews-gemma-4-crosses-2-million",
+      "title": "[AINews] Gemma 4 crosses 2 million downloads",
+      "url": "https://www.latent.space/p/ainews-gemma-4-crosses-2-million",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "We commented on this last Thursday, but Gemma 4’s continued deployment and positive reviews over the weekend has pushed it to around 2 million downloads in its first week!(For contrast, Gemma 3 totaled 6.7m downloads in the past year, Gemma 2 had 1.4m downloads since Jun 2024 launch, whereas Qwen 3.5 has gained about 27m downloads inclusive of the 1.5 months since their 397B-A17B flagship model drop)The Gemma 4 keynote will be live in 3 days from London, which you can bookmark now:Separately, we’d also highlight the Hermes Agent hype - our friends at the have a good writeup on the Hermes vs OpenClaw differences.AI News for 4/4/2026-4/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGemma 4’s Rapid Local Adoption and the On-Device Open Model MomentGemma 4 is driving a sharp “local-first” wave: multiple posts pointed to Gemma 4 becoming the top trending / #1 model on Hugging Face, with strong enthusiasm for its practical usability rather than just leaderboard performance—see @ClementDelangue, @GlennCameronjr, and @Yampeleg. The strongest signal was how quickly people were running it on consumer Apple hardware: @adrgrondin showed Gemma 4 E2B on an iPhone 17 Pro at roughly 40 tok/s with MLX; @enjojoyy reported a similar iPhone deployment; @_philschmid highlighted Gemma 4 E2B in AI Edge Gallery using skills for Wikipedia queries. Red Hat also published quantized Gemma 4 31B model cards in NVFP4 and FP8-block formats with instruction-following evals live, and reasoning/vision evals pending, via @RedHat_AI. Together these posts suggest Gemma 4 is not just another open release; it is becoming a reference point for edge inference, Apple Silicon tooling, and low-friction local deployment.The commercial implication is pressure on paid chat subscriptions and cloud dependence: some of the more vira",
+      "published": "2026-04-07T00:17:23+00:00",
+      "published_dt": "2026-04-07T00:17:23+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "[AINews] Gemma 4 crosses 2 million downloads (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Gemma 4 crosses 2 million downloads，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109755",
+      "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
+      "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Zero Shot, a new venture capital fund with deep ties to OpenAI, is aiming to raise $100 million for its first fund. It has already written some checks.",
+      "published": "2026-04-06T21:54:26+00:00",
+      "published_dt": "2026-04-06T21:54:26+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$100M",
+          "$100 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenAI alums have been quietly investing from a new, potentially $100M fund (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI alums have been quietly investing from a new, potentially $100M fund，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93393",
+      "title": "North America Q1 Funding Surges Across Stages To Record Level",
+      "url": "https://news.crunchbase.com/venture/funding-surges-all-stages-ai-north-america-q1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "The first quarter was one for the North American venture capital record books. U.S. and Canadian companies secured a staggering $252.6 billion in seed- through growth-stage funding rounds per Crunchbase data. That’s more than 3x the total raised in the prior quarter, and the largest quarterly total of all time. Predictably, artificial intelligence was the driver. More than 87% of Q1 investment went to companies in Crunchbase AI-related categories. To say these are record funding tallies is somewhat of an understatement. It’s more like Q1 smashed the prior quarterly record — $95.7 billion — set in Q3 2021. Just a single financing for OpenAI was bigger than the prior quarterly record for all startup funding rounds put together. And the four next-largest financings totaled almost as much as the prior quarter, which at the time we considered a very strong period for startup funding. So, in summary, it was a lot of money. For a more detailed picture, we drill down more deeply into how that largesse was distributed across stages and sectors. We also take a look at exits for the quarter, including both IPOs and acquisitions. Table of contents AI Later stage and technology growth Early stage Seed Exits Big picture: A paradigm shift Methodology Glossary of funding terms AI We’ll start with AI, since that’s where the overwhelming majority of the money went. A staggering $221 billion went to North American companies in Crunchbase AI-related categories in the first quarter. That’s about 6x the AI investment total from the prior quarter, which was itself no slacker on this front. For perspective, we charted out AI-related funding over the past 13 quarters to compare. A few megarounds for high-profile companies accounted for most of the quarter’s AI funding, led by OpenAI, Anthropic, xAI and Waymo. Later stage and technology growth These same names factor heavily in tallies for late-stage and technology-growth funding, which comprised the vast majority of total startup investment",
+      "published": "2026-04-06T11:00:14+00:00",
+      "published_dt": "2026-04-06T11:00:14+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$252.6 billion",
+          "$95.7 billion",
+          "$221 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "North America Q1 Funding Surges Across Stages To Record Level (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：North America Q1 Funding Surges Across Stages To Record Level，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/introducing-openai-safety-fellowship",
+      "title": "Announcing the OpenAI Safety Fellowship",
+      "url": "https://openai.com/index/introducing-openai-safety-fellowship",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
+      "published": "2026-04-06T10:00:00+00:00",
+      "published_dt": "2026-04-06T10:00:00+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "alignment",
+          "safety"
+        ]
+      },
+      "summary_en": "Announcing the OpenAI Safety Fellowship (OpenAI Blog) highlights a notable AI development with score 8.9.",
+      "summary_zh": "OpenAI Blog 报道：Announcing the OpenAI Safety Fellowship，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109153",
+      "title": "Spain’s Xoople raises $130 million Series B to map the Earth for AI",
+      "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The company is also announcing a deal with L3Harris to build the sensors for Xoople's spacecraft.",
+      "published": "2026-04-06T13:00:00+00:00",
+      "published_dt": "2026-04-06T13:00:00+00:00",
+      "score": 8.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$130 million",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Spain’s Xoople raises $130 million Series B to map the Earth for AI (TechCrunch AI) highlights a notable AI development with score 8.6.",
+      "summary_zh": "TechCrunch AI 报道：Spain’s Xoople raises $130 million Series B to map the Earth for AI，综合评分 8.6，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "69cfdf2dbb847700018d75c9",
+      "title": "Harshita Arora Joins YC as General Partner",
+      "url": "https://www.ycombinator.com/blog/welcome-harshita/",
+      "source": "Y Combinator Blog",
+      "source_type": "rss",
+      "content": "We're thrilled to announce that Harshita Arora is joining Y Combinator as a General Partner.Harshita has been a Visiting Partner at YC since the Summer 2025 batch, making her the youngest visiting partner in YC's history.Harshita discovered coding at 13, dropped out of school at 15 to pursue it full-time, and by 16 had built Crypto Price Tracker, a crypto portfolio management app that was featured by Apple, which was subsequently acquired, and earned her India's Bal Shakti Puraskar, one of the country's highest honors for young achievers. She then received an O-1 visa, moved to San Francisco, and co-founded AtoB (YC S20).Harshita and her co-founder came into YC with an idea that got killed by Covid, and with zero background in trucking or payments, they spent weeks visiting truck stops until they found the idea that would become AtoB. Today, AtoB is a Series-C stage company building financial infrastructure for the trucking industry. Often described as \"Stripe for Trucking,\" it offers fleet cards, instant payouts, and modern financial tools, serving over 30,000 fleets across the US.As a General Partner, Harshita will work directly with YC founders at every stage of their companies. She brings deep fintech and infrastructure experience, a founder's instinct for product, and the perspective of someone who's been building companies since she was a teenager.We're super excited to have her on the team. Welcome, Harshita!",
+      "published": "2026-04-06T16:00:00+00:00",
+      "published_dt": "2026-04-06T16:00:00+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Y Combinator"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Harshita Arora Joins YC as General Partner (Y Combinator Blog) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Y Combinator Blog 报道：Harshita Arora Joins YC as General Partner，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109575",
+      "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
+      "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impact.",
+      "published": "2026-04-06T15:55:55+00:00",
+      "published_dt": "2026-04-06T15:55:55+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=907427",
+      "title": "Iran threatens OpenAI’s Stargate data center in Abu Dhabi",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "An October 2025 image of OpenAI’s UAE Stargate data center under construction. | Image: G42 Iran's Islamic Revolutionary Guard Corps (IRGC) has published a video threatening OpenAI's planned Abu Dhabi data center if the US follows through on threats to attack the country's power plants, as reported earlier by Tom's Hardware. The video, which was published to an Iranian state-backed news outlet's X account on April 3rd, says the IRGC will carry out the \"complete and utter annihilation\" of US-linked energy and technology companies in the region, before showing an image of OpenAI's $30 billion in-progress Stargate facility in the United Arab Emirates. OpenAI's overarching $500 billion Stargate project includes investments from Oracle … Read the full story at The Verge.",
+      "published": "2026-04-06T15:54:19+00:00",
+      "published_dt": "2026-04-06T15:54:19+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$30 billion",
+          "$500 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Iran threatens OpenAI’s Stargate data center in Abu Dhabi (The Verge AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "The Verge AI 报道：Iran threatens OpenAI’s Stargate data center in Abu Dhabi，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-07T02:03:50.310376+00:00",
+      "published_dt": "2026-04-07T02:03:50.310376+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-07T02:03:50.310376+00:00",
+      "published_dt": "2026-04-07T02:03:50.310376+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47660925",
+      "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
+      "url": "https://github.com/anthropics/claude-code/issues/42796",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-06T13:50:35+00:00",
+      "published_dt": "2026-04-06T13:50:35+00:00",
+      "hn_score": 762,
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates (Hacker News) highlights a notable AI development with score 6.8.",
+      "summary_zh": "Hacker News 报道：Issue: Claude Code is unusable for complex engineering tasks with Feb updates，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "title": "Industrial policy for the Intelligence Age",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+      "published": "2026-04-06T02:30:00+00:00",
+      "published_dt": "2026-04-06T02:30:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Industrial policy for the Intelligence Age (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：Industrial policy for the Intelligence Age，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109710",
+      "title": "Google quietly launched an AI dictation app that works offline",
+      "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google's new offline-first dictation app uses Gemma AI models to take on the apps like Wispr Flow.",
+      "published": "2026-04-06T18:54:33+00:00",
+      "published_dt": "2026-04-06T18:54:33+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google quietly launched an AI dictation app that works offline (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Google quietly launched an AI dictation app that works offline，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything",
+      "title": "Google AI Edge Gallery",
+      "url": "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Google AI Edge Gallery Terrible name, really great app: this is Google's official app for running their Gemma 4 models (the E2B and E4B sizes, plus some members of the Gemma 3 family) directly on your iPhone. It works really well. The E2B model is a 2.54GB download and is both fast and genuinely useful. The app also provides \"ask questions about images\" and audio transcription (up to 30s) with the two small Gemma 4 models, and has an interesting \"skills\" demo which demonstrates tool calling against eight different interactive widgets, each implemented as an HTML page (though sadly the source code is not visible): interactive-map, kitchen-adventure, calculate-hash, text-spinner, mood-tracker, mnemonic-password, query-wikipedia, and qr-code. (That demo did freeze the app when I tried to add a follow-up prompt though.) This is the first time I've seen a local model vendor release an official app for trying out their models on in iPhone. Sadly it's missing permanent logs - conversations with this app are ephemeral. Via Hacker News Tags: google, iphone, ai, generative-ai, local-llms, llms, gemini, llm-tool-use",
+      "published": "2026-04-06T05:18:26+00:00",
+      "published_dt": "2026-04-06T05:18:26+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Google AI Edge Gallery (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：Google AI Edge Gallery，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything",
+      "title": "scan-for-secrets 0.3",
+      "url": "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: scan-for-secrets 0.3 New -r/--redact option which shows the list of matches, asks for confirmation and then replaces every match with REDACTED, taking escaping rules into account. New Python function redact_file(file_path: str | Path, secrets: list[str], replacement: str = \"REDACTED\") -> int. Tags: projects",
+      "published": "2026-04-06T02:59:28+00:00",
+      "published_dt": "2026-04-06T02:59:28+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "scan-for-secrets 0.3 (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：scan-for-secrets 0.3，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109473",
+      "title": "Startup Battlefield 200 applications open: a chance for VC access, TechCrunch coverage, and $100K",
+      "url": "https://techcrunch.com/2026/04/06/startup-battlefield-200-applications-open-get-vc-access-techcrunch-coverage-and-100k/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Nominate your startup, or one you know that deserves the spotlight, and finish the process by applying. Selected 200 have a chance at VC access, TechCrunch coverage, and $100K for Startup Battlefield 200. Applications close on May 27.",
+      "published": "2026-04-06T14:30:00+00:00",
+      "published_dt": "2026-04-06T14:30:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Startup Battlefield 200 applications open: a chance for VC access, TechCrunch coverage, and $100K (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Startup Battlefield 200 applications open: a chance for VC access, TechCrunch coverage, and $100K，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47667717",
+      "title": "Anthropic expands partnership with Google and Broadcom for next-gen compute",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-06T21:52:08+00:00",
+      "published_dt": "2026-04-06T21:52:08+00:00",
+      "hn_score": 137,
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic expands partnership with Google and Broadcom for next-gen compute (Hacker News) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Hacker News 报道：Anthropic expands partnership with Google and Broadcom for next-gen compute，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything",
+      "title": "datasette-ports 0.2",
+      "url": "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette-ports 0.2 No longer requires Datasette - running uvx datasette-ports now works as well. Installing it as a Datasette plugin continues to provide the datasette ports command. Tags: datasette",
+      "published": "2026-04-06T03:25:43+00:00",
+      "published_dt": "2026-04-06T03:25:43+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "datasette-ports 0.2 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：datasette-ports 0.2，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109661",
+      "title": "Iran threatens ‘Stargate’ AI data centers",
+      "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Iran said it will target U.S.-linked data centers with new missile strikes, as the war between the U.S. and Iran escalates.",
+      "published": "2026-04-06T18:06:28+00:00",
+      "published_dt": "2026-04-06T18:06:28+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Iran threatens ‘Stargate’ AI data centers (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Iran threatens ‘Stargate’ AI data centers，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3062029",
+      "title": "How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others",
+      "url": "https://techcrunch.com/2026/04/06/how-to-use-chatgpt-apps-doordash-spotify-uber/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in ChatGPT.",
+      "published": "2026-04-06T14:11:42+00:00",
+      "published_dt": "2026-04-06T14:11:42+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109491",
+      "title": "Ticket savings of up to $500 this week for TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/04/06/massive-ticket-savings-of-up-to-500-this-week-for-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Starting today, you have 5 days to save nearly $500 on your ticket to TechCrunch Disrupt 2026. This offer disappears Friday, April 10, at 11:59 p.m. PT. Register here to secure these low rates.",
+      "published": "2026-04-06T14:00:00+00:00",
+      "published_dt": "2026-04-06T14:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Ticket savings of up to $500 this week for TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Ticket savings of up to $500 this week for TechCrunch Disrupt 2026，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
