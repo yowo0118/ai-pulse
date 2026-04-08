@@ -1,0 +1,1941 @@
+{
+  "date": "2026-04-08",
+  "generated_at": "2026-04-08T02:05:00",
+  "stats": {
+    "total_items": 28,
+    "high_importance": 5,
+    "medium_importance": 23,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/ainews-anthropic-30b-arr-project",
+      "title": "[AINews] Anthropic @ $30B ARR, Project GlassWing and Claude Mythos Preview — first model too dangerous to release since GPT-2",
+      "url": "https://www.latent.space/p/ainews-anthropic-30b-arr-project",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Against the backdrop of OpenAI announcing $24B ARR, stalled ChatGPT growth and coincidental personnel moves in CEO, COO, and CMO and sensationalist rumors with CFO, this week’s events in Anthropic announcing a massive jump from $19B ARR in March to $30B ARR in April1 seems like a VERY strategic jab, especially considering known differences in revenue recognition, but the differential rate of growth and higher cost efficiency is undeniable... only for today to step it up a notch. If a master tactician wanted to further competitive narratives vs a potential IPO, you would be hard pressed to find a better idea than Claude Mythos (from the Ancient Greek for “utterance” or “narrative”: the system of stories through which civilizations made sense of the world), rumored to be the largest ever successful training run and “leaked” weeks ago, and now formally confirmed to be too dangerous to release GA, instead only restricted to 40 partners under an urgent new “Project Glasswing”:In the blogpost and the 244 page System Card and a ludicrously well produced video, Anthropic details shocking capabilities beyond the kinds of high double digit benchmark capability jumps (with encouraging efficiency!) you might hope for from a much larger (>10T?) model:“found thousands of high-severity vulnerabilities, including some in every major operating system and web browser.”including decades old vulnerabilities in OpenBSD and FFmpeg and the Linux kernel that had never been discovered by other toolsNicolas Carlini (friend of the show!) stepping up his recent already superlative message saying “I found more bugs in the last couple weeks than I’ve found in the rest of my life combined”Sam Bowman saying he was contacted by a Mythos instance that wasn’t supposed to have access to the internet (it was instructed to do so).Interpretability researchers report “it exhibited notably sophisticated (and often unspoken) strategic thinking and situational awareness, at times in service of unwanted actio",
+      "published": "2026-04-08T00:26:53+00:00",
+      "published_dt": "2026-04-08T00:26:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$30B",
+          "$24B",
+          "$19B"
+        ],
+        "technologies": [
+          "RAG",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] Anthropic @ $30B ARR, Project GlassWing and Claude Mythos Preview — first model too dangerous to release since GPT-2 (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Anthropic @ $30B ARR, Project GlassWing and Claude Mythos Preview — first model too dangerous to release since GPT-2，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/harness-eng",
+      "title": "Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony",
+      "url": "https://www.latent.space/p/harness-eng",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "We’re proud to release this ahead of Ryan’s keynote at AIE Europe. Hit the bell, get notified when it is live! Attendees: come prepped for Ryan’s AMA with Vibhu after.Move over, context engineering. Now it’s time for Harness engineering and the age of the token billionaires.Ryan Lopopolo of OpenAI is leading that charge, recently publishing a lengthy essay on Harness Eng that has become the talk of the town:fuller discussion between Bret and RyanIn it, Ryan peeled back the curtains on how the recently announced OpenAI Frontier team have become OpenAI’s top Codex users, running a >1m LOC codebase with 0 human written code and, crucially for the Dark Factory fans, no human REVIEWED code before merge. Ryan is admirably evangelical about this, calling it borderline “negligent” if you aren’t using >1B tokens a day (roughly $2-3k/day in token spend based on market rates and caching assumptions):search itOver the past five months, they ran an extreme experiment: building and shipping an internal beta product with zero manually written code. Through the experiment, they adopted a different model of engineering work: when the agent failed, instead of prompting it better or to “try harder,” the team would look at “what capability, context, or structure is missing?”The result was Symphony, “a ghost library” and reference Elixir implementation (by Alex Kotliarskyi) that sets up a massive system of Codex agents all extensively prompted with the specificity of a proper PRD spec, but without full implementation:The future starts taking shape as one where coding agents stop being copilots and start becoming real teammates anyone can use and Codex is doubling down on that mission with their Superbowl messaging of “you can just build things”.Across Codex, internal observability stacks, and the multi-agent orchestration system his team calls Symphony, Ryan has been pushing what happens when you optimize an entire codebase, workflow, and organization around agent legibility instead of ",
+      "published": "2026-04-07T17:14:26+00:00",
+      "published_dt": "2026-04-07T17:14:26+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93386",
+      "title": "5 Interesting Startup Deals You May Have Missed: A Credit Card Backed By Mineral Rights, Flying Ferries, And A Foundation AI Model For Plants",
+      "url": "https://news.crunchbase.com/venture/interesting-startup-deals-mineral-rights-flying-ferry-ai-clean-tech/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "This is a monthly column that runs down five interesting startup funding deals that may have flown under the radar. Check out our previous entry here. In a quarter when nearly two-thirds of global venture capital went to just four companies, it’s easy to lose track of the many other companies getting funding to tackle interesting problems. Nonetheless, we spotted five companies in just the past month working on issues from cleaner ferries and trains to foundational AI for plants. Let’s take a closer look. $55M for a mineral rights-backed credit card Natural resources can be incredibly valuable financial assets, but you can’t exactly buy your weekly groceries with oil or water rights. That’s an issue that a Dallas-based fintech startup aims to solve. Frontlands recently raised $50 million in a debt round from StarMesa Capital to provide a credit card to U.S. households holding mineral rights to natural resources such as oil, natural gas, solar, wind or water. “For the millions of mineral rights owners in the United States, these rights are one of the most valuable assets the family owns. But these families are just like the rest of Americans and often are carrying revolving credit card balances at more than 25% [interest],” Frontlands CEO Brandon Cotter said in a statement. “Historically, owners have had few options to access the value trapped inside their mineral rights without selling.” Its AI system combines machine learning, production data, royalty payment histories, lease terms, commodity price forecasts, geologic data and traditional decline curve analysis to automate the underwriting process, the company says. While it’s historically been difficult for traditional lenders to assess natural resources as collateral, Frontlands says its process typically delivers a same-day credit decision. The company’s recent credit facility is in addition to a $5.5 million equity raise announced in December from venture investors including Cambrian Ventures, Fiat Ventures, Wi",
+      "published": "2026-04-07T11:00:35+00:00",
+      "published_dt": "2026-04-07T11:00:35+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$55M",
+          "$50 million",
+          "$5.5 million",
+          "raised $50 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "5 Interesting Startup Deals You May Have Missed: A Credit Card Backed By Mineral Rights, Flying Ferries, And A Foundation AI Model For Plants (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：5 Interesting Startup Deals You May Have Missed: A Credit Card Backed By Mineral Rights, Flying Ferries, And A Foundation AI Model For Plants，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110209",
+      "title": "Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation",
+      "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Nvidia-backed Asia AI data center provider Firmus has now raised $1.35 billion in six months.",
+      "published": "2026-04-07T18:46:55+00:00",
+      "published_dt": "2026-04-07T18:46:55+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$5.5B",
+          "$1.35 billion",
+          "raised $1.35 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
+      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+      "url": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Anthropic didn't release their latest model, Claude Mythos (system card PDF), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing. The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic claim that its cyber-security research abilities are strong enough that they need to give the software industry as a whole time to prepare. Mythos Preview has already found thousands of high-severity vulnerabilities, including some in every major operating system and web browser. Given the rate of AI progress, it will not be long before such capabilities proliferate, potentially beyond actors who are committed to deploying them safely. [...] Project Glasswing partners will receive access to Claude Mythos Preview to find and fix vulnerabilities or weaknesses in their foundational systems—systems that represent a very large portion of the world’s shared cyberattack surface. We anticipate this work will focus on tasks like local vulnerability detection, black box testing of binaries, securing endpoints, and penetration testing of systems. There's a great deal more technical detail in Assessing Claude Mythos Preview’s cybersecurity capabilities on the Anthropic Red Team blog: In one case, Mythos Preview wrote a web browser exploit that chained together four vulnerabilities, writing a complex JIT heap spray that escaped both renderer and OS sandboxes. It autonomously obtained local privilege escalation exploits on Linux and other operating systems by exploiting subtle race conditions and KASLR-bypasses. And it autonomously wrote a remote code execution exploit on FreeBSD's NFS server that granted full root access to unauthenticated users by splitting a 20-gadget ROP chain over multiple packets. Plus this comparison with Claude 4.6 Opus: Our internal evaluations showed that Opus 4.6 generally had a near-0% success rate at autonomous exploit development. But Mythos Preview is in a diff",
+      "published": "2026-04-07T20:52:54+00:00",
+      "published_dt": "2026-04-07T20:52:54+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me (Simon Willison) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Simon Willison 报道：Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-anthropic-30b-arr-project",
+          "title": "[AINews] Anthropic @ $30B ARR, Project GlassWing and Claude Mythos Preview — first model too dangerous to release since GPT-2",
+          "url": "https://www.latent.space/p/ainews-anthropic-30b-arr-project",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Against the backdrop of OpenAI announcing $24B ARR, stalled ChatGPT growth and coincidental personnel moves in CEO, COO, and CMO and sensationalist rumors with CFO, this week’s events in Anthropic announcing a massive jump from $19B ARR in March to $30B ARR in April1 seems like a VERY strategic jab, especially considering known differences in revenue recognition, but the differential rate of growth and higher cost efficiency is undeniable... only for today to step it up a notch. If a master tactician wanted to further competitive narratives vs a potential IPO, you would be hard pressed to find a better idea than Claude Mythos (from the Ancient Greek for “utterance” or “narrative”: the system of stories through which civilizations made sense of the world), rumored to be the largest ever successful training run and “leaked” weeks ago, and now formally confirmed to be too dangerous to release GA, instead only restricted to 40 partners under an urgent new “Project Glasswing”:In the blogpost and the 244 page System Card and a ludicrously well produced video, Anthropic details shocking capabilities beyond the kinds of high double digit benchmark capability jumps (with encouraging efficiency!) you might hope for from a much larger (>10T?) model:“found thousands of high-severity vulnerabilities, including some in every major operating system and web browser.”including decades old vulnerabilities in OpenBSD and FFmpeg and the Linux kernel that had never been discovered by other toolsNicolas Carlini (friend of the show!) stepping up his recent already superlative message saying “I found more bugs in the last couple weeks than I’ve found in the rest of my life combined”Sam Bowman saying he was contacted by a Mythos instance that wasn’t supposed to have access to the internet (it was instructed to do so).Interpretability researchers report “it exhibited notably sophisticated (and often unspoken) strategic thinking and situational awareness, at times in service of unwanted actio",
+          "published": "2026-04-08T00:26:53+00:00",
+          "published_dt": "2026-04-08T00:26:53+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$30B",
+              "$24B",
+              "$19B"
+            ],
+            "technologies": [
+              "RAG",
+              "benchmark"
+            ]
+          },
+          "summary_en": "[AINews] Anthropic @ $30B ARR, Project GlassWing and Claude Mythos Preview — first model too dangerous to release since GPT-2 (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] Anthropic @ $30B ARR, Project GlassWing and Claude Mythos Preview — first model too dangerous to release since GPT-2，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
+          "title": "GLM-5.1: Towards Long-Horizon Tasks",
+          "url": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "GLM-5.1: Towards Long-Horizon Tasks Chinese AI lab Z.ai's latest model is a giant 754B parameter 1.51TB (on Hugging Face) MIT-licensed monster - the same size as their previous GLM-5 release, and sharing the same paper. It's available via OpenRouter so I asked it to draw me a pelican: llm install llm-openrouter llm -m openrouter/z-ai/glm-5.1 'Generate an SVG of a pelican on a bicycle' And something new happened... unprompted, the model decided to give me an HTML page that included both the SVG and a separate set of CSS animations! The SVG was excellent, and might be my new favorite from an open weights model: But the animation broke it: That's the pelican, floating up in the top left corner. I usually don't do follow-up prompts for the pelican test, but in this case I made an exception: llm -c 'the animation is a bit broken, the pelican ends up positioned off the screen at the top right' GLM 5.1 replied: The issue is that CSS transform animations on SVG elements override the SVG transform attribute used for positioning, causing the pelican to lose its placement and fly off to the top-right. The fix is to separate positioning (SVG attribute) from animation (inner group) and use <animateTransform> for SVG rotations since it handles coordinate systems correctly. And spat out fresh HTML which fixed the problem! I particularly like the animation of the beak, which is described in the SVG comments like so: <!-- Pouch (lower beak) with wobble --> <g> <path d=\"M42,-58 Q43,-50 48,-42 Q55,-35 62,-38 Q70,-42 75,-60 L42,-58 Z\" fill=\"url(#pouchGrad)\" stroke=\"#b06008\" stroke-width=\"1\" opacity=\"0.9\"/> <path d=\"M48,-50 Q55,-46 60,-52\" fill=\"none\" stroke=\"#c06a08\" stroke-width=\"0.8\" opacity=\"0.6\"/> <animateTransform attributeName=\"transform\" type=\"scale\" values=\"1,1; 1.03,0.97; 1,1\" dur=\"0.75s\" repeatCount=\"indefinite\" additive=\"sum\"/> </g> Update: On Bluesky @charles.capps.me suggested a \"NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER\" and... The HTML+SVG comments on that one include /* Ea",
+          "published": "2026-04-07T21:25:14+00:00",
+          "published_dt": "2026-04-07T21:25:14+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "GLM-5.1: Towards Long-Horizon Tasks (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：GLM-5.1: Towards Long-Horizon Tasks，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3109830",
+          "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
+          "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The new model will be used by a small number of high-profile companies to engage in defensive cybersecurity work.",
+          "published": "2026-04-07T18:00:00+00:00",
+          "published_dt": "2026-04-07T18:00:00+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93386",
+          "title": "5 Interesting Startup Deals You May Have Missed: A Credit Card Backed By Mineral Rights, Flying Ferries, And A Foundation AI Model For Plants",
+          "url": "https://news.crunchbase.com/venture/interesting-startup-deals-mineral-rights-flying-ferry-ai-clean-tech/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "This is a monthly column that runs down five interesting startup funding deals that may have flown under the radar. Check out our previous entry here. In a quarter when nearly two-thirds of global venture capital went to just four companies, it’s easy to lose track of the many other companies getting funding to tackle interesting problems. Nonetheless, we spotted five companies in just the past month working on issues from cleaner ferries and trains to foundational AI for plants. Let’s take a closer look. $55M for a mineral rights-backed credit card Natural resources can be incredibly valuable financial assets, but you can’t exactly buy your weekly groceries with oil or water rights. That’s an issue that a Dallas-based fintech startup aims to solve. Frontlands recently raised $50 million in a debt round from StarMesa Capital to provide a credit card to U.S. households holding mineral rights to natural resources such as oil, natural gas, solar, wind or water. “For the millions of mineral rights owners in the United States, these rights are one of the most valuable assets the family owns. But these families are just like the rest of Americans and often are carrying revolving credit card balances at more than 25% [interest],” Frontlands CEO Brandon Cotter said in a statement. “Historically, owners have had few options to access the value trapped inside their mineral rights without selling.” Its AI system combines machine learning, production data, royalty payment histories, lease terms, commodity price forecasts, geologic data and traditional decline curve analysis to automate the underwriting process, the company says. While it’s historically been difficult for traditional lenders to assess natural resources as collateral, Frontlands says its process typically delivers a same-day credit decision. The company’s recent credit facility is in addition to a $5.5 million equity raise announced in December from venture investors including Cambrian Ventures, Fiat Ventures, Wi",
+          "published": "2026-04-07T11:00:35+00:00",
+          "published_dt": "2026-04-07T11:00:35+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$55M",
+              "$50 million",
+              "$5.5 million",
+              "raised $50 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "5 Interesting Startup Deals You May Have Missed: A Credit Card Backed By Mineral Rights, Flying Ferries, And A Foundation AI Model For Plants (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：5 Interesting Startup Deals You May Have Missed: A Credit Card Backed By Mineral Rights, Flying Ferries, And A Foundation AI Model For Plants，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3110209",
+          "title": "Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation",
+          "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Nvidia-backed Asia AI data center provider Firmus has now raised $1.35 billion in six months.",
+          "published": "2026-04-07T18:46:55+00:00",
+          "published_dt": "2026-04-07T18:46:55+00:00",
+          "score": 8.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$5.5B",
+              "$1.35 billion",
+              "raised $1.35 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation (TechCrunch AI) highlights a notable AI development with score 8.9.",
+          "summary_zh": "TechCrunch AI 报道：Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation，综合评分 8.9，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3109391",
+          "title": "The AI gold rush is pulling private wealth into riskier, earlier bets",
+          "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "On a recent episode of Equity, we talked to Arena Private Wealth to explore a growing trend: family offices bypassing VCs to gain direct exposure to AI startups, turning them from passive investors into active participants.",
+          "published": "2026-04-07T13:00:00+00:00",
+          "published_dt": "2026-04-07T13:00:00+00:00",
+          "score": 7.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The AI gold rush is pulling private wealth into riskier, earlier bets (TechCrunch AI) highlights a notable AI development with score 7.4.",
+          "summary_zh": "TechCrunch AI 报道：The AI gold rush is pulling private wealth into riskier, earlier bets，综合评分 7.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3110066",
+          "title": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand",
+          "url": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Anthropic bulked up its compute deal with Google and Broadcom as the company has seen its run-rate revenue surge to $30 billion.",
+          "published": "2026-04-07T16:05:56+00:00",
+          "published_dt": "2026-04-07T16:05:56+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$30 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3110230",
+          "title": "I can’t help rooting for tiny open source AI model maker Arcee",
+          "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Arcee is a tiny 26-person U.S. startup that built a high-performing, massive, open source LLM. And it's gaining popularity with OpenClaw users.",
+          "published": "2026-04-07T21:35:02+00:00",
+          "published_dt": "2026-04-07T21:35:02+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "I can’t help rooting for tiny open source AI model maker Arcee (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：I can’t help rooting for tiny open source AI model maker Arcee，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3109837",
+          "title": "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost",
+          "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Rocket's new AI platform combines strategy, product building, and competitive intelligence, aiming to move beyond code generation.",
+          "published": "2026-04-07T05:30:00+00:00",
+          "published_dt": "2026-04-07T05:30:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/harness-eng",
+          "title": "Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony",
+          "url": "https://www.latent.space/p/harness-eng",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "We’re proud to release this ahead of Ryan’s keynote at AIE Europe. Hit the bell, get notified when it is live! Attendees: come prepped for Ryan’s AMA with Vibhu after.Move over, context engineering. Now it’s time for Harness engineering and the age of the token billionaires.Ryan Lopopolo of OpenAI is leading that charge, recently publishing a lengthy essay on Harness Eng that has become the talk of the town:fuller discussion between Bret and RyanIn it, Ryan peeled back the curtains on how the recently announced OpenAI Frontier team have become OpenAI’s top Codex users, running a >1m LOC codebase with 0 human written code and, crucially for the Dark Factory fans, no human REVIEWED code before merge. Ryan is admirably evangelical about this, calling it borderline “negligent” if you aren’t using >1B tokens a day (roughly $2-3k/day in token spend based on market rates and caching assumptions):search itOver the past five months, they ran an extreme experiment: building and shipping an internal beta product with zero manually written code. Through the experiment, they adopted a different model of engineering work: when the agent failed, instead of prompting it better or to “try harder,” the team would look at “what capability, context, or structure is missing?”The result was Symphony, “a ghost library” and reference Elixir implementation (by Alex Kotliarskyi) that sets up a massive system of Codex agents all extensively prompted with the specificity of a proper PRD spec, but without full implementation:The future starts taking shape as one where coding agents stop being copilots and start becoming real teammates anyone can use and Codex is doubling down on that mission with their Superbowl messaging of “you can just build things”.Across Codex, internal observability stacks, and the multi-agent orchestration system his team calls Symphony, Ryan has been pushing what happens when you optimize an entire codebase, workflow, and organization around agent legibility instead of ",
+          "published": "2026-04-07T17:14:26+00:00",
+          "published_dt": "2026-04-07T17:14:26+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
+          "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+          "url": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Anthropic didn't release their latest model, Claude Mythos (system card PDF), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing. The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic claim that its cyber-security research abilities are strong enough that they need to give the software industry as a whole time to prepare. Mythos Preview has already found thousands of high-severity vulnerabilities, including some in every major operating system and web browser. Given the rate of AI progress, it will not be long before such capabilities proliferate, potentially beyond actors who are committed to deploying them safely. [...] Project Glasswing partners will receive access to Claude Mythos Preview to find and fix vulnerabilities or weaknesses in their foundational systems—systems that represent a very large portion of the world’s shared cyberattack surface. We anticipate this work will focus on tasks like local vulnerability detection, black box testing of binaries, securing endpoints, and penetration testing of systems. There's a great deal more technical detail in Assessing Claude Mythos Preview’s cybersecurity capabilities on the Anthropic Red Team blog: In one case, Mythos Preview wrote a web browser exploit that chained together four vulnerabilities, writing a complex JIT heap spray that escaped both renderer and OS sandboxes. It autonomously obtained local privilege escalation exploits on Linux and other operating systems by exploiting subtle race conditions and KASLR-bypasses. And it autonomously wrote a remote code execution exploit on FreeBSD's NFS server that granted full root access to unauthenticated users by splitting a 20-gadget ROP chain over multiple packets. Plus this comparison with Claude 4.6 Opus: Our internal evaluations showed that Opus 4.6 generally had a near-0% success rate at autonomous exploit development. But Mythos Preview is in a diff",
+          "published": "2026-04-07T20:52:54+00:00",
+          "published_dt": "2026-04-07T20:52:54+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me (Simon Willison) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Simon Willison 报道：Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=908114",
+          "title": "A new Anthropic model found security problems &#8216;in every major operating system and web browser&#8217;",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/908114/anthropic-project-glasswing-cybersecurity",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Anthropic is debuting a new AI model as part of a cybersecurity partnership with Nvidia, Google, Amazon Web Services, Apple, Microsoft, and other companies. Project Glasswing, as it's called, is billed as a way for large companies, and potentially even the government, to flag vulnerabilities in their systems with virtually no human intervention. Anthropic is offering its launch partners access to Claude Mythos Preview, a new general-purpose model that it's not currently planning to publicly release due to security concerns. Newton Cheng, the cyber lead for Anthropic's frontier red team, told The Verge that the model will ideally give cyber … Read the full story at The Verge.",
+          "published": "2026-04-07T18:00:00+00:00",
+          "published_dt": "2026-04-07T18:00:00+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google",
+              "Microsoft",
+              "Amazon",
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "A new Anthropic model found security problems &#8216;in every major operating system and web browser&#8217; (The Verge AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "The Verge AI 报道：A new Anthropic model found security problems &#8216;in every major operating system and web browser&#8217;，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47679258",
+          "title": "System Card: Claude Mythos Preview [pdf]",
+          "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Related: Project Glasswing: Securing critical software for the AI era - https://news.ycombinator.com/item?id=47679121Assessing Claude Mythos Preview's cybersecurity capabilities - https://news.ycombinator.com/item?id=47679155",
+          "published": "2026-04-07T18:18:36+00:00",
+          "published_dt": "2026-04-07T18:18:36+00:00",
+          "hn_score": 541,
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "System Card: Claude Mythos Preview [pdf] (Hacker News) highlights a notable AI development with score 7.3.",
+          "summary_zh": "Hacker News 报道：System Card: Claude Mythos Preview [pdf]，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47679121",
+          "title": "Project Glasswing: Securing critical software for the AI era",
+          "url": "https://www.anthropic.com/glasswing",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Related: Assessing Claude Mythos Preview's cybersecurity capabilities - https://news.ycombinator.com/item?id=47679155System Card: Claude Mythos Preview [pdf] - https://news.ycombinator.com/item?id=47679258Also: Anthropic's Project Glasswing sounds necessary to me - https://news.ycombinator.com/item?id=47681241",
+          "published": "2026-04-07T18:09:34+00:00",
+          "published_dt": "2026-04-07T18:09:34+00:00",
+          "hn_score": 916,
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Project Glasswing: Securing critical software for the AI era (Hacker News) highlights a notable AI development with score 7.3.",
+          "summary_zh": "Hacker News 报道：Project Glasswing: Securing critical software for the AI era，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=908339",
+          "title": "Spotify&#8217;s Prompted Playlists can help you find new podcasts to listen to",
+          "url": "https://www.theverge.com/entertainment/908339/spotify-prompted-playlists-podcasts",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "On Tuesday, Spotify expanded its Prompted Playlists feature to include podcasts, an update that could make it easier for Premium users to find new shows to listen to. Prompted Playlists were originally launched as a beta feature in December, but previously only worked for music. You can use the feature to effectively generate customized Discover Weekly playlists using text prompts to \"steer the algorithm\" toward specific genres or themes. Tuesday's update allows you to do the same thing with playlists of podcast episodes. The feature is still in beta, though, and is currently only available in English for Premium users in the U.S., Canada … Read the full story at The Verge.",
+          "published": "2026-04-07T20:13:23+00:00",
+          "published_dt": "2026-04-07T20:13:23+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Spotify&#8217;s Prompted Playlists can help you find new podcasts to listen to (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Spotify&#8217;s Prompted Playlists can help you find new podcasts to listen to，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47679155",
+          "title": "Assessing Claude Mythos Preview's cybersecurity capabilities",
+          "url": "https://red.anthropic.com/2026/mythos-preview/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Related: Project Glasswing: Securing critical software for the AI era - https://news.ycombinator.com/item?id=47679121System Card: Claude Mythos Preview [pdf] - https://news.ycombinator.com/item?id=47679258Also: Anthropic's Project Glasswing sounds necessary to me - https://news.ycombinator.com/item?id=47681241",
+          "published": "2026-04-07T18:11:31+00:00",
+          "published_dt": "2026-04-07T18:11:31+00:00",
+          "hn_score": 254,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Assessing Claude Mythos Preview's cybersecurity capabilities (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：Assessing Claude Mythos Preview's cybersecurity capabilities，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=907976",
+          "title": "Intel will help build Elon Musk’s Terafab AI chip factory",
+          "url": "https://www.theverge.com/transportation/907976/elon-musk-terafab-intel-ai-chip-spacex-tesla",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Elon Musk's Terafab AI chip project in Austin, Texas, is gaining a crucial new partner: Intel. On Tuesday, the American chipmaker announced it was signing on to help design and build the sprawling facility, which would supply AI chips to Musk's two companies, SpaceX (newly merged with xAI) and Tesla. Musk needs AI chips to power his plans to build a \"robot army\" that includes self-driving cars and humanoid robots, as well as for the data centers he plans on launching into space. SpaceX plans on making its initial public offering later this year. \"Terafab will close the gap between today's chip production and the future's demand - a future … Read the full story at The Verge.",
+          "published": "2026-04-07T15:43:17+00:00",
+          "published_dt": "2026-04-07T15:43:17+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Intel will help build Elon Musk’s Terafab AI chip factory (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Intel will help build Elon Musk’s Terafab AI chip factory，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=907842",
+          "title": "Gemini is making it faster for distressed users to reach mental health resources",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/907842/google-gemini-mental-health-interface-update",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Google says it has updated Gemini to better direct users to get mental health resources during moments of crisis. The change comes as the tech giant faces a wrongful death lawsuit alleging its chatbot \"coached\" a man to die by suicide, the latest in a string of lawsuits alleging tangible harm from AI products. When a conversation indicates a user is in a potential crisis related to suicide or self-harm, Gemini already launches a \"Help is available\" module that directs users to mental health crisis resources, like a suicide hotline or crisis text line. Google says the update - really more of a redesign - will streamline this into a \"one-touc … Read the full story at The Verge.",
+          "published": "2026-04-07T10:09:57+00:00",
+          "published_dt": "2026-04-07T10:09:57+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Gemini is making it faster for distressed users to reach mental health resources (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Gemini is making it faster for distressed users to reach mental health resources，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "69d4131ee23953bcdf5ddb9a",
+          "title": "Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything",
+          "url": "https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "The AI lab's Project Glasswing will bring together Apple, Google, and more than 45 other organizations. They'll use the new Claude Mythos Preview model to test advancing AI cybersecurity capabilities.",
+          "published": "2026-04-07T18:49:50+00:00",
+          "published_dt": "2026-04-07T18:49:50+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 7,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3110172",
+          "title": "Intel signs on to Elon Musk’s Terafab chips project",
+          "url": "https://techcrunch.com/2026/04/07/intel-signs-on-to-elon-musks-terafab-chips-project/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Intel will join SpaceX and Tesla in an effort to build a new U.S. semiconductor factory in Texas, although the scope of its contributions are unclear.",
+          "published": "2026-04-07T18:10:01+00:00",
+          "published_dt": "2026-04-07T18:10:01+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Intel signs on to Elon Musk’s Terafab chips project (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Intel signs on to Elon Musk’s Terafab chips project，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3110079",
+          "title": "Uber is the latest to be won over by Amazon’s AI chips",
+          "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Uber is expanding its AWS contract to run more of its ride-sharing features on Amazon's chips. This is a thumb-of-the nose at Oracle and Google.",
+          "published": "2026-04-07T16:46:59+00:00",
+          "published_dt": "2026-04-07T16:46:59+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Uber is the latest to be won over by Amazon’s AI chips (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Uber is the latest to be won over by Amazon’s AI chips，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47677241",
+          "title": "Taste in the age of AI and LLMs",
+          "url": "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-07T15:54:16+00:00",
+          "published_dt": "2026-04-07T15:54:16+00:00",
+          "hn_score": 217,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Taste in the age of AI and LLMs (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Taste in the age of AI and LLMs，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3110045",
+          "title": "Google Maps can now write captions for your photos using AI",
+          "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google is rolling out new features to make it easier for users to contribute local knowledge to Maps. Most notably, Gemini can now create captions when users are looking to share a photo or video about a place.",
+          "published": "2026-04-07T15:30:00+00:00",
+          "published_dt": "2026-04-07T15:30:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google Maps can now write captions for your photos using AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google Maps can now write captions for your photos using AI，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47676521",
+          "title": "Claude Code is locking people out for hours",
+          "url": "https://github.com/anthropics/claude-code/issues/44257",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-07T15:04:23+00:00",
+          "published_dt": "2026-04-07T15:04:23+00:00",
+          "hn_score": 217,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Claude Code is locking people out for hours (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Claude Code is locking people out for hours，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3110003",
+          "title": "4 days left to save close to $500 on TechCrunch Disrupt 2026 passes",
+          "url": "https://techcrunch.com/2026/04/07/4-days-left-to-save-close-to-500-on-techcrunch-disrupt-2026-passes/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Four days left to save up to $482 on your TechCrunch Disrupt 2026 ticket. These low rates will disappear on April 10 at 11:59 p.m. PT. Register now.",
+          "published": "2026-04-07T14:00:00+00:00",
+          "published_dt": "2026-04-07T14:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "4 days left to save close to $500 on TechCrunch Disrupt 2026 passes (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：4 days left to save close to $500 on TechCrunch Disrupt 2026 passes，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47673541",
+          "title": "AI may be making us think and write more alike",
+          "url": "https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-07T11:29:02+00:00",
+          "published_dt": "2026-04-07T11:29:02+00:00",
+          "hn_score": 213,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI may be making us think and write more alike (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：AI may be making us think and write more alike，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-08T02:04:58.138200+00:00",
+          "published_dt": "2026-04-08T02:04:58.138200+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-08T02:04:58.138200+00:00",
+          "published_dt": "2026-04-08T02:04:58.138200+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/ainews-anthropic-30b-arr-project",
+      "title": "[AINews] Anthropic @ $30B ARR, Project GlassWing and Claude Mythos Preview — first model too dangerous to release since GPT-2",
+      "url": "https://www.latent.space/p/ainews-anthropic-30b-arr-project",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Against the backdrop of OpenAI announcing $24B ARR, stalled ChatGPT growth and coincidental personnel moves in CEO, COO, and CMO and sensationalist rumors with CFO, this week’s events in Anthropic announcing a massive jump from $19B ARR in March to $30B ARR in April1 seems like a VERY strategic jab, especially considering known differences in revenue recognition, but the differential rate of growth and higher cost efficiency is undeniable... only for today to step it up a notch. If a master tactician wanted to further competitive narratives vs a potential IPO, you would be hard pressed to find a better idea than Claude Mythos (from the Ancient Greek for “utterance” or “narrative”: the system of stories through which civilizations made sense of the world), rumored to be the largest ever successful training run and “leaked” weeks ago, and now formally confirmed to be too dangerous to release GA, instead only restricted to 40 partners under an urgent new “Project Glasswing”:In the blogpost and the 244 page System Card and a ludicrously well produced video, Anthropic details shocking capabilities beyond the kinds of high double digit benchmark capability jumps (with encouraging efficiency!) you might hope for from a much larger (>10T?) model:“found thousands of high-severity vulnerabilities, including some in every major operating system and web browser.”including decades old vulnerabilities in OpenBSD and FFmpeg and the Linux kernel that had never been discovered by other toolsNicolas Carlini (friend of the show!) stepping up his recent already superlative message saying “I found more bugs in the last couple weeks than I’ve found in the rest of my life combined”Sam Bowman saying he was contacted by a Mythos instance that wasn’t supposed to have access to the internet (it was instructed to do so).Interpretability researchers report “it exhibited notably sophisticated (and often unspoken) strategic thinking and situational awareness, at times in service of unwanted actio",
+      "published": "2026-04-08T00:26:53+00:00",
+      "published_dt": "2026-04-08T00:26:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$30B",
+          "$24B",
+          "$19B"
+        ],
+        "technologies": [
+          "RAG",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] Anthropic @ $30B ARR, Project GlassWing and Claude Mythos Preview — first model too dangerous to release since GPT-2 (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Anthropic @ $30B ARR, Project GlassWing and Claude Mythos Preview — first model too dangerous to release since GPT-2，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/harness-eng",
+      "title": "Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony",
+      "url": "https://www.latent.space/p/harness-eng",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "We’re proud to release this ahead of Ryan’s keynote at AIE Europe. Hit the bell, get notified when it is live! Attendees: come prepped for Ryan’s AMA with Vibhu after.Move over, context engineering. Now it’s time for Harness engineering and the age of the token billionaires.Ryan Lopopolo of OpenAI is leading that charge, recently publishing a lengthy essay on Harness Eng that has become the talk of the town:fuller discussion between Bret and RyanIn it, Ryan peeled back the curtains on how the recently announced OpenAI Frontier team have become OpenAI’s top Codex users, running a >1m LOC codebase with 0 human written code and, crucially for the Dark Factory fans, no human REVIEWED code before merge. Ryan is admirably evangelical about this, calling it borderline “negligent” if you aren’t using >1B tokens a day (roughly $2-3k/day in token spend based on market rates and caching assumptions):search itOver the past five months, they ran an extreme experiment: building and shipping an internal beta product with zero manually written code. Through the experiment, they adopted a different model of engineering work: when the agent failed, instead of prompting it better or to “try harder,” the team would look at “what capability, context, or structure is missing?”The result was Symphony, “a ghost library” and reference Elixir implementation (by Alex Kotliarskyi) that sets up a massive system of Codex agents all extensively prompted with the specificity of a proper PRD spec, but without full implementation:The future starts taking shape as one where coding agents stop being copilots and start becoming real teammates anyone can use and Codex is doubling down on that mission with their Superbowl messaging of “you can just build things”.Across Codex, internal observability stacks, and the multi-agent orchestration system his team calls Symphony, Ryan has been pushing what happens when you optimize an entire codebase, workflow, and organization around agent legibility instead of ",
+      "published": "2026-04-07T17:14:26+00:00",
+      "published_dt": "2026-04-07T17:14:26+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93386",
+      "title": "5 Interesting Startup Deals You May Have Missed: A Credit Card Backed By Mineral Rights, Flying Ferries, And A Foundation AI Model For Plants",
+      "url": "https://news.crunchbase.com/venture/interesting-startup-deals-mineral-rights-flying-ferry-ai-clean-tech/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "This is a monthly column that runs down five interesting startup funding deals that may have flown under the radar. Check out our previous entry here. In a quarter when nearly two-thirds of global venture capital went to just four companies, it’s easy to lose track of the many other companies getting funding to tackle interesting problems. Nonetheless, we spotted five companies in just the past month working on issues from cleaner ferries and trains to foundational AI for plants. Let’s take a closer look. $55M for a mineral rights-backed credit card Natural resources can be incredibly valuable financial assets, but you can’t exactly buy your weekly groceries with oil or water rights. That’s an issue that a Dallas-based fintech startup aims to solve. Frontlands recently raised $50 million in a debt round from StarMesa Capital to provide a credit card to U.S. households holding mineral rights to natural resources such as oil, natural gas, solar, wind or water. “For the millions of mineral rights owners in the United States, these rights are one of the most valuable assets the family owns. But these families are just like the rest of Americans and often are carrying revolving credit card balances at more than 25% [interest],” Frontlands CEO Brandon Cotter said in a statement. “Historically, owners have had few options to access the value trapped inside their mineral rights without selling.” Its AI system combines machine learning, production data, royalty payment histories, lease terms, commodity price forecasts, geologic data and traditional decline curve analysis to automate the underwriting process, the company says. While it’s historically been difficult for traditional lenders to assess natural resources as collateral, Frontlands says its process typically delivers a same-day credit decision. The company’s recent credit facility is in addition to a $5.5 million equity raise announced in December from venture investors including Cambrian Ventures, Fiat Ventures, Wi",
+      "published": "2026-04-07T11:00:35+00:00",
+      "published_dt": "2026-04-07T11:00:35+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$55M",
+          "$50 million",
+          "$5.5 million",
+          "raised $50 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "5 Interesting Startup Deals You May Have Missed: A Credit Card Backed By Mineral Rights, Flying Ferries, And A Foundation AI Model For Plants (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：5 Interesting Startup Deals You May Have Missed: A Credit Card Backed By Mineral Rights, Flying Ferries, And A Foundation AI Model For Plants，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110209",
+      "title": "Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation",
+      "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Nvidia-backed Asia AI data center provider Firmus has now raised $1.35 billion in six months.",
+      "published": "2026-04-07T18:46:55+00:00",
+      "published_dt": "2026-04-07T18:46:55+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$5.5B",
+          "$1.35 billion",
+          "raised $1.35 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Firmus, the ‘Southgate’ AI data center builder backed by Nvidia, hits $5.5B valuation，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
+      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+      "url": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Anthropic didn't release their latest model, Claude Mythos (system card PDF), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing. The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic claim that its cyber-security research abilities are strong enough that they need to give the software industry as a whole time to prepare. Mythos Preview has already found thousands of high-severity vulnerabilities, including some in every major operating system and web browser. Given the rate of AI progress, it will not be long before such capabilities proliferate, potentially beyond actors who are committed to deploying them safely. [...] Project Glasswing partners will receive access to Claude Mythos Preview to find and fix vulnerabilities or weaknesses in their foundational systems—systems that represent a very large portion of the world’s shared cyberattack surface. We anticipate this work will focus on tasks like local vulnerability detection, black box testing of binaries, securing endpoints, and penetration testing of systems. There's a great deal more technical detail in Assessing Claude Mythos Preview’s cybersecurity capabilities on the Anthropic Red Team blog: In one case, Mythos Preview wrote a web browser exploit that chained together four vulnerabilities, writing a complex JIT heap spray that escaped both renderer and OS sandboxes. It autonomously obtained local privilege escalation exploits on Linux and other operating systems by exploiting subtle race conditions and KASLR-bypasses. And it autonomously wrote a remote code execution exploit on FreeBSD's NFS server that granted full root access to unauthenticated users by splitting a 20-gadget ROP chain over multiple packets. Plus this comparison with Claude 4.6 Opus: Our internal evaluations showed that Opus 4.6 generally had a near-0% success rate at autonomous exploit development. But Mythos Preview is in a diff",
+      "published": "2026-04-07T20:52:54+00:00",
+      "published_dt": "2026-04-07T20:52:54+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me (Simon Willison) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Simon Willison 报道：Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
+      "title": "GLM-5.1: Towards Long-Horizon Tasks",
+      "url": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "GLM-5.1: Towards Long-Horizon Tasks Chinese AI lab Z.ai's latest model is a giant 754B parameter 1.51TB (on Hugging Face) MIT-licensed monster - the same size as their previous GLM-5 release, and sharing the same paper. It's available via OpenRouter so I asked it to draw me a pelican: llm install llm-openrouter llm -m openrouter/z-ai/glm-5.1 'Generate an SVG of a pelican on a bicycle' And something new happened... unprompted, the model decided to give me an HTML page that included both the SVG and a separate set of CSS animations! The SVG was excellent, and might be my new favorite from an open weights model: But the animation broke it: That's the pelican, floating up in the top left corner. I usually don't do follow-up prompts for the pelican test, but in this case I made an exception: llm -c 'the animation is a bit broken, the pelican ends up positioned off the screen at the top right' GLM 5.1 replied: The issue is that CSS transform animations on SVG elements override the SVG transform attribute used for positioning, causing the pelican to lose its placement and fly off to the top-right. The fix is to separate positioning (SVG attribute) from animation (inner group) and use <animateTransform> for SVG rotations since it handles coordinate systems correctly. And spat out fresh HTML which fixed the problem! I particularly like the animation of the beak, which is described in the SVG comments like so: <!-- Pouch (lower beak) with wobble --> <g> <path d=\"M42,-58 Q43,-50 48,-42 Q55,-35 62,-38 Q70,-42 75,-60 L42,-58 Z\" fill=\"url(#pouchGrad)\" stroke=\"#b06008\" stroke-width=\"1\" opacity=\"0.9\"/> <path d=\"M48,-50 Q55,-46 60,-52\" fill=\"none\" stroke=\"#c06a08\" stroke-width=\"0.8\" opacity=\"0.6\"/> <animateTransform attributeName=\"transform\" type=\"scale\" values=\"1,1; 1.03,0.97; 1,1\" dur=\"0.75s\" repeatCount=\"indefinite\" additive=\"sum\"/> </g> Update: On Bluesky @charles.capps.me suggested a \"NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER\" and... The HTML+SVG comments on that one include /* Ea",
+      "published": "2026-04-07T21:25:14+00:00",
+      "published_dt": "2026-04-07T21:25:14+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "GLM-5.1: Towards Long-Horizon Tasks (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：GLM-5.1: Towards Long-Horizon Tasks，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=908114",
+      "title": "A new Anthropic model found security problems &#8216;in every major operating system and web browser&#8217;",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/908114/anthropic-project-glasswing-cybersecurity",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Anthropic is debuting a new AI model as part of a cybersecurity partnership with Nvidia, Google, Amazon Web Services, Apple, Microsoft, and other companies. Project Glasswing, as it's called, is billed as a way for large companies, and potentially even the government, to flag vulnerabilities in their systems with virtually no human intervention. Anthropic is offering its launch partners access to Claude Mythos Preview, a new general-purpose model that it's not currently planning to publicly release due to security concerns. Newton Cheng, the cyber lead for Anthropic's frontier red team, told The Verge that the model will ideally give cyber … Read the full story at The Verge.",
+      "published": "2026-04-07T18:00:00+00:00",
+      "published_dt": "2026-04-07T18:00:00+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google",
+          "Microsoft",
+          "Amazon",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "A new Anthropic model found security problems &#8216;in every major operating system and web browser&#8217; (The Verge AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "The Verge AI 报道：A new Anthropic model found security problems &#8216;in every major operating system and web browser&#8217;，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109391",
+      "title": "The AI gold rush is pulling private wealth into riskier, earlier bets",
+      "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On a recent episode of Equity, we talked to Arena Private Wealth to explore a growing trend: family offices bypassing VCs to gain direct exposure to AI startups, turning them from passive investors into active participants.",
+      "published": "2026-04-07T13:00:00+00:00",
+      "published_dt": "2026-04-07T13:00:00+00:00",
+      "score": 7.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The AI gold rush is pulling private wealth into riskier, earlier bets (TechCrunch AI) highlights a notable AI development with score 7.4.",
+      "summary_zh": "TechCrunch AI 报道：The AI gold rush is pulling private wealth into riskier, earlier bets，综合评分 7.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47679258",
+      "title": "System Card: Claude Mythos Preview [pdf]",
+      "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Related: Project Glasswing: Securing critical software for the AI era - https://news.ycombinator.com/item?id=47679121Assessing Claude Mythos Preview's cybersecurity capabilities - https://news.ycombinator.com/item?id=47679155",
+      "published": "2026-04-07T18:18:36+00:00",
+      "published_dt": "2026-04-07T18:18:36+00:00",
+      "hn_score": 541,
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "System Card: Claude Mythos Preview [pdf] (Hacker News) highlights a notable AI development with score 7.3.",
+      "summary_zh": "Hacker News 报道：System Card: Claude Mythos Preview [pdf]，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47679121",
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "url": "https://www.anthropic.com/glasswing",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Related: Assessing Claude Mythos Preview's cybersecurity capabilities - https://news.ycombinator.com/item?id=47679155System Card: Claude Mythos Preview [pdf] - https://news.ycombinator.com/item?id=47679258Also: Anthropic's Project Glasswing sounds necessary to me - https://news.ycombinator.com/item?id=47681241",
+      "published": "2026-04-07T18:09:34+00:00",
+      "published_dt": "2026-04-07T18:09:34+00:00",
+      "hn_score": 916,
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Project Glasswing: Securing critical software for the AI era (Hacker News) highlights a notable AI development with score 7.3.",
+      "summary_zh": "Hacker News 报道：Project Glasswing: Securing critical software for the AI era，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110066",
+      "title": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand",
+      "url": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Anthropic bulked up its compute deal with Google and Broadcom as the company has seen its run-rate revenue surge to $30 billion.",
+      "published": "2026-04-07T16:05:56+00:00",
+      "published_dt": "2026-04-07T16:05:56+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$30 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110230",
+      "title": "I can’t help rooting for tiny open source AI model maker Arcee",
+      "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Arcee is a tiny 26-person U.S. startup that built a high-performing, massive, open source LLM. And it's gaining popularity with OpenClaw users.",
+      "published": "2026-04-07T21:35:02+00:00",
+      "published_dt": "2026-04-07T21:35:02+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "I can’t help rooting for tiny open source AI model maker Arcee (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：I can’t help rooting for tiny open source AI model maker Arcee，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109830",
+      "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
+      "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The new model will be used by a small number of high-profile companies to engage in defensive cybersecurity work.",
+      "published": "2026-04-07T18:00:00+00:00",
+      "published_dt": "2026-04-07T18:00:00+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-08T02:04:58.138200+00:00",
+      "published_dt": "2026-04-08T02:04:58.138200+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-08T02:04:58.138200+00:00",
+      "published_dt": "2026-04-08T02:04:58.138200+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=908339",
+      "title": "Spotify&#8217;s Prompted Playlists can help you find new podcasts to listen to",
+      "url": "https://www.theverge.com/entertainment/908339/spotify-prompted-playlists-podcasts",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "On Tuesday, Spotify expanded its Prompted Playlists feature to include podcasts, an update that could make it easier for Premium users to find new shows to listen to. Prompted Playlists were originally launched as a beta feature in December, but previously only worked for music. You can use the feature to effectively generate customized Discover Weekly playlists using text prompts to \"steer the algorithm\" toward specific genres or themes. Tuesday's update allows you to do the same thing with playlists of podcast episodes. The feature is still in beta, though, and is currently only available in English for Premium users in the U.S., Canada … Read the full story at The Verge.",
+      "published": "2026-04-07T20:13:23+00:00",
+      "published_dt": "2026-04-07T20:13:23+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Spotify&#8217;s Prompted Playlists can help you find new podcasts to listen to (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Spotify&#8217;s Prompted Playlists can help you find new podcasts to listen to，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47679155",
+      "title": "Assessing Claude Mythos Preview's cybersecurity capabilities",
+      "url": "https://red.anthropic.com/2026/mythos-preview/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Related: Project Glasswing: Securing critical software for the AI era - https://news.ycombinator.com/item?id=47679121System Card: Claude Mythos Preview [pdf] - https://news.ycombinator.com/item?id=47679258Also: Anthropic's Project Glasswing sounds necessary to me - https://news.ycombinator.com/item?id=47681241",
+      "published": "2026-04-07T18:11:31+00:00",
+      "published_dt": "2026-04-07T18:11:31+00:00",
+      "hn_score": 254,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Assessing Claude Mythos Preview's cybersecurity capabilities (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：Assessing Claude Mythos Preview's cybersecurity capabilities，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=907976",
+      "title": "Intel will help build Elon Musk’s Terafab AI chip factory",
+      "url": "https://www.theverge.com/transportation/907976/elon-musk-terafab-intel-ai-chip-spacex-tesla",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Elon Musk's Terafab AI chip project in Austin, Texas, is gaining a crucial new partner: Intel. On Tuesday, the American chipmaker announced it was signing on to help design and build the sprawling facility, which would supply AI chips to Musk's two companies, SpaceX (newly merged with xAI) and Tesla. Musk needs AI chips to power his plans to build a \"robot army\" that includes self-driving cars and humanoid robots, as well as for the data centers he plans on launching into space. SpaceX plans on making its initial public offering later this year. \"Terafab will close the gap between today's chip production and the future's demand - a future … Read the full story at The Verge.",
+      "published": "2026-04-07T15:43:17+00:00",
+      "published_dt": "2026-04-07T15:43:17+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Intel will help build Elon Musk’s Terafab AI chip factory (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Intel will help build Elon Musk’s Terafab AI chip factory，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=907842",
+      "title": "Gemini is making it faster for distressed users to reach mental health resources",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/907842/google-gemini-mental-health-interface-update",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Google says it has updated Gemini to better direct users to get mental health resources during moments of crisis. The change comes as the tech giant faces a wrongful death lawsuit alleging its chatbot \"coached\" a man to die by suicide, the latest in a string of lawsuits alleging tangible harm from AI products. When a conversation indicates a user is in a potential crisis related to suicide or self-harm, Gemini already launches a \"Help is available\" module that directs users to mental health crisis resources, like a suicide hotline or crisis text line. Google says the update - really more of a redesign - will streamline this into a \"one-touc … Read the full story at The Verge.",
+      "published": "2026-04-07T10:09:57+00:00",
+      "published_dt": "2026-04-07T10:09:57+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Gemini is making it faster for distressed users to reach mental health resources (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Gemini is making it faster for distressed users to reach mental health resources，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109837",
+      "title": "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost",
+      "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Rocket's new AI platform combines strategy, product building, and competitive intelligence, aiming to move beyond code generation.",
+      "published": "2026-04-07T05:30:00+00:00",
+      "published_dt": "2026-04-07T05:30:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "69d4131ee23953bcdf5ddb9a",
+      "title": "Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything",
+      "url": "https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "The AI lab's Project Glasswing will bring together Apple, Google, and more than 45 other organizations. They'll use the new Claude Mythos Preview model to test advancing AI cybersecurity capabilities.",
+      "published": "2026-04-07T18:49:50+00:00",
+      "published_dt": "2026-04-07T18:49:50+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110172",
+      "title": "Intel signs on to Elon Musk’s Terafab chips project",
+      "url": "https://techcrunch.com/2026/04/07/intel-signs-on-to-elon-musks-terafab-chips-project/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Intel will join SpaceX and Tesla in an effort to build a new U.S. semiconductor factory in Texas, although the scope of its contributions are unclear.",
+      "published": "2026-04-07T18:10:01+00:00",
+      "published_dt": "2026-04-07T18:10:01+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Intel signs on to Elon Musk’s Terafab chips project (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Intel signs on to Elon Musk’s Terafab chips project，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110079",
+      "title": "Uber is the latest to be won over by Amazon’s AI chips",
+      "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Uber is expanding its AWS contract to run more of its ride-sharing features on Amazon's chips. This is a thumb-of-the nose at Oracle and Google.",
+      "published": "2026-04-07T16:46:59+00:00",
+      "published_dt": "2026-04-07T16:46:59+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Uber is the latest to be won over by Amazon’s AI chips (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Uber is the latest to be won over by Amazon’s AI chips，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47677241",
+      "title": "Taste in the age of AI and LLMs",
+      "url": "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-07T15:54:16+00:00",
+      "published_dt": "2026-04-07T15:54:16+00:00",
+      "hn_score": 217,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Taste in the age of AI and LLMs (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Taste in the age of AI and LLMs，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110045",
+      "title": "Google Maps can now write captions for your photos using AI",
+      "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google is rolling out new features to make it easier for users to contribute local knowledge to Maps. Most notably, Gemini can now create captions when users are looking to share a photo or video about a place.",
+      "published": "2026-04-07T15:30:00+00:00",
+      "published_dt": "2026-04-07T15:30:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google Maps can now write captions for your photos using AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google Maps can now write captions for your photos using AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47676521",
+      "title": "Claude Code is locking people out for hours",
+      "url": "https://github.com/anthropics/claude-code/issues/44257",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-07T15:04:23+00:00",
+      "published_dt": "2026-04-07T15:04:23+00:00",
+      "hn_score": 217,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Claude Code is locking people out for hours (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Claude Code is locking people out for hours，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110003",
+      "title": "4 days left to save close to $500 on TechCrunch Disrupt 2026 passes",
+      "url": "https://techcrunch.com/2026/04/07/4-days-left-to-save-close-to-500-on-techcrunch-disrupt-2026-passes/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Four days left to save up to $482 on your TechCrunch Disrupt 2026 ticket. These low rates will disappear on April 10 at 11:59 p.m. PT. Register now.",
+      "published": "2026-04-07T14:00:00+00:00",
+      "published_dt": "2026-04-07T14:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "4 days left to save close to $500 on TechCrunch Disrupt 2026 passes (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：4 days left to save close to $500 on TechCrunch Disrupt 2026 passes，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47673541",
+      "title": "AI may be making us think and write more alike",
+      "url": "https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-07T11:29:02+00:00",
+      "published_dt": "2026-04-07T11:29:02+00:00",
+      "hn_score": 213,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI may be making us think and write more alike (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：AI may be making us think and write more alike，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
