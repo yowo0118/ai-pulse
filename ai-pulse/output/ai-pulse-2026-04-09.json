@@ -1,0 +1,1735 @@
+{
+  "date": "2026-04-09",
+  "generated_at": "2026-04-09T01:57:05",
+  "stats": {
+    "total_items": 25,
+    "high_importance": 4,
+    "medium_importance": 21,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
+      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+      "url": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago. It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported benchmarks show it competitive with Opus 4.6, Gemini 3.1 Pro, and GPT 5.4 on selected benchmarks, though notably behind on Terminal-Bench 2.0. Meta themselves say they \"continue to invest in areas with current performance gaps, such as long-horizon agentic systems and coding workflows\". The model is exposed as two different modes on meta.ai - \"Instant\" and \"Thinking\". Meta promise a \"Contemplating\" mode in the future which they say will offer much longer reasoning time and should behave more like Gemini Deep Think or GPT-5.4 Pro. A couple of pelicans I prefer to run my pelican test via API to avoid being influenced by any invisible system prompts, but since that's not an option I ran it against the chat UI directly. Here's the pelican I got for \"Instant\": And this one for \"Thinking\": Both SVGs were rendered inline by the Meta AI interface. Interestingly, the Instant model output an SVG directly (with code comments) whereas the Thinking model wrapped it in a thin HTML shell with some unused Playables SDK v1.0.0 JavaScript libraries. Which got me curious... Poking around with tools Clearly Meta's chat harness has some tools wired up to it - at the very least it can render SVG and HTML as embedded frames, Claude Artifacts style. But what else can it do? I asked it: what tools do you have access to? And then: I want the exact tool names, parameter names and tool descriptions, in the original format It spat out detailed descriptions of 16 different tools. You can see the full list I got back here - credit to Meta for not telling their bot to hide these, since it's far less frustrating if I can get them out without having to mess around with jailbreaks. Here are highlights derive",
+      "published": "2026-04-08T23:07:44+00:00",
+      "published_dt": "2026-04-08T23:07:44+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Meta's new model is Muse Spark, and meta.ai chat has some interesting tools，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93400",
+      "title": "Most Active And Highest-Spending Startup Investors Diverged In Q1",
+      "url": "https://news.crunchbase.com/venture/data-most-active-highest-spending-startup-investors-q1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "The investors backing the highest number of startup rounds this past quarter were mostly not the ones writing the biggest checks. And the ones funding the largest deals were not the most prolific dealmakers. That, in broad strokes, was the state of startup funding in Q1 of this year, a period characterized by record-setting rounds and investment tallies. The most famous names in AI captured a lion’s share of funding, drawing in some deep-pocketed backers who are traditionally less active in venture. This includes the quarter’s two lead investors in the priciest rounds — D.E. Shaw and MGX. The two co-led mega-financings for both OpenAI and Anthropic collectively valued at over $150 billion. By deal count, meanwhile, the most active post-seed investor was familiar front-runner Andreessen Horowitz, while the busiest lead investor was Accel. To see who else ranked high for deal counts and totals, below we charted out active investors across multiple metrics, including venture, seed and lead investment. Most active and highest-spending lead investors We’ll start with lead investors, as these are typically the ones putting the most capital to work. For Q1, the most active lead investors in post-seed rounds were Accel, Andreessen Horowitz, and Lightspeed Venture Partners. Overall, 19 investors led six or more rounds this past quarter, as charted below. Of course, the most active lead investors aren’t always the ones writing the biggest checks. We don’t have an exact measure for the latter, but we can get a sense by looking at lead investors in rounds with the highest aggregate value. By this metric, lead investors in the quarter’s two biggest rounds — OpenAI’s record-setting $122 billion financing and Anthropic’s enormous $30 billion Series G — rank highest on our list. This includes tech giants Nvidia and Amazon, which took part as strategic investors in the OpenAI round. Below, we rank the top 26 by total value of Q1 lead investments. Busiest post-seed investors As for s",
+      "published": "2026-04-08T11:00:16+00:00",
+      "published_dt": "2026-04-08T11:00:16+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Amazon",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$150 billion",
+          "$122 billion",
+          "$30 billion",
+          "Series G"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Most Active And Highest-Spending Startup Investors Diverged In Q1 (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Most Active And Highest-Spending Startup Investors Diverged In Q1，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=908513",
+      "title": "The vibes are off at OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI is in a relatively precarious position. The company is and has been a funding behemoth - just over a week ago, it closed $122 billion in funding at a post-money valuation of $852 billion. It's potentially planning for an IPO later this year. ChatGPT's longtime lead in consumer-facing AI led it to name-brand status akin to \"Kleenex\" for tissues. But in recent months, a slew of executive reshufflings, discontinued projects, and other news has raised questions about how stable the company really is - and how long it may be able to stay on top. OpenAI's current batch of public controversies started early in the year. At the end of Febru … Read the full story at The Verge.",
+      "published": "2026-04-08T13:47:38+00:00",
+      "published_dt": "2026-04-08T13:47:38+00:00",
+      "score": 9.5,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$122 billion",
+          "$852 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The vibes are off at OpenAI (The Verge AI) highlights a notable AI development with score 9.5.",
+      "summary_zh": "The Verge AI 报道：The vibes are off at OpenAI，综合评分 9.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=908769",
+      "title": "Meta is reentering the AI race with a new model called Muse Spark",
+      "url": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Meta Superintelligence Labs is launching its first model since Mark Zuckerberg spent billions overhauling the company's AI efforts. Called Muse Spark, the model now powers the Meta AI app and the Meta AI website in the US, per the company's announcement. In the coming weeks, Meta says, it will appear in WhatsApp, Instagram, Facebook, Messenger, and Meta's smart glasses, as well as roll out in other countries. Like Google Gemini, which easily integrates into Google's product suite, Meta touts Muse Spark as \"purpose-built for Meta's products.\" The model, the first in a new series, will also be available to some of Meta's partners in private … Read the full story at The Verge.",
+      "published": "2026-04-08T16:12:54+00:00",
+      "published_dt": "2026-04-08T16:12:54+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google",
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta is reentering the AI race with a new model called Muse Spark (The Verge AI) highlights a notable AI development with score 8.5.",
+      "summary_zh": "The Verge AI 报道：Meta is reentering the AI race with a new model called Muse Spark，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3110335",
+          "title": "Databricks co-founder wins prestigious ACM award, says ‘AGI is here already’",
+          "url": "https://techcrunch.com/2026/04/08/databricks-matei-zaharia-wins-acm-computing-prize-agi/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Matei Zaharia has won the top honor from the Association for Computing Machinery. Now he's working on AI for research and says AGI is simply misunderstood.",
+          "published": "2026-04-08T15:00:00+00:00",
+          "published_dt": "2026-04-08T15:00:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Databricks"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Databricks co-founder wins prestigious ACM award, says ‘AGI is here already’ (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Databricks co-founder wins prestigious ACM award, says ‘AGI is here already’，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47689174",
+          "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+          "url": "https://arxiv.org/abs/2604.05091",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-08T12:19:00+00:00",
+          "published_dt": "2026-04-08T12:19:00+00:00",
+          "hn_score": 260,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93400",
+          "title": "Most Active And Highest-Spending Startup Investors Diverged In Q1",
+          "url": "https://news.crunchbase.com/venture/data-most-active-highest-spending-startup-investors-q1-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "The investors backing the highest number of startup rounds this past quarter were mostly not the ones writing the biggest checks. And the ones funding the largest deals were not the most prolific dealmakers. That, in broad strokes, was the state of startup funding in Q1 of this year, a period characterized by record-setting rounds and investment tallies. The most famous names in AI captured a lion’s share of funding, drawing in some deep-pocketed backers who are traditionally less active in venture. This includes the quarter’s two lead investors in the priciest rounds — D.E. Shaw and MGX. The two co-led mega-financings for both OpenAI and Anthropic collectively valued at over $150 billion. By deal count, meanwhile, the most active post-seed investor was familiar front-runner Andreessen Horowitz, while the busiest lead investor was Accel. To see who else ranked high for deal counts and totals, below we charted out active investors across multiple metrics, including venture, seed and lead investment. Most active and highest-spending lead investors We’ll start with lead investors, as these are typically the ones putting the most capital to work. For Q1, the most active lead investors in post-seed rounds were Accel, Andreessen Horowitz, and Lightspeed Venture Partners. Overall, 19 investors led six or more rounds this past quarter, as charted below. Of course, the most active lead investors aren’t always the ones writing the biggest checks. We don’t have an exact measure for the latter, but we can get a sense by looking at lead investors in rounds with the highest aggregate value. By this metric, lead investors in the quarter’s two biggest rounds — OpenAI’s record-setting $122 billion financing and Anthropic’s enormous $30 billion Series G — rank highest on our list. This includes tech giants Nvidia and Amazon, which took part as strategic investors in the OpenAI round. Below, we rank the top 26 by total value of Q1 lead investments. Busiest post-seed investors As for s",
+          "published": "2026-04-08T11:00:16+00:00",
+          "published_dt": "2026-04-08T11:00:16+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Amazon",
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$150 billion",
+              "$122 billion",
+              "$30 billion",
+              "Series G"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Most Active And Highest-Spending Startup Investors Diverged In Q1 (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Most Active And Highest-Spending Startup Investors Diverged In Q1，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=908513",
+          "title": "The vibes are off at OpenAI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "OpenAI is in a relatively precarious position. The company is and has been a funding behemoth - just over a week ago, it closed $122 billion in funding at a post-money valuation of $852 billion. It's potentially planning for an IPO later this year. ChatGPT's longtime lead in consumer-facing AI led it to name-brand status akin to \"Kleenex\" for tissues. But in recent months, a slew of executive reshufflings, discontinued projects, and other news has raised questions about how stable the company really is - and how long it may be able to stay on top. OpenAI's current batch of public controversies started early in the year. At the end of Febru … Read the full story at The Verge.",
+          "published": "2026-04-08T13:47:38+00:00",
+          "published_dt": "2026-04-08T13:47:38+00:00",
+          "score": 9.5,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$122 billion",
+              "$852 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "The vibes are off at OpenAI (The Verge AI) highlights a notable AI development with score 9.5.",
+          "summary_zh": "The Verge AI 报道：The vibes are off at OpenAI，综合评分 9.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=908769",
+          "title": "Meta is reentering the AI race with a new model called Muse Spark",
+          "url": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Meta Superintelligence Labs is launching its first model since Mark Zuckerberg spent billions overhauling the company's AI efforts. Called Muse Spark, the model now powers the Meta AI app and the Meta AI website in the US, per the company's announcement. In the coming weeks, Meta says, it will appear in WhatsApp, Instagram, Facebook, Messenger, and Meta's smart glasses, as well as roll out in other countries. Like Google Gemini, which easily integrates into Google's product suite, Meta touts Muse Spark as \"purpose-built for Meta's products.\" The model, the first in a new series, will also be available to some of Meta's partners in private … Read the full story at The Verge.",
+          "published": "2026-04-08T16:12:54+00:00",
+          "published_dt": "2026-04-08T16:12:54+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google",
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta is reentering the AI race with a new model called Muse Spark (The Verge AI) highlights a notable AI development with score 8.5.",
+          "summary_zh": "The Verge AI 报道：Meta is reentering the AI race with a new model called Muse Spark，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3110560",
+          "title": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
+          "url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.",
+          "published": "2026-04-08T20:09:14+00:00",
+          "published_dt": "2026-04-08T20:09:14+00:00",
+          "score": 7.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict (TechCrunch AI) highlights a notable AI development with score 7.4.",
+          "summary_zh": "TechCrunch AI 报道：AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict，综合评分 7.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3110562",
+          "title": "Tubi is the first streamer to launch a native app within ChatGPT",
+          "url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Tubi becomes the first streaming service to offer an app integration within ChatGPT, the AI chatbot that millions of users turn to for answers.",
+          "published": "2026-04-08T18:23:06+00:00",
+          "published_dt": "2026-04-08T18:23:06+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Tubi is the first streamer to launch a native app within ChatGPT (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Tubi is the first streamer to launch a native app within ChatGPT，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "69d578a3cbcb6388062ece71",
+          "title": "5 Burning Questions About Elon Musk’s Terafab Chip Partnership with Intel",
+          "url": "https://www.wired.com/story/5-burning-questions-about-elon-musks-terafab-chip-partnership-with-intel/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Intel’s role in Elon Musk’s ambitious chip venture is still murky, raising questions about what the partnership actually entails—and whether it can work at all.",
+          "published": "2026-04-08T17:13:33+00:00",
+          "published_dt": "2026-04-08T17:13:33+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "5 Burning Questions About Elon Musk’s Terafab Chip Partnership with Intel (Wired AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Wired AI 报道：5 Burning Questions About Elon Musk’s Terafab Chip Partnership with Intel，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3110234",
+          "title": "Atlassian launches visual AI tools and third-party agents in Confluence",
+          "url": "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Confluence users can now create visual assets within the software in addition to new third-party agents working with Lovable, Replit, and Gamma.",
+          "published": "2026-04-08T13:00:00+00:00",
+          "published_dt": "2026-04-08T13:00:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Atlassian launches visual AI tools and third-party agents in Confluence (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Atlassian launches visual AI tools and third-party agents in Confluence，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3109710",
+          "title": "Google quietly launched an AI dictation app that works offline",
+          "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google's new offline-first dictation app uses Gemma AI models to take on the apps like Wispr Flow.",
+          "published": "2026-04-08T05:40:19+00:00",
+          "published_dt": "2026-04-08T05:40:19+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google quietly launched an AI dictation app that works offline (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Google quietly launched an AI dictation app that works offline，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
+          "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+          "url": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago. It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported benchmarks show it competitive with Opus 4.6, Gemini 3.1 Pro, and GPT 5.4 on selected benchmarks, though notably behind on Terminal-Bench 2.0. Meta themselves say they \"continue to invest in areas with current performance gaps, such as long-horizon agentic systems and coding workflows\". The model is exposed as two different modes on meta.ai - \"Instant\" and \"Thinking\". Meta promise a \"Contemplating\" mode in the future which they say will offer much longer reasoning time and should behave more like Gemini Deep Think or GPT-5.4 Pro. A couple of pelicans I prefer to run my pelican test via API to avoid being influenced by any invisible system prompts, but since that's not an option I ran it against the chat UI directly. Here's the pelican I got for \"Instant\": And this one for \"Thinking\": Both SVGs were rendered inline by the Meta AI interface. Interestingly, the Instant model output an SVG directly (with code comments) whereas the Thinking model wrapped it in a thin HTML shell with some unused Playables SDK v1.0.0 JavaScript libraries. Which got me curious... Poking around with tools Clearly Meta's chat harness has some tools wired up to it - at the very least it can render SVG and HTML as embedded frames, Claude Artifacts style. But what else can it do? I asked it: what tools do you have access to? And then: I want the exact tool names, parameter names and tool descriptions, in the original format It spat out detailed descriptions of 16 different tools. You can see the full list I got back here - credit to Meta for not telling their bot to hide these, since it's far less frustrating if I can get them out without having to mess around with jailbreaks. Here are highlights derive",
+          "published": "2026-04-08T23:07:44+00:00",
+          "published_dt": "2026-04-08T23:07:44+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools (Simon Willison) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Simon Willison 报道：Meta's new model is Muse Spark, and meta.ai chat has some interesting tools，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3110429",
+          "title": "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation",
+          "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI's new Child Safety Blueprint aims to tackle the alarming rise in child sexual exploitation linked to advancements in AI.",
+          "published": "2026-04-08T15:23:44+00:00",
+          "published_dt": "2026-04-08T15:23:44+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI releases a new safety blueprint to address the rise in child sexual exploitation，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-meta-superintelligence-labs",
+          "title": "[AINews] Meta Superintelligence Labs announces Muse Spark, first frontier model on their completely new stack",
+          "url": "https://www.latent.space/p/ainews-meta-superintelligence-labs",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "It’s not much, but it’s good numbers:Alexandr also concludes:“bigger models are already in development with infrastructure scaling to match. private api preview open to select partners today, with pl… Read more",
+          "published": "2026-04-08T23:23:36+00:00",
+          "published_dt": "2026-04-08T23:23:36+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "[AINews] Meta Superintelligence Labs announces Muse Spark, first frontier model on their completely new stack (Latent Space) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Latent Space 报道：[AINews] Meta Superintelligence Labs announces Muse Spark, first frontier model on their completely new stack，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=909031",
+          "title": "Gemini gets notebooks to help you organize projects",
+          "url": "https://www.theverge.com/tech/909031/google-gemini-notebooks-notebooklm",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Google's Gemini is getting a feature called \"notebooks\" to help you organize things about certain topics in a single place while using the AI chatbot, the company announced on Wednesday. You can pull in things like files, past conversations, and custom instructions into notebooks that Gemini can then use as context while you're talking with it. Notebooks sound a lot like ChatGPT's Projects feature, which launched in 2024 and similarly lets users store things about a certain topic in one spot. Google says to \"think of notebooks as personal knowledge bases shared across Google products, starting in Gemini.\" Gemini's Notebooks also sync with … Read the full story at The Verge.",
+          "published": "2026-04-09T00:06:12+00:00",
+          "published_dt": "2026-04-09T00:06:12+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Gemini gets notebooks to help you organize projects (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Gemini gets notebooks to help you organize projects，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "69d43bac139f7422aa5fed4d",
+          "title": "Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents",
+          "url": "https://www.wired.com/story/anthropic-launches-claude-managed-agents/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Amid rapid enterprise growth, Anthropic is trying to lower the barrier to entry for businesses to build AI agents with Claude.",
+          "published": "2026-04-08T17:00:00+00:00",
+          "published_dt": "2026-04-08T17:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 8,
+      "items": [
+        {
+          "id": "https://openai.com/index/introducing-child-safety-blueprint",
+          "title": "Introducing the Child Safety Blueprint",
+          "url": "https://openai.com/index/introducing-child-safety-blueprint",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+          "published": "2026-04-08T05:00:00+00:00",
+          "published_dt": "2026-04-08T05:00:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "Introducing the Child Safety Blueprint (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：Introducing the Child Safety Blueprint，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/next-phase-of-enterprise-ai",
+          "title": "The next phase of enterprise AI",
+          "url": "https://openai.com/index/next-phase-of-enterprise-ai",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+          "published": "2026-04-08T14:00:00+00:00",
+          "published_dt": "2026-04-08T14:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "The next phase of enterprise AI (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：The next phase of enterprise AI，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47696035",
+          "title": "John Deere to pay $99M in right-to-repair settlement",
+          "url": "https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-08T20:46:27+00:00",
+          "published_dt": "2026-04-08T20:46:27+00:00",
+          "hn_score": 174,
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$99M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "John Deere to pay $99M in right-to-repair settlement (Hacker News) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hacker News 报道：John Deere to pay $99M in right-to-repair settlement，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/ibm-research/altk-evolve",
+          "title": "ALTK‑Evolve: On‑the‑Job Learning for AI Agents",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-04-08T14:27:42+00:00",
+          "published_dt": "2026-04-08T14:27:42+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "ALTK‑Evolve: On‑the‑Job Learning for AI Agents (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：ALTK‑Evolve: On‑the‑Job Learning for AI Agents，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3110530",
+          "title": "Poke makes using AI agents as easy as sending a text",
+          "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Poke brings AI agents to everyday users via text message by handling tasks and automations without complex setup, apps, or technical know-how.",
+          "published": "2026-04-08T21:05:13+00:00",
+          "published_dt": "2026-04-08T21:05:13+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Poke makes using AI agents as easy as sending a text (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Poke makes using AI agents as easy as sending a text，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47693679",
+          "title": "I've been waiting over a month for Anthropic to respond to my billing issue",
+          "url": "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-08T17:44:25+00:00",
+          "published_dt": "2026-04-08T17:44:25+00:00",
+          "hn_score": 279,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "I've been waiting over a month for Anthropic to respond to my billing issue (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：I've been waiting over a month for Anthropic to respond to my billing issue，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3110416",
+          "title": "Astropad’s Workbench reimagines remote desktop for AI agents, not IT support",
+          "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Astropad’s Workbench lets users remotely monitor and control AI agents on Mac Minis from iPhone or iPad, with low-latency streaming and mobile access.",
+          "published": "2026-04-08T16:01:09+00:00",
+          "published_dt": "2026-04-08T16:01:09+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Astropad’s Workbench reimagines remote desktop for AI agents, not IT support (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Astropad’s Workbench reimagines remote desktop for AI agents, not IT support，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3110367",
+          "title": "Final 3 days to save up to $500 on your TechCrunch Disrupt 2026 pass",
+          "url": "https://techcrunch.com/2026/04/08/final-3-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Save up to $500 on your TechCrunch Disrupt 2026 pass until April 10, 11:59 p.m. PT. Secure your spot at the center of the tech ecosystem. Register today.",
+          "published": "2026-04-08T14:00:00+00:00",
+          "published_dt": "2026-04-08T14:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Final 3 days to save up to $500 on your TechCrunch Disrupt 2026 pass (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Final 3 days to save up to $500 on your TechCrunch Disrupt 2026 pass，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-09T01:56:59.385088+00:00",
+          "published_dt": "2026-04-09T01:56:59.385088+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-09T01:56:59.385088+00:00",
+          "published_dt": "2026-04-09T01:56:59.385088+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
+      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+      "url": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago. It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported benchmarks show it competitive with Opus 4.6, Gemini 3.1 Pro, and GPT 5.4 on selected benchmarks, though notably behind on Terminal-Bench 2.0. Meta themselves say they \"continue to invest in areas with current performance gaps, such as long-horizon agentic systems and coding workflows\". The model is exposed as two different modes on meta.ai - \"Instant\" and \"Thinking\". Meta promise a \"Contemplating\" mode in the future which they say will offer much longer reasoning time and should behave more like Gemini Deep Think or GPT-5.4 Pro. A couple of pelicans I prefer to run my pelican test via API to avoid being influenced by any invisible system prompts, but since that's not an option I ran it against the chat UI directly. Here's the pelican I got for \"Instant\": And this one for \"Thinking\": Both SVGs were rendered inline by the Meta AI interface. Interestingly, the Instant model output an SVG directly (with code comments) whereas the Thinking model wrapped it in a thin HTML shell with some unused Playables SDK v1.0.0 JavaScript libraries. Which got me curious... Poking around with tools Clearly Meta's chat harness has some tools wired up to it - at the very least it can render SVG and HTML as embedded frames, Claude Artifacts style. But what else can it do? I asked it: what tools do you have access to? And then: I want the exact tool names, parameter names and tool descriptions, in the original format It spat out detailed descriptions of 16 different tools. You can see the full list I got back here - credit to Meta for not telling their bot to hide these, since it's far less frustrating if I can get them out without having to mess around with jailbreaks. Here are highlights derive",
+      "published": "2026-04-08T23:07:44+00:00",
+      "published_dt": "2026-04-08T23:07:44+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Meta's new model is Muse Spark, and meta.ai chat has some interesting tools，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93400",
+      "title": "Most Active And Highest-Spending Startup Investors Diverged In Q1",
+      "url": "https://news.crunchbase.com/venture/data-most-active-highest-spending-startup-investors-q1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "The investors backing the highest number of startup rounds this past quarter were mostly not the ones writing the biggest checks. And the ones funding the largest deals were not the most prolific dealmakers. That, in broad strokes, was the state of startup funding in Q1 of this year, a period characterized by record-setting rounds and investment tallies. The most famous names in AI captured a lion’s share of funding, drawing in some deep-pocketed backers who are traditionally less active in venture. This includes the quarter’s two lead investors in the priciest rounds — D.E. Shaw and MGX. The two co-led mega-financings for both OpenAI and Anthropic collectively valued at over $150 billion. By deal count, meanwhile, the most active post-seed investor was familiar front-runner Andreessen Horowitz, while the busiest lead investor was Accel. To see who else ranked high for deal counts and totals, below we charted out active investors across multiple metrics, including venture, seed and lead investment. Most active and highest-spending lead investors We’ll start with lead investors, as these are typically the ones putting the most capital to work. For Q1, the most active lead investors in post-seed rounds were Accel, Andreessen Horowitz, and Lightspeed Venture Partners. Overall, 19 investors led six or more rounds this past quarter, as charted below. Of course, the most active lead investors aren’t always the ones writing the biggest checks. We don’t have an exact measure for the latter, but we can get a sense by looking at lead investors in rounds with the highest aggregate value. By this metric, lead investors in the quarter’s two biggest rounds — OpenAI’s record-setting $122 billion financing and Anthropic’s enormous $30 billion Series G — rank highest on our list. This includes tech giants Nvidia and Amazon, which took part as strategic investors in the OpenAI round. Below, we rank the top 26 by total value of Q1 lead investments. Busiest post-seed investors As for s",
+      "published": "2026-04-08T11:00:16+00:00",
+      "published_dt": "2026-04-08T11:00:16+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Amazon",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$150 billion",
+          "$122 billion",
+          "$30 billion",
+          "Series G"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Most Active And Highest-Spending Startup Investors Diverged In Q1 (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Most Active And Highest-Spending Startup Investors Diverged In Q1，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=908513",
+      "title": "The vibes are off at OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI is in a relatively precarious position. The company is and has been a funding behemoth - just over a week ago, it closed $122 billion in funding at a post-money valuation of $852 billion. It's potentially planning for an IPO later this year. ChatGPT's longtime lead in consumer-facing AI led it to name-brand status akin to \"Kleenex\" for tissues. But in recent months, a slew of executive reshufflings, discontinued projects, and other news has raised questions about how stable the company really is - and how long it may be able to stay on top. OpenAI's current batch of public controversies started early in the year. At the end of Febru … Read the full story at The Verge.",
+      "published": "2026-04-08T13:47:38+00:00",
+      "published_dt": "2026-04-08T13:47:38+00:00",
+      "score": 9.5,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$122 billion",
+          "$852 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The vibes are off at OpenAI (The Verge AI) highlights a notable AI development with score 9.5.",
+      "summary_zh": "The Verge AI 报道：The vibes are off at OpenAI，综合评分 9.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=908769",
+      "title": "Meta is reentering the AI race with a new model called Muse Spark",
+      "url": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Meta Superintelligence Labs is launching its first model since Mark Zuckerberg spent billions overhauling the company's AI efforts. Called Muse Spark, the model now powers the Meta AI app and the Meta AI website in the US, per the company's announcement. In the coming weeks, Meta says, it will appear in WhatsApp, Instagram, Facebook, Messenger, and Meta's smart glasses, as well as roll out in other countries. Like Google Gemini, which easily integrates into Google's product suite, Meta touts Muse Spark as \"purpose-built for Meta's products.\" The model, the first in a new series, will also be available to some of Meta's partners in private … Read the full story at The Verge.",
+      "published": "2026-04-08T16:12:54+00:00",
+      "published_dt": "2026-04-08T16:12:54+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google",
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta is reentering the AI race with a new model called Muse Spark (The Verge AI) highlights a notable AI development with score 8.5.",
+      "summary_zh": "The Verge AI 报道：Meta is reentering the AI race with a new model called Muse Spark，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110560",
+      "title": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
+      "url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.",
+      "published": "2026-04-08T20:09:14+00:00",
+      "published_dt": "2026-04-08T20:09:14+00:00",
+      "score": 7.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict (TechCrunch AI) highlights a notable AI development with score 7.4.",
+      "summary_zh": "TechCrunch AI 报道：AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict，综合评分 7.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110562",
+      "title": "Tubi is the first streamer to launch a native app within ChatGPT",
+      "url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Tubi becomes the first streaming service to offer an app integration within ChatGPT, the AI chatbot that millions of users turn to for answers.",
+      "published": "2026-04-08T18:23:06+00:00",
+      "published_dt": "2026-04-08T18:23:06+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Tubi is the first streamer to launch a native app within ChatGPT (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Tubi is the first streamer to launch a native app within ChatGPT，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110429",
+      "title": "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation",
+      "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI's new Child Safety Blueprint aims to tackle the alarming rise in child sexual exploitation linked to advancements in AI.",
+      "published": "2026-04-08T15:23:44+00:00",
+      "published_dt": "2026-04-08T15:23:44+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI releases a new safety blueprint to address the rise in child sexual exploitation，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-09T01:56:59.385088+00:00",
+      "published_dt": "2026-04-09T01:56:59.385088+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-09T01:56:59.385088+00:00",
+      "published_dt": "2026-04-09T01:56:59.385088+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-meta-superintelligence-labs",
+      "title": "[AINews] Meta Superintelligence Labs announces Muse Spark, first frontier model on their completely new stack",
+      "url": "https://www.latent.space/p/ainews-meta-superintelligence-labs",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "It’s not much, but it’s good numbers:Alexandr also concludes:“bigger models are already in development with infrastructure scaling to match. private api preview open to select partners today, with pl… Read more",
+      "published": "2026-04-08T23:23:36+00:00",
+      "published_dt": "2026-04-08T23:23:36+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "[AINews] Meta Superintelligence Labs announces Muse Spark, first frontier model on their completely new stack (Latent Space) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Latent Space 报道：[AINews] Meta Superintelligence Labs announces Muse Spark, first frontier model on their completely new stack，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/introducing-child-safety-blueprint",
+      "title": "Introducing the Child Safety Blueprint",
+      "url": "https://openai.com/index/introducing-child-safety-blueprint",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+      "published": "2026-04-08T05:00:00+00:00",
+      "published_dt": "2026-04-08T05:00:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "Introducing the Child Safety Blueprint (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：Introducing the Child Safety Blueprint，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110234",
+      "title": "Atlassian launches visual AI tools and third-party agents in Confluence",
+      "url": "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Confluence users can now create visual assets within the software in addition to new third-party agents working with Lovable, Replit, and Gamma.",
+      "published": "2026-04-08T13:00:00+00:00",
+      "published_dt": "2026-04-08T13:00:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Atlassian launches visual AI tools and third-party agents in Confluence (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Atlassian launches visual AI tools and third-party agents in Confluence，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3109710",
+      "title": "Google quietly launched an AI dictation app that works offline",
+      "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google's new offline-first dictation app uses Gemma AI models to take on the apps like Wispr Flow.",
+      "published": "2026-04-08T05:40:19+00:00",
+      "published_dt": "2026-04-08T05:40:19+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google quietly launched an AI dictation app that works offline (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Google quietly launched an AI dictation app that works offline，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=909031",
+      "title": "Gemini gets notebooks to help you organize projects",
+      "url": "https://www.theverge.com/tech/909031/google-gemini-notebooks-notebooklm",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Google's Gemini is getting a feature called \"notebooks\" to help you organize things about certain topics in a single place while using the AI chatbot, the company announced on Wednesday. You can pull in things like files, past conversations, and custom instructions into notebooks that Gemini can then use as context while you're talking with it. Notebooks sound a lot like ChatGPT's Projects feature, which launched in 2024 and similarly lets users store things about a certain topic in one spot. Google says to \"think of notebooks as personal knowledge bases shared across Google products, starting in Gemini.\" Gemini's Notebooks also sync with … Read the full story at The Verge.",
+      "published": "2026-04-09T00:06:12+00:00",
+      "published_dt": "2026-04-09T00:06:12+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Gemini gets notebooks to help you organize projects (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Gemini gets notebooks to help you organize projects，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "69d578a3cbcb6388062ece71",
+      "title": "5 Burning Questions About Elon Musk’s Terafab Chip Partnership with Intel",
+      "url": "https://www.wired.com/story/5-burning-questions-about-elon-musks-terafab-chip-partnership-with-intel/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Intel’s role in Elon Musk’s ambitious chip venture is still murky, raising questions about what the partnership actually entails—and whether it can work at all.",
+      "published": "2026-04-08T17:13:33+00:00",
+      "published_dt": "2026-04-08T17:13:33+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "5 Burning Questions About Elon Musk’s Terafab Chip Partnership with Intel (Wired AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Wired AI 报道：5 Burning Questions About Elon Musk’s Terafab Chip Partnership with Intel，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/next-phase-of-enterprise-ai",
+      "title": "The next phase of enterprise AI",
+      "url": "https://openai.com/index/next-phase-of-enterprise-ai",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+      "published": "2026-04-08T14:00:00+00:00",
+      "published_dt": "2026-04-08T14:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "The next phase of enterprise AI (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：The next phase of enterprise AI，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110335",
+      "title": "Databricks co-founder wins prestigious ACM award, says ‘AGI is here already’",
+      "url": "https://techcrunch.com/2026/04/08/databricks-matei-zaharia-wins-acm-computing-prize-agi/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Matei Zaharia has won the top honor from the Association for Computing Machinery. Now he's working on AI for research and says AGI is simply misunderstood.",
+      "published": "2026-04-08T15:00:00+00:00",
+      "published_dt": "2026-04-08T15:00:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Databricks"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Databricks co-founder wins prestigious ACM award, says ‘AGI is here already’ (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Databricks co-founder wins prestigious ACM award, says ‘AGI is here already’，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47689174",
+      "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+      "url": "https://arxiv.org/abs/2604.05091",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-08T12:19:00+00:00",
+      "published_dt": "2026-04-08T12:19:00+00:00",
+      "hn_score": 260,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47696035",
+      "title": "John Deere to pay $99M in right-to-repair settlement",
+      "url": "https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-08T20:46:27+00:00",
+      "published_dt": "2026-04-08T20:46:27+00:00",
+      "hn_score": 174,
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$99M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "John Deere to pay $99M in right-to-repair settlement (Hacker News) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hacker News 报道：John Deere to pay $99M in right-to-repair settlement，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/ibm-research/altk-evolve",
+      "title": "ALTK‑Evolve: On‑the‑Job Learning for AI Agents",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-04-08T14:27:42+00:00",
+      "published_dt": "2026-04-08T14:27:42+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "ALTK‑Evolve: On‑the‑Job Learning for AI Agents (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：ALTK‑Evolve: On‑the‑Job Learning for AI Agents，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "69d43bac139f7422aa5fed4d",
+      "title": "Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents",
+      "url": "https://www.wired.com/story/anthropic-launches-claude-managed-agents/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Amid rapid enterprise growth, Anthropic is trying to lower the barrier to entry for businesses to build AI agents with Claude.",
+      "published": "2026-04-08T17:00:00+00:00",
+      "published_dt": "2026-04-08T17:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110530",
+      "title": "Poke makes using AI agents as easy as sending a text",
+      "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Poke brings AI agents to everyday users via text message by handling tasks and automations without complex setup, apps, or technical know-how.",
+      "published": "2026-04-08T21:05:13+00:00",
+      "published_dt": "2026-04-08T21:05:13+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Poke makes using AI agents as easy as sending a text (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Poke makes using AI agents as easy as sending a text，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47693679",
+      "title": "I've been waiting over a month for Anthropic to respond to my billing issue",
+      "url": "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-08T17:44:25+00:00",
+      "published_dt": "2026-04-08T17:44:25+00:00",
+      "hn_score": 279,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "I've been waiting over a month for Anthropic to respond to my billing issue (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：I've been waiting over a month for Anthropic to respond to my billing issue，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110416",
+      "title": "Astropad’s Workbench reimagines remote desktop for AI agents, not IT support",
+      "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Astropad’s Workbench lets users remotely monitor and control AI agents on Mac Minis from iPhone or iPad, with low-latency streaming and mobile access.",
+      "published": "2026-04-08T16:01:09+00:00",
+      "published_dt": "2026-04-08T16:01:09+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Astropad’s Workbench reimagines remote desktop for AI agents, not IT support (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Astropad’s Workbench reimagines remote desktop for AI agents, not IT support，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3110367",
+      "title": "Final 3 days to save up to $500 on your TechCrunch Disrupt 2026 pass",
+      "url": "https://techcrunch.com/2026/04/08/final-3-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Save up to $500 on your TechCrunch Disrupt 2026 pass until April 10, 11:59 p.m. PT. Secure your spot at the center of the tech ecosystem. Register today.",
+      "published": "2026-04-08T14:00:00+00:00",
+      "published_dt": "2026-04-08T14:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Final 3 days to save up to $500 on your TechCrunch Disrupt 2026 pass (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Final 3 days to save up to $500 on your TechCrunch Disrupt 2026 pass，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
