@@ -1,0 +1,659 @@
+{
+  "date": "2026-04-13",
+  "generated_at": "2026-04-13T02:24:18",
+  "stats": {
+    "total_items": 10,
+    "high_importance": 0,
+    "medium_importance": 10,
+    "categories_covered": 4
+  },
+  "top_stories": [],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 0,
+      "items": []
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 0,
+      "items": []
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3111709",
+          "title": "Apple reportedly testing four designs for upcoming smart glasses",
+          "url": "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "These glasses are a step back from an ambitious plan that once called for Apple to launch a variety of mixed and augmented reality devices.",
+          "published": "2026-04-12T19:58:42+00:00",
+          "published_dt": "2026-04-12T19:58:42+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple reportedly testing four designs for upcoming smart glasses (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Apple reportedly testing four designs for upcoming smart glasses，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=910019",
+          "title": "The AI code wars are heating up",
+          "url": "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the AI coding and vibe-coding booms, follow David Pierce. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Writing code was a killer app for AI even before anyone was really talking about AI. In the spring of 2021, 18 months before the world knew the word \"ChatGPT,\" Microsoft debuted the very first product of a partnership with a nonprofit called OpenAI: a tool called GitHub Copilot that watched developers as they wrote code and tried to autocomplete snippets and lines for them … Read the full story at The Verge.",
+          "published": "2026-04-12T12:00:00+00:00",
+          "published_dt": "2026-04-12T12:00:00+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The AI code wars are heating up (The Verge AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "The Verge AI 报道：The AI code wars are heating up，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 5,
+      "items": [
+        {
+          "id": "hn-47738883",
+          "title": "Tell HN: Docker pull fails in Spain due to football Cloudflare block",
+          "url": "https://news.ycombinator.com/item?id=47738883",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "I just spent 1h+ debugging why my locally-hosted gitlab runner would fail to create pipelines. The gitlab job output would just display weird TLS errors when trying to pull a docker images. After debugging gitlab and the runner, I realized after a while I could not even run \"docker pull <image>\" on my machine as root:> error pulling image configuration: download failed after attempts=6: tls: failed to verify certificate: x509: certificate is not valid for any names, but wanted to match docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.comFirst blaming tailscale, dns configuration and all other stuff. Until I just copied that above URL into my browser on my laptop, and received a website banner:> El acceso a la presente dirección IP ha sido bloqueado en cumplimiento de lo dispuesto en la Sentencia de 18 de diciembre de 2024, dictada por el Juzgado de lo Mercantil nº 6 de Barcelona en el marco del procedimiento ordinario (Materia mercantil art. 249.1.4)-1005/2024-H instado por la Liga Nacional de Fútbol Profesional y por Telefónica Audiovisual Digital, S.L.U. https://www.laliga.com/noticias/nota-informativa-en-relacion-con-el-bloqueo-de-ips-durante-las-ultimas-jornadas-de-laliga-ea-sports-vinculadas-a-las-practicas-ilegales-de-cloudflareFor those non-spanish speakers: It means there is football match on, and during that time that specific host is blocked. This is just plain madness. I guess that means my gitlab pipelines will not run when football is on. Thank you, Spain.",
+          "published": "2026-04-12T12:28:57+00:00",
+          "published_dt": "2026-04-12T12:28:57+00:00",
+          "hn_score": 683,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Tell HN: Docker pull fails in Spain due to football Cloudflare block (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Tell HN: Docker pull fails in Spain due to football Cloudflare block，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3111711",
+          "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
+          "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The report is particularly surprising since the Department of Defense recently declared Anthropic a supply-chain risk.",
+          "published": "2026-04-12T21:14:38+00:00",
+          "published_dt": "2026-04-12T21:14:38+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Trump officials may be encouraging banks to test Anthropic’s Mythos model (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Trump officials may be encouraging banks to test Anthropic’s Mythos model，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=2973217",
+          "title": "From LLMs to hallucinations, here’s a simple guide to common AI terms",
+          "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+          "published": "2026-04-12T15:07:08+00:00",
+          "published_dt": "2026-04-12T15:07:08+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "From LLMs to hallucinations, here’s a simple guide to common AI terms (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：From LLMs to hallucinations, here’s a simple guide to common AI terms，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3111422",
+          "title": "At the HumanX conference, everyone was talking about Claude",
+          "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
+          "published": "2026-04-12T15:00:00+00:00",
+          "published_dt": "2026-04-12T15:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "At the HumanX conference, everyone was talking about Claude (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：At the HumanX conference, everyone was talking about Claude，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47736476",
+          "title": "Anthropic downgraded cache TTL on March 6th",
+          "url": "https://github.com/anthropics/claude-code/issues/46829",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-12T05:45:52+00:00",
+          "published_dt": "2026-04-12T05:45:52+00:00",
+          "hn_score": 486,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic downgraded cache TTL on March 6th (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Anthropic downgraded cache TTL on March 6th，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-13T02:24:18.735541+00:00",
+          "published_dt": "2026-04-13T02:24:18.735541+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-13T02:24:18.735541+00:00",
+          "published_dt": "2026-04-13T02:24:18.735541+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47741889",
+          "title": "Show HN: Claudraband – Claude Code for the Power User",
+          "url": "https://github.com/halfwhey/claudraband",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hello everyone.Claudraband wraps a Claude Code TUI in a controlled terminal to enable extended workflows. It uses tmux for visible controlled sessions or xterm.js for headless sessions (a little slower), but everything is mediated by an actual Claude Code TUI.One example of a workflow I use now is having my current Claude Code interrogate older sessions for certain decisions it made: https://github.com/halfwhey/claudraband?tab=readme-ov-file#s...This project provides:- Resumable non-interactive workflows. Essentially `claude -p` with session support: `cband continue <session-id> 'what was the result of the research?'` - HTTP server to remotely control a Claude Code session: `cband serve --port 8123` - ACP server to use with alternative frontends such as Zed or Toad (https://github.com/batrachianai/toad): `cband acp --model haiku`. - TypeScript library so you can integrate these workflows into your own application.This exists cause I was using `tmux send-keys` heavily in a lot of my Claude Code workflows, but I wanted to streamline it.",
+          "published": "2026-04-12T16:55:20+00:00",
+          "published_dt": "2026-04-12T16:55:20+00:00",
+          "hn_score": 91,
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Show HN: Claudraband – Claude Code for the Power User (Hacker News) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Hacker News 报道：Show HN: Claudraband – Claude Code for the Power User，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-13T02:24:18.735541+00:00",
+      "published_dt": "2026-04-13T02:24:18.735541+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-13T02:24:18.735541+00:00",
+      "published_dt": "2026-04-13T02:24:18.735541+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47741889",
+      "title": "Show HN: Claudraband – Claude Code for the Power User",
+      "url": "https://github.com/halfwhey/claudraband",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hello everyone.Claudraband wraps a Claude Code TUI in a controlled terminal to enable extended workflows. It uses tmux for visible controlled sessions or xterm.js for headless sessions (a little slower), but everything is mediated by an actual Claude Code TUI.One example of a workflow I use now is having my current Claude Code interrogate older sessions for certain decisions it made: https://github.com/halfwhey/claudraband?tab=readme-ov-file#s...This project provides:- Resumable non-interactive workflows. Essentially `claude -p` with session support: `cband continue <session-id> 'what was the result of the research?'` - HTTP server to remotely control a Claude Code session: `cband serve --port 8123` - ACP server to use with alternative frontends such as Zed or Toad (https://github.com/batrachianai/toad): `cband acp --model haiku`. - TypeScript library so you can integrate these workflows into your own application.This exists cause I was using `tmux send-keys` heavily in a lot of my Claude Code workflows, but I wanted to streamline it.",
+      "published": "2026-04-12T16:55:20+00:00",
+      "published_dt": "2026-04-12T16:55:20+00:00",
+      "hn_score": 91,
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Show HN: Claudraband – Claude Code for the Power User (Hacker News) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Hacker News 报道：Show HN: Claudraband – Claude Code for the Power User，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=910019",
+      "title": "The AI code wars are heating up",
+      "url": "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the AI coding and vibe-coding booms, follow David Pierce. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Writing code was a killer app for AI even before anyone was really talking about AI. In the spring of 2021, 18 months before the world knew the word \"ChatGPT,\" Microsoft debuted the very first product of a partnership with a nonprofit called OpenAI: a tool called GitHub Copilot that watched developers as they wrote code and tried to autocomplete snippets and lines for them … Read the full story at The Verge.",
+      "published": "2026-04-12T12:00:00+00:00",
+      "published_dt": "2026-04-12T12:00:00+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The AI code wars are heating up (The Verge AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "The Verge AI 报道：The AI code wars are heating up，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3111709",
+      "title": "Apple reportedly testing four designs for upcoming smart glasses",
+      "url": "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "These glasses are a step back from an ambitious plan that once called for Apple to launch a variety of mixed and augmented reality devices.",
+      "published": "2026-04-12T19:58:42+00:00",
+      "published_dt": "2026-04-12T19:58:42+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple reportedly testing four designs for upcoming smart glasses (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Apple reportedly testing four designs for upcoming smart glasses，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47738883",
+      "title": "Tell HN: Docker pull fails in Spain due to football Cloudflare block",
+      "url": "https://news.ycombinator.com/item?id=47738883",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "I just spent 1h+ debugging why my locally-hosted gitlab runner would fail to create pipelines. The gitlab job output would just display weird TLS errors when trying to pull a docker images. After debugging gitlab and the runner, I realized after a while I could not even run \"docker pull <image>\" on my machine as root:> error pulling image configuration: download failed after attempts=6: tls: failed to verify certificate: x509: certificate is not valid for any names, but wanted to match docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.comFirst blaming tailscale, dns configuration and all other stuff. Until I just copied that above URL into my browser on my laptop, and received a website banner:> El acceso a la presente dirección IP ha sido bloqueado en cumplimiento de lo dispuesto en la Sentencia de 18 de diciembre de 2024, dictada por el Juzgado de lo Mercantil nº 6 de Barcelona en el marco del procedimiento ordinario (Materia mercantil art. 249.1.4)-1005/2024-H instado por la Liga Nacional de Fútbol Profesional y por Telefónica Audiovisual Digital, S.L.U. https://www.laliga.com/noticias/nota-informativa-en-relacion-con-el-bloqueo-de-ips-durante-las-ultimas-jornadas-de-laliga-ea-sports-vinculadas-a-las-practicas-ilegales-de-cloudflareFor those non-spanish speakers: It means there is football match on, and during that time that specific host is blocked. This is just plain madness. I guess that means my gitlab pipelines will not run when football is on. Thank you, Spain.",
+      "published": "2026-04-12T12:28:57+00:00",
+      "published_dt": "2026-04-12T12:28:57+00:00",
+      "hn_score": 683,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Tell HN: Docker pull fails in Spain due to football Cloudflare block (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Tell HN: Docker pull fails in Spain due to football Cloudflare block，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3111711",
+      "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
+      "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The report is particularly surprising since the Department of Defense recently declared Anthropic a supply-chain risk.",
+      "published": "2026-04-12T21:14:38+00:00",
+      "published_dt": "2026-04-12T21:14:38+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Trump officials may be encouraging banks to test Anthropic’s Mythos model (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Trump officials may be encouraging banks to test Anthropic’s Mythos model，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=2973217",
+      "title": "From LLMs to hallucinations, here’s a simple guide to common AI terms",
+      "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "published": "2026-04-12T15:07:08+00:00",
+      "published_dt": "2026-04-12T15:07:08+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "From LLMs to hallucinations, here’s a simple guide to common AI terms (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：From LLMs to hallucinations, here’s a simple guide to common AI terms，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3111422",
+      "title": "At the HumanX conference, everyone was talking about Claude",
+      "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
+      "published": "2026-04-12T15:00:00+00:00",
+      "published_dt": "2026-04-12T15:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "At the HumanX conference, everyone was talking about Claude (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：At the HumanX conference, everyone was talking about Claude，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47736476",
+      "title": "Anthropic downgraded cache TTL on March 6th",
+      "url": "https://github.com/anthropics/claude-code/issues/46829",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-12T05:45:52+00:00",
+      "published_dt": "2026-04-12T05:45:52+00:00",
+      "hn_score": 486,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic downgraded cache TTL on March 6th (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Anthropic downgraded cache TTL on March 6th，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
