@@ -1,0 +1,979 @@
+{
+  "date": "2026-04-14",
+  "generated_at": "2026-04-14T02:10:37",
+  "stats": {
+    "total_items": 14,
+    "high_importance": 2,
+    "medium_importance": 12,
+    "categories_covered": 5
+  },
+  "top_stories": [
+    {
+      "id": "https://news.crunchbase.com/?p=93409",
+      "title": "China Leads Asia’s Startup Funding To Its Highest Level In More Than 3 Years",
+      "url": "https://news.crunchbase.com/venture/china-leads-startup-funding-ai-seed-growth-asia-q1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Asia’s startup funding swung higher in the first quarter of this year, boosted by a rebound in Chinese venture investment. Overall, investors put $27.4 billion to work across seed- through growth-stage financings for Asian companies in Q1, per Crunchbase data. That’s up about 20% from the prior quarter and nearly double year-ago levels. Total funding also hit its highest level in more than three years, as charted below. Funding went to bigger rounds, not more of them. Per Crunchbase data, deal counts were flat with the prior quarter and up incrementally from prior year levels. In general, deal counts haven’t fluctuated widely from quarter to quarter over the past few years, as seen in the chart below. Table of contents Most gains go to China Funding rose across stages, with most going to later stage Early stage was strong too Seed also showed an upswing A record quarter for AI Looking up Methodology Glossary of funding terms Most gains go to China An estimated $16.5 billion — or 60% of all Asian startup funding — went to China-based startups in Q1. It was also the third consecutive quarter for increased Chinese venture funding, which hit a multiyear low in the first half of 2025. AI funding drove the gains in China. The quarter’s largest rounds all went to AI-focused companies, including foundational model startup StepFun, agentic AI company Moonshot AI, and AI-enabled robot developer Galaxy Bot. After China, the next-largest venture funding recipient in Asia was India, with $3.8 billion in reported Q1 investment, the highest number in the past four quarters. A big chunk of the funding went to the quarter’s largest equity round, a $600 million financing for AI systems developer Neysa. Below, we chart out venture funding by country to seven leading investment hubs in Asia, showing how regional funding has trended since 2023. Funding rose across stages, with most going to later stage Later-stage, early-stage and seed funding all rose sequentially in the first quarter.",
+      "published": "2026-04-13T11:00:30+00:00",
+      "published_dt": "2026-04-13T11:00:30+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$27.4 billion",
+          "$16.5 billion",
+          "$3.8 billion",
+          "$600 million"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "China Leads Asia’s Startup Funding To Its Highest Level In More Than 3 Years (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：China Leads Asia’s Startup Funding To Its Highest Level In More Than 3 Years，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything",
+      "title": "Exploring the new `servo` crate",
+      "url": "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Research: Exploring the new `servo` crate In Servo is now available on crates.io the Servo team announced the initial release of the servo crate, which packages their browser engine as an embeddable library. I set Claude Code for web the task of figuring out what it can do, building a CLI tool for taking screenshots using it and working out if it could be compiled to WebAssembly. The servo-shot Rust tool it built works pretty well: git clone https://github.com/simonw/research cd research/servo-crate-exploration/servo-shot cargo build ./target/debug/servo-shot https://news.ycombinator.com/ Here's the result: Compiling Servo itself to WebAssembly is not feasible due to its heavy use of threads and dependencies like SpiderMonkey, but Claude did build me this playground page for trying out a WebAssembly build of the html5ever and markup5ever_rcdom crates, providing a tool for turning fragments of HTML into a parse tree. Tags: research, browsers, rust, webassembly, claude-code, servo",
+      "published": "2026-04-13T15:04:00+00:00",
+      "published_dt": "2026-04-13T15:04:00+00:00",
+      "score": 9.8,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "LoRA"
+        ]
+      },
+      "summary_en": "Exploring the new `servo` crate (Simon Willison) highlights a notable AI development with score 9.8.",
+      "summary_zh": "Simon Willison 报道：Exploring the new `servo` crate，综合评分 9.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 0,
+      "items": []
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93409",
+          "title": "China Leads Asia’s Startup Funding To Its Highest Level In More Than 3 Years",
+          "url": "https://news.crunchbase.com/venture/china-leads-startup-funding-ai-seed-growth-asia-q1-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Asia’s startup funding swung higher in the first quarter of this year, boosted by a rebound in Chinese venture investment. Overall, investors put $27.4 billion to work across seed- through growth-stage financings for Asian companies in Q1, per Crunchbase data. That’s up about 20% from the prior quarter and nearly double year-ago levels. Total funding also hit its highest level in more than three years, as charted below. Funding went to bigger rounds, not more of them. Per Crunchbase data, deal counts were flat with the prior quarter and up incrementally from prior year levels. In general, deal counts haven’t fluctuated widely from quarter to quarter over the past few years, as seen in the chart below. Table of contents Most gains go to China Funding rose across stages, with most going to later stage Early stage was strong too Seed also showed an upswing A record quarter for AI Looking up Methodology Glossary of funding terms Most gains go to China An estimated $16.5 billion — or 60% of all Asian startup funding — went to China-based startups in Q1. It was also the third consecutive quarter for increased Chinese venture funding, which hit a multiyear low in the first half of 2025. AI funding drove the gains in China. The quarter’s largest rounds all went to AI-focused companies, including foundational model startup StepFun, agentic AI company Moonshot AI, and AI-enabled robot developer Galaxy Bot. After China, the next-largest venture funding recipient in Asia was India, with $3.8 billion in reported Q1 investment, the highest number in the past four quarters. A big chunk of the funding went to the quarter’s largest equity round, a $600 million financing for AI systems developer Neysa. Below, we chart out venture funding by country to seven leading investment hubs in Asia, showing how regional funding has trended since 2023. Funding rose across stages, with most going to later stage Later-stage, early-stage and seed funding all rose sequentially in the first quarter.",
+          "published": "2026-04-13T11:00:30+00:00",
+          "published_dt": "2026-04-13T11:00:30+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Moonshot AI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$27.4 billion",
+              "$16.5 billion",
+              "$3.8 billion",
+              "$600 million"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "China Leads Asia’s Startup Funding To Its Highest Level In More Than 3 Years (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：China Leads Asia’s Startup Funding To Its Highest Level In More Than 3 Years，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=911118",
+          "title": "Read OpenAI&#8217;s latest internal memo about beating the competition — including Anthropic",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge OpenAI's chief revenue officer, Denise Dresser, sent a four-page memo to employees on Sunday about the company's strategic direction, emphasizing the need to lock in users and grow its enterprise business. The memo, which was viewed by The Verge, repeatedly underlines the importance of building a moat around its AI products, to combat how easy it is for users to switch between whichever model is topping the charts on any given day or week. Dresser, who recently took over much of former COO Brad Lightcap's duties as he transitions to a new role focused on special projects, also emphasizes the importance of focusing on enterprise clients. It … Read the full story at The Verge.",
+          "published": "2026-04-13T16:21:08+00:00",
+          "published_dt": "2026-04-13T16:21:08+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Read OpenAI&#8217;s latest internal memo about beating the competition — including Anthropic (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Read OpenAI&#8217;s latest internal memo about beating the competition — including Anthropic，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3112057",
+          "title": "OpenAI has bought AI personal finance startup Hiro",
+          "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The acquisition indicates a capability that OpenAI is building into ChatGPT: financial planning.",
+          "published": "2026-04-14T00:23:33+00:00",
+          "published_dt": "2026-04-14T00:23:33+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI has bought AI personal finance startup Hiro (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI has bought AI personal finance startup Hiro，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47750821",
+          "title": "Michigan 'digital age' bills pulled after privacy concerns raised",
+          "url": "https://www.thecentersquare.com/michigan/article_7ca4e268-4a68-42fb-9042-f9d8604ebd7f.html",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-13T12:05:35+00:00",
+          "published_dt": "2026-04-13T12:05:35+00:00",
+          "hn_score": 204,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Michigan 'digital age' bills pulled after privacy concerns raised (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：Michigan 'digital age' bills pulled after privacy concerns raised，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3111750",
+          "title": "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge",
+          "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "While many startups founded prior to the emergence of ChatGPT are struggling to position themselves for the AI era, Vercel, a 10-year-old dev tool and website hosting platform, is benefiting from the explosion of AI-generated apps and agents.",
+          "published": "2026-04-13T15:22:29+00:00",
+          "published_dt": "2026-04-13T15:22:29+00:00",
+          "score": 7.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge (TechCrunch AI) highlights a notable AI development with score 7.4.",
+          "summary_zh": "TechCrunch AI 报道：Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge，综合评分 7.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything",
+          "title": "Exploring the new `servo` crate",
+          "url": "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Research: Exploring the new `servo` crate In Servo is now available on crates.io the Servo team announced the initial release of the servo crate, which packages their browser engine as an embeddable library. I set Claude Code for web the task of figuring out what it can do, building a CLI tool for taking screenshots using it and working out if it could be compiled to WebAssembly. The servo-shot Rust tool it built works pretty well: git clone https://github.com/simonw/research cd research/servo-crate-exploration/servo-shot cargo build ./target/debug/servo-shot https://news.ycombinator.com/ Here's the result: Compiling Servo itself to WebAssembly is not feasible due to its heavy use of threads and dependencies like SpiderMonkey, but Claude did build me this playground page for trying out a WebAssembly build of the html5ever and markup5ever_rcdom crates, providing a tool for turning fragments of HTML into a parse tree. Tags: research, browsers, rust, webassembly, claude-code, servo",
+          "published": "2026-04-13T15:04:00+00:00",
+          "published_dt": "2026-04-13T15:04:00+00:00",
+          "score": 9.8,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "LoRA"
+            ]
+          },
+          "summary_en": "Exploring the new `servo` crate (Simon Willison) highlights a notable AI development with score 9.8.",
+          "summary_zh": "Simon Willison 报道：Exploring the new `servo` crate，综合评分 9.8，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://openai.com/index/cloudflare-openai-agent-cloud",
+          "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+          "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
+          "published": "2026-04-13T06:00:00+00:00",
+          "published_dt": "2026-04-13T06:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Scale AI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3111798",
+          "title": "Stanford report highlights growing disconnect between AI insiders and everyone else",
+          "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Stanford’s latest AI Index shows a widening gap between experts and the public, with rising anxiety over jobs, healthcare, and the economy.",
+          "published": "2026-04-13T18:55:37+00:00",
+          "published_dt": "2026-04-13T18:55:37+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Stanford report highlights growing disconnect between AI insiders and everyone else (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Stanford report highlights growing disconnect between AI insiders and everyone else，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47750872",
+          "title": "Servo is now available on crates.io",
+          "url": "https://servo.org/blog/2026/04/13/servo-0.1.0-release/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-13T12:12:22+00:00",
+          "published_dt": "2026-04-13T12:12:22+00:00",
+          "hn_score": 426,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Servo is now available on crates.io (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Servo is now available on crates.io，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3111482",
+          "title": "The largest orbital compute cluster is open for business",
+          "url": "https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Kepler Communications is flying 40 GPUs in Earth orbit. And its latest customer is Sophia Space.",
+          "published": "2026-04-13T07:01:00+00:00",
+          "published_dt": "2026-04-13T07:01:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The largest orbital compute cluster is open for business (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：The largest orbital compute cluster is open for business，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47747017",
+          "title": "Apple's accidental moat: How the \"AI Loser\" may end up winning",
+          "url": "https://adlrocha.substack.com/p/adlrocha-how-the-ai-loser-may-end",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-13T02:53:10+00:00",
+          "published_dt": "2026-04-13T02:53:10+00:00",
+          "hn_score": 401,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple's accidental moat: How the \"AI Loser\" may end up winning (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Apple's accidental moat: How the \"AI Loser\" may end up winning，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-14T02:10:34.490378+00:00",
+          "published_dt": "2026-04-14T02:10:34.490378+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-14T02:10:34.490378+00:00",
+          "published_dt": "2026-04-14T02:10:34.490378+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3111806",
+          "title": "Microsoft is working on yet another OpenClaw-like agent",
+          "url": "https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The new features would be geared toward enterprise customers, with better security controls than the famously risky open source OpenClaw agent.",
+          "published": "2026-04-13T19:05:19+00:00",
+          "published_dt": "2026-04-13T19:05:19+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Microsoft is working on yet another OpenClaw-like agent (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Microsoft is working on yet another OpenClaw-like agent，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://news.crunchbase.com/?p=93409",
+      "title": "China Leads Asia’s Startup Funding To Its Highest Level In More Than 3 Years",
+      "url": "https://news.crunchbase.com/venture/china-leads-startup-funding-ai-seed-growth-asia-q1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Asia’s startup funding swung higher in the first quarter of this year, boosted by a rebound in Chinese venture investment. Overall, investors put $27.4 billion to work across seed- through growth-stage financings for Asian companies in Q1, per Crunchbase data. That’s up about 20% from the prior quarter and nearly double year-ago levels. Total funding also hit its highest level in more than three years, as charted below. Funding went to bigger rounds, not more of them. Per Crunchbase data, deal counts were flat with the prior quarter and up incrementally from prior year levels. In general, deal counts haven’t fluctuated widely from quarter to quarter over the past few years, as seen in the chart below. Table of contents Most gains go to China Funding rose across stages, with most going to later stage Early stage was strong too Seed also showed an upswing A record quarter for AI Looking up Methodology Glossary of funding terms Most gains go to China An estimated $16.5 billion — or 60% of all Asian startup funding — went to China-based startups in Q1. It was also the third consecutive quarter for increased Chinese venture funding, which hit a multiyear low in the first half of 2025. AI funding drove the gains in China. The quarter’s largest rounds all went to AI-focused companies, including foundational model startup StepFun, agentic AI company Moonshot AI, and AI-enabled robot developer Galaxy Bot. After China, the next-largest venture funding recipient in Asia was India, with $3.8 billion in reported Q1 investment, the highest number in the past four quarters. A big chunk of the funding went to the quarter’s largest equity round, a $600 million financing for AI systems developer Neysa. Below, we chart out venture funding by country to seven leading investment hubs in Asia, showing how regional funding has trended since 2023. Funding rose across stages, with most going to later stage Later-stage, early-stage and seed funding all rose sequentially in the first quarter.",
+      "published": "2026-04-13T11:00:30+00:00",
+      "published_dt": "2026-04-13T11:00:30+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$27.4 billion",
+          "$16.5 billion",
+          "$3.8 billion",
+          "$600 million"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "China Leads Asia’s Startup Funding To Its Highest Level In More Than 3 Years (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：China Leads Asia’s Startup Funding To Its Highest Level In More Than 3 Years，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything",
+      "title": "Exploring the new `servo` crate",
+      "url": "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Research: Exploring the new `servo` crate In Servo is now available on crates.io the Servo team announced the initial release of the servo crate, which packages their browser engine as an embeddable library. I set Claude Code for web the task of figuring out what it can do, building a CLI tool for taking screenshots using it and working out if it could be compiled to WebAssembly. The servo-shot Rust tool it built works pretty well: git clone https://github.com/simonw/research cd research/servo-crate-exploration/servo-shot cargo build ./target/debug/servo-shot https://news.ycombinator.com/ Here's the result: Compiling Servo itself to WebAssembly is not feasible due to its heavy use of threads and dependencies like SpiderMonkey, but Claude did build me this playground page for trying out a WebAssembly build of the html5ever and markup5ever_rcdom crates, providing a tool for turning fragments of HTML into a parse tree. Tags: research, browsers, rust, webassembly, claude-code, servo",
+      "published": "2026-04-13T15:04:00+00:00",
+      "published_dt": "2026-04-13T15:04:00+00:00",
+      "score": 9.8,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "LoRA"
+        ]
+      },
+      "summary_en": "Exploring the new `servo` crate (Simon Willison) highlights a notable AI development with score 9.8.",
+      "summary_zh": "Simon Willison 报道：Exploring the new `servo` crate，综合评分 9.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3111750",
+      "title": "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge",
+      "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "While many startups founded prior to the emergence of ChatGPT are struggling to position themselves for the AI era, Vercel, a 10-year-old dev tool and website hosting platform, is benefiting from the explosion of AI-generated apps and agents.",
+      "published": "2026-04-13T15:22:29+00:00",
+      "published_dt": "2026-04-13T15:22:29+00:00",
+      "score": 7.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge (TechCrunch AI) highlights a notable AI development with score 7.4.",
+      "summary_zh": "TechCrunch AI 报道：Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge，综合评分 7.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-14T02:10:34.490378+00:00",
+      "published_dt": "2026-04-14T02:10:34.490378+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-14T02:10:34.490378+00:00",
+      "published_dt": "2026-04-14T02:10:34.490378+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=911118",
+      "title": "Read OpenAI&#8217;s latest internal memo about beating the competition — including Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge OpenAI's chief revenue officer, Denise Dresser, sent a four-page memo to employees on Sunday about the company's strategic direction, emphasizing the need to lock in users and grow its enterprise business. The memo, which was viewed by The Verge, repeatedly underlines the importance of building a moat around its AI products, to combat how easy it is for users to switch between whichever model is topping the charts on any given day or week. Dresser, who recently took over much of former COO Brad Lightcap's duties as he transitions to a new role focused on special projects, also emphasizes the importance of focusing on enterprise clients. It … Read the full story at The Verge.",
+      "published": "2026-04-13T16:21:08+00:00",
+      "published_dt": "2026-04-13T16:21:08+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Read OpenAI&#8217;s latest internal memo about beating the competition — including Anthropic (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Read OpenAI&#8217;s latest internal memo about beating the competition — including Anthropic，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3112057",
+      "title": "OpenAI has bought AI personal finance startup Hiro",
+      "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The acquisition indicates a capability that OpenAI is building into ChatGPT: financial planning.",
+      "published": "2026-04-14T00:23:33+00:00",
+      "published_dt": "2026-04-14T00:23:33+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI has bought AI personal finance startup Hiro (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI has bought AI personal finance startup Hiro，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3111806",
+      "title": "Microsoft is working on yet another OpenClaw-like agent",
+      "url": "https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The new features would be geared toward enterprise customers, with better security controls than the famously risky open source OpenClaw agent.",
+      "published": "2026-04-13T19:05:19+00:00",
+      "published_dt": "2026-04-13T19:05:19+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Microsoft is working on yet another OpenClaw-like agent (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Microsoft is working on yet another OpenClaw-like agent，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/cloudflare-openai-agent-cloud",
+      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
+      "published": "2026-04-13T06:00:00+00:00",
+      "published_dt": "2026-04-13T06:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Scale AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47750821",
+      "title": "Michigan 'digital age' bills pulled after privacy concerns raised",
+      "url": "https://www.thecentersquare.com/michigan/article_7ca4e268-4a68-42fb-9042-f9d8604ebd7f.html",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-13T12:05:35+00:00",
+      "published_dt": "2026-04-13T12:05:35+00:00",
+      "hn_score": 204,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Michigan 'digital age' bills pulled after privacy concerns raised (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：Michigan 'digital age' bills pulled after privacy concerns raised，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3111798",
+      "title": "Stanford report highlights growing disconnect between AI insiders and everyone else",
+      "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Stanford’s latest AI Index shows a widening gap between experts and the public, with rising anxiety over jobs, healthcare, and the economy.",
+      "published": "2026-04-13T18:55:37+00:00",
+      "published_dt": "2026-04-13T18:55:37+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Stanford report highlights growing disconnect between AI insiders and everyone else (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Stanford report highlights growing disconnect between AI insiders and everyone else，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47750872",
+      "title": "Servo is now available on crates.io",
+      "url": "https://servo.org/blog/2026/04/13/servo-0.1.0-release/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-13T12:12:22+00:00",
+      "published_dt": "2026-04-13T12:12:22+00:00",
+      "hn_score": 426,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Servo is now available on crates.io (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Servo is now available on crates.io，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3111482",
+      "title": "The largest orbital compute cluster is open for business",
+      "url": "https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Kepler Communications is flying 40 GPUs in Earth orbit. And its latest customer is Sophia Space.",
+      "published": "2026-04-13T07:01:00+00:00",
+      "published_dt": "2026-04-13T07:01:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The largest orbital compute cluster is open for business (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：The largest orbital compute cluster is open for business，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47747017",
+      "title": "Apple's accidental moat: How the \"AI Loser\" may end up winning",
+      "url": "https://adlrocha.substack.com/p/adlrocha-how-the-ai-loser-may-end",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-13T02:53:10+00:00",
+      "published_dt": "2026-04-13T02:53:10+00:00",
+      "hn_score": 401,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple's accidental moat: How the \"AI Loser\" may end up winning (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Apple's accidental moat: How the \"AI Loser\" may end up winning，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
