@@ -1,0 +1,2419 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T02:14:33",
+  "stats": {
+    "total_items": 39,
+    "high_importance": 6,
+    "medium_importance": 33,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
+      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+      "url": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "GPT-5.5 is out. It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things and it builds exactly what I ask for! There's one notable omission from today's release - the API: API deployments require different safeguards and we are working closely with partners and customers on the safety and security requirements for serving it at scale. We'll bring GPT‑5.5 and GPT‑5.5 Pro to the API very soon. When I run my pelican benchmark I always prefer to use an API, to avoid hidden system prompts in ChatGPT or other agent harnesses from impacting the results. The OpenClaw backdoor One of the ongoing tension points in the AI world over the past few months has concerned how agent harnesses like OpenClaw and Pi interact with the APIs provided by the big providers. Both OpenAI and Anthropic offer popular monthly subscriptions which provide access to their models at a significant discount to their raw API. OpenClaw integrated directly with this mechanism, and was then blocked from doing so by Anthropic. This kicked off a whole thing. OpenAI - who recently hired OpenClaw creator Peter Steinberger - saw an opportunity for an easy karma win and announced that OpenClaw was welcome to continue integrating with OpenAI's subscriptions via the same mechanism used by their (open source) Codex CLI tool. Does this mean anyone can write code that integrates with OpenAI's Codex-specific APIs to hook into those existing subscriptions? The other day Jeremy Howard asked: Anyone know whether OpenAI officially supports the use of the /backend-api/codex/responses endpoint that Pi and Opencode (IIUC) uses? It turned out that on March 30th OpenAI's Romain Huet had tweeted: We want people to be able to use Codex, and their ChatGPT subscription, wherever they like! That means in the ap",
+      "published": "2026-04-23T19:59:47+00:00",
+      "published_dt": "2026-04-23T19:59:47+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "benchmark",
+          "safety"
+        ]
+      },
+      "summary_en": "A pelican for GPT-5.5 via the semi-official Codex backdoor API (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：A pelican for GPT-5.5 via the semi-official Codex backdoor API，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93457",
+      "title": "Exclusive: Cloneable Raises $4.6M To ‘Clone’ Expert Worker Knowledge With Agentic AI For Utilities And Infrastructure",
+      "url": "https://news.crunchbase.com/venture/cloneable-cloning-expert-worker-knowledge-ai-infrastructure/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Cloneable, a startup that uses AI to shadow human experts in heavy industries such as energy and replicate their specialized workflows into autonomous agents, has raised $4.6 million in seed funding, the company tells Crunchbase News exclusively. Congruent Ventures led the raise, which included participation from First In, Overline, Bull City Venture Partners, and St. Elmo Venture Capital, the investment arm of customer Texas Area Telecom. It brings the Raleigh, North Carolina-based startup’s total raised to $5.35 million since its 2023 inception. The idea for Cloneable traces back to a bottleneck its founders encountered years earlier while working in the field. Tyler Collins, Lia Reich and Patrick Lohman, co-founders of Cloneable. (Courtesy photo) In 2019, as wildfires ravaged California, co-founders Lia Reich, Tyler Collins and Patrick Lohman — founding employees at drone company PrecisionHawk — were deployed to help inspect critical infrastructure. Their team sent out 150 drone pilots to survey thousands of miles of transmission lines. But reviewing that data proved far less scalable. When Reich visited a PG&E utility command center weeks later, she saw hundreds of workers manually scrubbing through video footage, while only a handful of experts knew what to look for. “It was an ‘aha’ moment,” she recalled. “We realized this cannot be the way. If we know what the expert is looking for, why can’t we just clone that expertise?” The startup’s founders realized that heavy industries — energy, oil and gas and agriculture — face a “knowledge crisis” as experienced workers retire faster than they can be replaced. “For every young worker entering the energy workforce, 2.4 experienced ones are walking out the door toward retirement. And it’s happening right as energy demand is set to double by 2050,” Reich, the company’s CEO, told Crunchbase News. Cloneable aims to capture and preserve that kind of institutional knowledge. In February 2025, it launched Cloneable Field fo",
+      "published": "2026-04-23T12:00:34+00:00",
+      "published_dt": "2026-04-23T12:00:34+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$4.6M",
+          "$4.6 million",
+          "$5.35 million",
+          "raised $4.6 million"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Exclusive: Cloneable Raises $4.6M To ‘Clone’ Expert Worker Knowledge With Agentic AI For Utilities And Infrastructure (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Exclusive: Cloneable Raises $4.6M To ‘Clone’ Expert Worker Knowledge With Agentic AI For Utilities And Infrastructure，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93459",
+      "title": "Sector Snapshot: EV Funding On Track For Modest Gains",
+      "url": "https://news.crunchbase.com/venture/modest-gains-for-electric-vehicle-funding-wayve/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Currently, electric cars 1 represent about 1 in 4 global vehicle purchases. Depending on how you look at it, that’s either a compelling growth story or a disappointing share relative to potential. On the positive side, EVs are gaining ground. In 2025, sales increased by more than 20% year on year, rising to 21 million units, per The International Energy Agency. On the other hand, early EV optimists assumed we’d be much further along by now. And while sales are up, the rate of growth is slowing, driven by affordability constraints, trade friction and shifting government incentives. The broad trend: Funding to EV-related startups reflects a similar mix of optimism and restraint. Investors are backing big rounds for a handful of upstart brands like customizable pickup truck maker Slate Auto and Rivian micromobility spin-out Also. Yet funding remains far below prior peaks and exit activity appears muted. The numbers: Companies in Crunchbase’s electric vehicle category are on track to see higher investment this year relative to last. Around $3.6 billion has gone to companies in the space so far in 2026, spread across about 50 rounds. However, we’re still nowhere near the 2021 cyclical peak, when nearly $19 billion went to global EV startups. For perspective, we charted investment and deal count since 2020 below. Noteworthy deals The largest round tied to the EV space this year went to Wayve, which isn’t an electric vehicle brand but rather a developer of autonomous driving technology that has been tested on EVs. The London-based company raised $1.2 billion in a February financing at an $8.6 billion valuation. Another standout fundraiser was Troy, Michigan-based Slate Auto, a developer of lower-cost electric pickup trucks that can be customized as SUVs. The Jeff Bezos-backed company raised $650 million in Series C funding last week and says it plans to deliver its first vehicles to customers later this year. The Rivian spin-out Also, focused on electric bikes and skinny f",
+      "published": "2026-04-23T11:00:17+00:00",
+      "published_dt": "2026-04-23T11:00:17+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$3.6 billion",
+          "$19 billion",
+          "$1.2 billion",
+          "$8.6 billion",
+          "$650 million",
+          "raised $1.2 billion",
+          "raised $650 million",
+          "Series C"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Sector Snapshot: EV Funding On Track For Modest Gains (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Sector Snapshot: EV Funding On Track For Modest Gains，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
+      "title": "[AINews] Tasteful Tokenmaxxing",
+      "url": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "It is Cloud Next today and Google TPUv8’s (training and inference iterations) were announced as expected, though the numbers are mindboggling, they mostly serve to reinforce the sheer hardware advantage that a decade of investment has given to GDM and any models they train and serve.Over the last 2 days with AIE Miami concluding (Singapore is next!) the top conversations we have been hearing from AI leadership (CTOs, VPs, Founders) have all centered around the concept of “Tokenmaxxing” and how leaders want to get their teams using more AI, WITHOUT the downside of incentivizing the kinds of horrendous waste our friend described at his AIE keynote.Dex Horthy, coiner of Context Engineering and “the Dumb Zone”, publicly retracted his extremely vibe-coding-pilled call 6 months ago and encouraged people to please read the code, citing ’s Z/L continuum from AIE Europe:timestampOff the record, many senior leaders I talk to are more on the Zechner side than the Lopopolo side of the Z/L spectrum — this does not mean that one side is true for every one in every situation, nor does it mean it will continue to be true with advancing model progress! To point out the most obvious, engineers and engineering leaders are the ones most setup to make a big deal out of minor architectural quality issues that sheer quantity of cheap code generation and code review might overcome.Today’s LS guest, Mikhail Parakhin, CTO of Shopify, had another take on the “tasteful tokenmaxxing” - you want to go for depth (e.g. do more serial autoresearch loops) than go for breadth (e.g. solve a problem by kicking off 5, 10, 50, 500 parallel runs of the LLM slot machine). Worth thinking through.AI News for 4/21/2026-4/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen Models: Qwen3.6-27B, OpenAI Privacy Filter, and Xiaomi",
+      "published": "2026-04-23T02:45:37+00:00",
+      "published_dt": "2026-04-23T02:45:37+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG",
+          "inference"
+        ]
+      },
+      "summary_en": "[AINews] Tasteful Tokenmaxxing (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Tasteful Tokenmaxxing，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=917690",
+      "title": "Meta is laying off 10 percent of its staff",
+      "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Mark Zuckerberg presenting at Meta Connect on September 17th, 2025. | Bloomberg via Getty Images Meta is planning to layoff around 10 percent of employees in May, according to a memo from the company's chief people officer, Janelle Gale, published by Bloomberg. That means approximately 8,000 people will see their jobs cut. Meta will also be closing around 6,000 open roles, according to Gale. The cuts follow Meta's significant investments in AI, including spending huge sums to hire top talent and build data centers. The company forecast in January that it will spend $115 billion to $135 billion in capital expenditures in 2026 - a significant increase from its $72.22 billion in capital expenditures for 2025. The increase is to \"support o … Read the full story at The Verge.",
+      "published": "2026-04-23T19:41:07+00:00",
+      "published_dt": "2026-04-23T19:41:07+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$115 billion",
+          "$135 billion",
+          "$72.22 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Meta is laying off 10 percent of its staff (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：Meta is laying off 10 percent of its staff，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
+          "title": "[AINews] Tasteful Tokenmaxxing",
+          "url": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "It is Cloud Next today and Google TPUv8’s (training and inference iterations) were announced as expected, though the numbers are mindboggling, they mostly serve to reinforce the sheer hardware advantage that a decade of investment has given to GDM and any models they train and serve.Over the last 2 days with AIE Miami concluding (Singapore is next!) the top conversations we have been hearing from AI leadership (CTOs, VPs, Founders) have all centered around the concept of “Tokenmaxxing” and how leaders want to get their teams using more AI, WITHOUT the downside of incentivizing the kinds of horrendous waste our friend described at his AIE keynote.Dex Horthy, coiner of Context Engineering and “the Dumb Zone”, publicly retracted his extremely vibe-coding-pilled call 6 months ago and encouraged people to please read the code, citing ’s Z/L continuum from AIE Europe:timestampOff the record, many senior leaders I talk to are more on the Zechner side than the Lopopolo side of the Z/L spectrum — this does not mean that one side is true for every one in every situation, nor does it mean it will continue to be true with advancing model progress! To point out the most obvious, engineers and engineering leaders are the ones most setup to make a big deal out of minor architectural quality issues that sheer quantity of cheap code generation and code review might overcome.Today’s LS guest, Mikhail Parakhin, CTO of Shopify, had another take on the “tasteful tokenmaxxing” - you want to go for depth (e.g. do more serial autoresearch loops) than go for breadth (e.g. solve a problem by kicking off 5, 10, 50, 500 parallel runs of the LLM slot machine). Worth thinking through.AI News for 4/21/2026-4/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen Models: Qwen3.6-27B, OpenAI Privacy Filter, and Xiaomi",
+          "published": "2026-04-23T02:45:37+00:00",
+          "published_dt": "2026-04-23T02:45:37+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "RAG",
+              "inference"
+            ]
+          },
+          "summary_en": "[AINews] Tasteful Tokenmaxxing (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] Tasteful Tokenmaxxing，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/unsupervised-learning-2026",
+          "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
+          "url": "https://www.latent.space/p/unsupervised-learning-2026",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Today, we check in a year after the first Unsupervised Learning x Latent Space Crossover special to discuss everything that has changed (there is a lot) in the world of AI. This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.Unsupervised Learning is a podcast that interviews the sharpest minds in AI about what’s real today, what will be real in the future and what it means for businesses and the world - helping builders, researchers and founders deconstruct and understand the biggest breakthroughs.Thanks to Jacob and the UL production team for hosting and editing this!Jacob EffronLinkedIn: https://www.linkedin.com/in/jacobeffron/X: https://x.com/jacobeffronFull Episode on Their YouTubeWe discuss:swyx’s view from the center of the AI engineering zeitgeist: OpenClaw, harness engineering, context engineering, evals, observability, GPUs, multimodality, and why conference tracks now reveal what matters most in AIWhether AI infrastructure has finally stabilized: why “skills” may be the minimal viable packaging format for agents, why infra companies have had to reinvent themselves every year, and why application companies have had an easier time surviving model volatilityThe vertical vs. horizontal AI startup debate: why application companies can act as the outsourced AI team for enterprises, why some horizontal companies still matter, and why sandboxes may be the clearest reinvention of classic cloud infrastructure for the AI eraThe “agent lab” playbook: starting with frontier models, specializing for your domain, then training your own models once you have enough data, workload, and user behavior to justify the cost and latency savingsWhy domain-specific model training is real, not just marketing: how companies like Cursor and Cognition can get users to choose their in-house models, and why search, domain specialization, and distillation are becoming more importantOpen models, custom chips, and alternative inference infrastructure: why swyx ha",
+          "published": "2026-04-23T19:37:19+00:00",
+          "published_dt": "2026-04-23T19:37:19+00:00",
+          "score": 8.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "inference",
+              "agent",
+              "multimodal",
+              "distillation"
+            ]
+          },
+          "summary_en": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026) (Latent Space) highlights a notable AI development with score 8.8.",
+          "summary_zh": "Latent Space 报道：AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)，综合评分 8.8，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3115577",
+          "title": "Another customer of troubled startup Delve suffered a big security incident",
+          "url": "https://techcrunch.com/2026/04/23/another-customer-of-troubled-startup-delve-suffered-a-big-security-incident/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "TechCrunch has confirmed that Delve was the compliance company that performed the security certifications for Context AI, the AI agent training startup that last week disclosed a security incident.",
+          "published": "2026-04-23T14:00:00+00:00",
+          "published_dt": "2026-04-23T14:00:00+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Another customer of troubled startup Delve suffered a big security incident (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：Another customer of troubled startup Delve suffered a big security incident，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47874814",
+          "title": "Investigation uncovers two sophisticated telecom surveillance campaigns",
+          "url": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://citizenlab.ca/research/uncovering-global-telecom-exp...",
+          "published": "2026-04-23T12:12:03+00:00",
+          "published_dt": "2026-04-23T12:12:03+00:00",
+          "hn_score": 370,
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Investigation uncovers two sophisticated telecom surveillance campaigns (Hacker News) highlights a notable AI development with score 6.6.",
+          "summary_zh": "Hacker News 报道：Investigation uncovers two sophisticated telecom surveillance campaigns，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 7,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93457",
+          "title": "Exclusive: Cloneable Raises $4.6M To ‘Clone’ Expert Worker Knowledge With Agentic AI For Utilities And Infrastructure",
+          "url": "https://news.crunchbase.com/venture/cloneable-cloning-expert-worker-knowledge-ai-infrastructure/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Cloneable, a startup that uses AI to shadow human experts in heavy industries such as energy and replicate their specialized workflows into autonomous agents, has raised $4.6 million in seed funding, the company tells Crunchbase News exclusively. Congruent Ventures led the raise, which included participation from First In, Overline, Bull City Venture Partners, and St. Elmo Venture Capital, the investment arm of customer Texas Area Telecom. It brings the Raleigh, North Carolina-based startup’s total raised to $5.35 million since its 2023 inception. The idea for Cloneable traces back to a bottleneck its founders encountered years earlier while working in the field. Tyler Collins, Lia Reich and Patrick Lohman, co-founders of Cloneable. (Courtesy photo) In 2019, as wildfires ravaged California, co-founders Lia Reich, Tyler Collins and Patrick Lohman — founding employees at drone company PrecisionHawk — were deployed to help inspect critical infrastructure. Their team sent out 150 drone pilots to survey thousands of miles of transmission lines. But reviewing that data proved far less scalable. When Reich visited a PG&E utility command center weeks later, she saw hundreds of workers manually scrubbing through video footage, while only a handful of experts knew what to look for. “It was an ‘aha’ moment,” she recalled. “We realized this cannot be the way. If we know what the expert is looking for, why can’t we just clone that expertise?” The startup’s founders realized that heavy industries — energy, oil and gas and agriculture — face a “knowledge crisis” as experienced workers retire faster than they can be replaced. “For every young worker entering the energy workforce, 2.4 experienced ones are walking out the door toward retirement. And it’s happening right as energy demand is set to double by 2050,” Reich, the company’s CEO, told Crunchbase News. Cloneable aims to capture and preserve that kind of institutional knowledge. In February 2025, it launched Cloneable Field fo",
+          "published": "2026-04-23T12:00:34+00:00",
+          "published_dt": "2026-04-23T12:00:34+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$4.6M",
+              "$4.6 million",
+              "$5.35 million",
+              "raised $4.6 million"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Exclusive: Cloneable Raises $4.6M To ‘Clone’ Expert Worker Knowledge With Agentic AI For Utilities And Infrastructure (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Exclusive: Cloneable Raises $4.6M To ‘Clone’ Expert Worker Knowledge With Agentic AI For Utilities And Infrastructure，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93459",
+          "title": "Sector Snapshot: EV Funding On Track For Modest Gains",
+          "url": "https://news.crunchbase.com/venture/modest-gains-for-electric-vehicle-funding-wayve/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Currently, electric cars 1 represent about 1 in 4 global vehicle purchases. Depending on how you look at it, that’s either a compelling growth story or a disappointing share relative to potential. On the positive side, EVs are gaining ground. In 2025, sales increased by more than 20% year on year, rising to 21 million units, per The International Energy Agency. On the other hand, early EV optimists assumed we’d be much further along by now. And while sales are up, the rate of growth is slowing, driven by affordability constraints, trade friction and shifting government incentives. The broad trend: Funding to EV-related startups reflects a similar mix of optimism and restraint. Investors are backing big rounds for a handful of upstart brands like customizable pickup truck maker Slate Auto and Rivian micromobility spin-out Also. Yet funding remains far below prior peaks and exit activity appears muted. The numbers: Companies in Crunchbase’s electric vehicle category are on track to see higher investment this year relative to last. Around $3.6 billion has gone to companies in the space so far in 2026, spread across about 50 rounds. However, we’re still nowhere near the 2021 cyclical peak, when nearly $19 billion went to global EV startups. For perspective, we charted investment and deal count since 2020 below. Noteworthy deals The largest round tied to the EV space this year went to Wayve, which isn’t an electric vehicle brand but rather a developer of autonomous driving technology that has been tested on EVs. The London-based company raised $1.2 billion in a February financing at an $8.6 billion valuation. Another standout fundraiser was Troy, Michigan-based Slate Auto, a developer of lower-cost electric pickup trucks that can be customized as SUVs. The Jeff Bezos-backed company raised $650 million in Series C funding last week and says it plans to deliver its first vehicles to customers later this year. The Rivian spin-out Also, focused on electric bikes and skinny f",
+          "published": "2026-04-23T11:00:17+00:00",
+          "published_dt": "2026-04-23T11:00:17+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$3.6 billion",
+              "$19 billion",
+              "$1.2 billion",
+              "$8.6 billion",
+              "$650 million",
+              "raised $1.2 billion",
+              "raised $650 million",
+              "Series C"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Sector Snapshot: EV Funding On Track For Modest Gains (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Sector Snapshot: EV Funding On Track For Modest Gains，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=917690",
+          "title": "Meta is laying off 10 percent of its staff",
+          "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Mark Zuckerberg presenting at Meta Connect on September 17th, 2025. | Bloomberg via Getty Images Meta is planning to layoff around 10 percent of employees in May, according to a memo from the company's chief people officer, Janelle Gale, published by Bloomberg. That means approximately 8,000 people will see their jobs cut. Meta will also be closing around 6,000 open roles, according to Gale. The cuts follow Meta's significant investments in AI, including spending huge sums to hire top talent and build data centers. The company forecast in January that it will spend $115 billion to $135 billion in capital expenditures in 2026 - a significant increase from its $72.22 billion in capital expenditures for 2025. The increase is to \"support o … Read the full story at The Verge.",
+          "published": "2026-04-23T19:41:07+00:00",
+          "published_dt": "2026-04-23T19:41:07+00:00",
+          "score": 9.2,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$115 billion",
+              "$135 billion",
+              "$72.22 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Meta is laying off 10 percent of its staff (The Verge AI) highlights a notable AI development with score 9.2.",
+          "summary_zh": "The Verge AI 报道：Meta is laying off 10 percent of its staff，综合评分 9.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything",
+          "title": "Serving the For You feed",
+          "url": "https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Serving the For You feed One of Bluesky's most interesting features is that anyone can run their own custom \"feed\" implementation and make it available to other users - effectively enabling custom algorithms that can use any mechanism they like to recommend posts. spacecowboy runs the For You Feed, used by around 72,000 people. This guest post on the AT Protocol blog explains how it works. The architecture is fascinating. The feed is served by a single Go process using SQLite on a \"gaming\" PC in spacecowboy's living room - 16 cores, 96GB of RAM and 4TB of attached NVMe storage. Recommendations are based on likes: what else are the people who like the same things as you liking on the platform? That Go server consumes the Bluesky firehose and stores the relevant details in SQLite, keeping the last 90 days of relevant data, which currently uses around 419GB of SQLite storage. Public internet traffic is handled by a $7/month VPS on OVH, which talks to the living room server via Tailscale. Total cost is now $30/month: $20 in electricity, $7 in VPS and $3 for the two domain names. spacecowboy estimates that the existing system could handle all ~1 million daily active Bluesky users if they were to switch to the cheapest algorithm they have found to work. Tags: go, scaling, sqlite, software-architecture, tailscale, bluesky",
+          "published": "2026-04-24T01:08:17+00:00",
+          "published_dt": "2026-04-24T01:08:17+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Serving the For You feed (Simon Willison) highlights a notable AI development with score 6.4.",
+          "summary_zh": "Simon Willison 报道：Serving the For You feed，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/",
+          "title": "In a first, a ransomware family is confirmed to be quantum-safe",
+          "url": "https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "A relatively new ransomware family is using a novel approach to hype the strength of the encryption used to scramble files—making, or at least claiming, that it is protected against attacks by quantum computers. Kyber, as the ransomware is called, has been around since at least last September and quickly attracted attention for the claim that it used ML-KEM, short for Module Lattice-based Key Encapsulation Mechanism and is a standard shepherded by the National Institute of Standards and Technology. The Kyber ransomware name comes from the alternate name for ML-KEM, which is also Kyber. For the rest of the article, Kyber refers to the ransomware; the algorithm is referred to as ML-KEM. It's all about marketing ML-KEM is an asymmetric encryption method for exchanging keys. It involves problems based on lattices, a structure in mathematics that quantum computers have no advantage in solving over classic computing. ML-KEM is designed to replace Elliptic Curve and RSA cryptosystems, both of which are based on problems that quantum computers with sufficient strength can tackle.Read full article Comments",
+          "published": "2026-04-23T20:41:23+00:00",
+          "published_dt": "2026-04-23T20:41:23+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "In a first, a ransomware family is confirmed to be quantum-safe (Ars Technica) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Ars Technica 报道：In a first, a ransomware family is confirmed to be quantum-safe，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=917029",
+          "title": "THE PEOPLE DO NOT YEARN FOR AUTOMATION",
+          "url": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Today on Decoder, I want to lay out an idea that’s been banging around my head for weeks now as we’ve been reporting on AI and having conversations here on this show. I’ve been calling it software brain, and it’s a particular way of seeing the world that fits everything into algorithms, databases and loops — software. Software brain is powerful stuff. It’s a way of thinking that basically created our modern world. Marc Andreessen, the literal embodiment of software brain, called it in 2011 when he wrote the piece “Why software is eating the world” as an op-ed in The Wall Street Journal. But software thinking has been turbocharged by AI in a way that I think helps explain the enormous gap between how excited the tech industry is about the technology and how regular people are growing to dislike it more and more over time. In fact, the polling on this is so strong, I think it’s fair to say that a lot of people hate AI, and that Gen Z in particular seems to hate AI more and more as they encounter it. There’s that NBC News poll showing AI with worse favorability than ICE and only a little bit above the war in Iran and the Democrats generally. That’s with nearly two thirds of respondents saying they used ChatGPT or Copilot in the last month. Quinnipiac just found that over half of Americans think AI will do more harm than good, while more than 80 percent of people were either very concerned or somewhat concerned about the technology. Only 35 percent of people were excited about it. Poll after poll shows that Gen Z uses AI the most and has the most negative feelings about it. A recent Gallup poll found that only 18 percent of Gen Z was hopeful about AI, down from an already-bad 27 percent last year. At the same time, anger is growing: 31 percent of those Gen Z respondents said they feel angry about AI, up from 22 percent last year. Now, I obviously talk to a lot of tech executives and policy people here on Decoder, and I will tell you, they all know AI isn’t popular, and ",
+          "published": "2026-04-23T14:00:00+00:00",
+          "published_dt": "2026-04-23T14:00:00+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "THE PEOPLE DO NOT YEARN FOR AUTOMATION (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：THE PEOPLE DO NOT YEARN FOR AUTOMATION，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+          "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+          "source": "Google AI Blog",
+          "source_type": "rss",
+          "content": "Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This facility …",
+          "published": "2026-04-23T09:00:00+00:00",
+          "published_dt": "2026-04-23T09:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Elevating Austria: Google invests in its first data center in the Alps. (Google AI Blog) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Google AI Blog 报道：Elevating Austria: Google invests in its first data center in the Alps.，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3115915",
+          "title": "Bret Taylor’s Sierra buys YC-backed AI startup Fragment",
+          "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Sierra, the AI customer service agent startup founded by technologist Bret Taylor, announced today that it has acquired the YC-backed French startup Fragment.",
+          "published": "2026-04-23T21:00:00+00:00",
+          "published_dt": "2026-04-23T21:00:00+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "agent"
+            ]
+          },
+          "summary_en": "Bret Taylor’s Sierra buys YC-backed AI startup Fragment (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：Bret Taylor’s Sierra buys YC-backed AI startup Fragment，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 8,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
+          "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+          "url": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "GPT-5.5 is out. It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things and it builds exactly what I ask for! There's one notable omission from today's release - the API: API deployments require different safeguards and we are working closely with partners and customers on the safety and security requirements for serving it at scale. We'll bring GPT‑5.5 and GPT‑5.5 Pro to the API very soon. When I run my pelican benchmark I always prefer to use an API, to avoid hidden system prompts in ChatGPT or other agent harnesses from impacting the results. The OpenClaw backdoor One of the ongoing tension points in the AI world over the past few months has concerned how agent harnesses like OpenClaw and Pi interact with the APIs provided by the big providers. Both OpenAI and Anthropic offer popular monthly subscriptions which provide access to their models at a significant discount to their raw API. OpenClaw integrated directly with this mechanism, and was then blocked from doing so by Anthropic. This kicked off a whole thing. OpenAI - who recently hired OpenClaw creator Peter Steinberger - saw an opportunity for an easy karma win and announced that OpenClaw was welcome to continue integrating with OpenAI's subscriptions via the same mechanism used by their (open source) Codex CLI tool. Does this mean anyone can write code that integrates with OpenAI's Codex-specific APIs to hook into those existing subscriptions? The other day Jeremy Howard asked: Anyone know whether OpenAI officially supports the use of the /backend-api/codex/responses endpoint that Pi and Opencode (IIUC) uses? It turned out that on March 30th OpenAI's Romain Huet had tweeted: We want people to be able to use Codex, and their ChatGPT subscription, wherever they like! That means in the ap",
+          "published": "2026-04-23T19:59:47+00:00",
+          "published_dt": "2026-04-23T19:59:47+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "benchmark",
+              "safety"
+            ]
+          },
+          "summary_en": "A pelican for GPT-5.5 via the semi-official Codex backdoor API (Simon Willison) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Simon Willison 报道：A pelican for GPT-5.5 via the semi-official Codex backdoor API，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=917644",
+          "title": "Anthropic&#8217;s Mythos breach was humiliating",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Anthropic's tightly controlled rollout of Claude Mythos has taken an awkward turn. After spending weeks insisting the AI model is so capable at cybersecurity that it is too dangerous to release publicly, it appears the model fell into the wrong hands anyway. According to Bloomberg, a \"small group of unauthorized users\" has had access to Mythos - whose existence was first revealed in a leak - since the day Anthropic announced plans to offer it to a select group of companies for testing. Anthropic says it is investigating. That's a rough look for a company that has built its brand on taking AI safety seriously while touting the cybersecurity … Read the full story at The Verge.",
+          "published": "2026-04-23T18:24:56+00:00",
+          "published_dt": "2026-04-23T18:24:56+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "Anthropic&#8217;s Mythos breach was humiliating (The Verge AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "The Verge AI 报道：Anthropic&#8217;s Mythos breach was humiliating，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+          "title": "Sign of the future: GPT-5.5",
+          "url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+          "source": "One Useful Thing (Ethan Mollick)",
+          "source_type": "rss",
+          "content": "I had early access to GPT-5.51, and I think it is a big deal. It is a big deal because it indicates that we are not done with the rapid improvement in AI. It is also a big deal because it is just plain good. And it is a big deal because even with all of this, the frontier of AI ability remains jagged.It is increasingly hard to quickly demonstrate each generational change as AI has gotten better, since a lot of the old things AI was bad at, like math or counting letters in words, are now trivial for AI to do. So, I will give you the complicated details, but first, a simple example that I think is a good illustration. What AI models are best at is coding, so I gave a coding challenge to AIs ranging from OpenAI’s first reasoning model, o3 (released a year and a week ago!) to the current best open weights model (Kimi K2.6) to the new GPT-5.5 Pro: “build me a procedurally generated 3D simulation showing the evolution of a harbor town from 3000 BCE to 3000 AD, it should look beautiful and allow me to have some control over it.” Then I posted every answer to this gallery so you can experiment with them (actually, I had GPT-5.5 Codex build the gallery page for me). You should play with them to feel the difference, but you can see a few of these examples below. In addition to being better along all the other dimensions, only GPT-5.5 Pro actually modelled an evolving town, rather than just generating new building replacements over time. GPT-5.5 Pro is also much faster than its previous iteration: GPT-5.4 Pro took 33 minutes to complete the task, GPT-5.5 Pro took 20.Models, Apps, and HarnessesI have been encouraging you to think about AI not as a single thing, but as a set of three interlinked concepts. You need to consider models, like Opus 4.7, Gemini 3.1, or (now) GPT-5.5. You also want to pay attention to apps, which are the products you actually use to talk to a model, and which let models do real work for you. The most common app is the website for each of these models: ",
+          "published": "2026-04-23T20:00:38+00:00",
+          "published_dt": "2026-04-23T20:00:38+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "reasoning model"
+            ]
+          },
+          "summary_en": "Sign of the future: GPT-5.5 (One Useful Thing (Ethan Mollick)) highlights a notable AI development with score 6.9.",
+          "summary_zh": "One Useful Thing (Ethan Mollick) 报道：Sign of the future: GPT-5.5，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=917612",
+          "title": "OpenAI says its new GPT-5.5 model is more efficient and better at coding",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/917612/openai-gpt-5-5-chatgpt",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "OpenAI just announced its new GPT-5.5 model, which the company calls its \"smartest and most intuitive to use model yet, and the next step toward a new way of getting work done on a computer.\" OpenAI just released GPT-5.4 last month, but says that the new GPT-5.5 \"excels\" at tasks like writing and debugging code, doing research online, making spreadsheets and documents, and doing that work across different tools. \"Instead of carefully managing every step, you can give GPT-5.5 a messy, multi-part task and trust it to plan, use tools, check its work, navigate through ambiguity, and keep going,\" according to OpenAI. The company also notes that … Read the full story at The Verge.",
+          "published": "2026-04-23T18:00:00+00:00",
+          "published_dt": "2026-04-23T18:00:00+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI says its new GPT-5.5 model is more efficient and better at coding (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：OpenAI says its new GPT-5.5 model is more efficient and better at coding，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47878905",
+          "title": "An update on recent Claude Code quality reports",
+          "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-23T17:48:38+00:00",
+          "published_dt": "2026-04-23T17:48:38+00:00",
+          "hn_score": 584,
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "An update on recent Claude Code quality reports (Hacker News) highlights a notable AI development with score 6.8.",
+          "summary_zh": "Hacker News 报道：An update on recent Claude Code quality reports，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3115809",
+          "title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’",
+          "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI says its latest model offers increased capabilities across a broad variety of categories.",
+          "published": "2026-04-23T18:29:29+00:00",
+          "published_dt": "2026-04-23T18:29:29+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’ (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3115539",
+          "title": "Beehiiv rolls out new creator tools, including webinars and customizable paywalls",
+          "url": "https://techcrunch.com/2026/04/23/beehiiv-rolls-out-new-creator-tools-including-webinars-and-customizable-paywalls/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The announcement is a clear sign the company is trying to become an all-in-one hub for creators, reducing the hassle of juggling various tools and services to run their businesses.",
+          "published": "2026-04-23T12:00:00+00:00",
+          "published_dt": "2026-04-23T12:00:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Beehiiv rolls out new creator tools, including webinars and customizable paywalls (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Beehiiv rolls out new creator tools, including webinars and customizable paywalls，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=917328",
+          "title": "Microsoft launches ‘vibe working’ in Word, Excel, and PowerPoint",
+          "url": "https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Microsoft is rolling out a new Agent Mode inside Office apps like Word, Excel, and PowerPoint this week. Previously described by Microsoft as \"vibe working,\" the Agent Mode is a more powerful version of the Copilot experience in Office that Microsoft has been trying to sell to businesses. \"When we first shipped Copilot, foundation models were not powerful enough to use Copilot to command the applications,\" admits Sumit Chauhan, corporate vice president of Microsoft's Office Product Group. \"This meant Copilot was a passive partner in documents: it could answer questions but missed the mark when it was asked to take action on the canvas direc … Read the full story at The Verge.",
+          "published": "2026-04-23T11:34:18+00:00",
+          "published_dt": "2026-04-23T11:34:18+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Microsoft launches ‘vibe working’ in Word, Excel, and PowerPoint (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Microsoft launches ‘vibe working’ in Word, Excel, and PowerPoint，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3114062",
+          "title": "Era raises $11M to build a software platform for AI gadgets",
+          "url": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Era thinks that we will see many form factors of AI hardware, including glasses, rings, and pendants.",
+          "published": "2026-04-23T16:00:00+00:00",
+          "published_dt": "2026-04-23T16:00:00+00:00",
+          "score": 6.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$11M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Era raises $11M to build a software platform for AI gadgets (TechCrunch AI) highlights a notable AI development with score 6.5.",
+          "summary_zh": "TechCrunch AI 报道：Era raises $11M to build a software platform for AI gadgets，综合评分 6.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47879092",
+          "title": "GPT-5.5",
+          "url": "https://openai.com/index/introducing-gpt-5-5/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-23T18:01:39+00:00",
+          "published_dt": "2026-04-23T18:01:39+00:00",
+          "hn_score": 1103,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "GPT-5.5 (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：GPT-5.5，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47876043",
+          "title": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
+          "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-23T14:17:08+00:00",
+          "published_dt": "2026-04-23T14:17:08+00:00",
+          "hn_score": 648,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/gpt-5-5-system-card",
+          "title": "GPT-5.5 System Card",
+          "url": "https://openai.com/index/gpt-5-5-system-card",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-04-23T11:00:00+00:00",
+          "published_dt": "2026-04-23T11:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "GPT-5.5 System Card (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：GPT-5.5 System Card，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/academy/codex-automations",
+          "title": "Automations",
+          "url": "https://openai.com/academy/codex-automations",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+          "published": "2026-04-23T10:00:00+00:00",
+          "published_dt": "2026-04-23T10:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Automations (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Automations，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+          "title": "Top 10 uses for Codex at work",
+          "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+          "published": "2026-04-23T10:00:00+00:00",
+          "published_dt": "2026-04-23T10:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Top 10 uses for Codex at work (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Top 10 uses for Codex at work，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/academy/codex-plugins-and-skills",
+          "title": "Plugins and skills",
+          "url": "https://openai.com/academy/codex-plugins-and-skills",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+          "published": "2026-04-23T10:00:00+00:00",
+          "published_dt": "2026-04-23T10:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Plugins and skills (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Plugins and skills，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/academy/working-with-codex",
+          "title": "Working with Codex",
+          "url": "https://openai.com/academy/working-with-codex",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+          "published": "2026-04-23T10:00:00+00:00",
+          "published_dt": "2026-04-23T10:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Working with Codex (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Working with Codex，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/academy/codex-settings",
+          "title": "Codex settings",
+          "url": "https://openai.com/academy/codex-settings",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+          "published": "2026-04-23T10:00:00+00:00",
+          "published_dt": "2026-04-23T10:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Codex settings (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Codex settings，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/academy/what-is-codex",
+          "title": "What is Codex?",
+          "url": "https://openai.com/academy/what-is-codex",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+          "published": "2026-04-23T10:00:00+00:00",
+          "published_dt": "2026-04-23T10:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "What is Codex? (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：What is Codex?，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-24T02:14:30.182608+00:00",
+          "published_dt": "2026-04-24T02:14:30.182608+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-24T02:14:30.182608+00:00",
+          "published_dt": "2026-04-24T02:14:30.182608+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
+          "title": "Extract PDF text in your browser with LiteParse for the web",
+          "url": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "LlamaIndex have a most excellent open source project called LiteParse, which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshingly, LiteParse doesn't use AI models to do what it does: it's good old-fashioned PDF parsing, falling back to Tesseract OCR (or other pluggable OCR engines) for PDFs that contain images of text rather than the text itself. The hard problem that LiteParse solves is extracting text in a sensible order despite the infuriating vagaries of PDF layouts. They describe this as \"spatial text parsing\" - they use some very clever heuristics to detect things like multi-column layouts and group and return the text in a sensible linear flow. The LiteParse documentation describes a pattern for implementing Visual Citations with Bounding Boxes. I really like this idea: being able to answer questions from a PDF and accompany those answers with cropped, highlighted images feels like a great way of increasing the credibility of answers from RAG-style Q&A. LiteParse is provided as a pure CLI tool, designed to be used by agents. You run it like this: npm i -g @llamaindex/liteparse lit parse document.pdf I explored its capabilities with Claude and quickly determined that there was no real reason it had to stay a CLI app: it's built on top of PDF.js and Tesseract.js, two libraries I've used for something similar in a browser in the past. The only reason LiteParse didn't have a pure browser-based version is that nobody had built one yet... Introducing LiteParse for the web Visit https://simonw.github.io/liteparse/ to try out LiteParse against any PDF file, running entirely in your browser. Here's what that looks like: The tool can work with or without running OCR, and can optionally display images for every page in the PDF further down the page. Building it with Claude Code and Opus 4.7 The proc",
+          "published": "2026-04-23T21:54:24+00:00",
+          "published_dt": "2026-04-23T21:54:24+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "agent"
+            ]
+          },
+          "summary_en": "Extract PDF text in your browser with LiteParse for the web (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：Extract PDF text in your browser with LiteParse for the web，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
+      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+      "url": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "GPT-5.5 is out. It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things and it builds exactly what I ask for! There's one notable omission from today's release - the API: API deployments require different safeguards and we are working closely with partners and customers on the safety and security requirements for serving it at scale. We'll bring GPT‑5.5 and GPT‑5.5 Pro to the API very soon. When I run my pelican benchmark I always prefer to use an API, to avoid hidden system prompts in ChatGPT or other agent harnesses from impacting the results. The OpenClaw backdoor One of the ongoing tension points in the AI world over the past few months has concerned how agent harnesses like OpenClaw and Pi interact with the APIs provided by the big providers. Both OpenAI and Anthropic offer popular monthly subscriptions which provide access to their models at a significant discount to their raw API. OpenClaw integrated directly with this mechanism, and was then blocked from doing so by Anthropic. This kicked off a whole thing. OpenAI - who recently hired OpenClaw creator Peter Steinberger - saw an opportunity for an easy karma win and announced that OpenClaw was welcome to continue integrating with OpenAI's subscriptions via the same mechanism used by their (open source) Codex CLI tool. Does this mean anyone can write code that integrates with OpenAI's Codex-specific APIs to hook into those existing subscriptions? The other day Jeremy Howard asked: Anyone know whether OpenAI officially supports the use of the /backend-api/codex/responses endpoint that Pi and Opencode (IIUC) uses? It turned out that on March 30th OpenAI's Romain Huet had tweeted: We want people to be able to use Codex, and their ChatGPT subscription, wherever they like! That means in the ap",
+      "published": "2026-04-23T19:59:47+00:00",
+      "published_dt": "2026-04-23T19:59:47+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "benchmark",
+          "safety"
+        ]
+      },
+      "summary_en": "A pelican for GPT-5.5 via the semi-official Codex backdoor API (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：A pelican for GPT-5.5 via the semi-official Codex backdoor API，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93457",
+      "title": "Exclusive: Cloneable Raises $4.6M To ‘Clone’ Expert Worker Knowledge With Agentic AI For Utilities And Infrastructure",
+      "url": "https://news.crunchbase.com/venture/cloneable-cloning-expert-worker-knowledge-ai-infrastructure/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Cloneable, a startup that uses AI to shadow human experts in heavy industries such as energy and replicate their specialized workflows into autonomous agents, has raised $4.6 million in seed funding, the company tells Crunchbase News exclusively. Congruent Ventures led the raise, which included participation from First In, Overline, Bull City Venture Partners, and St. Elmo Venture Capital, the investment arm of customer Texas Area Telecom. It brings the Raleigh, North Carolina-based startup’s total raised to $5.35 million since its 2023 inception. The idea for Cloneable traces back to a bottleneck its founders encountered years earlier while working in the field. Tyler Collins, Lia Reich and Patrick Lohman, co-founders of Cloneable. (Courtesy photo) In 2019, as wildfires ravaged California, co-founders Lia Reich, Tyler Collins and Patrick Lohman — founding employees at drone company PrecisionHawk — were deployed to help inspect critical infrastructure. Their team sent out 150 drone pilots to survey thousands of miles of transmission lines. But reviewing that data proved far less scalable. When Reich visited a PG&E utility command center weeks later, she saw hundreds of workers manually scrubbing through video footage, while only a handful of experts knew what to look for. “It was an ‘aha’ moment,” she recalled. “We realized this cannot be the way. If we know what the expert is looking for, why can’t we just clone that expertise?” The startup’s founders realized that heavy industries — energy, oil and gas and agriculture — face a “knowledge crisis” as experienced workers retire faster than they can be replaced. “For every young worker entering the energy workforce, 2.4 experienced ones are walking out the door toward retirement. And it’s happening right as energy demand is set to double by 2050,” Reich, the company’s CEO, told Crunchbase News. Cloneable aims to capture and preserve that kind of institutional knowledge. In February 2025, it launched Cloneable Field fo",
+      "published": "2026-04-23T12:00:34+00:00",
+      "published_dt": "2026-04-23T12:00:34+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$4.6M",
+          "$4.6 million",
+          "$5.35 million",
+          "raised $4.6 million"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Exclusive: Cloneable Raises $4.6M To ‘Clone’ Expert Worker Knowledge With Agentic AI For Utilities And Infrastructure (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Exclusive: Cloneable Raises $4.6M To ‘Clone’ Expert Worker Knowledge With Agentic AI For Utilities And Infrastructure，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93459",
+      "title": "Sector Snapshot: EV Funding On Track For Modest Gains",
+      "url": "https://news.crunchbase.com/venture/modest-gains-for-electric-vehicle-funding-wayve/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Currently, electric cars 1 represent about 1 in 4 global vehicle purchases. Depending on how you look at it, that’s either a compelling growth story or a disappointing share relative to potential. On the positive side, EVs are gaining ground. In 2025, sales increased by more than 20% year on year, rising to 21 million units, per The International Energy Agency. On the other hand, early EV optimists assumed we’d be much further along by now. And while sales are up, the rate of growth is slowing, driven by affordability constraints, trade friction and shifting government incentives. The broad trend: Funding to EV-related startups reflects a similar mix of optimism and restraint. Investors are backing big rounds for a handful of upstart brands like customizable pickup truck maker Slate Auto and Rivian micromobility spin-out Also. Yet funding remains far below prior peaks and exit activity appears muted. The numbers: Companies in Crunchbase’s electric vehicle category are on track to see higher investment this year relative to last. Around $3.6 billion has gone to companies in the space so far in 2026, spread across about 50 rounds. However, we’re still nowhere near the 2021 cyclical peak, when nearly $19 billion went to global EV startups. For perspective, we charted investment and deal count since 2020 below. Noteworthy deals The largest round tied to the EV space this year went to Wayve, which isn’t an electric vehicle brand but rather a developer of autonomous driving technology that has been tested on EVs. The London-based company raised $1.2 billion in a February financing at an $8.6 billion valuation. Another standout fundraiser was Troy, Michigan-based Slate Auto, a developer of lower-cost electric pickup trucks that can be customized as SUVs. The Jeff Bezos-backed company raised $650 million in Series C funding last week and says it plans to deliver its first vehicles to customers later this year. The Rivian spin-out Also, focused on electric bikes and skinny f",
+      "published": "2026-04-23T11:00:17+00:00",
+      "published_dt": "2026-04-23T11:00:17+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$3.6 billion",
+          "$19 billion",
+          "$1.2 billion",
+          "$8.6 billion",
+          "$650 million",
+          "raised $1.2 billion",
+          "raised $650 million",
+          "Series C"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Sector Snapshot: EV Funding On Track For Modest Gains (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Sector Snapshot: EV Funding On Track For Modest Gains，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
+      "title": "[AINews] Tasteful Tokenmaxxing",
+      "url": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "It is Cloud Next today and Google TPUv8’s (training and inference iterations) were announced as expected, though the numbers are mindboggling, they mostly serve to reinforce the sheer hardware advantage that a decade of investment has given to GDM and any models they train and serve.Over the last 2 days with AIE Miami concluding (Singapore is next!) the top conversations we have been hearing from AI leadership (CTOs, VPs, Founders) have all centered around the concept of “Tokenmaxxing” and how leaders want to get their teams using more AI, WITHOUT the downside of incentivizing the kinds of horrendous waste our friend described at his AIE keynote.Dex Horthy, coiner of Context Engineering and “the Dumb Zone”, publicly retracted his extremely vibe-coding-pilled call 6 months ago and encouraged people to please read the code, citing ’s Z/L continuum from AIE Europe:timestampOff the record, many senior leaders I talk to are more on the Zechner side than the Lopopolo side of the Z/L spectrum — this does not mean that one side is true for every one in every situation, nor does it mean it will continue to be true with advancing model progress! To point out the most obvious, engineers and engineering leaders are the ones most setup to make a big deal out of minor architectural quality issues that sheer quantity of cheap code generation and code review might overcome.Today’s LS guest, Mikhail Parakhin, CTO of Shopify, had another take on the “tasteful tokenmaxxing” - you want to go for depth (e.g. do more serial autoresearch loops) than go for breadth (e.g. solve a problem by kicking off 5, 10, 50, 500 parallel runs of the LLM slot machine). Worth thinking through.AI News for 4/21/2026-4/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen Models: Qwen3.6-27B, OpenAI Privacy Filter, and Xiaomi",
+      "published": "2026-04-23T02:45:37+00:00",
+      "published_dt": "2026-04-23T02:45:37+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG",
+          "inference"
+        ]
+      },
+      "summary_en": "[AINews] Tasteful Tokenmaxxing (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Tasteful Tokenmaxxing，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=917690",
+      "title": "Meta is laying off 10 percent of its staff",
+      "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Mark Zuckerberg presenting at Meta Connect on September 17th, 2025. | Bloomberg via Getty Images Meta is planning to layoff around 10 percent of employees in May, according to a memo from the company's chief people officer, Janelle Gale, published by Bloomberg. That means approximately 8,000 people will see their jobs cut. Meta will also be closing around 6,000 open roles, according to Gale. The cuts follow Meta's significant investments in AI, including spending huge sums to hire top talent and build data centers. The company forecast in January that it will spend $115 billion to $135 billion in capital expenditures in 2026 - a significant increase from its $72.22 billion in capital expenditures for 2025. The increase is to \"support o … Read the full story at The Verge.",
+      "published": "2026-04-23T19:41:07+00:00",
+      "published_dt": "2026-04-23T19:41:07+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$115 billion",
+          "$135 billion",
+          "$72.22 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Meta is laying off 10 percent of its staff (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：Meta is laying off 10 percent of its staff，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/unsupervised-learning-2026",
+      "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
+      "url": "https://www.latent.space/p/unsupervised-learning-2026",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Today, we check in a year after the first Unsupervised Learning x Latent Space Crossover special to discuss everything that has changed (there is a lot) in the world of AI. This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.Unsupervised Learning is a podcast that interviews the sharpest minds in AI about what’s real today, what will be real in the future and what it means for businesses and the world - helping builders, researchers and founders deconstruct and understand the biggest breakthroughs.Thanks to Jacob and the UL production team for hosting and editing this!Jacob EffronLinkedIn: https://www.linkedin.com/in/jacobeffron/X: https://x.com/jacobeffronFull Episode on Their YouTubeWe discuss:swyx’s view from the center of the AI engineering zeitgeist: OpenClaw, harness engineering, context engineering, evals, observability, GPUs, multimodality, and why conference tracks now reveal what matters most in AIWhether AI infrastructure has finally stabilized: why “skills” may be the minimal viable packaging format for agents, why infra companies have had to reinvent themselves every year, and why application companies have had an easier time surviving model volatilityThe vertical vs. horizontal AI startup debate: why application companies can act as the outsourced AI team for enterprises, why some horizontal companies still matter, and why sandboxes may be the clearest reinvention of classic cloud infrastructure for the AI eraThe “agent lab” playbook: starting with frontier models, specializing for your domain, then training your own models once you have enough data, workload, and user behavior to justify the cost and latency savingsWhy domain-specific model training is real, not just marketing: how companies like Cursor and Cognition can get users to choose their in-house models, and why search, domain specialization, and distillation are becoming more importantOpen models, custom chips, and alternative inference infrastructure: why swyx ha",
+      "published": "2026-04-23T19:37:19+00:00",
+      "published_dt": "2026-04-23T19:37:19+00:00",
+      "score": 8.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "agent",
+          "multimodal",
+          "distillation"
+        ]
+      },
+      "summary_en": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026) (Latent Space) highlights a notable AI development with score 8.8.",
+      "summary_zh": "Latent Space 报道：AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)，综合评分 8.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3115915",
+      "title": "Bret Taylor’s Sierra buys YC-backed AI startup Fragment",
+      "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Sierra, the AI customer service agent startup founded by technologist Bret Taylor, announced today that it has acquired the YC-backed French startup Fragment.",
+      "published": "2026-04-23T21:00:00+00:00",
+      "published_dt": "2026-04-23T21:00:00+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "Bret Taylor’s Sierra buys YC-backed AI startup Fragment (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：Bret Taylor’s Sierra buys YC-backed AI startup Fragment，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=917644",
+      "title": "Anthropic&#8217;s Mythos breach was humiliating",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Anthropic's tightly controlled rollout of Claude Mythos has taken an awkward turn. After spending weeks insisting the AI model is so capable at cybersecurity that it is too dangerous to release publicly, it appears the model fell into the wrong hands anyway. According to Bloomberg, a \"small group of unauthorized users\" has had access to Mythos - whose existence was first revealed in a leak - since the day Anthropic announced plans to offer it to a select group of companies for testing. Anthropic says it is investigating. That's a rough look for a company that has built its brand on taking AI safety seriously while touting the cybersecurity … Read the full story at The Verge.",
+      "published": "2026-04-23T18:24:56+00:00",
+      "published_dt": "2026-04-23T18:24:56+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "Anthropic&#8217;s Mythos breach was humiliating (The Verge AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "The Verge AI 报道：Anthropic&#8217;s Mythos breach was humiliating，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-24T02:14:30.182608+00:00",
+      "published_dt": "2026-04-24T02:14:30.182608+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-24T02:14:30.182608+00:00",
+      "published_dt": "2026-04-24T02:14:30.182608+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+      "title": "Sign of the future: GPT-5.5",
+      "url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+      "source": "One Useful Thing (Ethan Mollick)",
+      "source_type": "rss",
+      "content": "I had early access to GPT-5.51, and I think it is a big deal. It is a big deal because it indicates that we are not done with the rapid improvement in AI. It is also a big deal because it is just plain good. And it is a big deal because even with all of this, the frontier of AI ability remains jagged.It is increasingly hard to quickly demonstrate each generational change as AI has gotten better, since a lot of the old things AI was bad at, like math or counting letters in words, are now trivial for AI to do. So, I will give you the complicated details, but first, a simple example that I think is a good illustration. What AI models are best at is coding, so I gave a coding challenge to AIs ranging from OpenAI’s first reasoning model, o3 (released a year and a week ago!) to the current best open weights model (Kimi K2.6) to the new GPT-5.5 Pro: “build me a procedurally generated 3D simulation showing the evolution of a harbor town from 3000 BCE to 3000 AD, it should look beautiful and allow me to have some control over it.” Then I posted every answer to this gallery so you can experiment with them (actually, I had GPT-5.5 Codex build the gallery page for me). You should play with them to feel the difference, but you can see a few of these examples below. In addition to being better along all the other dimensions, only GPT-5.5 Pro actually modelled an evolving town, rather than just generating new building replacements over time. GPT-5.5 Pro is also much faster than its previous iteration: GPT-5.4 Pro took 33 minutes to complete the task, GPT-5.5 Pro took 20.Models, Apps, and HarnessesI have been encouraging you to think about AI not as a single thing, but as a set of three interlinked concepts. You need to consider models, like Opus 4.7, Gemini 3.1, or (now) GPT-5.5. You also want to pay attention to apps, which are the products you actually use to talk to a model, and which let models do real work for you. The most common app is the website for each of these models: ",
+      "published": "2026-04-23T20:00:38+00:00",
+      "published_dt": "2026-04-23T20:00:38+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "reasoning model"
+        ]
+      },
+      "summary_en": "Sign of the future: GPT-5.5 (One Useful Thing (Ethan Mollick)) highlights a notable AI development with score 6.9.",
+      "summary_zh": "One Useful Thing (Ethan Mollick) 报道：Sign of the future: GPT-5.5，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=917612",
+      "title": "OpenAI says its new GPT-5.5 model is more efficient and better at coding",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917612/openai-gpt-5-5-chatgpt",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI just announced its new GPT-5.5 model, which the company calls its \"smartest and most intuitive to use model yet, and the next step toward a new way of getting work done on a computer.\" OpenAI just released GPT-5.4 last month, but says that the new GPT-5.5 \"excels\" at tasks like writing and debugging code, doing research online, making spreadsheets and documents, and doing that work across different tools. \"Instead of carefully managing every step, you can give GPT-5.5 a messy, multi-part task and trust it to plan, use tools, check its work, navigate through ambiguity, and keep going,\" according to OpenAI. The company also notes that … Read the full story at The Verge.",
+      "published": "2026-04-23T18:00:00+00:00",
+      "published_dt": "2026-04-23T18:00:00+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI says its new GPT-5.5 model is more efficient and better at coding (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：OpenAI says its new GPT-5.5 model is more efficient and better at coding，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47878905",
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-23T17:48:38+00:00",
+      "published_dt": "2026-04-23T17:48:38+00:00",
+      "hn_score": 584,
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "An update on recent Claude Code quality reports (Hacker News) highlights a notable AI development with score 6.8.",
+      "summary_zh": "Hacker News 报道：An update on recent Claude Code quality reports，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3115577",
+      "title": "Another customer of troubled startup Delve suffered a big security incident",
+      "url": "https://techcrunch.com/2026/04/23/another-customer-of-troubled-startup-delve-suffered-a-big-security-incident/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "TechCrunch has confirmed that Delve was the compliance company that performed the security certifications for Context AI, the AI agent training startup that last week disclosed a security incident.",
+      "published": "2026-04-23T14:00:00+00:00",
+      "published_dt": "2026-04-23T14:00:00+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Another customer of troubled startup Delve suffered a big security incident (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：Another customer of troubled startup Delve suffered a big security incident，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47874814",
+      "title": "Investigation uncovers two sophisticated telecom surveillance campaigns",
+      "url": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://citizenlab.ca/research/uncovering-global-telecom-exp...",
+      "published": "2026-04-23T12:12:03+00:00",
+      "published_dt": "2026-04-23T12:12:03+00:00",
+      "hn_score": 370,
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Investigation uncovers two sophisticated telecom surveillance campaigns (Hacker News) highlights a notable AI development with score 6.6.",
+      "summary_zh": "Hacker News 报道：Investigation uncovers two sophisticated telecom surveillance campaigns，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3114062",
+      "title": "Era raises $11M to build a software platform for AI gadgets",
+      "url": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Era thinks that we will see many form factors of AI hardware, including glasses, rings, and pendants.",
+      "published": "2026-04-23T16:00:00+00:00",
+      "published_dt": "2026-04-23T16:00:00+00:00",
+      "score": 6.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$11M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Era raises $11M to build a software platform for AI gadgets (TechCrunch AI) highlights a notable AI development with score 6.5.",
+      "summary_zh": "TechCrunch AI 报道：Era raises $11M to build a software platform for AI gadgets，综合评分 6.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything",
+      "title": "Serving the For You feed",
+      "url": "https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Serving the For You feed One of Bluesky's most interesting features is that anyone can run their own custom \"feed\" implementation and make it available to other users - effectively enabling custom algorithms that can use any mechanism they like to recommend posts. spacecowboy runs the For You Feed, used by around 72,000 people. This guest post on the AT Protocol blog explains how it works. The architecture is fascinating. The feed is served by a single Go process using SQLite on a \"gaming\" PC in spacecowboy's living room - 16 cores, 96GB of RAM and 4TB of attached NVMe storage. Recommendations are based on likes: what else are the people who like the same things as you liking on the platform? That Go server consumes the Bluesky firehose and stores the relevant details in SQLite, keeping the last 90 days of relevant data, which currently uses around 419GB of SQLite storage. Public internet traffic is handled by a $7/month VPS on OVH, which talks to the living room server via Tailscale. Total cost is now $30/month: $20 in electricity, $7 in VPS and $3 for the two domain names. spacecowboy estimates that the existing system could handle all ~1 million daily active Bluesky users if they were to switch to the cheapest algorithm they have found to work. Tags: go, scaling, sqlite, software-architecture, tailscale, bluesky",
+      "published": "2026-04-24T01:08:17+00:00",
+      "published_dt": "2026-04-24T01:08:17+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Serving the For You feed (Simon Willison) highlights a notable AI development with score 6.4.",
+      "summary_zh": "Simon Willison 报道：Serving the For You feed，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3115809",
+      "title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’",
+      "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI says its latest model offers increased capabilities across a broad variety of categories.",
+      "published": "2026-04-23T18:29:29+00:00",
+      "published_dt": "2026-04-23T18:29:29+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’ (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3115539",
+      "title": "Beehiiv rolls out new creator tools, including webinars and customizable paywalls",
+      "url": "https://techcrunch.com/2026/04/23/beehiiv-rolls-out-new-creator-tools-including-webinars-and-customizable-paywalls/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The announcement is a clear sign the company is trying to become an all-in-one hub for creators, reducing the hassle of juggling various tools and services to run their businesses.",
+      "published": "2026-04-23T12:00:00+00:00",
+      "published_dt": "2026-04-23T12:00:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Beehiiv rolls out new creator tools, including webinars and customizable paywalls (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Beehiiv rolls out new creator tools, including webinars and customizable paywalls，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
+      "title": "Extract PDF text in your browser with LiteParse for the web",
+      "url": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "LlamaIndex have a most excellent open source project called LiteParse, which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshingly, LiteParse doesn't use AI models to do what it does: it's good old-fashioned PDF parsing, falling back to Tesseract OCR (or other pluggable OCR engines) for PDFs that contain images of text rather than the text itself. The hard problem that LiteParse solves is extracting text in a sensible order despite the infuriating vagaries of PDF layouts. They describe this as \"spatial text parsing\" - they use some very clever heuristics to detect things like multi-column layouts and group and return the text in a sensible linear flow. The LiteParse documentation describes a pattern for implementing Visual Citations with Bounding Boxes. I really like this idea: being able to answer questions from a PDF and accompany those answers with cropped, highlighted images feels like a great way of increasing the credibility of answers from RAG-style Q&A. LiteParse is provided as a pure CLI tool, designed to be used by agents. You run it like this: npm i -g @llamaindex/liteparse lit parse document.pdf I explored its capabilities with Claude and quickly determined that there was no real reason it had to stay a CLI app: it's built on top of PDF.js and Tesseract.js, two libraries I've used for something similar in a browser in the past. The only reason LiteParse didn't have a pure browser-based version is that nobody had built one yet... Introducing LiteParse for the web Visit https://simonw.github.io/liteparse/ to try out LiteParse against any PDF file, running entirely in your browser. Here's what that looks like: The tool can work with or without running OCR, and can optionally display images for every page in the PDF further down the page. Building it with Claude Code and Opus 4.7 The proc",
+      "published": "2026-04-23T21:54:24+00:00",
+      "published_dt": "2026-04-23T21:54:24+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "Extract PDF text in your browser with LiteParse for the web (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：Extract PDF text in your browser with LiteParse for the web，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=917328",
+      "title": "Microsoft launches ‘vibe working’ in Word, Excel, and PowerPoint",
+      "url": "https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Microsoft is rolling out a new Agent Mode inside Office apps like Word, Excel, and PowerPoint this week. Previously described by Microsoft as \"vibe working,\" the Agent Mode is a more powerful version of the Copilot experience in Office that Microsoft has been trying to sell to businesses. \"When we first shipped Copilot, foundation models were not powerful enough to use Copilot to command the applications,\" admits Sumit Chauhan, corporate vice president of Microsoft's Office Product Group. \"This meant Copilot was a passive partner in documents: it could answer questions but missed the mark when it was asked to take action on the canvas direc … Read the full story at The Verge.",
+      "published": "2026-04-23T11:34:18+00:00",
+      "published_dt": "2026-04-23T11:34:18+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Microsoft launches ‘vibe working’ in Word, Excel, and PowerPoint (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Microsoft launches ‘vibe working’ in Word, Excel, and PowerPoint，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47879092",
+      "title": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-23T18:01:39+00:00",
+      "published_dt": "2026-04-23T18:01:39+00:00",
+      "hn_score": 1103,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "GPT-5.5 (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：GPT-5.5，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47876043",
+      "title": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
+      "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-23T14:17:08+00:00",
+      "published_dt": "2026-04-23T14:17:08+00:00",
+      "hn_score": 648,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/gpt-5-5-system-card",
+      "title": "GPT-5.5 System Card",
+      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-04-23T11:00:00+00:00",
+      "published_dt": "2026-04-23T11:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "GPT-5.5 System Card (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：GPT-5.5 System Card，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/academy/codex-automations",
+      "title": "Automations",
+      "url": "https://openai.com/academy/codex-automations",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "published": "2026-04-23T10:00:00+00:00",
+      "published_dt": "2026-04-23T10:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Automations (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Automations，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "title": "Top 10 uses for Codex at work",
+      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "published": "2026-04-23T10:00:00+00:00",
+      "published_dt": "2026-04-23T10:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Top 10 uses for Codex at work (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Top 10 uses for Codex at work，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/academy/codex-plugins-and-skills",
+      "title": "Plugins and skills",
+      "url": "https://openai.com/academy/codex-plugins-and-skills",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "published": "2026-04-23T10:00:00+00:00",
+      "published_dt": "2026-04-23T10:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Plugins and skills (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Plugins and skills，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/academy/working-with-codex",
+      "title": "Working with Codex",
+      "url": "https://openai.com/academy/working-with-codex",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "published": "2026-04-23T10:00:00+00:00",
+      "published_dt": "2026-04-23T10:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Working with Codex (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Working with Codex，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/academy/codex-settings",
+      "title": "Codex settings",
+      "url": "https://openai.com/academy/codex-settings",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "published": "2026-04-23T10:00:00+00:00",
+      "published_dt": "2026-04-23T10:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Codex settings (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Codex settings，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/academy/what-is-codex",
+      "title": "What is Codex?",
+      "url": "https://openai.com/academy/what-is-codex",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "published": "2026-04-23T10:00:00+00:00",
+      "published_dt": "2026-04-23T10:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "What is Codex? (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：What is Codex?，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/academy/codex-how-to-start",
+      "title": "How to get started with Codex",
+      "url": "https://openai.com/academy/codex-how-to-start",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "published": "2026-04-23T10:00:00+00:00",
+      "published_dt": "2026-04-23T10:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How to get started with Codex (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：How to get started with Codex，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47878208",
+      "title": "'Hairdryer used to trick weather sensor' to win Polymarket bet",
+      "url": "https://www.telegraph.co.uk/business/2026/04/23/hairdryer-used-trick-weather-sensor-34000-polymarket-bet/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-23T17:01:01+00:00",
+      "published_dt": "2026-04-23T17:01:01+00:00",
+      "hn_score": 232,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "'Hairdryer used to trick weather sensor' to win Polymarket bet (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：'Hairdryer used to trick weather sensor' to win Polymarket bet，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3115545",
+      "title": "India’s app market is booming — but global platforms are capturing most of the gains",
+      "url": "https://techcrunch.com/2026/04/22/indias-app-market-is-booming-but-global-platforms-are-capturing-most-of-the-gains/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Non-gaming apps, led by streaming and AI, are driving growth, even as India's spending per user lags global peers.",
+      "published": "2026-04-23T04:38:45+00:00",
+      "published_dt": "2026-04-23T04:38:45+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "India’s app market is booming — but global platforms are capturing most of the gains (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：India’s app market is booming — but global platforms are capturing most of the gains，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/",
+      "title": "In a first, a ransomware family is confirmed to be quantum-safe",
+      "url": "https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "A relatively new ransomware family is using a novel approach to hype the strength of the encryption used to scramble files—making, or at least claiming, that it is protected against attacks by quantum computers. Kyber, as the ransomware is called, has been around since at least last September and quickly attracted attention for the claim that it used ML-KEM, short for Module Lattice-based Key Encapsulation Mechanism and is a standard shepherded by the National Institute of Standards and Technology. The Kyber ransomware name comes from the alternate name for ML-KEM, which is also Kyber. For the rest of the article, Kyber refers to the ransomware; the algorithm is referred to as ML-KEM. It's all about marketing ML-KEM is an asymmetric encryption method for exchanging keys. It involves problems based on lattices, a structure in mathematics that quantum computers have no advantage in solving over classic computing. ML-KEM is designed to replace Elliptic Curve and RSA cryptosystems, both of which are based on problems that quantum computers with sufficient strength can tackle.Read full article Comments",
+      "published": "2026-04-23T20:41:23+00:00",
+      "published_dt": "2026-04-23T20:41:23+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "In a first, a ransomware family is confirmed to be quantum-safe (Ars Technica) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Ars Technica 报道：In a first, a ransomware family is confirmed to be quantum-safe，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=917029",
+      "title": "THE PEOPLE DO NOT YEARN FOR AUTOMATION",
+      "url": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Today on Decoder, I want to lay out an idea that’s been banging around my head for weeks now as we’ve been reporting on AI and having conversations here on this show. I’ve been calling it software brain, and it’s a particular way of seeing the world that fits everything into algorithms, databases and loops — software. Software brain is powerful stuff. It’s a way of thinking that basically created our modern world. Marc Andreessen, the literal embodiment of software brain, called it in 2011 when he wrote the piece “Why software is eating the world” as an op-ed in The Wall Street Journal. But software thinking has been turbocharged by AI in a way that I think helps explain the enormous gap between how excited the tech industry is about the technology and how regular people are growing to dislike it more and more over time. In fact, the polling on this is so strong, I think it’s fair to say that a lot of people hate AI, and that Gen Z in particular seems to hate AI more and more as they encounter it. There’s that NBC News poll showing AI with worse favorability than ICE and only a little bit above the war in Iran and the Democrats generally. That’s with nearly two thirds of respondents saying they used ChatGPT or Copilot in the last month. Quinnipiac just found that over half of Americans think AI will do more harm than good, while more than 80 percent of people were either very concerned or somewhat concerned about the technology. Only 35 percent of people were excited about it. Poll after poll shows that Gen Z uses AI the most and has the most negative feelings about it. A recent Gallup poll found that only 18 percent of Gen Z was hopeful about AI, down from an already-bad 27 percent last year. At the same time, anger is growing: 31 percent of those Gen Z respondents said they feel angry about AI, up from 22 percent last year. Now, I obviously talk to a lot of tech executives and policy people here on Decoder, and I will tell you, they all know AI isn’t popular, and ",
+      "published": "2026-04-23T14:00:00+00:00",
+      "published_dt": "2026-04-23T14:00:00+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "THE PEOPLE DO NOT YEARN FOR AUTOMATION (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：THE PEOPLE DO NOT YEARN FOR AUTOMATION，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+      "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "content": "Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This facility …",
+      "published": "2026-04-23T09:00:00+00:00",
+      "published_dt": "2026-04-23T09:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Elevating Austria: Google invests in its first data center in the Alps. (Google AI Blog) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Google AI Blog 报道：Elevating Austria: Google invests in its first data center in the Alps.，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3115849",
+      "title": "Meet Noscroll, an AI bot that does your doomscrolling for you",
+      "url": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Noscroll wants to cure doomscrolling with an AI bot that reads the internet for you.",
+      "published": "2026-04-23T19:38:25+00:00",
+      "published_dt": "2026-04-23T19:38:25+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meet Noscroll, an AI bot that does your doomscrolling for you (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Meet Noscroll, an AI bot that does your doomscrolling for you，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3115334",
+      "title": "Grab a ticket today: The first StrictlyVC of 2026 kicks off in just a week in San Francisco",
+      "url": "https://techcrunch.com/2026/04/23/grab-a-ticket-today-the-first-strictlyvc-of-2026-kicks-off-in-just-a-week-in-san-francisco/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "StrictlyVC San Francisco is in just a week. Now’s the time to grab yourself a ticket. Join VCs and founders at Sentro Filipino Cultural Center on April 30.",
+      "published": "2026-04-23T14:00:00+00:00",
+      "published_dt": "2026-04-23T14:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Grab a ticket today: The first StrictlyVC of 2026 kicks off in just a week in San Francisco (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Grab a ticket today: The first StrictlyVC of 2026 kicks off in just a week in San Francisco，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3115585",
+      "title": "AI galaxy hunters are adding to the global GPU crunch",
+      "url": "https://techcrunch.com/2026/04/23/ai-galaxy-hunters-are-adding-to-the-global-gpu-crunch/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Astronomers are turning to GPUs to find needles in the galactic haystack.",
+      "published": "2026-04-23T13:00:00+00:00",
+      "published_dt": "2026-04-23T13:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI galaxy hunters are adding to the global GPU crunch (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：AI galaxy hunters are adding to the global GPU crunch，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
