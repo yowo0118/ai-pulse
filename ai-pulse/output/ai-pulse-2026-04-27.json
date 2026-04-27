@@ -1,0 +1,536 @@
+{
+  "date": "2026-04-27",
+  "generated_at": "2026-04-27T02:29:20",
+  "stats": {
+    "total_items": 8,
+    "high_importance": 0,
+    "medium_importance": 8,
+    "categories_covered": 3
+  },
+  "top_stories": [],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 1,
+      "items": [
+        {
+          "id": "hn-47914367",
+          "title": "Show HN: AI memory with biological decay (52% recall)",
+          "url": "https://github.com/sachitrafa/YourMemory",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Most RAG setups fail because they treat memory like a static filing cabinet. When every transient bug fix or abandoned rule is stored forever, the context window eventually chokes on noise, spiking token costs and degrading the agent's reasoning.This implementation experiments with a biological approach by using the Ebbinghaus forgetting curve to manage context as a living substrate. Memories are assigned a \"strength\" score where each recall reinforces the data and flattens its decay curve (spaced repetition), while unused data eventually hits a threshold and is pruned.To solve the \"logical neighbor\" problem where semantic search misses relevant but non-similar nodes, a graph layer is layered over the vector store. Benchmarked against the LoCoMo dataset, this reached 52% Recall@5, nearly double the accuracy of stateless vector stores, while cutting token waste by roughly 84%.Built as a local first MCP server using DuckDB, the hypothesis is that for agents handling long-running projects, \"what to forget\" is just as critical as \"what to remember.\" I'd be interested to hear if others are exploring non-linear decay or similar biological constraints for context management.GitHub: https://github.com/sachitrafa/cognitive-ai-memory",
+          "published": "2026-04-26T20:58:31+00:00",
+          "published_dt": "2026-04-26T20:58:31+00:00",
+          "hn_score": 64,
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "agent",
+              "benchmark",
+              "MCP"
+            ]
+          },
+          "summary_en": "Show HN: AI memory with biological decay (52% recall) (Hacker News) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Hacker News 报道：Show HN: AI memory with biological decay (52% recall)，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 0,
+      "items": []
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 0,
+      "items": []
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 5,
+      "items": [
+        {
+          "id": "hn-47911780",
+          "title": "GoDaddy gave a domain to a stranger without any documentation",
+          "url": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-26T16:57:56+00:00",
+          "published_dt": "2026-04-26T16:57:56+00:00",
+          "hn_score": 552,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "GoDaddy gave a domain to a stranger without any documentation (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：GoDaddy gave a domain to a stranger without any documentation，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/our-principles",
+          "title": "Our principles",
+          "url": "https://openai.com/index/our-principles",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+          "published": "2026-04-26T16:00:00+00:00",
+          "published_dt": "2026-04-26T16:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Our principles (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Our principles，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47913650",
+          "title": "AI should elevate your thinking, not replace it",
+          "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-26T20:03:12+00:00",
+          "published_dt": "2026-04-26T20:03:12+00:00",
+          "hn_score": 295,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI should elevate your thinking, not replace it (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：AI should elevate your thinking, not replace it，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47911524",
+          "title": "An AI agent deleted our production database. The agent's confession is below",
+          "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-26T16:27:29+00:00",
+          "published_dt": "2026-04-26T16:27:29+00:00",
+          "hn_score": 467,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "An AI agent deleted our production database. The agent's confession is below (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：An AI agent deleted our production database. The agent's confession is below，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3116489",
+          "title": "To buy this Bay Area home, you’ll need Anthropic equity",
+          "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco.",
+          "published": "2026-04-26T15:30:00+00:00",
+          "published_dt": "2026-04-26T15:30:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "To buy this Bay Area home, you’ll need Anthropic equity (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：To buy this Bay Area home, you’ll need Anthropic equity，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-27T02:29:07.665332+00:00",
+          "published_dt": "2026-04-27T02:29:07.665332+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-27T02:29:07.665332+00:00",
+          "published_dt": "2026-04-27T02:29:07.665332+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-27T02:29:07.665332+00:00",
+      "published_dt": "2026-04-27T02:29:07.665332+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-27T02:29:07.665332+00:00",
+      "published_dt": "2026-04-27T02:29:07.665332+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47914367",
+      "title": "Show HN: AI memory with biological decay (52% recall)",
+      "url": "https://github.com/sachitrafa/YourMemory",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Most RAG setups fail because they treat memory like a static filing cabinet. When every transient bug fix or abandoned rule is stored forever, the context window eventually chokes on noise, spiking token costs and degrading the agent's reasoning.This implementation experiments with a biological approach by using the Ebbinghaus forgetting curve to manage context as a living substrate. Memories are assigned a \"strength\" score where each recall reinforces the data and flattens its decay curve (spaced repetition), while unused data eventually hits a threshold and is pruned.To solve the \"logical neighbor\" problem where semantic search misses relevant but non-similar nodes, a graph layer is layered over the vector store. Benchmarked against the LoCoMo dataset, this reached 52% Recall@5, nearly double the accuracy of stateless vector stores, while cutting token waste by roughly 84%.Built as a local first MCP server using DuckDB, the hypothesis is that for agents handling long-running projects, \"what to forget\" is just as critical as \"what to remember.\" I'd be interested to hear if others are exploring non-linear decay or similar biological constraints for context management.GitHub: https://github.com/sachitrafa/cognitive-ai-memory",
+      "published": "2026-04-26T20:58:31+00:00",
+      "published_dt": "2026-04-26T20:58:31+00:00",
+      "hn_score": 64,
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent",
+          "benchmark",
+          "MCP"
+        ]
+      },
+      "summary_en": "Show HN: AI memory with biological decay (52% recall) (Hacker News) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Hacker News 报道：Show HN: AI memory with biological decay (52% recall)，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47911780",
+      "title": "GoDaddy gave a domain to a stranger without any documentation",
+      "url": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-26T16:57:56+00:00",
+      "published_dt": "2026-04-26T16:57:56+00:00",
+      "hn_score": 552,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "GoDaddy gave a domain to a stranger without any documentation (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：GoDaddy gave a domain to a stranger without any documentation，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/our-principles",
+      "title": "Our principles",
+      "url": "https://openai.com/index/our-principles",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+      "published": "2026-04-26T16:00:00+00:00",
+      "published_dt": "2026-04-26T16:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Our principles (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Our principles，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47913650",
+      "title": "AI should elevate your thinking, not replace it",
+      "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-26T20:03:12+00:00",
+      "published_dt": "2026-04-26T20:03:12+00:00",
+      "hn_score": 295,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI should elevate your thinking, not replace it (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：AI should elevate your thinking, not replace it，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47911524",
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-26T16:27:29+00:00",
+      "published_dt": "2026-04-26T16:27:29+00:00",
+      "hn_score": 467,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "An AI agent deleted our production database. The agent's confession is below (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：An AI agent deleted our production database. The agent's confession is below，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3116489",
+      "title": "To buy this Bay Area home, you’ll need Anthropic equity",
+      "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco.",
+      "published": "2026-04-26T15:30:00+00:00",
+      "published_dt": "2026-04-26T15:30:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "To buy this Bay Area home, you’ll need Anthropic equity (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：To buy this Bay Area home, you’ll need Anthropic equity，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
