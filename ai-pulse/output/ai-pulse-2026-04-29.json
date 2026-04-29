@@ -1,0 +1,1918 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29T02:36:42",
+  "stats": {
+    "total_items": 28,
+    "high_importance": 4,
+    "medium_importance": 24,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/ainews-not-much-happened-today",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "When we made the AINews → Substack move, we committed to having Matt Levine style op-eds every day, but some days there just isn’t much going on and we will just say so - we are working on small essays around inference demand and multiagents, but today is not that day.Interesting model releases from Nvidia Nemotron, Poolside, and Alec Radford, but it’s unclear any of them will stand the test of time. GPT-6 hype is beginning.AI News for 4/27/2026-4/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapInference Systems, vLLM 0.20, and the Hardware/Kernel Race Around DeepSeek V4vLLM’s latest release is heavily about memory and MoE serving efficiency: vLLM v0.20.0 shipped with TurboQuant 2-bit KV cache for 4× KV capacity, FA4 re-enabled for MLA prefill on SM90+, a new vLLM IR foundation, fused RMSNorm for a reported 2.1% end-to-end latency improvement, plus support updates spanning DeepSeek V4 MegaMoE on Blackwell, Jetson Thor, ROCm, Intel XPU, and easier GB200/Grace-Blackwell setup. In parallel, SemiAnalysis highlighted early DeepSeek V4 Pro serving results on B200/B300/H200/GB200 disaggregated setups, claiming B300 can be up to 8× faster than H200 for this workload and pointing to upcoming vLLM 0.20 benchmarking with DeepGEMM MegaMoE, which fuses EP dispatch + EP combine + GEMMs + SwiGLU into a single mega-kernel.DeepSeek support: several posts focused on serving tradeoffs: Jeremy Howard noted DeepSeek V4’s support for prefill as a capability many providers have dropped, while Maharshi pointed out the overheads of dynamic activation quantization, arguing that static quantization often wins on inference speed despite calibration cost. There was also growing interest in alternate stack portability: teortaxesTex argued DeepSeek is structurally moving away from CUDA lock-in via TileKernels, sug",
+      "published": "2026-04-29T01:46:59+00:00",
+      "published_dt": "2026-04-29T01:46:59+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "inference",
+          "MoE",
+          "agent",
+          "benchmark",
+          "quantization",
+          "vLLM"
+        ]
+      },
+      "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93474",
+      "title": "NEA’s Tiffany Luck On How Startup Founders Can Build Moats In Vertical AI",
+      "url": "https://news.crunchbase.com/venture/startups-buiding-moats-vertical-ai-luck-nea/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "As a partner at New Enterprise Associates, Tiffany Luck invests in the AI application layer and B2B SaaS. She began on the consumer side at early-stage companies including Lot18 and pioneered the early push of CPG e-commerce at Amazon long before the Whole Foods acquisition. After a pivot into tech M&A at Morgan Stanley and a partnership at GGV Capital (now Notable), she joined NEA roughly three years ago. Today, Luck’s thesis centers on the AI application layer, betting on vertical AI and the “last mile” of automation to bridge the gap between horizontal model potential and tangible enterprise ROI. We recently spoke with Luck about the increasing relevance of vertical AI, how startups can carve out durable advantages in a world dominated by platform giants and more. The interview has been edited for brevity and clarity. Crunchbase News: You’ve seen the evolution of commerce from the early days of Amazon Fresh to the current AI boom. How does that background influence how you view the “friction” of AI adoption today? Tiffany Luck, partner at New Enterprise Associates. Luck: I see incredible parallels. At Amazon, I spent my days convincing CPG manufacturers that e-commerce was the inevitable future. Back then, there was immense friction — technological, logistical and mental. Today, Fortune 500 companies are in a similar spot with AI. While the potential is obvious, most organizations are still struggling to integrate it into their daily workflows. We are moving from a world where AI is a “shiny object” to one where it must solve a mechanical problem, but getting there requires overcoming that initial resistance. You’ve talked about the “Anthropic question” — the fear that frontier models will eventually swallow the application layer. How can vertical startups build a durable defense? It’s the primary concern for founders right now. Most horizontal tools, like Claude, currently act as research co-pilots. They are excellent at taking a user from 0% to 80%, but they do",
+      "published": "2026-04-28T11:00:22+00:00",
+      "published_dt": "2026-04-28T11:00:22+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "NEA’s Tiffany Luck On How Startup Founders Can Build Moats In Vertical AI (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：NEA’s Tiffany Luck On How Startup Founders Can Build Moats In Vertical AI，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?post_type=vm_stream&p=917225",
+      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. The trial began with jury selection on April 27th, before Elon Musk took the stand on Tuesday as the first witness called, portraying his interest in founding OpenAI as an effort to help save humanity. Musk was a cofounder of OpenAI and claims that Altman and cofounder Greg Brockman tricked him into giving the company money, only to turn their backs on their original goal. However, OpenAI says that “This lawsuit has always been a baseless and jealous bid to derail a competitor” in a bid to boost Musk’s own SpaceX / xAI / X companies that have launched Grok as a competitor to ChatGPT. In his lawsuit, Musk is asking for the removal of Altman and Brockman, and for OpenAI to stop operating as a public benefit corporation. Musk has also demanded that OpenAI’s nonprofit receive up to $150 billion in damages he’s asking for if he wins the case. Here’s all the latest on the trial between Musk and Altman: Elon Musk appeared more petty than prepared That’s a wrap! YGR scolds OpenAI for taking inconsistent positions on the origin of its name. Elon Musk tells the jury that all he wants to do is save humanity Arguments over ownership. Apparently OpenAI could have had an ICO. “I was not averse to a small for-profit,” Musk says. We’re reading emails between Musk and Jensen Huang. Musk says nonprofit was non-negotiable for OpenAI. We’re at the founding of OpenAI. Musk says he would have created something like OpenAI on his own. Musk recalls meeting Sam Altman. Sam Altman left during a break, but Elon Musk’s lawyer didn’t notice. “Here we are in 2026 and AI is scary smart.” “I have extreme concerns about AI,” says Musk. AI will be as smart as ‘any human as soon as next year.’ Mus",
+      "published": "2026-04-28T19:27:50+00:00",
+      "published_dt": "2026-04-28T19:27:50+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$150 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=917052",
+      "title": "Elon Musk takes the stand in high-profile trial against OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917052/elon-musk-takes-stand-trial-openai-sam-altman",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Elon Musk officially began his testimony in the trial he has brought against OpenAI CEO Sam Altman and company president Greg Brockman. The three were on the initial founding team of OpenAI, with Musk investing up to $38 million early on before the co-founders' relationship soured over disagreements over company structure and mission, including whether or not OpenAI should be folded into Musk-owned Tesla. Musk walked away and, years later, founded xAI - his own direct competitor to OpenAI, which is now owned by Musk's SpaceX. In recent years, Musk has filed no less than four different lawsuits against OpenAI, many of which have since been … Read the full story at The Verge.",
+      "published": "2026-04-28T19:00:13+00:00",
+      "published_dt": "2026-04-28T19:00:13+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$38 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Elon Musk takes the stand in high-profile trial against OpenAI (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：Elon Musk takes the stand in high-profile trial against OpenAI，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything",
+          "title": "Introducing talkie: a 13B vintage language model from 1930",
+          "url": "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Introducing talkie: a 13B vintage language model from 1930 New project from Nick Levine, David Duvenaud, and Alec Radford (of GPT, GPT-2, Whisper fame). talkie-1930-13b-base (53.1 GB) is a \"13B language model trained on 260B tokens of historical pre-1931 English text\". talkie-1930-13b-it (26.6 GB) is a checkpoint \"finetuned using a novel dataset of instruction-response pairs extracted from pre-1931 reference works\", designed to power a chat interface. You can try that out here. Both models are Apache 2.0 licensed. Since the training data for the base model is entirely out of copyright (the USA copyright cutoff date is currently January 1, 1931), I'm hoping they later decide to release the training data as well. Update on that: Nick Levine on Twitter: Will publish more on the corpus in the future (and do our best to share the data or at least scripts to reproduce it). Their report suggests some fascinating research objectives for this class of model, including: How good are these models at predicting the future? \"we calculated the surprisingness of short descriptions of historical events to a 13B model trained on pre-1931 text\" Can these models invent things that are past their knowledge cutoffs? \"As Demis Hassabis has asked, could a model trained up to 1911 independently discover General Relativity, as Einstein did in 1915?\" Can they be taught to program? \"Figure 3 (left-hand side) shows an early example of such a test, measuring how well models trained on pre-1931 text can, when given a few demonstration examples of Python programs, write new correct programs.\" I have a long-running interest in what I call \"vegan models\" - LLMs that are trained entirely on licensed or out-of-copyright data. I think the base model here qualifies, but the chat model isn't entirely pure due to the reliance on non-vegan models to help with the fine-tuning - emphasis mine: First, we generated instruction-response pairs from historical texts with regular structure, such as etiquette manu",
+          "published": "2026-04-28T02:47:42+00:00",
+          "published_dt": "2026-04-28T02:47:42+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "fine-tuning"
+            ]
+          },
+          "summary_en": "Introducing talkie: a 13B vintage language model from 1930 (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：Introducing talkie: a 13B vintage language model from 1930，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-imagegen-is-on-the-path-to",
+          "title": "[AINews] ImageGen is on the Path to AGI",
+          "url": "https://www.latent.space/p/ainews-imagegen-is-on-the-path-to",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "As every lab sprints toward being some form of Anthropic (aka having a coding and enterprise AI focus, producing ever better PDFs and PPTs and spreadsheets), it is still refreshing to see that GPT-Image-2 is continuing to drive more creative applications, for example this:Considering the extremely high NPS score of the Lego Rocky Space Friend on date nights, you can imagine how good a low-hallucination, research-enabled, fully multimodal reasoning image model can be.Of course it’s good for education:tweetor pop culture:or precise, clean infographics:And of course the GPT-Image-2 + Codex combo, which is available as a skill in Codex, which you can iteratively use to generate assets WHILE you code:And just like that, Claude Design, the previous Current Thing, isn’t even in the conversation anymore. Quite simply, if you can “close” the loop, you win.But that isn’t quite the argument we’re making here. What we’re focusing on is the very literal and serious question of whether or not models like Nano Banana or GPT-Image-2 or Grok Imagine are necessary uses of scarce GPU capacity if you are eschewing “side quests” and seriously pursuing AGI and trying to hit the revenue, efficiency, and funding goals necessary to not die along the way.The answer is emergingly clear: yes. Not merely because of the “closing the loop”. But also because you can only do so much with text and code and structured output generation. When you have multimodal voice and visual generation (including transparency!), you truly flex the “G” part of “AGI” - after all, what good is AI if it only narrowly takes all programming jobs? By the way, horse-riding astronauts used to be hard in imagegen, then it was astronaut-riding-horses, and now, well…AI News for 4/26/2026-4/27/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI",
+          "published": "2026-04-28T05:38:19+00:00",
+          "published_dt": "2026-04-28T05:38:19+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "multimodal"
+            ]
+          },
+          "summary_en": "[AINews] ImageGen is on the Path to AGI (Latent Space) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Latent Space 报道：[AINews] ImageGen is on the Path to AGI，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93474",
+          "title": "NEA’s Tiffany Luck On How Startup Founders Can Build Moats In Vertical AI",
+          "url": "https://news.crunchbase.com/venture/startups-buiding-moats-vertical-ai-luck-nea/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "As a partner at New Enterprise Associates, Tiffany Luck invests in the AI application layer and B2B SaaS. She began on the consumer side at early-stage companies including Lot18 and pioneered the early push of CPG e-commerce at Amazon long before the Whole Foods acquisition. After a pivot into tech M&A at Morgan Stanley and a partnership at GGV Capital (now Notable), she joined NEA roughly three years ago. Today, Luck’s thesis centers on the AI application layer, betting on vertical AI and the “last mile” of automation to bridge the gap between horizontal model potential and tangible enterprise ROI. We recently spoke with Luck about the increasing relevance of vertical AI, how startups can carve out durable advantages in a world dominated by platform giants and more. The interview has been edited for brevity and clarity. Crunchbase News: You’ve seen the evolution of commerce from the early days of Amazon Fresh to the current AI boom. How does that background influence how you view the “friction” of AI adoption today? Tiffany Luck, partner at New Enterprise Associates. Luck: I see incredible parallels. At Amazon, I spent my days convincing CPG manufacturers that e-commerce was the inevitable future. Back then, there was immense friction — technological, logistical and mental. Today, Fortune 500 companies are in a similar spot with AI. While the potential is obvious, most organizations are still struggling to integrate it into their daily workflows. We are moving from a world where AI is a “shiny object” to one where it must solve a mechanical problem, but getting there requires overcoming that initial resistance. You’ve talked about the “Anthropic question” — the fear that frontier models will eventually swallow the application layer. How can vertical startups build a durable defense? It’s the primary concern for founders right now. Most horizontal tools, like Claude, currently act as research co-pilots. They are excellent at taking a user from 0% to 80%, but they do",
+          "published": "2026-04-28T11:00:22+00:00",
+          "published_dt": "2026-04-28T11:00:22+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "NEA’s Tiffany Luck On How Startup Founders Can Build Moats In Vertical AI (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：NEA’s Tiffany Luck On How Startup Founders Can Build Moats In Vertical AI，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=917052",
+          "title": "Elon Musk takes the stand in high-profile trial against OpenAI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/917052/elon-musk-takes-stand-trial-openai-sam-altman",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Elon Musk officially began his testimony in the trial he has brought against OpenAI CEO Sam Altman and company president Greg Brockman. The three were on the initial founding team of OpenAI, with Musk investing up to $38 million early on before the co-founders' relationship soured over disagreements over company structure and mission, including whether or not OpenAI should be folded into Musk-owned Tesla. Musk walked away and, years later, founded xAI - his own direct competitor to OpenAI, which is now owned by Musk's SpaceX. In recent years, Musk has filed no less than four different lawsuits against OpenAI, many of which have since been … Read the full story at The Verge.",
+          "published": "2026-04-28T19:00:13+00:00",
+          "published_dt": "2026-04-28T19:00:13+00:00",
+          "score": 9.2,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$38 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Elon Musk takes the stand in high-profile trial against OpenAI (The Verge AI) highlights a notable AI development with score 9.2.",
+          "summary_zh": "The Verge AI 报道：Elon Musk takes the stand in high-profile trial against OpenAI，综合评分 9.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=920048",
+          "title": "Elon Musk tells the jury that all he wants to do is save humanity",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/920048/elon-musk-testimony-save-humanity",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "On the stand, Elon Musk is positioning himself as a savior. In the high-profile trial between him and his fellow OpenAI co-founder, now CEO, Sam Altman, Musk opened by going through his background. He went as far back as being raised in South Africa and arriving in Canada for college with \"2,500 in Canadian travelers' checks and a bag of clothes and books,\" then spent an unusually long time talking about his past, from Zip2 to PayPal to the current, more familiar slate of companies he now runs. Why is Musk giving the jury so much of his origin story? Though he may be, depending on the day, the world's wealthiest individual, Musk suggested … Read the full story at The Verge.",
+          "published": "2026-04-28T20:46:54+00:00",
+          "published_dt": "2026-04-28T20:46:54+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Elon Musk tells the jury that all he wants to do is save humanity (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：Elon Musk tells the jury that all he wants to do is save humanity，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3117138",
+          "title": "Amazon launches an AI-powered audio Q&A experience on product pages",
+          "url": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Amazon's new \"Join the chat\" feature lets you ask questions about products and receive AI-powered audio responses.",
+          "published": "2026-04-28T18:49:54+00:00",
+          "published_dt": "2026-04-28T18:49:54+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon launches an AI-powered audio Q&A experience on product pages (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Amazon launches an AI-powered audio Q&A experience on product pages，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3116991",
+          "title": "Lovable launches its vibe-coding app on iOS and Android",
+          "url": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The app allows developers to vibe code web apps and websites on the go.",
+          "published": "2026-04-28T16:09:30+00:00",
+          "published_dt": "2026-04-28T16:09:30+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Lovable launches its vibe-coding app on iOS and Android (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Lovable launches its vibe-coding app on iOS and Android，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3116905",
+          "title": "Otter’s new feature lets users search across their enterprise tools",
+          "url": "https://techcrunch.com/2026/04/28/otters-new-feature-lets-users-search-across-their-enterprise-tools/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "With this launch, users can connect their Gmail, Google Drive, Notion, Jira, and Salesforce accounts and query that data along with existing meeting data. The company said that it will soon allow connections with Microsoft Outlook, Teams, SharePoint, and Slack.",
+          "published": "2026-04-28T12:00:00+00:00",
+          "published_dt": "2026-04-28T12:00:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google",
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Otter’s new feature lets users search across their enterprise tools (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Otter’s new feature lets users search across their enterprise tools，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3116810",
+          "title": "BCI startup Neurable looks to license its ‘mind-reading’ tech for consumer wearables",
+          "url": "https://techcrunch.com/2026/04/28/bci-startup-neurable-looks-to-license-its-mind-reading-tech-for-consumer-wearables/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The startup specializes in \"non-invasive\" \"mind-reading\" tech — a kind of neural data collection that, its CEO hopes, will have all sorts of consumer applications.",
+          "published": "2026-04-28T13:19:34+00:00",
+          "published_dt": "2026-04-28T13:19:34+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "BCI startup Neurable looks to license its ‘mind-reading’ tech for consumer wearables (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：BCI startup Neurable looks to license its ‘mind-reading’ tech for consumer wearables，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=919648",
+          "title": "Claude can now plug directly into Photoshop, Blender, and Ableton",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Claude’s new Blender connector lets you debug scenes, build new tools, and batch-apply object changes directly from the chatbot interface. | Image: Anthropic Anthropic has launched a set of connectors for Claude that allow the AI chatbot to tap into popular creative software, including Adobe's Creative Cloud apps, Affinity, Blender, Ableton, Autodesk, and more. This marks the company's latest efforts to break into the creative industry following its launch of Claude Design earlier this month. The new connectors - which enable Claude to access apps, retrieve data, and take actions within connected services - are \"designed to make it easier to use Claude for creative work,\" according to Anthropic, and can be used for specific functions in each app. The Adobe for creativity connector can draw fr … Read the full story at The Verge.",
+          "published": "2026-04-28T16:49:08+00:00",
+          "published_dt": "2026-04-28T16:49:08+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Claude can now plug directly into Photoshop, Blender, and Ableton (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Claude can now plug directly into Photoshop, Blender, and Ableton，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 8,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-not-much-happened-today",
+          "title": "[AINews] not much happened today",
+          "url": "https://www.latent.space/p/ainews-not-much-happened-today",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "When we made the AINews → Substack move, we committed to having Matt Levine style op-eds every day, but some days there just isn’t much going on and we will just say so - we are working on small essays around inference demand and multiagents, but today is not that day.Interesting model releases from Nvidia Nemotron, Poolside, and Alec Radford, but it’s unclear any of them will stand the test of time. GPT-6 hype is beginning.AI News for 4/27/2026-4/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapInference Systems, vLLM 0.20, and the Hardware/Kernel Race Around DeepSeek V4vLLM’s latest release is heavily about memory and MoE serving efficiency: vLLM v0.20.0 shipped with TurboQuant 2-bit KV cache for 4× KV capacity, FA4 re-enabled for MLA prefill on SM90+, a new vLLM IR foundation, fused RMSNorm for a reported 2.1% end-to-end latency improvement, plus support updates spanning DeepSeek V4 MegaMoE on Blackwell, Jetson Thor, ROCm, Intel XPU, and easier GB200/Grace-Blackwell setup. In parallel, SemiAnalysis highlighted early DeepSeek V4 Pro serving results on B200/B300/H200/GB200 disaggregated setups, claiming B300 can be up to 8× faster than H200 for this workload and pointing to upcoming vLLM 0.20 benchmarking with DeepGEMM MegaMoE, which fuses EP dispatch + EP combine + GEMMs + SwiGLU into a single mega-kernel.DeepSeek support: several posts focused on serving tradeoffs: Jeremy Howard noted DeepSeek V4’s support for prefill as a capability many providers have dropped, while Maharshi pointed out the overheads of dynamic activation quantization, arguing that static quantization often wins on inference speed despite calibration cost. There was also growing interest in alternate stack portability: teortaxesTex argued DeepSeek is structurally moving away from CUDA lock-in via TileKernels, sug",
+          "published": "2026-04-29T01:46:59+00:00",
+          "published_dt": "2026-04-29T01:46:59+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "NVIDIA",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "inference",
+              "MoE",
+              "agent",
+              "benchmark",
+              "quantization",
+              "vLLM"
+            ]
+          },
+          "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?post_type=vm_stream&p=917225",
+          "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+          "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. The trial began with jury selection on April 27th, before Elon Musk took the stand on Tuesday as the first witness called, portraying his interest in founding OpenAI as an effort to help save humanity. Musk was a cofounder of OpenAI and claims that Altman and cofounder Greg Brockman tricked him into giving the company money, only to turn their backs on their original goal. However, OpenAI says that “This lawsuit has always been a baseless and jealous bid to derail a competitor” in a bid to boost Musk’s own SpaceX / xAI / X companies that have launched Grok as a competitor to ChatGPT. In his lawsuit, Musk is asking for the removal of Altman and Brockman, and for OpenAI to stop operating as a public benefit corporation. Musk has also demanded that OpenAI’s nonprofit receive up to $150 billion in damages he’s asking for if he wins the case. Here’s all the latest on the trial between Musk and Altman: Elon Musk appeared more petty than prepared That’s a wrap! YGR scolds OpenAI for taking inconsistent positions on the origin of its name. Elon Musk tells the jury that all he wants to do is save humanity Arguments over ownership. Apparently OpenAI could have had an ICO. “I was not averse to a small for-profit,” Musk says. We’re reading emails between Musk and Jensen Huang. Musk says nonprofit was non-negotiable for OpenAI. We’re at the founding of OpenAI. Musk says he would have created something like OpenAI on his own. Musk recalls meeting Sam Altman. Sam Altman left during a break, but Elon Musk’s lawyer didn’t notice. “Here we are in 2026 and AI is scary smart.” “I have extreme concerns about AI,” says Musk. AI will be as smart as ‘any human as soon as next year.’ Mus",
+          "published": "2026-04-28T19:27:50+00:00",
+          "published_dt": "2026-04-28T19:27:50+00:00",
+          "score": 9.2,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$150 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI (The Verge AI) highlights a notable AI development with score 9.2.",
+          "summary_zh": "The Verge AI 报道：Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI，综合评分 9.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47934269",
+          "title": "OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership",
+          "url": "https://www.vice.com/en/article/openai-ceo-identity-verification-company-fake-bruno-mars-partnership-mistaken-identity/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-28T13:26:26+00:00",
+          "published_dt": "2026-04-28T13:26:26+00:00",
+          "hn_score": 279,
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership (Hacker News) highlights a notable AI development with score 7.1.",
+          "summary_zh": "Hacker News 报道：OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47932422",
+          "title": "An update on GitHub availability",
+          "url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-28T10:05:03+00:00",
+          "published_dt": "2026-04-28T10:05:03+00:00",
+          "hn_score": 321,
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "An update on GitHub availability (Hacker News) highlights a notable AI development with score 7.1.",
+          "summary_zh": "Hacker News 报道：An update on GitHub availability，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3117278",
+          "title": "At his OpenAI trial, Musk relitigates an old friendship",
+          "url": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "It's a story Musk has told before -- in interviews and to author Walter Isaacson for his bestselling biography of Musk -- but Tuesday was the first time he said it under oath.",
+          "published": "2026-04-29T00:40:16+00:00",
+          "published_dt": "2026-04-29T00:40:16+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "At his OpenAI trial, Musk relitigates an old friendship (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：At his OpenAI trial, Musk relitigates an old friendship，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3117152",
+          "title": "Amazon is already offering new OpenAI products on AWS",
+          "url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "A day after OpenAI got Microsoft to agree to end exclusive rights, AWS announced a slate of OpenAI model offerings, including a new agent service.",
+          "published": "2026-04-28T19:48:02+00:00",
+          "published_dt": "2026-04-28T19:48:02+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Microsoft",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Amazon is already offering new OpenAI products on AWS (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Amazon is already offering new OpenAI products on AWS，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47938097",
+          "title": "Claude.ai unavailable and elevated errors on the API",
+          "url": "https://status.claude.com/incidents/9l93x2ht4s5w",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-28T18:01:21+00:00",
+          "published_dt": "2026-04-28T18:01:21+00:00",
+          "hn_score": 274,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Claude.ai unavailable and elevated errors on the API (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：Claude.ai unavailable and elevated errors on the API，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything",
+          "title": "What's new in pip 26.1 - lockfiles and dependency cooldowns!",
+          "url": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "What's new in pip 26.1 - lockfiles and dependency cooldowns! Richard Si describes an excellent set of upgrades to Python's default pip tool for installing dependencies. This version drops support for Python 3.9 - fair enough, since it's been EOL since October. macOS still ships with python3 as a default Python 3.9, so I tried out the new Python version against Python 3.14 like this: uv python install 3.14 mkdir /tmp/experiment cd /tmp/experiment python3.14 -m venv venv source venv/bin/activate pip install -U pip pip --version This confirmed I had pip 26.1 - then I tried out the new lock files: pip lock datasette llm This installs Datasette and LLM and all of their dependencies and writes the whole lot to a 519 line pylock.toml file - here's the result. The new release also supports dependency cooldowns, discussed here previously, via the new --uploaded-prior-to PXD option where X is a number of days. The format is P-number-of-days-D, following ISO duration format but only supporting days. I shipped a new release of LLM, version 0.31, three days ago. Here's how to use the new --uploaded-prior-to P4D option to ask for a version that is at least 4 days old. pip install llm --uploaded-prior-to P4D venv/bin/llm --version This gave me version 0.30. Via Lobste.rs Tags: packaging, pip, python, security, supply-chain",
+          "published": "2026-04-28T05:23:05+00:00",
+          "published_dt": "2026-04-28T05:23:05+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "What's new in pip 26.1 - lockfiles and dependency cooldowns! (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：What's new in pip 26.1 - lockfiles and dependency cooldowns!，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 8,
+      "items": [
+        {
+          "id": "hn-47933208",
+          "title": "Localsend: An open-source cross-platform alternative to AirDrop",
+          "url": "https://github.com/localsend/localsend",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-28T11:54:20+00:00",
+          "published_dt": "2026-04-28T11:54:20+00:00",
+          "hn_score": 744,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Localsend: An open-source cross-platform alternative to AirDrop (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Localsend: An open-source cross-platform alternative to AirDrop，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+          "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-04-28T15:58:57+00:00",
+          "published_dt": "2026-04-28T15:58:57+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "multimodal"
+            ]
+          },
+          "summary_en": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3117039",
+          "title": "Google expands Pentagon’s access to its AI after Anthropic’s refusal",
+          "url": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "After Anthropic refused to allow the DoD to use its AI for domestic mass surveillance and autonomous weapons, Google has signed a new contract with the department.",
+          "published": "2026-04-28T18:15:00+00:00",
+          "published_dt": "2026-04-28T18:15:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google expands Pentagon’s access to its AI after Anthropic’s refusal (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google expands Pentagon’s access to its AI after Anthropic’s refusal，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47936370",
+          "title": "Anthropic Joins the Blender Development Fund as Corporate Patron",
+          "url": "https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-28T16:07:58+00:00",
+          "published_dt": "2026-04-28T16:07:58+00:00",
+          "hn_score": 240,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic Joins the Blender Development Fund as Corporate Patron (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Anthropic Joins the Blender Development Fund as Corporate Patron，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3116933",
+          "title": "YouTube is testing an AI-powered search feature that shows guided answers",
+          "url": "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "YouTube is rolling out the new AI search feature to Premium subscribers in the U.S. on an opt-in basis.",
+          "published": "2026-04-28T13:54:06+00:00",
+          "published_dt": "2026-04-28T13:54:06+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "YouTube is testing an AI-powered search feature that shows guided answers (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：YouTube is testing an AI-powered search feature that shows guided answers，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3116803",
+          "title": "Red Hat’s OpenClaw maintainer just made enterprise Claw deployments a lot safer",
+          "url": "https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Tank OS puts OpenClaw AI agents into a container that lets it run reliably and more safely, especially for those running fleets of them.",
+          "published": "2026-04-28T13:00:00+00:00",
+          "published_dt": "2026-04-28T13:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Red Hat’s OpenClaw maintainer just made enterprise Claw deployments a lot safer (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Red Hat’s OpenClaw maintainer just made enterprise Claw deployments a lot safer，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47933236",
+          "title": "VibeVoice: Open-source frontier voice AI",
+          "url": "https://github.com/microsoft/VibeVoice",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-28T11:56:04+00:00",
+          "published_dt": "2026-04-28T11:56:04+00:00",
+          "hn_score": 321,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "VibeVoice: Open-source frontier voice AI (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：VibeVoice: Open-source frontier voice AI，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-47932937",
+          "title": "Who owns the code Claude Code wrote?",
+          "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-04-28T11:24:52+00:00",
+          "published_dt": "2026-04-28T11:24:52+00:00",
+          "hn_score": 265,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Who owns the code Claude Code wrote? (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Who owns the code Claude Code wrote?，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-29T02:36:39.546479+00:00",
+          "published_dt": "2026-04-29T02:36:39.546479+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-04-29T02:36:39.546479+00:00",
+          "published_dt": "2026-04-29T02:36:39.546479+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/ainews-not-much-happened-today",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "When we made the AINews → Substack move, we committed to having Matt Levine style op-eds every day, but some days there just isn’t much going on and we will just say so - we are working on small essays around inference demand and multiagents, but today is not that day.Interesting model releases from Nvidia Nemotron, Poolside, and Alec Radford, but it’s unclear any of them will stand the test of time. GPT-6 hype is beginning.AI News for 4/27/2026-4/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapInference Systems, vLLM 0.20, and the Hardware/Kernel Race Around DeepSeek V4vLLM’s latest release is heavily about memory and MoE serving efficiency: vLLM v0.20.0 shipped with TurboQuant 2-bit KV cache for 4× KV capacity, FA4 re-enabled for MLA prefill on SM90+, a new vLLM IR foundation, fused RMSNorm for a reported 2.1% end-to-end latency improvement, plus support updates spanning DeepSeek V4 MegaMoE on Blackwell, Jetson Thor, ROCm, Intel XPU, and easier GB200/Grace-Blackwell setup. In parallel, SemiAnalysis highlighted early DeepSeek V4 Pro serving results on B200/B300/H200/GB200 disaggregated setups, claiming B300 can be up to 8× faster than H200 for this workload and pointing to upcoming vLLM 0.20 benchmarking with DeepGEMM MegaMoE, which fuses EP dispatch + EP combine + GEMMs + SwiGLU into a single mega-kernel.DeepSeek support: several posts focused on serving tradeoffs: Jeremy Howard noted DeepSeek V4’s support for prefill as a capability many providers have dropped, while Maharshi pointed out the overheads of dynamic activation quantization, arguing that static quantization often wins on inference speed despite calibration cost. There was also growing interest in alternate stack portability: teortaxesTex argued DeepSeek is structurally moving away from CUDA lock-in via TileKernels, sug",
+      "published": "2026-04-29T01:46:59+00:00",
+      "published_dt": "2026-04-29T01:46:59+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "inference",
+          "MoE",
+          "agent",
+          "benchmark",
+          "quantization",
+          "vLLM"
+        ]
+      },
+      "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93474",
+      "title": "NEA’s Tiffany Luck On How Startup Founders Can Build Moats In Vertical AI",
+      "url": "https://news.crunchbase.com/venture/startups-buiding-moats-vertical-ai-luck-nea/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "As a partner at New Enterprise Associates, Tiffany Luck invests in the AI application layer and B2B SaaS. She began on the consumer side at early-stage companies including Lot18 and pioneered the early push of CPG e-commerce at Amazon long before the Whole Foods acquisition. After a pivot into tech M&A at Morgan Stanley and a partnership at GGV Capital (now Notable), she joined NEA roughly three years ago. Today, Luck’s thesis centers on the AI application layer, betting on vertical AI and the “last mile” of automation to bridge the gap between horizontal model potential and tangible enterprise ROI. We recently spoke with Luck about the increasing relevance of vertical AI, how startups can carve out durable advantages in a world dominated by platform giants and more. The interview has been edited for brevity and clarity. Crunchbase News: You’ve seen the evolution of commerce from the early days of Amazon Fresh to the current AI boom. How does that background influence how you view the “friction” of AI adoption today? Tiffany Luck, partner at New Enterprise Associates. Luck: I see incredible parallels. At Amazon, I spent my days convincing CPG manufacturers that e-commerce was the inevitable future. Back then, there was immense friction — technological, logistical and mental. Today, Fortune 500 companies are in a similar spot with AI. While the potential is obvious, most organizations are still struggling to integrate it into their daily workflows. We are moving from a world where AI is a “shiny object” to one where it must solve a mechanical problem, but getting there requires overcoming that initial resistance. You’ve talked about the “Anthropic question” — the fear that frontier models will eventually swallow the application layer. How can vertical startups build a durable defense? It’s the primary concern for founders right now. Most horizontal tools, like Claude, currently act as research co-pilots. They are excellent at taking a user from 0% to 80%, but they do",
+      "published": "2026-04-28T11:00:22+00:00",
+      "published_dt": "2026-04-28T11:00:22+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "NEA’s Tiffany Luck On How Startup Founders Can Build Moats In Vertical AI (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：NEA’s Tiffany Luck On How Startup Founders Can Build Moats In Vertical AI，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?post_type=vm_stream&p=917225",
+      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. The trial began with jury selection on April 27th, before Elon Musk took the stand on Tuesday as the first witness called, portraying his interest in founding OpenAI as an effort to help save humanity. Musk was a cofounder of OpenAI and claims that Altman and cofounder Greg Brockman tricked him into giving the company money, only to turn their backs on their original goal. However, OpenAI says that “This lawsuit has always been a baseless and jealous bid to derail a competitor” in a bid to boost Musk’s own SpaceX / xAI / X companies that have launched Grok as a competitor to ChatGPT. In his lawsuit, Musk is asking for the removal of Altman and Brockman, and for OpenAI to stop operating as a public benefit corporation. Musk has also demanded that OpenAI’s nonprofit receive up to $150 billion in damages he’s asking for if he wins the case. Here’s all the latest on the trial between Musk and Altman: Elon Musk appeared more petty than prepared That’s a wrap! YGR scolds OpenAI for taking inconsistent positions on the origin of its name. Elon Musk tells the jury that all he wants to do is save humanity Arguments over ownership. Apparently OpenAI could have had an ICO. “I was not averse to a small for-profit,” Musk says. We’re reading emails between Musk and Jensen Huang. Musk says nonprofit was non-negotiable for OpenAI. We’re at the founding of OpenAI. Musk says he would have created something like OpenAI on his own. Musk recalls meeting Sam Altman. Sam Altman left during a break, but Elon Musk’s lawyer didn’t notice. “Here we are in 2026 and AI is scary smart.” “I have extreme concerns about AI,” says Musk. AI will be as smart as ‘any human as soon as next year.’ Mus",
+      "published": "2026-04-28T19:27:50+00:00",
+      "published_dt": "2026-04-28T19:27:50+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$150 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=917052",
+      "title": "Elon Musk takes the stand in high-profile trial against OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917052/elon-musk-takes-stand-trial-openai-sam-altman",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Elon Musk officially began his testimony in the trial he has brought against OpenAI CEO Sam Altman and company president Greg Brockman. The three were on the initial founding team of OpenAI, with Musk investing up to $38 million early on before the co-founders' relationship soured over disagreements over company structure and mission, including whether or not OpenAI should be folded into Musk-owned Tesla. Musk walked away and, years later, founded xAI - his own direct competitor to OpenAI, which is now owned by Musk's SpaceX. In recent years, Musk has filed no less than four different lawsuits against OpenAI, many of which have since been … Read the full story at The Verge.",
+      "published": "2026-04-28T19:00:13+00:00",
+      "published_dt": "2026-04-28T19:00:13+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$38 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Elon Musk takes the stand in high-profile trial against OpenAI (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：Elon Musk takes the stand in high-profile trial against OpenAI，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything",
+      "title": "Introducing talkie: a 13B vintage language model from 1930",
+      "url": "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Introducing talkie: a 13B vintage language model from 1930 New project from Nick Levine, David Duvenaud, and Alec Radford (of GPT, GPT-2, Whisper fame). talkie-1930-13b-base (53.1 GB) is a \"13B language model trained on 260B tokens of historical pre-1931 English text\". talkie-1930-13b-it (26.6 GB) is a checkpoint \"finetuned using a novel dataset of instruction-response pairs extracted from pre-1931 reference works\", designed to power a chat interface. You can try that out here. Both models are Apache 2.0 licensed. Since the training data for the base model is entirely out of copyright (the USA copyright cutoff date is currently January 1, 1931), I'm hoping they later decide to release the training data as well. Update on that: Nick Levine on Twitter: Will publish more on the corpus in the future (and do our best to share the data or at least scripts to reproduce it). Their report suggests some fascinating research objectives for this class of model, including: How good are these models at predicting the future? \"we calculated the surprisingness of short descriptions of historical events to a 13B model trained on pre-1931 text\" Can these models invent things that are past their knowledge cutoffs? \"As Demis Hassabis has asked, could a model trained up to 1911 independently discover General Relativity, as Einstein did in 1915?\" Can they be taught to program? \"Figure 3 (left-hand side) shows an early example of such a test, measuring how well models trained on pre-1931 text can, when given a few demonstration examples of Python programs, write new correct programs.\" I have a long-running interest in what I call \"vegan models\" - LLMs that are trained entirely on licensed or out-of-copyright data. I think the base model here qualifies, but the chat model isn't entirely pure due to the reliance on non-vegan models to help with the fine-tuning - emphasis mine: First, we generated instruction-response pairs from historical texts with regular structure, such as etiquette manu",
+      "published": "2026-04-28T02:47:42+00:00",
+      "published_dt": "2026-04-28T02:47:42+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "fine-tuning"
+        ]
+      },
+      "summary_en": "Introducing talkie: a 13B vintage language model from 1930 (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：Introducing talkie: a 13B vintage language model from 1930，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47934269",
+      "title": "OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership",
+      "url": "https://www.vice.com/en/article/openai-ceo-identity-verification-company-fake-bruno-mars-partnership-mistaken-identity/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-28T13:26:26+00:00",
+      "published_dt": "2026-04-28T13:26:26+00:00",
+      "hn_score": 279,
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership (Hacker News) highlights a notable AI development with score 7.1.",
+      "summary_zh": "Hacker News 报道：OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47932422",
+      "title": "An update on GitHub availability",
+      "url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-28T10:05:03+00:00",
+      "published_dt": "2026-04-28T10:05:03+00:00",
+      "hn_score": 321,
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "An update on GitHub availability (Hacker News) highlights a notable AI development with score 7.1.",
+      "summary_zh": "Hacker News 报道：An update on GitHub availability，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-29T02:36:39.546479+00:00",
+      "published_dt": "2026-04-29T02:36:39.546479+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-04-29T02:36:39.546479+00:00",
+      "published_dt": "2026-04-29T02:36:39.546479+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3117278",
+      "title": "At his OpenAI trial, Musk relitigates an old friendship",
+      "url": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "It's a story Musk has told before -- in interviews and to author Walter Isaacson for his bestselling biography of Musk -- but Tuesday was the first time he said it under oath.",
+      "published": "2026-04-29T00:40:16+00:00",
+      "published_dt": "2026-04-29T00:40:16+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "At his OpenAI trial, Musk relitigates an old friendship (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：At his OpenAI trial, Musk relitigates an old friendship，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3117152",
+      "title": "Amazon is already offering new OpenAI products on AWS",
+      "url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "A day after OpenAI got Microsoft to agree to end exclusive rights, AWS announced a slate of OpenAI model offerings, including a new agent service.",
+      "published": "2026-04-28T19:48:02+00:00",
+      "published_dt": "2026-04-28T19:48:02+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Microsoft",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Amazon is already offering new OpenAI products on AWS (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Amazon is already offering new OpenAI products on AWS，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3117138",
+      "title": "Amazon launches an AI-powered audio Q&A experience on product pages",
+      "url": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Amazon's new \"Join the chat\" feature lets you ask questions about products and receive AI-powered audio responses.",
+      "published": "2026-04-28T18:49:54+00:00",
+      "published_dt": "2026-04-28T18:49:54+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon launches an AI-powered audio Q&A experience on product pages (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Amazon launches an AI-powered audio Q&A experience on product pages，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47938097",
+      "title": "Claude.ai unavailable and elevated errors on the API",
+      "url": "https://status.claude.com/incidents/9l93x2ht4s5w",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-28T18:01:21+00:00",
+      "published_dt": "2026-04-28T18:01:21+00:00",
+      "hn_score": 274,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Claude.ai unavailable and elevated errors on the API (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：Claude.ai unavailable and elevated errors on the API，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3116991",
+      "title": "Lovable launches its vibe-coding app on iOS and Android",
+      "url": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The app allows developers to vibe code web apps and websites on the go.",
+      "published": "2026-04-28T16:09:30+00:00",
+      "published_dt": "2026-04-28T16:09:30+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Lovable launches its vibe-coding app on iOS and Android (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Lovable launches its vibe-coding app on iOS and Android，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3116905",
+      "title": "Otter’s new feature lets users search across their enterprise tools",
+      "url": "https://techcrunch.com/2026/04/28/otters-new-feature-lets-users-search-across-their-enterprise-tools/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "With this launch, users can connect their Gmail, Google Drive, Notion, Jira, and Salesforce accounts and query that data along with existing meeting data. The company said that it will soon allow connections with Microsoft Outlook, Teams, SharePoint, and Slack.",
+      "published": "2026-04-28T12:00:00+00:00",
+      "published_dt": "2026-04-28T12:00:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Otter’s new feature lets users search across their enterprise tools (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Otter’s new feature lets users search across their enterprise tools，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything",
+      "title": "What's new in pip 26.1 - lockfiles and dependency cooldowns!",
+      "url": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "What's new in pip 26.1 - lockfiles and dependency cooldowns! Richard Si describes an excellent set of upgrades to Python's default pip tool for installing dependencies. This version drops support for Python 3.9 - fair enough, since it's been EOL since October. macOS still ships with python3 as a default Python 3.9, so I tried out the new Python version against Python 3.14 like this: uv python install 3.14 mkdir /tmp/experiment cd /tmp/experiment python3.14 -m venv venv source venv/bin/activate pip install -U pip pip --version This confirmed I had pip 26.1 - then I tried out the new lock files: pip lock datasette llm This installs Datasette and LLM and all of their dependencies and writes the whole lot to a 519 line pylock.toml file - here's the result. The new release also supports dependency cooldowns, discussed here previously, via the new --uploaded-prior-to PXD option where X is a number of days. The format is P-number-of-days-D, following ISO duration format but only supporting days. I shipped a new release of LLM, version 0.31, three days ago. Here's how to use the new --uploaded-prior-to P4D option to ask for a version that is at least 4 days old. pip install llm --uploaded-prior-to P4D venv/bin/llm --version This gave me version 0.30. Via Lobste.rs Tags: packaging, pip, python, security, supply-chain",
+      "published": "2026-04-28T05:23:05+00:00",
+      "published_dt": "2026-04-28T05:23:05+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "What's new in pip 26.1 - lockfiles and dependency cooldowns! (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：What's new in pip 26.1 - lockfiles and dependency cooldowns!，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47933208",
+      "title": "Localsend: An open-source cross-platform alternative to AirDrop",
+      "url": "https://github.com/localsend/localsend",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-28T11:54:20+00:00",
+      "published_dt": "2026-04-28T11:54:20+00:00",
+      "hn_score": 744,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Localsend: An open-source cross-platform alternative to AirDrop (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Localsend: An open-source cross-platform alternative to AirDrop，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3116810",
+      "title": "BCI startup Neurable looks to license its ‘mind-reading’ tech for consumer wearables",
+      "url": "https://techcrunch.com/2026/04/28/bci-startup-neurable-looks-to-license-its-mind-reading-tech-for-consumer-wearables/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The startup specializes in \"non-invasive\" \"mind-reading\" tech — a kind of neural data collection that, its CEO hopes, will have all sorts of consumer applications.",
+      "published": "2026-04-28T13:19:34+00:00",
+      "published_dt": "2026-04-28T13:19:34+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "BCI startup Neurable looks to license its ‘mind-reading’ tech for consumer wearables (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：BCI startup Neurable looks to license its ‘mind-reading’ tech for consumer wearables，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=920048",
+      "title": "Elon Musk tells the jury that all he wants to do is save humanity",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920048/elon-musk-testimony-save-humanity",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "On the stand, Elon Musk is positioning himself as a savior. In the high-profile trial between him and his fellow OpenAI co-founder, now CEO, Sam Altman, Musk opened by going through his background. He went as far back as being raised in South Africa and arriving in Canada for college with \"2,500 in Canadian travelers' checks and a bag of clothes and books,\" then spent an unusually long time talking about his past, from Zip2 to PayPal to the current, more familiar slate of companies he now runs. Why is Musk giving the jury so much of his origin story? Though he may be, depending on the day, the world's wealthiest individual, Musk suggested … Read the full story at The Verge.",
+      "published": "2026-04-28T20:46:54+00:00",
+      "published_dt": "2026-04-28T20:46:54+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Elon Musk tells the jury that all he wants to do is save humanity (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：Elon Musk tells the jury that all he wants to do is save humanity，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-imagegen-is-on-the-path-to",
+      "title": "[AINews] ImageGen is on the Path to AGI",
+      "url": "https://www.latent.space/p/ainews-imagegen-is-on-the-path-to",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "As every lab sprints toward being some form of Anthropic (aka having a coding and enterprise AI focus, producing ever better PDFs and PPTs and spreadsheets), it is still refreshing to see that GPT-Image-2 is continuing to drive more creative applications, for example this:Considering the extremely high NPS score of the Lego Rocky Space Friend on date nights, you can imagine how good a low-hallucination, research-enabled, fully multimodal reasoning image model can be.Of course it’s good for education:tweetor pop culture:or precise, clean infographics:And of course the GPT-Image-2 + Codex combo, which is available as a skill in Codex, which you can iteratively use to generate assets WHILE you code:And just like that, Claude Design, the previous Current Thing, isn’t even in the conversation anymore. Quite simply, if you can “close” the loop, you win.But that isn’t quite the argument we’re making here. What we’re focusing on is the very literal and serious question of whether or not models like Nano Banana or GPT-Image-2 or Grok Imagine are necessary uses of scarce GPU capacity if you are eschewing “side quests” and seriously pursuing AGI and trying to hit the revenue, efficiency, and funding goals necessary to not die along the way.The answer is emergingly clear: yes. Not merely because of the “closing the loop”. But also because you can only do so much with text and code and structured output generation. When you have multimodal voice and visual generation (including transparency!), you truly flex the “G” part of “AGI” - after all, what good is AI if it only narrowly takes all programming jobs? By the way, horse-riding astronauts used to be hard in imagegen, then it was astronaut-riding-horses, and now, well…AI News for 4/26/2026-4/27/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI",
+      "published": "2026-04-28T05:38:19+00:00",
+      "published_dt": "2026-04-28T05:38:19+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "multimodal"
+        ]
+      },
+      "summary_en": "[AINews] ImageGen is on the Path to AGI (Latent Space) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Latent Space 报道：[AINews] ImageGen is on the Path to AGI，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-04-28T15:58:57+00:00",
+      "published_dt": "2026-04-28T15:58:57+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "multimodal"
+        ]
+      },
+      "summary_en": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=919648",
+      "title": "Claude can now plug directly into Photoshop, Blender, and Ableton",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Claude’s new Blender connector lets you debug scenes, build new tools, and batch-apply object changes directly from the chatbot interface. | Image: Anthropic Anthropic has launched a set of connectors for Claude that allow the AI chatbot to tap into popular creative software, including Adobe's Creative Cloud apps, Affinity, Blender, Ableton, Autodesk, and more. This marks the company's latest efforts to break into the creative industry following its launch of Claude Design earlier this month. The new connectors - which enable Claude to access apps, retrieve data, and take actions within connected services - are \"designed to make it easier to use Claude for creative work,\" according to Anthropic, and can be used for specific functions in each app. The Adobe for creativity connector can draw fr … Read the full story at The Verge.",
+      "published": "2026-04-28T16:49:08+00:00",
+      "published_dt": "2026-04-28T16:49:08+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Claude can now plug directly into Photoshop, Blender, and Ableton (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Claude can now plug directly into Photoshop, Blender, and Ableton，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3117039",
+      "title": "Google expands Pentagon’s access to its AI after Anthropic’s refusal",
+      "url": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "After Anthropic refused to allow the DoD to use its AI for domestic mass surveillance and autonomous weapons, Google has signed a new contract with the department.",
+      "published": "2026-04-28T18:15:00+00:00",
+      "published_dt": "2026-04-28T18:15:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google expands Pentagon’s access to its AI after Anthropic’s refusal (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google expands Pentagon’s access to its AI after Anthropic’s refusal，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47936370",
+      "title": "Anthropic Joins the Blender Development Fund as Corporate Patron",
+      "url": "https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-28T16:07:58+00:00",
+      "published_dt": "2026-04-28T16:07:58+00:00",
+      "hn_score": 240,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic Joins the Blender Development Fund as Corporate Patron (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Anthropic Joins the Blender Development Fund as Corporate Patron，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3116933",
+      "title": "YouTube is testing an AI-powered search feature that shows guided answers",
+      "url": "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "YouTube is rolling out the new AI search feature to Premium subscribers in the U.S. on an opt-in basis.",
+      "published": "2026-04-28T13:54:06+00:00",
+      "published_dt": "2026-04-28T13:54:06+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "YouTube is testing an AI-powered search feature that shows guided answers (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：YouTube is testing an AI-powered search feature that shows guided answers，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3116803",
+      "title": "Red Hat’s OpenClaw maintainer just made enterprise Claw deployments a lot safer",
+      "url": "https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Tank OS puts OpenClaw AI agents into a container that lets it run reliably and more safely, especially for those running fleets of them.",
+      "published": "2026-04-28T13:00:00+00:00",
+      "published_dt": "2026-04-28T13:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Red Hat’s OpenClaw maintainer just made enterprise Claw deployments a lot safer (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Red Hat’s OpenClaw maintainer just made enterprise Claw deployments a lot safer，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47933236",
+      "title": "VibeVoice: Open-source frontier voice AI",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-28T11:56:04+00:00",
+      "published_dt": "2026-04-28T11:56:04+00:00",
+      "hn_score": 321,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "VibeVoice: Open-source frontier voice AI (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：VibeVoice: Open-source frontier voice AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-47932937",
+      "title": "Who owns the code Claude Code wrote?",
+      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-04-28T11:24:52+00:00",
+      "published_dt": "2026-04-28T11:24:52+00:00",
+      "hn_score": 265,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Who owns the code Claude Code wrote? (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Who owns the code Claude Code wrote?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
