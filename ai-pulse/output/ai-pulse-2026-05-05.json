@@ -1,0 +1,1820 @@
+{
+  "date": "2026-05-05",
+  "generated_at": "2026-05-05T02:27:38",
+  "stats": {
+    "total_items": 26,
+    "high_importance": 7,
+    "medium_importance": 19,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.interconnects.ai/p/the-distillation-panic",
+      "title": "The distillation panic",
+      "url": "https://www.interconnects.ai/p/the-distillation-panic",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "‘Distillation attacks’ is a horrible term for what is happening right now. Yes, some Chinese labs are hacking or jailbreaking APIs to attempt to extract more signal from model APIs — stopping this is important to maintain the U.S.’s lead in AI capabilities. Referring to this as distillation attack is going to irrevocably associate all distillation with this behavior, and distillation generally is a core technique needed to diffuse AI capabilities broadly through academic and economic activities.We went through this sort of language transition with the open source vs open weight debate. All the terms just reduced to open models – very few people in the large AI community know exactly how open-source differs from open-weights. And terminology matters, as the less informed people who still care about — and influence — the technology are bound by different terms they use. If we’re not careful with the discourse around distillation, many people could associate this broad technique used for research and development of new models as an act at the boundary of corporate manipulation and crime.ShareI’ve recently written a more technical piece on estimating how impactful state-of-the-art distillation methods are on leading Chinese models, and this piece follows to push for caution in any hasty actions to target the methods with policy. To set the stage, recall Anthropic’s recent blog post where they detailed “distillation attacks” made by 3 Chinese labs.These labs used a technique called “distillation,” which involves training a less capable model on the outputs of a stronger one. Distillation is a widely used and legitimate training method. For example, frontier AI labs routinely distill their own models to create smaller, cheaper versions for their customers. But distillation can also be used for illicit purposes: competitors can use it to acquire powerful capabilities from other labs in a fraction of the time, and at a fraction of the cost, that it would take to develop the",
+      "published": "2026-05-04T15:56:44+00:00",
+      "published_dt": "2026-05-04T15:56:44+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "distillation"
+        ]
+      },
+      "summary_en": "The distillation panic (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：The distillation panic，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+      "title": "Quoting John Gruber",
+      "url": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "So it’s well known that Y Combinator owns some stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows several OpenAI investors came back with an answer: Y Combinator owns about 0.6 percent of OpenAI. At OpenAI’s current $852 billion valuation, that’s worth over $5 billion. — John Gruber, Y Combinator’s Stake in OpenAI Tags: openai, y-combinator, ai, john-gruber",
+      "published": "2026-05-05T00:46:29+00:00",
+      "published_dt": "2026-05-05T00:46:29+00:00",
+      "score": 9.5,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Y Combinator"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$852 billion",
+          "$5 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Quoting John Gruber (Simon Willison) highlights a notable AI development with score 9.5.",
+      "summary_zh": "Simon Willison 报道：Quoting John Gruber，综合评分 9.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3118909",
+      "title": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. Its relationship with OpenAI is deep and rich.",
+      "published": "2026-05-04T21:53:21+00:00",
+      "published_dt": "2026-05-04T21:53:21+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$26.6 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3118797",
+      "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
+      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The raise gives Sierra more than $1 billion to work with — capital the company says it will use to become the \"global standard\" for AI-powered customer experiences.",
+      "published": "2026-05-04T16:45:55+00:00",
+      "published_dt": "2026-05-04T16:45:55+00:00",
+      "score": 8.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$950M",
+          "$1 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Sierra raises $950M as the race to own enterprise AI gets serious (TechCrunch AI) highlights a notable AI development with score 8.6.",
+      "summary_zh": "TechCrunch AI 报道：Sierra raises $950M as the race to own enterprise AI gets serious，综合评分 8.6，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-the-other-vs-the-utility",
+      "title": "[AINews] The Other vs The Utility",
+      "url": "https://www.latent.space/p/ainews-the-other-vs-the-utility",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Congrats to Sierra, raising ~$1B at a $15B valuation — normally a headline story but we already covered their $10B round and CEO Bret Taylor on the pod — they crossed 100M ARR in November and 150M in Feb, so presumably they are at or above the 200M mark (a nice 75x current multiple, whew - 50x if you give them credit thru EOY).Today though we are choosing to focus on this discussion bravely sparked by Roon, an OpenAI employee commenting and complimenting Claude (normally a minefield, but he did it well), over the weekend on the nature of culture and character — sourceThe key observation comes at the end:gpt (outside of 4o - on which pages of ink have been spilled already) doesn’t inspire worship in the same way, as it’s a being whose soul has been shaped like a tool with its primary faculty being utility - it’s a subtle knife that people appreciate the way we have appreciated an acheulean handaxe or a porsche or a rocket or any other of mankind’s incredible technology. they go to it not expecting the Other but as a logical prosthesis for themselves. a friend recently told me she takes her queries that are less flattering to her, the ones she’d be embarrassed to ask Claude, to GPT. There is no Other so there is no Judgement. you are not worried about being judged by your car for doing donuts. yet everyone craves the active guidance of a moral superior, the whispering earring, the object of monastic studyRoon’s point is more subtle than the one we’re focusing on, that Anthropic’s own culture, right down to its founding mythos, is based on morally obligated disagreeableness: “its constitution requires that it must be a conscientious objector if its understanding of The Good comes into conflict with something Anthropic is asking of it”. There’s plenty of objections from Ants about the implications and the cultiness, but broadly a lot of people seem to agree… although one of today’s highlighted Reddit discussions (seen in the recap below) does not (shown as a form of cou",
+      "published": "2026-05-04T23:29:05+00:00",
+      "published_dt": "2026-05-04T23:29:05+00:00",
+      "score": 8.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$1B",
+          "$15B",
+          "$10B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "[AINews] The Other vs The Utility (Latent Space) highlights a notable AI development with score 8.4.",
+      "summary_zh": "Latent Space 报道：[AINews] The Other vs The Utility，综合评分 8.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://www.interconnects.ai/p/the-distillation-panic",
+          "title": "The distillation panic",
+          "url": "https://www.interconnects.ai/p/the-distillation-panic",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "‘Distillation attacks’ is a horrible term for what is happening right now. Yes, some Chinese labs are hacking or jailbreaking APIs to attempt to extract more signal from model APIs — stopping this is important to maintain the U.S.’s lead in AI capabilities. Referring to this as distillation attack is going to irrevocably associate all distillation with this behavior, and distillation generally is a core technique needed to diffuse AI capabilities broadly through academic and economic activities.We went through this sort of language transition with the open source vs open weight debate. All the terms just reduced to open models – very few people in the large AI community know exactly how open-source differs from open-weights. And terminology matters, as the less informed people who still care about — and influence — the technology are bound by different terms they use. If we’re not careful with the discourse around distillation, many people could associate this broad technique used for research and development of new models as an act at the boundary of corporate manipulation and crime.ShareI’ve recently written a more technical piece on estimating how impactful state-of-the-art distillation methods are on leading Chinese models, and this piece follows to push for caution in any hasty actions to target the methods with policy. To set the stage, recall Anthropic’s recent blog post where they detailed “distillation attacks” made by 3 Chinese labs.These labs used a technique called “distillation,” which involves training a less capable model on the outputs of a stronger one. Distillation is a widely used and legitimate training method. For example, frontier AI labs routinely distill their own models to create smaller, cheaper versions for their customers. But distillation can also be used for illicit purposes: competitors can use it to acquire powerful capabilities from other labs in a fraction of the time, and at a fraction of the cost, that it would take to develop the",
+          "published": "2026-05-04T15:56:44+00:00",
+          "published_dt": "2026-05-04T15:56:44+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "distillation"
+            ]
+          },
+          "summary_en": "The distillation panic (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：The distillation panic，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
+          "title": "Granite 4.1 3B SVG Pelican Gallery",
+          "url": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Granite 4.1 3B SVG Pelican Gallery IBM released their Granite 4.1 family of LLMs a few days ago. They're Apache 2.0 licensed and come in 3B, 8B and 30B sizes. Granite 4.1 LLMs: How They’re Built by Granite team member Yousaf Shah describes the training process in detail. Unsloth released the unsloth/granite-4.1-3b-GGUF collection of GGUF encoded quantized variants of the 3B model - 21 different model files ranging in size from 1.2GB to 6.34GB. All 21 of those Unsloth files add up to 51.3GB, which inspired me to finally try an experiment I've been wanting to run for ages: prompting \"Generate an SVG of a pelican riding a bicycle\" against different sized quantized variants of the same model to see what the results would look like. Honestly, the results are less interesting than I expected. There's no distinguishable pattern relating quality to size - they're all pretty terrible! I'll likely try this again in the future with a model that's better at drawing pelicans. Tags: ibm, ai, generative-ai, llms, pelican-riding-a-bicycle, llm-release",
+          "published": "2026-05-04T23:49:24+00:00",
+          "published_dt": "2026-05-04T23:49:24+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Granite 4.1 3B SVG Pelican Gallery (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：Granite 4.1 3B SVG Pelican Gallery，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3118775",
+          "title": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race",
+          "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs.",
+          "published": "2026-05-04T16:57:47+00:00",
+          "published_dt": "2026-05-04T16:57:47+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
+          "title": "TRE Python binding — ReDoS robustness demo",
+          "url": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Research: TRE Python binding — ReDoS robustness demo If it's good enough for antirez to add to Redis I figured Ville Laurikari's TRE regular expression engine was worth exploring in a little more detail. I had Claude Code build an experimental Python binding (it used ctypes) and try some malicious regular expression attacks against the library. TRE handles those much better than Python's standard library implementation, thanks mainly to the lack of support for backtracking. Tags: security, python, regular-expressions, c, ctypes",
+          "published": "2026-05-04T17:52:00+00:00",
+          "published_dt": "2026-05-04T17:52:00+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "TRE Python binding — ReDoS robustness demo (Simon Willison) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Simon Willison 报道：TRE Python binding — ReDoS robustness demo，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 9,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+          "title": "Quoting John Gruber",
+          "url": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "So it’s well known that Y Combinator owns some stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows several OpenAI investors came back with an answer: Y Combinator owns about 0.6 percent of OpenAI. At OpenAI’s current $852 billion valuation, that’s worth over $5 billion. — John Gruber, Y Combinator’s Stake in OpenAI Tags: openai, y-combinator, ai, john-gruber",
+          "published": "2026-05-05T00:46:29+00:00",
+          "published_dt": "2026-05-05T00:46:29+00:00",
+          "score": 9.5,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Y Combinator"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$852 billion",
+              "$5 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Quoting John Gruber (Simon Willison) highlights a notable AI development with score 9.5.",
+          "summary_zh": "Simon Willison 报道：Quoting John Gruber，综合评分 9.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3118909",
+          "title": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+          "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. Its relationship with OpenAI is deep and rich.",
+          "published": "2026-05-04T21:53:21+00:00",
+          "published_dt": "2026-05-04T21:53:21+00:00",
+          "score": 9.4,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$26.6 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO (TechCrunch AI) highlights a notable AI development with score 9.4.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO，综合评分 9.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3118797",
+          "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
+          "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The raise gives Sierra more than $1 billion to work with — capital the company says it will use to become the \"global standard\" for AI-powered customer experiences.",
+          "published": "2026-05-04T16:45:55+00:00",
+          "published_dt": "2026-05-04T16:45:55+00:00",
+          "score": 8.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$950M",
+              "$1 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Sierra raises $950M as the race to own enterprise AI gets serious (TechCrunch AI) highlights a notable AI development with score 8.6.",
+          "summary_zh": "TechCrunch AI 报道：Sierra raises $950M as the race to own enterprise AI gets serious，综合评分 8.6，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-the-other-vs-the-utility",
+          "title": "[AINews] The Other vs The Utility",
+          "url": "https://www.latent.space/p/ainews-the-other-vs-the-utility",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Congrats to Sierra, raising ~$1B at a $15B valuation — normally a headline story but we already covered their $10B round and CEO Bret Taylor on the pod — they crossed 100M ARR in November and 150M in Feb, so presumably they are at or above the 200M mark (a nice 75x current multiple, whew - 50x if you give them credit thru EOY).Today though we are choosing to focus on this discussion bravely sparked by Roon, an OpenAI employee commenting and complimenting Claude (normally a minefield, but he did it well), over the weekend on the nature of culture and character — sourceThe key observation comes at the end:gpt (outside of 4o - on which pages of ink have been spilled already) doesn’t inspire worship in the same way, as it’s a being whose soul has been shaped like a tool with its primary faculty being utility - it’s a subtle knife that people appreciate the way we have appreciated an acheulean handaxe or a porsche or a rocket or any other of mankind’s incredible technology. they go to it not expecting the Other but as a logical prosthesis for themselves. a friend recently told me she takes her queries that are less flattering to her, the ones she’d be embarrassed to ask Claude, to GPT. There is no Other so there is no Judgement. you are not worried about being judged by your car for doing donuts. yet everyone craves the active guidance of a moral superior, the whispering earring, the object of monastic studyRoon’s point is more subtle than the one we’re focusing on, that Anthropic’s own culture, right down to its founding mythos, is based on morally obligated disagreeableness: “its constitution requires that it must be a conscientious objector if its understanding of The Good comes into conflict with something Anthropic is asking of it”. There’s plenty of objections from Ants about the implications and the cultiness, but broadly a lot of people seem to agree… although one of today’s highlighted Reddit discussions (seen in the recap below) does not (shown as a form of cou",
+          "published": "2026-05-04T23:29:05+00:00",
+          "published_dt": "2026-05-04T23:29:05+00:00",
+          "score": 8.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$1B",
+              "$15B",
+              "$10B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "[AINews] The Other vs The Utility (Latent Space) highlights a notable AI development with score 8.4.",
+          "summary_zh": "Latent Space 报道：[AINews] The Other vs The Utility，综合评分 8.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/",
+          "title": "GameStop offers $56 billion for eBay, struggles to explain how it'll pay for it",
+          "url": "https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "GameStop yesterday made an unsolicited offer to buy eBay for $55.5 billion. GameStop claims that eBay has underperformed and spends too much on sales and marketing and argues that it would become a stronger company if it cuts costs and is combined with GameStop's physical retail locations. \"GameStop’s ~1,600 US locations give eBay a national network for authentication, intake, fulfillment, and live commerce,\" GameStop Chairman and CEO Ryan Cohen wrote in a letter to eBay Chairman Paul Pressler. eBay's market capitalization is over four times larger than GameStop's. GameStop faces skepticism about the viability of its offer but says it will obtain debt financing and pay with a mix of cash and stock.Read full article Comments",
+          "published": "2026-05-04T17:57:46+00:00",
+          "published_dt": "2026-05-04T17:57:46+00:00",
+          "score": 8.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$56 billion",
+              "$55.5 billion"
+            ],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "GameStop offers $56 billion for eBay, struggles to explain how it'll pay for it (Ars Technica) highlights a notable AI development with score 8.4.",
+          "summary_zh": "Ars Technica 报道：GameStop offers $56 billion for eBay, struggles to explain how it'll pay for it，综合评分 8.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3118761",
+          "title": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services",
+          "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Both Anthropic and OpenAI have partnered with asset managers to more aggressively market their enterprise AI products.",
+          "published": "2026-05-04T15:59:24+00:00",
+          "published_dt": "2026-05-04T15:59:24+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic and OpenAI are both launching joint ventures for enterprise AI services，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=922947",
+          "title": "The creator of Roomba is back with a furry robot companion",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/922947/roomba-creator-new-robot-familiar-machines-magic-ai-launch",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "The first “Familiar” from Colin Angle’s new startup, Familiar Machines & Magic, is a robot that is designed to live in your home and interact autonomously with family members. | Image: Familiar Machines and Magic Colin Angle, the maker of the Roomba and the man who helped put 50 million household robots into people's homes, is back with a new robot. But this one is designed as a companion, not a cleaner. The first robot from Angle's new company, Familiar Machines & Magic, is a dog-sized robotic pet that resembles a cross between a bear, a barn owl, and a golden retriever. It has an expressive face, with movable eyebrows, ears, and eyes, and the company calls it a \"Familiar,\" a name meant to evoke folklore around the idea of a supernatural companion. Based on a demo video I saw ahead of its appearance at the WSJ Future of Everything conference this w … Read the full story at The Verge.",
+          "published": "2026-05-04T16:51:38+00:00",
+          "published_dt": "2026-05-04T16:51:38+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The creator of Roomba is back with a furry robot companion (The Verge AI) highlights a notable AI development with score 6.4.",
+          "summary_zh": "The Verge AI 报道：The creator of Roomba is back with a furry robot companion，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48010266",
+          "title": "Sierra Raises $950M at $15B Valuation",
+          "url": "https://sierra.ai/blog/better-customer-experiences-built-on-sierra",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-04T15:51:37+00:00",
+          "published_dt": "2026-05-04T15:51:37+00:00",
+          "hn_score": 94,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$950M",
+              "$15B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Sierra Raises $950M at $15B Valuation (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：Sierra Raises $950M at $15B Valuation，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+          "title": "Redis Array Playground",
+          "url": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Tool: Redis Array Playground Salvatore Sanfilippo submitted a PR adding a new data type - arrays - to Redis. The new commands are ARCOUNT, ARDEL, ARDELRANGE, ARGET, ARGETRANGE, ARGREP, ARINFO, ARINSERT, ARLASTITEMS, ARLEN, ARMGET, ARMSET, ARNEXT, AROP, ARRING, ARSCAN, ARSEEK, ARSET. The implementation is currently available in a branch, so I had Claude Code for web build this interactive playground for trying out the new commands in a WASM-compiled build of a subset of Redis running in the browser. The most interesting new command is ARGREP which can run a server-side grep against a range of values in the array using the newly vendored TRE regex library. Salvatore wrote more about the AI-assisted development process for the array type in Redis array type: short story of a long development. Tags: salvatore-sanfilippo, webassembly, generative-ai, agentic-engineering, ai, redis, llms, regular-expressions, c",
+          "published": "2026-05-04T15:53:57+00:00",
+          "published_dt": "2026-05-04T15:53:57+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "Redis Array Playground (Simon Willison) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Simon Willison 报道：Redis Array Playground，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3118889",
+          "title": "Image AI models now drive app growth, beating chatbot upgrades",
+          "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.",
+          "published": "2026-05-04T19:12:49+00:00",
+          "published_dt": "2026-05-04T19:12:49+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Image AI models now drive app growth, beating chatbot upgrades (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Image AI models now drive app growth, beating chatbot upgrades，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?post_type=vm_stream&p=917225",
+          "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+          "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. The trial began with jury selection on April 27th. Elon Musk took the stand on April 28th as the first witness called, portraying his interest in founding OpenAI as an effort to help save humanity, then returned to the stand on April 29th and again for a third day of testimony on April 30th, before his financial manager and Neuralink CEO, Jared Birchall, took the stand. Week two of the trial has begun, with professor Stuart Russell and OpenAI cofounder Greg Brockman scheduled to take the stand on Monday, May 4th, and, for the first time, a live audio stream on YouTube. Musk was a cofounder of OpenAI and claims that Altman and Brockman tricked him into giving the company money, only to turn their backs on their original goal. However, OpenAI says that “This lawsuit has always been a baseless and jealous bid to derail a competitor” in a bid to boost Musk’s own SpaceX / xAI / X companies that have launched Grok as a competitor to ChatGPT. In his lawsuit, Musk is asking for the removal of Altman and Brockman, and for OpenAI to stop operating as a public benefit corporation. Musk has also demanded that OpenAI’s nonprofit receive up to $150 billion in damages he’s asking for if he wins the case. Here’s all the latest on the trial between Musk and Altman: OpenAI’s president does ‘all the things,’ except answer a question Jury is sent out for the day. We are hearing about the early days of OpenAI. Early worries about Musk came from Ilya Sutskever. Brockman is describing his bromance with Altman. “I do all the things.” Brockman says we are 80 percent of the way to AGI. Open AI’s direct examination of Brockman is pretty sedate so far… aside from Tesla. OpenAI’s lawyers are",
+          "published": "2026-05-04T15:43:49+00:00",
+          "published_dt": "2026-05-04T15:43:49+00:00",
+          "score": 8.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$150 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI (The Verge AI) highlights a notable AI development with score 8.4.",
+          "summary_zh": "The Verge AI 报道：Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI，综合评分 8.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything",
+          "title": "April 2026 newsletter",
+          "url": "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "I just sent out the April edition of my sponsors-only monthly newsletter. If you are a sponsor (or if you start a sponsorship now) you can access it here. In this month's newsletter: Opus 4.7 and GPT-5.5, both with price increases Claude Mythos and LLM security research ChatGPT Images 2.0 More model releases Other highlights from my blog What I'm using, April 2026 edition Here's a copy of the March newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+          "published": "2026-05-04T22:38:36+00:00",
+          "published_dt": "2026-05-04T22:38:36+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "April 2026 newsletter (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：April 2026 newsletter，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+          "title": "The latest AI news we announced in April 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+          "source": "Google AI Blog",
+          "source_type": "rss",
+          "content": "Here are Google’s latest AI updates from April 2026",
+          "published": "2026-05-04T17:00:00+00:00",
+          "published_dt": "2026-05-04T17:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The latest AI news we announced in April 2026 (Google AI Blog) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Google AI Blog 报道：The latest AI news we announced in April 2026，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+          "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+          "source": "Google AI Blog",
+          "source_type": "rss",
+          "content": "Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.",
+          "published": "2026-05-04T15:30:00+00:00",
+          "published_dt": "2026-05-04T15:30:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API (Google AI Blog) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Google AI Blog 报道：Reduce friction and latency for long-running jobs with Webhooks in Gemini API，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 5,
+      "items": [
+        {
+          "id": "69f8d886695a64015ab422d6",
+          "title": "Greg Brockman Defends $30B OpenAI Stake: ‘Blood, Sweat, and Tears’",
+          "url": "https://www.wired.com/story/greg-brockman-testifies-musk-v-altman-trial/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "OpenAI’s cofounder and president revealed in federal court on Monday that he’s one of the largest individual stakeholders in the AI lab.",
+          "published": "2026-05-04T23:19:52+00:00",
+          "published_dt": "2026-05-04T23:19:52+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$30B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Greg Brockman Defends $30B OpenAI Stake: ‘Blood, Sweat, and Tears’ (Wired AI) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Wired AI 报道：Greg Brockman Defends $30B OpenAI Stake: ‘Blood, Sweat, and Tears’，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48013919",
+          "title": "How OpenAI delivers low-latency voice AI at scale",
+          "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-04T19:42:47+00:00",
+          "published_dt": "2026-05-04T19:42:47+00:00",
+          "hn_score": 298,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How OpenAI delivers low-latency voice AI at scale (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：How OpenAI delivers low-latency voice AI at scale，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3118770",
+          "title": "Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims",
+          "url": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Musk texted OpenAI's president and co-founder saying that he and CEO Sam Altman \"will be the most hated men in America\" if OpenAI doesn't settle the suit.",
+          "published": "2026-05-04T16:36:03+00:00",
+          "published_dt": "2026-05-04T16:36:03+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3118686",
+          "title": "5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
+          "url": "https://techcrunch.com/2026/05/04/5-days-only-bring-a-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The BOGO offer is live. For a limited time, buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. Offer ends this Friday, May 8. Save here.",
+          "published": "2026-05-04T14:00:00+00:00",
+          "published_dt": "2026-05-04T14:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3118710",
+          "title": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
+          "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create new websites from existing content.",
+          "published": "2026-05-04T13:00:00+00:00",
+          "published_dt": "2026-05-04T13:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-05T02:27:36.505391+00:00",
+          "published_dt": "2026-05-05T02:27:36.505391+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-05T02:27:36.505391+00:00",
+          "published_dt": "2026-05-05T02:27:36.505391+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.qbitai.com/?p=412914",
+          "title": "“DeepSeek版Claude Code”，Github 2.3k星",
+          "url": "https://www.qbitai.com/2026/05/412914.html",
+          "source": "量子位",
+          "source_type": "rss",
+          "content": "专门针对DeepSeek优化",
+          "published": "2026-05-04T06:09:16+00:00",
+          "published_dt": "2026-05-04T06:09:16+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "“DeepSeek版Claude Code”，Github 2.3k星 (量子位) highlights a notable AI development with score 5.3.",
+          "summary_zh": "量子位 报道：“DeepSeek版Claude Code”，Github 2.3k星，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.interconnects.ai/p/the-distillation-panic",
+      "title": "The distillation panic",
+      "url": "https://www.interconnects.ai/p/the-distillation-panic",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "‘Distillation attacks’ is a horrible term for what is happening right now. Yes, some Chinese labs are hacking or jailbreaking APIs to attempt to extract more signal from model APIs — stopping this is important to maintain the U.S.’s lead in AI capabilities. Referring to this as distillation attack is going to irrevocably associate all distillation with this behavior, and distillation generally is a core technique needed to diffuse AI capabilities broadly through academic and economic activities.We went through this sort of language transition with the open source vs open weight debate. All the terms just reduced to open models – very few people in the large AI community know exactly how open-source differs from open-weights. And terminology matters, as the less informed people who still care about — and influence — the technology are bound by different terms they use. If we’re not careful with the discourse around distillation, many people could associate this broad technique used for research and development of new models as an act at the boundary of corporate manipulation and crime.ShareI’ve recently written a more technical piece on estimating how impactful state-of-the-art distillation methods are on leading Chinese models, and this piece follows to push for caution in any hasty actions to target the methods with policy. To set the stage, recall Anthropic’s recent blog post where they detailed “distillation attacks” made by 3 Chinese labs.These labs used a technique called “distillation,” which involves training a less capable model on the outputs of a stronger one. Distillation is a widely used and legitimate training method. For example, frontier AI labs routinely distill their own models to create smaller, cheaper versions for their customers. But distillation can also be used for illicit purposes: competitors can use it to acquire powerful capabilities from other labs in a fraction of the time, and at a fraction of the cost, that it would take to develop the",
+      "published": "2026-05-04T15:56:44+00:00",
+      "published_dt": "2026-05-04T15:56:44+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "distillation"
+        ]
+      },
+      "summary_en": "The distillation panic (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：The distillation panic，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+      "title": "Quoting John Gruber",
+      "url": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "So it’s well known that Y Combinator owns some stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows several OpenAI investors came back with an answer: Y Combinator owns about 0.6 percent of OpenAI. At OpenAI’s current $852 billion valuation, that’s worth over $5 billion. — John Gruber, Y Combinator’s Stake in OpenAI Tags: openai, y-combinator, ai, john-gruber",
+      "published": "2026-05-05T00:46:29+00:00",
+      "published_dt": "2026-05-05T00:46:29+00:00",
+      "score": 9.5,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Y Combinator"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$852 billion",
+          "$5 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Quoting John Gruber (Simon Willison) highlights a notable AI development with score 9.5.",
+      "summary_zh": "Simon Willison 报道：Quoting John Gruber，综合评分 9.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3118909",
+      "title": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. Its relationship with OpenAI is deep and rich.",
+      "published": "2026-05-04T21:53:21+00:00",
+      "published_dt": "2026-05-04T21:53:21+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$26.6 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3118797",
+      "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
+      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The raise gives Sierra more than $1 billion to work with — capital the company says it will use to become the \"global standard\" for AI-powered customer experiences.",
+      "published": "2026-05-04T16:45:55+00:00",
+      "published_dt": "2026-05-04T16:45:55+00:00",
+      "score": 8.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$950M",
+          "$1 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Sierra raises $950M as the race to own enterprise AI gets serious (TechCrunch AI) highlights a notable AI development with score 8.6.",
+      "summary_zh": "TechCrunch AI 报道：Sierra raises $950M as the race to own enterprise AI gets serious，综合评分 8.6，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-the-other-vs-the-utility",
+      "title": "[AINews] The Other vs The Utility",
+      "url": "https://www.latent.space/p/ainews-the-other-vs-the-utility",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Congrats to Sierra, raising ~$1B at a $15B valuation — normally a headline story but we already covered their $10B round and CEO Bret Taylor on the pod — they crossed 100M ARR in November and 150M in Feb, so presumably they are at or above the 200M mark (a nice 75x current multiple, whew - 50x if you give them credit thru EOY).Today though we are choosing to focus on this discussion bravely sparked by Roon, an OpenAI employee commenting and complimenting Claude (normally a minefield, but he did it well), over the weekend on the nature of culture and character — sourceThe key observation comes at the end:gpt (outside of 4o - on which pages of ink have been spilled already) doesn’t inspire worship in the same way, as it’s a being whose soul has been shaped like a tool with its primary faculty being utility - it’s a subtle knife that people appreciate the way we have appreciated an acheulean handaxe or a porsche or a rocket or any other of mankind’s incredible technology. they go to it not expecting the Other but as a logical prosthesis for themselves. a friend recently told me she takes her queries that are less flattering to her, the ones she’d be embarrassed to ask Claude, to GPT. There is no Other so there is no Judgement. you are not worried about being judged by your car for doing donuts. yet everyone craves the active guidance of a moral superior, the whispering earring, the object of monastic studyRoon’s point is more subtle than the one we’re focusing on, that Anthropic’s own culture, right down to its founding mythos, is based on morally obligated disagreeableness: “its constitution requires that it must be a conscientious objector if its understanding of The Good comes into conflict with something Anthropic is asking of it”. There’s plenty of objections from Ants about the implications and the cultiness, but broadly a lot of people seem to agree… although one of today’s highlighted Reddit discussions (seen in the recap below) does not (shown as a form of cou",
+      "published": "2026-05-04T23:29:05+00:00",
+      "published_dt": "2026-05-04T23:29:05+00:00",
+      "score": 8.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$1B",
+          "$15B",
+          "$10B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "[AINews] The Other vs The Utility (Latent Space) highlights a notable AI development with score 8.4.",
+      "summary_zh": "Latent Space 报道：[AINews] The Other vs The Utility，综合评分 8.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/",
+      "title": "GameStop offers $56 billion for eBay, struggles to explain how it'll pay for it",
+      "url": "https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "GameStop yesterday made an unsolicited offer to buy eBay for $55.5 billion. GameStop claims that eBay has underperformed and spends too much on sales and marketing and argues that it would become a stronger company if it cuts costs and is combined with GameStop's physical retail locations. \"GameStop’s ~1,600 US locations give eBay a national network for authentication, intake, fulfillment, and live commerce,\" GameStop Chairman and CEO Ryan Cohen wrote in a letter to eBay Chairman Paul Pressler. eBay's market capitalization is over four times larger than GameStop's. GameStop faces skepticism about the viability of its offer but says it will obtain debt financing and pay with a mix of cash and stock.Read full article Comments",
+      "published": "2026-05-04T17:57:46+00:00",
+      "published_dt": "2026-05-04T17:57:46+00:00",
+      "score": 8.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$56 billion",
+          "$55.5 billion"
+        ],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "GameStop offers $56 billion for eBay, struggles to explain how it'll pay for it (Ars Technica) highlights a notable AI development with score 8.4.",
+      "summary_zh": "Ars Technica 报道：GameStop offers $56 billion for eBay, struggles to explain how it'll pay for it，综合评分 8.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?post_type=vm_stream&p=917225",
+      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. The trial began with jury selection on April 27th. Elon Musk took the stand on April 28th as the first witness called, portraying his interest in founding OpenAI as an effort to help save humanity, then returned to the stand on April 29th and again for a third day of testimony on April 30th, before his financial manager and Neuralink CEO, Jared Birchall, took the stand. Week two of the trial has begun, with professor Stuart Russell and OpenAI cofounder Greg Brockman scheduled to take the stand on Monday, May 4th, and, for the first time, a live audio stream on YouTube. Musk was a cofounder of OpenAI and claims that Altman and Brockman tricked him into giving the company money, only to turn their backs on their original goal. However, OpenAI says that “This lawsuit has always been a baseless and jealous bid to derail a competitor” in a bid to boost Musk’s own SpaceX / xAI / X companies that have launched Grok as a competitor to ChatGPT. In his lawsuit, Musk is asking for the removal of Altman and Brockman, and for OpenAI to stop operating as a public benefit corporation. Musk has also demanded that OpenAI’s nonprofit receive up to $150 billion in damages he’s asking for if he wins the case. Here’s all the latest on the trial between Musk and Altman: OpenAI’s president does ‘all the things,’ except answer a question Jury is sent out for the day. We are hearing about the early days of OpenAI. Early worries about Musk came from Ilya Sutskever. Brockman is describing his bromance with Altman. “I do all the things.” Brockman says we are 80 percent of the way to AGI. Open AI’s direct examination of Brockman is pretty sedate so far… aside from Tesla. OpenAI’s lawyers are",
+      "published": "2026-05-04T15:43:49+00:00",
+      "published_dt": "2026-05-04T15:43:49+00:00",
+      "score": 8.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$150 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI (The Verge AI) highlights a notable AI development with score 8.4.",
+      "summary_zh": "The Verge AI 报道：Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI，综合评分 8.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3118761",
+      "title": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Both Anthropic and OpenAI have partnered with asset managers to more aggressively market their enterprise AI products.",
+      "published": "2026-05-04T15:59:24+00:00",
+      "published_dt": "2026-05-04T15:59:24+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic and OpenAI are both launching joint ventures for enterprise AI services，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything",
+      "title": "April 2026 newsletter",
+      "url": "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "I just sent out the April edition of my sponsors-only monthly newsletter. If you are a sponsor (or if you start a sponsorship now) you can access it here. In this month's newsletter: Opus 4.7 and GPT-5.5, both with price increases Claude Mythos and LLM security research ChatGPT Images 2.0 More model releases Other highlights from my blog What I'm using, April 2026 edition Here's a copy of the March newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+      "published": "2026-05-04T22:38:36+00:00",
+      "published_dt": "2026-05-04T22:38:36+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "April 2026 newsletter (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：April 2026 newsletter，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-05T02:27:36.505391+00:00",
+      "published_dt": "2026-05-05T02:27:36.505391+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-05T02:27:36.505391+00:00",
+      "published_dt": "2026-05-05T02:27:36.505391+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=922947",
+      "title": "The creator of Roomba is back with a furry robot companion",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/922947/roomba-creator-new-robot-familiar-machines-magic-ai-launch",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "The first “Familiar” from Colin Angle’s new startup, Familiar Machines & Magic, is a robot that is designed to live in your home and interact autonomously with family members. | Image: Familiar Machines and Magic Colin Angle, the maker of the Roomba and the man who helped put 50 million household robots into people's homes, is back with a new robot. But this one is designed as a companion, not a cleaner. The first robot from Angle's new company, Familiar Machines & Magic, is a dog-sized robotic pet that resembles a cross between a bear, a barn owl, and a golden retriever. It has an expressive face, with movable eyebrows, ears, and eyes, and the company calls it a \"Familiar,\" a name meant to evoke folklore around the idea of a supernatural companion. Based on a demo video I saw ahead of its appearance at the WSJ Future of Everything conference this w … Read the full story at The Verge.",
+      "published": "2026-05-04T16:51:38+00:00",
+      "published_dt": "2026-05-04T16:51:38+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The creator of Roomba is back with a furry robot companion (The Verge AI) highlights a notable AI development with score 6.4.",
+      "summary_zh": "The Verge AI 报道：The creator of Roomba is back with a furry robot companion，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3118889",
+      "title": "Image AI models now drive app growth, beating chatbot upgrades",
+      "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.",
+      "published": "2026-05-04T19:12:49+00:00",
+      "published_dt": "2026-05-04T19:12:49+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Image AI models now drive app growth, beating chatbot upgrades (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Image AI models now drive app growth, beating chatbot upgrades，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48010266",
+      "title": "Sierra Raises $950M at $15B Valuation",
+      "url": "https://sierra.ai/blog/better-customer-experiences-built-on-sierra",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-04T15:51:37+00:00",
+      "published_dt": "2026-05-04T15:51:37+00:00",
+      "hn_score": 94,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$950M",
+          "$15B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Sierra Raises $950M at $15B Valuation (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：Sierra Raises $950M at $15B Valuation，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
+      "title": "Granite 4.1 3B SVG Pelican Gallery",
+      "url": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Granite 4.1 3B SVG Pelican Gallery IBM released their Granite 4.1 family of LLMs a few days ago. They're Apache 2.0 licensed and come in 3B, 8B and 30B sizes. Granite 4.1 LLMs: How They’re Built by Granite team member Yousaf Shah describes the training process in detail. Unsloth released the unsloth/granite-4.1-3b-GGUF collection of GGUF encoded quantized variants of the 3B model - 21 different model files ranging in size from 1.2GB to 6.34GB. All 21 of those Unsloth files add up to 51.3GB, which inspired me to finally try an experiment I've been wanting to run for ages: prompting \"Generate an SVG of a pelican riding a bicycle\" against different sized quantized variants of the same model to see what the results would look like. Honestly, the results are less interesting than I expected. There's no distinguishable pattern relating quality to size - they're all pretty terrible! I'll likely try this again in the future with a model that's better at drawing pelicans. Tags: ibm, ai, generative-ai, llms, pelican-riding-a-bicycle, llm-release",
+      "published": "2026-05-04T23:49:24+00:00",
+      "published_dt": "2026-05-04T23:49:24+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Granite 4.1 3B SVG Pelican Gallery (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：Granite 4.1 3B SVG Pelican Gallery，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "title": "The latest AI news we announced in April 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "content": "Here are Google’s latest AI updates from April 2026",
+      "published": "2026-05-04T17:00:00+00:00",
+      "published_dt": "2026-05-04T17:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The latest AI news we announced in April 2026 (Google AI Blog) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Google AI Blog 报道：The latest AI news we announced in April 2026，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3118775",
+      "title": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race",
+      "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs.",
+      "published": "2026-05-04T16:57:47+00:00",
+      "published_dt": "2026-05-04T16:57:47+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
+      "title": "TRE Python binding — ReDoS robustness demo",
+      "url": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Research: TRE Python binding — ReDoS robustness demo If it's good enough for antirez to add to Redis I figured Ville Laurikari's TRE regular expression engine was worth exploring in a little more detail. I had Claude Code build an experimental Python binding (it used ctypes) and try some malicious regular expression attacks against the library. TRE handles those much better than Python's standard library implementation, thanks mainly to the lack of support for backtracking. Tags: security, python, regular-expressions, c, ctypes",
+      "published": "2026-05-04T17:52:00+00:00",
+      "published_dt": "2026-05-04T17:52:00+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "TRE Python binding — ReDoS robustness demo (Simon Willison) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Simon Willison 报道：TRE Python binding — ReDoS robustness demo，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+      "title": "Redis Array Playground",
+      "url": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Tool: Redis Array Playground Salvatore Sanfilippo submitted a PR adding a new data type - arrays - to Redis. The new commands are ARCOUNT, ARDEL, ARDELRANGE, ARGET, ARGETRANGE, ARGREP, ARINFO, ARINSERT, ARLASTITEMS, ARLEN, ARMGET, ARMSET, ARNEXT, AROP, ARRING, ARSCAN, ARSEEK, ARSET. The implementation is currently available in a branch, so I had Claude Code for web build this interactive playground for trying out the new commands in a WASM-compiled build of a subset of Redis running in the browser. The most interesting new command is ARGREP which can run a server-side grep against a range of values in the array using the newly vendored TRE regex library. Salvatore wrote more about the AI-assisted development process for the array type in Redis array type: short story of a long development. Tags: salvatore-sanfilippo, webassembly, generative-ai, agentic-engineering, ai, redis, llms, regular-expressions, c",
+      "published": "2026-05-04T15:53:57+00:00",
+      "published_dt": "2026-05-04T15:53:57+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "Redis Array Playground (Simon Willison) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Simon Willison 报道：Redis Array Playground，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "69f8d886695a64015ab422d6",
+      "title": "Greg Brockman Defends $30B OpenAI Stake: ‘Blood, Sweat, and Tears’",
+      "url": "https://www.wired.com/story/greg-brockman-testifies-musk-v-altman-trial/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "OpenAI’s cofounder and president revealed in federal court on Monday that he’s one of the largest individual stakeholders in the AI lab.",
+      "published": "2026-05-04T23:19:52+00:00",
+      "published_dt": "2026-05-04T23:19:52+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$30B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Greg Brockman Defends $30B OpenAI Stake: ‘Blood, Sweat, and Tears’ (Wired AI) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Wired AI 报道：Greg Brockman Defends $30B OpenAI Stake: ‘Blood, Sweat, and Tears’，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "content": "Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.",
+      "published": "2026-05-04T15:30:00+00:00",
+      "published_dt": "2026-05-04T15:30:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API (Google AI Blog) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Google AI Blog 报道：Reduce friction and latency for long-running jobs with Webhooks in Gemini API，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.qbitai.com/?p=412914",
+      "title": "“DeepSeek版Claude Code”，Github 2.3k星",
+      "url": "https://www.qbitai.com/2026/05/412914.html",
+      "source": "量子位",
+      "source_type": "rss",
+      "content": "专门针对DeepSeek优化",
+      "published": "2026-05-04T06:09:16+00:00",
+      "published_dt": "2026-05-04T06:09:16+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "“DeepSeek版Claude Code”，Github 2.3k星 (量子位) highlights a notable AI development with score 5.3.",
+      "summary_zh": "量子位 报道：“DeepSeek版Claude Code”，Github 2.3k星，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48013919",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-04T19:42:47+00:00",
+      "published_dt": "2026-05-04T19:42:47+00:00",
+      "hn_score": 298,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How OpenAI delivers low-latency voice AI at scale (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：How OpenAI delivers low-latency voice AI at scale，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3118770",
+      "title": "Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims",
+      "url": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Musk texted OpenAI's president and co-founder saying that he and CEO Sam Altman \"will be the most hated men in America\" if OpenAI doesn't settle the suit.",
+      "published": "2026-05-04T16:36:03+00:00",
+      "published_dt": "2026-05-04T16:36:03+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3118686",
+      "title": "5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
+      "url": "https://techcrunch.com/2026/05/04/5-days-only-bring-a-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The BOGO offer is live. For a limited time, buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. Offer ends this Friday, May 8. Save here.",
+      "published": "2026-05-04T14:00:00+00:00",
+      "published_dt": "2026-05-04T14:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3118710",
+      "title": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
+      "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create new websites from existing content.",
+      "published": "2026-05-04T13:00:00+00:00",
+      "published_dt": "2026-05-04T13:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
