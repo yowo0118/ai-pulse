@@ -1,0 +1,2337 @@
+{
+  "date": "2026-05-13",
+  "generated_at": "2026-05-13T02:45:57",
+  "stats": {
+    "total_items": 34,
+    "high_importance": 5,
+    "medium_importance": 29,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "hn-48111896",
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "url": "https://github.com/cactus-compute/needle",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices.We were always frustrated by the little effort made towards building agentic models that run on budget phones, so we conducted investigations that led to an observation: agentic experiences are built upon tool calling, and massive models are overkill for it. Tool calling is fundamentally retrieval-and-assembly (match query to tool name, extract argument values, emit JSON), not reasoning. Cross-attention is the right primitive for this, and FFN parameters are wasted at this scale.Simple Attention Networks: the entire model is just attention and gating, no MLPs anywhere. Needle is an experimental run for single-shot function calling for consumer devices (phones, watches, glasses...).Training: - Pretrained on 200B tokens across 16 TPU v6e (27 hours) - Post-trained on 2B tokens of synthesized function-calling data (45 minutes) - Dataset synthesized via Gemini with 15 tool categories (timers, messaging, navigation, smart home, etc.)You can test it right now and finetune on your Mac/PC: https://github.com/cactus-compute/needleThe full writeup on the architecture is here: https://github.com/cactus-compute/needle/blob/main/docs/simp...We found that the \"no FFN\" finding generalizes beyond function calling to any task where the model has access to external structured knowledge (RAG, tool use, retrieval-augmented generation). The model doesn't need to memorize facts in FFN weights if the facts are provided in the input. Experimental results to published.While it beats FunctionGemma-270M, Qwen-0.6B, Granite-350M, LFM2.5-350M on single-shot function calling, those models have more scope/capacity and excel in conversational settings. We encourage you to test on your own tools via the playground and finetune accordingly.This is part of our broader work on Cactus (https://github.com/cactus-compute/cactus),",
+      "published": "2026-05-12T18:03:11+00:00",
+      "published_dt": "2026-05-12T18:03:11+00:00",
+      "hn_score": 296,
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model (Hacker News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Hacker News 报道：Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93524",
+      "title": "European AI Funding Is Growing. Will That Boost The Region’s Startup Scene?",
+      "url": "https://news.crunchbase.com/venture/european-ai-funding-startups-recursive-ineffable-advanced-machine-intelligence/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A growing percentage of European venture funding in 2026 was AI-driven. That includes investments in three new frontier model companies as well as startups working on data centers, semiconductors, robotics, aerospace, defense, biotech and applications in legal, customer service and fintech, among others, Crunchbase data shows. The energy sector necessary for AI compute also garnered significant funding this year. All told, roughly half of European venture funding in 2026 to date has been in AI-related companies, Crunchbase data shows. The uptick in artificial intelligence investment has coincided with an overall gain in startup funding in the region the last past quarters. Funding was up a third year over year in Q4 and Q1, reaching more than $17 billion each quarter. AI talent hubs One area where Europe is seeing momentum is with frontier labs. Employees from DeepMind — the original AI lab established in London in 2010 and acquired by Google in 2014 — have spawned two new labs in London: Recursive Superintelligence and Ineffable Intelligence. And Yann LeCun, previously Meta AI’s lead, formed Advanced Machine Intelligence in Paris. Just this year, the three companies have altogether raised $2.6 billion. Last year, German-based AI lab Black Forest Labs raised hundreds of million in funding. One of the earlier model companies from Europe, Mistral, founded in 2023, has raised $4 billion in total. Europe is also home to one of the early diffusion model companies, Synthesia. Aleph Alpha from Heidelberg, Germany, recently merged with Canada-based Cohere in April for sovereign and commercial AI deployments, valuing the merged entity at $20 billion, creating a transatlantic competitor to U.S. model companies. The recent spate of new AI lab formation and renewed momentum on the funding front could be a driver for talent hubs to concentrate in Europe. Still, although foundation labs in Europe have raised more than $8 billion since 2021, that represents a tiny percentage of th",
+      "published": "2026-05-12T11:00:20+00:00",
+      "published_dt": "2026-05-12T11:00:20+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google",
+          "DeepMind",
+          "Meta",
+          "Mistral",
+          "Cohere"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$17 billion",
+          "$2.6 billion",
+          "$4 billion",
+          "$20 billion",
+          "$8 billion",
+          "raised $2.6 billion",
+          "raised $4 billion"
+        ],
+        "technologies": [
+          "diffusion"
+        ]
+      },
+      "summary_en": "European AI Funding Is Growing. Will That Boost The Region’s Startup Scene? (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：European AI Funding Is Growing. Will That Boost The Region’s Startup Scene?，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121201",
+      "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
+      "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Vapi says its enterprise business has grown tenfold since early 2025 as companies shift customer support and sales calls to AI agents.",
+      "published": "2026-05-12T11:30:00+00:00",
+      "published_dt": "2026-05-12T11:30:00+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$500M"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3120192",
+      "title": "Dessn raises $6M for its production-focused design tool",
+      "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "A new startup called Dessn has raised $6 million to build AI-powered design tools that work directly with production codebases.",
+      "published": "2026-05-12T13:00:00+00:00",
+      "published_dt": "2026-05-12T13:00:00+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$6M",
+          "$6 million",
+          "raised $6 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Dessn raises $6M for its production-focused design tool (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Dessn raises $6M for its production-focused design tool，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=916975",
+      "title": "Sam Altman takes the stand in trial against Elon Musk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI CEO Sam Altman has begun his testimony against Elon Musk in a high-profile jury trial in a California federal courtroom. Altman, alongside OpenAI president Greg Brockman, is a primary defendant in the trial brought by Musk. Altman, Brockman, and Musk were all part of the initial founding team at OpenAI, with Musk investing up to $38 million in the ChatGPT-maker's early days. But the relationship between Musk and other OpenAI founders eventually soured, and Musk stepped away from the company, later going on to found his own direct competitor, xAI. In recent years, Musk and Altman have traded barbs and made a slew of allegations agains … Read the full story at The Verge.",
+      "published": "2026-05-12T16:05:20+00:00",
+      "published_dt": "2026-05-12T16:05:20+00:00",
+      "score": 8.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$38 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Sam Altman takes the stand in trial against Elon Musk (The Verge AI) highlights a notable AI development with score 8.4.",
+      "summary_zh": "The Verge AI 报道：Sam Altman takes the stand in trial against Elon Musk，综合评分 8.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 4,
+      "items": [
+        {
+          "id": "hn-48111896",
+          "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+          "url": "https://github.com/cactus-compute/needle",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices.We were always frustrated by the little effort made towards building agentic models that run on budget phones, so we conducted investigations that led to an observation: agentic experiences are built upon tool calling, and massive models are overkill for it. Tool calling is fundamentally retrieval-and-assembly (match query to tool name, extract argument values, emit JSON), not reasoning. Cross-attention is the right primitive for this, and FFN parameters are wasted at this scale.Simple Attention Networks: the entire model is just attention and gating, no MLPs anywhere. Needle is an experimental run for single-shot function calling for consumer devices (phones, watches, glasses...).Training: - Pretrained on 200B tokens across 16 TPU v6e (27 hours) - Post-trained on 2B tokens of synthesized function-calling data (45 minutes) - Dataset synthesized via Gemini with 15 tool categories (timers, messaging, navigation, smart home, etc.)You can test it right now and finetune on your Mac/PC: https://github.com/cactus-compute/needleThe full writeup on the architecture is here: https://github.com/cactus-compute/needle/blob/main/docs/simp...We found that the \"no FFN\" finding generalizes beyond function calling to any task where the model has access to external structured knowledge (RAG, tool use, retrieval-augmented generation). The model doesn't need to memorize facts in FFN weights if the facts are provided in the input. Experimental results to published.While it beats FunctionGemma-270M, Qwen-0.6B, Granite-350M, LFM2.5-350M on single-shot function calling, those models have more scope/capacity and excel in conversational settings. We encourage you to test on your own tools via the playground and finetune accordingly.This is part of our broader work on Cactus (https://github.com/cactus-compute/cactus),",
+          "published": "2026-05-12T18:03:11+00:00",
+          "published_dt": "2026-05-12T18:03:11+00:00",
+          "hn_score": 296,
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "agent"
+            ]
+          },
+          "summary_en": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model (Hacker News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Hacker News 报道：Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+          "title": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+          "url": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "By complete coincidence, the day we released Neil Zeghidour (CEO of Gradium, the for profit spinoff of the vaunted Kyutai Moshi)’s talk on what remains to be built for realtime voice, Thinking Machines emerged for only the third time in a ~year (despite much drama) to drop Interaction Models: A Scalable Approach to Human-AI Collaboration, TML-Interaction-Small is a 276B parameter MoE with 12B active., which immediately advances the state of the art of realtime voice models as Neil had laid out, updating the famously dead GPT 4o “her” demo with far more detailed demos that are presumably far closer to real use:The full blogpost has lots of demos of the level of continuous interactivity, focusing on streams of “time-aligned microturns” of 200ms each:Using encoder-free early fusion, with images and audio all processed <200ms, similar to Meta’s Chameleon:There are a number of official benchmarks that the team shows beating both GPT-Realtime-2 and Gemini 3.1-Flash on basic things like BigBench Audio and IFEval and FD-bench, but the level of interactivity aimed for required making 2 new internal benchmarks for time awareness, simultaneous translation, and visual proactivity:TimeSpeak: Can the model initiate speech at user-specified times? Example: “I want to practice my breathing, remind me to breathe in and out every 4 seconds until I ask you to stop.”CueSpeak: Can the model speak at the appropriate moment? Example: “Everytime I codeswitch and use another language, give me the correct word in the original language.”RepCount-A contains videos of repeated actions and is adapted into an online counting task - measures continuous visual tracking and timely counting.ProactiveVideoQA consists of videos with questions, whose answers become available at specific moments. Higher scores require correct answers at the correct times, silence gets partial credit, and incorrect answers are penalized.Charades is a standard temporal action-localization benchmark. Stream a user audio ins",
+          "published": "2026-05-12T04:33:46+00:00",
+          "published_dt": "2026-05-12T04:33:46+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "MoE",
+              "SOTA",
+              "benchmark"
+            ]
+          },
+          "summary_en": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD (Latent Space) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Latent Space 报道：[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=928861",
+          "title": "Sam Altman says Elon Musk’s mind games were damaging OpenAI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/928861/openai-sam-altman-elon-musk-damage",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "OpenAI CEO Sam Altman says Elon Musk did \"huge damage\" to the culture of the AI startup. During testimony as part of Musk's lawsuit against OpenAI, Altman said Musk required OpenAI president Greg Brockman and former chief scientist Ilya Sutskever to rank researchers by their accomplishments and \"take a chainsaw through a bunch.\" Altman conceded that this was the management style the Tesla CEO was known for, but that it was incompatible with his startup. \"I don't think Mr. Musk understood how to run a good research lab,\" Altman testified when his lawyer, William Savitt, asked about the impact of Musk's departure from OpenAI on morale. \"For a … Read the full story at The Verge.",
+          "published": "2026-05-12T17:34:09+00:00",
+          "published_dt": "2026-05-12T17:34:09+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Sam Altman says Elon Musk’s mind games were damaging OpenAI (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：Sam Altman says Elon Musk’s mind games were damaging OpenAI，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
+          "title": "How open model ecosystems compound",
+          "url": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "Note: Voice-overs for paywalled posts are available for paid subscribes in podcast apps if you click on settings on Interconnects, then manage your description. Thanks for listening!Most of the compute to build a leading frontier model comes from R&D costs, rather than the compute to train the final, big model end-to-end. In an ecosystem like China, where all the leading players are open, this creates a potential meaningful advantage in cost structures that’ll let labs keep building longer than outside observers would expect.There are two recent pieces of research, one from Ai2 documenting the development of Olmo 3 and one from Epoch AI studying public documentation of costs from various frontier labs, that put the estimate of compute spent on R&D rather than the final model at about 80% (with meaningful error bars).In a world where research and development is most of the compute, the Chinese system is designed around quickly learning from your peers and avoiding double-spending research compute — or infra effort. It’s far from perfect, but it’s the closest analog to the OSS ecosystem that one can get for building LLMs. The public discussion of AI has always emphasized that the models are expensive in a way that naturally lets passive readers think this is compute just dedicated to the artifact — as we saw with DeepSeek V3.ShareThis had me revisiting the core issue of open-source AI, and how it doesn’t have the feedback loops akin to open-source software (OSS) users back to the creation itself, that creates immense value following Linus’s law of “given enough eyeballs, all bugs are shallow”. This self-reinforcement of OSS makes deployment at scale the cheapest possible outcome — all the users together share the costs of fixing bugs and adding features.Within open-source AI, almost all the cost falls on the model developer. At the same time, there are huge benefits to releasing the model openly that do reduce costs, but they only help reduce future development and de",
+          "published": "2026-05-12T15:54:47+00:00",
+          "published_dt": "2026-05-12T15:54:47+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "How open model ecosystems compound (Interconnects (Nathan Lambert)) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：How open model ecosystems compound，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 7,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93524",
+          "title": "European AI Funding Is Growing. Will That Boost The Region’s Startup Scene?",
+          "url": "https://news.crunchbase.com/venture/european-ai-funding-startups-recursive-ineffable-advanced-machine-intelligence/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "A growing percentage of European venture funding in 2026 was AI-driven. That includes investments in three new frontier model companies as well as startups working on data centers, semiconductors, robotics, aerospace, defense, biotech and applications in legal, customer service and fintech, among others, Crunchbase data shows. The energy sector necessary for AI compute also garnered significant funding this year. All told, roughly half of European venture funding in 2026 to date has been in AI-related companies, Crunchbase data shows. The uptick in artificial intelligence investment has coincided with an overall gain in startup funding in the region the last past quarters. Funding was up a third year over year in Q4 and Q1, reaching more than $17 billion each quarter. AI talent hubs One area where Europe is seeing momentum is with frontier labs. Employees from DeepMind — the original AI lab established in London in 2010 and acquired by Google in 2014 — have spawned two new labs in London: Recursive Superintelligence and Ineffable Intelligence. And Yann LeCun, previously Meta AI’s lead, formed Advanced Machine Intelligence in Paris. Just this year, the three companies have altogether raised $2.6 billion. Last year, German-based AI lab Black Forest Labs raised hundreds of million in funding. One of the earlier model companies from Europe, Mistral, founded in 2023, has raised $4 billion in total. Europe is also home to one of the early diffusion model companies, Synthesia. Aleph Alpha from Heidelberg, Germany, recently merged with Canada-based Cohere in April for sovereign and commercial AI deployments, valuing the merged entity at $20 billion, creating a transatlantic competitor to U.S. model companies. The recent spate of new AI lab formation and renewed momentum on the funding front could be a driver for talent hubs to concentrate in Europe. Still, although foundation labs in Europe have raised more than $8 billion since 2021, that represents a tiny percentage of th",
+          "published": "2026-05-12T11:00:20+00:00",
+          "published_dt": "2026-05-12T11:00:20+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google",
+              "DeepMind",
+              "Meta",
+              "Mistral",
+              "Cohere"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$17 billion",
+              "$2.6 billion",
+              "$4 billion",
+              "$20 billion",
+              "$8 billion",
+              "raised $2.6 billion",
+              "raised $4 billion"
+            ],
+            "technologies": [
+              "diffusion"
+            ]
+          },
+          "summary_en": "European AI Funding Is Growing. Will That Boost The Region’s Startup Scene? (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：European AI Funding Is Growing. Will That Boost The Region’s Startup Scene?，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3121201",
+          "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
+          "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Vapi says its enterprise business has grown tenfold since early 2025 as companies shift customer support and sales calls to AI agents.",
+          "published": "2026-05-12T11:30:00+00:00",
+          "published_dt": "2026-05-12T11:30:00+00:00",
+          "score": 9.4,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$500M"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals (TechCrunch AI) highlights a notable AI development with score 9.4.",
+          "summary_zh": "TechCrunch AI 报道：AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals，综合评分 9.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3120192",
+          "title": "Dessn raises $6M for its production-focused design tool",
+          "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "A new startup called Dessn has raised $6 million to build AI-powered design tools that work directly with production codebases.",
+          "published": "2026-05-12T13:00:00+00:00",
+          "published_dt": "2026-05-12T13:00:00+00:00",
+          "score": 8.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$6M",
+              "$6 million",
+              "raised $6 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Dessn raises $6M for its production-focused design tool (TechCrunch AI) highlights a notable AI development with score 8.9.",
+          "summary_zh": "TechCrunch AI 报道：Dessn raises $6M for its production-focused design tool，综合评分 8.9，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=916975",
+          "title": "Sam Altman takes the stand in trial against Elon Musk",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "OpenAI CEO Sam Altman has begun his testimony against Elon Musk in a high-profile jury trial in a California federal courtroom. Altman, alongside OpenAI president Greg Brockman, is a primary defendant in the trial brought by Musk. Altman, Brockman, and Musk were all part of the initial founding team at OpenAI, with Musk investing up to $38 million in the ChatGPT-maker's early days. But the relationship between Musk and other OpenAI founders eventually soured, and Musk stepped away from the company, later going on to found his own direct competitor, xAI. In recent years, Musk and Altman have traded barbs and made a slew of allegations agains … Read the full story at The Verge.",
+          "published": "2026-05-12T16:05:20+00:00",
+          "published_dt": "2026-05-12T16:05:20+00:00",
+          "score": 8.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$38 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Sam Altman takes the stand in trial against Elon Musk (The Verge AI) highlights a notable AI development with score 8.4.",
+          "summary_zh": "The Verge AI 报道：Sam Altman takes the stand in trial against Elon Musk，综合评分 8.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=929091",
+          "title": "Meta won’t let you block its AI account on Threads",
+          "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Meta announced on Tuesday that it's testing a Threads feature that lets users tag a Meta AI account to get answers to questions or context about a conversation on the platform. If you've spent any time looking at replies on X as of late, this new feature sounds a lot like Meta's take on people tagging xAI's Grok. But, as reported by Engadget, Threads users quickly discovered that you can't block the new Meta AI account, and they aren't happy about it. Meta has invested heavily in AI as it works to catch up to rivals like OpenAI and Google, spending billions to hire AI talent. It launched a new AI model called Muse Spark in April, which it s … Read the full story at The Verge.",
+          "published": "2026-05-12T20:35:23+00:00",
+          "published_dt": "2026-05-12T20:35:23+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Google",
+              "Meta",
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta won’t let you block its AI account on Threads (The Verge AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "The Verge AI 报道：Meta won’t let you block its AI account on Threads，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3121621",
+          "title": "Anthropic warns investors against secondary platforms offering access to its shares",
+          "url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "\"Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records,\" the company's support page reads.",
+          "published": "2026-05-12T17:36:34+00:00",
+          "published_dt": "2026-05-12T17:36:34+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic warns investors against secondary platforms offering access to its shares (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic warns investors against secondary platforms offering access to its shares，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3121675",
+          "title": "Report: Google and SpaceX in talks to put data centers into orbit",
+          "url": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google and SpaceX are in talks to build data centers in orbit, pitching space as the future home for AI compute, even as costs today remain far higher than on the ground.",
+          "published": "2026-05-12T17:30:57+00:00",
+          "published_dt": "2026-05-12T17:30:57+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Report: Google and SpaceX in talks to put data centers into orbit (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Report: Google and SpaceX in talks to put data centers into orbit，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3121651",
+          "title": "Musk mulled handing OpenAI to his children, Altman testifies",
+          "url": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Altman said that Musk's focus on controlling the initial for-profit gave him pause because OpenAI was dedicated to keeping advanced AI out of the hands of a single person, and Altman, with his experience running the prominent startup accelerator Y Combinator, knew \"founders who had control usually did not give it up.\"",
+          "published": "2026-05-12T18:05:15+00:00",
+          "published_dt": "2026-05-12T18:05:15+00:00",
+          "score": 7.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Y Combinator"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Musk mulled handing OpenAI to his children, Altman testifies (TechCrunch AI) highlights a notable AI development with score 7.4.",
+          "summary_zh": "TechCrunch AI 报道：Musk mulled handing OpenAI to his children, Altman testifies，综合评分 7.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3121120",
+          "title": "Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups",
+          "url": "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google's transcription feature will initially launch with Samsung Galaxy and Google Pixel phones.",
+          "published": "2026-05-12T17:00:00+00:00",
+          "published_dt": "2026-05-12T17:00:00+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48111143",
+          "title": "Show HN: Agentic interface for mainframes and COBOL",
+          "url": "https://www.hypercubic.ai/hopper",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hi HN, we’re Sai and Aayush, and we’re building Hypercubic (https://www.hypercubic.ai/), bringing AI tools to the mainframe and COBOL world. (We did a Launch HN last year: https://news.ycombinator.com/item?id=45877517.) Today we’re launching Hopper, an agentic development environment for mainframes.You can download it here: https://www.hypercubic.ai/hopper, and you can also request access and immediately get a mainframe user account to play with.There's also a video runthrough at https://www.youtube.com/watch?v=q81L5DcfBvE.Mainframes still run a surprising amount of critical infrastructure: banking, payments, insurance, airlines, government programs, logistics, and core operations at large institutions. Many of these systems are decades old, but they continue to process enormous transaction volumes because they are reliable, secure, and deeply embedded into business operations.A lot of that software is written in COBOL and runs on IBM z/OS. The development environment looks very different from modern cloud or Unix-style development. Instead of GitHub, shell commands, package managers, and CI pipelines, developers often work through TN3270 terminal sessions, ISPF panels, partitioned datasets, JCL, JES queues, spool output, return codes, VSAM files, CICS transactions, and shop-specific conventions.TN3270 is the terminal interface used to interact with many IBM mainframe systems. ISPF is the menu and panel system developers use inside that terminal to browse datasets, edit source, submit jobs, and inspect output. It is powerful and reliable, but it was designed for expert humans navigating screens, function keys, and fixed-width workflows, not AI agents.A simple COBOL change might require finding the right source member, checking copybooks, locating compile JCL, submitting a job, reading JES/SYSPRINT output, interpreting condition codes, patching fixed-width source, and resubmitting.Much of this work is so well-defined and repetitive that it's a good fit for agentic AI",
+          "published": "2026-05-12T17:10:22+00:00",
+          "published_dt": "2026-05-12T17:10:22+00:00",
+          "hn_score": 59,
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Show HN: Agentic interface for mainframes and COBOL (Hacker News) highlights a notable AI development with score 6.6.",
+          "summary_zh": "Hacker News 报道：Show HN: Agentic interface for mainframes and COBOL，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=928534",
+          "title": "George Clooney, Tom Hanks, and Meryl Streep back new &#8216;Human Consent Standard&#8217; for AI licensing",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/928534/rsl-media-human-consent-standard",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Hollywood actors and producers are standing behind a new AI licensing standard that will tell AI systems whether they'll need to pay to use a person's likeness, creative work, characters, and designs. With the Human Consent Standard, people can set terms for the use of their work or likeness, including giving AI systems full permission to use their content, allowing access with certain requirements, or restricting access entirely. The Human Consent Standard builds upon the Really Simple Licensing (RSL) Standard, which launched last year as a way for websites to signal how AI systems use their work. RSL Media, a nonprofit cofounded by Cate B … Read the full story at The Verge.",
+          "published": "2026-05-12T16:00:00+00:00",
+          "published_dt": "2026-05-12T16:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "George Clooney, Tom Hanks, and Meryl Streep back new &#8216;Human Consent Standard&#8217; for AI licensing (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：George Clooney, Tom Hanks, and Meryl Streep back new &#8216;Human Consent Standard&#8217; for AI licensing，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 7,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3121542",
+          "title": "Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets",
+          "url": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google unveiled its new AI-first Googlebooks laptops, more agentic Gemini features, vibe-coded Android widgets, Gemini in Chrome, refreshed Android Auto, and more ahead of I/O.",
+          "published": "2026-05-12T17:01:00+00:00",
+          "published_dt": "2026-05-12T17:01:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
+          "title": "Quoting Mo Bitar",
+          "url": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Now, if your CEO has never heard the phrase Ralph Loop, oh man, you are less than 30 days away from your next promotion. I'm not even exaggerating. Walk into his office, close the door, and say, hey chief, been experimenting with something. It's called Ralph Loops. And I think it could change literally everything. And he's gonna say, what's a Ralph loop? And you will say, give me $18,000 worth of API credits and I'll show you. Now you won't actually do anything, because you can't do anything. Because nobody can, because nobody knows what they're doing. But by the time he figures that out, you'll have a new title, and equity bump. [...] Talk about automation constantly. Nothing arouses the slumbering capitalists than the mention of automation. Drop names too, bro. Like talk about specific team members you can automate out of existence. Be like, yo, I automated Gary, bro. Tag Gary in the message. Tag him in Slack in a very public channel. Be like, yo, I just automated @Gary. His function has been Ralph Looped. And tag your CEO in the same message. You think you're getting laid off after that? — Mo Bitar, The Unethical Guide to Surviving AI Layoffs, TikTok Tags: ai-ethics, tiktok, careers, ai",
+          "published": "2026-05-12T22:59:58+00:00",
+          "published_dt": "2026-05-12T22:59:58+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Quoting Mo Bitar (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：Quoting Mo Bitar，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=928691",
+          "title": "Parents say ChatGPT got their son killed with bad advice on party drugs",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "The family of a 19-year-old college student is suing OpenAI over claims that his conversations with ChatGPT led to an accidental overdose. In the lawsuit filed on Tuesday, Sam Nelson's parents allege ChatGPT \"encouraged\" the teen to \"consume a combination of substances that any licensed medical professional would have recognized as deadly,\" resulting in his death. Though ChatGPT initially \"shut down\" conversations about drug and alcohol use, the launch of GPT-4o in April 2024 changed the chatbot's behavior, according to the lawsuit. Following the update, ChatGPT \"began to engage and advise Sam on safe drug use, even providing specific dosag … Read the full story at The Verge.",
+          "published": "2026-05-12T16:30:33+00:00",
+          "published_dt": "2026-05-12T16:30:33+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Parents say ChatGPT got their son killed with bad advice on party drugs (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Parents say ChatGPT got their son killed with bad advice on party drugs，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=928651",
+          "title": "Rivian’s AI-powered voice assistant is ready to roll",
+          "url": "https://www.theverge.com/transportation/928651/rivian-ai-voice-assistant-r1-r2",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Rivian's AI-powered voice assistant is rolling out today to the company's vehicle fleet. The assistant will be available through a software update to all compatible Rivian Gen 1 and Gen 2 vehicle owners who subscribe to the company's Connect Plus cellular service, which costs $15 a month or $150 a year, or are in an active trial. First announced at last year's AI and Autonomy Day, the Rivian Assistant is powered by the company's Rivian Unified Intelligence, \"a shared, multi-modal AI foundation\" that is \"interwoven\" throughout the entire company. The assistant is deeply embedded in the vehicle's operations, but will also pair with third-par … Read the full story at The Verge.",
+          "published": "2026-05-12T15:51:38+00:00",
+          "published_dt": "2026-05-12T15:51:38+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Rivian’s AI-powered voice assistant is ready to roll (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Rivian’s AI-powered voice assistant is ready to roll，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
+          "title": "datasette 1.0a29",
+          "url": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette 1.0a29 New TokenRestrictions.abbreviated(datasette) utility method for creating \"_r\" dictionaries. #2695 Table headers and column options are now visible even if a table contains zero rows. #2701 Fixed bug with display of column actions dialog on Mobile Safari. #2708 Fixed bug where tests could crash with a segfault due to a race condition between Datasette.close() and Datasette.close(). #2709 That segfault bug was gnarly. I added a mechanism to Datasette recently that would automatically close connections at the end of each test, but it turned out that introduced a race condition where an in-flight query could sometimes be executing in a thread against a connection while it was being closed. I ended up solving that by having Codex CLI (with GPT-5.5 xhigh) create a minimal Dockerfile that recreated the bug. Tags: projects, datasette",
+          "published": "2026-05-12T23:41:06+00:00",
+          "published_dt": "2026-05-12T23:41:06+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "datasette 1.0a29 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：datasette 1.0a29，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+          "title": "llm 0.32a2",
+          "url": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: llm 0.32a2 A bunch of useful stuff in this LLM alpha, but the most important detail is this one: Most reasoning-capable OpenAI models now use the /v1/responses endpoint instead of /v1/chat/completions. This enables interleaved reasoning across tool calls for GPT-5 class models. #1435 This means you can now see the summarized reasoning tokens when you run prompts against an OpenAI model, displayed in a different color to standard error. Use the -R or --hide-reasoning flags if you don't want to see that. Tags: llm, projects, openai, generative-ai, annotated-release-notes, ai, llms",
+          "published": "2026-05-12T17:45:07+00:00",
+          "published_dt": "2026-05-12T17:45:07+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "llm 0.32a2 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：llm 0.32a2，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=928724",
+          "title": "Gemini&#8217;s latest updates are all about controlling your phone",
+          "url": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Gemini Intelligence comes with a Liquid Glass-ish visual treatment. | Image: Google It is, once again, Gemini season. Google is announcing a host of new Gemini features during its pre-I/O Android showcase, many of which aim to help use your phone for you. You'll find Gemini in more places, like Chrome on Android, in your autofill suggestions, and all up in your apps - if you want. Google also has a new name for us to remember, because it just can't help itself: Gemini Intelligence. It \"brings the very best of Gemini to our most advanced Android devices,\" according to Google's director of Android experiences, Ben Greenwood. Google is bundling some existing and new Gemini features under this name, and seems to be reserving t … Read the full story at The Verge.",
+          "published": "2026-05-12T17:00:00+00:00",
+          "published_dt": "2026-05-12T17:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Gemini&#8217;s latest updates are all about controlling your phone (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Gemini&#8217;s latest updates are all about controlling your phone，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://openai.com/academy/how-finance-teams-use-codex",
+          "title": "How finance teams use Codex",
+          "url": "https://openai.com/academy/how-finance-teams-use-codex",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+          "published": "2026-05-12T15:00:00+00:00",
+          "published_dt": "2026-05-12T15:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How finance teams use Codex (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：How finance teams use Codex，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3121642",
+          "title": "Threads tests a Meta AI integration that works similarly to Grok",
+          "url": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The feature is designed to help people get real-time context about trends and breaking stories, as well as receive recommendations, all within conversations.",
+          "published": "2026-05-12T16:34:36+00:00",
+          "published_dt": "2026-05-12T16:34:36+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Threads tests a Meta AI integration that works similarly to Grok (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Threads tests a Meta AI integration that works similarly to Grok，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
+          "title": "Quoting Mitchell Hashimoto",
+          "url": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "The thing about 90% of TDMs [Technical Decision Makers] is that they're motivated primarily by NOT GETTING FIRED. These aren't people who browser Lobsters or push to GH on the weekend. These are people that work 9 to 5, get paid, go home, and NEVER THINK ABOUT WORK AGAIN. So to achieve all that, they follow secular trends supported by analysts and broad public sentiment. Oh, Gartner said that \"AI strategy\" is most important? McKinsey said \"context\" needs to be managed? Well, \"Context Engine for AI Apps\" is going to be defensible. Buy it. — Mitchell Hashimoto, in a conversation about the design of the Redis homepage Tags: marketing, mitchell-hashimoto, redis",
+          "published": "2026-05-12T22:21:51+00:00",
+          "published_dt": "2026-05-12T22:21:51+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Quoting Mitchell Hashimoto (Simon Willison) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Simon Willison 报道：Quoting Mitchell Hashimoto，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3121889",
+          "title": "Medicare’s new payment model is built for AI, and most of the tech world has no idea",
+          "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "There is no governmental mechanism to pay for an AI agent that monitors a patient between visits, calls to check in, coordinates a housing referral, or makes sure someone picks up their medication. ACCESS creates that mechanism for the first time.",
+          "published": "2026-05-13T00:26:48+00:00",
+          "published_dt": "2026-05-13T00:26:48+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Medicare’s new payment model is built for AI, and most of the tech world has no idea (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Medicare’s new payment model is built for AI, and most of the tech world has no idea，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3120809",
+          "title": "The AI legal services industry is heating up — Anthropic is getting in on the action",
+          "url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Anthropic's new tools are designed to help law firms automate specific clerical functions — things like document search and review, case law resources, deposition prep, document drafting, and other related areas.",
+          "published": "2026-05-12T17:00:00+00:00",
+          "published_dt": "2026-05-12T17:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The AI legal services industry is heating up — Anthropic is getting in on the action (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：The AI legal services industry is heating up — Anthropic is getting in on the action，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3121517",
+          "title": "Google brings agentic AI and vibe-coded widgets to Android",
+          "url": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Gemini Intelligence will also include Gboard-based dictation and form-filling capabilities.",
+          "published": "2026-05-12T17:00:00+00:00",
+          "published_dt": "2026-05-12T17:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Google brings agentic AI and vibe-coded widgets to Android (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google brings agentic AI and vibe-coded widgets to Android，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3121345",
+          "title": "Google’s ‘Create My Widget’ feature will let you vibe-code your own widgets",
+          "url": "https://techcrunch.com/2026/05/12/googles-create-my-widget-feature-will-let-you-vibe-code-your-own-widgets/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "To create a widget, users will be able to describe what they want using natural language. For example, you could ask the feature to \"suggest three high-protein meal prep recipes every week\" in order to get a custom dashboard that you can add and resize on your home screen.",
+          "published": "2026-05-12T17:00:00+00:00",
+          "published_dt": "2026-05-12T17:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google’s ‘Create My Widget’ feature will let you vibe-code your own widgets (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google’s ‘Create My Widget’ feature will let you vibe-code your own widgets，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48110529",
+          "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
+          "url": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-12T16:29:21+00:00",
+          "published_dt": "2026-05-12T16:29:21+00:00",
+          "hn_score": 211,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48109460",
+          "title": "Why senior developers fail to communicate their expertise",
+          "url": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-12T15:08:40+00:00",
+          "published_dt": "2026-05-12T15:08:40+00:00",
+          "hn_score": 391,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Why senior developers fail to communicate their expertise (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Why senior developers fail to communicate their expertise，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3121516",
+          "title": "Thinking Machines wants to build an AI that actually listens while it talks",
+          "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Right now, every AI model you've ever used works the same way. You talk, it listens. It responds, you listen. Thinking Machines is trying to change that by building a model that processes your input and generates a response at the same time, so it's more like a phone call than a text chain.",
+          "published": "2026-05-12T04:52:35+00:00",
+          "published_dt": "2026-05-12T04:52:35+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Thinking Machines wants to build an AI that actually listens while it talks (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Thinking Machines wants to build an AI that actually listens while it talks，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-13T02:45:54.983767+00:00",
+          "published_dt": "2026-05-13T02:45:54.983767+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-13T02:45:54.983767+00:00",
+          "published_dt": "2026-05-13T02:45:54.983767+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "hn-48111896",
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "url": "https://github.com/cactus-compute/needle",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices.We were always frustrated by the little effort made towards building agentic models that run on budget phones, so we conducted investigations that led to an observation: agentic experiences are built upon tool calling, and massive models are overkill for it. Tool calling is fundamentally retrieval-and-assembly (match query to tool name, extract argument values, emit JSON), not reasoning. Cross-attention is the right primitive for this, and FFN parameters are wasted at this scale.Simple Attention Networks: the entire model is just attention and gating, no MLPs anywhere. Needle is an experimental run for single-shot function calling for consumer devices (phones, watches, glasses...).Training: - Pretrained on 200B tokens across 16 TPU v6e (27 hours) - Post-trained on 2B tokens of synthesized function-calling data (45 minutes) - Dataset synthesized via Gemini with 15 tool categories (timers, messaging, navigation, smart home, etc.)You can test it right now and finetune on your Mac/PC: https://github.com/cactus-compute/needleThe full writeup on the architecture is here: https://github.com/cactus-compute/needle/blob/main/docs/simp...We found that the \"no FFN\" finding generalizes beyond function calling to any task where the model has access to external structured knowledge (RAG, tool use, retrieval-augmented generation). The model doesn't need to memorize facts in FFN weights if the facts are provided in the input. Experimental results to published.While it beats FunctionGemma-270M, Qwen-0.6B, Granite-350M, LFM2.5-350M on single-shot function calling, those models have more scope/capacity and excel in conversational settings. We encourage you to test on your own tools via the playground and finetune accordingly.This is part of our broader work on Cactus (https://github.com/cactus-compute/cactus),",
+      "published": "2026-05-12T18:03:11+00:00",
+      "published_dt": "2026-05-12T18:03:11+00:00",
+      "hn_score": 296,
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model (Hacker News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Hacker News 报道：Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93524",
+      "title": "European AI Funding Is Growing. Will That Boost The Region’s Startup Scene?",
+      "url": "https://news.crunchbase.com/venture/european-ai-funding-startups-recursive-ineffable-advanced-machine-intelligence/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A growing percentage of European venture funding in 2026 was AI-driven. That includes investments in three new frontier model companies as well as startups working on data centers, semiconductors, robotics, aerospace, defense, biotech and applications in legal, customer service and fintech, among others, Crunchbase data shows. The energy sector necessary for AI compute also garnered significant funding this year. All told, roughly half of European venture funding in 2026 to date has been in AI-related companies, Crunchbase data shows. The uptick in artificial intelligence investment has coincided with an overall gain in startup funding in the region the last past quarters. Funding was up a third year over year in Q4 and Q1, reaching more than $17 billion each quarter. AI talent hubs One area where Europe is seeing momentum is with frontier labs. Employees from DeepMind — the original AI lab established in London in 2010 and acquired by Google in 2014 — have spawned two new labs in London: Recursive Superintelligence and Ineffable Intelligence. And Yann LeCun, previously Meta AI’s lead, formed Advanced Machine Intelligence in Paris. Just this year, the three companies have altogether raised $2.6 billion. Last year, German-based AI lab Black Forest Labs raised hundreds of million in funding. One of the earlier model companies from Europe, Mistral, founded in 2023, has raised $4 billion in total. Europe is also home to one of the early diffusion model companies, Synthesia. Aleph Alpha from Heidelberg, Germany, recently merged with Canada-based Cohere in April for sovereign and commercial AI deployments, valuing the merged entity at $20 billion, creating a transatlantic competitor to U.S. model companies. The recent spate of new AI lab formation and renewed momentum on the funding front could be a driver for talent hubs to concentrate in Europe. Still, although foundation labs in Europe have raised more than $8 billion since 2021, that represents a tiny percentage of th",
+      "published": "2026-05-12T11:00:20+00:00",
+      "published_dt": "2026-05-12T11:00:20+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google",
+          "DeepMind",
+          "Meta",
+          "Mistral",
+          "Cohere"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$17 billion",
+          "$2.6 billion",
+          "$4 billion",
+          "$20 billion",
+          "$8 billion",
+          "raised $2.6 billion",
+          "raised $4 billion"
+        ],
+        "technologies": [
+          "diffusion"
+        ]
+      },
+      "summary_en": "European AI Funding Is Growing. Will That Boost The Region’s Startup Scene? (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：European AI Funding Is Growing. Will That Boost The Region’s Startup Scene?，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121201",
+      "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
+      "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Vapi says its enterprise business has grown tenfold since early 2025 as companies shift customer support and sales calls to AI agents.",
+      "published": "2026-05-12T11:30:00+00:00",
+      "published_dt": "2026-05-12T11:30:00+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$500M"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3120192",
+      "title": "Dessn raises $6M for its production-focused design tool",
+      "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "A new startup called Dessn has raised $6 million to build AI-powered design tools that work directly with production codebases.",
+      "published": "2026-05-12T13:00:00+00:00",
+      "published_dt": "2026-05-12T13:00:00+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$6M",
+          "$6 million",
+          "raised $6 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Dessn raises $6M for its production-focused design tool (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Dessn raises $6M for its production-focused design tool，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=916975",
+      "title": "Sam Altman takes the stand in trial against Elon Musk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI CEO Sam Altman has begun his testimony against Elon Musk in a high-profile jury trial in a California federal courtroom. Altman, alongside OpenAI president Greg Brockman, is a primary defendant in the trial brought by Musk. Altman, Brockman, and Musk were all part of the initial founding team at OpenAI, with Musk investing up to $38 million in the ChatGPT-maker's early days. But the relationship between Musk and other OpenAI founders eventually soured, and Musk stepped away from the company, later going on to found his own direct competitor, xAI. In recent years, Musk and Altman have traded barbs and made a slew of allegations agains … Read the full story at The Verge.",
+      "published": "2026-05-12T16:05:20+00:00",
+      "published_dt": "2026-05-12T16:05:20+00:00",
+      "score": 8.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$38 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Sam Altman takes the stand in trial against Elon Musk (The Verge AI) highlights a notable AI development with score 8.4.",
+      "summary_zh": "The Verge AI 报道：Sam Altman takes the stand in trial against Elon Musk，综合评分 8.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=929091",
+      "title": "Meta won’t let you block its AI account on Threads",
+      "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Meta announced on Tuesday that it's testing a Threads feature that lets users tag a Meta AI account to get answers to questions or context about a conversation on the platform. If you've spent any time looking at replies on X as of late, this new feature sounds a lot like Meta's take on people tagging xAI's Grok. But, as reported by Engadget, Threads users quickly discovered that you can't block the new Meta AI account, and they aren't happy about it. Meta has invested heavily in AI as it works to catch up to rivals like OpenAI and Google, spending billions to hire AI talent. It launched a new AI model called Muse Spark in April, which it s … Read the full story at The Verge.",
+      "published": "2026-05-12T20:35:23+00:00",
+      "published_dt": "2026-05-12T20:35:23+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Google",
+          "Meta",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta won’t let you block its AI account on Threads (The Verge AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "The Verge AI 报道：Meta won’t let you block its AI account on Threads，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121651",
+      "title": "Musk mulled handing OpenAI to his children, Altman testifies",
+      "url": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Altman said that Musk's focus on controlling the initial for-profit gave him pause because OpenAI was dedicated to keeping advanced AI out of the hands of a single person, and Altman, with his experience running the prominent startup accelerator Y Combinator, knew \"founders who had control usually did not give it up.\"",
+      "published": "2026-05-12T18:05:15+00:00",
+      "published_dt": "2026-05-12T18:05:15+00:00",
+      "score": 7.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Y Combinator"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Musk mulled handing OpenAI to his children, Altman testifies (TechCrunch AI) highlights a notable AI development with score 7.4.",
+      "summary_zh": "TechCrunch AI 报道：Musk mulled handing OpenAI to his children, Altman testifies，综合评分 7.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121120",
+      "title": "Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups",
+      "url": "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google's transcription feature will initially launch with Samsung Galaxy and Google Pixel phones.",
+      "published": "2026-05-12T17:00:00+00:00",
+      "published_dt": "2026-05-12T17:00:00+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-13T02:45:54.983767+00:00",
+      "published_dt": "2026-05-13T02:45:54.983767+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-13T02:45:54.983767+00:00",
+      "published_dt": "2026-05-13T02:45:54.983767+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+      "title": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+      "url": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "By complete coincidence, the day we released Neil Zeghidour (CEO of Gradium, the for profit spinoff of the vaunted Kyutai Moshi)’s talk on what remains to be built for realtime voice, Thinking Machines emerged for only the third time in a ~year (despite much drama) to drop Interaction Models: A Scalable Approach to Human-AI Collaboration, TML-Interaction-Small is a 276B parameter MoE with 12B active., which immediately advances the state of the art of realtime voice models as Neil had laid out, updating the famously dead GPT 4o “her” demo with far more detailed demos that are presumably far closer to real use:The full blogpost has lots of demos of the level of continuous interactivity, focusing on streams of “time-aligned microturns” of 200ms each:Using encoder-free early fusion, with images and audio all processed <200ms, similar to Meta’s Chameleon:There are a number of official benchmarks that the team shows beating both GPT-Realtime-2 and Gemini 3.1-Flash on basic things like BigBench Audio and IFEval and FD-bench, but the level of interactivity aimed for required making 2 new internal benchmarks for time awareness, simultaneous translation, and visual proactivity:TimeSpeak: Can the model initiate speech at user-specified times? Example: “I want to practice my breathing, remind me to breathe in and out every 4 seconds until I ask you to stop.”CueSpeak: Can the model speak at the appropriate moment? Example: “Everytime I codeswitch and use another language, give me the correct word in the original language.”RepCount-A contains videos of repeated actions and is adapted into an online counting task - measures continuous visual tracking and timely counting.ProactiveVideoQA consists of videos with questions, whose answers become available at specific moments. Higher scores require correct answers at the correct times, silence gets partial credit, and incorrect answers are penalized.Charades is a standard temporal action-localization benchmark. Stream a user audio ins",
+      "published": "2026-05-12T04:33:46+00:00",
+      "published_dt": "2026-05-12T04:33:46+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "MoE",
+          "SOTA",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD (Latent Space) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Latent Space 报道：[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48111143",
+      "title": "Show HN: Agentic interface for mainframes and COBOL",
+      "url": "https://www.hypercubic.ai/hopper",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hi HN, we’re Sai and Aayush, and we’re building Hypercubic (https://www.hypercubic.ai/), bringing AI tools to the mainframe and COBOL world. (We did a Launch HN last year: https://news.ycombinator.com/item?id=45877517.) Today we’re launching Hopper, an agentic development environment for mainframes.You can download it here: https://www.hypercubic.ai/hopper, and you can also request access and immediately get a mainframe user account to play with.There's also a video runthrough at https://www.youtube.com/watch?v=q81L5DcfBvE.Mainframes still run a surprising amount of critical infrastructure: banking, payments, insurance, airlines, government programs, logistics, and core operations at large institutions. Many of these systems are decades old, but they continue to process enormous transaction volumes because they are reliable, secure, and deeply embedded into business operations.A lot of that software is written in COBOL and runs on IBM z/OS. The development environment looks very different from modern cloud or Unix-style development. Instead of GitHub, shell commands, package managers, and CI pipelines, developers often work through TN3270 terminal sessions, ISPF panels, partitioned datasets, JCL, JES queues, spool output, return codes, VSAM files, CICS transactions, and shop-specific conventions.TN3270 is the terminal interface used to interact with many IBM mainframe systems. ISPF is the menu and panel system developers use inside that terminal to browse datasets, edit source, submit jobs, and inspect output. It is powerful and reliable, but it was designed for expert humans navigating screens, function keys, and fixed-width workflows, not AI agents.A simple COBOL change might require finding the right source member, checking copybooks, locating compile JCL, submitting a job, reading JES/SYSPRINT output, interpreting condition codes, patching fixed-width source, and resubmitting.Much of this work is so well-defined and repetitive that it's a good fit for agentic AI",
+      "published": "2026-05-12T17:10:22+00:00",
+      "published_dt": "2026-05-12T17:10:22+00:00",
+      "hn_score": 59,
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Show HN: Agentic interface for mainframes and COBOL (Hacker News) highlights a notable AI development with score 6.6.",
+      "summary_zh": "Hacker News 报道：Show HN: Agentic interface for mainframes and COBOL，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121542",
+      "title": "Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets",
+      "url": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google unveiled its new AI-first Googlebooks laptops, more agentic Gemini features, vibe-coded Android widgets, Gemini in Chrome, refreshed Android Auto, and more ahead of I/O.",
+      "published": "2026-05-12T17:01:00+00:00",
+      "published_dt": "2026-05-12T17:01:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
+      "title": "Quoting Mo Bitar",
+      "url": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Now, if your CEO has never heard the phrase Ralph Loop, oh man, you are less than 30 days away from your next promotion. I'm not even exaggerating. Walk into his office, close the door, and say, hey chief, been experimenting with something. It's called Ralph Loops. And I think it could change literally everything. And he's gonna say, what's a Ralph loop? And you will say, give me $18,000 worth of API credits and I'll show you. Now you won't actually do anything, because you can't do anything. Because nobody can, because nobody knows what they're doing. But by the time he figures that out, you'll have a new title, and equity bump. [...] Talk about automation constantly. Nothing arouses the slumbering capitalists than the mention of automation. Drop names too, bro. Like talk about specific team members you can automate out of existence. Be like, yo, I automated Gary, bro. Tag Gary in the message. Tag him in Slack in a very public channel. Be like, yo, I just automated @Gary. His function has been Ralph Looped. And tag your CEO in the same message. You think you're getting laid off after that? — Mo Bitar, The Unethical Guide to Surviving AI Layoffs, TikTok Tags: ai-ethics, tiktok, careers, ai",
+      "published": "2026-05-12T22:59:58+00:00",
+      "published_dt": "2026-05-12T22:59:58+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Quoting Mo Bitar (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：Quoting Mo Bitar，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=928691",
+      "title": "Parents say ChatGPT got their son killed with bad advice on party drugs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "The family of a 19-year-old college student is suing OpenAI over claims that his conversations with ChatGPT led to an accidental overdose. In the lawsuit filed on Tuesday, Sam Nelson's parents allege ChatGPT \"encouraged\" the teen to \"consume a combination of substances that any licensed medical professional would have recognized as deadly,\" resulting in his death. Though ChatGPT initially \"shut down\" conversations about drug and alcohol use, the launch of GPT-4o in April 2024 changed the chatbot's behavior, according to the lawsuit. Following the update, ChatGPT \"began to engage and advise Sam on safe drug use, even providing specific dosag … Read the full story at The Verge.",
+      "published": "2026-05-12T16:30:33+00:00",
+      "published_dt": "2026-05-12T16:30:33+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Parents say ChatGPT got their son killed with bad advice on party drugs (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Parents say ChatGPT got their son killed with bad advice on party drugs，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=928534",
+      "title": "George Clooney, Tom Hanks, and Meryl Streep back new &#8216;Human Consent Standard&#8217; for AI licensing",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928534/rsl-media-human-consent-standard",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Hollywood actors and producers are standing behind a new AI licensing standard that will tell AI systems whether they'll need to pay to use a person's likeness, creative work, characters, and designs. With the Human Consent Standard, people can set terms for the use of their work or likeness, including giving AI systems full permission to use their content, allowing access with certain requirements, or restricting access entirely. The Human Consent Standard builds upon the Really Simple Licensing (RSL) Standard, which launched last year as a way for websites to signal how AI systems use their work. RSL Media, a nonprofit cofounded by Cate B … Read the full story at The Verge.",
+      "published": "2026-05-12T16:00:00+00:00",
+      "published_dt": "2026-05-12T16:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "George Clooney, Tom Hanks, and Meryl Streep back new &#8216;Human Consent Standard&#8217; for AI licensing (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：George Clooney, Tom Hanks, and Meryl Streep back new &#8216;Human Consent Standard&#8217; for AI licensing，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=928651",
+      "title": "Rivian’s AI-powered voice assistant is ready to roll",
+      "url": "https://www.theverge.com/transportation/928651/rivian-ai-voice-assistant-r1-r2",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Rivian's AI-powered voice assistant is rolling out today to the company's vehicle fleet. The assistant will be available through a software update to all compatible Rivian Gen 1 and Gen 2 vehicle owners who subscribe to the company's Connect Plus cellular service, which costs $15 a month or $150 a year, or are in an active trial. First announced at last year's AI and Autonomy Day, the Rivian Assistant is powered by the company's Rivian Unified Intelligence, \"a shared, multi-modal AI foundation\" that is \"interwoven\" throughout the entire company. The assistant is deeply embedded in the vehicle's operations, but will also pair with third-par … Read the full story at The Verge.",
+      "published": "2026-05-12T15:51:38+00:00",
+      "published_dt": "2026-05-12T15:51:38+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Rivian’s AI-powered voice assistant is ready to roll (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Rivian’s AI-powered voice assistant is ready to roll，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/academy/how-finance-teams-use-codex",
+      "title": "How finance teams use Codex",
+      "url": "https://openai.com/academy/how-finance-teams-use-codex",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+      "published": "2026-05-12T15:00:00+00:00",
+      "published_dt": "2026-05-12T15:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How finance teams use Codex (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：How finance teams use Codex，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121621",
+      "title": "Anthropic warns investors against secondary platforms offering access to its shares",
+      "url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "\"Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records,\" the company's support page reads.",
+      "published": "2026-05-12T17:36:34+00:00",
+      "published_dt": "2026-05-12T17:36:34+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic warns investors against secondary platforms offering access to its shares (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic warns investors against secondary platforms offering access to its shares，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121675",
+      "title": "Report: Google and SpaceX in talks to put data centers into orbit",
+      "url": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google and SpaceX are in talks to build data centers in orbit, pitching space as the future home for AI compute, even as costs today remain far higher than on the ground.",
+      "published": "2026-05-12T17:30:57+00:00",
+      "published_dt": "2026-05-12T17:30:57+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Report: Google and SpaceX in talks to put data centers into orbit (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Report: Google and SpaceX in talks to put data centers into orbit，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121642",
+      "title": "Threads tests a Meta AI integration that works similarly to Grok",
+      "url": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The feature is designed to help people get real-time context about trends and breaking stories, as well as receive recommendations, all within conversations.",
+      "published": "2026-05-12T16:34:36+00:00",
+      "published_dt": "2026-05-12T16:34:36+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Threads tests a Meta AI integration that works similarly to Grok (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Threads tests a Meta AI integration that works similarly to Grok，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
+      "title": "Quoting Mitchell Hashimoto",
+      "url": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "The thing about 90% of TDMs [Technical Decision Makers] is that they're motivated primarily by NOT GETTING FIRED. These aren't people who browser Lobsters or push to GH on the weekend. These are people that work 9 to 5, get paid, go home, and NEVER THINK ABOUT WORK AGAIN. So to achieve all that, they follow secular trends supported by analysts and broad public sentiment. Oh, Gartner said that \"AI strategy\" is most important? McKinsey said \"context\" needs to be managed? Well, \"Context Engine for AI Apps\" is going to be defensible. Buy it. — Mitchell Hashimoto, in a conversation about the design of the Redis homepage Tags: marketing, mitchell-hashimoto, redis",
+      "published": "2026-05-12T22:21:51+00:00",
+      "published_dt": "2026-05-12T22:21:51+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Quoting Mitchell Hashimoto (Simon Willison) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Simon Willison 报道：Quoting Mitchell Hashimoto，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=928861",
+      "title": "Sam Altman says Elon Musk’s mind games were damaging OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928861/openai-sam-altman-elon-musk-damage",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI CEO Sam Altman says Elon Musk did \"huge damage\" to the culture of the AI startup. During testimony as part of Musk's lawsuit against OpenAI, Altman said Musk required OpenAI president Greg Brockman and former chief scientist Ilya Sutskever to rank researchers by their accomplishments and \"take a chainsaw through a bunch.\" Altman conceded that this was the management style the Tesla CEO was known for, but that it was incompatible with his startup. \"I don't think Mr. Musk understood how to run a good research lab,\" Altman testified when his lawyer, William Savitt, asked about the impact of Musk's departure from OpenAI on morale. \"For a … Read the full story at The Verge.",
+      "published": "2026-05-12T17:34:09+00:00",
+      "published_dt": "2026-05-12T17:34:09+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Sam Altman says Elon Musk’s mind games were damaging OpenAI (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：Sam Altman says Elon Musk’s mind games were damaging OpenAI，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
+      "title": "How open model ecosystems compound",
+      "url": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "Note: Voice-overs for paywalled posts are available for paid subscribes in podcast apps if you click on settings on Interconnects, then manage your description. Thanks for listening!Most of the compute to build a leading frontier model comes from R&D costs, rather than the compute to train the final, big model end-to-end. In an ecosystem like China, where all the leading players are open, this creates a potential meaningful advantage in cost structures that’ll let labs keep building longer than outside observers would expect.There are two recent pieces of research, one from Ai2 documenting the development of Olmo 3 and one from Epoch AI studying public documentation of costs from various frontier labs, that put the estimate of compute spent on R&D rather than the final model at about 80% (with meaningful error bars).In a world where research and development is most of the compute, the Chinese system is designed around quickly learning from your peers and avoiding double-spending research compute — or infra effort. It’s far from perfect, but it’s the closest analog to the OSS ecosystem that one can get for building LLMs. The public discussion of AI has always emphasized that the models are expensive in a way that naturally lets passive readers think this is compute just dedicated to the artifact — as we saw with DeepSeek V3.ShareThis had me revisiting the core issue of open-source AI, and how it doesn’t have the feedback loops akin to open-source software (OSS) users back to the creation itself, that creates immense value following Linus’s law of “given enough eyeballs, all bugs are shallow”. This self-reinforcement of OSS makes deployment at scale the cheapest possible outcome — all the users together share the costs of fixing bugs and adding features.Within open-source AI, almost all the cost falls on the model developer. At the same time, there are huge benefits to releasing the model openly that do reduce costs, but they only help reduce future development and de",
+      "published": "2026-05-12T15:54:47+00:00",
+      "published_dt": "2026-05-12T15:54:47+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "How open model ecosystems compound (Interconnects (Nathan Lambert)) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：How open model ecosystems compound，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
+      "title": "datasette 1.0a29",
+      "url": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette 1.0a29 New TokenRestrictions.abbreviated(datasette) utility method for creating \"_r\" dictionaries. #2695 Table headers and column options are now visible even if a table contains zero rows. #2701 Fixed bug with display of column actions dialog on Mobile Safari. #2708 Fixed bug where tests could crash with a segfault due to a race condition between Datasette.close() and Datasette.close(). #2709 That segfault bug was gnarly. I added a mechanism to Datasette recently that would automatically close connections at the end of each test, but it turned out that introduced a race condition where an in-flight query could sometimes be executing in a thread against a connection while it was being closed. I ended up solving that by having Codex CLI (with GPT-5.5 xhigh) create a minimal Dockerfile that recreated the bug. Tags: projects, datasette",
+      "published": "2026-05-12T23:41:06+00:00",
+      "published_dt": "2026-05-12T23:41:06+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "datasette 1.0a29 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：datasette 1.0a29，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+      "title": "llm 0.32a2",
+      "url": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: llm 0.32a2 A bunch of useful stuff in this LLM alpha, but the most important detail is this one: Most reasoning-capable OpenAI models now use the /v1/responses endpoint instead of /v1/chat/completions. This enables interleaved reasoning across tool calls for GPT-5 class models. #1435 This means you can now see the summarized reasoning tokens when you run prompts against an OpenAI model, displayed in a different color to standard error. Use the -R or --hide-reasoning flags if you don't want to see that. Tags: llm, projects, openai, generative-ai, annotated-release-notes, ai, llms",
+      "published": "2026-05-12T17:45:07+00:00",
+      "published_dt": "2026-05-12T17:45:07+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "llm 0.32a2 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：llm 0.32a2，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=928724",
+      "title": "Gemini&#8217;s latest updates are all about controlling your phone",
+      "url": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Gemini Intelligence comes with a Liquid Glass-ish visual treatment. | Image: Google It is, once again, Gemini season. Google is announcing a host of new Gemini features during its pre-I/O Android showcase, many of which aim to help use your phone for you. You'll find Gemini in more places, like Chrome on Android, in your autofill suggestions, and all up in your apps - if you want. Google also has a new name for us to remember, because it just can't help itself: Gemini Intelligence. It \"brings the very best of Gemini to our most advanced Android devices,\" according to Google's director of Android experiences, Ben Greenwood. Google is bundling some existing and new Gemini features under this name, and seems to be reserving t … Read the full story at The Verge.",
+      "published": "2026-05-12T17:00:00+00:00",
+      "published_dt": "2026-05-12T17:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Gemini&#8217;s latest updates are all about controlling your phone (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Gemini&#8217;s latest updates are all about controlling your phone，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121889",
+      "title": "Medicare’s new payment model is built for AI, and most of the tech world has no idea",
+      "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "There is no governmental mechanism to pay for an AI agent that monitors a patient between visits, calls to check in, coordinates a housing referral, or makes sure someone picks up their medication. ACCESS creates that mechanism for the first time.",
+      "published": "2026-05-13T00:26:48+00:00",
+      "published_dt": "2026-05-13T00:26:48+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Medicare’s new payment model is built for AI, and most of the tech world has no idea (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Medicare’s new payment model is built for AI, and most of the tech world has no idea，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3120809",
+      "title": "The AI legal services industry is heating up — Anthropic is getting in on the action",
+      "url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Anthropic's new tools are designed to help law firms automate specific clerical functions — things like document search and review, case law resources, deposition prep, document drafting, and other related areas.",
+      "published": "2026-05-12T17:00:00+00:00",
+      "published_dt": "2026-05-12T17:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The AI legal services industry is heating up — Anthropic is getting in on the action (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：The AI legal services industry is heating up — Anthropic is getting in on the action，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121517",
+      "title": "Google brings agentic AI and vibe-coded widgets to Android",
+      "url": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Gemini Intelligence will also include Gboard-based dictation and form-filling capabilities.",
+      "published": "2026-05-12T17:00:00+00:00",
+      "published_dt": "2026-05-12T17:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Google brings agentic AI and vibe-coded widgets to Android (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google brings agentic AI and vibe-coded widgets to Android，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121345",
+      "title": "Google’s ‘Create My Widget’ feature will let you vibe-code your own widgets",
+      "url": "https://techcrunch.com/2026/05/12/googles-create-my-widget-feature-will-let-you-vibe-code-your-own-widgets/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "To create a widget, users will be able to describe what they want using natural language. For example, you could ask the feature to \"suggest three high-protein meal prep recipes every week\" in order to get a custom dashboard that you can add and resize on your home screen.",
+      "published": "2026-05-12T17:00:00+00:00",
+      "published_dt": "2026-05-12T17:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google’s ‘Create My Widget’ feature will let you vibe-code your own widgets (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google’s ‘Create My Widget’ feature will let you vibe-code your own widgets，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48110529",
+      "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
+      "url": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-12T16:29:21+00:00",
+      "published_dt": "2026-05-12T16:29:21+00:00",
+      "hn_score": 211,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48109460",
+      "title": "Why senior developers fail to communicate their expertise",
+      "url": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-12T15:08:40+00:00",
+      "published_dt": "2026-05-12T15:08:40+00:00",
+      "hn_score": 391,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Why senior developers fail to communicate their expertise (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Why senior developers fail to communicate their expertise，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3121516",
+      "title": "Thinking Machines wants to build an AI that actually listens while it talks",
+      "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Right now, every AI model you've ever used works the same way. You talk, it listens. It responds, you listen. Thinking Machines is trying to change that by building a model that processes your input and generates a response at the same time, so it's more like a phone call than a text chain.",
+      "published": "2026-05-12T04:52:35+00:00",
+      "published_dt": "2026-05-12T04:52:35+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Thinking Machines wants to build an AI that actually listens while it talks (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Thinking Machines wants to build an AI that actually listens while it talks，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
