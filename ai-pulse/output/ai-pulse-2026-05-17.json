@@ -1,0 +1,941 @@
+{
+  "date": "2026-05-17",
+  "generated_at": "2026-05-17T02:45:16",
+  "stats": {
+    "total_items": 13,
+    "high_importance": 2,
+    "medium_importance": 11,
+    "categories_covered": 4
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
+      "title": "[AINews] Cerebras' $60B IPO: Slowly, then All at Once",
+      "url": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "We normally focus on technical stories, but occasional large fundraisings are noteworthy in themselves, and the Cerebras IPO (after one pulled S-1 and a fantastic 750MW partnership and $10-$20B stake/deal with OpenAI) this week, certainly qualifies as a growing theme supporting the Inference Inflection, just 6 months after the shock execuhire of Groq by NVIDIA for $20B. ended today at $280, a market cap of $60 billion, which is tremendous validation for Big Chip and their believers.This image from Amir Efrati summarizes the Decade of Cerebras:Cerebras’ financials are now fully public, but the focus of discussions center around the supply:More details below, and the Head Research Scientist of Cerebras speaks at AIE Singapore later today on the livestream:AI News for 5/14/2026-5/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!Headline Story: Cerebras IPO recap, technical details, and company journeyCerebras returned to the timeline as an IPO story, with investors and adjacent infra voices framing the company as a long-running contrarian hardware bet that finally looks vindicated. The most directly relevant tweet is from investor Ishan N. Taneja, who said he “didn’t believe” early Cerebras claims, then concluded the skeptic he doubted “was totally right,” praising Cerebras for persistence, execution, and for having “built a banger chip,” while noting this was Hanabi’s first IPO @ishanit5. A second Cerebras-specific datapoint came from CNBC’s Deirdre Bosa quoting Cerebras CFO Bob Komin pushing back on the “small models only” narrative: Komin said Cerebras serves models of all sizes, that there is “no limit” to the size of models it can serve, and that Cerebras is currently serving trillion-parameter models, including internal OpenAI models, specifically naming “OpenAI 5.4 and 5.5” @dee_bosa. A nearby co",
+      "published": "2026-05-16T04:36:50+00:00",
+      "published_dt": "2026-05-16T04:36:50+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$60B",
+          "$20B",
+          "$60 billion"
+        ],
+        "technologies": [
+          "inference"
+        ]
+      },
+      "summary_en": "[AINews] Cerebras' $60B IPO: Slowly, then All at Once (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Cerebras' $60B IPO: Slowly, then All at Once，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+      "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+      "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+      "source": "Ahead of AI (Sebastian Raschka)",
+      "source_type": "rss",
+      "content": "After a short family break, I am excited to be back and catching up on a busy few weeks of open-weight LLM releases. The thing that stood out to me is how much newer architectures are focused on long-context efficiency.As reasoning models and agent workflows keep more tokens around (for longer), KV-cache size, memory traffic, and attention cost quickly become the main constraints, and LLM developers are adding a growing number of architecture tricks to reduce those costs.The main examples I want to look at are KV sharing and per-layer embeddings in Gemma 4, layer-wise attention budgeting in Laguna XS.2, compressed convolutional attention in ZAYA1-8B, and mHC plus compressed attention in DeepSeek V4.Most of these changes look like small tweaks in my architecture diagrams, but some of them are quite intricate design changes that are worth a more detailed discussion.Figure 1. LLM architecture drawings of recent, major open-weight releases (April to May). You can find the images, and more details, in my LLM architecture gallery. Not all model sizes are shown; Qwen3.6 includes the 27B and 35B-A3B variants, and ZAYA1 is represented by the 8B model (omitting ZAYA1-base and ZAYA1-reasoning-base). The architectures in the dotted boxes are covered in more detail in this article.Note that this article is about architecture designs, so I will mostly skip dataset mixtures, training schedules, post-training details, RL recipes, benchmark tables, and product comparisons. Even with that narrower scope, there is a lot to cover. And, like always, the article turned out longer than I expected, so I will keep the focus on what changes inside the transformer block, residual stream, KV cache, or attention computation.Please also note that I am only covering those topics that are interesting (new) design choices and that I haven’t covered elsewhere, yet. This list includes:KV sharing and per-layer embeddings in Gemma 4Compressed convolutional attention in ZAYA1Attention budgeting in Lagun",
+      "published": "2026-05-16T11:33:51+00:00",
+      "published_dt": "2026-05-16T11:33:51+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Figure",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "transformer",
+          "agent",
+          "reasoning model",
+          "benchmark",
+          "embedding"
+        ]
+      },
+      "summary_en": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+          "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+          "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+          "source": "Ahead of AI (Sebastian Raschka)",
+          "source_type": "rss",
+          "content": "After a short family break, I am excited to be back and catching up on a busy few weeks of open-weight LLM releases. The thing that stood out to me is how much newer architectures are focused on long-context efficiency.As reasoning models and agent workflows keep more tokens around (for longer), KV-cache size, memory traffic, and attention cost quickly become the main constraints, and LLM developers are adding a growing number of architecture tricks to reduce those costs.The main examples I want to look at are KV sharing and per-layer embeddings in Gemma 4, layer-wise attention budgeting in Laguna XS.2, compressed convolutional attention in ZAYA1-8B, and mHC plus compressed attention in DeepSeek V4.Most of these changes look like small tweaks in my architecture diagrams, but some of them are quite intricate design changes that are worth a more detailed discussion.Figure 1. LLM architecture drawings of recent, major open-weight releases (April to May). You can find the images, and more details, in my LLM architecture gallery. Not all model sizes are shown; Qwen3.6 includes the 27B and 35B-A3B variants, and ZAYA1 is represented by the 8B model (omitting ZAYA1-base and ZAYA1-reasoning-base). The architectures in the dotted boxes are covered in more detail in this article.Note that this article is about architecture designs, so I will mostly skip dataset mixtures, training schedules, post-training details, RL recipes, benchmark tables, and product comparisons. Even with that narrower scope, there is a lot to cover. And, like always, the article turned out longer than I expected, so I will keep the focus on what changes inside the transformer block, residual stream, KV cache, or attention computation.Please also note that I am only covering those topics that are interesting (new) design choices and that I haven’t covered elsewhere, yet. This list includes:KV sharing and per-layer embeddings in Gemma 4Compressed convolutional attention in ZAYA1Attention budgeting in Lagun",
+          "published": "2026-05-16T11:33:51+00:00",
+          "published_dt": "2026-05-16T11:33:51+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Figure",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "transformer",
+              "agent",
+              "reasoning model",
+              "benchmark",
+              "embedding"
+            ]
+          },
+          "summary_en": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3123369",
+          "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+          "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "ArXiv is doing more to crack down on the careless use of large language models in scientific papers.",
+          "published": "2026-05-16T18:54:28+00:00",
+          "published_dt": "2026-05-16T18:54:28+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Research repository ArXiv will ban authors for a year if they let AI do all the work (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：Research repository ArXiv will ban authors for a year if they let AI do all the work，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
+          "title": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
+          "url": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "This month was packed, with all open frontier labs, including DeepSeek, releasing new models. The latter prompted an evaluation by the Center for AI Standards and Innovation (CAISI), which has evaluated open models and their risks in the past. Their result is that open models lag behind the American frontier, with the gap becoming wider over time:For the report, they calculate an Elo score based on Item Response Theory, which is commonly used to compare different models, even when they were tested on a different set of benchmarks. For V4, CAISI used nine different benchmarks:The huge Elo difference is explained by DeepSeek V4s bad score in CTF-Archive-Diamond (which was only run with a subset of the benchmark and extrapolated with IRT for V4), PortBench (a CAISI-private benchmark) and ARC-AGI-2 (with a different scoring method than the public leaderboards). The differences in these benchmark have a huge impact on the overall Elo, which can exacerbate the difference in capabilities. When using Epoch AI’s ECI, which also uses IRT over a set of different benchmarks, we see that the gap roughly stays between 3-7 months since R1:The open<>closed gap in ECI (from https://mcnair.center/china/)However, both CAISI and ECI paint an incomplete picture, as both use standardized (and simple) setups to compare the capabilities of models. To be more concrete: Coding tasks are evaluated using access to bash and a for-loop with a fixed budget of tokens, not with a harness such as Claude Code or OpenCode, which models are trained in! These setups result in benchmarks claiming that porting applications to another language is currently not possible, while Bun has been ported from Zig to Rust with 1 million LOC changes1.Therefore, we would argue that a frontier comparison of open and closed models would also need to elicit the capabilities of all models better, which means the usage of the preferred harnesses, as well as model-specific prompting.This section was written primarily by Flo",
+          "published": "2026-05-16T17:00:11+00:00",
+          "published_dt": "2026-05-16T17:00:11+00:00",
+          "score": 7.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "benchmark"
+            ]
+          },
+          "summary_en": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment. (Interconnects (Nathan Lambert)) highlights a notable AI development with score 7.2.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.，综合评分 7.2，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
+          "title": "[AINews] Cerebras' $60B IPO: Slowly, then All at Once",
+          "url": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "We normally focus on technical stories, but occasional large fundraisings are noteworthy in themselves, and the Cerebras IPO (after one pulled S-1 and a fantastic 750MW partnership and $10-$20B stake/deal with OpenAI) this week, certainly qualifies as a growing theme supporting the Inference Inflection, just 6 months after the shock execuhire of Groq by NVIDIA for $20B. ended today at $280, a market cap of $60 billion, which is tremendous validation for Big Chip and their believers.This image from Amir Efrati summarizes the Decade of Cerebras:Cerebras’ financials are now fully public, but the focus of discussions center around the supply:More details below, and the Head Research Scientist of Cerebras speaks at AIE Singapore later today on the livestream:AI News for 5/14/2026-5/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!Headline Story: Cerebras IPO recap, technical details, and company journeyCerebras returned to the timeline as an IPO story, with investors and adjacent infra voices framing the company as a long-running contrarian hardware bet that finally looks vindicated. The most directly relevant tweet is from investor Ishan N. Taneja, who said he “didn’t believe” early Cerebras claims, then concluded the skeptic he doubted “was totally right,” praising Cerebras for persistence, execution, and for having “built a banger chip,” while noting this was Hanabi’s first IPO @ishanit5. A second Cerebras-specific datapoint came from CNBC’s Deirdre Bosa quoting Cerebras CFO Bob Komin pushing back on the “small models only” narrative: Komin said Cerebras serves models of all sizes, that there is “no limit” to the size of models it can serve, and that Cerebras is currently serving trillion-parameter models, including internal OpenAI models, specifically naming “OpenAI 5.4 and 5.5” @dee_bosa. A nearby co",
+          "published": "2026-05-16T04:36:50+00:00",
+          "published_dt": "2026-05-16T04:36:50+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$60B",
+              "$20B",
+              "$60 billion"
+            ],
+            "technologies": [
+              "inference"
+            ]
+          },
+          "summary_en": "[AINews] Cerebras' $60B IPO: Slowly, then All at Once (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] Cerebras' $60B IPO: Slowly, then All at Once，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3123375",
+          "title": "The haves and have nots of the AI gold rush",
+          "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The vibes around the current AI boom aren't great, even in the tech industry.",
+          "published": "2026-05-16T20:17:16+00:00",
+          "published_dt": "2026-05-16T20:17:16+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The haves and have nots of the AI gold rush (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：The haves and have nots of the AI gold rush，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 0,
+      "items": []
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 5,
+      "items": [
+        {
+          "id": "hn-48159227",
+          "title": "OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days",
+          "url": "https://twitter.com/steipete/status/2055346265869721905",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-16T11:34:04+00:00",
+          "published_dt": "2026-05-16T11:34:04+00:00",
+          "hn_score": 143,
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$1.3M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days (Hacker News) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hacker News 报道：OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3123362",
+          "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+          "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex.",
+          "published": "2026-05-16T15:33:33+00:00",
+          "published_dt": "2026-05-16T15:33:33+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI co-founder Greg Brockman takes charge of product strategy (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI co-founder Greg Brockman takes charge of product strategy，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48160807",
+          "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
+          "url": "https://www.seangoedecke.com/steering-vectors/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-16T14:58:16+00:00",
+          "published_dt": "2026-05-16T14:58:16+00:00",
+          "hn_score": 214,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "DeepSeek-V4-Flash means LLM steering is interesting again (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：DeepSeek-V4-Flash means LLM steering is interesting again，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48158400",
+          "title": "Moving away from Tailwind, and learning to structure my CSS",
+          "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-16T09:14:26+00:00",
+          "published_dt": "2026-05-16T09:14:26+00:00",
+          "hn_score": 449,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Moving away from Tailwind, and learning to structure my CSS (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Moving away from Tailwind, and learning to structure my CSS，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48157559",
+          "title": "Frontier AI has broken the open CTF format",
+          "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-16T07:01:55+00:00",
+          "published_dt": "2026-05-16T07:01:55+00:00",
+          "hn_score": 341,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Frontier AI has broken the open CTF format (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Frontier AI has broken the open CTF format，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-17T02:45:14.408769+00:00",
+          "published_dt": "2026-05-17T02:45:14.408769+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-17T02:45:14.408769+00:00",
+          "published_dt": "2026-05-17T02:45:14.408769+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.qbitai.com/?p=418518",
+          "title": "别让模型烧Token了！GitHub 20k星神作：把全网变成命令行",
+          "url": "https://www.qbitai.com/2026/05/418518.html",
+          "source": "量子位",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-05-16T06:35:05+00:00",
+          "published_dt": "2026-05-16T06:35:05+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "别让模型烧Token了！GitHub 20k星神作：把全网变成命令行 (量子位) highlights a notable AI development with score 5.3.",
+          "summary_zh": "量子位 报道：别让模型烧Token了！GitHub 20k星神作：把全网变成命令行，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
+      "title": "[AINews] Cerebras' $60B IPO: Slowly, then All at Once",
+      "url": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "We normally focus on technical stories, but occasional large fundraisings are noteworthy in themselves, and the Cerebras IPO (after one pulled S-1 and a fantastic 750MW partnership and $10-$20B stake/deal with OpenAI) this week, certainly qualifies as a growing theme supporting the Inference Inflection, just 6 months after the shock execuhire of Groq by NVIDIA for $20B. ended today at $280, a market cap of $60 billion, which is tremendous validation for Big Chip and their believers.This image from Amir Efrati summarizes the Decade of Cerebras:Cerebras’ financials are now fully public, but the focus of discussions center around the supply:More details below, and the Head Research Scientist of Cerebras speaks at AIE Singapore later today on the livestream:AI News for 5/14/2026-5/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!Headline Story: Cerebras IPO recap, technical details, and company journeyCerebras returned to the timeline as an IPO story, with investors and adjacent infra voices framing the company as a long-running contrarian hardware bet that finally looks vindicated. The most directly relevant tweet is from investor Ishan N. Taneja, who said he “didn’t believe” early Cerebras claims, then concluded the skeptic he doubted “was totally right,” praising Cerebras for persistence, execution, and for having “built a banger chip,” while noting this was Hanabi’s first IPO @ishanit5. A second Cerebras-specific datapoint came from CNBC’s Deirdre Bosa quoting Cerebras CFO Bob Komin pushing back on the “small models only” narrative: Komin said Cerebras serves models of all sizes, that there is “no limit” to the size of models it can serve, and that Cerebras is currently serving trillion-parameter models, including internal OpenAI models, specifically naming “OpenAI 5.4 and 5.5” @dee_bosa. A nearby co",
+      "published": "2026-05-16T04:36:50+00:00",
+      "published_dt": "2026-05-16T04:36:50+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$60B",
+          "$20B",
+          "$60 billion"
+        ],
+        "technologies": [
+          "inference"
+        ]
+      },
+      "summary_en": "[AINews] Cerebras' $60B IPO: Slowly, then All at Once (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Cerebras' $60B IPO: Slowly, then All at Once，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+      "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+      "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+      "source": "Ahead of AI (Sebastian Raschka)",
+      "source_type": "rss",
+      "content": "After a short family break, I am excited to be back and catching up on a busy few weeks of open-weight LLM releases. The thing that stood out to me is how much newer architectures are focused on long-context efficiency.As reasoning models and agent workflows keep more tokens around (for longer), KV-cache size, memory traffic, and attention cost quickly become the main constraints, and LLM developers are adding a growing number of architecture tricks to reduce those costs.The main examples I want to look at are KV sharing and per-layer embeddings in Gemma 4, layer-wise attention budgeting in Laguna XS.2, compressed convolutional attention in ZAYA1-8B, and mHC plus compressed attention in DeepSeek V4.Most of these changes look like small tweaks in my architecture diagrams, but some of them are quite intricate design changes that are worth a more detailed discussion.Figure 1. LLM architecture drawings of recent, major open-weight releases (April to May). You can find the images, and more details, in my LLM architecture gallery. Not all model sizes are shown; Qwen3.6 includes the 27B and 35B-A3B variants, and ZAYA1 is represented by the 8B model (omitting ZAYA1-base and ZAYA1-reasoning-base). The architectures in the dotted boxes are covered in more detail in this article.Note that this article is about architecture designs, so I will mostly skip dataset mixtures, training schedules, post-training details, RL recipes, benchmark tables, and product comparisons. Even with that narrower scope, there is a lot to cover. And, like always, the article turned out longer than I expected, so I will keep the focus on what changes inside the transformer block, residual stream, KV cache, or attention computation.Please also note that I am only covering those topics that are interesting (new) design choices and that I haven’t covered elsewhere, yet. This list includes:KV sharing and per-layer embeddings in Gemma 4Compressed convolutional attention in ZAYA1Attention budgeting in Lagun",
+      "published": "2026-05-16T11:33:51+00:00",
+      "published_dt": "2026-05-16T11:33:51+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Figure",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "transformer",
+          "agent",
+          "reasoning model",
+          "benchmark",
+          "embedding"
+        ]
+      },
+      "summary_en": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3123369",
+      "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+      "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "ArXiv is doing more to crack down on the careless use of large language models in scientific papers.",
+      "published": "2026-05-16T18:54:28+00:00",
+      "published_dt": "2026-05-16T18:54:28+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Research repository ArXiv will ban authors for a year if they let AI do all the work (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：Research repository ArXiv will ban authors for a year if they let AI do all the work，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
+      "title": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "This month was packed, with all open frontier labs, including DeepSeek, releasing new models. The latter prompted an evaluation by the Center for AI Standards and Innovation (CAISI), which has evaluated open models and their risks in the past. Their result is that open models lag behind the American frontier, with the gap becoming wider over time:For the report, they calculate an Elo score based on Item Response Theory, which is commonly used to compare different models, even when they were tested on a different set of benchmarks. For V4, CAISI used nine different benchmarks:The huge Elo difference is explained by DeepSeek V4s bad score in CTF-Archive-Diamond (which was only run with a subset of the benchmark and extrapolated with IRT for V4), PortBench (a CAISI-private benchmark) and ARC-AGI-2 (with a different scoring method than the public leaderboards). The differences in these benchmark have a huge impact on the overall Elo, which can exacerbate the difference in capabilities. When using Epoch AI’s ECI, which also uses IRT over a set of different benchmarks, we see that the gap roughly stays between 3-7 months since R1:The open<>closed gap in ECI (from https://mcnair.center/china/)However, both CAISI and ECI paint an incomplete picture, as both use standardized (and simple) setups to compare the capabilities of models. To be more concrete: Coding tasks are evaluated using access to bash and a for-loop with a fixed budget of tokens, not with a harness such as Claude Code or OpenCode, which models are trained in! These setups result in benchmarks claiming that porting applications to another language is currently not possible, while Bun has been ported from Zig to Rust with 1 million LOC changes1.Therefore, we would argue that a frontier comparison of open and closed models would also need to elicit the capabilities of all models better, which means the usage of the preferred harnesses, as well as model-specific prompting.This section was written primarily by Flo",
+      "published": "2026-05-16T17:00:11+00:00",
+      "published_dt": "2026-05-16T17:00:11+00:00",
+      "score": 7.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "benchmark"
+        ]
+      },
+      "summary_en": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment. (Interconnects (Nathan Lambert)) highlights a notable AI development with score 7.2.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.，综合评分 7.2，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-17T02:45:14.408769+00:00",
+      "published_dt": "2026-05-17T02:45:14.408769+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-17T02:45:14.408769+00:00",
+      "published_dt": "2026-05-17T02:45:14.408769+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3123375",
+      "title": "The haves and have nots of the AI gold rush",
+      "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The vibes around the current AI boom aren't great, even in the tech industry.",
+      "published": "2026-05-16T20:17:16+00:00",
+      "published_dt": "2026-05-16T20:17:16+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The haves and have nots of the AI gold rush (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：The haves and have nots of the AI gold rush，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48159227",
+      "title": "OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days",
+      "url": "https://twitter.com/steipete/status/2055346265869721905",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-16T11:34:04+00:00",
+      "published_dt": "2026-05-16T11:34:04+00:00",
+      "hn_score": 143,
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$1.3M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days (Hacker News) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hacker News 报道：OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.qbitai.com/?p=418518",
+      "title": "别让模型烧Token了！GitHub 20k星神作：把全网变成命令行",
+      "url": "https://www.qbitai.com/2026/05/418518.html",
+      "source": "量子位",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-05-16T06:35:05+00:00",
+      "published_dt": "2026-05-16T06:35:05+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "别让模型烧Token了！GitHub 20k星神作：把全网变成命令行 (量子位) highlights a notable AI development with score 5.3.",
+      "summary_zh": "量子位 报道：别让模型烧Token了！GitHub 20k星神作：把全网变成命令行，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3123362",
+      "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+      "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex.",
+      "published": "2026-05-16T15:33:33+00:00",
+      "published_dt": "2026-05-16T15:33:33+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI co-founder Greg Brockman takes charge of product strategy (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI co-founder Greg Brockman takes charge of product strategy，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48160807",
+      "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
+      "url": "https://www.seangoedecke.com/steering-vectors/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-16T14:58:16+00:00",
+      "published_dt": "2026-05-16T14:58:16+00:00",
+      "hn_score": 214,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "DeepSeek-V4-Flash means LLM steering is interesting again (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：DeepSeek-V4-Flash means LLM steering is interesting again，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48158400",
+      "title": "Moving away from Tailwind, and learning to structure my CSS",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-16T09:14:26+00:00",
+      "published_dt": "2026-05-16T09:14:26+00:00",
+      "hn_score": 449,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Moving away from Tailwind, and learning to structure my CSS (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Moving away from Tailwind, and learning to structure my CSS，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48157559",
+      "title": "Frontier AI has broken the open CTF format",
+      "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-16T07:01:55+00:00",
+      "published_dt": "2026-05-16T07:01:55+00:00",
+      "hn_score": 341,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Frontier AI has broken the open CTF format (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Frontier AI has broken the open CTF format，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
