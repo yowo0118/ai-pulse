@@ -1,0 +1,2355 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-05-21T02:55:43",
+  "stats": {
+    "total_items": 38,
+    "high_importance": 12,
+    "medium_importance": 26,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/railway",
+      "title": "Railway: The Agent-Native Cloud — Jake Cooper",
+      "url": "https://www.latent.space/p/railway",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets!This was recorded before Railway suffered a major GCP outage on May 19, despite being a multi-AZ, multi-zone mesh ring, with HA fiber interconnects between their Metal <> GCP <> AWS, because workload discoverability was unintentionally still tied to GCP. All has been resolved with a post-mortem.Railway did not start as an AI infrastructure company.It was founded in 2020 years before agents became the default way people thought about deploying software. Jake Cooper, formerly at Bloomberg and Uber, started Railway with a simple obsession: the activation energy to ship something to production should be near zero. Push code, get a URL, iterate. No Docker files, no Kubernetes manifests, no Ansible scripts stacked on Ansible scripts.For years, this was a slow grind. Railway spent its first 18 months hand-acquiring its first 100 users with Jake personally greeting every Discord signup on a second monitor.srcToday, Railway has raised $124m and is growing very fast. A 35-person team supports 3 million users, adding roughly 100,000 signups a week. Their bare metal data centers have a 3-month payback period vs. renting in the cloud, with 70% margins funding aggressive cloud bursting when needed. The servers they own have actually appreciated in value as RAM prices have climbed basically meaning the value of their hardware now exceeds the capital they've raised.From rebuilding Railway’s network overlay over a weekend to moving the vast majority of workloads onto its own bare metal data centers, Jake Cooper is trying to build a new cloud for an agent-native world. In this episode, Railway’s founder and “conductor” joins swyx and Alessio to unpack why the next era of software infrastructure is not just “Heroku but newer,” what agents need that humans did not, and why the old deployment loop of Git, PRs, CI/CD, and static cloud resources may be heading for a rewrite.We go deep on Railway’s infrastructur",
+      "published": "2026-05-20T22:42:06+00:00",
+      "published_dt": "2026-05-20T22:42:06+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$124m",
+          "raised $124m"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Railway: The Agent-Native Cloud — Jake Cooper (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Railway: The Agent-Native Cloud — Jake Cooper，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124533",
+      "title": "Clouted wants to take the guesswork out of making short videos go viral",
+      "url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The video clipping startup raised a $7 million seed round led by Slow Ventures.",
+      "published": "2026-05-20T22:30:45+00:00",
+      "published_dt": "2026-05-20T22:30:45+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$7 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Clouted wants to take the guesswork out of making short videos go viral (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：Clouted wants to take the guesswork out of making short videos go viral，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93574",
+      "title": "Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick",
+      "url": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Digital banking startup Mercury has raised $200 million in a Series D round at a $5.2 billion valuation, the company announced Wednesday. That’s up 49% from the $3.5 billion valuation it achieved when announcing its $300 million Series C — which included primary and secondary funding — in March of 2025. The latest capital infusion brings San Francisco-based Mercury’s total primary and secondary funding to approximately $700 million since its 2017 inception. Immad Akhund, co-founder and CEO of Mercury. (Courtesy photo) TCV led the latest financing, which included participation from returning backers Andreessen Horowitz, Coatue, CRV, Sequoia Capital, Sapphire Ventures and Spark Capital. Mercury counts more than 300,000 companies as customers, including startups and larger entities such as Supabase, ElevenLabs, Lovable, Linear, Phantom and Tempo. Interestingly, Mercury recently received conditional approval from the banking regulator, the OCC, to establish its own bank. This is in contrast to many fintechs, which typically work with a sponsor bank but are not banks themselves. The company hit $650 million in annualized revenue as of the 2025 third quarter, and claims to have achieved four consecutive years of profitability on both a GAAP net income and EBITDA basis. AI’s effects “AI is collapsing the friction between an idea and a company faster than anything I have seen in my career,” Immad Akhund, co-founder and CEO of Mercury, said in a press release. “We are going to see more founders in the next five years than in the last twenty. But legacy banking in 2026 still works the way it did when I started my first company in 2006. I started Mercury because banking should do more than be a vault, it should help customers run the best business possible.” Fintech startups, particularly those that apply AI to traditionally manual or burdensome processes, have benefited from increased investment in recent quarters. Global funding to VC-backed financial technology startups tot",
+      "published": "2026-05-20T19:15:47+00:00",
+      "published_dt": "2026-05-20T19:15:47+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Sequoia"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$200M",
+          "$5.2B",
+          "$200 million",
+          "$5.2 billion",
+          "$3.5 billion",
+          "$300 million",
+          "$700 million",
+          "$650 million",
+          "raised $200 million",
+          "Series D"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93567",
+      "title": "After A 6-Figure Fertility Journey, This Founder Built An IVF Startup With ‘Outcome Protection’",
+      "url": "https://news.crunchbase.com/health-wellness-biotech/ivf-startup-ai-fertility-probability-gaia/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Five cycles, three clinics, two countries and a six-figure financial toll spanning about four years. When Nader AlSalim and his wife were navigating the complex world of fertility treatment, the process was marked by stress and financial strain. But after finally achieving a successful outcome, AlSalim recognized how different his experience was from many others in his position. Despite the ordeal, he noted, having a child afterward “is much better than a load of people who don’t have anything to show for it.” The experience sparked a business idea to help others in the same situation his wife and he were in. “My son was 1 week old,” he said, recalling the exact moment the concept took hold. Nader AlSalim, founder of Gaia. (Courtesy photo) AlSalim officially registered the company name, Gaia, in 2019, but the business’ true inception came later, as the founder refined the idea and sought investors. Gaia is working on building what AlSalim believes is a fundamentally new category in the $39 billion fertility market. The company uses artificial intelligence and machine learning — trained on millions of anonymized historical data points and fertility outcomes — to better understand risk and probability for fertility treatment. The platform analyzes variables such as age, hormone levels, ovarian response, treatment protocols, embryo development and clinical outcomes to direct patients to “optimal” clinics based on their data profiles, and to generate personalized forecasts around fertility success. It also uses AI and machine learning to underwrite personalized outcome-based “flexible” financing plans for IVF, egg freezing and embryo transfer procedures. “We tell you where to go, we protect your path, we finance your treatment, we support you,” AlSalim said in an interview with Crunchbase News. “No one else today bundles care, capital and financial protection into a single product.” And today, the New York-based startup — led by AlSalim as its sole founder — tells Crunc",
+      "published": "2026-05-20T12:00:29+00:00",
+      "published_dt": "2026-05-20T12:00:29+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$39 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "After A 6-Figure Fertility Journey, This Founder Built An IVF Startup With ‘Outcome Protection’ (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：After A 6-Figure Fertility Journey, This Founder Built An IVF Startup With ‘Outcome Protection’，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93563",
+      "title": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds",
+      "url": "https://news.crunchbase.com/robotics/embodied-ai-fuels-record-funding-china-ipo-momentum-builds/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Venture investment in China’s robotics sector has hit an all-time high this year, Crunchbase data shows, as several well-funded startups in the space make IPO debuts. Just through mid-May, China-based robotics companies this year have raised $5.6 billion across 176 deals, Crunchbase data shows. That sum matches total investment to the nation’s robotics companies in all of 2021, the peak of the funding cycle. Investment in the sector has also already eclipsed the $4.3 billion raised by China-based robotics companies in all of 2025. Startup funding in Asia overall surged to $27.4 billion in Q1, its highest level in over three years, with China capturing $16.5 billion — 60% — of that total, according to recent Crunchbase data. Robotics contributed meaningfully to that $16.5 billion total, with startups in the sector raising $3.3 billion across 126 deals. Embodied AI boom A review of Crunchbase data shows that investors now are no longer funding mostly pre-programmed hardware, but increasingly backing China-based startups working on embodied AI — or artificial intelligence with a physical body that interacts with the real world in real time. That shift toward artificial intelligence-driven robotics mirrors a global surge in investment into robotics and other physical AI startups. It’s also thanks to the rise of advanced, open-source reasoning models that have fundamentally changed how robots operate. Startups are moving away from coding robots line-by-line toward Vision-Language-Action models that allow physical machines to observe, reason and execute physical tasks end-to-end. In China, robotics startups at the intersection of the software and hardware integration are drawing the largest checks in the space and often back-to-back funding rounds. They include: TARS Robotics, a 1-year-old humanoid robotics company that integrates embodied intelligence that last month raised a massive $513 million seed round led by Hillhouse Capital and HSG. The Shanghai-based company was",
+      "published": "2026-05-20T11:00:50+00:00",
+      "published_dt": "2026-05-20T11:00:50+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$5.6 billion",
+          "$4.3 billion",
+          "$27.4 billion",
+          "$16.5 billion",
+          "$3.3 billion",
+          "$513 million",
+          "raised $5.6 billion"
+        ],
+        "technologies": [
+          "reasoning model"
+        ]
+      },
+      "summary_en": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
+          "title": "Quoting SpaceX S-1",
+          "url": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "We have the ability to use compute resources to support our proprietary AI applications (such as Grok 5, which is currently being trained at COLOSSUS II), while also providing access to select compute capacity to third-party customers. For example, in May 2026, we entered into Cloud Services Agreements with Anthropic PBC (“Anthropic”), an AI research and development public benefit corporation, with respect to access to compute capacity across COLOSSUS and COLOSSUS II. Pursuant to these agreements, the customer has agreed to pay us $1.25 billion per month through May 2029, with capacity ramping in May and June 2026 at a reduced fee. The agreements may be terminated by either party upon 90 days’ notice. — SpaceX S-1, highlights mine Tags: anthropic, grok, generative-ai, ai, llms",
+          "published": "2026-05-20T22:26:36+00:00",
+          "published_dt": "2026-05-20T22:26:36+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$1.25 billion"
+            ],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Quoting SpaceX S-1 (Simon Willison) highlights a notable AI development with score 7.1.",
+          "summary_zh": "Simon Willison 报道：Quoting SpaceX S-1，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/railway",
+          "title": "Railway: The Agent-Native Cloud — Jake Cooper",
+          "url": "https://www.latent.space/p/railway",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets!This was recorded before Railway suffered a major GCP outage on May 19, despite being a multi-AZ, multi-zone mesh ring, with HA fiber interconnects between their Metal <> GCP <> AWS, because workload discoverability was unintentionally still tied to GCP. All has been resolved with a post-mortem.Railway did not start as an AI infrastructure company.It was founded in 2020 years before agents became the default way people thought about deploying software. Jake Cooper, formerly at Bloomberg and Uber, started Railway with a simple obsession: the activation energy to ship something to production should be near zero. Push code, get a URL, iterate. No Docker files, no Kubernetes manifests, no Ansible scripts stacked on Ansible scripts.For years, this was a slow grind. Railway spent its first 18 months hand-acquiring its first 100 users with Jake personally greeting every Discord signup on a second monitor.srcToday, Railway has raised $124m and is growing very fast. A 35-person team supports 3 million users, adding roughly 100,000 signups a week. Their bare metal data centers have a 3-month payback period vs. renting in the cloud, with 70% margins funding aggressive cloud bursting when needed. The servers they own have actually appreciated in value as RAM prices have climbed basically meaning the value of their hardware now exceeds the capital they've raised.From rebuilding Railway’s network overlay over a weekend to moving the vast majority of workloads onto its own bare metal data centers, Jake Cooper is trying to build a new cloud for an agent-native world. In this episode, Railway’s founder and “conductor” joins swyx and Alessio to unpack why the next era of software infrastructure is not just “Heroku but newer,” what agents need that humans did not, and why the old deployment loop of Git, PRs, CI/CD, and static cloud resources may be heading for a rewrite.We go deep on Railway’s infrastructur",
+          "published": "2026-05-20T22:42:06+00:00",
+          "published_dt": "2026-05-20T22:42:06+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$124m",
+              "raised $124m"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Railway: The Agent-Native Cloud — Jake Cooper (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：Railway: The Agent-Native Cloud — Jake Cooper，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3124533",
+          "title": "Clouted wants to take the guesswork out of making short videos go viral",
+          "url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The video clipping startup raised a $7 million seed round led by Slow Ventures.",
+          "published": "2026-05-20T22:30:45+00:00",
+          "published_dt": "2026-05-20T22:30:45+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$7 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Clouted wants to take the guesswork out of making short videos go viral (TechCrunch AI) highlights a notable AI development with score 10.0.",
+          "summary_zh": "TechCrunch AI 报道：Clouted wants to take the guesswork out of making short videos go viral，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93574",
+          "title": "Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick",
+          "url": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Digital banking startup Mercury has raised $200 million in a Series D round at a $5.2 billion valuation, the company announced Wednesday. That’s up 49% from the $3.5 billion valuation it achieved when announcing its $300 million Series C — which included primary and secondary funding — in March of 2025. The latest capital infusion brings San Francisco-based Mercury’s total primary and secondary funding to approximately $700 million since its 2017 inception. Immad Akhund, co-founder and CEO of Mercury. (Courtesy photo) TCV led the latest financing, which included participation from returning backers Andreessen Horowitz, Coatue, CRV, Sequoia Capital, Sapphire Ventures and Spark Capital. Mercury counts more than 300,000 companies as customers, including startups and larger entities such as Supabase, ElevenLabs, Lovable, Linear, Phantom and Tempo. Interestingly, Mercury recently received conditional approval from the banking regulator, the OCC, to establish its own bank. This is in contrast to many fintechs, which typically work with a sponsor bank but are not banks themselves. The company hit $650 million in annualized revenue as of the 2025 third quarter, and claims to have achieved four consecutive years of profitability on both a GAAP net income and EBITDA basis. AI’s effects “AI is collapsing the friction between an idea and a company faster than anything I have seen in my career,” Immad Akhund, co-founder and CEO of Mercury, said in a press release. “We are going to see more founders in the next five years than in the last twenty. But legacy banking in 2026 still works the way it did when I started my first company in 2006. I started Mercury because banking should do more than be a vault, it should help customers run the best business possible.” Fintech startups, particularly those that apply AI to traditionally manual or burdensome processes, have benefited from increased investment in recent quarters. Global funding to VC-backed financial technology startups tot",
+          "published": "2026-05-20T19:15:47+00:00",
+          "published_dt": "2026-05-20T19:15:47+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Sequoia"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$200M",
+              "$5.2B",
+              "$200 million",
+              "$5.2 billion",
+              "$3.5 billion",
+              "$300 million",
+              "$700 million",
+              "$650 million",
+              "raised $200 million",
+              "Series D"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93567",
+          "title": "After A 6-Figure Fertility Journey, This Founder Built An IVF Startup With ‘Outcome Protection’",
+          "url": "https://news.crunchbase.com/health-wellness-biotech/ivf-startup-ai-fertility-probability-gaia/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Five cycles, three clinics, two countries and a six-figure financial toll spanning about four years. When Nader AlSalim and his wife were navigating the complex world of fertility treatment, the process was marked by stress and financial strain. But after finally achieving a successful outcome, AlSalim recognized how different his experience was from many others in his position. Despite the ordeal, he noted, having a child afterward “is much better than a load of people who don’t have anything to show for it.” The experience sparked a business idea to help others in the same situation his wife and he were in. “My son was 1 week old,” he said, recalling the exact moment the concept took hold. Nader AlSalim, founder of Gaia. (Courtesy photo) AlSalim officially registered the company name, Gaia, in 2019, but the business’ true inception came later, as the founder refined the idea and sought investors. Gaia is working on building what AlSalim believes is a fundamentally new category in the $39 billion fertility market. The company uses artificial intelligence and machine learning — trained on millions of anonymized historical data points and fertility outcomes — to better understand risk and probability for fertility treatment. The platform analyzes variables such as age, hormone levels, ovarian response, treatment protocols, embryo development and clinical outcomes to direct patients to “optimal” clinics based on their data profiles, and to generate personalized forecasts around fertility success. It also uses AI and machine learning to underwrite personalized outcome-based “flexible” financing plans for IVF, egg freezing and embryo transfer procedures. “We tell you where to go, we protect your path, we finance your treatment, we support you,” AlSalim said in an interview with Crunchbase News. “No one else today bundles care, capital and financial protection into a single product.” And today, the New York-based startup — led by AlSalim as its sole founder — tells Crunc",
+          "published": "2026-05-20T12:00:29+00:00",
+          "published_dt": "2026-05-20T12:00:29+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$39 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "After A 6-Figure Fertility Journey, This Founder Built An IVF Startup With ‘Outcome Protection’ (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：After A 6-Figure Fertility Journey, This Founder Built An IVF Startup With ‘Outcome Protection’，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93563",
+          "title": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds",
+          "url": "https://news.crunchbase.com/robotics/embodied-ai-fuels-record-funding-china-ipo-momentum-builds/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Venture investment in China’s robotics sector has hit an all-time high this year, Crunchbase data shows, as several well-funded startups in the space make IPO debuts. Just through mid-May, China-based robotics companies this year have raised $5.6 billion across 176 deals, Crunchbase data shows. That sum matches total investment to the nation’s robotics companies in all of 2021, the peak of the funding cycle. Investment in the sector has also already eclipsed the $4.3 billion raised by China-based robotics companies in all of 2025. Startup funding in Asia overall surged to $27.4 billion in Q1, its highest level in over three years, with China capturing $16.5 billion — 60% — of that total, according to recent Crunchbase data. Robotics contributed meaningfully to that $16.5 billion total, with startups in the sector raising $3.3 billion across 126 deals. Embodied AI boom A review of Crunchbase data shows that investors now are no longer funding mostly pre-programmed hardware, but increasingly backing China-based startups working on embodied AI — or artificial intelligence with a physical body that interacts with the real world in real time. That shift toward artificial intelligence-driven robotics mirrors a global surge in investment into robotics and other physical AI startups. It’s also thanks to the rise of advanced, open-source reasoning models that have fundamentally changed how robots operate. Startups are moving away from coding robots line-by-line toward Vision-Language-Action models that allow physical machines to observe, reason and execute physical tasks end-to-end. In China, robotics startups at the intersection of the software and hardware integration are drawing the largest checks in the space and often back-to-back funding rounds. They include: TARS Robotics, a 1-year-old humanoid robotics company that integrates embodied intelligence that last month raised a massive $513 million seed round led by Hillhouse Capital and HSG. The Shanghai-based company was",
+          "published": "2026-05-20T11:00:50+00:00",
+          "published_dt": "2026-05-20T11:00:50+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$5.6 billion",
+              "$4.3 billion",
+              "$27.4 billion",
+              "$16.5 billion",
+              "$3.3 billion",
+              "$513 million",
+              "raised $5.6 billion"
+            ],
+            "technologies": [
+              "reasoning model"
+            ]
+          },
+          "summary_en": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3124883",
+          "title": "Anthropic says it’s about to have its first profitable quarter",
+          "url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter.",
+          "published": "2026-05-21T00:21:21+00:00",
+          "published_dt": "2026-05-21T00:21:21+00:00",
+          "score": 8.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$10.9 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Anthropic says it’s about to have its first profitable quarter (TechCrunch AI) highlights a notable AI development with score 8.9.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic says it’s about to have its first profitable quarter，综合评分 8.9，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3124895",
+          "title": "Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia",
+          "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The next big thing for Nvidia will be CPUs for AI agents, $200 billion worth, CEO Jensen Huang predicts.",
+          "published": "2026-05-21T00:28:31+00:00",
+          "published_dt": "2026-05-21T00:28:31+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$200B",
+              "$200 billion"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3124868",
+          "title": "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over",
+          "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "SpaceX's IPO filing reveals xAI lost $6.4 billion in 2025 while planning a massive Grok expansion — offering the first public look at Elon Musk's AI financials and more details about his ambitions.",
+          "published": "2026-05-20T22:26:08+00:00",
+          "published_dt": "2026-05-20T22:26:08+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$6.4B",
+              "$6.4 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3124841",
+          "title": "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more",
+          "url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Elon Musk's xAI said it will buy $2.8 billion worth of natural gas turbines over the next three years, according to SpaceX's IPO filing.",
+          "published": "2026-05-20T21:55:49+00:00",
+          "published_dt": "2026-05-20T21:55:49+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$2.8B",
+              "$2.8 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3123711",
+          "title": "NanoClaw creator turns down $20M buyout offer, raises $12M seed instead",
+          "url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "NanoClaw was created as a secure alternative to OpenClaw to assist the Cohen brothers with their AI marketing firm that used agents to do much of the work. But instead of running directly on a computer, NanoClaw runs sandboxed in a container.",
+          "published": "2026-05-20T14:00:00+00:00",
+          "published_dt": "2026-05-20T14:00:00+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$20M",
+              "$12M"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "NanoClaw creator turns down $20M buyout offer, raises $12M seed instead (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：NanoClaw creator turns down $20M buyout offer, raises $12M seed instead，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3124801",
+          "title": "Nvidia posts another record quarter, reveals $43B of holdings in startups",
+          "url": "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Nvidia announced another record revenue figure after market close on Wednesday, but forecasted that revenue growth would slow in the following quarter.",
+          "published": "2026-05-20T22:03:51+00:00",
+          "published_dt": "2026-05-20T22:03:51+00:00",
+          "score": 9.4,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "NVIDIA",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$43B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Nvidia posts another record quarter, reveals $43B of holdings in startups (TechCrunch AI) highlights a notable AI development with score 9.4.",
+          "summary_zh": "TechCrunch AI 报道：Nvidia posts another record quarter, reveals $43B of holdings in startups，综合评分 9.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3122283",
+          "title": "IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy you never knew you needed",
+          "url": "https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Initially billed as an \"AI butler,\" Iris watches what happens on a user's desktop and automatically learns how to do tasks for them, its co-founder says.",
+          "published": "2026-05-20T19:47:20+00:00",
+          "published_dt": "2026-05-20T19:47:20+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy you never knew you needed (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy you never knew you needed，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3124449",
+          "title": "AI search startups are blowing up",
+          "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "AI search has quietly become one of the most attractive targets in consumer AI.",
+          "published": "2026-05-20T15:04:45+00:00",
+          "published_dt": "2026-05-20T15:04:45+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI search startups are blowing up (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：AI search startups are blowing up，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
+          "title": "Google I/O, Gemini Spark, Antigravity",
+          "url": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "It's hard to find much to write about Google I/O this year because I have a policy of not writing about anything that I can't try out myself, and a lot of the big announcements are \"coming soon\". I actually prefer to write about things that are in general availability, because I've had instances in the past where the previews didn't match what was released to the general public later on. Aside from Gemini 3.5 Flash the most interesting announcement looks to be Google's upcoming OpenClaw competitor Gemini Spark, described as \"your personal AI agent\" which can \"connect natively with your favorite Google apps like Gmail, Calendar, Drive, Docs, Sheets, Slides, YouTube, and Google Maps\". The FAQ for that also includes this confusing detail: What Gemini model does Gemini Spark run on? Gemini Spark runs on Gemini 3.5 Flash and Antigravity. The antigravity.google website currently lists Antigravity as a desktop app, a CLI agent tool (written in Go), the Antigravity SDK (an open source Python wrapper around a bundled closed source Go binary), and the original Antigravity IDE (a VS Code fork). I guess Gemini Spark, the user-facing hosted agent product, might be running on that Go binary, but I'm not sure why that's worth mentioning in the FAQ! Naturally I went looking for notes on how Gemini Spark intends to handle the risk of prompt injection. The best information I could find on that was in the Everything Google Cloud customers need to know coming out of Google I/O post aimed at enterprise customers, which includes: Spark operates in a fully managed, secure runtime on Google Cloud, meaning you get enterprise-grade security without ever having to manage the underlying infrastructure. Every task executes in a fresh, strictly isolated, ephemeral VM to help ensure data never overlaps between sessions. To protect your enterprise, all traffic routes through our secure Agent Gateway that enforces Data Loss Prevention (DLP) policies, while user credentials remain fully encrypted an",
+          "published": "2026-05-20T15:32:17+00:00",
+          "published_dt": "2026-05-20T15:32:17+00:00",
+          "score": 9.8,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Google I/O, Gemini Spark, Antigravity (Simon Willison) highlights a notable AI development with score 9.8.",
+          "summary_zh": "Simon Willison 报道：Google I/O, Gemini Spark, Antigravity，综合评分 9.8，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+          "title": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+          "url": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "The full keynote livestream was 2 hours, but as usual, The Verge has the best supercut down to 30 mins, which is very worthwhile to get a narrative sense:The mainline Gemini 3.5 Flash is GA today (very nice compared to some staged rollouts) and is sold as a decent step up even compared to 3.1 Pro, with 3.5 Pro coming next month. Perhaps more impressive were the Gemini Live (Voice) and Omni (Video) and Google Pics/Flow (Images/VFX/music) modalities, where Google demonstrated industry leading capabilities and latency, all presumably made possible by industry leading hardware and models. Per longstanding tradition at every bigtech keynote these days, Google also showed off some smart glasses tech, which seems a little more likely to be seen on the street than many prior iterations from both Google and their peers.AI News for 5/18/2026-5/19/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGoogle used I/O to reposition Gemini as both a consumer AI surface and a developer/agent platform, with three core technical announcements: Gemini 3.5 Flash for fast agentic/coding workloads, Gemini Omni for multimodal generation/editing starting with video, and a broader Antigravity agent stack spanning desktop/CLI/SDK/API. Official posts emphasized scale — Google says it now processes over 3.2 quadrillion tokens/month, up 7x YoY from 480T/month, while the Gemini app has 900M+ monthly users and is available in 230+ countries and 70+ languages (Google, Google, GeminiApp). The most technically substantive release was Gemini 3.5 Flash, framed by Google as its strongest agentic/coding model yet, GA immediately, with 1M-token context, 65k max output, 4 thinking levels (“minimal/low/medium/high”), and “thought preservation” across turns (GoogleDeepMind, Google, _philschmid). Google paired that with Gemini Omni, ",
+          "published": "2026-05-20T03:34:17+00:00",
+          "published_dt": "2026-05-20T03:34:17+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google",
+              "DeepMind"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "multimodal"
+            ]
+          },
+          "summary_en": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0 (Latent Space) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Latent Space 报道：[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3124395",
+          "title": "Stability AI releases a new audio model that can create 6-minute songs",
+          "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks.",
+          "published": "2026-05-20T15:00:00+00:00",
+          "published_dt": "2026-05-20T15:00:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Stability AI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Stability AI releases a new audio model that can create 6-minute songs (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Stability AI releases a new audio model that can create 6-minute songs，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+          "title": "100 things we announced at I/O 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+          "source": "Google AI Blog",
+          "source_type": "rss",
+          "content": "This year at Google I/O 2026, we announced Gemini Omni, Google Antigravity, Universal Cart and so much more. Here are the highlights.",
+          "published": "2026-05-20T19:30:00+00:00",
+          "published_dt": "2026-05-20T19:30:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "100 things we announced at I/O 2026 (Google AI Blog) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Google AI Blog 报道：100 things we announced at I/O 2026，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=934521",
+          "title": "It&#8217;s make or break time for AI labeling systems",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/934521/google-synthid-c2pa-content-credentials-ai-labelling-efforts",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "If robust AI labeling was in place when these swagged out images of Pope Francis went viral, it may have been easier for people to tell they were fake. | Image: via Reddit We're about to find out if the systems designed to make deepfakes and AI-generated content easy to spot are actually up to snuff. SynthID and C2PA Content Credentials, two distinct technologies for invisibly tagging image, video, and audio files with information about their origins, are getting their biggest expansion to date, and with it, the opportunity to turn the tide against unlabeled AI fakery that's deceiving people online. Yesterday during its I/O conference, Google announced that the ability to verify whether images carry SynthID markers - the invisible watermarking system that's applied to content generated by Google AI models - i … Read the full story at The Verge.",
+          "published": "2026-05-20T14:12:54+00:00",
+          "published_dt": "2026-05-20T14:12:54+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "It&#8217;s make or break time for AI labeling systems (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：It&#8217;s make or break time for AI labeling systems，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 8,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3124805",
+          "title": "Anthropic will pay xAI $1.25B per month for compute",
+          "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Elon Musk's xAI surprised the AI world when it made a deal to sell compute to Anthropic. Now we know how much it's worth.",
+          "published": "2026-05-20T21:29:22+00:00",
+          "published_dt": "2026-05-20T21:29:22+00:00",
+          "score": 6.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$1.25B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Anthropic will pay xAI $1.25B per month for compute (TechCrunch AI) highlights a notable AI development with score 6.5.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic will pay xAI $1.25B per month for compute，综合评分 6.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48206640",
+          "title": "Anna's Archive hit with $19.5M default judgment and global domain takedown order",
+          "url": "https://torrentfreak.com/annas-archive-hit-with-19-5m-default-judgment-and-global-domain-takedown-order/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-20T12:30:58+00:00",
+          "published_dt": "2026-05-20T12:30:58+00:00",
+          "hn_score": 249,
+          "score": 6.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$19.5M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Anna's Archive hit with $19.5M default judgment and global domain takedown order (Hacker News) highlights a notable AI development with score 6.5.",
+          "summary_zh": "Hacker News 报道：Anna's Archive hit with $19.5M default judgment and global domain takedown order，综合评分 6.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48212493",
+          "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+          "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-20T19:05:30+00:00",
+          "published_dt": "2026-05-20T19:05:30+00:00",
+          "hn_score": 793,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "An OpenAI model has disproved a central conjecture in discrete geometry (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：An OpenAI model has disproved a central conjecture in discrete geometry，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48208502",
+          "title": "Tennessee man jailed 37 days for Trump meme wins settlement after lawsuit",
+          "url": "https://www.fire.org/news/victory-tennessee-man-jailed-37-days-trump-meme-wins-835000-settlement-after-first-amendment",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-20T14:30:47+00:00",
+          "published_dt": "2026-05-20T14:30:47+00:00",
+          "hn_score": 676,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Tennessee man jailed 37 days for Trump meme wins settlement after lawsuit (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Tennessee man jailed 37 days for Trump meme wins settlement after lawsuit，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3124770",
+          "title": "OpenAI claims it solved an 80-year-old math problem — for real this time",
+          "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI claims its reasoning model disproved a geometry conjecture unsolved since 1946 — and this time, the mathematicians who exposed its last embarrassing claim are backing it up.",
+          "published": "2026-05-20T20:28:27+00:00",
+          "published_dt": "2026-05-20T20:28:27+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "reasoning model"
+            ]
+          },
+          "summary_en": "OpenAI claims it solved an 80-year-old math problem — for real this time (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI claims it solved an 80-year-old math problem — for real this time，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3124082",
+          "title": "Figma adds an AI assistant to its collaborative canvas",
+          "url": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Figma says users can employ natural language text prompts to direct its new AI agent to generate new designs, edit existing ones, or automate tasks such as generating iterations of existing designs.",
+          "published": "2026-05-20T13:00:00+00:00",
+          "published_dt": "2026-05-20T13:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Figma adds an AI assistant to its collaborative canvas (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Figma adds an AI assistant to its collaborative canvas，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48206241",
+          "title": "College students drown out AI-praising commencement speeches with boos",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/college-students-drown-out-ai-praising-commencement-speeches-with-boos-deal-with-it-one-speaker-fires-back-as-students-heckle-positive-pitches-for-ais-role",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-20T11:51:32+00:00",
+          "published_dt": "2026-05-20T11:51:32+00:00",
+          "hn_score": 357,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "College students drown out AI-praising commencement speeches with boos (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：College students drown out AI-praising commencement speeches with boos，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48205782",
+          "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
+          "url": "https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-20T10:57:09+00:00",
+          "published_dt": "2026-05-20T10:57:09+00:00",
+          "hn_score": 262,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google's AI is being manipulated. The search giant is quietly fighting back (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Google's AI is being manipulated. The search giant is quietly fighting back，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-21T02:55:41.364776+00:00",
+          "published_dt": "2026-05-21T02:55:41.364776+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-21T02:55:41.364776+00:00",
+          "published_dt": "2026-05-21T02:55:41.364776+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/railway",
+      "title": "Railway: The Agent-Native Cloud — Jake Cooper",
+      "url": "https://www.latent.space/p/railway",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets!This was recorded before Railway suffered a major GCP outage on May 19, despite being a multi-AZ, multi-zone mesh ring, with HA fiber interconnects between their Metal <> GCP <> AWS, because workload discoverability was unintentionally still tied to GCP. All has been resolved with a post-mortem.Railway did not start as an AI infrastructure company.It was founded in 2020 years before agents became the default way people thought about deploying software. Jake Cooper, formerly at Bloomberg and Uber, started Railway with a simple obsession: the activation energy to ship something to production should be near zero. Push code, get a URL, iterate. No Docker files, no Kubernetes manifests, no Ansible scripts stacked on Ansible scripts.For years, this was a slow grind. Railway spent its first 18 months hand-acquiring its first 100 users with Jake personally greeting every Discord signup on a second monitor.srcToday, Railway has raised $124m and is growing very fast. A 35-person team supports 3 million users, adding roughly 100,000 signups a week. Their bare metal data centers have a 3-month payback period vs. renting in the cloud, with 70% margins funding aggressive cloud bursting when needed. The servers they own have actually appreciated in value as RAM prices have climbed basically meaning the value of their hardware now exceeds the capital they've raised.From rebuilding Railway’s network overlay over a weekend to moving the vast majority of workloads onto its own bare metal data centers, Jake Cooper is trying to build a new cloud for an agent-native world. In this episode, Railway’s founder and “conductor” joins swyx and Alessio to unpack why the next era of software infrastructure is not just “Heroku but newer,” what agents need that humans did not, and why the old deployment loop of Git, PRs, CI/CD, and static cloud resources may be heading for a rewrite.We go deep on Railway’s infrastructur",
+      "published": "2026-05-20T22:42:06+00:00",
+      "published_dt": "2026-05-20T22:42:06+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$124m",
+          "raised $124m"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Railway: The Agent-Native Cloud — Jake Cooper (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Railway: The Agent-Native Cloud — Jake Cooper，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124533",
+      "title": "Clouted wants to take the guesswork out of making short videos go viral",
+      "url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The video clipping startup raised a $7 million seed round led by Slow Ventures.",
+      "published": "2026-05-20T22:30:45+00:00",
+      "published_dt": "2026-05-20T22:30:45+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$7 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Clouted wants to take the guesswork out of making short videos go viral (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：Clouted wants to take the guesswork out of making short videos go viral，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93574",
+      "title": "Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick",
+      "url": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Digital banking startup Mercury has raised $200 million in a Series D round at a $5.2 billion valuation, the company announced Wednesday. That’s up 49% from the $3.5 billion valuation it achieved when announcing its $300 million Series C — which included primary and secondary funding — in March of 2025. The latest capital infusion brings San Francisco-based Mercury’s total primary and secondary funding to approximately $700 million since its 2017 inception. Immad Akhund, co-founder and CEO of Mercury. (Courtesy photo) TCV led the latest financing, which included participation from returning backers Andreessen Horowitz, Coatue, CRV, Sequoia Capital, Sapphire Ventures and Spark Capital. Mercury counts more than 300,000 companies as customers, including startups and larger entities such as Supabase, ElevenLabs, Lovable, Linear, Phantom and Tempo. Interestingly, Mercury recently received conditional approval from the banking regulator, the OCC, to establish its own bank. This is in contrast to many fintechs, which typically work with a sponsor bank but are not banks themselves. The company hit $650 million in annualized revenue as of the 2025 third quarter, and claims to have achieved four consecutive years of profitability on both a GAAP net income and EBITDA basis. AI’s effects “AI is collapsing the friction between an idea and a company faster than anything I have seen in my career,” Immad Akhund, co-founder and CEO of Mercury, said in a press release. “We are going to see more founders in the next five years than in the last twenty. But legacy banking in 2026 still works the way it did when I started my first company in 2006. I started Mercury because banking should do more than be a vault, it should help customers run the best business possible.” Fintech startups, particularly those that apply AI to traditionally manual or burdensome processes, have benefited from increased investment in recent quarters. Global funding to VC-backed financial technology startups tot",
+      "published": "2026-05-20T19:15:47+00:00",
+      "published_dt": "2026-05-20T19:15:47+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Sequoia"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$200M",
+          "$5.2B",
+          "$200 million",
+          "$5.2 billion",
+          "$3.5 billion",
+          "$300 million",
+          "$700 million",
+          "$650 million",
+          "raised $200 million",
+          "Series D"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93567",
+      "title": "After A 6-Figure Fertility Journey, This Founder Built An IVF Startup With ‘Outcome Protection’",
+      "url": "https://news.crunchbase.com/health-wellness-biotech/ivf-startup-ai-fertility-probability-gaia/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Five cycles, three clinics, two countries and a six-figure financial toll spanning about four years. When Nader AlSalim and his wife were navigating the complex world of fertility treatment, the process was marked by stress and financial strain. But after finally achieving a successful outcome, AlSalim recognized how different his experience was from many others in his position. Despite the ordeal, he noted, having a child afterward “is much better than a load of people who don’t have anything to show for it.” The experience sparked a business idea to help others in the same situation his wife and he were in. “My son was 1 week old,” he said, recalling the exact moment the concept took hold. Nader AlSalim, founder of Gaia. (Courtesy photo) AlSalim officially registered the company name, Gaia, in 2019, but the business’ true inception came later, as the founder refined the idea and sought investors. Gaia is working on building what AlSalim believes is a fundamentally new category in the $39 billion fertility market. The company uses artificial intelligence and machine learning — trained on millions of anonymized historical data points and fertility outcomes — to better understand risk and probability for fertility treatment. The platform analyzes variables such as age, hormone levels, ovarian response, treatment protocols, embryo development and clinical outcomes to direct patients to “optimal” clinics based on their data profiles, and to generate personalized forecasts around fertility success. It also uses AI and machine learning to underwrite personalized outcome-based “flexible” financing plans for IVF, egg freezing and embryo transfer procedures. “We tell you where to go, we protect your path, we finance your treatment, we support you,” AlSalim said in an interview with Crunchbase News. “No one else today bundles care, capital and financial protection into a single product.” And today, the New York-based startup — led by AlSalim as its sole founder — tells Crunc",
+      "published": "2026-05-20T12:00:29+00:00",
+      "published_dt": "2026-05-20T12:00:29+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$39 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "After A 6-Figure Fertility Journey, This Founder Built An IVF Startup With ‘Outcome Protection’ (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：After A 6-Figure Fertility Journey, This Founder Built An IVF Startup With ‘Outcome Protection’，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93563",
+      "title": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds",
+      "url": "https://news.crunchbase.com/robotics/embodied-ai-fuels-record-funding-china-ipo-momentum-builds/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Venture investment in China’s robotics sector has hit an all-time high this year, Crunchbase data shows, as several well-funded startups in the space make IPO debuts. Just through mid-May, China-based robotics companies this year have raised $5.6 billion across 176 deals, Crunchbase data shows. That sum matches total investment to the nation’s robotics companies in all of 2021, the peak of the funding cycle. Investment in the sector has also already eclipsed the $4.3 billion raised by China-based robotics companies in all of 2025. Startup funding in Asia overall surged to $27.4 billion in Q1, its highest level in over three years, with China capturing $16.5 billion — 60% — of that total, according to recent Crunchbase data. Robotics contributed meaningfully to that $16.5 billion total, with startups in the sector raising $3.3 billion across 126 deals. Embodied AI boom A review of Crunchbase data shows that investors now are no longer funding mostly pre-programmed hardware, but increasingly backing China-based startups working on embodied AI — or artificial intelligence with a physical body that interacts with the real world in real time. That shift toward artificial intelligence-driven robotics mirrors a global surge in investment into robotics and other physical AI startups. It’s also thanks to the rise of advanced, open-source reasoning models that have fundamentally changed how robots operate. Startups are moving away from coding robots line-by-line toward Vision-Language-Action models that allow physical machines to observe, reason and execute physical tasks end-to-end. In China, robotics startups at the intersection of the software and hardware integration are drawing the largest checks in the space and often back-to-back funding rounds. They include: TARS Robotics, a 1-year-old humanoid robotics company that integrates embodied intelligence that last month raised a massive $513 million seed round led by Hillhouse Capital and HSG. The Shanghai-based company was",
+      "published": "2026-05-20T11:00:50+00:00",
+      "published_dt": "2026-05-20T11:00:50+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$5.6 billion",
+          "$4.3 billion",
+          "$27.4 billion",
+          "$16.5 billion",
+          "$3.3 billion",
+          "$513 million",
+          "raised $5.6 billion"
+        ],
+        "technologies": [
+          "reasoning model"
+        ]
+      },
+      "summary_en": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
+      "title": "Google I/O, Gemini Spark, Antigravity",
+      "url": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "It's hard to find much to write about Google I/O this year because I have a policy of not writing about anything that I can't try out myself, and a lot of the big announcements are \"coming soon\". I actually prefer to write about things that are in general availability, because I've had instances in the past where the previews didn't match what was released to the general public later on. Aside from Gemini 3.5 Flash the most interesting announcement looks to be Google's upcoming OpenClaw competitor Gemini Spark, described as \"your personal AI agent\" which can \"connect natively with your favorite Google apps like Gmail, Calendar, Drive, Docs, Sheets, Slides, YouTube, and Google Maps\". The FAQ for that also includes this confusing detail: What Gemini model does Gemini Spark run on? Gemini Spark runs on Gemini 3.5 Flash and Antigravity. The antigravity.google website currently lists Antigravity as a desktop app, a CLI agent tool (written in Go), the Antigravity SDK (an open source Python wrapper around a bundled closed source Go binary), and the original Antigravity IDE (a VS Code fork). I guess Gemini Spark, the user-facing hosted agent product, might be running on that Go binary, but I'm not sure why that's worth mentioning in the FAQ! Naturally I went looking for notes on how Gemini Spark intends to handle the risk of prompt injection. The best information I could find on that was in the Everything Google Cloud customers need to know coming out of Google I/O post aimed at enterprise customers, which includes: Spark operates in a fully managed, secure runtime on Google Cloud, meaning you get enterprise-grade security without ever having to manage the underlying infrastructure. Every task executes in a fresh, strictly isolated, ephemeral VM to help ensure data never overlaps between sessions. To protect your enterprise, all traffic routes through our secure Agent Gateway that enforces Data Loss Prevention (DLP) policies, while user credentials remain fully encrypted an",
+      "published": "2026-05-20T15:32:17+00:00",
+      "published_dt": "2026-05-20T15:32:17+00:00",
+      "score": 9.8,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Google I/O, Gemini Spark, Antigravity (Simon Willison) highlights a notable AI development with score 9.8.",
+      "summary_zh": "Simon Willison 报道：Google I/O, Gemini Spark, Antigravity，综合评分 9.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124801",
+      "title": "Nvidia posts another record quarter, reveals $43B of holdings in startups",
+      "url": "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Nvidia announced another record revenue figure after market close on Wednesday, but forecasted that revenue growth would slow in the following quarter.",
+      "published": "2026-05-20T22:03:51+00:00",
+      "published_dt": "2026-05-20T22:03:51+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$43B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Nvidia posts another record quarter, reveals $43B of holdings in startups (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：Nvidia posts another record quarter, reveals $43B of holdings in startups，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124883",
+      "title": "Anthropic says it’s about to have its first profitable quarter",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter.",
+      "published": "2026-05-21T00:21:21+00:00",
+      "published_dt": "2026-05-21T00:21:21+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$10.9 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Anthropic says it’s about to have its first profitable quarter (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic says it’s about to have its first profitable quarter，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124895",
+      "title": "Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia",
+      "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The next big thing for Nvidia will be CPUs for AI agents, $200 billion worth, CEO Jensen Huang predicts.",
+      "published": "2026-05-21T00:28:31+00:00",
+      "published_dt": "2026-05-21T00:28:31+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$200B",
+          "$200 billion"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124868",
+      "title": "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over",
+      "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "SpaceX's IPO filing reveals xAI lost $6.4 billion in 2025 while planning a massive Grok expansion — offering the first public look at Elon Musk's AI financials and more details about his ambitions.",
+      "published": "2026-05-20T22:26:08+00:00",
+      "published_dt": "2026-05-20T22:26:08+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$6.4B",
+          "$6.4 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124841",
+      "title": "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more",
+      "url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Elon Musk's xAI said it will buy $2.8 billion worth of natural gas turbines over the next three years, according to SpaceX's IPO filing.",
+      "published": "2026-05-20T21:55:49+00:00",
+      "published_dt": "2026-05-20T21:55:49+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$2.8B",
+          "$2.8 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3123711",
+      "title": "NanoClaw creator turns down $20M buyout offer, raises $12M seed instead",
+      "url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "NanoClaw was created as a secure alternative to OpenClaw to assist the Cohen brothers with their AI marketing firm that used agents to do much of the work. But instead of running directly on a computer, NanoClaw runs sandboxed in a container.",
+      "published": "2026-05-20T14:00:00+00:00",
+      "published_dt": "2026-05-20T14:00:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$20M",
+          "$12M"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "NanoClaw creator turns down $20M buyout offer, raises $12M seed instead (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：NanoClaw creator turns down $20M buyout offer, raises $12M seed instead，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+      "title": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+      "url": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "The full keynote livestream was 2 hours, but as usual, The Verge has the best supercut down to 30 mins, which is very worthwhile to get a narrative sense:The mainline Gemini 3.5 Flash is GA today (very nice compared to some staged rollouts) and is sold as a decent step up even compared to 3.1 Pro, with 3.5 Pro coming next month. Perhaps more impressive were the Gemini Live (Voice) and Omni (Video) and Google Pics/Flow (Images/VFX/music) modalities, where Google demonstrated industry leading capabilities and latency, all presumably made possible by industry leading hardware and models. Per longstanding tradition at every bigtech keynote these days, Google also showed off some smart glasses tech, which seems a little more likely to be seen on the street than many prior iterations from both Google and their peers.AI News for 5/18/2026-5/19/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGoogle used I/O to reposition Gemini as both a consumer AI surface and a developer/agent platform, with three core technical announcements: Gemini 3.5 Flash for fast agentic/coding workloads, Gemini Omni for multimodal generation/editing starting with video, and a broader Antigravity agent stack spanning desktop/CLI/SDK/API. Official posts emphasized scale — Google says it now processes over 3.2 quadrillion tokens/month, up 7x YoY from 480T/month, while the Gemini app has 900M+ monthly users and is available in 230+ countries and 70+ languages (Google, Google, GeminiApp). The most technically substantive release was Gemini 3.5 Flash, framed by Google as its strongest agentic/coding model yet, GA immediately, with 1M-token context, 65k max output, 4 thinking levels (“minimal/low/medium/high”), and “thought preservation” across turns (GoogleDeepMind, Google, _philschmid). Google paired that with Gemini Omni, ",
+      "published": "2026-05-20T03:34:17+00:00",
+      "published_dt": "2026-05-20T03:34:17+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "multimodal"
+        ]
+      },
+      "summary_en": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0 (Latent Space) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Latent Space 报道：[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a0e308dd0686dea385909ab",
+      "title": "SpaceX Listed Grok’s ‘Spicy’ Mode as a Risk in Its IPO Filing",
+      "url": "https://www.wired.com/story/spacex-ipo-grok-spicy-mode-risks/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "The rocket company has set aside more than $500 million for potential litigation losses, in part to account for complaints alleging that Grok created sexualized images.",
+      "published": "2026-05-21T00:43:13+00:00",
+      "published_dt": "2026-05-21T00:43:13+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$500 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "SpaceX Listed Grok’s ‘Spicy’ Mode as a Risk in Its IPO Filing (Wired AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "Wired AI 报道：SpaceX Listed Grok’s ‘Spicy’ Mode as a Risk in Its IPO Filing，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a0e33e4a415ea27e75aa7ee",
+      "title": "SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its AI Data Centers",
+      "url": "https://www.wired.com/story/elon-musk-spacex-spending-gas-turbines-grok/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "The investment comes as Elon Musk’s AI unit faces complaints about the carbon-emitting units and looks to become a big player in cloud computing.",
+      "published": "2026-05-20T23:30:06+00:00",
+      "published_dt": "2026-05-20T23:30:06+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$2.8 Billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its AI Data Centers (Wired AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "Wired AI 报道：SpaceX Is Spending $2.8 Billion to Buy Gas Turbines for Its AI Data Centers，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
+      "title": "Quoting SpaceX S-1",
+      "url": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "We have the ability to use compute resources to support our proprietary AI applications (such as Grok 5, which is currently being trained at COLOSSUS II), while also providing access to select compute capacity to third-party customers. For example, in May 2026, we entered into Cloud Services Agreements with Anthropic PBC (“Anthropic”), an AI research and development public benefit corporation, with respect to access to compute capacity across COLOSSUS and COLOSSUS II. Pursuant to these agreements, the customer has agreed to pay us $1.25 billion per month through May 2029, with capacity ramping in May and June 2026 at a reduced fee. The agreements may be terminated by either party upon 90 days’ notice. — SpaceX S-1, highlights mine Tags: anthropic, grok, generative-ai, ai, llms",
+      "published": "2026-05-20T22:26:36+00:00",
+      "published_dt": "2026-05-20T22:26:36+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$1.25 billion"
+        ],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Quoting SpaceX S-1 (Simon Willison) highlights a notable AI development with score 7.1.",
+      "summary_zh": "Simon Willison 报道：Quoting SpaceX S-1，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124518",
+      "title": "OpenAI barrels toward IPO that may happen in September",
+      "url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "A day after Elon Musk lost his lawsuit that threatened OpenAI's structure, leadership, and finances, OpenAI is reportedly back to prepping for its IPO.",
+      "published": "2026-05-20T17:24:24+00:00",
+      "published_dt": "2026-05-20T17:24:24+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI barrels toward IPO that may happen in September (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI barrels toward IPO that may happen in September，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-21T02:55:41.364776+00:00",
+      "published_dt": "2026-05-21T02:55:41.364776+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-21T02:55:41.364776+00:00",
+      "published_dt": "2026-05-21T02:55:41.364776+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/",
+      "title": "Google publishes exploit code threatening millions of Chromium users",
+      "url": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Google on Wednesday published exploit code for an unfixed vulnerability in its Chromium browser codebase that threatens millions of people using Chrome, Microsoft Edge, and virtually all other Chromium-based browsers. The proof-of-concept code exploits the Browser Fetch programming interface, a standard that allows long videos and other large files to be downloaded in the background. An attacker can use the exploit to create a connection for monitoring some aspects of a user’s browser usage and as a proxy for viewing sites and launching denial-of-service attacks. Depending on the browser, the connections either reopen or remain open even after it or the device running it has rebooted. Unfixed for 29 months (and counting) The unfixed vulnerability can be exploited by any website a user visits. In effect, a compromise amounts to a limited backdoor that makes a device part of a limited botnet. The capabilities are limited to the same things a browser can do, such as visit malicious sites, provide anonymous proxy browsing by others, enable proxied DDoS attacks, and monitor user activity. Nonetheless, the exploit could allow an attacker to wrangle thousands, possibly millions, of devices into a network. Once a separate vulnerability becomes available, the attacker could use it to then compromise all those devices.Read full article Comments",
+      "published": "2026-05-20T19:10:36+00:00",
+      "published_dt": "2026-05-20T19:10:36+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google publishes exploit code threatening millions of Chromium users (Ars Technica) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Ars Technica 报道：Google publishes exploit code threatening millions of Chromium users，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=933687",
+      "title": "The biggest data center ever is becoming a huge problem in Utah",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/933687/utah-stratos-project-data-center-kevin-oleary",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Utah may host one of the world's most colossal data centers, despite stark warnings from experts and fierce public backlash. Earlier this month, commissioners in Box Elder County signed off on the Stratos Project: a 40,000-acre data center stretching across the county's Hansel Valley. It's supposed to establish American AI dominance, but potentially at the expense of environmental damage and a strain on already overtaxed water supplies. The Stratos Project, backed by Shark Tank investor and venture capitalist Kevin O'Leary, is projected to be more than twice the size of Manhattan and consume 9GW of power - almost double the state's peak ele … Read the full story at The Verge.",
+      "published": "2026-05-20T13:00:00+00:00",
+      "published_dt": "2026-05-20T13:00:00+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The biggest data center ever is becoming a huge problem in Utah (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：The biggest data center ever is becoming a huge problem in Utah，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3123921",
+      "title": "Startup Battlefield 200 applications close in 1 week: Window to nominate and apply for the most promising startups closes May 27",
+      "url": "https://techcrunch.com/2026/05/20/startup-battlefield-200-applications-close-in-1-week-window-to-nominate-and-apply-for-the-most-promising-startups-closes-may-27/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Startup Battlefield 200 applications close May 27. Pitch at TechCrunch Disrupt, get investor access, win $100K, plus more scaling perks. Nominate an early-stage founder or submit your startup today.",
+      "published": "2026-05-20T14:00:00+00:00",
+      "published_dt": "2026-05-20T14:00:00+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Startup Battlefield 200 applications close in 1 week: Window to nominate and apply for the most promising startups closes May 27 (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：Startup Battlefield 200 applications close in 1 week: Window to nominate and apply for the most promising startups closes May 27，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124805",
+      "title": "Anthropic will pay xAI $1.25B per month for compute",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Elon Musk's xAI surprised the AI world when it made a deal to sell compute to Anthropic. Now we know how much it's worth.",
+      "published": "2026-05-20T21:29:22+00:00",
+      "published_dt": "2026-05-20T21:29:22+00:00",
+      "score": 6.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$1.25B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Anthropic will pay xAI $1.25B per month for compute (TechCrunch AI) highlights a notable AI development with score 6.5.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic will pay xAI $1.25B per month for compute，综合评分 6.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48206640",
+      "title": "Anna's Archive hit with $19.5M default judgment and global domain takedown order",
+      "url": "https://torrentfreak.com/annas-archive-hit-with-19-5m-default-judgment-and-global-domain-takedown-order/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-20T12:30:58+00:00",
+      "published_dt": "2026-05-20T12:30:58+00:00",
+      "hn_score": 249,
+      "score": 6.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$19.5M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Anna's Archive hit with $19.5M default judgment and global domain takedown order (Hacker News) highlights a notable AI development with score 6.5.",
+      "summary_zh": "Hacker News 报道：Anna's Archive hit with $19.5M default judgment and global domain takedown order，综合评分 6.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124395",
+      "title": "Stability AI releases a new audio model that can create 6-minute songs",
+      "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks.",
+      "published": "2026-05-20T15:00:00+00:00",
+      "published_dt": "2026-05-20T15:00:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Stability AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Stability AI releases a new audio model that can create 6-minute songs (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Stability AI releases a new audio model that can create 6-minute songs，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+      "title": "We’re announcing new community investments in Missouri.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "content": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+      "published": "2026-05-20T20:40:00+00:00",
+      "published_dt": "2026-05-20T20:40:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "We’re announcing new community investments in Missouri. (Google AI Blog) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Google AI Blog 报道：We’re announcing new community investments in Missouri.，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=934704",
+      "title": "You can now remix other people’s YouTube Shorts with AI",
+      "url": "https://www.theverge.com/tech/934704/google-gemini-omni-youtub-shorts-remix-ai",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Google announced a new YouTube Shorts Remix feature that lets users restyle clips or even insert themselves into other people's videos using Gemini Omni. Now, at the bottom of a YouTube Short, when you click the remix icon, you'll see an option to \"reimagine\" it. Here, you can prompt Gemini to turn a video into pixel art, an anime, or a found-footage horror film. But, beyond that, you can also alter the contents by, say, inflating heads, inserting background actors, dressing people in pirate costumes, or even putting yourself in the clip. Creators can enable or disable the ability to reimagine videos. So, if you upload a short of your kids … Read the full story at The Verge.",
+      "published": "2026-05-20T16:41:40+00:00",
+      "published_dt": "2026-05-20T16:41:40+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "You can now remix other people’s YouTube Shorts with AI (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：You can now remix other people’s YouTube Shorts with AI，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=934478",
+      "title": "If Google can’t make AI agents useful, maybe no one can",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/934478/if-google-cant-make-ai-agents-useful-maybe-no-one-can",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "For years, tech companies have promised AI will give everyone a capable personal assistant but delivered something more like a clueless intern. Over the past six months, that has started to change, thanks largely to the viral open-source AI agent platform OpenClaw. And among the top AI labs now chasing similar success, one seems particularly well-poised to make agents succeed at a large scale: Google. At I/O 2026, Google announced new AI agents for gathering information, planning events, summarizing your inbox and calendar, and more. The agents can run continuously in the background, and the company claims they'll seamlessly integrate into … Read the full story at The Verge.",
+      "published": "2026-05-20T13:24:22+00:00",
+      "published_dt": "2026-05-20T13:24:22+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "If Google can’t make AI agents useful, maybe no one can (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：If Google can’t make AI agents useful, maybe no one can，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48212493",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-20T19:05:30+00:00",
+      "published_dt": "2026-05-20T19:05:30+00:00",
+      "hn_score": 793,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "An OpenAI model has disproved a central conjecture in discrete geometry (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：An OpenAI model has disproved a central conjecture in discrete geometry，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48208502",
+      "title": "Tennessee man jailed 37 days for Trump meme wins settlement after lawsuit",
+      "url": "https://www.fire.org/news/victory-tennessee-man-jailed-37-days-trump-meme-wins-835000-settlement-after-first-amendment",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-20T14:30:47+00:00",
+      "published_dt": "2026-05-20T14:30:47+00:00",
+      "hn_score": 676,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Tennessee man jailed 37 days for Trump meme wins settlement after lawsuit (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Tennessee man jailed 37 days for Trump meme wins settlement after lawsuit，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3122283",
+      "title": "IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy you never knew you needed",
+      "url": "https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Initially billed as an \"AI butler,\" Iris watches what happens on a user's desktop and automatically learns how to do tasks for them, its co-founder says.",
+      "published": "2026-05-20T19:47:20+00:00",
+      "published_dt": "2026-05-20T19:47:20+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy you never knew you needed (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy you never knew you needed，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124449",
+      "title": "AI search startups are blowing up",
+      "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "AI search has quietly become one of the most attractive targets in consumer AI.",
+      "published": "2026-05-20T15:04:45+00:00",
+      "published_dt": "2026-05-20T15:04:45+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI search startups are blowing up (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：AI search startups are blowing up，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "title": "100 things we announced at I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "content": "This year at Google I/O 2026, we announced Gemini Omni, Google Antigravity, Universal Cart and so much more. Here are the highlights.",
+      "published": "2026-05-20T19:30:00+00:00",
+      "published_dt": "2026-05-20T19:30:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "100 things we announced at I/O 2026 (Google AI Blog) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Google AI Blog 报道：100 things we announced at I/O 2026，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=934521",
+      "title": "It&#8217;s make or break time for AI labeling systems",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/934521/google-synthid-c2pa-content-credentials-ai-labelling-efforts",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "If robust AI labeling was in place when these swagged out images of Pope Francis went viral, it may have been easier for people to tell they were fake. | Image: via Reddit We're about to find out if the systems designed to make deepfakes and AI-generated content easy to spot are actually up to snuff. SynthID and C2PA Content Credentials, two distinct technologies for invisibly tagging image, video, and audio files with information about their origins, are getting their biggest expansion to date, and with it, the opportunity to turn the tide against unlabeled AI fakery that's deceiving people online. Yesterday during its I/O conference, Google announced that the ability to verify whether images carry SynthID markers - the invisible watermarking system that's applied to content generated by Google AI models - i … Read the full story at The Verge.",
+      "published": "2026-05-20T14:12:54+00:00",
+      "published_dt": "2026-05-20T14:12:54+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "It&#8217;s make or break time for AI labeling systems (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：It&#8217;s make or break time for AI labeling systems，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124770",
+      "title": "OpenAI claims it solved an 80-year-old math problem — for real this time",
+      "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI claims its reasoning model disproved a geometry conjecture unsolved since 1946 — and this time, the mathematicians who exposed its last embarrassing claim are backing it up.",
+      "published": "2026-05-20T20:28:27+00:00",
+      "published_dt": "2026-05-20T20:28:27+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "reasoning model"
+        ]
+      },
+      "summary_en": "OpenAI claims it solved an 80-year-old math problem — for real this time (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI claims it solved an 80-year-old math problem — for real this time，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3124082",
+      "title": "Figma adds an AI assistant to its collaborative canvas",
+      "url": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Figma says users can employ natural language text prompts to direct its new AI agent to generate new designs, edit existing ones, or automate tasks such as generating iterations of existing designs.",
+      "published": "2026-05-20T13:00:00+00:00",
+      "published_dt": "2026-05-20T13:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Figma adds an AI assistant to its collaborative canvas (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Figma adds an AI assistant to its collaborative canvas，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48206241",
+      "title": "College students drown out AI-praising commencement speeches with boos",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/college-students-drown-out-ai-praising-commencement-speeches-with-boos-deal-with-it-one-speaker-fires-back-as-students-heckle-positive-pitches-for-ais-role",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-20T11:51:32+00:00",
+      "published_dt": "2026-05-20T11:51:32+00:00",
+      "hn_score": 357,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "College students drown out AI-praising commencement speeches with boos (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：College students drown out AI-praising commencement speeches with boos，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48205782",
+      "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
+      "url": "https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-20T10:57:09+00:00",
+      "published_dt": "2026-05-20T10:57:09+00:00",
+      "hn_score": 262,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google's AI is being manipulated. The search giant is quietly fighting back (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Google's AI is being manipulated. The search giant is quietly fighting back，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
