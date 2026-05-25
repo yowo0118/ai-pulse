@@ -1,0 +1,771 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T03:28:34",
+  "stats": {
+    "total_items": 12,
+    "high_importance": 0,
+    "medium_importance": 12,
+    "categories_covered": 4
+  },
+  "top_stories": [],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 0,
+      "items": []
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=935545",
+          "title": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+          "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI mischief, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Hacking the first generation of AI chatbots was a laughably simple affair. You didn't need any technical know-how, backdoor access, or even a basic understanding of what a large language model was. You didn't need to code. To get an AI system that had cost billions to build to abandon its safety instructions, sometimes all you had to do was ask. These attacks, known as jailbreaks, had the quality … Read the full story at The Verge.",
+          "published": "2026-05-24T12:00:00+00:00",
+          "published_dt": "2026-05-24T12:00:00+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "Hackers are learning to exploit chatbot &#8216;personalities&#8217; (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：Hackers are learning to exploit chatbot &#8216;personalities&#8217;，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+          "title": "datasette-agent 0.1a4",
+          "url": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette-agent 0.1a4 Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30, datasette-agent now presents this \"Start a new agent chat\" interface as part of the Jump to menu, any time you hit /: You can try this out by signing into agent.datasette.io using your GitHub account. Tags: datasette, datasette-agent",
+          "published": "2026-05-24T23:19:34+00:00",
+          "published_dt": "2026-05-24T23:19:34+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "datasette-agent 0.1a4 (Simon Willison) highlights a notable AI development with score 6.6.",
+          "summary_zh": "Simon Willison 报道：datasette-agent 0.1a4，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+          "title": "datasette-fixtures 0.1a0",
+          "url": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette-fixtures 0.1a0 One of the smaller features in Datasette 1.0a30 is this: New documented datasette.fixtures.populate_fixture_database(conn) helper for creating the fixture database tables used by Datasette's own tests, intended for plugin test suites. This new plugin takes advantage of that API. You can try it out using uvx without even installing Datasette like this: uvx --prerelease=allow \\ --with datasette-fixtures datasette \\ --get /fixtures/roadside_attractions.json Which outputs: { \"ok\": true, \"next\": null, \"rows\": [ {\"pk\": 1, \"name\": \"The Mystery Spot\", \"address\": \"465 Mystery Spot Road, Santa Cruz, CA 95065\", \"url\": \"https://www.mysteryspot.com/\", \"latitude\": 37.0167, \"longitude\": -122.0024}, {\"pk\": 2, \"name\": \"Winchester Mystery House\", \"address\": \"525 South Winchester Boulevard, San Jose, CA 95128\", \"url\": \"https://winchestermysteryhouse.com/\", \"latitude\": 37.3184, \"longitude\": -121.9511}, {\"pk\": 3, \"name\": \"Burlingame Museum of PEZ Memorabilia\", \"address\": \"214 California Drive, Burlingame, CA 94010\", \"url\": null, \"latitude\": 37.5793, \"longitude\": -122.3442}, {\"pk\": 4, \"name\": \"Bigfoot Discovery Museum\", \"address\": \"5497 Highway 9, Felton, CA 95018\", \"url\": \"https://www.bigfootdiscoveryproject.com/\", \"latitude\": 37.0414, \"longitude\": -122.0725} ], \"truncated\": false } Tags: datasette, uv",
+          "published": "2026-05-24T21:38:32+00:00",
+          "published_dt": "2026-05-24T21:38:32+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "datasette-fixtures 0.1a0 (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：datasette-fixtures 0.1a0，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+          "title": "datasette 1.0a30",
+          "url": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog. You can try it out by hitting / on latest.datasette.io - it looks like this: The new jump_items_sql() plugin hook allows plugins to add their own items to the set that's searched by the plugin. Tags: projects, datasette, annotated-release-notes",
+          "published": "2026-05-24T23:52:37+00:00",
+          "published_dt": "2026-05-24T23:52:37+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "datasette 1.0a30 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：datasette 1.0a30，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+          "title": "Quoting Armin Ronacher",
+          "url": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter. [...] So at least personally, I increasingly want issue reports to be condensed to what the human actually observed: I ran this command. I expected this to happen. This happened instead. Here is the exact error or log. — Armin Ronacher, on slop issues filed against Pi Tags: ai, github-issues, llms, ai-ethics, open-source, coding-agents, generative-ai, armin-ronacher, pi, slop",
+          "published": "2026-05-24T18:46:53+00:00",
+          "published_dt": "2026-05-24T18:46:53+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "Quoting Armin Ronacher (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：Quoting Armin Ronacher，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3125822",
+          "title": "Everyone is navigating AI security in real time — even Google",
+          "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "We're in the transition period -- all of us.",
+          "published": "2026-05-24T21:39:21+00:00",
+          "published_dt": "2026-05-24T21:39:21+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Everyone is navigating AI security in real time — even Google (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Everyone is navigating AI security in real time — even Google，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48259784",
+          "title": "Claude is not your architect. Stop letting it pretend",
+          "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-24T18:28:11+00:00",
+          "published_dt": "2026-05-24T18:28:11+00:00",
+          "hn_score": 233,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Claude is not your architect. Stop letting it pretend (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Claude is not your architect. Stop letting it pretend，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48258684",
+          "title": "Memory has grown to nearly two-thirds of AI chip component costs",
+          "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-24T16:31:29+00:00",
+          "published_dt": "2026-05-24T16:31:29+00:00",
+          "hn_score": 323,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Memory has grown to nearly two-thirds of AI chip component costs (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Memory has grown to nearly two-thirds of AI chip component costs，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3122419",
+          "title": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
+          "url": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Like other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety.",
+          "published": "2026-05-24T15:00:00+00:00",
+          "published_dt": "2026-05-24T15:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48256953",
+          "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+          "url": "https://esengine.github.io/DeepSeek-Reasonix/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Related ongoing thread:DeepSeek makes the V4 Pro price discount permanent - https://news.ycombinator.com/item?id=48237663 - May 2026 (384 comments)",
+          "published": "2026-05-24T13:02:06+00:00",
+          "published_dt": "2026-05-24T13:02:06+00:00",
+          "hn_score": 465,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-25T03:28:31.952642+00:00",
+          "published_dt": "2026-05-25T03:28:31.952642+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-25T03:28:31.952642+00:00",
+          "published_dt": "2026-05-25T03:28:31.952642+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-25T03:28:31.952642+00:00",
+      "published_dt": "2026-05-25T03:28:31.952642+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-25T03:28:31.952642+00:00",
+      "published_dt": "2026-05-25T03:28:31.952642+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+      "title": "datasette-agent 0.1a4",
+      "url": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette-agent 0.1a4 Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30, datasette-agent now presents this \"Start a new agent chat\" interface as part of the Jump to menu, any time you hit /: You can try this out by signing into agent.datasette.io using your GitHub account. Tags: datasette, datasette-agent",
+      "published": "2026-05-24T23:19:34+00:00",
+      "published_dt": "2026-05-24T23:19:34+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "datasette-agent 0.1a4 (Simon Willison) highlights a notable AI development with score 6.6.",
+      "summary_zh": "Simon Willison 报道：datasette-agent 0.1a4，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+      "title": "datasette-fixtures 0.1a0",
+      "url": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette-fixtures 0.1a0 One of the smaller features in Datasette 1.0a30 is this: New documented datasette.fixtures.populate_fixture_database(conn) helper for creating the fixture database tables used by Datasette's own tests, intended for plugin test suites. This new plugin takes advantage of that API. You can try it out using uvx without even installing Datasette like this: uvx --prerelease=allow \\ --with datasette-fixtures datasette \\ --get /fixtures/roadside_attractions.json Which outputs: { \"ok\": true, \"next\": null, \"rows\": [ {\"pk\": 1, \"name\": \"The Mystery Spot\", \"address\": \"465 Mystery Spot Road, Santa Cruz, CA 95065\", \"url\": \"https://www.mysteryspot.com/\", \"latitude\": 37.0167, \"longitude\": -122.0024}, {\"pk\": 2, \"name\": \"Winchester Mystery House\", \"address\": \"525 South Winchester Boulevard, San Jose, CA 95128\", \"url\": \"https://winchestermysteryhouse.com/\", \"latitude\": 37.3184, \"longitude\": -121.9511}, {\"pk\": 3, \"name\": \"Burlingame Museum of PEZ Memorabilia\", \"address\": \"214 California Drive, Burlingame, CA 94010\", \"url\": null, \"latitude\": 37.5793, \"longitude\": -122.3442}, {\"pk\": 4, \"name\": \"Bigfoot Discovery Museum\", \"address\": \"5497 Highway 9, Felton, CA 95018\", \"url\": \"https://www.bigfootdiscoveryproject.com/\", \"latitude\": 37.0414, \"longitude\": -122.0725} ], \"truncated\": false } Tags: datasette, uv",
+      "published": "2026-05-24T21:38:32+00:00",
+      "published_dt": "2026-05-24T21:38:32+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "datasette-fixtures 0.1a0 (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：datasette-fixtures 0.1a0，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter. [...] So at least personally, I increasingly want issue reports to be condensed to what the human actually observed: I ran this command. I expected this to happen. This happened instead. Here is the exact error or log. — Armin Ronacher, on slop issues filed against Pi Tags: ai, github-issues, llms, ai-ethics, open-source, coding-agents, generative-ai, armin-ronacher, pi, slop",
+      "published": "2026-05-24T18:46:53+00:00",
+      "published_dt": "2026-05-24T18:46:53+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "Quoting Armin Ronacher (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：Quoting Armin Ronacher，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=935545",
+      "title": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+      "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI mischief, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Hacking the first generation of AI chatbots was a laughably simple affair. You didn't need any technical know-how, backdoor access, or even a basic understanding of what a large language model was. You didn't need to code. To get an AI system that had cost billions to build to abandon its safety instructions, sometimes all you had to do was ask. These attacks, known as jailbreaks, had the quality … Read the full story at The Verge.",
+      "published": "2026-05-24T12:00:00+00:00",
+      "published_dt": "2026-05-24T12:00:00+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "Hackers are learning to exploit chatbot &#8216;personalities&#8217; (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：Hackers are learning to exploit chatbot &#8216;personalities&#8217;，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+      "title": "datasette 1.0a30",
+      "url": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog. You can try it out by hitting / on latest.datasette.io - it looks like this: The new jump_items_sql() plugin hook allows plugins to add their own items to the set that's searched by the plugin. Tags: projects, datasette, annotated-release-notes",
+      "published": "2026-05-24T23:52:37+00:00",
+      "published_dt": "2026-05-24T23:52:37+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "datasette 1.0a30 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：datasette 1.0a30，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3125822",
+      "title": "Everyone is navigating AI security in real time — even Google",
+      "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "We're in the transition period -- all of us.",
+      "published": "2026-05-24T21:39:21+00:00",
+      "published_dt": "2026-05-24T21:39:21+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Everyone is navigating AI security in real time — even Google (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Everyone is navigating AI security in real time — even Google，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48259784",
+      "title": "Claude is not your architect. Stop letting it pretend",
+      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-24T18:28:11+00:00",
+      "published_dt": "2026-05-24T18:28:11+00:00",
+      "hn_score": 233,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Claude is not your architect. Stop letting it pretend (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Claude is not your architect. Stop letting it pretend，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48258684",
+      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-24T16:31:29+00:00",
+      "published_dt": "2026-05-24T16:31:29+00:00",
+      "hn_score": 323,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Memory has grown to nearly two-thirds of AI chip component costs (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Memory has grown to nearly two-thirds of AI chip component costs，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3122419",
+      "title": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
+      "url": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Like other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety.",
+      "published": "2026-05-24T15:00:00+00:00",
+      "published_dt": "2026-05-24T15:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48256953",
+      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Related ongoing thread:DeepSeek makes the V4 Pro price discount permanent - https://news.ycombinator.com/item?id=48237663 - May 2026 (384 comments)",
+      "published": "2026-05-24T13:02:06+00:00",
+      "published_dt": "2026-05-24T13:02:06+00:00",
+      "hn_score": 465,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
