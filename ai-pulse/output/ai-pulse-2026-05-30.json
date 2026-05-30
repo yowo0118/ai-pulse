@@ -1,0 +1,1917 @@
+{
+  "date": "2026-05-30",
+  "generated_at": "2026-05-30T02:44:50",
+  "stats": {
+    "total_items": 28,
+    "high_importance": 6,
+    "medium_importance": 22,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+      "title": "[AINews] Founders and Forward Deployed Engineers",
+      "url": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Most people are still digesting the massive Anthropic news from yesterday. We’re taking the opportunity to solicit the leading AI FDE’s in the world for AIE’s new Forward Deployed Engineer track, mirroring similar pushes from both OpenAI DeployCo and Anthropic DeployCo:as well as AIE’s new Founders program, where we are doing our version of the Startup Battlefield, a competitive pitch contest anchored by YCombinator’s Garry Tan and Howie Lu’s $10 Million dollar Hyperagent contest. Sign up (and book hotel!) for details today if you are keen.AI News for 5/28/2026-5/29/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapClaude Opus 4.8 Rollout, Benchmark Friction, and API ErgonomicsOpus 4.8 landed into a noisy, mixed eval landscape: multiple independent benches converged on “incremental but not dominant.” @arena pushed 200+ frontend/code tests comparing Opus 4.8 against prior Opus variants, Gemini, and GLM; @theo reported CursorBench shows it as more efficient but slightly worse than 4.7 within margin of error; @jerryjliu0 and @llama_index found small gains on tables/layout but regressions on content faithfulness/charts in document parsing; @scaling01 said no progress on ALE-Bench and separately flagged interesting failure modes on LisanBench. On the positive side, @jeremyphoward found 4.8 less over-agentic and more cooperative than 4.7/GPT-5.5 in coding, while @leo_linsky called it a tangible product improvement over prior Anthropic releases.Anthropic also shipped useful platform-level changes: @ClaudeDevs announced mid-conversation system instructions without breaking prompt cache, plus authoritative mid-conversation system-role updates, which matters for long-running agent sessions and cost control. But pricing remains a major complaint: @jeremyphoward argued Anthropic has done little for A",
+      "published": "2026-05-30T01:57:15+00:00",
+      "published_dt": "2026-05-30T01:57:15+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$10 Million"
+        ],
+        "technologies": [
+          "RAG",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] Founders and Forward Deployed Engineers (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Founders and Forward Deployed Engineers，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93627",
+      "title": "The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds",
+      "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Want to keep track of the largest startup funding deals in 2026 with our curated list of $100 million-plus venture deals to U.S.-based companies? Check out The Crunchbase Megadeals Board. This is a weekly feature that runs down the week’s top 10 announced funding rounds in the U.S. Check out last week’s biggest funding deal roundup here. Venture funding has always been a world of haves and have nots. And these days, the haves are having more than ever. Case in point this week was Anthropic. The 5-year-old generative AI giant secured $65 billion in Series H funding this week, pushing its post-money valuation to a mind-blowing $965 billion. After that, the next-biggest financing was a $1 billion round for AI software development tool maker Cognition, lifting its valuation to $26 billion. Companies in a range of other sectors also managed to secure sizable though smaller rounds, in areas including commerce logistics, developer AI, insurtech, fusion and more. 1. Anthropic, $65B, foundational AI: Generative AI company Anthropic raised $65 billion in a Series H funding round, more than doubling its post-money valuation to a staggering $965 billion. San Francisco-based Anthropic said Altimeter Capital, Dragoneer, Greenoaks and Sequoia Capital led the financing, and that Capital Group, Coatue, D1 Capital Partners, GIC, Iconiq Capital and XN co-led the investment. 2. Cognition, $1B, AI software development: Cognition, developer of AI software engineer Devin, has closed on over $1 billion at a $26 billion valuation. Lux Capital, General Catalyst, and 8VC 1 led the financing for the San Francisco-based company. 3. Stord, $250M, logistics: Atlanta-based Stord, developer of a fulfillment network, software and AI tools for independent brands, secured $250 million in Series F funding. The round set a $3 billion valuation for the 11-year-old company. 4. OpenRouter, $113M, AI for developers: OpenRouter, a marketplace for AI models, secured $113 million in Series B funding. CapitalG ",
+      "published": "2026-05-29T19:15:09+00:00",
+      "published_dt": "2026-05-29T19:15:09+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Sequoia"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$100 million",
+          "$65 billion",
+          "$965 billion",
+          "$1 billion",
+          "$26 billion",
+          "$65B",
+          "$1B",
+          "$250M",
+          "$250 million",
+          "$3 billion"
+        ],
+        "technologies": [
+          "LLM",
+          "RAG"
+        ]
+      },
+      "summary_en": "The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93619",
+      "title": "They Saw Women Shut Out Of VC, So A PayPal Veteran And Former Navy Officer Built An Alternative",
+      "url": "https://news.crunchbase.com/diversity/venture-women-owned-startup-funding-aequitas-invest/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Women-led startups consistently receive less than 2% of U.S. venture capital, per Crunchbase data. That’s despite delivering 2.5x better returns than male-founded startups, research shows. Although the number of women-owned businesses keeps growing, startups led by women continue to fall behind their male counterparts when it comes to raising venture funding. Amie Konwinski and Molly Huyck, co-founders of Aequitas Invest. (Courtesy photo) That’s why former PayPal executive Molly Huyck teamed up with Amie Konwinski, a U.S. Navy veteran and marketing executive, to found Aequitas Invest, an SEC-registered, funding portal. The platform, also called AQi, gives women-led businesses — those that are at least 50% women-owned — a way to raise capital through Regulation Crowdfunding, a securities framework aimed at opening up startup investing. Launched in 2024, AQi seeks to help female entrepreneurs reach everyday investors by simplifying regulatory disclosures and business documentation. As a member of the Financial Industry Regulatory Authority, the platform has passed a rigorous federal vetting process and agrees to operate under strict oversight to protect investors and ensure transparency. Crunchbase News recently spoke with Huyck and Konwinski to hear more about what led them to start AQi, why they think women don’t need to give up board seats early on, and how they want to help female entrepreneurs raise and hold on to more equity. This interview has been edited for clarity and brevity. Crunchbase News: What is your platform’s mission and what led you to launch this company? Huyck: I spent 21 years at PayPal, where I mentored women through a partnership with the Cherie Blair Foundation. It was there I learned about the $5 trillion gap in global GDP resulting from women entrepreneurs lacking access to capital. In the U.S., while women start nearly half of all businesses, they receive only 2% of venture capital and less than 20% of small business loans. I wanted to buil",
+      "published": "2026-05-29T11:00:59+00:00",
+      "published_dt": "2026-05-29T11:00:59+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "They Saw Women Shut Out Of VC, So A PayPal Veteran And Former Navy Officer Built An Alternative (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：They Saw Women Shut Out Of VC, So A PayPal Veteran And Former Navy Officer Built An Alternative，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93612",
+      "title": "Navigating The DPI Crunch And Startup Funding",
+      "url": "https://news.crunchbase.com/venture/dpi-crunch-startup-funding-schroder-mgv/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Crunchbase reported that global venture deployment hit roughly $300 billion in Q1 2026, with $188 billion of that, about 65%, concentrated in four companies: OpenAI, Anthropic, xAI and Anduril Industries. AI’s share of venture funding climbed to 80% this quarter, up from 55% a year ago. The deployment is real. The liquidity question behind it is the one founders should be paying attention to. In 2025, Crunchbase counted roughly 2,300 venture-backed acquisitions against just 65 IPOs. In aggregate, the LPs sitting behind every venture fund have been in net-negative cash flow territory since 2022. Record deployment in Q1 doesn’t change the math at the LP level, and that pressure is reshaping every term sheet, follow-on decision and board conversation in venture right now. Know what’s actually driving the firm across the table When a partner walks you through their thesis, they’re telling you a story about your market; rarely are they telling you a story about their fund. That second story determines whether they can write your bridge in 18 months, whether they’ll fight for pro rata in your Series B, and whether their behavior in the next downturn looks like patience or anxiety. LPs are demanding cash back. Paper markups aren’t enough. Some firms are responding well, consolidating into their best companies and being deliberate about new commitments while others are pretending it’s still 2021. Founders should know which type they’re sitting across from before signing anything. Ask the questions founders rarely ask Three reference calls with portfolio CEOs used to be enough due diligence on a VC. Not anymore. Ask what vintage the partner’s current fund is and how much dry powder is left. Ask how many of their 2018 through 2020 companies have produced realized returns rather than paper markups. Ask whether their LPs have been pushing for GP-led secondaries. If the answer is yes, the firm is operating under a cash-flow constraint that will show up in your boardroom. These a",
+      "published": "2026-05-29T11:00:53+00:00",
+      "published_dt": "2026-05-29T11:00:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$300 billion",
+          "$188 billion",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Navigating The DPI Crunch And Startup Funding (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Navigating The DPI Crunch And Startup Funding，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3127716",
+      "title": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+      "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
+      "published": "2026-05-29T17:27:13+00:00",
+      "published_dt": "2026-05-29T17:27:13+00:00",
+      "score": 9.7,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$20B",
+          "$650M",
+          "$650 million"
+        ],
+        "technologies": [
+          "inference"
+        ]
+      },
+      "summary_en": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M (TechCrunch AI) highlights a notable AI development with score 9.7.",
+      "summary_zh": "TechCrunch AI 报道：After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M，综合评分 9.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=939765",
+          "title": "This AI startup will clean your home for free to train future robots",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "AI training startup Shift wants to clean your home for free. The catch - because, despite what its website says, there's always a catch - is that it will record cleaners as they scrub, vacuum, dust, tidy, and wash, and use that footage to train robots. Shift announced the unusual offer on social media on Thursday, explaining that the value of the training data generated from the cleanings is more than enough to fund the service. As its website puts it: \"You get a spotless apartment. We get training data. Everyone wins.\" A promotional video shows a cleaner in a crisp white uniform and awkward-looking hat (more on that later) washing windows … Read the full story at The Verge.",
+          "published": "2026-05-29T11:58:40+00:00",
+          "published_dt": "2026-05-29T11:58:40+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "This AI startup will clean your home for free to train future robots (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：This AI startup will clean your home for free to train future robots，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=940007",
+          "title": "Tech companies desperately want to film you doing chores",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "This week, an AI training startup called Shift said it would clean New Yorkers' homes for free. It has plans to expand into other cities as well, including London, and looking around my flat, I get the appeal. But there's a catch. There's always a catch. In exchange for the cleaning, Shift wants footage of its cleaners at work: scrubbing dishes, wiping counters, dusting tables, mopping floors. It wants everything. Video of all the boring domestic labor we'd happily outsource if we could - and that robotics companies are racing to teach machines to do so they can sell us something to do it for us. That's harder than it sounds. Unlike cha … Read the full story at The Verge.",
+          "published": "2026-05-29T17:37:43+00:00",
+          "published_dt": "2026-05-29T17:37:43+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Tech companies desperately want to film you doing chores (The Verge AI) highlights a notable AI development with score 6.4.",
+          "summary_zh": "The Verge AI 报道：Tech companies desperately want to film you doing chores，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3127904",
+          "title": "Coders are refusing to work without AI — and that could come back to bite them",
+          "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for them.",
+          "published": "2026-05-29T22:14:22+00:00",
+          "published_dt": "2026-05-29T22:14:22+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Coders are refusing to work without AI — and that could come back to bite them (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Coders are refusing to work without AI — and that could come back to bite them，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93627",
+          "title": "The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Want to keep track of the largest startup funding deals in 2026 with our curated list of $100 million-plus venture deals to U.S.-based companies? Check out The Crunchbase Megadeals Board. This is a weekly feature that runs down the week’s top 10 announced funding rounds in the U.S. Check out last week’s biggest funding deal roundup here. Venture funding has always been a world of haves and have nots. And these days, the haves are having more than ever. Case in point this week was Anthropic. The 5-year-old generative AI giant secured $65 billion in Series H funding this week, pushing its post-money valuation to a mind-blowing $965 billion. After that, the next-biggest financing was a $1 billion round for AI software development tool maker Cognition, lifting its valuation to $26 billion. Companies in a range of other sectors also managed to secure sizable though smaller rounds, in areas including commerce logistics, developer AI, insurtech, fusion and more. 1. Anthropic, $65B, foundational AI: Generative AI company Anthropic raised $65 billion in a Series H funding round, more than doubling its post-money valuation to a staggering $965 billion. San Francisco-based Anthropic said Altimeter Capital, Dragoneer, Greenoaks and Sequoia Capital led the financing, and that Capital Group, Coatue, D1 Capital Partners, GIC, Iconiq Capital and XN co-led the investment. 2. Cognition, $1B, AI software development: Cognition, developer of AI software engineer Devin, has closed on over $1 billion at a $26 billion valuation. Lux Capital, General Catalyst, and 8VC 1 led the financing for the San Francisco-based company. 3. Stord, $250M, logistics: Atlanta-based Stord, developer of a fulfillment network, software and AI tools for independent brands, secured $250 million in Series F funding. The round set a $3 billion valuation for the 11-year-old company. 4. OpenRouter, $113M, AI for developers: OpenRouter, a marketplace for AI models, secured $113 million in Series B funding. CapitalG ",
+          "published": "2026-05-29T19:15:09+00:00",
+          "published_dt": "2026-05-29T19:15:09+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Sequoia"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$100 million",
+              "$65 billion",
+              "$965 billion",
+              "$1 billion",
+              "$26 billion",
+              "$65B",
+              "$1B",
+              "$250M",
+              "$250 million",
+              "$3 billion"
+            ],
+            "technologies": [
+              "LLM",
+              "RAG"
+            ]
+          },
+          "summary_en": "The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93619",
+          "title": "They Saw Women Shut Out Of VC, So A PayPal Veteran And Former Navy Officer Built An Alternative",
+          "url": "https://news.crunchbase.com/diversity/venture-women-owned-startup-funding-aequitas-invest/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Women-led startups consistently receive less than 2% of U.S. venture capital, per Crunchbase data. That’s despite delivering 2.5x better returns than male-founded startups, research shows. Although the number of women-owned businesses keeps growing, startups led by women continue to fall behind their male counterparts when it comes to raising venture funding. Amie Konwinski and Molly Huyck, co-founders of Aequitas Invest. (Courtesy photo) That’s why former PayPal executive Molly Huyck teamed up with Amie Konwinski, a U.S. Navy veteran and marketing executive, to found Aequitas Invest, an SEC-registered, funding portal. The platform, also called AQi, gives women-led businesses — those that are at least 50% women-owned — a way to raise capital through Regulation Crowdfunding, a securities framework aimed at opening up startup investing. Launched in 2024, AQi seeks to help female entrepreneurs reach everyday investors by simplifying regulatory disclosures and business documentation. As a member of the Financial Industry Regulatory Authority, the platform has passed a rigorous federal vetting process and agrees to operate under strict oversight to protect investors and ensure transparency. Crunchbase News recently spoke with Huyck and Konwinski to hear more about what led them to start AQi, why they think women don’t need to give up board seats early on, and how they want to help female entrepreneurs raise and hold on to more equity. This interview has been edited for clarity and brevity. Crunchbase News: What is your platform’s mission and what led you to launch this company? Huyck: I spent 21 years at PayPal, where I mentored women through a partnership with the Cherie Blair Foundation. It was there I learned about the $5 trillion gap in global GDP resulting from women entrepreneurs lacking access to capital. In the U.S., while women start nearly half of all businesses, they receive only 2% of venture capital and less than 20% of small business loans. I wanted to buil",
+          "published": "2026-05-29T11:00:59+00:00",
+          "published_dt": "2026-05-29T11:00:59+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "They Saw Women Shut Out Of VC, So A PayPal Veteran And Former Navy Officer Built An Alternative (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：They Saw Women Shut Out Of VC, So A PayPal Veteran And Former Navy Officer Built An Alternative，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93612",
+          "title": "Navigating The DPI Crunch And Startup Funding",
+          "url": "https://news.crunchbase.com/venture/dpi-crunch-startup-funding-schroder-mgv/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Crunchbase reported that global venture deployment hit roughly $300 billion in Q1 2026, with $188 billion of that, about 65%, concentrated in four companies: OpenAI, Anthropic, xAI and Anduril Industries. AI’s share of venture funding climbed to 80% this quarter, up from 55% a year ago. The deployment is real. The liquidity question behind it is the one founders should be paying attention to. In 2025, Crunchbase counted roughly 2,300 venture-backed acquisitions against just 65 IPOs. In aggregate, the LPs sitting behind every venture fund have been in net-negative cash flow territory since 2022. Record deployment in Q1 doesn’t change the math at the LP level, and that pressure is reshaping every term sheet, follow-on decision and board conversation in venture right now. Know what’s actually driving the firm across the table When a partner walks you through their thesis, they’re telling you a story about your market; rarely are they telling you a story about their fund. That second story determines whether they can write your bridge in 18 months, whether they’ll fight for pro rata in your Series B, and whether their behavior in the next downturn looks like patience or anxiety. LPs are demanding cash back. Paper markups aren’t enough. Some firms are responding well, consolidating into their best companies and being deliberate about new commitments while others are pretending it’s still 2021. Founders should know which type they’re sitting across from before signing anything. Ask the questions founders rarely ask Three reference calls with portfolio CEOs used to be enough due diligence on a VC. Not anymore. Ask what vintage the partner’s current fund is and how much dry powder is left. Ask how many of their 2018 through 2020 companies have produced realized returns rather than paper markups. Ask whether their LPs have been pushing for GP-led secondaries. If the answer is yes, the firm is operating under a cash-flow constraint that will show up in your boardroom. These a",
+          "published": "2026-05-29T11:00:53+00:00",
+          "published_dt": "2026-05-29T11:00:53+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$300 billion",
+              "$188 billion",
+              "Series B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Navigating The DPI Crunch And Startup Funding (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Navigating The DPI Crunch And Startup Funding，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3127716",
+          "title": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+          "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
+          "published": "2026-05-29T17:27:13+00:00",
+          "published_dt": "2026-05-29T17:27:13+00:00",
+          "score": 9.7,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$20B",
+              "$650M",
+              "$650 million"
+            ],
+            "technologies": [
+              "inference"
+            ]
+          },
+          "summary_en": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M (TechCrunch AI) highlights a notable AI development with score 9.7.",
+          "summary_zh": "TechCrunch AI 报道：After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M，综合评分 9.7，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3127051",
+          "title": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory",
+          "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "South Korean chip startup XCENA is betting that AI's real bottleneck is not compute, but memory.",
+          "published": "2026-05-29T12:00:00+00:00",
+          "published_dt": "2026-05-29T12:00:00+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$135M",
+              "raised $135M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/security/2026/05/botnet-of-more-than-17-million-devices-dismantled/",
+          "title": "Botnet of more than 17 million devices dismantled",
+          "url": "https://arstechnica.com/security/2026/05/botnet-of-more-than-17-million-devices-dismantled/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Authorities in the Netherlands said they dismantled a botnet that comprised more than 17 million devices and were managed by 200 servers in a joint operation by the police and the National Cyber Security Center. The action, announced Thursday, came about after a security researcher reported the sprawling network to authorities. The host infrastructure was located in the Netherlands. Used for criminal purposes “The police then seized several botnet servers from a hosting provider for investigation,” the NCSC said. “The botnet was taken offline by the provider because it was used for criminal purposes.”Read full article Comments",
+          "published": "2026-05-29T18:46:33+00:00",
+          "published_dt": "2026-05-29T18:46:33+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Botnet of more than 17 million devices dismantled (Ars Technica) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Ars Technica 报道：Botnet of more than 17 million devices dismantled，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+          "title": "Strengthening societal resilience with Rosalind Biodefense",
+          "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+          "published": "2026-05-29T03:00:00+00:00",
+          "published_dt": "2026-05-29T03:00:00+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Strengthening societal resilience with Rosalind Biodefense (OpenAI Blog) highlights a notable AI development with score 7.3.",
+          "summary_zh": "OpenAI Blog 报道：Strengthening societal resilience with Rosalind Biodefense，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+          "title": "[AINews] Founders and Forward Deployed Engineers",
+          "url": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Most people are still digesting the massive Anthropic news from yesterday. We’re taking the opportunity to solicit the leading AI FDE’s in the world for AIE’s new Forward Deployed Engineer track, mirroring similar pushes from both OpenAI DeployCo and Anthropic DeployCo:as well as AIE’s new Founders program, where we are doing our version of the Startup Battlefield, a competitive pitch contest anchored by YCombinator’s Garry Tan and Howie Lu’s $10 Million dollar Hyperagent contest. Sign up (and book hotel!) for details today if you are keen.AI News for 5/28/2026-5/29/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapClaude Opus 4.8 Rollout, Benchmark Friction, and API ErgonomicsOpus 4.8 landed into a noisy, mixed eval landscape: multiple independent benches converged on “incremental but not dominant.” @arena pushed 200+ frontend/code tests comparing Opus 4.8 against prior Opus variants, Gemini, and GLM; @theo reported CursorBench shows it as more efficient but slightly worse than 4.7 within margin of error; @jerryjliu0 and @llama_index found small gains on tables/layout but regressions on content faithfulness/charts in document parsing; @scaling01 said no progress on ALE-Bench and separately flagged interesting failure modes on LisanBench. On the positive side, @jeremyphoward found 4.8 less over-agentic and more cooperative than 4.7/GPT-5.5 in coding, while @leo_linsky called it a tangible product improvement over prior Anthropic releases.Anthropic also shipped useful platform-level changes: @ClaudeDevs announced mid-conversation system instructions without breaking prompt cache, plus authoritative mid-conversation system-role updates, which matters for long-running agent sessions and cost control. But pricing remains a major complaint: @jeremyphoward argued Anthropic has done little for A",
+          "published": "2026-05-30T01:57:15+00:00",
+          "published_dt": "2026-05-30T01:57:15+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$10 Million"
+            ],
+            "technologies": [
+              "RAG",
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "[AINews] Founders and Forward Deployed Engineers (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] Founders and Forward Deployed Engineers，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/29/datasette/#atom-everything",
+          "title": "datasette 1.0a31",
+          "url": "https://simonwillison.net/2026/May/29/datasette/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette 1.0a31 Another significant alpha release, with two new headline features. Datasette now offers users with the necessary permissions the ability to both execute write queries against their database and to save stored queries (renamed from \"canned queries\") both privately and for use by other members of their Datasette instance. There's more detail in SQL write queries and stored queries in Datasette 1.0a31 on the Datasette blog, which now has three posts introducing new features since the blog launched two weeks ago. Here's an animated demo from the blog post showing how the new execute query interface lets people get started with templated insert/update/delete queries from tables they have permission to edit: Tags: projects, sql, sqlite, datasette, annotated-release-notes",
+          "published": "2026-05-29T03:32:02+00:00",
+          "published_dt": "2026-05-29T03:32:02+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "datasette 1.0a31 (Simon Willison) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Simon Willison 报道：datasette 1.0a31，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+          "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+          "source": "Google AI Blog",
+          "source_type": "rss",
+          "content": "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+          "published": "2026-05-29T19:00:00+00:00",
+          "published_dt": "2026-05-29T19:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Take our I/O 2026 quiz, vibe coded in Google AI Studio. (Google AI Blog) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Google AI Blog 报道：Take our I/O 2026 quiz, vibe coded in Google AI Studio.，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+          "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+          "source": "Google AI Blog",
+          "source_type": "rss",
+          "content": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
+          "published": "2026-05-29T17:30:00+00:00",
+          "published_dt": "2026-05-29T17:30:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "9 demos of Gemini Omni and Gemini 3.5 in action (Google AI Blog) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Google AI Blog 报道：9 demos of Gemini Omni and Gemini 3.5 in action，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=939686",
+          "title": "Adobe’s conversational AI agent is a mediocre design intern",
+          "url": "https://www.theverge.com/tech/939686/adobes-conversational-ai-agent-is-a-mediocre-design-intern",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "It explained the process of how it made these edits beautifully, I’m just not terribly impressed by the results. | Images by Jess Weatherbed / The Verge AI image tools rarely make me feel like I'm part of the creative process. They are, after all, mostly designed so that people with no design experience can type in a few words and get back a usable result. So I was pleasantly surprised by Adobe's latest take on an AI image assistant: It's a bot designed to take away some busywork, while still granting you creative control. Unlike AI generators that are specifically designed to make and edit images or video, Adobe's Firefly AI Assistant, which I've been testing in beta, is more like a multitasking middleman that can operate Adobe's design apps for you. On its website, Adobe says that you can … Read the full story at The Verge.",
+          "published": "2026-05-29T10:00:00+00:00",
+          "published_dt": "2026-05-29T10:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Adobe’s conversational AI agent is a mediocre design intern (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Adobe’s conversational AI agent is a mediocre design intern，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://openai.com/index/boston-childrens-hospital",
+          "title": "Boston Children’s uses AI to unlock new diagnoses",
+          "url": "https://openai.com/index/boston-childrens-hospital",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+          "published": "2026-05-29T12:00:00+00:00",
+          "published_dt": "2026-05-29T12:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Boston Children’s uses AI to unlock new diagnoses (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Boston Children’s uses AI to unlock new diagnoses，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/braintrust",
+          "title": "How Braintrust turns customer requests into code with Codex",
+          "url": "https://openai.com/index/braintrust",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+          "published": "2026-05-29T12:00:00+00:00",
+          "published_dt": "2026-05-29T12:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How Braintrust turns customer requests into code with Codex (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：How Braintrust turns customer requests into code with Codex，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=2973217",
+          "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+          "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+          "published": "2026-05-29T18:49:19+00:00",
+          "published_dt": "2026-05-29T18:49:19+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "So you’ve heard these AI terms and nodded along; let’s fix that (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：So you’ve heard these AI terms and nodded along; let’s fix that，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?post_type=tc_video&p=3127833",
+          "title": "What happens when companies become too AI-pilled?",
+          "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of “AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs in 2026 are already nearly matching all of 2025, […]",
+          "published": "2026-05-29T17:57:05+00:00",
+          "published_dt": "2026-05-29T17:57:05+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "What happens when companies become too AI-pilled? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：What happens when companies become too AI-pilled?，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48325340",
+          "title": "Notes from the Mistral AI Now Summit",
+          "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-29T16:22:01+00:00",
+          "published_dt": "2026-05-29T16:22:01+00:00",
+          "hn_score": 313,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Mistral"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Notes from the Mistral AI Now Summit (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Notes from the Mistral AI Now Summit，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3127459",
+          "title": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
+          "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Cognition makes Devin, the first and arguably most successful AI coding agent. But famed coder Wu says it isn't designed to supplant human programmers.",
+          "published": "2026-05-29T16:13:47+00:00",
+          "published_dt": "2026-05-29T16:13:47+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Cognition’s Scott Wu says AI coding agents shouldn’t replace humans，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3127664",
+          "title": "Today is the last day to apply to speak at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/05/29/today-is-the-last-day-to-apply-to-speak-at-techcrunch-disrupt-2026/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Submit your session topic before today ends for a chance to speak at TechCrunch Disrupt 2026. Apply now to share your insight and help shape the conversations defining the tech industry.",
+          "published": "2026-05-29T14:15:00+00:00",
+          "published_dt": "2026-05-29T14:15:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Today is the last day to apply to speak at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Today is the last day to apply to speak at TechCrunch Disrupt 2026，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3127650",
+          "title": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket",
+          "url": "https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "You now have until tonight at 11:59 p.m. PT to lock in Early Bird savings of up to $410 for TechCrunch Disrupt 2026 before prices increase. Join 10,000+ tech leaders in October for one of the most anticipated tech events of the year. Register now.",
+          "published": "2026-05-29T14:00:00+00:00",
+          "published_dt": "2026-05-29T14:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?post_type=tc_podcast&p=3127912",
+          "title": "Does your CEO have AI psychosis? Aaron Levie thinks most of them do.",
+          "url": "https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of “AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs in 2026 are already nearly matching all of 2025, […]",
+          "published": "2026-05-29T14:00:00+00:00",
+          "published_dt": "2026-05-29T14:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Does your CEO have AI psychosis? Aaron Levie thinks most of them do. (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Does your CEO have AI psychosis? Aaron Levie thinks most of them do.，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3127185",
+          "title": "Kiwibit’s AI-powered bird feeder is my new backyard buddy",
+          "url": "https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "If you're looking for a fun way to connect with nature while collecting bird species on an app like Pokémon, give this smart feeder a try.",
+          "published": "2026-05-29T13:00:00+00:00",
+          "published_dt": "2026-05-29T13:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Kiwibit’s AI-powered bird feeder is my new backyard buddy (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Kiwibit’s AI-powered bird feeder is my new backyard buddy，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-30T02:44:49.483824+00:00",
+          "published_dt": "2026-05-30T02:44:49.483824+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-30T02:44:49.483824+00:00",
+          "published_dt": "2026-05-30T02:44:49.483824+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+      "title": "[AINews] Founders and Forward Deployed Engineers",
+      "url": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Most people are still digesting the massive Anthropic news from yesterday. We’re taking the opportunity to solicit the leading AI FDE’s in the world for AIE’s new Forward Deployed Engineer track, mirroring similar pushes from both OpenAI DeployCo and Anthropic DeployCo:as well as AIE’s new Founders program, where we are doing our version of the Startup Battlefield, a competitive pitch contest anchored by YCombinator’s Garry Tan and Howie Lu’s $10 Million dollar Hyperagent contest. Sign up (and book hotel!) for details today if you are keen.AI News for 5/28/2026-5/29/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapClaude Opus 4.8 Rollout, Benchmark Friction, and API ErgonomicsOpus 4.8 landed into a noisy, mixed eval landscape: multiple independent benches converged on “incremental but not dominant.” @arena pushed 200+ frontend/code tests comparing Opus 4.8 against prior Opus variants, Gemini, and GLM; @theo reported CursorBench shows it as more efficient but slightly worse than 4.7 within margin of error; @jerryjliu0 and @llama_index found small gains on tables/layout but regressions on content faithfulness/charts in document parsing; @scaling01 said no progress on ALE-Bench and separately flagged interesting failure modes on LisanBench. On the positive side, @jeremyphoward found 4.8 less over-agentic and more cooperative than 4.7/GPT-5.5 in coding, while @leo_linsky called it a tangible product improvement over prior Anthropic releases.Anthropic also shipped useful platform-level changes: @ClaudeDevs announced mid-conversation system instructions without breaking prompt cache, plus authoritative mid-conversation system-role updates, which matters for long-running agent sessions and cost control. But pricing remains a major complaint: @jeremyphoward argued Anthropic has done little for A",
+      "published": "2026-05-30T01:57:15+00:00",
+      "published_dt": "2026-05-30T01:57:15+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$10 Million"
+        ],
+        "technologies": [
+          "RAG",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] Founders and Forward Deployed Engineers (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Founders and Forward Deployed Engineers，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93627",
+      "title": "The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds",
+      "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-ai-anthropic-65b-dominates/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Want to keep track of the largest startup funding deals in 2026 with our curated list of $100 million-plus venture deals to U.S.-based companies? Check out The Crunchbase Megadeals Board. This is a weekly feature that runs down the week’s top 10 announced funding rounds in the U.S. Check out last week’s biggest funding deal roundup here. Venture funding has always been a world of haves and have nots. And these days, the haves are having more than ever. Case in point this week was Anthropic. The 5-year-old generative AI giant secured $65 billion in Series H funding this week, pushing its post-money valuation to a mind-blowing $965 billion. After that, the next-biggest financing was a $1 billion round for AI software development tool maker Cognition, lifting its valuation to $26 billion. Companies in a range of other sectors also managed to secure sizable though smaller rounds, in areas including commerce logistics, developer AI, insurtech, fusion and more. 1. Anthropic, $65B, foundational AI: Generative AI company Anthropic raised $65 billion in a Series H funding round, more than doubling its post-money valuation to a staggering $965 billion. San Francisco-based Anthropic said Altimeter Capital, Dragoneer, Greenoaks and Sequoia Capital led the financing, and that Capital Group, Coatue, D1 Capital Partners, GIC, Iconiq Capital and XN co-led the investment. 2. Cognition, $1B, AI software development: Cognition, developer of AI software engineer Devin, has closed on over $1 billion at a $26 billion valuation. Lux Capital, General Catalyst, and 8VC 1 led the financing for the San Francisco-based company. 3. Stord, $250M, logistics: Atlanta-based Stord, developer of a fulfillment network, software and AI tools for independent brands, secured $250 million in Series F funding. The round set a $3 billion valuation for the 11-year-old company. 4. OpenRouter, $113M, AI for developers: OpenRouter, a marketplace for AI models, secured $113 million in Series B funding. CapitalG ",
+      "published": "2026-05-29T19:15:09+00:00",
+      "published_dt": "2026-05-29T19:15:09+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Sequoia"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$100 million",
+          "$65 billion",
+          "$965 billion",
+          "$1 billion",
+          "$26 billion",
+          "$65B",
+          "$1B",
+          "$250M",
+          "$250 million",
+          "$3 billion"
+        ],
+        "technologies": [
+          "LLM",
+          "RAG"
+        ]
+      },
+      "summary_en": "The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Week’s 10 Biggest Funding Rounds: Anthropic Dominates In An Otherwise Slower Week For Megarounds，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93619",
+      "title": "They Saw Women Shut Out Of VC, So A PayPal Veteran And Former Navy Officer Built An Alternative",
+      "url": "https://news.crunchbase.com/diversity/venture-women-owned-startup-funding-aequitas-invest/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Women-led startups consistently receive less than 2% of U.S. venture capital, per Crunchbase data. That’s despite delivering 2.5x better returns than male-founded startups, research shows. Although the number of women-owned businesses keeps growing, startups led by women continue to fall behind their male counterparts when it comes to raising venture funding. Amie Konwinski and Molly Huyck, co-founders of Aequitas Invest. (Courtesy photo) That’s why former PayPal executive Molly Huyck teamed up with Amie Konwinski, a U.S. Navy veteran and marketing executive, to found Aequitas Invest, an SEC-registered, funding portal. The platform, also called AQi, gives women-led businesses — those that are at least 50% women-owned — a way to raise capital through Regulation Crowdfunding, a securities framework aimed at opening up startup investing. Launched in 2024, AQi seeks to help female entrepreneurs reach everyday investors by simplifying regulatory disclosures and business documentation. As a member of the Financial Industry Regulatory Authority, the platform has passed a rigorous federal vetting process and agrees to operate under strict oversight to protect investors and ensure transparency. Crunchbase News recently spoke with Huyck and Konwinski to hear more about what led them to start AQi, why they think women don’t need to give up board seats early on, and how they want to help female entrepreneurs raise and hold on to more equity. This interview has been edited for clarity and brevity. Crunchbase News: What is your platform’s mission and what led you to launch this company? Huyck: I spent 21 years at PayPal, where I mentored women through a partnership with the Cherie Blair Foundation. It was there I learned about the $5 trillion gap in global GDP resulting from women entrepreneurs lacking access to capital. In the U.S., while women start nearly half of all businesses, they receive only 2% of venture capital and less than 20% of small business loans. I wanted to buil",
+      "published": "2026-05-29T11:00:59+00:00",
+      "published_dt": "2026-05-29T11:00:59+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "They Saw Women Shut Out Of VC, So A PayPal Veteran And Former Navy Officer Built An Alternative (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：They Saw Women Shut Out Of VC, So A PayPal Veteran And Former Navy Officer Built An Alternative，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93612",
+      "title": "Navigating The DPI Crunch And Startup Funding",
+      "url": "https://news.crunchbase.com/venture/dpi-crunch-startup-funding-schroder-mgv/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Crunchbase reported that global venture deployment hit roughly $300 billion in Q1 2026, with $188 billion of that, about 65%, concentrated in four companies: OpenAI, Anthropic, xAI and Anduril Industries. AI’s share of venture funding climbed to 80% this quarter, up from 55% a year ago. The deployment is real. The liquidity question behind it is the one founders should be paying attention to. In 2025, Crunchbase counted roughly 2,300 venture-backed acquisitions against just 65 IPOs. In aggregate, the LPs sitting behind every venture fund have been in net-negative cash flow territory since 2022. Record deployment in Q1 doesn’t change the math at the LP level, and that pressure is reshaping every term sheet, follow-on decision and board conversation in venture right now. Know what’s actually driving the firm across the table When a partner walks you through their thesis, they’re telling you a story about your market; rarely are they telling you a story about their fund. That second story determines whether they can write your bridge in 18 months, whether they’ll fight for pro rata in your Series B, and whether their behavior in the next downturn looks like patience or anxiety. LPs are demanding cash back. Paper markups aren’t enough. Some firms are responding well, consolidating into their best companies and being deliberate about new commitments while others are pretending it’s still 2021. Founders should know which type they’re sitting across from before signing anything. Ask the questions founders rarely ask Three reference calls with portfolio CEOs used to be enough due diligence on a VC. Not anymore. Ask what vintage the partner’s current fund is and how much dry powder is left. Ask how many of their 2018 through 2020 companies have produced realized returns rather than paper markups. Ask whether their LPs have been pushing for GP-led secondaries. If the answer is yes, the firm is operating under a cash-flow constraint that will show up in your boardroom. These a",
+      "published": "2026-05-29T11:00:53+00:00",
+      "published_dt": "2026-05-29T11:00:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$300 billion",
+          "$188 billion",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Navigating The DPI Crunch And Startup Funding (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Navigating The DPI Crunch And Startup Funding，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3127716",
+      "title": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+      "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
+      "published": "2026-05-29T17:27:13+00:00",
+      "published_dt": "2026-05-29T17:27:13+00:00",
+      "score": 9.7,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$20B",
+          "$650M",
+          "$650 million"
+        ],
+        "technologies": [
+          "inference"
+        ]
+      },
+      "summary_en": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M (TechCrunch AI) highlights a notable AI development with score 9.7.",
+      "summary_zh": "TechCrunch AI 报道：After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M，综合评分 9.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3127051",
+      "title": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory",
+      "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "South Korean chip startup XCENA is betting that AI's real bottleneck is not compute, but memory.",
+      "published": "2026-05-29T12:00:00+00:00",
+      "published_dt": "2026-05-29T12:00:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$135M",
+          "raised $135M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/05/botnet-of-more-than-17-million-devices-dismantled/",
+      "title": "Botnet of more than 17 million devices dismantled",
+      "url": "https://arstechnica.com/security/2026/05/botnet-of-more-than-17-million-devices-dismantled/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Authorities in the Netherlands said they dismantled a botnet that comprised more than 17 million devices and were managed by 200 servers in a joint operation by the police and the National Cyber Security Center. The action, announced Thursday, came about after a security researcher reported the sprawling network to authorities. The host infrastructure was located in the Netherlands. Used for criminal purposes “The police then seized several botnet servers from a hosting provider for investigation,” the NCSC said. “The botnet was taken offline by the provider because it was used for criminal purposes.”Read full article Comments",
+      "published": "2026-05-29T18:46:33+00:00",
+      "published_dt": "2026-05-29T18:46:33+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Botnet of more than 17 million devices dismantled (Ars Technica) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Ars Technica 报道：Botnet of more than 17 million devices dismantled，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "published": "2026-05-29T03:00:00+00:00",
+      "published_dt": "2026-05-29T03:00:00+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Strengthening societal resilience with Rosalind Biodefense (OpenAI Blog) highlights a notable AI development with score 7.3.",
+      "summary_zh": "OpenAI Blog 报道：Strengthening societal resilience with Rosalind Biodefense，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-30T02:44:49.483824+00:00",
+      "published_dt": "2026-05-30T02:44:49.483824+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-30T02:44:49.483824+00:00",
+      "published_dt": "2026-05-30T02:44:49.483824+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=939765",
+      "title": "This AI startup will clean your home for free to train future robots",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "AI training startup Shift wants to clean your home for free. The catch - because, despite what its website says, there's always a catch - is that it will record cleaners as they scrub, vacuum, dust, tidy, and wash, and use that footage to train robots. Shift announced the unusual offer on social media on Thursday, explaining that the value of the training data generated from the cleanings is more than enough to fund the service. As its website puts it: \"You get a spotless apartment. We get training data. Everyone wins.\" A promotional video shows a cleaner in a crisp white uniform and awkward-looking hat (more on that later) washing windows … Read the full story at The Verge.",
+      "published": "2026-05-29T11:58:40+00:00",
+      "published_dt": "2026-05-29T11:58:40+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "This AI startup will clean your home for free to train future robots (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：This AI startup will clean your home for free to train future robots，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/29/datasette/#atom-everything",
+      "title": "datasette 1.0a31",
+      "url": "https://simonwillison.net/2026/May/29/datasette/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette 1.0a31 Another significant alpha release, with two new headline features. Datasette now offers users with the necessary permissions the ability to both execute write queries against their database and to save stored queries (renamed from \"canned queries\") both privately and for use by other members of their Datasette instance. There's more detail in SQL write queries and stored queries in Datasette 1.0a31 on the Datasette blog, which now has three posts introducing new features since the blog launched two weeks ago. Here's an animated demo from the blog post showing how the new execute query interface lets people get started with templated insert/update/delete queries from tables they have permission to edit: Tags: projects, sql, sqlite, datasette, annotated-release-notes",
+      "published": "2026-05-29T03:32:02+00:00",
+      "published_dt": "2026-05-29T03:32:02+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "datasette 1.0a31 (Simon Willison) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Simon Willison 报道：datasette 1.0a31，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=940007",
+      "title": "Tech companies desperately want to film you doing chores",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "This week, an AI training startup called Shift said it would clean New Yorkers' homes for free. It has plans to expand into other cities as well, including London, and looking around my flat, I get the appeal. But there's a catch. There's always a catch. In exchange for the cleaning, Shift wants footage of its cleaners at work: scrubbing dishes, wiping counters, dusting tables, mopping floors. It wants everything. Video of all the boring domestic labor we'd happily outsource if we could - and that robotics companies are racing to teach machines to do so they can sell us something to do it for us. That's harder than it sounds. Unlike cha … Read the full story at The Verge.",
+      "published": "2026-05-29T17:37:43+00:00",
+      "published_dt": "2026-05-29T17:37:43+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Tech companies desperately want to film you doing chores (The Verge AI) highlights a notable AI development with score 6.4.",
+      "summary_zh": "The Verge AI 报道：Tech companies desperately want to film you doing chores，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/boston-childrens-hospital",
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "url": "https://openai.com/index/boston-childrens-hospital",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "published": "2026-05-29T12:00:00+00:00",
+      "published_dt": "2026-05-29T12:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Boston Children’s uses AI to unlock new diagnoses (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Boston Children’s uses AI to unlock new diagnoses，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/braintrust",
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "url": "https://openai.com/index/braintrust",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "published": "2026-05-29T12:00:00+00:00",
+      "published_dt": "2026-05-29T12:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How Braintrust turns customer requests into code with Codex (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：How Braintrust turns customer requests into code with Codex，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3127904",
+      "title": "Coders are refusing to work without AI — and that could come back to bite them",
+      "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for them.",
+      "published": "2026-05-29T22:14:22+00:00",
+      "published_dt": "2026-05-29T22:14:22+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Coders are refusing to work without AI — and that could come back to bite them (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Coders are refusing to work without AI — and that could come back to bite them，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "content": "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+      "published": "2026-05-29T19:00:00+00:00",
+      "published_dt": "2026-05-29T19:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Take our I/O 2026 quiz, vibe coded in Google AI Studio. (Google AI Blog) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Google AI Blog 报道：Take our I/O 2026 quiz, vibe coded in Google AI Studio.，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "content": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
+      "published": "2026-05-29T17:30:00+00:00",
+      "published_dt": "2026-05-29T17:30:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "9 demos of Gemini Omni and Gemini 3.5 in action (Google AI Blog) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Google AI Blog 报道：9 demos of Gemini Omni and Gemini 3.5 in action，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=939686",
+      "title": "Adobe’s conversational AI agent is a mediocre design intern",
+      "url": "https://www.theverge.com/tech/939686/adobes-conversational-ai-agent-is-a-mediocre-design-intern",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "It explained the process of how it made these edits beautifully, I’m just not terribly impressed by the results. | Images by Jess Weatherbed / The Verge AI image tools rarely make me feel like I'm part of the creative process. They are, after all, mostly designed so that people with no design experience can type in a few words and get back a usable result. So I was pleasantly surprised by Adobe's latest take on an AI image assistant: It's a bot designed to take away some busywork, while still granting you creative control. Unlike AI generators that are specifically designed to make and edit images or video, Adobe's Firefly AI Assistant, which I've been testing in beta, is more like a multitasking middleman that can operate Adobe's design apps for you. On its website, Adobe says that you can … Read the full story at The Verge.",
+      "published": "2026-05-29T10:00:00+00:00",
+      "published_dt": "2026-05-29T10:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Adobe’s conversational AI agent is a mediocre design intern (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Adobe’s conversational AI agent is a mediocre design intern，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=2973217",
+      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+      "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "published": "2026-05-29T18:49:19+00:00",
+      "published_dt": "2026-05-29T18:49:19+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "So you’ve heard these AI terms and nodded along; let’s fix that (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：So you’ve heard these AI terms and nodded along; let’s fix that，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_video&p=3127833",
+      "title": "What happens when companies become too AI-pilled?",
+      "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of “AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs in 2026 are already nearly matching all of 2025, […]",
+      "published": "2026-05-29T17:57:05+00:00",
+      "published_dt": "2026-05-29T17:57:05+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "What happens when companies become too AI-pilled? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：What happens when companies become too AI-pilled?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48325340",
+      "title": "Notes from the Mistral AI Now Summit",
+      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-29T16:22:01+00:00",
+      "published_dt": "2026-05-29T16:22:01+00:00",
+      "hn_score": 313,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Mistral"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Notes from the Mistral AI Now Summit (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Notes from the Mistral AI Now Summit，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3127459",
+      "title": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
+      "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Cognition makes Devin, the first and arguably most successful AI coding agent. But famed coder Wu says it isn't designed to supplant human programmers.",
+      "published": "2026-05-29T16:13:47+00:00",
+      "published_dt": "2026-05-29T16:13:47+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Cognition’s Scott Wu says AI coding agents shouldn’t replace humans，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3127664",
+      "title": "Today is the last day to apply to speak at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/05/29/today-is-the-last-day-to-apply-to-speak-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Submit your session topic before today ends for a chance to speak at TechCrunch Disrupt 2026. Apply now to share your insight and help shape the conversations defining the tech industry.",
+      "published": "2026-05-29T14:15:00+00:00",
+      "published_dt": "2026-05-29T14:15:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Today is the last day to apply to speak at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Today is the last day to apply to speak at TechCrunch Disrupt 2026，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3127650",
+      "title": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket",
+      "url": "https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "You now have until tonight at 11:59 p.m. PT to lock in Early Bird savings of up to $410 for TechCrunch Disrupt 2026 before prices increase. Join 10,000+ tech leaders in October for one of the most anticipated tech events of the year. Register now.",
+      "published": "2026-05-29T14:00:00+00:00",
+      "published_dt": "2026-05-29T14:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_podcast&p=3127912",
+      "title": "Does your CEO have AI psychosis? Aaron Levie thinks most of them do.",
+      "url": "https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of “AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs in 2026 are already nearly matching all of 2025, […]",
+      "published": "2026-05-29T14:00:00+00:00",
+      "published_dt": "2026-05-29T14:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Does your CEO have AI psychosis? Aaron Levie thinks most of them do. (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Does your CEO have AI psychosis? Aaron Levie thinks most of them do.，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3127185",
+      "title": "Kiwibit’s AI-powered bird feeder is my new backyard buddy",
+      "url": "https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "If you're looking for a fun way to connect with nature while collecting bird species on an app like Pokémon, give this smart feeder a try.",
+      "published": "2026-05-29T13:00:00+00:00",
+      "published_dt": "2026-05-29T13:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Kiwibit’s AI-powered bird feeder is my new backyard buddy (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Kiwibit’s AI-powered bird feeder is my new backyard buddy，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48321631",
+      "title": "Is AI causing a repeat of frontend’s lost decade?",
+      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-29T11:09:32+00:00",
+      "published_dt": "2026-05-29T11:09:32+00:00",
+      "hn_score": 297,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Is AI causing a repeat of frontend’s lost decade? (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Is AI causing a repeat of frontend’s lost decade?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
