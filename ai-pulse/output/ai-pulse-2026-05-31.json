@@ -1,0 +1,1112 @@
+{
+  "date": "2026-05-31",
+  "generated_at": "2026-05-31T03:26:36",
+  "stats": {
+    "total_items": 17,
+    "high_importance": 1,
+    "medium_importance": 16,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.theverge.com/?p=940001",
+      "title": "The SpaceX IPO is great for Elon Musk and terrible for you",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/940001/elon-musk-spacex-ipo-ai",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Number go up? | Image: Cath Virginia / The Verge, Getty Images I haven't seen anything as stupid as the WeWork IPO document in a very long time - that is, until Elon Musk filed to take SpaceX public. WeWork was a joke. SpaceX is a threat. And if Musk and his bankers have their way, you are going to be their bagholder. Lots of the top-line details leaked long before the S-1 filing itself became public. There's the rumored valuation of more than $1 trillion. That's despite the nearly $5 billion in losses last year. The total addressable market (TAM) for SpaceX - the amount of revenue SpaceX thinks it could make if won over what it thinks is its entire customer base - was listed as $28.5 trillion. By way … Read the full story at The Verge.",
+      "published": "2026-05-30T12:00:00+00:00",
+      "published_dt": "2026-05-30T12:00:00+00:00",
+      "score": 8.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$5 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The SpaceX IPO is great for Elon Musk and terrible for you (The Verge AI) highlights a notable AI development with score 8.7.",
+      "summary_zh": "The Verge AI 报道：The SpaceX IPO is great for Elon Musk and terrible for you，综合评分 8.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+          "title": "Running Python ASGI apps in the browser via Pyodide + a service worker",
+          "url": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Research: Running Python ASGI apps in the browser via Pyodide + a service worker Datasette Lite is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly. When I first built it four years ago I used Web Workers and code that intercepts navigation operations and fetches the generated HTML by running the Python app. This worked, but had the disadvantage that any JavaScript in <script> tags would not be executed - breaking some Datasette functionality and a whole lot of Datasette plugins. This morning I set Claude Opus 4.8 the task (in Claude Code for web) of figuring out how to run Python ASGI apps in Pyodide using Service Workers instead, and it seems to work! Here's a basic ASGI FastCGI demo and here's a demo that runs Datasette 1.0a31. I'm still getting my head around exactly how it works, but once I've done that I plan to upgrade Datasette Lite itself. Tags: javascript, python, datasette, asgi, service-workers, pyodide, datasette-lite, claude-code",
+          "published": "2026-05-30T21:02:16+00:00",
+          "published_dt": "2026-05-30T21:02:16+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Running Python ASGI apps in the browser via Pyodide + a service worker (Simon Willison) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Simon Willison 报道：Running Python ASGI apps in the browser via Pyodide + a service worker，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=940001",
+          "title": "The SpaceX IPO is great for Elon Musk and terrible for you",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/940001/elon-musk-spacex-ipo-ai",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Number go up? | Image: Cath Virginia / The Verge, Getty Images I haven't seen anything as stupid as the WeWork IPO document in a very long time - that is, until Elon Musk filed to take SpaceX public. WeWork was a joke. SpaceX is a threat. And if Musk and his bankers have their way, you are going to be their bagholder. Lots of the top-line details leaked long before the S-1 filing itself became public. There's the rumored valuation of more than $1 trillion. That's despite the nearly $5 billion in losses last year. The total addressable market (TAM) for SpaceX - the amount of revenue SpaceX thinks it could make if won over what it thinks is its entire customer base - was listed as $28.5 trillion. By way … Read the full story at The Verge.",
+          "published": "2026-05-30T12:00:00+00:00",
+          "published_dt": "2026-05-30T12:00:00+00:00",
+          "score": 8.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$5 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "The SpaceX IPO is great for Elon Musk and terrible for you (The Verge AI) highlights a notable AI development with score 8.7.",
+          "summary_zh": "The Verge AI 报道：The SpaceX IPO is great for Elon Musk and terrible for you，综合评分 8.7，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48338660",
+          "title": "OpenRouter raises $113M Series B",
+          "url": "https://openrouter.ai/announcements/series-b",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-30T17:27:28+00:00",
+          "published_dt": "2026-05-30T17:27:28+00:00",
+          "hn_score": 371,
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$113M",
+              "Series B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "OpenRouter raises $113M Series B (Hacker News) highlights a notable AI development with score 7.3.",
+          "summary_zh": "Hacker News 报道：OpenRouter raises $113M Series B，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128041",
+          "title": "SoftBank says it will invest up to €75 billion to build French data centers",
+          "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
+          "published": "2026-05-30T21:45:00+00:00",
+          "published_dt": "2026-05-30T21:45:00+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "SoftBank says it will invest up to €75 billion to build French data centers (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：SoftBank says it will invest up to €75 billion to build French data centers，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=938245",
+          "title": "How one founder’s bet on ‘the old school web’ is paying off",
+          "url": "https://www.theverge.com/tech/938245/past-maps-website-google-zero-ai",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "A good time with old maps. | Image: Past Maps Craig Campbell walked away from the river of investor money flowing into AI to create, of all things, a website. Sure, Campbell probably could have started an AI company. He's a former engineer at Meta and an experienced tech founder who in 2022 sold his last venture - an e-commerce tool for businesses that use Shopify - right as the AI boom was booming. \"I had my prior VC investors breathing down my neck, going 'start something else. We'll write you a blank check.'\" He had other ideas. People generally aren't rushing to get into the website business, what with the Google Zero event horizon approaching. Campbell was undeterred and has gro … Read the full story at The Verge.",
+          "published": "2026-05-30T13:00:00+00:00",
+          "published_dt": "2026-05-30T13:00:00+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google",
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How one founder’s bet on ‘the old school web’ is paying off (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：How one founder’s bet on ‘the old school web’ is paying off，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "hn-48336233",
+          "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
+          "url": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-30T13:56:34+00:00",
+          "published_dt": "2026-05-30T13:56:34+00:00",
+          "hn_score": 395,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic surpasses OpenAI to become most valuable AI startup (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：Anthropic surpasses OpenAI to become most valuable AI startup，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 2,
+      "items": [
+        {
+          "id": "hn-48339180",
+          "title": "Hormuz crisis side effect: a sharp rise in container shipping rates",
+          "url": "https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-30T18:19:23+00:00",
+          "published_dt": "2026-05-30T18:19:23+00:00",
+          "hn_score": 170,
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Hormuz crisis side effect: a sharp rise in container shipping rates (Hacker News) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Hacker News 报道：Hormuz crisis side effect: a sharp rise in container shipping rates，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=938844",
+          "title": "AI grifters are creating fake Black people to sell Shein junk",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "TikTok sellers that appear to be AI generated, in tears. | The Verge Aliyah, a light-skinned Black woman dressed in country-western gear, is struggling to sell metal buckles she handmade on TikTok. In a video for the social media platform from March, she cries to the camera and pleads for views: \"Even as a black woman, I have more faith that white women will stay 13 seconds [on this video] to save my belt buckle business,\" the onscreen text reads. She wipes a tear off her cheek. But Aliyah isn't real, and neither are her supposedly handmade products - she's one of many AI-generated influencers created to sell mass-produced products via dropshipping on TikTok, Facebook, and Instagram. Identical belt buckles … Read the full story at The Verge.",
+          "published": "2026-05-30T13:00:00+00:00",
+          "published_dt": "2026-05-30T13:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI grifters are creating fake Black people to sell Shein junk (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：AI grifters are creating fake Black people to sell Shein junk，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 4,
+      "items": [
+        {
+          "id": "hn-48340411",
+          "title": "Domain expertise has always been the real moat",
+          "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-05-30T20:40:57+00:00",
+          "published_dt": "2026-05-30T20:40:57+00:00",
+          "hn_score": 333,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Domain expertise has always been the real moat (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Domain expertise has always been the real moat，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128007",
+          "title": "Meta is reportedly developing an AI pendant",
+          "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meta seems to be making big bets on AI-powered hardware.",
+          "published": "2026-05-30T15:59:58+00:00",
+          "published_dt": "2026-05-30T15:59:58+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta is reportedly developing an AI pendant (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Meta is reportedly developing an AI pendant，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3127707",
+          "title": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
+          "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.",
+          "published": "2026-05-30T15:30:00+00:00",
+          "published_dt": "2026-05-30T15:30:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3026701",
+          "title": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026",
+          "url": "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+          "published": "2026-05-30T13:00:00+00:00",
+          "published_dt": "2026-05-30T13:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026 (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+          "title": "How we contain Claude across products",
+          "url": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "How we contain Claude across products A complaint I often have about sandboxing products is that they are rarely thoroughly documented, and in the absence of detailed documentation it's hard to know how much I can trust them. Anthropic just published a fantastic overview of how their various sandbox techniques work across Claude.ai, Claude Code, and Cowork. We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can't be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker. Claude.ai uses gVisor. Claude Code, run locally, uses Seatbelt on macOS and Bubblewrap on Linux. Claude Cowork runs a full VM (Apple's Virtualization framework on macOS, HCS on Windows). There's a lot in here, including some interesting stories of risks they missed such as the api.anthropic.com/v1/files exfiltration vector covered here previously. This reminded me it's time I took another look at Anthropic's open source srt (Anthropic Sandbox Runtime) tool - it's mature enough know that I'm ready to give it a proper go. Tags: sandboxing, security, ai, generative-ai, llms, anthropic, claude, claude-code",
+          "published": "2026-05-30T21:36:24+00:00",
+          "published_dt": "2026-05-30T21:36:24+00:00",
+          "score": 7.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "How we contain Claude across products (Simon Willison) highlights a notable AI development with score 7.4.",
+          "summary_zh": "Simon Willison 报道：How we contain Claude across products，综合评分 7.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-31T03:26:32.671680+00:00",
+          "published_dt": "2026-05-31T03:26:32.671680+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-05-31T03:26:32.671680+00:00",
+          "published_dt": "2026-05-31T03:26:32.671680+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3127853",
+          "title": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+          "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The golden age of Microsoft's Github Copilot appears to be at an end.",
+          "published": "2026-05-30T16:30:00+00:00",
+          "published_dt": "2026-05-30T16:30:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
+          "title": "I Am Retiring from Tech to Live Offline",
+          "url": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "I Am Retiring from Tech to Live Offline I've seen a lot of posts on forums from people threatening to quit their careers over AI. This is not one of those: Chad Whitacre is taking concrete steps, starting with this typewritten, scanned letter I'm retiring from tech. Well, \"retiring\" is euphemistic. I'm stepping away from tech, and that includes Open Source. [...] AI was the last straw. Have you heard of that island off India where the indigenous population kills any outsiders fool-hardy enough to land? They are doing the rest of us a favor by preserving a way of life we may need again someday, or at the very least should not want to see completely extinguished. A reminder. Never forget your roots. Here in Pennsylvania we have the Amish performing a similar function. Significantly less hostile, though still set apart, they bear witness to what was normal for all of us a couple short centuries ago: horse and buggy, wood stoves and lanterns. My intent is to be AI Amish, which means Internet Amish. Not 1780, but 1980. Neo-Amish. I'm fine driving a car and flipping a lightswitch, by which I mean that they don't make me into something I hate, which AI and [struck through: social media] [handwritten above: doomscrolling] do. I'll admit that at first I wasn't entirely sure if this was serious. Then I found this earlier post by Chad from Feb 19 2026, Spitting Out the Agentic Kool-Aid: I figured I’d better taste the Kool-Aid in order to form an opinion, so I dove into Claude Code with Opus 4.5 on a side project. I spent three 12+ hour days with it. I was intoxicated. My family was weirded out. [...] It weirded me out too, when I unplugged for a long weekend. Something felt off. It was like I had another “person” in my head, sharing my inner monologue—but the “person” was a computer system owned by a budding megacorp. [...] I am now also committing myself to disembarking from the titantic of technological accelerationism. All efforts to address the problems of invasive technol",
+          "published": "2026-05-30T19:39:08+00:00",
+          "published_dt": "2026-05-30T19:39:08+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "I Am Retiring from Tech to Live Offline (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：I Am Retiring from Tech to Live Offline，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.theverge.com/?p=940001",
+      "title": "The SpaceX IPO is great for Elon Musk and terrible for you",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/940001/elon-musk-spacex-ipo-ai",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Number go up? | Image: Cath Virginia / The Verge, Getty Images I haven't seen anything as stupid as the WeWork IPO document in a very long time - that is, until Elon Musk filed to take SpaceX public. WeWork was a joke. SpaceX is a threat. And if Musk and his bankers have their way, you are going to be their bagholder. Lots of the top-line details leaked long before the S-1 filing itself became public. There's the rumored valuation of more than $1 trillion. That's despite the nearly $5 billion in losses last year. The total addressable market (TAM) for SpaceX - the amount of revenue SpaceX thinks it could make if won over what it thinks is its entire customer base - was listed as $28.5 trillion. By way … Read the full story at The Verge.",
+      "published": "2026-05-30T12:00:00+00:00",
+      "published_dt": "2026-05-30T12:00:00+00:00",
+      "score": 8.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$5 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The SpaceX IPO is great for Elon Musk and terrible for you (The Verge AI) highlights a notable AI development with score 8.7.",
+      "summary_zh": "The Verge AI 报道：The SpaceX IPO is great for Elon Musk and terrible for you，综合评分 8.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+      "title": "How we contain Claude across products",
+      "url": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "How we contain Claude across products A complaint I often have about sandboxing products is that they are rarely thoroughly documented, and in the absence of detailed documentation it's hard to know how much I can trust them. Anthropic just published a fantastic overview of how their various sandbox techniques work across Claude.ai, Claude Code, and Cowork. We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can't be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker. Claude.ai uses gVisor. Claude Code, run locally, uses Seatbelt on macOS and Bubblewrap on Linux. Claude Cowork runs a full VM (Apple's Virtualization framework on macOS, HCS on Windows). There's a lot in here, including some interesting stories of risks they missed such as the api.anthropic.com/v1/files exfiltration vector covered here previously. This reminded me it's time I took another look at Anthropic's open source srt (Anthropic Sandbox Runtime) tool - it's mature enough know that I'm ready to give it a proper go. Tags: sandboxing, security, ai, generative-ai, llms, anthropic, claude, claude-code",
+      "published": "2026-05-30T21:36:24+00:00",
+      "published_dt": "2026-05-30T21:36:24+00:00",
+      "score": 7.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "How we contain Claude across products (Simon Willison) highlights a notable AI development with score 7.4.",
+      "summary_zh": "Simon Willison 报道：How we contain Claude across products，综合评分 7.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48338660",
+      "title": "OpenRouter raises $113M Series B",
+      "url": "https://openrouter.ai/announcements/series-b",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-30T17:27:28+00:00",
+      "published_dt": "2026-05-30T17:27:28+00:00",
+      "hn_score": 371,
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$113M",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenRouter raises $113M Series B (Hacker News) highlights a notable AI development with score 7.3.",
+      "summary_zh": "Hacker News 报道：OpenRouter raises $113M Series B，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-31T03:26:32.671680+00:00",
+      "published_dt": "2026-05-31T03:26:32.671680+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-05-31T03:26:32.671680+00:00",
+      "published_dt": "2026-05-31T03:26:32.671680+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128041",
+      "title": "SoftBank says it will invest up to €75 billion to build French data centers",
+      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
+      "published": "2026-05-30T21:45:00+00:00",
+      "published_dt": "2026-05-30T21:45:00+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "SoftBank says it will invest up to €75 billion to build French data centers (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：SoftBank says it will invest up to €75 billion to build French data centers，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3127853",
+      "title": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+      "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The golden age of Microsoft's Github Copilot appears to be at an end.",
+      "published": "2026-05-30T16:30:00+00:00",
+      "published_dt": "2026-05-30T16:30:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48336233",
+      "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
+      "url": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-30T13:56:34+00:00",
+      "published_dt": "2026-05-30T13:56:34+00:00",
+      "hn_score": 395,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic surpasses OpenAI to become most valuable AI startup (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：Anthropic surpasses OpenAI to become most valuable AI startup，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+      "title": "Running Python ASGI apps in the browser via Pyodide + a service worker",
+      "url": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Research: Running Python ASGI apps in the browser via Pyodide + a service worker Datasette Lite is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly. When I first built it four years ago I used Web Workers and code that intercepts navigation operations and fetches the generated HTML by running the Python app. This worked, but had the disadvantage that any JavaScript in <script> tags would not be executed - breaking some Datasette functionality and a whole lot of Datasette plugins. This morning I set Claude Opus 4.8 the task (in Claude Code for web) of figuring out how to run Python ASGI apps in Pyodide using Service Workers instead, and it seems to work! Here's a basic ASGI FastCGI demo and here's a demo that runs Datasette 1.0a31. I'm still getting my head around exactly how it works, but once I've done that I plan to upgrade Datasette Lite itself. Tags: javascript, python, datasette, asgi, service-workers, pyodide, datasette-lite, claude-code",
+      "published": "2026-05-30T21:02:16+00:00",
+      "published_dt": "2026-05-30T21:02:16+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Running Python ASGI apps in the browser via Pyodide + a service worker (Simon Willison) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Simon Willison 报道：Running Python ASGI apps in the browser via Pyodide + a service worker，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=938245",
+      "title": "How one founder’s bet on ‘the old school web’ is paying off",
+      "url": "https://www.theverge.com/tech/938245/past-maps-website-google-zero-ai",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "A good time with old maps. | Image: Past Maps Craig Campbell walked away from the river of investor money flowing into AI to create, of all things, a website. Sure, Campbell probably could have started an AI company. He's a former engineer at Meta and an experienced tech founder who in 2022 sold his last venture - an e-commerce tool for businesses that use Shopify - right as the AI boom was booming. \"I had my prior VC investors breathing down my neck, going 'start something else. We'll write you a blank check.'\" He had other ideas. People generally aren't rushing to get into the website business, what with the Google Zero event horizon approaching. Campbell was undeterred and has gro … Read the full story at The Verge.",
+      "published": "2026-05-30T13:00:00+00:00",
+      "published_dt": "2026-05-30T13:00:00+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google",
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How one founder’s bet on ‘the old school web’ is paying off (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：How one founder’s bet on ‘the old school web’ is paying off，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
+      "title": "I Am Retiring from Tech to Live Offline",
+      "url": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "I Am Retiring from Tech to Live Offline I've seen a lot of posts on forums from people threatening to quit their careers over AI. This is not one of those: Chad Whitacre is taking concrete steps, starting with this typewritten, scanned letter I'm retiring from tech. Well, \"retiring\" is euphemistic. I'm stepping away from tech, and that includes Open Source. [...] AI was the last straw. Have you heard of that island off India where the indigenous population kills any outsiders fool-hardy enough to land? They are doing the rest of us a favor by preserving a way of life we may need again someday, or at the very least should not want to see completely extinguished. A reminder. Never forget your roots. Here in Pennsylvania we have the Amish performing a similar function. Significantly less hostile, though still set apart, they bear witness to what was normal for all of us a couple short centuries ago: horse and buggy, wood stoves and lanterns. My intent is to be AI Amish, which means Internet Amish. Not 1780, but 1980. Neo-Amish. I'm fine driving a car and flipping a lightswitch, by which I mean that they don't make me into something I hate, which AI and [struck through: social media] [handwritten above: doomscrolling] do. I'll admit that at first I wasn't entirely sure if this was serious. Then I found this earlier post by Chad from Feb 19 2026, Spitting Out the Agentic Kool-Aid: I figured I’d better taste the Kool-Aid in order to form an opinion, so I dove into Claude Code with Opus 4.5 on a side project. I spent three 12+ hour days with it. I was intoxicated. My family was weirded out. [...] It weirded me out too, when I unplugged for a long weekend. Something felt off. It was like I had another “person” in my head, sharing my inner monologue—but the “person” was a computer system owned by a budding megacorp. [...] I am now also committing myself to disembarking from the titantic of technological accelerationism. All efforts to address the problems of invasive technol",
+      "published": "2026-05-30T19:39:08+00:00",
+      "published_dt": "2026-05-30T19:39:08+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "I Am Retiring from Tech to Live Offline (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：I Am Retiring from Tech to Live Offline，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48339180",
+      "title": "Hormuz crisis side effect: a sharp rise in container shipping rates",
+      "url": "https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-30T18:19:23+00:00",
+      "published_dt": "2026-05-30T18:19:23+00:00",
+      "hn_score": 170,
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Hormuz crisis side effect: a sharp rise in container shipping rates (Hacker News) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Hacker News 报道：Hormuz crisis side effect: a sharp rise in container shipping rates，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=938844",
+      "title": "AI grifters are creating fake Black people to sell Shein junk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "TikTok sellers that appear to be AI generated, in tears. | The Verge Aliyah, a light-skinned Black woman dressed in country-western gear, is struggling to sell metal buckles she handmade on TikTok. In a video for the social media platform from March, she cries to the camera and pleads for views: \"Even as a black woman, I have more faith that white women will stay 13 seconds [on this video] to save my belt buckle business,\" the onscreen text reads. She wipes a tear off her cheek. But Aliyah isn't real, and neither are her supposedly handmade products - she's one of many AI-generated influencers created to sell mass-produced products via dropshipping on TikTok, Facebook, and Instagram. Identical belt buckles … Read the full story at The Verge.",
+      "published": "2026-05-30T13:00:00+00:00",
+      "published_dt": "2026-05-30T13:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI grifters are creating fake Black people to sell Shein junk (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：AI grifters are creating fake Black people to sell Shein junk，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48340411",
+      "title": "Domain expertise has always been the real moat",
+      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-05-30T20:40:57+00:00",
+      "published_dt": "2026-05-30T20:40:57+00:00",
+      "hn_score": 333,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Domain expertise has always been the real moat (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Domain expertise has always been the real moat，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128007",
+      "title": "Meta is reportedly developing an AI pendant",
+      "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta seems to be making big bets on AI-powered hardware.",
+      "published": "2026-05-30T15:59:58+00:00",
+      "published_dt": "2026-05-30T15:59:58+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta is reportedly developing an AI pendant (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Meta is reportedly developing an AI pendant，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3127707",
+      "title": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
+      "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.",
+      "published": "2026-05-30T15:30:00+00:00",
+      "published_dt": "2026-05-30T15:30:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3026701",
+      "title": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026",
+      "url": "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "published": "2026-05-30T13:00:00+00:00",
+      "published_dt": "2026-05-30T13:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026 (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
