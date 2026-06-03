@@ -1,0 +1,2838 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T03:42:23",
+  "stats": {
+    "total_items": 44,
+    "high_importance": 7,
+    "medium_importance": 37,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+      "title": "Microsoft's new MAI models",
+      "url": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Microsoft announced two new text LLMs this morning - MAI-Thinking-1 (reasoning, 1T parameters, 35B active, available to \"select early partners\") and MAI-Code-1-Flash (137B Parameters, 5B active, \"purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual Studio Code\"). I've not been able to try either of them just yet. It's very interesting to see Microsoft releasing models with such low parameter counts, especially given how expensive larger models are to access right now. They claim MAI-Thinking-1 \"is preferred to Sonnet 4.6 in our blind human side-by-side evaluations\", which is impressive for a 35B model seeing as I frequently run models larger than that on my own laptop. (UPDATE: I got this entirely wrong, see note below.) Also of note: We trained [MAI-Thinking-1] from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models. And for MAI-Code-1-Flash as well: It is built end-to-end by Microsoft using clean and appropriately licensed data. I would very much like to learn more about this \"appropriately licensed\" data! Could these be the first generally useful code-specialist models that didn't train on an unlicensed dump of the web? (Update: the answer is no, see note below.) Update: My initial published notes got the size of the models wrong. I misread Microsoft's announcements and interpreted the MoE active parameter count as the total parameter count, but the model card for MAI-Code-1-Flash lists it as 137B with 5B active and the MAI-Thinking-1 technical paper reveals it to be a 1T model with 35B active. I deeply regret this error. Update 2: That technical paper describes the training data in some detail from page 80 onwards. It has the same licensing problems as all of the other major LLMs: it's trained on a crawl of the public web: The majority of our web HTML corpus comes from a proprietary crawl. After init",
+      "published": "2026-06-02T22:21:52+00:00",
+      "published_dt": "2026-06-02T22:21:52+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "MoE",
+          "distillation"
+        ]
+      },
+      "summary_en": "Microsoft's new MAI models (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Microsoft's new MAI models，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93632",
+      "title": "Sector Snapshot: Defense Startup Funding Hits An All-Time Record As VCs Begin To Eye Exits",
+      "url": "https://news.crunchbase.com/defense-tech/startup-venture-funding-all-time-record-ai-anduril/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A decade ago, defense tech was considered a niche, even controversial corner of venture capital, with few startup investors daring to place bets on companies working with the military. How times have changed. Already this year, more than $14.6 billion in venture investment has gone into companies in Crunchbase’s military, national security and law enforcement categories, blowing past the sector’s previous annual record of $9.6 billion raised in all of 2025. Investors have poured billions into startups developing AI-powered military systems, autonomous vehicles, defense software and space technologies, and they’re writing increasingly large checks to do it, Crunchbase data shows. Funding growth accelerates The defense tech sector’s rise has been years in the making Global defense tech funding totaled $1.6 billion in 2020 before climbing to $3.9 billion in 2021, Crunchbase data shows. Funding then remained relatively steady between roughly $2.8 billion and $3.8 billion from 2022 through 2024. That changed dramatically last year, when funding jumped to a record $9.6 billion. Now, five months into 2026, startups in the sector have already eclipsed the full-year record set in 2025. Deal flow has stayed steadier, mirroring a broader trend of venture capital concentration. So far this year, defense tech startups have announced 107 venture rounds, Crunchbase data shows, putting 2026’s pace slightly ahead of the 206 deals done in 2025. Megarounds lead the way The biggest contributor to this year’s funding surge, by far, is Anduril Industries. The Costa Mesa, California-based company announced a $5 billion Series H last month, a deal that valued it at $30.5 billion and further cemented its status as the most valuable venture-backed defense startup in the world. Still, it’s not the only defense- or military-related startup drawing large sums of funding. Many of this year’s biggest rounds involve companies building AI-enabled defense systems, autonomous aircraft and maritime ve",
+      "published": "2026-06-02T13:00:52+00:00",
+      "published_dt": "2026-06-02T13:00:52+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$14.6 billion",
+          "$9.6 billion",
+          "$1.6 billion",
+          "$3.9 billion",
+          "$2.8 billion",
+          "$3.8 billion",
+          "$5 billion",
+          "$30.5 billion",
+          "Series H"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Sector Snapshot: Defense Startup Funding Hits An All-Time Record As VCs Begin To Eye Exits (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Sector Snapshot: Defense Startup Funding Hits An All-Time Record As VCs Begin To Eye Exits，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93629",
+      "title": "SaaS Is Dead. Long Live SaaS! AI And The End Of The Rationing Of Knowledge Work",
+      "url": "https://news.crunchbase.com/saas/knowledge-work-investment-ai-morse-strattam/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By now, the headline will be familiar to most Crunchbase News readers: SaaS is Dead. The market believes software businesses can’t charge premiums anymore and it predicts slowing growth indefinitely. There are two reasons. First, AI powers a 10x decrease in software production costs. Second, these AI capabilities enable a huge wave of new competitors, both VC-funded startups and in-house solutions. Reduced software production costs and rising competition, they say, will eliminate software’s pricing power. Public software stocks traded down 20% this year through mid-May, and for the first time in history, software trades at a discount to the average S&P500 multiple on earnings. SaaS is dead. It is true that AI has brought falling costs and rising competition. But it does not follow that SaaS is dead. Lowering the cost to produce software does not mean that software revenue will shrink. In fact, history suggests the opposite. In certain cases, efficiency begets consumption. This is the lesson of the Jevons Paradox. It worked for coal engines, it worked for data centers, and it will also work for AI-powered software. The Jevons Paradox Let’s start with coal. In 1860s Britain, many worried about burning through the country’s coal resources too quickly. Conventional wisdom said that developing more-efficient coal-burning engines would make the coal last longer. But economist William Stanley Jevons recognized that more coal-efficient engines would cause an increase in demand for coal energy with the result that Britons would burn through their coal more quickly, not less. Jevons was right. When greater efficiency produced lower costs, it also unlocked enormous new demand. This consumed coal reserves faster, not slower. Twenty-five years ago, I joined a buyout firm during the 2001 dot-com crash. My first investment was in a troubled datacenter company. Exodus Communication, which reached a peak market cap of $32 billion, then went through bankruptcy twice as datacenter dem",
+      "published": "2026-06-02T11:00:00+00:00",
+      "published_dt": "2026-06-02T11:00:00+00:00",
+      "score": 9.5,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$32 billion"
+        ],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "SaaS Is Dead. Long Live SaaS! AI And The End Of The Rationing Of Knowledge Work (Crunchbase News) highlights a notable AI development with score 9.5.",
+      "summary_zh": "Crunchbase News 报道：SaaS Is Dead. Long Live SaaS! AI And The End Of The Rationing Of Knowledge Work，综合评分 9.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/github",
+      "title": "GitHub's plan for Agents — Kyle Daigle, GitHub",
+      "url": "https://www.latent.space/p/github",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "I’m excited to work with Microsoft once again as the presenting sponsors of the AI Engineer World’s Fair! We’ll streaming live from MS Build today for a special crossover pod with our friends at No Priors and the one and only Satya Nadella. However we did not hold back with this interview - we asked all the burning questions about uptime and Copilot that we know you have in your minds. Lets go!For almost two decades, GitHub has been the home of software, where both open source and closed flow, through commits, pull requests, reviews, actions, etc.This ecosystem flourished as open-source maintainers and contributors would continue shipping code for the benefit of the community. However as coding agents began to ship mass quantities of code - growing 1400% in 2026, it marked a new era that was both extremely exciting and challenging for GitHub.While these agents help more people ship more projects, they also significantly increase the floor of how much code is shipped, how often it is shipped, how many people commit code, and basically orders of magnitude multiples in every dimension of GitHub infrastructure:our valuemule podNow GitHub inevitably experiences more pressure on their infrastructure which was originally designed around human developers moving at human speed. This has resulted in a very publicly notable uptime story:So it begs the question of whether current systems around code can absorb what AI produces. Can CI/CD keep up when every idea becomes a build? Can open source maintainers survive floods of AI-generated slop contributions? Can GitHub preserve the human social contract of software while becoming the operating layer for agents?Which brings us to the perfect person to answer these questions: GitHub COO Kyle Daigle. In this episode, he joins swyx to unpack what happens when AI doesn’t just autocomplete code, but starts changing how companies operate, how open source works, how pull requests get reviewed, and how GitHub itself has to scale. We go dee",
+      "published": "2026-06-02T16:48:21+00:00",
+      "published_dt": "2026-06-02T16:48:21+00:00",
+      "score": 9.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "GitHub's plan for Agents — Kyle Daigle, GitHub (Latent Space) highlights a notable AI development with score 9.0.",
+      "summary_zh": "Latent Space 报道：GitHub's plan for Agents — Kyle Daigle, GitHub，综合评分 9.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128845",
+      "title": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses",
+      "url": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The cybersecurity company is nearing a $300 million round led by Evolution Equity Partners.",
+      "published": "2026-06-02T22:50:56+00:00",
+      "published_dt": "2026-06-02T22:50:56+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$12B",
+          "$300 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Cyera eyes $12B valuation at 80x ARR multiple despite operating losses，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+          "title": "Microsoft's new MAI models",
+          "url": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Microsoft announced two new text LLMs this morning - MAI-Thinking-1 (reasoning, 1T parameters, 35B active, available to \"select early partners\") and MAI-Code-1-Flash (137B Parameters, 5B active, \"purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual Studio Code\"). I've not been able to try either of them just yet. It's very interesting to see Microsoft releasing models with such low parameter counts, especially given how expensive larger models are to access right now. They claim MAI-Thinking-1 \"is preferred to Sonnet 4.6 in our blind human side-by-side evaluations\", which is impressive for a 35B model seeing as I frequently run models larger than that on my own laptop. (UPDATE: I got this entirely wrong, see note below.) Also of note: We trained [MAI-Thinking-1] from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models. And for MAI-Code-1-Flash as well: It is built end-to-end by Microsoft using clean and appropriately licensed data. I would very much like to learn more about this \"appropriately licensed\" data! Could these be the first generally useful code-specialist models that didn't train on an unlicensed dump of the web? (Update: the answer is no, see note below.) Update: My initial published notes got the size of the models wrong. I misread Microsoft's announcements and interpreted the MoE active parameter count as the total parameter count, but the model card for MAI-Code-1-Flash lists it as 137B with 5B active and the MAI-Thinking-1 technical paper reveals it to be a 1T model with 35B active. I deeply regret this error. Update 2: That technical paper describes the training data in some detail from page 80 onwards. It has the same licensing problems as all of the other major LLMs: it's trained on a crawl of the public web: The majority of our web HTML corpus comes from a proprietary crawl. After init",
+          "published": "2026-06-02T22:21:52+00:00",
+          "published_dt": "2026-06-02T22:21:52+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "MoE",
+              "distillation"
+            ]
+          },
+          "summary_en": "Microsoft's new MAI models (Simon Willison) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Simon Willison 报道：Microsoft's new MAI models，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.qbitai.com/?p=427754",
+          "title": "百度文心发布 PaddleOCR-VL-1.6：准确率突破 96.33%，刷新文档解析 SOTA",
+          "url": "https://www.qbitai.com/2026/06/427754.html",
+          "source": "量子位",
+          "source_type": "rss",
+          "content": "已上线 PaddleOCR 官网，支持网页端和API调用",
+          "published": "2026-06-02T07:47:30+00:00",
+          "published_dt": "2026-06-02T07:47:30+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "SOTA"
+            ]
+          },
+          "summary_en": "百度文心发布 PaddleOCR-VL-1.6：准确率突破 96.33%，刷新文档解析 SOTA (量子位) highlights a notable AI development with score 6.1.",
+          "summary_zh": "量子位 报道：百度文心发布 PaddleOCR-VL-1.6：准确率突破 96.33%，刷新文档解析 SOTA，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.interconnects.ai/p/farewell-ai2",
+          "title": "Farewell Ai2",
+          "url": "https://www.interconnects.ai/p/farewell-ai2",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "I’m departing the Allen Institute for AI (Ai2), where I got the great privilege to work on the Olmo models, to grow, to learn, and to have broad lasting impacts. This post is an attempt to reflect on why what we did was influential, despite obviously being far from the frontier in performance (even when within size buckets), and how this reflects on various paths to impact in AI today.To start, I shared the following note with the company yesterday:Dear Ai2.As many of you know, today is my last day working at Ai2.I joined Ai2 largely as an accident. I met Luca at ICML 2023 in Hawaii and realized I could level up my open post-training work dramatically if I got the chance to join. When I got an offer it was an absolute no-brainer, it was such a welcoming and exciting environment.It has been a wonderful ride that has transformed my life, and I couldn’t be prouder of the work we did together. Ai2 has a wonderful scientific culture at its core and I’m excited to see this continue. I feel very lucky to have been here and that I personally have benefited massively from everyone who has worked so hard to cultivate that culture and environment. It is and has been a team effort. This includes all the people whose longest interactions with me were brief chats at the coffee machine. I drew so much energy and excitement from all the different ways people at Ai2 showed up for the mission.I’ve already thanked much of the OE team directly, but I wanted to thank everyone else that went into this. Legal, IT, Comms, and the Office team all do a great job enabling and leveling up our research work. It’s often work that is forgotten, outside of the lime light, or remembered at the last minute, but it all has been crucial to achieving our goals. I’m excited to keep visiting the wonderful Northlake space in the coming years.Even though I’m leaving, I’m more excited than ever about Ai2’s mission. Ai2 operates in such a rare niche between academia and industry, where we can explore and inf",
+          "published": "2026-06-02T14:15:59+00:00",
+          "published_dt": "2026-06-02T14:15:59+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Farewell Ai2 (Interconnects (Nathan Lambert)) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：Farewell Ai2，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 8,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93632",
+          "title": "Sector Snapshot: Defense Startup Funding Hits An All-Time Record As VCs Begin To Eye Exits",
+          "url": "https://news.crunchbase.com/defense-tech/startup-venture-funding-all-time-record-ai-anduril/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "A decade ago, defense tech was considered a niche, even controversial corner of venture capital, with few startup investors daring to place bets on companies working with the military. How times have changed. Already this year, more than $14.6 billion in venture investment has gone into companies in Crunchbase’s military, national security and law enforcement categories, blowing past the sector’s previous annual record of $9.6 billion raised in all of 2025. Investors have poured billions into startups developing AI-powered military systems, autonomous vehicles, defense software and space technologies, and they’re writing increasingly large checks to do it, Crunchbase data shows. Funding growth accelerates The defense tech sector’s rise has been years in the making Global defense tech funding totaled $1.6 billion in 2020 before climbing to $3.9 billion in 2021, Crunchbase data shows. Funding then remained relatively steady between roughly $2.8 billion and $3.8 billion from 2022 through 2024. That changed dramatically last year, when funding jumped to a record $9.6 billion. Now, five months into 2026, startups in the sector have already eclipsed the full-year record set in 2025. Deal flow has stayed steadier, mirroring a broader trend of venture capital concentration. So far this year, defense tech startups have announced 107 venture rounds, Crunchbase data shows, putting 2026’s pace slightly ahead of the 206 deals done in 2025. Megarounds lead the way The biggest contributor to this year’s funding surge, by far, is Anduril Industries. The Costa Mesa, California-based company announced a $5 billion Series H last month, a deal that valued it at $30.5 billion and further cemented its status as the most valuable venture-backed defense startup in the world. Still, it’s not the only defense- or military-related startup drawing large sums of funding. Many of this year’s biggest rounds involve companies building AI-enabled defense systems, autonomous aircraft and maritime ve",
+          "published": "2026-06-02T13:00:52+00:00",
+          "published_dt": "2026-06-02T13:00:52+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$14.6 billion",
+              "$9.6 billion",
+              "$1.6 billion",
+              "$3.9 billion",
+              "$2.8 billion",
+              "$3.8 billion",
+              "$5 billion",
+              "$30.5 billion",
+              "Series H"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Sector Snapshot: Defense Startup Funding Hits An All-Time Record As VCs Begin To Eye Exits (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Sector Snapshot: Defense Startup Funding Hits An All-Time Record As VCs Begin To Eye Exits，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93629",
+          "title": "SaaS Is Dead. Long Live SaaS! AI And The End Of The Rationing Of Knowledge Work",
+          "url": "https://news.crunchbase.com/saas/knowledge-work-investment-ai-morse-strattam/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "By now, the headline will be familiar to most Crunchbase News readers: SaaS is Dead. The market believes software businesses can’t charge premiums anymore and it predicts slowing growth indefinitely. There are two reasons. First, AI powers a 10x decrease in software production costs. Second, these AI capabilities enable a huge wave of new competitors, both VC-funded startups and in-house solutions. Reduced software production costs and rising competition, they say, will eliminate software’s pricing power. Public software stocks traded down 20% this year through mid-May, and for the first time in history, software trades at a discount to the average S&P500 multiple on earnings. SaaS is dead. It is true that AI has brought falling costs and rising competition. But it does not follow that SaaS is dead. Lowering the cost to produce software does not mean that software revenue will shrink. In fact, history suggests the opposite. In certain cases, efficiency begets consumption. This is the lesson of the Jevons Paradox. It worked for coal engines, it worked for data centers, and it will also work for AI-powered software. The Jevons Paradox Let’s start with coal. In 1860s Britain, many worried about burning through the country’s coal resources too quickly. Conventional wisdom said that developing more-efficient coal-burning engines would make the coal last longer. But economist William Stanley Jevons recognized that more coal-efficient engines would cause an increase in demand for coal energy with the result that Britons would burn through their coal more quickly, not less. Jevons was right. When greater efficiency produced lower costs, it also unlocked enormous new demand. This consumed coal reserves faster, not slower. Twenty-five years ago, I joined a buyout firm during the 2001 dot-com crash. My first investment was in a troubled datacenter company. Exodus Communication, which reached a peak market cap of $32 billion, then went through bankruptcy twice as datacenter dem",
+          "published": "2026-06-02T11:00:00+00:00",
+          "published_dt": "2026-06-02T11:00:00+00:00",
+          "score": 9.5,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$32 billion"
+            ],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "SaaS Is Dead. Long Live SaaS! AI And The End Of The Rationing Of Knowledge Work (Crunchbase News) highlights a notable AI development with score 9.5.",
+          "summary_zh": "Crunchbase News 报道：SaaS Is Dead. Long Live SaaS! AI And The End Of The Rationing Of Knowledge Work，综合评分 9.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128845",
+          "title": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses",
+          "url": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The cybersecurity company is nearing a $300 million round led by Evolution Equity Partners.",
+          "published": "2026-06-02T22:50:56+00:00",
+          "published_dt": "2026-06-02T22:50:56+00:00",
+          "score": 8.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$12B",
+              "$300 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses (TechCrunch AI) highlights a notable AI development with score 8.9.",
+          "summary_zh": "TechCrunch AI 报道：Cyera eyes $12B valuation at 80x ARR multiple despite operating losses，综合评分 8.9，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128443",
+          "title": "Rocket engine startup Impulse raises $500 million to hire people, not AI",
+          "url": "https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Engineering physical systems still depends on human talent, according to Impulse Space president Eric Romo.",
+          "published": "2026-06-02T12:00:00+00:00",
+          "published_dt": "2026-06-02T12:00:00+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$500 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Rocket engine startup Impulse raises $500 million to hire people, not AI (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：Rocket engine startup Impulse raises $500 million to hire people, not AI，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=941271",
+          "title": "Microsoft created the mini Surface dev box that Qualcomm couldn&#8217;t",
+          "url": "https://www.theverge.com/news/941271/microsoft-surface-rtx-spark-dev-box-specs-availability",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Microsoft only just announced a new Surface Laptop Ultra at the weekend, and it's now revealing a miniature Surface PC aimed at developers. The new Surface RTX Spark Dev Box is powered by Nvidia's new Arm-based RTX Spark chips, just like the Surface Laptop Ultra, and is optimized for sustained workloads and local AI tasks. The Surface RTX Spark Dev Box looks a little like the top of an Xbox Series X console, with an aluminum chassis that also doubles as a heatsink. It has a 100-watt thermal envelope, slightly more than the 45-watt-to-80-watt thermal envelopes for Nvidia's RTX Spark laptops. This miniature Surface PC also has 128GB of unifie … Read the full story at The Verge.",
+          "published": "2026-06-02T16:30:00+00:00",
+          "published_dt": "2026-06-02T16:30:00+00:00",
+          "score": 7.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Microsoft",
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "Series X"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Microsoft created the mini Surface dev box that Qualcomm couldn&#8217;t (The Verge AI) highlights a notable AI development with score 7.6.",
+          "summary_zh": "The Verge AI 报道：Microsoft created the mini Surface dev box that Qualcomm couldn&#8217;t，综合评分 7.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/codex-for-every-role-tool-workflow",
+          "title": "Codex for every role, tool, and workflow",
+          "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+          "published": "2026-06-02T09:00:00+00:00",
+          "published_dt": "2026-06-02T09:00:00+00:00",
+          "score": 7.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Codex for every role, tool, and workflow (OpenAI Blog) highlights a notable AI development with score 7.6.",
+          "summary_zh": "OpenAI Blog 报道：Codex for every role, tool, and workflow，综合评分 7.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=941830",
+          "title": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets",
+          "url": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Microsoft just announced \"Project Solara,\" a new OS designed for gadgets that run AI agents, at Build 2026. The company is calling it \"a new platform built from the ground up to power agent-driven experiences.\" It's built on Android, not Windows. Microsoft demonstrated two concept Project Solara devices at Build today: Desk concept and badge concept. The desk concept is an Amazon Echo Show-like device that unlocks with facial recognition and provides access to AI agents. The badge concept is a wearable, the type of badge you'd typically use to access a work building. It has a camera and a fingerprint scanner, which can wake an AI agent wi … Read the full story at The Verge.",
+          "published": "2026-06-02T17:31:02+00:00",
+          "published_dt": "2026-06-02T17:31:02+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Microsoft",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Microsoft&#8217;s Project Solara is an OS for AI agent gadgets，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128586",
+          "title": "Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries",
+          "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Anthropic is expanding Project Glasswing, its security vulnerability program, and access to Mythos to 150 organizations across 15 countries — targeting critical infrastructure in power, water, healthcare, and communications where a cyberattack could affect 100 million people.",
+          "published": "2026-06-02T14:44:21+00:00",
+          "published_dt": "2026-06-02T14:44:21+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 5,
+      "items": [
+        {
+          "id": "hn-48374466",
+          "title": "MAI-Code-1-Flash",
+          "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://microsoft.ai/models/mai-code-1-flash/https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDFLaunching seven new MAI models: https://microsoft.ai/news/building-a-hillclimbing-machine-la...",
+          "published": "2026-06-02T18:47:07+00:00",
+          "published_dt": "2026-06-02T18:47:07+00:00",
+          "hn_score": 411,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "MAI-Code-1-Flash (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：MAI-Code-1-Flash，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128810",
+          "title": "Microsoft launches Scout, an OpenClaw-inspired personal assistant",
+          "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Launched at Build, Microsoft Scout is a new AI assistant meant to bring the power and flexibility of OpenClaw into the Microsoft 365 system.",
+          "published": "2026-06-02T18:02:44+00:00",
+          "published_dt": "2026-06-02T18:02:44+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Microsoft launches Scout, an OpenClaw-inspired personal assistant (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Microsoft launches Scout, an OpenClaw-inspired personal assistant，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=941517",
+          "title": "Google’s Phone app will tell you if a scammer is impersonating one of your contacts",
+          "url": "https://www.theverge.com/tech/941517/google-phone-scammer-ai-impersonation",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Google is launching a new feature for its Phone app that aims to protect you from AI impersonation scams. Now, when you receive a call from a scammer that appears to be coming from the same number as one of your contacts, Phone by Google will flag the call as suspicious so you can hang up. It's part of Google's broader June Android drop, which will add support for Apple AirDrop across more devices, including the Samsung Galaxy S25 lineup. Google is also making its Personal Safety app available to kids under 13, widely rolling out support for its AI-powered clothing try-on feature in Photos, and bringing the ability to find items in an outfi … Read the full story at The Verge.",
+          "published": "2026-06-02T18:00:00+00:00",
+          "published_dt": "2026-06-02T18:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "Google’s Phone app will tell you if a scammer is impersonating one of your contacts (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Google’s Phone app will tell you if a scammer is impersonating one of your contacts，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48374362",
+          "title": "MAI-Thinking-1",
+          "url": "https://microsoft.ai/news/introducing-mai-thinking-1/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://microsoft.ai/wp-content/uploads/2026/06/main_2026060...Launching seven new MAI models: https://microsoft.ai/news/building-a-hillclimbing-machine-la...",
+          "published": "2026-06-02T18:39:34+00:00",
+          "published_dt": "2026-06-02T18:39:34+00:00",
+          "hn_score": 176,
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "MAI-Thinking-1 (Hacker News) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Hacker News 报道：MAI-Thinking-1，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=939713",
+          "title": "Microsoft Scout is a new AI personal assistant built on OpenClaw",
+          "url": "https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Much like Google, Microsoft is launching its own version of OpenClaw. Microsoft Scout is an always-on assistant that integrates into Microsoft 365 apps like Outlook, OneDrive, and Microsoft Teams, allowing businesses to assign a virtual assistant to employees to help with organizing calendars, expense reporting, email drafts, and much more. Unlike Copilot that lives inside Microsoft 365 apps, Microsoft Scout can see and do a lot more. \"This is a personal assistant, it's the first real personal assistant we've offered customers,\" explains Omar Shahine, corporate vice president of Microsoft Scout, in an interview with The Verge. \"I think it's … Read the full story at The Verge.",
+          "published": "2026-06-02T18:00:00+00:00",
+          "published_dt": "2026-06-02T18:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google",
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Microsoft Scout is a new AI personal assistant built on OpenClaw (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Microsoft Scout is a new AI personal assistant built on OpenClaw，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+          "title": "Advancing youth safety and opportunity through global leadership",
+          "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+          "published": "2026-06-02T07:00:00+00:00",
+          "published_dt": "2026-06-02T07:00:00+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "Advancing youth safety and opportunity through global leadership (OpenAI Blog) highlights a notable AI development with score 8.1.",
+          "summary_zh": "OpenAI Blog 报道：Advancing youth safety and opportunity through global leadership，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128585",
+          "title": "OpenAI launches new Codex tools for white-collar work",
+          "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI released a set of six plug-ins aimed at specific jobs: data analytics, creative production, sales, product design, equity investing, and investment banking. Available from within the Codex app, each of the new tools bundles integrations, instructions, and context to allow Codex to approximate a specific job.",
+          "published": "2026-06-02T16:00:00+00:00",
+          "published_dt": "2026-06-02T16:00:00+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI launches new Codex tools for white-collar work (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI launches new Codex tools for white-collar work，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=941664",
+          "title": "Microsoft’s first advanced reasoning AI is here",
+          "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Microsoft announced a bunch of new in-house AI models at Build 2026, including a new \"flagship\" model: MAI-Thinking-1. It's an ambitious step into model development for Microsoft, which introduced its initial in-house models last year - before then, it had relied on OpenAI's models. The two companies recently renegotiated their deal to loosen ties. According to Microsoft, MAI-Thinking-1 is a \"medium-sized model\" that \"matches leading models\" on \"key\" software engineering benchmarks. Microsoft says the company \"trained it from the ground up on clean data, without distillation from third-party models.\" As for other models announced today, t … Read the full story at The Verge.",
+          "published": "2026-06-02T18:12:44+00:00",
+          "published_dt": "2026-06-02T18:12:44+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "benchmark",
+              "distillation"
+            ]
+          },
+          "summary_en": "Microsoft’s first advanced reasoning AI is here (The Verge AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "The Verge AI 报道：Microsoft’s first advanced reasoning AI is here，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=941738",
+          "title": "Microsoft Build 2026: The 7 biggest announcements",
+          "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Microsoft just kicked off Build 2026 with a keynote from CEO Satya Nadella and other company leaders. As expected, it was filled with announcements, ranging from new Surface hardware to an always-on personal assistant and updates across Microsoft's in-house AI models. If you didn't watch the event live, you can catch up on all the latest news in the roundup below. A mini Surface PC designed for AI development The Surface RTX Spark Dev Box is geared toward developers who want to run local AI models on their device, serving as a substitute for Qualcomm's canceled dev kit. It comes equipped with Nvidia's new Arm-based Spark RTX chip and 128G … Read the full story at The Verge.",
+          "published": "2026-06-02T19:23:52+00:00",
+          "published_dt": "2026-06-02T19:23:52+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Microsoft",
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Microsoft Build 2026: The 7 biggest announcements (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Microsoft Build 2026: The 7 biggest announcements，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=941775",
+          "title": "Trump signs executive order to review AI models before they’re released",
+          "url": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the US AI industry has succeeded in part \"because we refuse to stifle this innovation with overly burdensome regulation,\" but that it also recognizes new AI capabilities come with security risks. Accordingly, it directs several federal agencies to come up with a framework to \"assess the advanced cyber capabilities of AI models\" before they're releas … Read the full story at The Verge.",
+          "published": "2026-06-02T18:33:42+00:00",
+          "published_dt": "2026-06-02T18:33:42+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Trump signs executive order to review AI models before they’re released (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Trump signs executive order to review AI models before they’re released，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?post_type=vm_stream&p=941668",
+          "title": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more",
+          "url": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Microsoft Build 2026 kicked off with a keynote presentation that introduced some developer-focused Windows updates, an OpenClaw-based AI assistant called Scout, the new Majorana 2 quantum computing chip, and a Surface mini PC designed for AI developers. Microsoft also rolled out a new Android-based OS called Project Solara that’s designed for gadgets that run AI agents. Build will continue through June 3rd, and we’ll have all the updates on Microsoft’s announcements here. Follow along here for the latest news and updates. Microsoft Build 2026: The 7 biggest announcements Microsoft’s next-gen quantum chip cuts timeline to useful quantum computing Microsoft’s first advanced reasoning AI is here Microsoft Scout is a new AI personal assistant built on OpenClaw Microsoft launches its Command Line blog during Build 2026. Microsoft makes it more secure to run OpenClaw on Windows. Microsoft’s Project Solara is an OS for AI agent gadgets Microsoft’s AI agent OS: Project Solara. Nvidia’s CEO dials into Build. The new Surface mini PC is here. Build kicks off with Windows. Microsoft’s new developer-optimized Windows embraces Linux even more Microsoft created the mini Surface dev box that Qualcomm couldn’t Microsoft Build 2026 is about to begin. How to watch Microsoft’s Build 2026 conference Microsoft to unveil new AI models and Windows improvements at Build Microsoft’s big developer conference returns to San Francisco in June",
+          "published": "2026-06-02T15:59:58+00:00",
+          "published_dt": "2026-06-02T15:59:58+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Microsoft",
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128693",
+          "title": "Trump signs narrower executive order on AI oversight after industry objections",
+          "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "After industry objections, President Trump signed a revised AI executive order requiring only voluntary prerelease government reviews of advanced models.",
+          "published": "2026-06-02T16:23:08+00:00",
+          "published_dt": "2026-06-02T16:23:08+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Trump signs narrower executive order on AI oversight after industry objections (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Trump signs narrower executive order on AI oversight after industry objections，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything",
+          "title": "datasette-agent-micropython 0.1a0",
+          "url": "https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette-agent-micropython 0.1a0 I want Datasette Agent to be able to generate and execute Python code safely. This alpha is looking promising so far. GPT-5.5 has so far failed to break out of the sandbox! Tags: python, sandboxing, datasette, webassembly, datasette-agent",
+          "published": "2026-06-02T19:28:36+00:00",
+          "published_dt": "2026-06-02T19:28:36+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "datasette-agent-micropython 0.1a0 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：datasette-agent-micropython 0.1a0，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything",
+          "title": "micropython-wasm 0.1a1",
+          "url": "https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: micropython-wasm 0.1a1 Fixes for some limitations that emerged while I was trying to use this to build datasette-agent-micropython. Tags: python, sandboxing, webassembly",
+          "published": "2026-06-02T19:20:47+00:00",
+          "published_dt": "2026-06-02T19:20:47+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "micropython-wasm 0.1a1 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：micropython-wasm 0.1a1，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48374079",
+          "title": "Microsoft announces Scout, an autonomous AI agent built on OpenClaw",
+          "url": "https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/0...https://www.404media.co/microsoft-wants-to-make-people-addic...https://www.wired.com/story/meet-microsoft-scout-your-ai-cow... (https://web.archive.org/web/20260602180553/https://www.wired...)",
+          "published": "2026-06-02T18:19:27+00:00",
+          "published_dt": "2026-06-02T18:19:27+00:00",
+          "hn_score": 88,
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Microsoft announces Scout, an autonomous AI agent built on OpenClaw (Hacker News) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Hacker News 报道：Microsoft announces Scout, an autonomous AI agent built on OpenClaw，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3128146",
+          "title": "ZeroDrift raises $10M to protect AI models from themselves",
+          "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "A new AI compliance service sits between AI models and end users to flag and replace any messages that might present a compliance problem.",
+          "published": "2026-06-02T12:32:59+00:00",
+          "published_dt": "2026-06-02T12:32:59+00:00",
+          "score": 6.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$10M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "ZeroDrift raises $10M to protect AI models from themselves (TechCrunch AI) highlights a notable AI development with score 6.5.",
+          "summary_zh": "TechCrunch AI 报道：ZeroDrift raises $10M to protect AI models from themselves，综合评分 6.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48375016",
+          "title": "Gmail thinks I'm stupid, so I left",
+          "url": "https://moddedbear.com/gmail-thinks-im-stupid-so-i-left",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-02T19:27:40+00:00",
+          "published_dt": "2026-06-02T19:27:40+00:00",
+          "hn_score": 683,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Gmail thinks I'm stupid, so I left (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Gmail thinks I'm stupid, so I left，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/travelers",
+          "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+          "url": "https://openai.com/index/travelers",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+          "published": "2026-06-02T12:00:00+00:00",
+          "published_dt": "2026-06-02T12:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Travelers deploys AI-powered claims countrywide with OpenAI (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Travelers deploys AI-powered claims countrywide with OpenAI，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48368121",
+          "title": "Adafruit receives demand letter from Fenwick legal counsel on behalf of Flux.ai",
+          "url": "https://blog.adafruit.com/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-02T10:00:56+00:00",
+          "published_dt": "2026-06-02T10:00:56+00:00",
+          "hn_score": 636,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Adafruit receives demand letter from Fenwick legal counsel on behalf of Flux.ai (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Adafruit receives demand letter from Fenwick legal counsel on behalf of Flux.ai，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128558",
+          "title": "Microsoft offers devs a better way to control AI agent behavior",
+          "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The specification lets developer, compliance, and security teams define their own policies for agents to follow in portable policy files.",
+          "published": "2026-06-02T18:00:00+00:00",
+          "published_dt": "2026-06-02T18:00:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Microsoft offers devs a better way to control AI agent behavior (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Microsoft offers devs a better way to control AI agent behavior，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/Hcompany/holo31",
+          "title": "Holo3.1: Fast & Local Computer Use Agents",
+          "url": "https://huggingface.co/blog/Hcompany/holo31",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-06-02T14:13:23+00:00",
+          "published_dt": "2026-06-02T14:13:23+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Holo3.1: Fast & Local Computer Use Agents (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Holo3.1: Fast & Local Computer Use Agents，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128791",
+          "title": "Uber caps employee AI spending after blowing through budget in 4 months",
+          "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Uber's cutback has occurred after the company had reportedly encouraged staff to use AI as much as possible.",
+          "published": "2026-06-02T19:11:48+00:00",
+          "published_dt": "2026-06-02T19:11:48+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Uber caps employee AI spending after blowing through budget in 4 months (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Uber caps employee AI spending after blowing through budget in 4 months，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128739",
+          "title": "Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI",
+          "url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The caveat is that one of the world's most famous living directors is using the tech solely for storyboarding.",
+          "published": "2026-06-02T18:16:53+00:00",
+          "published_dt": "2026-06-02T18:16:53+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128338",
+          "title": "Google rolls out fake call detection to protect against AI deepfake impersonation scams",
+          "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "As people increasingly refuse to answer calls from unknown numbers, scammers are shifting their tactics by spoofing trusted phone numbers and using AI deepfake technology to sound like authority figures, family members, or employers.",
+          "published": "2026-06-02T18:00:00+00:00",
+          "published_dt": "2026-06-02T18:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google rolls out fake call detection to protect against AI deepfake impersonation scams (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google rolls out fake call detection to protect against AI deepfake impersonation scams，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128670",
+          "title": "Amazon faces class action lawsuit over Ring facial-recognition feature",
+          "url": "https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The class action lawsuit, filed in Seattle by Virginia resident Charles Sigwalt, claims that Ring's Familiar Faces feature stores images of passersby without consent.",
+          "published": "2026-06-02T17:47:28+00:00",
+          "published_dt": "2026-06-02T17:47:28+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon faces class action lawsuit over Ring facial-recognition feature (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Amazon faces class action lawsuit over Ring facial-recognition feature，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/github",
+          "title": "GitHub's plan for Agents — Kyle Daigle, GitHub",
+          "url": "https://www.latent.space/p/github",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "I’m excited to work with Microsoft once again as the presenting sponsors of the AI Engineer World’s Fair! We’ll streaming live from MS Build today for a special crossover pod with our friends at No Priors and the one and only Satya Nadella. However we did not hold back with this interview - we asked all the burning questions about uptime and Copilot that we know you have in your minds. Lets go!For almost two decades, GitHub has been the home of software, where both open source and closed flow, through commits, pull requests, reviews, actions, etc.This ecosystem flourished as open-source maintainers and contributors would continue shipping code for the benefit of the community. However as coding agents began to ship mass quantities of code - growing 1400% in 2026, it marked a new era that was both extremely exciting and challenging for GitHub.While these agents help more people ship more projects, they also significantly increase the floor of how much code is shipped, how often it is shipped, how many people commit code, and basically orders of magnitude multiples in every dimension of GitHub infrastructure:our valuemule podNow GitHub inevitably experiences more pressure on their infrastructure which was originally designed around human developers moving at human speed. This has resulted in a very publicly notable uptime story:So it begs the question of whether current systems around code can absorb what AI produces. Can CI/CD keep up when every idea becomes a build? Can open source maintainers survive floods of AI-generated slop contributions? Can GitHub preserve the human social contract of software while becoming the operating layer for agents?Which brings us to the perfect person to answer these questions: GitHub COO Kyle Daigle. In this episode, he joins swyx to unpack what happens when AI doesn’t just autocomplete code, but starts changing how companies operate, how open source works, how pull requests get reviewed, and how GitHub itself has to scale. We go dee",
+          "published": "2026-06-02T16:48:21+00:00",
+          "published_dt": "2026-06-02T16:48:21+00:00",
+          "score": 9.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "GitHub's plan for Agents — Kyle Daigle, GitHub (Latent Space) highlights a notable AI development with score 9.0.",
+          "summary_zh": "Latent Space 报道：GitHub's plan for Agents — Kyle Daigle, GitHub，综合评分 9.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3128726",
+          "title": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
+          "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Microsoft on Tuesday took the wraps off Adaptive Spec-driven Scoring for Evaluation and Regression Testing, an open source framework for spinning up AI evaluations.",
+          "published": "2026-06-02T19:02:21+00:00",
+          "published_dt": "2026-06-02T19:02:21+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：New Microsoft tool lets devs spin up AI behavior tests using text descriptions，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-03T03:42:21.460183+00:00",
+          "published_dt": "2026-06-03T03:42:21.460183+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-03T03:42:21.460183+00:00",
+          "published_dt": "2026-06-03T03:42:21.460183+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.qbitai.com/?p=428335",
+          "title": "刚刚，Meta Skill来了",
+          "url": "https://www.qbitai.com/2026/06/428335.html",
+          "source": "量子位",
+          "source_type": "rss",
+          "content": "GitHub最新火爆仓库：OpenSquilla。",
+          "published": "2026-06-03T01:29:35+00:00",
+          "published_dt": "2026-06-03T01:29:35+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "刚刚，Meta Skill来了 (量子位) highlights a notable AI development with score 5.3.",
+          "summary_zh": "量子位 报道：刚刚，Meta Skill来了，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+      "title": "Microsoft's new MAI models",
+      "url": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Microsoft announced two new text LLMs this morning - MAI-Thinking-1 (reasoning, 1T parameters, 35B active, available to \"select early partners\") and MAI-Code-1-Flash (137B Parameters, 5B active, \"purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual Studio Code\"). I've not been able to try either of them just yet. It's very interesting to see Microsoft releasing models with such low parameter counts, especially given how expensive larger models are to access right now. They claim MAI-Thinking-1 \"is preferred to Sonnet 4.6 in our blind human side-by-side evaluations\", which is impressive for a 35B model seeing as I frequently run models larger than that on my own laptop. (UPDATE: I got this entirely wrong, see note below.) Also of note: We trained [MAI-Thinking-1] from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models. And for MAI-Code-1-Flash as well: It is built end-to-end by Microsoft using clean and appropriately licensed data. I would very much like to learn more about this \"appropriately licensed\" data! Could these be the first generally useful code-specialist models that didn't train on an unlicensed dump of the web? (Update: the answer is no, see note below.) Update: My initial published notes got the size of the models wrong. I misread Microsoft's announcements and interpreted the MoE active parameter count as the total parameter count, but the model card for MAI-Code-1-Flash lists it as 137B with 5B active and the MAI-Thinking-1 technical paper reveals it to be a 1T model with 35B active. I deeply regret this error. Update 2: That technical paper describes the training data in some detail from page 80 onwards. It has the same licensing problems as all of the other major LLMs: it's trained on a crawl of the public web: The majority of our web HTML corpus comes from a proprietary crawl. After init",
+      "published": "2026-06-02T22:21:52+00:00",
+      "published_dt": "2026-06-02T22:21:52+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "MoE",
+          "distillation"
+        ]
+      },
+      "summary_en": "Microsoft's new MAI models (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Microsoft's new MAI models，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93632",
+      "title": "Sector Snapshot: Defense Startup Funding Hits An All-Time Record As VCs Begin To Eye Exits",
+      "url": "https://news.crunchbase.com/defense-tech/startup-venture-funding-all-time-record-ai-anduril/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A decade ago, defense tech was considered a niche, even controversial corner of venture capital, with few startup investors daring to place bets on companies working with the military. How times have changed. Already this year, more than $14.6 billion in venture investment has gone into companies in Crunchbase’s military, national security and law enforcement categories, blowing past the sector’s previous annual record of $9.6 billion raised in all of 2025. Investors have poured billions into startups developing AI-powered military systems, autonomous vehicles, defense software and space technologies, and they’re writing increasingly large checks to do it, Crunchbase data shows. Funding growth accelerates The defense tech sector’s rise has been years in the making Global defense tech funding totaled $1.6 billion in 2020 before climbing to $3.9 billion in 2021, Crunchbase data shows. Funding then remained relatively steady between roughly $2.8 billion and $3.8 billion from 2022 through 2024. That changed dramatically last year, when funding jumped to a record $9.6 billion. Now, five months into 2026, startups in the sector have already eclipsed the full-year record set in 2025. Deal flow has stayed steadier, mirroring a broader trend of venture capital concentration. So far this year, defense tech startups have announced 107 venture rounds, Crunchbase data shows, putting 2026’s pace slightly ahead of the 206 deals done in 2025. Megarounds lead the way The biggest contributor to this year’s funding surge, by far, is Anduril Industries. The Costa Mesa, California-based company announced a $5 billion Series H last month, a deal that valued it at $30.5 billion and further cemented its status as the most valuable venture-backed defense startup in the world. Still, it’s not the only defense- or military-related startup drawing large sums of funding. Many of this year’s biggest rounds involve companies building AI-enabled defense systems, autonomous aircraft and maritime ve",
+      "published": "2026-06-02T13:00:52+00:00",
+      "published_dt": "2026-06-02T13:00:52+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$14.6 billion",
+          "$9.6 billion",
+          "$1.6 billion",
+          "$3.9 billion",
+          "$2.8 billion",
+          "$3.8 billion",
+          "$5 billion",
+          "$30.5 billion",
+          "Series H"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Sector Snapshot: Defense Startup Funding Hits An All-Time Record As VCs Begin To Eye Exits (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Sector Snapshot: Defense Startup Funding Hits An All-Time Record As VCs Begin To Eye Exits，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93629",
+      "title": "SaaS Is Dead. Long Live SaaS! AI And The End Of The Rationing Of Knowledge Work",
+      "url": "https://news.crunchbase.com/saas/knowledge-work-investment-ai-morse-strattam/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By now, the headline will be familiar to most Crunchbase News readers: SaaS is Dead. The market believes software businesses can’t charge premiums anymore and it predicts slowing growth indefinitely. There are two reasons. First, AI powers a 10x decrease in software production costs. Second, these AI capabilities enable a huge wave of new competitors, both VC-funded startups and in-house solutions. Reduced software production costs and rising competition, they say, will eliminate software’s pricing power. Public software stocks traded down 20% this year through mid-May, and for the first time in history, software trades at a discount to the average S&P500 multiple on earnings. SaaS is dead. It is true that AI has brought falling costs and rising competition. But it does not follow that SaaS is dead. Lowering the cost to produce software does not mean that software revenue will shrink. In fact, history suggests the opposite. In certain cases, efficiency begets consumption. This is the lesson of the Jevons Paradox. It worked for coal engines, it worked for data centers, and it will also work for AI-powered software. The Jevons Paradox Let’s start with coal. In 1860s Britain, many worried about burning through the country’s coal resources too quickly. Conventional wisdom said that developing more-efficient coal-burning engines would make the coal last longer. But economist William Stanley Jevons recognized that more coal-efficient engines would cause an increase in demand for coal energy with the result that Britons would burn through their coal more quickly, not less. Jevons was right. When greater efficiency produced lower costs, it also unlocked enormous new demand. This consumed coal reserves faster, not slower. Twenty-five years ago, I joined a buyout firm during the 2001 dot-com crash. My first investment was in a troubled datacenter company. Exodus Communication, which reached a peak market cap of $32 billion, then went through bankruptcy twice as datacenter dem",
+      "published": "2026-06-02T11:00:00+00:00",
+      "published_dt": "2026-06-02T11:00:00+00:00",
+      "score": 9.5,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$32 billion"
+        ],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "SaaS Is Dead. Long Live SaaS! AI And The End Of The Rationing Of Knowledge Work (Crunchbase News) highlights a notable AI development with score 9.5.",
+      "summary_zh": "Crunchbase News 报道：SaaS Is Dead. Long Live SaaS! AI And The End Of The Rationing Of Knowledge Work，综合评分 9.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/github",
+      "title": "GitHub's plan for Agents — Kyle Daigle, GitHub",
+      "url": "https://www.latent.space/p/github",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "I’m excited to work with Microsoft once again as the presenting sponsors of the AI Engineer World’s Fair! We’ll streaming live from MS Build today for a special crossover pod with our friends at No Priors and the one and only Satya Nadella. However we did not hold back with this interview - we asked all the burning questions about uptime and Copilot that we know you have in your minds. Lets go!For almost two decades, GitHub has been the home of software, where both open source and closed flow, through commits, pull requests, reviews, actions, etc.This ecosystem flourished as open-source maintainers and contributors would continue shipping code for the benefit of the community. However as coding agents began to ship mass quantities of code - growing 1400% in 2026, it marked a new era that was both extremely exciting and challenging for GitHub.While these agents help more people ship more projects, they also significantly increase the floor of how much code is shipped, how often it is shipped, how many people commit code, and basically orders of magnitude multiples in every dimension of GitHub infrastructure:our valuemule podNow GitHub inevitably experiences more pressure on their infrastructure which was originally designed around human developers moving at human speed. This has resulted in a very publicly notable uptime story:So it begs the question of whether current systems around code can absorb what AI produces. Can CI/CD keep up when every idea becomes a build? Can open source maintainers survive floods of AI-generated slop contributions? Can GitHub preserve the human social contract of software while becoming the operating layer for agents?Which brings us to the perfect person to answer these questions: GitHub COO Kyle Daigle. In this episode, he joins swyx to unpack what happens when AI doesn’t just autocomplete code, but starts changing how companies operate, how open source works, how pull requests get reviewed, and how GitHub itself has to scale. We go dee",
+      "published": "2026-06-02T16:48:21+00:00",
+      "published_dt": "2026-06-02T16:48:21+00:00",
+      "score": 9.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "GitHub's plan for Agents — Kyle Daigle, GitHub (Latent Space) highlights a notable AI development with score 9.0.",
+      "summary_zh": "Latent Space 报道：GitHub's plan for Agents — Kyle Daigle, GitHub，综合评分 9.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128845",
+      "title": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses",
+      "url": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The cybersecurity company is nearing a $300 million round led by Evolution Equity Partners.",
+      "published": "2026-06-02T22:50:56+00:00",
+      "published_dt": "2026-06-02T22:50:56+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$12B",
+          "$300 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Cyera eyes $12B valuation at 80x ARR multiple despite operating losses，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128443",
+      "title": "Rocket engine startup Impulse raises $500 million to hire people, not AI",
+      "url": "https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Engineering physical systems still depends on human talent, according to Impulse Space president Eric Romo.",
+      "published": "2026-06-02T12:00:00+00:00",
+      "published_dt": "2026-06-02T12:00:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$500 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Rocket engine startup Impulse raises $500 million to hire people, not AI (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Rocket engine startup Impulse raises $500 million to hire people, not AI，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "published": "2026-06-02T07:00:00+00:00",
+      "published_dt": "2026-06-02T07:00:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "Advancing youth safety and opportunity through global leadership (OpenAI Blog) highlights a notable AI development with score 8.1.",
+      "summary_zh": "OpenAI Blog 报道：Advancing youth safety and opportunity through global leadership，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128726",
+      "title": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
+      "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Microsoft on Tuesday took the wraps off Adaptive Spec-driven Scoring for Evaluation and Regression Testing, an open source framework for spinning up AI evaluations.",
+      "published": "2026-06-02T19:02:21+00:00",
+      "published_dt": "2026-06-02T19:02:21+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：New Microsoft tool lets devs spin up AI behavior tests using text descriptions，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128585",
+      "title": "OpenAI launches new Codex tools for white-collar work",
+      "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI released a set of six plug-ins aimed at specific jobs: data analytics, creative production, sales, product design, equity investing, and investment banking. Available from within the Codex app, each of the new tools bundles integrations, instructions, and context to allow Codex to approximate a specific job.",
+      "published": "2026-06-02T16:00:00+00:00",
+      "published_dt": "2026-06-02T16:00:00+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI launches new Codex tools for white-collar work (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI launches new Codex tools for white-collar work，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=941664",
+      "title": "Microsoft’s first advanced reasoning AI is here",
+      "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Microsoft announced a bunch of new in-house AI models at Build 2026, including a new \"flagship\" model: MAI-Thinking-1. It's an ambitious step into model development for Microsoft, which introduced its initial in-house models last year - before then, it had relied on OpenAI's models. The two companies recently renegotiated their deal to loosen ties. According to Microsoft, MAI-Thinking-1 is a \"medium-sized model\" that \"matches leading models\" on \"key\" software engineering benchmarks. Microsoft says the company \"trained it from the ground up on clean data, without distillation from third-party models.\" As for other models announced today, t … Read the full story at The Verge.",
+      "published": "2026-06-02T18:12:44+00:00",
+      "published_dt": "2026-06-02T18:12:44+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "benchmark",
+          "distillation"
+        ]
+      },
+      "summary_en": "Microsoft’s first advanced reasoning AI is here (The Verge AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "The Verge AI 报道：Microsoft’s first advanced reasoning AI is here，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=941271",
+      "title": "Microsoft created the mini Surface dev box that Qualcomm couldn&#8217;t",
+      "url": "https://www.theverge.com/news/941271/microsoft-surface-rtx-spark-dev-box-specs-availability",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Microsoft only just announced a new Surface Laptop Ultra at the weekend, and it's now revealing a miniature Surface PC aimed at developers. The new Surface RTX Spark Dev Box is powered by Nvidia's new Arm-based RTX Spark chips, just like the Surface Laptop Ultra, and is optimized for sustained workloads and local AI tasks. The Surface RTX Spark Dev Box looks a little like the top of an Xbox Series X console, with an aluminum chassis that also doubles as a heatsink. It has a 100-watt thermal envelope, slightly more than the 45-watt-to-80-watt thermal envelopes for Nvidia's RTX Spark laptops. This miniature Surface PC also has 128GB of unifie … Read the full story at The Verge.",
+      "published": "2026-06-02T16:30:00+00:00",
+      "published_dt": "2026-06-02T16:30:00+00:00",
+      "score": 7.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Microsoft",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "Series X"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Microsoft created the mini Surface dev box that Qualcomm couldn&#8217;t (The Verge AI) highlights a notable AI development with score 7.6.",
+      "summary_zh": "The Verge AI 报道：Microsoft created the mini Surface dev box that Qualcomm couldn&#8217;t，综合评分 7.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "title": "Codex for every role, tool, and workflow",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "published": "2026-06-02T09:00:00+00:00",
+      "published_dt": "2026-06-02T09:00:00+00:00",
+      "score": 7.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Codex for every role, tool, and workflow (OpenAI Blog) highlights a notable AI development with score 7.6.",
+      "summary_zh": "OpenAI Blog 报道：Codex for every role, tool, and workflow，综合评分 7.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-03T03:42:21.460183+00:00",
+      "published_dt": "2026-06-03T03:42:21.460183+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-03T03:42:21.460183+00:00",
+      "published_dt": "2026-06-03T03:42:21.460183+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=941738",
+      "title": "Microsoft Build 2026: The 7 biggest announcements",
+      "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Microsoft just kicked off Build 2026 with a keynote from CEO Satya Nadella and other company leaders. As expected, it was filled with announcements, ranging from new Surface hardware to an always-on personal assistant and updates across Microsoft's in-house AI models. If you didn't watch the event live, you can catch up on all the latest news in the roundup below. A mini Surface PC designed for AI development The Surface RTX Spark Dev Box is geared toward developers who want to run local AI models on their device, serving as a substitute for Qualcomm's canceled dev kit. It comes equipped with Nvidia's new Arm-based Spark RTX chip and 128G … Read the full story at The Verge.",
+      "published": "2026-06-02T19:23:52+00:00",
+      "published_dt": "2026-06-02T19:23:52+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Microsoft",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Microsoft Build 2026: The 7 biggest announcements (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Microsoft Build 2026: The 7 biggest announcements，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=941775",
+      "title": "Trump signs executive order to review AI models before they’re released",
+      "url": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the US AI industry has succeeded in part \"because we refuse to stifle this innovation with overly burdensome regulation,\" but that it also recognizes new AI capabilities come with security risks. Accordingly, it directs several federal agencies to come up with a framework to \"assess the advanced cyber capabilities of AI models\" before they're releas … Read the full story at The Verge.",
+      "published": "2026-06-02T18:33:42+00:00",
+      "published_dt": "2026-06-02T18:33:42+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Trump signs executive order to review AI models before they’re released (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Trump signs executive order to review AI models before they’re released，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?post_type=vm_stream&p=941668",
+      "title": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more",
+      "url": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Microsoft Build 2026 kicked off with a keynote presentation that introduced some developer-focused Windows updates, an OpenClaw-based AI assistant called Scout, the new Majorana 2 quantum computing chip, and a Surface mini PC designed for AI developers. Microsoft also rolled out a new Android-based OS called Project Solara that’s designed for gadgets that run AI agents. Build will continue through June 3rd, and we’ll have all the updates on Microsoft’s announcements here. Follow along here for the latest news and updates. Microsoft Build 2026: The 7 biggest announcements Microsoft’s next-gen quantum chip cuts timeline to useful quantum computing Microsoft’s first advanced reasoning AI is here Microsoft Scout is a new AI personal assistant built on OpenClaw Microsoft launches its Command Line blog during Build 2026. Microsoft makes it more secure to run OpenClaw on Windows. Microsoft’s Project Solara is an OS for AI agent gadgets Microsoft’s AI agent OS: Project Solara. Nvidia’s CEO dials into Build. The new Surface mini PC is here. Build kicks off with Windows. Microsoft’s new developer-optimized Windows embraces Linux even more Microsoft created the mini Surface dev box that Qualcomm couldn’t Microsoft Build 2026 is about to begin. How to watch Microsoft’s Build 2026 conference Microsoft to unveil new AI models and Windows improvements at Build Microsoft’s big developer conference returns to San Francisco in June",
+      "published": "2026-06-02T15:59:58+00:00",
+      "published_dt": "2026-06-02T15:59:58+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Microsoft",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128146",
+      "title": "ZeroDrift raises $10M to protect AI models from themselves",
+      "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "A new AI compliance service sits between AI models and end users to flag and replace any messages that might present a compliance problem.",
+      "published": "2026-06-02T12:32:59+00:00",
+      "published_dt": "2026-06-02T12:32:59+00:00",
+      "score": 6.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$10M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "ZeroDrift raises $10M to protect AI models from themselves (TechCrunch AI) highlights a notable AI development with score 6.5.",
+      "summary_zh": "TechCrunch AI 报道：ZeroDrift raises $10M to protect AI models from themselves，综合评分 6.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48374466",
+      "title": "MAI-Code-1-Flash",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://microsoft.ai/models/mai-code-1-flash/https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDFLaunching seven new MAI models: https://microsoft.ai/news/building-a-hillclimbing-machine-la...",
+      "published": "2026-06-02T18:47:07+00:00",
+      "published_dt": "2026-06-02T18:47:07+00:00",
+      "hn_score": 411,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "MAI-Code-1-Flash (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：MAI-Code-1-Flash，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128810",
+      "title": "Microsoft launches Scout, an OpenClaw-inspired personal assistant",
+      "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Launched at Build, Microsoft Scout is a new AI assistant meant to bring the power and flexibility of OpenClaw into the Microsoft 365 system.",
+      "published": "2026-06-02T18:02:44+00:00",
+      "published_dt": "2026-06-02T18:02:44+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Microsoft launches Scout, an OpenClaw-inspired personal assistant (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Microsoft launches Scout, an OpenClaw-inspired personal assistant，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128693",
+      "title": "Trump signs narrower executive order on AI oversight after industry objections",
+      "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "After industry objections, President Trump signed a revised AI executive order requiring only voluntary prerelease government reviews of advanced models.",
+      "published": "2026-06-02T16:23:08+00:00",
+      "published_dt": "2026-06-02T16:23:08+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Trump signs narrower executive order on AI oversight after industry objections (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Trump signs narrower executive order on AI oversight after industry objections，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=941517",
+      "title": "Google’s Phone app will tell you if a scammer is impersonating one of your contacts",
+      "url": "https://www.theverge.com/tech/941517/google-phone-scammer-ai-impersonation",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Google is launching a new feature for its Phone app that aims to protect you from AI impersonation scams. Now, when you receive a call from a scammer that appears to be coming from the same number as one of your contacts, Phone by Google will flag the call as suspicious so you can hang up. It's part of Google's broader June Android drop, which will add support for Apple AirDrop across more devices, including the Samsung Galaxy S25 lineup. Google is also making its Personal Safety app available to kids under 13, widely rolling out support for its AI-powered clothing try-on feature in Photos, and bringing the ability to find items in an outfi … Read the full story at The Verge.",
+      "published": "2026-06-02T18:00:00+00:00",
+      "published_dt": "2026-06-02T18:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "Google’s Phone app will tell you if a scammer is impersonating one of your contacts (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Google’s Phone app will tell you if a scammer is impersonating one of your contacts，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=941830",
+      "title": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets",
+      "url": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Microsoft just announced \"Project Solara,\" a new OS designed for gadgets that run AI agents, at Build 2026. The company is calling it \"a new platform built from the ground up to power agent-driven experiences.\" It's built on Android, not Windows. Microsoft demonstrated two concept Project Solara devices at Build today: Desk concept and badge concept. The desk concept is an Amazon Echo Show-like device that unlocks with facial recognition and provides access to AI agents. The badge concept is a wearable, the type of badge you'd typically use to access a work building. It has a camera and a fingerprint scanner, which can wake an AI agent wi … Read the full story at The Verge.",
+      "published": "2026-06-02T17:31:02+00:00",
+      "published_dt": "2026-06-02T17:31:02+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Microsoft",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Microsoft&#8217;s Project Solara is an OS for AI agent gadgets，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.qbitai.com/?p=427754",
+      "title": "百度文心发布 PaddleOCR-VL-1.6：准确率突破 96.33%，刷新文档解析 SOTA",
+      "url": "https://www.qbitai.com/2026/06/427754.html",
+      "source": "量子位",
+      "source_type": "rss",
+      "content": "已上线 PaddleOCR 官网，支持网页端和API调用",
+      "published": "2026-06-02T07:47:30+00:00",
+      "published_dt": "2026-06-02T07:47:30+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "SOTA"
+        ]
+      },
+      "summary_en": "百度文心发布 PaddleOCR-VL-1.6：准确率突破 96.33%，刷新文档解析 SOTA (量子位) highlights a notable AI development with score 6.1.",
+      "summary_zh": "量子位 报道：百度文心发布 PaddleOCR-VL-1.6：准确率突破 96.33%，刷新文档解析 SOTA，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48375016",
+      "title": "Gmail thinks I'm stupid, so I left",
+      "url": "https://moddedbear.com/gmail-thinks-im-stupid-so-i-left",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-02T19:27:40+00:00",
+      "published_dt": "2026-06-02T19:27:40+00:00",
+      "hn_score": 683,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Gmail thinks I'm stupid, so I left (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Gmail thinks I'm stupid, so I left，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/travelers",
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "url": "https://openai.com/index/travelers",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "published": "2026-06-02T12:00:00+00:00",
+      "published_dt": "2026-06-02T12:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Travelers deploys AI-powered claims countrywide with OpenAI (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Travelers deploys AI-powered claims countrywide with OpenAI，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48368121",
+      "title": "Adafruit receives demand letter from Fenwick legal counsel on behalf of Flux.ai",
+      "url": "https://blog.adafruit.com/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-02T10:00:56+00:00",
+      "published_dt": "2026-06-02T10:00:56+00:00",
+      "hn_score": 636,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Adafruit receives demand letter from Fenwick legal counsel on behalf of Flux.ai (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Adafruit receives demand letter from Fenwick legal counsel on behalf of Flux.ai，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128558",
+      "title": "Microsoft offers devs a better way to control AI agent behavior",
+      "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The specification lets developer, compliance, and security teams define their own policies for agents to follow in portable policy files.",
+      "published": "2026-06-02T18:00:00+00:00",
+      "published_dt": "2026-06-02T18:00:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Microsoft offers devs a better way to control AI agent behavior (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Microsoft offers devs a better way to control AI agent behavior，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128586",
+      "title": "Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries",
+      "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Anthropic is expanding Project Glasswing, its security vulnerability program, and access to Mythos to 150 organizations across 15 countries — targeting critical infrastructure in power, water, healthcare, and communications where a cyberattack could affect 100 million people.",
+      "published": "2026-06-02T14:44:21+00:00",
+      "published_dt": "2026-06-02T14:44:21+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/farewell-ai2",
+      "title": "Farewell Ai2",
+      "url": "https://www.interconnects.ai/p/farewell-ai2",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "I’m departing the Allen Institute for AI (Ai2), where I got the great privilege to work on the Olmo models, to grow, to learn, and to have broad lasting impacts. This post is an attempt to reflect on why what we did was influential, despite obviously being far from the frontier in performance (even when within size buckets), and how this reflects on various paths to impact in AI today.To start, I shared the following note with the company yesterday:Dear Ai2.As many of you know, today is my last day working at Ai2.I joined Ai2 largely as an accident. I met Luca at ICML 2023 in Hawaii and realized I could level up my open post-training work dramatically if I got the chance to join. When I got an offer it was an absolute no-brainer, it was such a welcoming and exciting environment.It has been a wonderful ride that has transformed my life, and I couldn’t be prouder of the work we did together. Ai2 has a wonderful scientific culture at its core and I’m excited to see this continue. I feel very lucky to have been here and that I personally have benefited massively from everyone who has worked so hard to cultivate that culture and environment. It is and has been a team effort. This includes all the people whose longest interactions with me were brief chats at the coffee machine. I drew so much energy and excitement from all the different ways people at Ai2 showed up for the mission.I’ve already thanked much of the OE team directly, but I wanted to thank everyone else that went into this. Legal, IT, Comms, and the Office team all do a great job enabling and leveling up our research work. It’s often work that is forgotten, outside of the lime light, or remembered at the last minute, but it all has been crucial to achieving our goals. I’m excited to keep visiting the wonderful Northlake space in the coming years.Even though I’m leaving, I’m more excited than ever about Ai2’s mission. Ai2 operates in such a rare niche between academia and industry, where we can explore and inf",
+      "published": "2026-06-02T14:15:59+00:00",
+      "published_dt": "2026-06-02T14:15:59+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Farewell Ai2 (Interconnects (Nathan Lambert)) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Farewell Ai2，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/Hcompany/holo31",
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-06-02T14:13:23+00:00",
+      "published_dt": "2026-06-02T14:13:23+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Holo3.1: Fast & Local Computer Use Agents (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Holo3.1: Fast & Local Computer Use Agents，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.qbitai.com/?p=428335",
+      "title": "刚刚，Meta Skill来了",
+      "url": "https://www.qbitai.com/2026/06/428335.html",
+      "source": "量子位",
+      "source_type": "rss",
+      "content": "GitHub最新火爆仓库：OpenSquilla。",
+      "published": "2026-06-03T01:29:35+00:00",
+      "published_dt": "2026-06-03T01:29:35+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "刚刚，Meta Skill来了 (量子位) highlights a notable AI development with score 5.3.",
+      "summary_zh": "量子位 报道：刚刚，Meta Skill来了，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything",
+      "title": "datasette-agent-micropython 0.1a0",
+      "url": "https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette-agent-micropython 0.1a0 I want Datasette Agent to be able to generate and execute Python code safely. This alpha is looking promising so far. GPT-5.5 has so far failed to break out of the sandbox! Tags: python, sandboxing, datasette, webassembly, datasette-agent",
+      "published": "2026-06-02T19:28:36+00:00",
+      "published_dt": "2026-06-02T19:28:36+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "datasette-agent-micropython 0.1a0 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：datasette-agent-micropython 0.1a0，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything",
+      "title": "micropython-wasm 0.1a1",
+      "url": "https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: micropython-wasm 0.1a1 Fixes for some limitations that emerged while I was trying to use this to build datasette-agent-micropython. Tags: python, sandboxing, webassembly",
+      "published": "2026-06-02T19:20:47+00:00",
+      "published_dt": "2026-06-02T19:20:47+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "micropython-wasm 0.1a1 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：micropython-wasm 0.1a1，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48374362",
+      "title": "MAI-Thinking-1",
+      "url": "https://microsoft.ai/news/introducing-mai-thinking-1/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://microsoft.ai/wp-content/uploads/2026/06/main_2026060...Launching seven new MAI models: https://microsoft.ai/news/building-a-hillclimbing-machine-la...",
+      "published": "2026-06-02T18:39:34+00:00",
+      "published_dt": "2026-06-02T18:39:34+00:00",
+      "hn_score": 176,
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "MAI-Thinking-1 (Hacker News) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Hacker News 报道：MAI-Thinking-1，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48374079",
+      "title": "Microsoft announces Scout, an autonomous AI agent built on OpenClaw",
+      "url": "https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/0...https://www.404media.co/microsoft-wants-to-make-people-addic...https://www.wired.com/story/meet-microsoft-scout-your-ai-cow... (https://web.archive.org/web/20260602180553/https://www.wired...)",
+      "published": "2026-06-02T18:19:27+00:00",
+      "published_dt": "2026-06-02T18:19:27+00:00",
+      "hn_score": 88,
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Microsoft announces Scout, an autonomous AI agent built on OpenClaw (Hacker News) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Hacker News 报道：Microsoft announces Scout, an autonomous AI agent built on OpenClaw，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything",
+      "title": "California Brown Pelican",
+      "url": "https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "California Brown Pelican, in Fort Mason, CA, USI'm at the Microsoft Build conference today, held at Fort Mason in San Francisco. There are California Brown Pelicans diving into the water directly behind venue! Tags: microsoft, ai, generative-ai, llms, llm-release",
+      "published": "2026-06-02T18:17:03+00:00",
+      "published_dt": "2026-06-02T18:17:03+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "California Brown Pelican (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：California Brown Pelican，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=939713",
+      "title": "Microsoft Scout is a new AI personal assistant built on OpenClaw",
+      "url": "https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Much like Google, Microsoft is launching its own version of OpenClaw. Microsoft Scout is an always-on assistant that integrates into Microsoft 365 apps like Outlook, OneDrive, and Microsoft Teams, allowing businesses to assign a virtual assistant to employees to help with organizing calendars, expense reporting, email drafts, and much more. Unlike Copilot that lives inside Microsoft 365 apps, Microsoft Scout can see and do a lot more. \"This is a personal assistant, it's the first real personal assistant we've offered customers,\" explains Omar Shahine, corporate vice president of Microsoft Scout, in an interview with The Verge. \"I think it's … Read the full story at The Verge.",
+      "published": "2026-06-02T18:00:00+00:00",
+      "published_dt": "2026-06-02T18:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Microsoft Scout is a new AI personal assistant built on OpenClaw (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Microsoft Scout is a new AI personal assistant built on OpenClaw，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything",
+      "title": "micropython-wasm 0.1a0",
+      "url": "https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: micropython-wasm 0.1a0 My latest sandboxing experiment: This alpha package bundles a lightly customized WASM build of MicroPython with a wrapper to execute code in it via wasmtime. Tags: python, sandboxing, webassembly",
+      "published": "2026-06-02T03:43:45+00:00",
+      "published_dt": "2026-06-02T03:43:45+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "micropython-wasm 0.1a0 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：micropython-wasm 0.1a0，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128791",
+      "title": "Uber caps employee AI spending after blowing through budget in 4 months",
+      "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Uber's cutback has occurred after the company had reportedly encouraged staff to use AI as much as possible.",
+      "published": "2026-06-02T19:11:48+00:00",
+      "published_dt": "2026-06-02T19:11:48+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Uber caps employee AI spending after blowing through budget in 4 months (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Uber caps employee AI spending after blowing through budget in 4 months，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128739",
+      "title": "Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI",
+      "url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The caveat is that one of the world's most famous living directors is using the tech solely for storyboarding.",
+      "published": "2026-06-02T18:16:53+00:00",
+      "published_dt": "2026-06-02T18:16:53+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128338",
+      "title": "Google rolls out fake call detection to protect against AI deepfake impersonation scams",
+      "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "As people increasingly refuse to answer calls from unknown numbers, scammers are shifting their tactics by spoofing trusted phone numbers and using AI deepfake technology to sound like authority figures, family members, or employers.",
+      "published": "2026-06-02T18:00:00+00:00",
+      "published_dt": "2026-06-02T18:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google rolls out fake call detection to protect against AI deepfake impersonation scams (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google rolls out fake call detection to protect against AI deepfake impersonation scams，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3128670",
+      "title": "Amazon faces class action lawsuit over Ring facial-recognition feature",
+      "url": "https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The class action lawsuit, filed in Seattle by Virginia resident Charles Sigwalt, claims that Ring's Familiar Faces feature stores images of passersby without consent.",
+      "published": "2026-06-02T17:47:28+00:00",
+      "published_dt": "2026-06-02T17:47:28+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon faces class action lawsuit over Ring facial-recognition feature (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Amazon faces class action lawsuit over Ring facial-recognition feature，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48373054",
+      "title": "Three Ways to Get Paid (2018)",
+      "url": "https://jasonzweig.com/three-ways-to-get-paid/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-02T17:09:04+00:00",
+      "published_dt": "2026-06-02T17:09:04+00:00",
+      "hn_score": 203,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Three Ways to Get Paid (2018) (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Three Ways to Get Paid (2018)，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
