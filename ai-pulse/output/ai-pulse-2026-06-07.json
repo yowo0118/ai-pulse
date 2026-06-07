@@ -1,0 +1,1298 @@
+{
+  "date": "2026-06-07",
+  "generated_at": "2026-06-07T03:31:19",
+  "stats": {
+    "total_items": 20,
+    "high_importance": 1,
+    "medium_importance": 19,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/ainews-not-much-happened-today-6b8",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-6b8",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Do check out the excellent RL Env guide we posted today! And more lightning pods over the weekend, starting with our CommandCode remote pod on harness optimization for DeepSeek v4 Pro.AI News for 6/4/2026-6/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapFrontier Models, RSI, and the “AI Builds AI” NarrativeAnthropic’s Mythos/Opus cycle dominated discussion, but substance was mixed with speculation: Community attention centered on Claude Mythos, with multiple users calling outputs “next level” and highlighting strong one-shot desktop and MacOS workflows (kimmonismus on Mythos outputs, more reactions, earlier post). At the same time, there were questions about benchmark regressions—e.g. claims that Opus 4.8 underperforms 4.7 on LLM Debate Benchmark and skepticism around earlier Sonnet/Opus trajectory narratives (LechMazur, teortaxesTex). Anthropic also published a concrete science result: Opus 4.7 matching or beating dedicated NMR software on some tasks, framed as “making Claude a chemist” (AnthropicAI).Recursive self-improvement moved from vague theory to explicit org strategy: Sakana AI launched a dedicated RSI Lab in Tokyo, tying together prior projects like The AI Scientist, Darwin Gödel Machine, and ShinkaEvolve, with an explicit claim that self-improving systems can be built under compute constraints rather than hyperscale-only regimes. hardmaru emphasized sample efficiency as the design constraint. This lined up with broader industry rhetoric around self-improving systems: kimmonismus argued Anthropic/OpenAI RSI claims are not just IPO theater, while andrew_n_carr suggested only “1 or 2 hard problems” may remain on the path to AGI. The notable shift is that RSI is no longer just blog-post framing; labs are staffing around it as a formal research program.Agent Evaluation, Reliabi",
+      "published": "2026-06-06T04:34:47+00:00",
+      "published_dt": "2026-06-06T04:34:47+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+          "title": "LLM Research Papers: The 2026 List (January to May)",
+          "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+          "source": "Ahead of AI (Sebastian Raschka)",
+          "source_type": "rss",
+          "content": "LLM Research Papers: The 2026 List (January to May)As some of you know, I have the long-running habit of keeping a running list of research papers I want to read, revisit, or cite in future articles and projects.Last year, I shared two organized paper lists, one covering January to June and another one covering July to December.Several readers told me that these lists were very useful, so, in a similar spirit, I prepared a new list for the first half of 2026. This one covers papers I bookmarked from January through May 2026.Please do not treat this as a complete list of everything published this year. There are so many papers published every day that this would be totally infeasible. Instead, this is a curated reference list based on papers I found interesting or relevant for my own work. I went through the titles, abstracts, and topic framing carefully while organizing the list, but I have to admit that I also only read a subset of the papers in detail.Why make these lists in the first place? When I work on an article, book section, code example, or lecture, I often remember that I saw a relevant paper somewhere, but finding it again can be surprisingly annoying. A categorized Markdown list solves that problem for me, and I hope it is useful to you as well. (Even in the era of LLM-based web searching, having a specific context list is pretty useful, still.)This year, the list is again heavy on reasoning models, reinforcement learning, and efficient inference, because I am biased towards bookmarking papers that are related to things I am currently working on. However, compared with the 2025 lists, I also bookmarked more papers around agent harnesses, tool use, long context, diffusion language models, and practical serving infrastructure, because that’s what I am currently pretty involved in and where the field is headed.The categories for this research paper list are as follows. (Pro tip: In the web version of this article, you can use the table of contents on the l",
+          "published": "2026-06-06T11:16:22+00:00",
+          "published_dt": "2026-06-06T11:16:22+00:00",
+          "score": 7.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "inference",
+              "diffusion",
+              "agent",
+              "reasoning model"
+            ]
+          },
+          "summary_en": "LLM Research Papers: The 2026 List (January to May) (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 7.2.",
+          "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：LLM Research Papers: The 2026 List (January to May)，综合评分 7.2，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-not-much-happened-today-6b8",
+          "title": "[AINews] not much happened today",
+          "url": "https://www.latent.space/p/ainews-not-much-happened-today-6b8",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Do check out the excellent RL Env guide we posted today! And more lightning pods over the weekend, starting with our CommandCode remote pod on harness optimization for DeepSeek v4 Pro.AI News for 6/4/2026-6/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapFrontier Models, RSI, and the “AI Builds AI” NarrativeAnthropic’s Mythos/Opus cycle dominated discussion, but substance was mixed with speculation: Community attention centered on Claude Mythos, with multiple users calling outputs “next level” and highlighting strong one-shot desktop and MacOS workflows (kimmonismus on Mythos outputs, more reactions, earlier post). At the same time, there were questions about benchmark regressions—e.g. claims that Opus 4.8 underperforms 4.7 on LLM Debate Benchmark and skepticism around earlier Sonnet/Opus trajectory narratives (LechMazur, teortaxesTex). Anthropic also published a concrete science result: Opus 4.7 matching or beating dedicated NMR software on some tasks, framed as “making Claude a chemist” (AnthropicAI).Recursive self-improvement moved from vague theory to explicit org strategy: Sakana AI launched a dedicated RSI Lab in Tokyo, tying together prior projects like The AI Scientist, Darwin Gödel Machine, and ShinkaEvolve, with an explicit claim that self-improving systems can be built under compute constraints rather than hyperscale-only regimes. hardmaru emphasized sample efficiency as the design constraint. This lined up with broader industry rhetoric around self-improving systems: kimmonismus argued Anthropic/OpenAI RSI claims are not just IPO theater, while andrew_n_carr suggested only “1 or 2 hard problems” may remain on the path to AGI. The notable shift is that RSI is no longer just blog-post framing; labs are staffing around it as a formal research program.Agent Evaluation, Reliabi",
+          "published": "2026-06-06T04:34:47+00:00",
+          "published_dt": "2026-06-06T04:34:47+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=944984",
+          "title": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over town, but I only see them in shitty houses,\" before adding, \"most of them are rentals.\" The woman speaking to him in the clip quickly pushes back, saying that they're \"working class,\" and someone chimes in to add something that a mayor shouldn't have to be told about their constituents: \"it doesn't matter whether they're rentals, they're still hu … Read the full story at The Verge.",
+          "published": "2026-06-06T15:05:00+00:00",
+          "published_dt": "2026-06-06T15:05:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$2 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center (The Verge AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "The Verge AI 报道：The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=944245",
+          "title": "Here comes new Siri again",
+          "url": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Our first glimpse of the new AI Siri came all the way back at WWDC 2024. Apple has been on its back foot, AI-wise, for the past few years. But in a strange way, playing from behind might not be such a bad move. At WWDC on Monday, Apple appears to be getting ready to reintroduce us to the new Siri. Again. As a reminder, we met the new Siri in 2024 when Apple \"launched\" Apple Intelligence. Siri came with a new glowing border, different voice options, and the ability to punt questions to ChatGPT. The whole \"Intelligence\" bit of the Siri redesign was coming soon, Apple promised. It didn't. In fact, its promotion around Apple Intelligence was so misleading that the company is settling a class-action lawsuit and has t … Read the full story at The Verge.",
+          "published": "2026-06-06T12:00:00+00:00",
+          "published_dt": "2026-06-06T12:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Here comes new Siri again (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Here comes new Siri again，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48427523",
+          "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
+          "url": "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-06T18:21:06+00:00",
+          "published_dt": "2026-06-06T18:21:06+00:00",
+          "hn_score": 457,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：Pentagon raised threat of Israeli spying on U.S. to highest level, sources say，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=944235",
+          "title": "Meta made its own AI-generated clickbait news feed",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "An AI-generated image of the royal family featuring two Queen Elizabeth IIs. | ﻿Image: Meta AI Facebook has long been filled with feeds of clickbait articles. Now, Meta is making its own clickbait articles with AI. The standalone Meta AI app now has a \"For You\" section that populates a list of clickbait-style stories for you to read. But the topics, images, and text are all AI-generated - and as questionable as you'd expect from AI-created works. The Meta AI app first launched in April 2025 with its focus on a public \"Discover\" feed that showed AI-generated images and conversations from other users (who frequently seemed unaware that they were being made public). That's all disappeared. The app now has a standard chatbot interface, … Read the full story at The Verge.",
+          "published": "2026-06-06T14:00:00+00:00",
+          "published_dt": "2026-06-06T14:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta made its own AI-generated clickbait news feed (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Meta made its own AI-generated clickbait news feed，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 7,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3130269",
+          "title": "Sriram Krishnan is leaving his role as White House AI advisor",
+          "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Krishnan is reportedly starting a new institution to continue shaping Trump's AI policy.",
+          "published": "2026-06-06T17:42:15+00:00",
+          "published_dt": "2026-06-06T17:42:15+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Sriram Krishnan is leaving his role as White House AI advisor (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Sriram Krishnan is leaving his role as White House AI advisor，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything",
+          "title": "Running Python code in a sandbox with MicroPython and WASM",
+          "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called micropython-wasm, and I'm using it for a code execution sandbox plugin for Datasette Agent called datasette-agent-micropython. Why do I want a sandbox? What I want from a sandbox WebAssembly looks really promising here MicroPython in WebAssembly Building the first version Try it yourself Should you trust my vibe-coded sandbox? Why do I want a sandbox? My key open source projects - Datasette, LLM, even sqlite-utils - all support plugins. I absolutely love plugins as a mechanism for extending software. A carefully designed plugin system reduces the risk involved in trying new things to almost nothing - even the wildest ideas won't leave a lasting influence on the core application itself. My software can grow a new feature overnight and I don't even have to review a pull request! There's one major drawback: my plugin systems all use Python and Pluggy, and plugin code executes with full privileges within my applications. A buggy or malicious plugin could break everything or leak private data. I'd love to be able to run plugin-style code in an environment where it is unable to read unapproved files, connect to a network, or generally operate in a way that's risky or harmful to the rest of the application or the user's computer. My interest covers more than just plugins. For Datasette in particular there are many features I'd like to support where arbitrary code execution would be useful. I've already experimented with this for Datasette Enrichments, where code can be used to transform values stored in a table. I'd love to build a mechanism where you can run code on a schedule that fetches JSON from an approved location, runs a tiny bit of code to reformat it into a list of dictionaries, then inserts those as rows in a SQLite",
+          "published": "2026-06-06T03:53:34+00:00",
+          "published_dt": "2026-06-06T03:53:34+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "Running Python code in a sandbox with MicroPython and WASM (Simon Willison) highlights a notable AI development with score 6.6.",
+          "summary_zh": "Simon Willison 报道：Running Python code in a sandbox with MicroPython and WASM，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48422993",
+          "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
+          "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-06T09:17:49+00:00",
+          "published_dt": "2026-06-06T09:17:49+00:00",
+          "hn_score": 201,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3129597",
+          "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+          "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Apple's WWDC nears: Here's what you can look forward to.",
+          "published": "2026-06-06T18:13:36+00:00",
+          "published_dt": "2026-06-06T18:13:36+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48425031",
+          "title": "US House lawmakers release draft bill to prohibit state AI rules",
+          "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-06T13:40:22+00:00",
+          "published_dt": "2026-06-06T13:40:22+00:00",
+          "hn_score": 113,
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "US House lawmakers release draft bill to prohibit state AI rules (Hacker News) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Hacker News 报道：US House lawmakers release draft bill to prohibit state AI rules，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48424252",
+          "title": "Meta Keeps Delaying the Release of Its New AI Model to Developers",
+          "url": "https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-06T12:15:59+00:00",
+          "published_dt": "2026-06-06T12:15:59+00:00",
+          "hn_score": 62,
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta Keeps Delaying the Release of Its New AI Model to Developers (Hacker News) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Hacker News 报道：Meta Keeps Delaying the Release of Its New AI Model to Developers，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
+          "title": "micropython-wasm 0.1a2",
+          "url": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: micropython-wasm 0.1a2 I added a CLI to micropython-wasm (issue #7), inspired by the first draft of the blog entry when I realized it would be a great way to illustrate the Try it yourself section. Tags: python, sandboxing, webassembly, micropython",
+          "published": "2026-06-06T04:26:06+00:00",
+          "published_dt": "2026-06-06T04:26:06+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "micropython-wasm 0.1a2 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：micropython-wasm 0.1a2，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 5,
+      "items": [
+        {
+          "id": "hn-48421442",
+          "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+          "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-06T04:38:36+00:00",
+          "published_dt": "2026-06-06T04:38:36+00:00",
+          "hn_score": 1386,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+          "title": "Five labs, five minds: building a multi-model finance drama on small models",
+          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-06-06T19:02:33+00:00",
+          "published_dt": "2026-06-06T19:02:33+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Five labs, five minds: building a multi-model finance drama on small models (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Five labs, five minds: building a multi-model finance drama on small models，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130273",
+          "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+          "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
+          "published": "2026-06-06T20:32:24+00:00",
+          "published_dt": "2026-06-06T20:32:24+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48427643",
+          "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+          "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-06T18:35:27+00:00",
+          "published_dt": "2026-06-06T18:35:27+00:00",
+          "hn_score": 469,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130264",
+          "title": "The Trump administration might take an equity stake in OpenAI",
+          "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
+          "published": "2026-06-06T16:17:21+00:00",
+          "published_dt": "2026-06-06T16:17:21+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Trump administration might take an equity stake in OpenAI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：The Trump administration might take an equity stake in OpenAI，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-07T03:31:17.235444+00:00",
+          "published_dt": "2026-06-07T03:31:17.235444+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-07T03:31:17.235444+00:00",
+          "published_dt": "2026-06-07T03:31:17.235444+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/ainews-not-much-happened-today-6b8",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-6b8",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Do check out the excellent RL Env guide we posted today! And more lightning pods over the weekend, starting with our CommandCode remote pod on harness optimization for DeepSeek v4 Pro.AI News for 6/4/2026-6/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapFrontier Models, RSI, and the “AI Builds AI” NarrativeAnthropic’s Mythos/Opus cycle dominated discussion, but substance was mixed with speculation: Community attention centered on Claude Mythos, with multiple users calling outputs “next level” and highlighting strong one-shot desktop and MacOS workflows (kimmonismus on Mythos outputs, more reactions, earlier post). At the same time, there were questions about benchmark regressions—e.g. claims that Opus 4.8 underperforms 4.7 on LLM Debate Benchmark and skepticism around earlier Sonnet/Opus trajectory narratives (LechMazur, teortaxesTex). Anthropic also published a concrete science result: Opus 4.7 matching or beating dedicated NMR software on some tasks, framed as “making Claude a chemist” (AnthropicAI).Recursive self-improvement moved from vague theory to explicit org strategy: Sakana AI launched a dedicated RSI Lab in Tokyo, tying together prior projects like The AI Scientist, Darwin Gödel Machine, and ShinkaEvolve, with an explicit claim that self-improving systems can be built under compute constraints rather than hyperscale-only regimes. hardmaru emphasized sample efficiency as the design constraint. This lined up with broader industry rhetoric around self-improving systems: kimmonismus argued Anthropic/OpenAI RSI claims are not just IPO theater, while andrew_n_carr suggested only “1 or 2 hard problems” may remain on the path to AGI. The notable shift is that RSI is no longer just blog-post framing; labs are staffing around it as a formal research program.Agent Evaluation, Reliabi",
+      "published": "2026-06-06T04:34:47+00:00",
+      "published_dt": "2026-06-06T04:34:47+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+      "title": "LLM Research Papers: The 2026 List (January to May)",
+      "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+      "source": "Ahead of AI (Sebastian Raschka)",
+      "source_type": "rss",
+      "content": "LLM Research Papers: The 2026 List (January to May)As some of you know, I have the long-running habit of keeping a running list of research papers I want to read, revisit, or cite in future articles and projects.Last year, I shared two organized paper lists, one covering January to June and another one covering July to December.Several readers told me that these lists were very useful, so, in a similar spirit, I prepared a new list for the first half of 2026. This one covers papers I bookmarked from January through May 2026.Please do not treat this as a complete list of everything published this year. There are so many papers published every day that this would be totally infeasible. Instead, this is a curated reference list based on papers I found interesting or relevant for my own work. I went through the titles, abstracts, and topic framing carefully while organizing the list, but I have to admit that I also only read a subset of the papers in detail.Why make these lists in the first place? When I work on an article, book section, code example, or lecture, I often remember that I saw a relevant paper somewhere, but finding it again can be surprisingly annoying. A categorized Markdown list solves that problem for me, and I hope it is useful to you as well. (Even in the era of LLM-based web searching, having a specific context list is pretty useful, still.)This year, the list is again heavy on reasoning models, reinforcement learning, and efficient inference, because I am biased towards bookmarking papers that are related to things I am currently working on. However, compared with the 2025 lists, I also bookmarked more papers around agent harnesses, tool use, long context, diffusion language models, and practical serving infrastructure, because that’s what I am currently pretty involved in and where the field is headed.The categories for this research paper list are as follows. (Pro tip: In the web version of this article, you can use the table of contents on the l",
+      "published": "2026-06-06T11:16:22+00:00",
+      "published_dt": "2026-06-06T11:16:22+00:00",
+      "score": 7.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "inference",
+          "diffusion",
+          "agent",
+          "reasoning model"
+        ]
+      },
+      "summary_en": "LLM Research Papers: The 2026 List (January to May) (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 7.2.",
+      "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：LLM Research Papers: The 2026 List (January to May)，综合评分 7.2，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130269",
+      "title": "Sriram Krishnan is leaving his role as White House AI advisor",
+      "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Krishnan is reportedly starting a new institution to continue shaping Trump's AI policy.",
+      "published": "2026-06-06T17:42:15+00:00",
+      "published_dt": "2026-06-06T17:42:15+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Sriram Krishnan is leaving his role as White House AI advisor (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Sriram Krishnan is leaving his role as White House AI advisor，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-07T03:31:17.235444+00:00",
+      "published_dt": "2026-06-07T03:31:17.235444+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-07T03:31:17.235444+00:00",
+      "published_dt": "2026-06-07T03:31:17.235444+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything",
+      "title": "Running Python code in a sandbox with MicroPython and WASM",
+      "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called micropython-wasm, and I'm using it for a code execution sandbox plugin for Datasette Agent called datasette-agent-micropython. Why do I want a sandbox? What I want from a sandbox WebAssembly looks really promising here MicroPython in WebAssembly Building the first version Try it yourself Should you trust my vibe-coded sandbox? Why do I want a sandbox? My key open source projects - Datasette, LLM, even sqlite-utils - all support plugins. I absolutely love plugins as a mechanism for extending software. A carefully designed plugin system reduces the risk involved in trying new things to almost nothing - even the wildest ideas won't leave a lasting influence on the core application itself. My software can grow a new feature overnight and I don't even have to review a pull request! There's one major drawback: my plugin systems all use Python and Pluggy, and plugin code executes with full privileges within my applications. A buggy or malicious plugin could break everything or leak private data. I'd love to be able to run plugin-style code in an environment where it is unable to read unapproved files, connect to a network, or generally operate in a way that's risky or harmful to the rest of the application or the user's computer. My interest covers more than just plugins. For Datasette in particular there are many features I'd like to support where arbitrary code execution would be useful. I've already experimented with this for Datasette Enrichments, where code can be used to transform values stored in a table. I'd love to build a mechanism where you can run code on a schedule that fetches JSON from an approved location, runs a tiny bit of code to reformat it into a list of dictionaries, then inserts those as rows in a SQLite",
+      "published": "2026-06-06T03:53:34+00:00",
+      "published_dt": "2026-06-06T03:53:34+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "Running Python code in a sandbox with MicroPython and WASM (Simon Willison) highlights a notable AI development with score 6.6.",
+      "summary_zh": "Simon Willison 报道：Running Python code in a sandbox with MicroPython and WASM，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=944984",
+      "title": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over town, but I only see them in shitty houses,\" before adding, \"most of them are rentals.\" The woman speaking to him in the clip quickly pushes back, saying that they're \"working class,\" and someone chimes in to add something that a mayor shouldn't have to be told about their constituents: \"it doesn't matter whether they're rentals, they're still hu … Read the full story at The Verge.",
+      "published": "2026-06-06T15:05:00+00:00",
+      "published_dt": "2026-06-06T15:05:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$2 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center (The Verge AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "The Verge AI 报道：The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48422993",
+      "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
+      "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-06T09:17:49+00:00",
+      "published_dt": "2026-06-06T09:17:49+00:00",
+      "hn_score": 201,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=944245",
+      "title": "Here comes new Siri again",
+      "url": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Our first glimpse of the new AI Siri came all the way back at WWDC 2024. Apple has been on its back foot, AI-wise, for the past few years. But in a strange way, playing from behind might not be such a bad move. At WWDC on Monday, Apple appears to be getting ready to reintroduce us to the new Siri. Again. As a reminder, we met the new Siri in 2024 when Apple \"launched\" Apple Intelligence. Siri came with a new glowing border, different voice options, and the ability to punt questions to ChatGPT. The whole \"Intelligence\" bit of the Siri redesign was coming soon, Apple promised. It didn't. In fact, its promotion around Apple Intelligence was so misleading that the company is settling a class-action lawsuit and has t … Read the full story at The Verge.",
+      "published": "2026-06-06T12:00:00+00:00",
+      "published_dt": "2026-06-06T12:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Here comes new Siri again (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Here comes new Siri again，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48421442",
+      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-06T04:38:36+00:00",
+      "published_dt": "2026-06-06T04:38:36+00:00",
+      "hn_score": 1386,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48427523",
+      "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
+      "url": "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-06T18:21:06+00:00",
+      "published_dt": "2026-06-06T18:21:06+00:00",
+      "hn_score": 457,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：Pentagon raised threat of Israeli spying on U.S. to highest level, sources say，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3129597",
+      "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+      "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Apple's WWDC nears: Here's what you can look forward to.",
+      "published": "2026-06-06T18:13:36+00:00",
+      "published_dt": "2026-06-06T18:13:36+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+      "title": "Five labs, five minds: building a multi-model finance drama on small models",
+      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-06-06T19:02:33+00:00",
+      "published_dt": "2026-06-06T19:02:33+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Five labs, five minds: building a multi-model finance drama on small models (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Five labs, five minds: building a multi-model finance drama on small models，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=944235",
+      "title": "Meta made its own AI-generated clickbait news feed",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "An AI-generated image of the royal family featuring two Queen Elizabeth IIs. | ﻿Image: Meta AI Facebook has long been filled with feeds of clickbait articles. Now, Meta is making its own clickbait articles with AI. The standalone Meta AI app now has a \"For You\" section that populates a list of clickbait-style stories for you to read. But the topics, images, and text are all AI-generated - and as questionable as you'd expect from AI-created works. The Meta AI app first launched in April 2025 with its focus on a public \"Discover\" feed that showed AI-generated images and conversations from other users (who frequently seemed unaware that they were being made public). That's all disappeared. The app now has a standard chatbot interface, … Read the full story at The Verge.",
+      "published": "2026-06-06T14:00:00+00:00",
+      "published_dt": "2026-06-06T14:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta made its own AI-generated clickbait news feed (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Meta made its own AI-generated clickbait news feed，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48425031",
+      "title": "US House lawmakers release draft bill to prohibit state AI rules",
+      "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-06T13:40:22+00:00",
+      "published_dt": "2026-06-06T13:40:22+00:00",
+      "hn_score": 113,
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "US House lawmakers release draft bill to prohibit state AI rules (Hacker News) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Hacker News 报道：US House lawmakers release draft bill to prohibit state AI rules，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48424252",
+      "title": "Meta Keeps Delaying the Release of Its New AI Model to Developers",
+      "url": "https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-06T12:15:59+00:00",
+      "published_dt": "2026-06-06T12:15:59+00:00",
+      "hn_score": 62,
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta Keeps Delaying the Release of Its New AI Model to Developers (Hacker News) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Hacker News 报道：Meta Keeps Delaying the Release of Its New AI Model to Developers，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
+      "title": "micropython-wasm 0.1a2",
+      "url": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: micropython-wasm 0.1a2 I added a CLI to micropython-wasm (issue #7), inspired by the first draft of the blog entry when I realized it would be a great way to illustrate the Try it yourself section. Tags: python, sandboxing, webassembly, micropython",
+      "published": "2026-06-06T04:26:06+00:00",
+      "published_dt": "2026-06-06T04:26:06+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "micropython-wasm 0.1a2 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：micropython-wasm 0.1a2，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130273",
+      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
+      "published": "2026-06-06T20:32:24+00:00",
+      "published_dt": "2026-06-06T20:32:24+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48427643",
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-06T18:35:27+00:00",
+      "published_dt": "2026-06-06T18:35:27+00:00",
+      "hn_score": 469,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130264",
+      "title": "The Trump administration might take an equity stake in OpenAI",
+      "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
+      "published": "2026-06-06T16:17:21+00:00",
+      "published_dt": "2026-06-06T16:17:21+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Trump administration might take an equity stake in OpenAI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：The Trump administration might take an equity stake in OpenAI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
