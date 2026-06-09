@@ -1,0 +1,2253 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09T02:46:19",
+  "stats": {
+    "total_items": 38,
+    "high_importance": 3,
+    "medium_importance": 35,
+    "categories_covered": 5
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything",
+      "title": "Siri AI at WWDC 2026",
+      "url": "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Given how badly burned anyone who took Apple's 2024 WWDC Apple Intelligence announcements at face value was, I'm holding to a strict \"I'll believe it when I see it\" policy for everything they announced today. The new Siri AI features do at least look feasible with today's technology, especially since Apple are licensing a custom Gemini-derived model that they can run on their own Private Cloud Compute. It sounds like they'll be taking advantage of vision LLMs to extract information from the user's screen, which neatly sidesteps the need for every existing application to ship custom code in order to integrate with Apple Intelligence. Vision LLMs were a much less mature category in June 2024. The new Core AI library looks like a good step in enabling developers to finally take full advantage of Apple's hardware for running their own models. It integrates with Meta's open source PyTorch ecosystem, using these Core AI PyTorch extensions: Core AI PyTorch Extensions (coreai-torch) is a Python package that bridges PyTorch and Core AI. You can use it to bring up an existing PyTorch model — exported as a torch.export.ExportedProgram — into a Core AI AIProgram ready to run on Apple hardware, traversing the FX graph node-by-node and mapping ATen operators to Core AI operations. You can install an iOS 27 Developer Beta today, which supposedly has the new features - but you then have to make it through a waiting list for access to the new Siri AI. Aaron Perris from MacRumors reports having made it off the waitlist so we may start seeing credible reports on how well Siri AI works in the very near future. Update: These Private Cloud Compute Gemini models are running in Google Cloud, and using NVIDIA hardware. According to Expanding Private Cloud Compute on Apple's Security Research blog: For the most demanding tasks, including agentic tool-use and complex reasoning, we worked with Google and NVIDIA to extend our PCC infrastructure to Google Cloud systems using NVIDIA GPUs, while m",
+      "published": "2026-06-08T23:58:04+00:00",
+      "published_dt": "2026-06-08T23:58:04+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google",
+          "Meta",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "Siri AI at WWDC 2026 (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Siri AI at WWDC 2026，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
+      "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
+      "url": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Dozens of cryptographically verified open source packages from Microsoft were compromised late last week to add advanced credential-stealing code that was triggered when developers opened them in AI coding agents. In all, multiple researchers said, 73 packages were flagged as malicious when automated systems on GitHub blocked them on the platform. Rather than noting they are malicious—and that developers who used AI agents to work with them should assume their systems are compromised—the Microsoft-owned GitHub said it disabled the packages “due to a violation of GitHub's terms of service.” The text went on to encourage the package owner to contact GitHub. Devs: Assume compromise and proceed accordingly It wasn’t until Monday that Microsoft even raised the possibility the packages were infected. In an email, the company stated: “We have temporarily removed some repositories as we investigate potential malicious content.”Read full article Comments",
+      "published": "2026-06-08T18:34:23+00:00",
+      "published_dt": "2026-06-08T18:34:23+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "For the 2nd time in weeks, Microsoft packages laced with credential stealer (Ars Technica) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Ars Technica 报道：For the 2nd time in weeks, Microsoft packages laced with credential stealer，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=944138",
+      "title": "Microsoft’s AI chief says superintelligence is near, but won’t take your job",
+      "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Today I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. And I’m actually going to keep today’s intro short — I’m working from my wife’s family farm this week, as you’ll see in the video, but also this is a real burner of an episode. We covered everything from Mustafa’s approach to training new models to his criticisms of Anthropic talking about Claude as though it is conscious. Of course, we also talked about Microsoft’s relationship with OpenAI, how Mustafa is thinking about all the negative polling and political pushback around AI right now, and whether any of the consumer products are good enough to overcome it. Like I said, it’s a burner. Okay: Mustafa Suleyman, CEO of Microsoft AI. Here we go. This interview has been lightly edited for length and clarity. Mustafa Suleyman, you are the CEO of Microsoft AI. Welcome back to Decoder. Great to be with you again. I’m very excited to talk to you. Our previous conversation was one of my favorite conversations — about AI, how it should make us feel, and what it’s for — that I’ve had in all the conversations we’ve had. There are some big changes at Microsoft, maybe some very important recontextualization about how people feel about AI that I want to talk to you about in particular. And then there’s Microsoft Build, the big Microsoft developer conference, which featured lots of new announcements and lots of big ideas about what computers are for and maybe where they should be that I want to get into. Let’s start at the very start. This is some deep Decoder stuff that is important to understand before all the rest of it. Since you joined Microsoft, you have restructured how AI works there. Your role has changed. The last time I talked to you, you were in charge of a bunch of consumer products. That has since been set aside. You’re now training new models; you’re on the frontier. Explain how Microsoft AI is structured now and how it’s structured inside Microsoft. I guess the last 15 to 18 months or so we’ve been o",
+      "published": "2026-06-08T14:00:00+00:00",
+      "published_dt": "2026-06-08T14:00:00+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Microsoft’s AI chief says superintelligence is near, but won’t take your job (The Verge AI) highlights a notable AI development with score 8.5.",
+      "summary_zh": "The Verge AI 报道：Microsoft’s AI chief says superintelligence is near, but won’t take your job，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=944138",
+          "title": "Microsoft’s AI chief says superintelligence is near, but won’t take your job",
+          "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Today I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. And I’m actually going to keep today’s intro short — I’m working from my wife’s family farm this week, as you’ll see in the video, but also this is a real burner of an episode. We covered everything from Mustafa’s approach to training new models to his criticisms of Anthropic talking about Claude as though it is conscious. Of course, we also talked about Microsoft’s relationship with OpenAI, how Mustafa is thinking about all the negative polling and political pushback around AI right now, and whether any of the consumer products are good enough to overcome it. Like I said, it’s a burner. Okay: Mustafa Suleyman, CEO of Microsoft AI. Here we go. This interview has been lightly edited for length and clarity. Mustafa Suleyman, you are the CEO of Microsoft AI. Welcome back to Decoder. Great to be with you again. I’m very excited to talk to you. Our previous conversation was one of my favorite conversations — about AI, how it should make us feel, and what it’s for — that I’ve had in all the conversations we’ve had. There are some big changes at Microsoft, maybe some very important recontextualization about how people feel about AI that I want to talk to you about in particular. And then there’s Microsoft Build, the big Microsoft developer conference, which featured lots of new announcements and lots of big ideas about what computers are for and maybe where they should be that I want to get into. Let’s start at the very start. This is some deep Decoder stuff that is important to understand before all the rest of it. Since you joined Microsoft, you have restructured how AI works there. Your role has changed. The last time I talked to you, you were in charge of a bunch of consumer products. That has since been set aside. You’re now training new models; you’re on the frontier. Explain how Microsoft AI is structured now and how it’s structured inside Microsoft. I guess the last 15 to 18 months or so we’ve been o",
+          "published": "2026-06-08T14:00:00+00:00",
+          "published_dt": "2026-06-08T14:00:00+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Microsoft’s AI chief says superintelligence is near, but won’t take your job (The Verge AI) highlights a notable AI development with score 8.5.",
+          "summary_zh": "The Verge AI 报道：Microsoft’s AI chief says superintelligence is near, but won’t take your job，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a0f4123270531d462da761b",
+          "title": "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic",
+          "url": "https://www.wired.com/story/openai-confidentially-files-for-ipo/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "The ChatGPT-maker announced it has filed paperwork to go public, just a week after rival Anthropic took the same step.",
+          "published": "2026-06-08T21:31:58+00:00",
+          "published_dt": "2026-06-08T21:31:58+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic (Wired AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Wired AI 报道：OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48450142",
+          "title": "Apple reveals new AI architecture built around Google Gemini models",
+          "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-08T19:14:47+00:00",
+          "published_dt": "2026-06-08T19:14:47+00:00",
+          "hn_score": 370,
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple reveals new AI architecture built around Google Gemini models (Hacker News) highlights a notable AI development with score 6.6.",
+          "summary_zh": "Hacker News 报道：Apple reveals new AI architecture built around Google Gemini models，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
+          "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
+          "url": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Dozens of cryptographically verified open source packages from Microsoft were compromised late last week to add advanced credential-stealing code that was triggered when developers opened them in AI coding agents. In all, multiple researchers said, 73 packages were flagged as malicious when automated systems on GitHub blocked them on the platform. Rather than noting they are malicious—and that developers who used AI agents to work with them should assume their systems are compromised—the Microsoft-owned GitHub said it disabled the packages “due to a violation of GitHub's terms of service.” The text went on to encourage the package owner to contact GitHub. Devs: Assume compromise and proceed accordingly It wasn’t until Monday that Microsoft even raised the possibility the packages were infected. In an email, the company stated: “We have temporarily removed some repositories as we investigate potential malicious content.”Read full article Comments",
+          "published": "2026-06-08T18:34:23+00:00",
+          "published_dt": "2026-06-08T18:34:23+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "agent"
+            ]
+          },
+          "summary_en": "For the 2nd time in weeks, Microsoft packages laced with credential stealer (Ars Technica) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Ars Technica 报道：For the 2nd time in weeks, Microsoft packages laced with credential stealer，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130751",
+          "title": "Apple bets cheaper AI will woo small developers",
+          "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "As AI experimentation grows more expensive, Apple is waiving cloud API costs for developers with fewer than 2 million first-time App Store downloads.",
+          "published": "2026-06-08T20:53:55+00:00",
+          "published_dt": "2026-06-08T20:53:55+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple bets cheaper AI will woo small developers (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Apple bets cheaper AI will woo small developers，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=946335",
+          "title": "OpenAI files for IPO, following Anthropic",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following Anthropic's decision to do the same on June 1st. The confidential filing means that certain details normally available through the form - such as executive compensation figures, potential risks to a company's business, and more financials - aren't yet public. As of Anthropic's most recent fundraise, it's being called the world's most valuable startup, with a post-money valu … Read the full story at The Verge.",
+          "published": "2026-06-08T21:38:29+00:00",
+          "published_dt": "2026-06-08T21:38:29+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI files for IPO, following Anthropic (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：OpenAI files for IPO, following Anthropic，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93646",
+          "title": "How Bigger ACVs Are Bringing Direct Sales Back To Vertical AI",
+          "url": "https://news.crunchbase.com/ai/bigger-acvs-bring-direct-sales-vertical-ai-agarwal-defy/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "By Medha Agarwal For more than a decade, customers spent their software budget procuring vertical SaaS products. ACVs, or annual contract values, were modest, customer acquisition cost had to stay below a ceiling, and the resulting go-to-market playbook was product-led growth, SDR-led and content-driven. With AI, many products are no longer SaaS but usage and outcomes based. They are replacing labor, not software. At my investment firm, Defy, we call this new category of companies vertical AI. Vertical AI spend doesn’t just come from a customer’s software budget. It often comes out of headcount as well, a much larger line item. As a result, ACVs have jumped meaningfully to 6- and 7-figure deals. I’ve written before about how AI opened up distribution for vertical SaaS, and how the value framing shifted from subscription pricing to labor substitution economics. As ACVs have grown in vertical AI, the go-to-market motion is changing too. We’ve explored tactics to drive a more efficient sales process. Here, I’ll explore how the channels are changing as well. Why direct sales is back Medha Agarwal Direct sales has historically only worked at true enterprise scale. The cost of an AE’s time wasn’t warranted for smaller ACVs. Below a certain deal size, the math didn’t work for high-touch sales. That’s why SaaS GTM became PLG and SDR-led. With vertical AI ACVs frequently landing in the 6- or 7-figure range, founders now have room to invest meaningfully in winning each logo. We’re also seeing these smaller businesses spending relatively more with quicker sales cycles which is enabling higher volume. AEs, in-person sales motion, and other tactics that didn’t pencil at scale under old SaaS economics now do. Direct sales now works further down market where prior SaaS economics didn’t allow it. Two channels in particular have driven a lot of distribution and success for vertical AI companies recently. They are distinct from each other but we’ve seen companies have success with bo",
+          "published": "2026-06-08T11:00:27+00:00",
+          "published_dt": "2026-06-08T11:00:27+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How Bigger ACVs Are Bringing Direct Sales Back To Vertical AI (Crunchbase News) highlights a notable AI development with score 6.4.",
+          "summary_zh": "Crunchbase News 报道：How Bigger ACVs Are Bringing Direct Sales Back To Vertical AI，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130954",
+          "title": "Mercor’s Brendan Foody calls out Sequoia, accusing it of ‘dual-pricing’ valuation tricks",
+          "url": "https://techcrunch.com/2026/06/08/mercors-brendan-foody-calls-out-sequoia-over-dual-pricing-valuation-tricks/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Sequoia is just one of the top firms that sells same equity at two different prices.",
+          "published": "2026-06-09T00:45:56+00:00",
+          "published_dt": "2026-06-09T00:45:56+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Sequoia"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Mercor’s Brendan Foody calls out Sequoia, accusing it of ‘dual-pricing’ valuation tricks (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Mercor’s Brendan Foody calls out Sequoia, accusing it of ‘dual-pricing’ valuation tricks，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130875",
+          "title": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
+          "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Tools for Humanity, Sam Altman's identity verification company, is reportedly struggling to generate revenue and will downsize its staff.",
+          "published": "2026-06-08T22:41:45+00:00",
+          "published_dt": "2026-06-08T22:41:45+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3129100",
+          "title": "OpenAI files confidentially for IPO, following Anthropic",
+          "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
+          "published": "2026-06-08T21:29:57+00:00",
+          "published_dt": "2026-06-08T21:29:57+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI files confidentially for IPO, following Anthropic (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI files confidentially for IPO, following Anthropic，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130579",
+          "title": "Apple’s Image Playground doesn’t suck anymore",
+          "url": "https://techcrunch.com/2026/06/08/apples-image-playground-doesnt-suck-anymore/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Apple's AI image generator is getting a makeover that could make it more competitive.",
+          "published": "2026-06-08T18:38:07+00:00",
+          "published_dt": "2026-06-08T18:38:07+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple’s Image Playground doesn’t suck anymore (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Apple’s Image Playground doesn’t suck anymore，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=946345",
+          "title": "Apple is using AI to fix Safari’s extension problem",
+          "url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Apple is trying to solve one of Safari's biggest weaknesses with AI. Safari has long lacked the robust library of extensions that its rivals have, mainly due to the stringent development requirements from Apple. But now, Apple is inviting users to essentially vibe-code their own extensions. In a demo shared by Apple, the company showed how you can ask Safari to create an extension by describing it. \"Save and track cooking recipes from around the web,\" the prompt said. \"Click the toolbar button to see your saved recipes and add notes to each.\" From there, Safari used Apple Intelligence to generate a \"Recipe Keeper\" extension that's supposed … Read the full story at The Verge.",
+          "published": "2026-06-08T22:14:17+00:00",
+          "published_dt": "2026-06-08T22:14:17+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple is using AI to fix Safari’s extension problem (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：Apple is using AI to fix Safari’s extension problem，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a26d0df255fdba4ebd668eb",
+          "title": "The UK Is Betting on a Billion-Dollar AI Supercomputer to Kick Its Addiction to US Tech",
+          "url": "https://www.wired.com/story/uk-supercomputer-investment-ai-homegrown-semiconductor/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "The British government thinks a state-backed infrastructure initiative will help supercharge homegrown chip startups.",
+          "published": "2026-06-08T17:44:28+00:00",
+          "published_dt": "2026-06-08T17:44:28+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The UK Is Betting on a Billion-Dollar AI Supercomputer to Kick Its Addiction to US Tech (Wired AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Wired AI 报道：The UK Is Betting on a Billion-Dollar AI Supercomputer to Kick Its Addiction to US Tech，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 7,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything",
+          "title": "Siri AI at WWDC 2026",
+          "url": "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Given how badly burned anyone who took Apple's 2024 WWDC Apple Intelligence announcements at face value was, I'm holding to a strict \"I'll believe it when I see it\" policy for everything they announced today. The new Siri AI features do at least look feasible with today's technology, especially since Apple are licensing a custom Gemini-derived model that they can run on their own Private Cloud Compute. It sounds like they'll be taking advantage of vision LLMs to extract information from the user's screen, which neatly sidesteps the need for every existing application to ship custom code in order to integrate with Apple Intelligence. Vision LLMs were a much less mature category in June 2024. The new Core AI library looks like a good step in enabling developers to finally take full advantage of Apple's hardware for running their own models. It integrates with Meta's open source PyTorch ecosystem, using these Core AI PyTorch extensions: Core AI PyTorch Extensions (coreai-torch) is a Python package that bridges PyTorch and Core AI. You can use it to bring up an existing PyTorch model — exported as a torch.export.ExportedProgram — into a Core AI AIProgram ready to run on Apple hardware, traversing the FX graph node-by-node and mapping ATen operators to Core AI operations. You can install an iOS 27 Developer Beta today, which supposedly has the new features - but you then have to make it through a waiting list for access to the new Siri AI. Aaron Perris from MacRumors reports having made it off the waitlist so we may start seeing credible reports on how well Siri AI works in the very near future. Update: These Private Cloud Compute Gemini models are running in Google Cloud, and using NVIDIA hardware. According to Expanding Private Cloud Compute on Apple's Security Research blog: For the most demanding tasks, including agentic tool-use and complex reasoning, we worked with Google and NVIDIA to extend our PCC infrastructure to Google Cloud systems using NVIDIA GPUs, while m",
+          "published": "2026-06-08T23:58:04+00:00",
+          "published_dt": "2026-06-08T23:58:04+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google",
+              "Meta",
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "Siri AI at WWDC 2026 (Simon Willison) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Simon Willison 报道：Siri AI at WWDC 2026，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=944325",
+          "title": "NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources",
+          "url": "https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Google is rolling out \"across the board\" updates to NotebookLM. The AI-powered note-taking app now uses Google's upgraded Gemini 3.5 model, which will allow it to respond with \"more accurate and reliable information,\" according to a blog post on Monday. Launched in 2023, NotebookLM allows you to interact with your notes and sources using AI, as well as ask questions about the materials. With this update, Google says you can start a research project by just asking NotebookLM questions about a topic, instead of importing notes or YouTube videos. NotebookLM will use Google Search to help you find relevant sources, building on its \"discover\" fe … Read the full story at The Verge.",
+          "published": "2026-06-08T16:00:00+00:00",
+          "published_dt": "2026-06-08T16:00:00+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130429",
+          "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Apple primarily made the case for an improved experience with its longstanding Siri assistant, which like most other announcements had a hefty helping of AI.",
+          "published": "2026-06-08T19:41:32+00:00",
+          "published_dt": "2026-06-08T19:41:32+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=945905",
+          "title": "Amazon is launching AI-generated custom merch",
+          "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Amazon is expanding its print-on-demand features to AI-generated designs created using Alexa for Shopping for products like T-shirts, water bottles, and hoodies. Shoppers can use text prompts to generate images that are then printed onto blanks for sale on Amazon. They can then share the link to the design so other people can buy the same custom item. Amazon offers family reunions and pet-themed designs as use case examples, but the feature also threatens an entire ecosystem of drop-shipped products - as well as other custom printing companies. Amazon already had a Merch on Demand feature where shoppers could drop in images, text, and cli … Read the full story at The Verge.",
+          "published": "2026-06-08T17:52:51+00:00",
+          "published_dt": "2026-06-08T17:52:51+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon is launching AI-generated custom merch (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Amazon is launching AI-generated custom merch，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=944099",
+          "title": "WWDC 2026: How to watch and what to expect",
+          "url": "https://www.theverge.com/tech/944099/wwdc-2026-how-to-watch",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Apple's biggest event of the year is nearly here. The company's Worldwide Developers Conference will spotlight updates to iOS, macOS, and all of Apple's other operating systems, and this year's event could also include a major overhaul for Siri. Here's how you can watch along live. When WWDC will happen and where you can watch it WWDC lasts a few days, but Apple's biggest announcements will be in the keynote presentation on June 8th at 1PM ET / 10AM PT. The full presentation usually lasts a couple of hours. You can watch it live on YouTube or from Apple's website, but the best way is, as always, to follow along in our live blog. What to e … Read the full story at The Verge.",
+          "published": "2026-06-08T11:00:00+00:00",
+          "published_dt": "2026-06-08T11:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "WWDC 2026: How to watch and what to expect (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：WWDC 2026: How to watch and what to expect，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a2028f32f0073b9ec001df0",
+          "title": "Apple’s New Siri AI Is Ready to Get Personal",
+          "url": "https://www.wired.com/story/apples-new-siri-ai-is-ready-to-get-personal/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "From a stand-alone app to a Google Gemini partnership, here’s everything you need to know from WWDC 2026 about Apple’s upcoming overhaul of Siri.",
+          "published": "2026-06-08T18:17:44+00:00",
+          "published_dt": "2026-06-08T18:17:44+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple’s New Siri AI Is Ready to Get Personal (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Apple’s New Siri AI Is Ready to Get Personal，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=942416",
+          "title": "Apple announces Siri AI and its next generation of Apple Intelligence",
+          "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Two years after first revealing its plans for Apple Intelligence and a smarter Siri that never fully materialized, at WWDC, Apple just revealed a new set of AI features and a smarter, more personalized Siri. Apple calls Siri AI an \"entirely new version of Siri\" and says it's both more conversational and more capable than the previous version of the smart assistant. In conversations, it has a more expressive voice that can be customized by pace, expressivity, and accent. Siri AI will be accessible systemwide, capable of reading what's onscreen and interacting with your apps. But Apple's SVP of software engineering Craig Federighi said it w … Read the full story at The Verge.",
+          "published": "2026-06-08T17:34:24+00:00",
+          "published_dt": "2026-06-08T17:34:24+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple announces Siri AI and its next generation of Apple Intelligence (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Apple announces Siri AI and its next generation of Apple Intelligence，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3130680",
+          "title": "Apple’s WWDC AI demos looked more real after $250M false ad settlement",
+          "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The vibe of Apple's 2026 WWDC keynote felt like a spouse proudly listing all the honey-do-list items tackled. One subtle example: the many AI demos of someone standing, phone in hand.",
+          "published": "2026-06-08T22:39:57+00:00",
+          "published_dt": "2026-06-08T22:39:57+00:00",
+          "score": 6.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$250M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Apple’s WWDC AI demos looked more real after $250M false ad settlement (TechCrunch AI) highlights a notable AI development with score 6.5.",
+          "summary_zh": "TechCrunch AI 报道：Apple’s WWDC AI demos looked more real after $250M false ad settlement，综合评分 6.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/openai-submits-confidential-s-1",
+          "title": "Confidential submission of draft S-1 to the SEC",
+          "url": "https://openai.com/index/openai-submits-confidential-s-1",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+          "published": "2026-06-08T14:00:00+00:00",
+          "published_dt": "2026-06-08T14:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Confidential submission of draft S-1 to the SEC (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Confidential submission of draft S-1 to the SEC，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130646",
+          "title": "Why Apple’s slow-and-steady AI bet is starting to look pretty smart",
+          "url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Can Apple's new AI glow up put to bed accusations that it's losing an all-important industry race?",
+          "published": "2026-06-09T01:56:48+00:00",
+          "published_dt": "2026-06-09T01:56:48+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Why Apple’s slow-and-steady AI bet is starting to look pretty smart (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Why Apple’s slow-and-steady AI bet is starting to look pretty smart，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130496",
+          "title": "Apple plays catch-up at WWDC",
+          "url": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Apple spent much of its WWDC keynote highlighting fixes, performance improvements, and long-requested features before unveiling its upgraded AI-powered Siri, signaling that the company wants users to see AI as just one part of a broader effort to improve its software.",
+          "published": "2026-06-08T21:15:42+00:00",
+          "published_dt": "2026-06-08T21:15:42+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple plays catch-up at WWDC (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Apple plays catch-up at WWDC，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130551",
+          "title": "Apple just taught your iPhone to finish your sentences, your photos, and your workflows",
+          "url": "https://techcrunch.com/2026/06/08/apple-just-taught-your-iphone-to-finish-your-sentences-your-photos-and-your-workflows/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Apple is adding new AI-powered features to Safari, Shortcuts, and Password apps.",
+          "published": "2026-06-08T18:48:45+00:00",
+          "published_dt": "2026-06-08T18:48:45+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple just taught your iPhone to finish your sentences, your photos, and your workflows (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Apple just taught your iPhone to finish your sentences, your photos, and your workflows，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130591",
+          "title": "Apple will let you build workflows using AI in its new Shortcuts app",
+          "url": "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Shortcuts gets an AI upgrade, letting you describe the workflow you want in a prompt.",
+          "published": "2026-06-08T18:45:12+00:00",
+          "published_dt": "2026-06-08T18:45:12+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple will let you build workflows using AI in its new Shortcuts app (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Apple will let you build workflows using AI in its new Shortcuts app，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130585",
+          "title": "Apple’s Photos app is getting new AI editing features",
+          "url": "https://techcrunch.com/2026/06/08/apples-photos-app-is-getting-new-ai-editing-features/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "A new spatial \"Reframe\" feature will let users use AI to adjust perspectives.",
+          "published": "2026-06-08T18:36:04+00:00",
+          "published_dt": "2026-06-08T18:36:04+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple’s Photos app is getting new AI editing features (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Apple’s Photos app is getting new AI editing features，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130410",
+          "title": "Apple gives Siri its own dedicated app",
+          "url": "https://techcrunch.com/2026/06/08/apple-gives-siri-its-own-dedicated-app/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Siri is finally getting its own app.",
+          "published": "2026-06-08T18:33:42+00:00",
+          "published_dt": "2026-06-08T18:33:42+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple gives Siri its own dedicated app (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Apple gives Siri its own dedicated app，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3130462",
+          "title": "Apple is fixing the headache of splitting the bill with its new Siri in Camera feature",
+          "url": "https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "\"If you're grabbing a bite with friends and point your iPhone at the bill, then [you can] select what you ordered to split the tab with Apple Cash,\" said Apple VP of Software Sebastien Marineau-Mes.",
+          "published": "2026-06-08T18:23:04+00:00",
+          "published_dt": "2026-06-08T18:23:04+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple is fixing the headache of splitting the bill with its new Siri in Camera feature (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Apple is fixing the headache of splitting the bill with its new Siri in Camera feature，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48449084",
+          "title": "Siri AI",
+          "url": "https://www.apple.com/apple-intelligence/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-08T18:17:53+00:00",
+          "published_dt": "2026-06-08T18:17:53+00:00",
+          "hn_score": 430,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Siri AI (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Siri AI，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-09T02:46:16.361714+00:00",
+          "published_dt": "2026-06-09T02:46:16.361714+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-09T02:46:16.361714+00:00",
+          "published_dt": "2026-06-09T02:46:16.361714+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48449665",
+          "title": "Apple Core AI Framework",
+          "url": "https://developer.apple.com/documentation/coreai/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-08T18:47:38+00:00",
+          "published_dt": "2026-06-08T18:47:38+00:00",
+          "hn_score": 208,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple Core AI Framework (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：Apple Core AI Framework，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything",
+      "title": "Siri AI at WWDC 2026",
+      "url": "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Given how badly burned anyone who took Apple's 2024 WWDC Apple Intelligence announcements at face value was, I'm holding to a strict \"I'll believe it when I see it\" policy for everything they announced today. The new Siri AI features do at least look feasible with today's technology, especially since Apple are licensing a custom Gemini-derived model that they can run on their own Private Cloud Compute. It sounds like they'll be taking advantage of vision LLMs to extract information from the user's screen, which neatly sidesteps the need for every existing application to ship custom code in order to integrate with Apple Intelligence. Vision LLMs were a much less mature category in June 2024. The new Core AI library looks like a good step in enabling developers to finally take full advantage of Apple's hardware for running their own models. It integrates with Meta's open source PyTorch ecosystem, using these Core AI PyTorch extensions: Core AI PyTorch Extensions (coreai-torch) is a Python package that bridges PyTorch and Core AI. You can use it to bring up an existing PyTorch model — exported as a torch.export.ExportedProgram — into a Core AI AIProgram ready to run on Apple hardware, traversing the FX graph node-by-node and mapping ATen operators to Core AI operations. You can install an iOS 27 Developer Beta today, which supposedly has the new features - but you then have to make it through a waiting list for access to the new Siri AI. Aaron Perris from MacRumors reports having made it off the waitlist so we may start seeing credible reports on how well Siri AI works in the very near future. Update: These Private Cloud Compute Gemini models are running in Google Cloud, and using NVIDIA hardware. According to Expanding Private Cloud Compute on Apple's Security Research blog: For the most demanding tasks, including agentic tool-use and complex reasoning, we worked with Google and NVIDIA to extend our PCC infrastructure to Google Cloud systems using NVIDIA GPUs, while m",
+      "published": "2026-06-08T23:58:04+00:00",
+      "published_dt": "2026-06-08T23:58:04+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google",
+          "Meta",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "Siri AI at WWDC 2026 (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Siri AI at WWDC 2026，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
+      "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
+      "url": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Dozens of cryptographically verified open source packages from Microsoft were compromised late last week to add advanced credential-stealing code that was triggered when developers opened them in AI coding agents. In all, multiple researchers said, 73 packages were flagged as malicious when automated systems on GitHub blocked them on the platform. Rather than noting they are malicious—and that developers who used AI agents to work with them should assume their systems are compromised—the Microsoft-owned GitHub said it disabled the packages “due to a violation of GitHub's terms of service.” The text went on to encourage the package owner to contact GitHub. Devs: Assume compromise and proceed accordingly It wasn’t until Monday that Microsoft even raised the possibility the packages were infected. In an email, the company stated: “We have temporarily removed some repositories as we investigate potential malicious content.”Read full article Comments",
+      "published": "2026-06-08T18:34:23+00:00",
+      "published_dt": "2026-06-08T18:34:23+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "For the 2nd time in weeks, Microsoft packages laced with credential stealer (Ars Technica) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Ars Technica 报道：For the 2nd time in weeks, Microsoft packages laced with credential stealer，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=944138",
+      "title": "Microsoft’s AI chief says superintelligence is near, but won’t take your job",
+      "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Today I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. And I’m actually going to keep today’s intro short — I’m working from my wife’s family farm this week, as you’ll see in the video, but also this is a real burner of an episode. We covered everything from Mustafa’s approach to training new models to his criticisms of Anthropic talking about Claude as though it is conscious. Of course, we also talked about Microsoft’s relationship with OpenAI, how Mustafa is thinking about all the negative polling and political pushback around AI right now, and whether any of the consumer products are good enough to overcome it. Like I said, it’s a burner. Okay: Mustafa Suleyman, CEO of Microsoft AI. Here we go. This interview has been lightly edited for length and clarity. Mustafa Suleyman, you are the CEO of Microsoft AI. Welcome back to Decoder. Great to be with you again. I’m very excited to talk to you. Our previous conversation was one of my favorite conversations — about AI, how it should make us feel, and what it’s for — that I’ve had in all the conversations we’ve had. There are some big changes at Microsoft, maybe some very important recontextualization about how people feel about AI that I want to talk to you about in particular. And then there’s Microsoft Build, the big Microsoft developer conference, which featured lots of new announcements and lots of big ideas about what computers are for and maybe where they should be that I want to get into. Let’s start at the very start. This is some deep Decoder stuff that is important to understand before all the rest of it. Since you joined Microsoft, you have restructured how AI works there. Your role has changed. The last time I talked to you, you were in charge of a bunch of consumer products. That has since been set aside. You’re now training new models; you’re on the frontier. Explain how Microsoft AI is structured now and how it’s structured inside Microsoft. I guess the last 15 to 18 months or so we’ve been o",
+      "published": "2026-06-08T14:00:00+00:00",
+      "published_dt": "2026-06-08T14:00:00+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Microsoft’s AI chief says superintelligence is near, but won’t take your job (The Verge AI) highlights a notable AI development with score 8.5.",
+      "summary_zh": "The Verge AI 报道：Microsoft’s AI chief says superintelligence is near, but won’t take your job，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130751",
+      "title": "Apple bets cheaper AI will woo small developers",
+      "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "As AI experimentation grows more expensive, Apple is waiving cloud API costs for developers with fewer than 2 million first-time App Store downloads.",
+      "published": "2026-06-08T20:53:55+00:00",
+      "published_dt": "2026-06-08T20:53:55+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple bets cheaper AI will woo small developers (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Apple bets cheaper AI will woo small developers，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-09T02:46:16.361714+00:00",
+      "published_dt": "2026-06-09T02:46:16.361714+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-09T02:46:16.361714+00:00",
+      "published_dt": "2026-06-09T02:46:16.361714+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=946335",
+      "title": "OpenAI files for IPO, following Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following Anthropic's decision to do the same on June 1st. The confidential filing means that certain details normally available through the form - such as executive compensation figures, potential risks to a company's business, and more financials - aren't yet public. As of Anthropic's most recent fundraise, it's being called the world's most valuable startup, with a post-money valu … Read the full story at The Verge.",
+      "published": "2026-06-08T21:38:29+00:00",
+      "published_dt": "2026-06-08T21:38:29+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI files for IPO, following Anthropic (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：OpenAI files for IPO, following Anthropic，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a0f4123270531d462da761b",
+      "title": "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic",
+      "url": "https://www.wired.com/story/openai-confidentially-files-for-ipo/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "The ChatGPT-maker announced it has filed paperwork to go public, just a week after rival Anthropic took the same step.",
+      "published": "2026-06-08T21:31:58+00:00",
+      "published_dt": "2026-06-08T21:31:58+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic (Wired AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Wired AI 报道：OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=944325",
+      "title": "NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources",
+      "url": "https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Google is rolling out \"across the board\" updates to NotebookLM. The AI-powered note-taking app now uses Google's upgraded Gemini 3.5 model, which will allow it to respond with \"more accurate and reliable information,\" according to a blog post on Monday. Launched in 2023, NotebookLM allows you to interact with your notes and sources using AI, as well as ask questions about the materials. With this update, Google says you can start a research project by just asking NotebookLM questions about a topic, instead of importing notes or YouTube videos. NotebookLM will use Google Search to help you find relevant sources, building on its \"discover\" fe … Read the full story at The Verge.",
+      "published": "2026-06-08T16:00:00+00:00",
+      "published_dt": "2026-06-08T16:00:00+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48450142",
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-08T19:14:47+00:00",
+      "published_dt": "2026-06-08T19:14:47+00:00",
+      "hn_score": 370,
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple reveals new AI architecture built around Google Gemini models (Hacker News) highlights a notable AI development with score 6.6.",
+      "summary_zh": "Hacker News 报道：Apple reveals new AI architecture built around Google Gemini models，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130680",
+      "title": "Apple’s WWDC AI demos looked more real after $250M false ad settlement",
+      "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The vibe of Apple's 2026 WWDC keynote felt like a spouse proudly listing all the honey-do-list items tackled. One subtle example: the many AI demos of someone standing, phone in hand.",
+      "published": "2026-06-08T22:39:57+00:00",
+      "published_dt": "2026-06-08T22:39:57+00:00",
+      "score": 6.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$250M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Apple’s WWDC AI demos looked more real after $250M false ad settlement (TechCrunch AI) highlights a notable AI development with score 6.5.",
+      "summary_zh": "TechCrunch AI 报道：Apple’s WWDC AI demos looked more real after $250M false ad settlement，综合评分 6.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93646",
+      "title": "How Bigger ACVs Are Bringing Direct Sales Back To Vertical AI",
+      "url": "https://news.crunchbase.com/ai/bigger-acvs-bring-direct-sales-vertical-ai-agarwal-defy/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By Medha Agarwal For more than a decade, customers spent their software budget procuring vertical SaaS products. ACVs, or annual contract values, were modest, customer acquisition cost had to stay below a ceiling, and the resulting go-to-market playbook was product-led growth, SDR-led and content-driven. With AI, many products are no longer SaaS but usage and outcomes based. They are replacing labor, not software. At my investment firm, Defy, we call this new category of companies vertical AI. Vertical AI spend doesn’t just come from a customer’s software budget. It often comes out of headcount as well, a much larger line item. As a result, ACVs have jumped meaningfully to 6- and 7-figure deals. I’ve written before about how AI opened up distribution for vertical SaaS, and how the value framing shifted from subscription pricing to labor substitution economics. As ACVs have grown in vertical AI, the go-to-market motion is changing too. We’ve explored tactics to drive a more efficient sales process. Here, I’ll explore how the channels are changing as well. Why direct sales is back Medha Agarwal Direct sales has historically only worked at true enterprise scale. The cost of an AE’s time wasn’t warranted for smaller ACVs. Below a certain deal size, the math didn’t work for high-touch sales. That’s why SaaS GTM became PLG and SDR-led. With vertical AI ACVs frequently landing in the 6- or 7-figure range, founders now have room to invest meaningfully in winning each logo. We’re also seeing these smaller businesses spending relatively more with quicker sales cycles which is enabling higher volume. AEs, in-person sales motion, and other tactics that didn’t pencil at scale under old SaaS economics now do. Direct sales now works further down market where prior SaaS economics didn’t allow it. Two channels in particular have driven a lot of distribution and success for vertical AI companies recently. They are distinct from each other but we’ve seen companies have success with bo",
+      "published": "2026-06-08T11:00:27+00:00",
+      "published_dt": "2026-06-08T11:00:27+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How Bigger ACVs Are Bringing Direct Sales Back To Vertical AI (Crunchbase News) highlights a notable AI development with score 6.4.",
+      "summary_zh": "Crunchbase News 报道：How Bigger ACVs Are Bringing Direct Sales Back To Vertical AI，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130429",
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+      "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Apple primarily made the case for an improved experience with its longstanding Siri assistant, which like most other announcements had a hefty helping of AI.",
+      "published": "2026-06-08T19:41:32+00:00",
+      "published_dt": "2026-06-08T19:41:32+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=945905",
+      "title": "Amazon is launching AI-generated custom merch",
+      "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Amazon is expanding its print-on-demand features to AI-generated designs created using Alexa for Shopping for products like T-shirts, water bottles, and hoodies. Shoppers can use text prompts to generate images that are then printed onto blanks for sale on Amazon. They can then share the link to the design so other people can buy the same custom item. Amazon offers family reunions and pet-themed designs as use case examples, but the feature also threatens an entire ecosystem of drop-shipped products - as well as other custom printing companies. Amazon already had a Merch on Demand feature where shoppers could drop in images, text, and cli … Read the full story at The Verge.",
+      "published": "2026-06-08T17:52:51+00:00",
+      "published_dt": "2026-06-08T17:52:51+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon is launching AI-generated custom merch (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Amazon is launching AI-generated custom merch，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=944099",
+      "title": "WWDC 2026: How to watch and what to expect",
+      "url": "https://www.theverge.com/tech/944099/wwdc-2026-how-to-watch",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Apple's biggest event of the year is nearly here. The company's Worldwide Developers Conference will spotlight updates to iOS, macOS, and all of Apple's other operating systems, and this year's event could also include a major overhaul for Siri. Here's how you can watch along live. When WWDC will happen and where you can watch it WWDC lasts a few days, but Apple's biggest announcements will be in the keynote presentation on June 8th at 1PM ET / 10AM PT. The full presentation usually lasts a couple of hours. You can watch it live on YouTube or from Apple's website, but the best way is, as always, to follow along in our live blog. What to e … Read the full story at The Verge.",
+      "published": "2026-06-08T11:00:00+00:00",
+      "published_dt": "2026-06-08T11:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "WWDC 2026: How to watch and what to expect (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：WWDC 2026: How to watch and what to expect，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/openai-submits-confidential-s-1",
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+      "published": "2026-06-08T14:00:00+00:00",
+      "published_dt": "2026-06-08T14:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Confidential submission of draft S-1 to the SEC (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Confidential submission of draft S-1 to the SEC，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130954",
+      "title": "Mercor’s Brendan Foody calls out Sequoia, accusing it of ‘dual-pricing’ valuation tricks",
+      "url": "https://techcrunch.com/2026/06/08/mercors-brendan-foody-calls-out-sequoia-over-dual-pricing-valuation-tricks/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Sequoia is just one of the top firms that sells same equity at two different prices.",
+      "published": "2026-06-09T00:45:56+00:00",
+      "published_dt": "2026-06-09T00:45:56+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Sequoia"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Mercor’s Brendan Foody calls out Sequoia, accusing it of ‘dual-pricing’ valuation tricks (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Mercor’s Brendan Foody calls out Sequoia, accusing it of ‘dual-pricing’ valuation tricks，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130875",
+      "title": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
+      "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Tools for Humanity, Sam Altman's identity verification company, is reportedly struggling to generate revenue and will downsize its staff.",
+      "published": "2026-06-08T22:41:45+00:00",
+      "published_dt": "2026-06-08T22:41:45+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3129100",
+      "title": "OpenAI files confidentially for IPO, following Anthropic",
+      "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
+      "published": "2026-06-08T21:29:57+00:00",
+      "published_dt": "2026-06-08T21:29:57+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI files confidentially for IPO, following Anthropic (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI files confidentially for IPO, following Anthropic，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48449665",
+      "title": "Apple Core AI Framework",
+      "url": "https://developer.apple.com/documentation/coreai/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-08T18:47:38+00:00",
+      "published_dt": "2026-06-08T18:47:38+00:00",
+      "hn_score": 208,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple Core AI Framework (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：Apple Core AI Framework，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130579",
+      "title": "Apple’s Image Playground doesn’t suck anymore",
+      "url": "https://techcrunch.com/2026/06/08/apples-image-playground-doesnt-suck-anymore/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Apple's AI image generator is getting a makeover that could make it more competitive.",
+      "published": "2026-06-08T18:38:07+00:00",
+      "published_dt": "2026-06-08T18:38:07+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple’s Image Playground doesn’t suck anymore (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Apple’s Image Playground doesn’t suck anymore，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=946345",
+      "title": "Apple is using AI to fix Safari’s extension problem",
+      "url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Apple is trying to solve one of Safari's biggest weaknesses with AI. Safari has long lacked the robust library of extensions that its rivals have, mainly due to the stringent development requirements from Apple. But now, Apple is inviting users to essentially vibe-code their own extensions. In a demo shared by Apple, the company showed how you can ask Safari to create an extension by describing it. \"Save and track cooking recipes from around the web,\" the prompt said. \"Click the toolbar button to see your saved recipes and add notes to each.\" From there, Safari used Apple Intelligence to generate a \"Recipe Keeper\" extension that's supposed … Read the full story at The Verge.",
+      "published": "2026-06-08T22:14:17+00:00",
+      "published_dt": "2026-06-08T22:14:17+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple is using AI to fix Safari’s extension problem (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：Apple is using AI to fix Safari’s extension problem，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a26d0df255fdba4ebd668eb",
+      "title": "The UK Is Betting on a Billion-Dollar AI Supercomputer to Kick Its Addiction to US Tech",
+      "url": "https://www.wired.com/story/uk-supercomputer-investment-ai-homegrown-semiconductor/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "The British government thinks a state-backed infrastructure initiative will help supercharge homegrown chip startups.",
+      "published": "2026-06-08T17:44:28+00:00",
+      "published_dt": "2026-06-08T17:44:28+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The UK Is Betting on a Billion-Dollar AI Supercomputer to Kick Its Addiction to US Tech (Wired AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Wired AI 报道：The UK Is Betting on a Billion-Dollar AI Supercomputer to Kick Its Addiction to US Tech，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a2028f32f0073b9ec001df0",
+      "title": "Apple’s New Siri AI Is Ready to Get Personal",
+      "url": "https://www.wired.com/story/apples-new-siri-ai-is-ready-to-get-personal/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "From a stand-alone app to a Google Gemini partnership, here’s everything you need to know from WWDC 2026 about Apple’s upcoming overhaul of Siri.",
+      "published": "2026-06-08T18:17:44+00:00",
+      "published_dt": "2026-06-08T18:17:44+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple’s New Siri AI Is Ready to Get Personal (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Apple’s New Siri AI Is Ready to Get Personal，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=942416",
+      "title": "Apple announces Siri AI and its next generation of Apple Intelligence",
+      "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Two years after first revealing its plans for Apple Intelligence and a smarter Siri that never fully materialized, at WWDC, Apple just revealed a new set of AI features and a smarter, more personalized Siri. Apple calls Siri AI an \"entirely new version of Siri\" and says it's both more conversational and more capable than the previous version of the smart assistant. In conversations, it has a more expressive voice that can be customized by pace, expressivity, and accent. Siri AI will be accessible systemwide, capable of reading what's onscreen and interacting with your apps. But Apple's SVP of software engineering Craig Federighi said it w … Read the full story at The Verge.",
+      "published": "2026-06-08T17:34:24+00:00",
+      "published_dt": "2026-06-08T17:34:24+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple announces Siri AI and its next generation of Apple Intelligence (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Apple announces Siri AI and its next generation of Apple Intelligence，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130646",
+      "title": "Why Apple’s slow-and-steady AI bet is starting to look pretty smart",
+      "url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Can Apple's new AI glow up put to bed accusations that it's losing an all-important industry race?",
+      "published": "2026-06-09T01:56:48+00:00",
+      "published_dt": "2026-06-09T01:56:48+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Why Apple’s slow-and-steady AI bet is starting to look pretty smart (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Why Apple’s slow-and-steady AI bet is starting to look pretty smart，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130496",
+      "title": "Apple plays catch-up at WWDC",
+      "url": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Apple spent much of its WWDC keynote highlighting fixes, performance improvements, and long-requested features before unveiling its upgraded AI-powered Siri, signaling that the company wants users to see AI as just one part of a broader effort to improve its software.",
+      "published": "2026-06-08T21:15:42+00:00",
+      "published_dt": "2026-06-08T21:15:42+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple plays catch-up at WWDC (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Apple plays catch-up at WWDC，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130551",
+      "title": "Apple just taught your iPhone to finish your sentences, your photos, and your workflows",
+      "url": "https://techcrunch.com/2026/06/08/apple-just-taught-your-iphone-to-finish-your-sentences-your-photos-and-your-workflows/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Apple is adding new AI-powered features to Safari, Shortcuts, and Password apps.",
+      "published": "2026-06-08T18:48:45+00:00",
+      "published_dt": "2026-06-08T18:48:45+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple just taught your iPhone to finish your sentences, your photos, and your workflows (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Apple just taught your iPhone to finish your sentences, your photos, and your workflows，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130591",
+      "title": "Apple will let you build workflows using AI in its new Shortcuts app",
+      "url": "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Shortcuts gets an AI upgrade, letting you describe the workflow you want in a prompt.",
+      "published": "2026-06-08T18:45:12+00:00",
+      "published_dt": "2026-06-08T18:45:12+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple will let you build workflows using AI in its new Shortcuts app (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Apple will let you build workflows using AI in its new Shortcuts app，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130585",
+      "title": "Apple’s Photos app is getting new AI editing features",
+      "url": "https://techcrunch.com/2026/06/08/apples-photos-app-is-getting-new-ai-editing-features/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "A new spatial \"Reframe\" feature will let users use AI to adjust perspectives.",
+      "published": "2026-06-08T18:36:04+00:00",
+      "published_dt": "2026-06-08T18:36:04+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple’s Photos app is getting new AI editing features (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Apple’s Photos app is getting new AI editing features，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130410",
+      "title": "Apple gives Siri its own dedicated app",
+      "url": "https://techcrunch.com/2026/06/08/apple-gives-siri-its-own-dedicated-app/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Siri is finally getting its own app.",
+      "published": "2026-06-08T18:33:42+00:00",
+      "published_dt": "2026-06-08T18:33:42+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple gives Siri its own dedicated app (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Apple gives Siri its own dedicated app，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130462",
+      "title": "Apple is fixing the headache of splitting the bill with its new Siri in Camera feature",
+      "url": "https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "\"If you're grabbing a bite with friends and point your iPhone at the bill, then [you can] select what you ordered to split the tab with Apple Cash,\" said Apple VP of Software Sebastien Marineau-Mes.",
+      "published": "2026-06-08T18:23:04+00:00",
+      "published_dt": "2026-06-08T18:23:04+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple is fixing the headache of splitting the bill with its new Siri in Camera feature (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Apple is fixing the headache of splitting the bill with its new Siri in Camera feature，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48449084",
+      "title": "Siri AI",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-08T18:17:53+00:00",
+      "published_dt": "2026-06-08T18:17:53+00:00",
+      "hn_score": 430,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Siri AI (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Siri AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130474",
+      "title": "Apple’s long-awaited AI Siri overhaul is finally here",
+      "url": "https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The idea behind the new \"Siri AI\" is to turn the assistant from a voice controlled assistant into an AI companion that can do a lot more.",
+      "published": "2026-06-08T17:56:21+00:00",
+      "published_dt": "2026-06-08T17:56:21+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple’s long-awaited AI Siri overhaul is finally here (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Apple’s long-awaited AI Siri overhaul is finally here，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3130391",
+      "title": "Amazon now lets you design custom merch using AI",
+      "url": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "A new feature in the Amazon Shopping app allows users to generate designs with Alexa, then print them on products like T-shirts, hoodies, and tumblers.",
+      "published": "2026-06-08T15:49:12+00:00",
+      "published_dt": "2026-06-08T15:49:12+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon now lets you design custom merch using AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Amazon now lets you design custom merch using AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48446893",
+      "title": "AI is slowing down",
+      "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-08T15:46:37+00:00",
+      "published_dt": "2026-06-08T15:46:37+00:00",
+      "hn_score": 420,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI is slowing down (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：AI is slowing down，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3129597",
+      "title": "WWDC 2026: What to expect, from Siri’s highly anticipated revamp to Apple Intelligence and iOS 27",
+      "url": "https://techcrunch.com/2026/06/08/wwdc-2026-what-to-expect-from-siris-highly-anticipated-revamp-to-apple-intelligence-and-ios-27/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Apple's WWDC nears: Here's what you can look forward to.",
+      "published": "2026-06-08T15:34:59+00:00",
+      "published_dt": "2026-06-08T15:34:59+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "WWDC 2026: What to expect, from Siri’s highly anticipated revamp to Apple Intelligence and iOS 27 (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：WWDC 2026: What to expect, from Siri’s highly anticipated revamp to Apple Intelligence and iOS 27，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48446428",
+      "title": "xAI is looking more like a datacentre REIT than a frontier lab",
+      "url": "https://martinalderson.com/posts/xais-new-rental-business/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-08T15:13:43+00:00",
+      "published_dt": "2026-06-08T15:13:43+00:00",
+      "hn_score": 413,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "xAI is looking more like a datacentre REIT than a frontier lab (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：xAI is looking more like a datacentre REIT than a frontier lab，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
