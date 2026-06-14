@@ -1,0 +1,1235 @@
+{
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14T03:37:35",
+  "stats": {
+    "total_items": 18,
+    "high_importance": 3,
+    "medium_importance": 15,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+      "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+      "url": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "The Pyodide 314.0 release announcement (via Hacker News) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783) directly to PyPI and install them at runtime. Previously, the Pyodide maintainers had to maintain, build, and host over 300 packages ourselves. This created a significant burden on our maintainers and became a major bottleneck for the community, as every new package required manual review. Moving forward, package maintainers can simply build and publish Pyodide wheels to PyPI, just as they do for native wheels on Linux, macOS, or Windows. Here's the PR to PyPI itself supporting this, which landed on April 21st. I adore Pyodide, and have been frustrated in the past by this limitation. It's possible to compile C or Rust extensions to WASM in a wheel file, but before now there was no easy way to distribute them. Thanks to the efforts of a whole lot of people, that's now been fixed! Trying it out with luau-wasm I decided to celebrate by finding something I could package. I have quite a few experimental Pyodide projects lying around, but the best fit for this looked to be my Luau WebAssembly research spike from 9th March. Luau is a \"small, fast, and embeddable programming language based on Lua with a gradual type system\", developed by Roblox and released under an MIT license. It's written in C++. I already knew it was possible to compile it to WebAssembly and get it running inside of Pyodide, so I set Codex + GPT-5.5 xhigh the task of packaging my experiment up and publishing it to PyPI using GitHub Actions. It took some iteration, but here's the result: luau-wasm is a brand new PyPI package which publishes a 276KB luau_wasm-0.1a0-cp314-cp314-pyemscripten_2026_0_wasm32.whl file which can be used in Pyodide like this: import micropip await micropip.install(\"luau-wasm\") import luau_wasm print(luau_wasm.execute(r''' local ",
+      "published": "2026-06-13T23:55:18+00:00",
+      "published_dt": "2026-06-13T23:55:18+00:00",
+      "score": 9.8,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Publishing WASM wheels to PyPI for use with Pyodide (Simon Willison) highlights a notable AI development with score 9.8.",
+      "summary_zh": "Simon Willison 报道：Publishing WASM wheels to PyPI for use with Pyodide，综合评分 9.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
+      "title": "[AINews] Fable and Mythos officially too dangerous to release",
+      "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "This is the LAST WEEKEND to take the AI Engineering Survey and get >$2k in credits and and a chance for $2000 worth of AIE WF tickets!Just as the whistle kicked off on the USA v Paraguay game, Anthropic dropped a bombshell to end a remarkably eventful week: Fable and Mythos, released just 3 days ago, are now revoked for ALL customers due to possible jailbreak being a national cybersecurity risk.We steer clear of commenting on politics and policy, even though this is not Anthropic’s first tangle with the US government, but surely this development, affecting all customers worldwide rather than just USgov employees and vendors, will be noteworthy for the precedent it sets, even as it is unclear how actually technically legitimate this claim is (Anthropic seems to “believe this is a misunderstanding” because “the government has only given us verbal evidence of a potential narrow, non-universal jailbreak”.)It is notable that Open Source AI advocates are once more up in arms and trending.AI News for 6/11/2026-6/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapAnthropic’s Fable/Mythos Suspension and the New “Model Sovereignty” DebateUS export controls abruptly took Fable/Mythos offline: The dominant story was Anthropic’s announcement that, following a US government directive, it had to suspend access to Claude Fable 5 and Mythos 5 for foreign nationals, with knock-on disruption for all users while compliance was sorted out. Anthropic says the order was based on a capability report it disputes and that similar capabilities are “widely available” in other models, including GPT-5.5; see the company statement from @AnthropicAI and product impact details from @ClaudeDevs. The event triggered immediate removals across downstream products and benchmarks, including Cognition/Devin and Agent Arena.Te",
+      "published": "2026-06-13T04:30:52+00:00",
+      "published_dt": "2026-06-13T04:30:52+00:00",
+      "score": 9.8,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] Fable and Mythos officially too dangerous to release (Latent Space) highlights a notable AI development with score 9.8.",
+      "summary_zh": "Latent Space 报道：[AINews] Fable and Mythos officially too dangerous to release，综合评分 9.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3132716",
+      "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+      "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
+      "published": "2026-06-14T00:03:49+00:00",
+      "published_dt": "2026-06-14T00:03:49+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$2B",
+          "$2 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=949601",
+          "title": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series of prompts, it was able to get Fable 5 to serve up information that could be used in cyberattacks. Amazon has yet to respond to a request for comment. Shortly after Jassy shared the company's findings with the government, it made the call to block its use by foreign nationals. Complicating this issue is that many of … Read the full story at The Verge.",
+          "published": "2026-06-13T21:39:26+00:00",
+          "published_dt": "2026-06-13T21:39:26+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon security research reportedly led to the White House’s Anthropic Fable ban (The Verge AI) highlights a notable AI development with score 6.4.",
+          "summary_zh": "The Verge AI 报道：Amazon security research reportedly led to the White House’s Anthropic Fable ban，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3132716",
+          "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+          "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
+          "published": "2026-06-14T00:03:49+00:00",
+          "published_dt": "2026-06-14T00:03:49+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$2B",
+              "$2 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48516504",
+          "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
+          "url": "https://github.com/tensorzero/tensorzero",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-13T12:10:47+00:00",
+          "published_dt": "2026-06-13T12:10:47+00:00",
+          "hn_score": 247,
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$7.3M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "AI OSS tool repo goes archived over night after raising $7.3M Seed (Hacker News) highlights a notable AI development with score 7.3.",
+          "summary_zh": "Hacker News 报道：AI OSS tool repo goes archived over night after raising $7.3M Seed，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48520807",
+          "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
+          "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-13T19:54:55+00:00",
+          "published_dt": "2026-06-13T19:54:55+00:00",
+          "hn_score": 256,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Police officer investigated for using AI to 'create evidence' in multiple cases (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：Police officer investigated for using AI to 'create evidence' in multiple cases，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3132688",
+          "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+          "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+          "published": "2026-06-13T19:11:41+00:00",
+          "published_dt": "2026-06-13T19:11:41+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Amazon CEO reportedly raised Anthropic model concerns before government crackdown，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3132685",
+          "title": "OpenAI faces investigation from state attorneys general",
+          "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
+          "published": "2026-06-13T16:47:18+00:00",
+          "published_dt": "2026-06-13T16:47:18+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI faces investigation from state attorneys general (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI faces investigation from state attorneys general，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3132491",
+          "title": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
+          "url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Andrew Yang made a list of everything Americans overpay for — housing, food, wireless — and thinks the next startup gold rush is giving that money back.",
+          "published": "2026-06-13T04:14:19+00:00",
+          "published_dt": "2026-06-13T04:14:19+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Andrew Yang thinks the next big startup opportunity is lowering the cost of living，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+          "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+          "url": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "The Pyodide 314.0 release announcement (via Hacker News) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783) directly to PyPI and install them at runtime. Previously, the Pyodide maintainers had to maintain, build, and host over 300 packages ourselves. This created a significant burden on our maintainers and became a major bottleneck for the community, as every new package required manual review. Moving forward, package maintainers can simply build and publish Pyodide wheels to PyPI, just as they do for native wheels on Linux, macOS, or Windows. Here's the PR to PyPI itself supporting this, which landed on April 21st. I adore Pyodide, and have been frustrated in the past by this limitation. It's possible to compile C or Rust extensions to WASM in a wheel file, but before now there was no easy way to distribute them. Thanks to the efforts of a whole lot of people, that's now been fixed! Trying it out with luau-wasm I decided to celebrate by finding something I could package. I have quite a few experimental Pyodide projects lying around, but the best fit for this looked to be my Luau WebAssembly research spike from 9th March. Luau is a \"small, fast, and embeddable programming language based on Lua with a gradual type system\", developed by Roblox and released under an MIT license. It's written in C++. I already knew it was possible to compile it to WebAssembly and get it running inside of Pyodide, so I set Codex + GPT-5.5 xhigh the task of packaging my experiment up and publishing it to PyPI using GitHub Actions. It took some iteration, but here's the result: luau-wasm is a brand new PyPI package which publishes a 276KB luau_wasm-0.1a0-cp314-cp314-pyemscripten_2026_0_wasm32.whl file which can be used in Pyodide like this: import micropip await micropip.install(\"luau-wasm\") import luau_wasm print(luau_wasm.execute(r''' local ",
+          "published": "2026-06-13T23:55:18+00:00",
+          "published_dt": "2026-06-13T23:55:18+00:00",
+          "score": 9.8,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Publishing WASM wheels to PyPI for use with Pyodide (Simon Willison) highlights a notable AI development with score 9.8.",
+          "summary_zh": "Simon Willison 报道：Publishing WASM wheels to PyPI for use with Pyodide，综合评分 9.8，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
+          "title": "[AINews] Fable and Mythos officially too dangerous to release",
+          "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "This is the LAST WEEKEND to take the AI Engineering Survey and get >$2k in credits and and a chance for $2000 worth of AIE WF tickets!Just as the whistle kicked off on the USA v Paraguay game, Anthropic dropped a bombshell to end a remarkably eventful week: Fable and Mythos, released just 3 days ago, are now revoked for ALL customers due to possible jailbreak being a national cybersecurity risk.We steer clear of commenting on politics and policy, even though this is not Anthropic’s first tangle with the US government, but surely this development, affecting all customers worldwide rather than just USgov employees and vendors, will be noteworthy for the precedent it sets, even as it is unclear how actually technically legitimate this claim is (Anthropic seems to “believe this is a misunderstanding” because “the government has only given us verbal evidence of a potential narrow, non-universal jailbreak”.)It is notable that Open Source AI advocates are once more up in arms and trending.AI News for 6/11/2026-6/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapAnthropic’s Fable/Mythos Suspension and the New “Model Sovereignty” DebateUS export controls abruptly took Fable/Mythos offline: The dominant story was Anthropic’s announcement that, following a US government directive, it had to suspend access to Claude Fable 5 and Mythos 5 for foreign nationals, with knock-on disruption for all users while compliance was sorted out. Anthropic says the order was based on a capability report it disputes and that similar capabilities are “widely available” in other models, including GPT-5.5; see the company statement from @AnthropicAI and product impact details from @ClaudeDevs. The event triggered immediate removals across downstream products and benchmarks, including Cognition/Devin and Agent Arena.Te",
+          "published": "2026-06-13T04:30:52+00:00",
+          "published_dt": "2026-06-13T04:30:52+00:00",
+          "score": 9.8,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "[AINews] Fable and Mythos officially too dangerous to release (Latent Space) highlights a notable AI development with score 9.8.",
+          "summary_zh": "Latent Space 报道：[AINews] Fable and Mythos officially too dangerous to release，综合评分 9.8，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=949360",
+          "title": "Apple’s new AI photo editing tools mostly work, for better and worse",
+          "url": "https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "iPhone owners are getting real, native AI photo editing for the first time. The most popular camera in the world just got its first set of serious AI photo editing features, and I don't think any of us are ready. As far as AI photo editing goes, the new features in iOS 27 are pretty tame compared to what you can do on, say, Google's Pixel phones. But for the iPhone, they represent a tipping point in what the native photos app allows you to do to your photos. I mean memories. I mean, I don't know anymore. These new features are part of the iOS 27 developer beta right now, so bear in mind that Apple may continue making tweaks to them before they're released to the general public. There are three, or maybe two and a … Read the full story at The Verge.",
+          "published": "2026-06-13T12:00:00+00:00",
+          "published_dt": "2026-06-13T12:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple’s new AI photo editing tools mostly work, for better and worse (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Apple’s new AI photo editing tools mostly work, for better and worse，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything",
+          "title": "luau-wasm 0.1a0",
+          "url": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: luau-wasm 0.1a0 See Publishing WASM wheels to PyPI for use with Pyodide for details. Tags: lua, webassembly, pyodide",
+          "published": "2026-06-13T23:14:30+00:00",
+          "published_dt": "2026-06-13T23:14:30+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "luau-wasm 0.1a0 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：luau-wasm 0.1a0，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=942119",
+          "title": "My yard is dying, so I made an app for that",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug. \"~ Channel is unrecoverably broken and will be disposed!\" Sounded bad! But right below it was a button to fix the bug. Pretty weird that I just instructed a computer to build a whole app for me with a single prompt, but it needed me to click a button to fix a bug. I did anyway, and in 233 seconds Gemini reported back that it had succeeded, using words like \"blockages\" and \"race conditions.\" I didn't understand a bit of it. It was thrilling. This was my second or third attempt a … Read the full story at The Verge.",
+          "published": "2026-06-13T13:00:00+00:00",
+          "published_dt": "2026-06-13T13:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "My yard is dying, so I made an app for that (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：My yard is dying, so I made an app for that，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=948425",
+          "title": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Concept art from Dear Upstairs Neighbors that used to train custom builds of Google’s Veo and Imagen models. | Image: Google DeepMind For all the noise that's been made about how generative AI is poised to revolutionize the filmmaking industry, there haven't really been any projects created with the technology that felt like the sort of entertainment people would pay to see. Most AI firms' video models are still only capable of churning out short bursts of visually inconsistent footage. And some of Hollywood's biggest AI partnerships have suddenly evaporated in ways that make it seem like studios might not be able to rely on the new technology coming out of Silicon Valley. For the most part, short-form video slop appears to be the only thing that major production houses ar … Read the full story at The Verge.",
+          "published": "2026-06-13T11:00:00+00:00",
+          "published_dt": "2026-06-13T11:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google",
+              "DeepMind"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：The future of Hollywood isn’t feeding prompts into vanilla gen AI models，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 3,
+      "items": [
+        {
+          "id": "hn-48519092",
+          "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+          "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-offic...",
+          "published": "2026-06-13T16:57:49+00:00",
+          "published_dt": "2026-06-13T16:57:49+00:00",
+          "hn_score": 585,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3132703",
+          "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Once again, AI proves to be an unreliable source of information about AI.",
+          "published": "2026-06-13T20:42:31+00:00",
+          "published_dt": "2026-06-13T20:42:31+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "KPMG pulls report on AI usage due to apparent hallucinations (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：KPMG pulls report on AI usage due to apparent hallucinations，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48518969",
+          "title": "AI coding at home without going broke",
+          "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-13T16:45:03+00:00",
+          "published_dt": "2026-06-13T16:45:03+00:00",
+          "hn_score": 250,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI coding at home without going broke (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：AI coding at home without going broke，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-14T03:37:31.975385+00:00",
+          "published_dt": "2026-06-14T03:37:31.975385+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-14T03:37:31.975385+00:00",
+          "published_dt": "2026-06-14T03:37:31.975385+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+      "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+      "url": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "The Pyodide 314.0 release announcement (via Hacker News) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783) directly to PyPI and install them at runtime. Previously, the Pyodide maintainers had to maintain, build, and host over 300 packages ourselves. This created a significant burden on our maintainers and became a major bottleneck for the community, as every new package required manual review. Moving forward, package maintainers can simply build and publish Pyodide wheels to PyPI, just as they do for native wheels on Linux, macOS, or Windows. Here's the PR to PyPI itself supporting this, which landed on April 21st. I adore Pyodide, and have been frustrated in the past by this limitation. It's possible to compile C or Rust extensions to WASM in a wheel file, but before now there was no easy way to distribute them. Thanks to the efforts of a whole lot of people, that's now been fixed! Trying it out with luau-wasm I decided to celebrate by finding something I could package. I have quite a few experimental Pyodide projects lying around, but the best fit for this looked to be my Luau WebAssembly research spike from 9th March. Luau is a \"small, fast, and embeddable programming language based on Lua with a gradual type system\", developed by Roblox and released under an MIT license. It's written in C++. I already knew it was possible to compile it to WebAssembly and get it running inside of Pyodide, so I set Codex + GPT-5.5 xhigh the task of packaging my experiment up and publishing it to PyPI using GitHub Actions. It took some iteration, but here's the result: luau-wasm is a brand new PyPI package which publishes a 276KB luau_wasm-0.1a0-cp314-cp314-pyemscripten_2026_0_wasm32.whl file which can be used in Pyodide like this: import micropip await micropip.install(\"luau-wasm\") import luau_wasm print(luau_wasm.execute(r''' local ",
+      "published": "2026-06-13T23:55:18+00:00",
+      "published_dt": "2026-06-13T23:55:18+00:00",
+      "score": 9.8,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Publishing WASM wheels to PyPI for use with Pyodide (Simon Willison) highlights a notable AI development with score 9.8.",
+      "summary_zh": "Simon Willison 报道：Publishing WASM wheels to PyPI for use with Pyodide，综合评分 9.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
+      "title": "[AINews] Fable and Mythos officially too dangerous to release",
+      "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "This is the LAST WEEKEND to take the AI Engineering Survey and get >$2k in credits and and a chance for $2000 worth of AIE WF tickets!Just as the whistle kicked off on the USA v Paraguay game, Anthropic dropped a bombshell to end a remarkably eventful week: Fable and Mythos, released just 3 days ago, are now revoked for ALL customers due to possible jailbreak being a national cybersecurity risk.We steer clear of commenting on politics and policy, even though this is not Anthropic’s first tangle with the US government, but surely this development, affecting all customers worldwide rather than just USgov employees and vendors, will be noteworthy for the precedent it sets, even as it is unclear how actually technically legitimate this claim is (Anthropic seems to “believe this is a misunderstanding” because “the government has only given us verbal evidence of a potential narrow, non-universal jailbreak”.)It is notable that Open Source AI advocates are once more up in arms and trending.AI News for 6/11/2026-6/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapAnthropic’s Fable/Mythos Suspension and the New “Model Sovereignty” DebateUS export controls abruptly took Fable/Mythos offline: The dominant story was Anthropic’s announcement that, following a US government directive, it had to suspend access to Claude Fable 5 and Mythos 5 for foreign nationals, with knock-on disruption for all users while compliance was sorted out. Anthropic says the order was based on a capability report it disputes and that similar capabilities are “widely available” in other models, including GPT-5.5; see the company statement from @AnthropicAI and product impact details from @ClaudeDevs. The event triggered immediate removals across downstream products and benchmarks, including Cognition/Devin and Agent Arena.Te",
+      "published": "2026-06-13T04:30:52+00:00",
+      "published_dt": "2026-06-13T04:30:52+00:00",
+      "score": 9.8,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] Fable and Mythos officially too dangerous to release (Latent Space) highlights a notable AI development with score 9.8.",
+      "summary_zh": "Latent Space 报道：[AINews] Fable and Mythos officially too dangerous to release，综合评分 9.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3132716",
+      "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+      "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
+      "published": "2026-06-14T00:03:49+00:00",
+      "published_dt": "2026-06-14T00:03:49+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$2B",
+          "$2 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48516504",
+      "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
+      "url": "https://github.com/tensorzero/tensorzero",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-13T12:10:47+00:00",
+      "published_dt": "2026-06-13T12:10:47+00:00",
+      "hn_score": 247,
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$7.3M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "AI OSS tool repo goes archived over night after raising $7.3M Seed (Hacker News) highlights a notable AI development with score 7.3.",
+      "summary_zh": "Hacker News 报道：AI OSS tool repo goes archived over night after raising $7.3M Seed，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-14T03:37:31.975385+00:00",
+      "published_dt": "2026-06-14T03:37:31.975385+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-14T03:37:31.975385+00:00",
+      "published_dt": "2026-06-14T03:37:31.975385+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=949601",
+      "title": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series of prompts, it was able to get Fable 5 to serve up information that could be used in cyberattacks. Amazon has yet to respond to a request for comment. Shortly after Jassy shared the company's findings with the government, it made the call to block its use by foreign nationals. Complicating this issue is that many of … Read the full story at The Verge.",
+      "published": "2026-06-13T21:39:26+00:00",
+      "published_dt": "2026-06-13T21:39:26+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon security research reportedly led to the White House’s Anthropic Fable ban (The Verge AI) highlights a notable AI development with score 6.4.",
+      "summary_zh": "The Verge AI 报道：Amazon security research reportedly led to the White House’s Anthropic Fable ban，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=949360",
+      "title": "Apple’s new AI photo editing tools mostly work, for better and worse",
+      "url": "https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "iPhone owners are getting real, native AI photo editing for the first time. The most popular camera in the world just got its first set of serious AI photo editing features, and I don't think any of us are ready. As far as AI photo editing goes, the new features in iOS 27 are pretty tame compared to what you can do on, say, Google's Pixel phones. But for the iPhone, they represent a tipping point in what the native photos app allows you to do to your photos. I mean memories. I mean, I don't know anymore. These new features are part of the iOS 27 developer beta right now, so bear in mind that Apple may continue making tweaks to them before they're released to the general public. There are three, or maybe two and a … Read the full story at The Verge.",
+      "published": "2026-06-13T12:00:00+00:00",
+      "published_dt": "2026-06-13T12:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple’s new AI photo editing tools mostly work, for better and worse (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Apple’s new AI photo editing tools mostly work, for better and worse，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48519092",
+      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-offic...",
+      "published": "2026-06-13T16:57:49+00:00",
+      "published_dt": "2026-06-13T16:57:49+00:00",
+      "hn_score": 585,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48520807",
+      "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
+      "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-13T19:54:55+00:00",
+      "published_dt": "2026-06-13T19:54:55+00:00",
+      "hn_score": 256,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Police officer investigated for using AI to 'create evidence' in multiple cases (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：Police officer investigated for using AI to 'create evidence' in multiple cases，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3132688",
+      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+      "published": "2026-06-13T19:11:41+00:00",
+      "published_dt": "2026-06-13T19:11:41+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Amazon CEO reportedly raised Anthropic model concerns before government crackdown，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3132685",
+      "title": "OpenAI faces investigation from state attorneys general",
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
+      "published": "2026-06-13T16:47:18+00:00",
+      "published_dt": "2026-06-13T16:47:18+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI faces investigation from state attorneys general (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI faces investigation from state attorneys general，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3132491",
+      "title": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
+      "url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Andrew Yang made a list of everything Americans overpay for — housing, food, wireless — and thinks the next startup gold rush is giving that money back.",
+      "published": "2026-06-13T04:14:19+00:00",
+      "published_dt": "2026-06-13T04:14:19+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Andrew Yang thinks the next big startup opportunity is lowering the cost of living，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything",
+      "title": "luau-wasm 0.1a0",
+      "url": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: luau-wasm 0.1a0 See Publishing WASM wheels to PyPI for use with Pyodide for details. Tags: lua, webassembly, pyodide",
+      "published": "2026-06-13T23:14:30+00:00",
+      "published_dt": "2026-06-13T23:14:30+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "luau-wasm 0.1a0 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：luau-wasm 0.1a0，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=942119",
+      "title": "My yard is dying, so I made an app for that",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug. \"~ Channel is unrecoverably broken and will be disposed!\" Sounded bad! But right below it was a button to fix the bug. Pretty weird that I just instructed a computer to build a whole app for me with a single prompt, but it needed me to click a button to fix a bug. I did anyway, and in 233 seconds Gemini reported back that it had succeeded, using words like \"blockages\" and \"race conditions.\" I didn't understand a bit of it. It was thrilling. This was my second or third attempt a … Read the full story at The Verge.",
+      "published": "2026-06-13T13:00:00+00:00",
+      "published_dt": "2026-06-13T13:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "My yard is dying, so I made an app for that (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：My yard is dying, so I made an app for that，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=948425",
+      "title": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Concept art from Dear Upstairs Neighbors that used to train custom builds of Google’s Veo and Imagen models. | Image: Google DeepMind For all the noise that's been made about how generative AI is poised to revolutionize the filmmaking industry, there haven't really been any projects created with the technology that felt like the sort of entertainment people would pay to see. Most AI firms' video models are still only capable of churning out short bursts of visually inconsistent footage. And some of Hollywood's biggest AI partnerships have suddenly evaporated in ways that make it seem like studios might not be able to rely on the new technology coming out of Silicon Valley. For the most part, short-form video slop appears to be the only thing that major production houses ar … Read the full story at The Verge.",
+      "published": "2026-06-13T11:00:00+00:00",
+      "published_dt": "2026-06-13T11:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：The future of Hollywood isn’t feeding prompts into vanilla gen AI models，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3132703",
+      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Once again, AI proves to be an unreliable source of information about AI.",
+      "published": "2026-06-13T20:42:31+00:00",
+      "published_dt": "2026-06-13T20:42:31+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "KPMG pulls report on AI usage due to apparent hallucinations (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：KPMG pulls report on AI usage due to apparent hallucinations，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48518969",
+      "title": "AI coding at home without going broke",
+      "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-13T16:45:03+00:00",
+      "published_dt": "2026-06-13T16:45:03+00:00",
+      "hn_score": 250,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI coding at home without going broke (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：AI coding at home without going broke，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
