@@ -1,0 +1,534 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T03:44:03",
+  "stats": {
+    "total_items": 8,
+    "high_importance": 0,
+    "medium_importance": 8,
+    "categories_covered": 3
+  },
+  "top_stories": [],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=953183",
+          "title": "The Atlantic created a searchable database of the music used to train AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12 million and 9 million tracks. The other two are much smaller, but still represent a significant amount of training data at over 100,000 songs each. According to Reisner, the sets have been downloaded thousands of times and, while it's impossible to know exactly who has used them, Google and Stability have both confirmed they have in research papers. Some of the sources, like the Free Music Archive dataset, are free to stream for personal use but re … Read the full story at The Verge.",
+          "published": "2026-06-20T18:46:48+00:00",
+          "published_dt": "2026-06-20T18:46:48+00:00",
+          "score": 7.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Atlantic created a searchable database of the music used to train AI (The Verge AI) highlights a notable AI development with score 7.2.",
+          "summary_zh": "The Verge AI 报道：The Atlantic created a searchable database of the music used to train AI，综合评分 7.2，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3134695",
+          "title": "In the Weights is your new AI-centric vanity search",
+          "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "So ... what's your In the Weights score?",
+          "published": "2026-06-20T19:41:11+00:00",
+          "published_dt": "2026-06-20T19:41:11+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "In the Weights is your new AI-centric vanity search (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：In the Weights is your new AI-centric vanity search，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48609231",
+          "title": "Show HN: We post-trained a model that pen tests instead of refusing",
+          "url": "https://www.argusred.com/cli",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Anthropic and OpenAI's publicly available models are explicitly guard-railed so that they refuse offensive tasks. And their cyber-focussed models are gated for enterprises. This leaves SMEs and mid market open to major vulnerabilities.AI can be used as both an adversarial and defensive tool in the world of cyber. A worst case outcome is if only the adversaries have access.Meanwhile, most existing AI cyber tools are just wrappers. The problem is that they still have all the guardrails on from the foundation model where they will inherit its refusals.For this project we've post-trained a specific model on a decade of capture-the-flag contests. This won't be made available to anyone and everyone, but we do believe that responsible SMEs and midmarket companies also need access to these tools in order to identify key vulnerabilities in their systems; not just enterprises.We have developed two modes that run over a CLI:• Security scan: a read-only audit of your local codebase for vulnerabilities. It only reports what it can tie to a specific file and line, so you're not wading through vibes-based findings.• Pen test: an active adversarial mode that will try to break a live system in a sandboxed environment. It proves each vulnerability by running the exploit and showing the request it sent and the response your code gave back, not a confidence score. Currently gated.To show what the scan does, we pointed it at Bank of Anthos and it found an integer overflow in the transfer path: amount is an int, and amount + fee can overflow negative, so the balance check passes and you move funds you don't have. Plus the usual auth and secrets issues. (Bank of Anthos is Google's open-source bank. It's a known app and some of it is intentionally weak, which is the point: you can clone it and re-run the scan yourself instead of trusting a screenshot)The base model is a Kimi K2.6 (open weights). We didn't pretrain from scratch. We post-trained it ourselves, SFT on CTF writeups, then RL wit",
+          "published": "2026-06-20T13:49:03+00:00",
+          "published_dt": "2026-06-20T13:49:03+00:00",
+          "hn_score": 77,
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Show HN: We post-trained a model that pen tests instead of refusing (Hacker News) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Hacker News 报道：Show HN: We post-trained a model that pen tests instead of refusing，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 0,
+      "items": []
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 0,
+      "items": []
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3134719",
+          "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
+          "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.”",
+          "published": "2026-06-20T20:32:29+00:00",
+          "published_dt": "2026-06-20T20:32:29+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’ (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48611411",
+          "title": "The Wholesale Plagiarism of Obscure Sorrows",
+          "url": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-20T18:05:31+00:00",
+          "published_dt": "2026-06-20T18:05:31+00:00",
+          "hn_score": 336,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Wholesale Plagiarism of Obscure Sorrows (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：The Wholesale Plagiarism of Obscure Sorrows，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3134677",
+          "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+          "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Jumper isn't the only big name leaving Google DeepMind.",
+          "published": "2026-06-20T16:39:57+00:00",
+          "published_dt": "2026-06-20T16:39:57+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google",
+              "DeepMind"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Nobel laureate John Jumper is leaving DeepMind for rival Anthropic，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-21T03:44:00.762928+00:00",
+          "published_dt": "2026-06-21T03:44:00.762928+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-21T03:44:00.762928+00:00",
+          "published_dt": "2026-06-21T03:44:00.762928+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.theverge.com/?p=953183",
+      "title": "The Atlantic created a searchable database of the music used to train AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12 million and 9 million tracks. The other two are much smaller, but still represent a significant amount of training data at over 100,000 songs each. According to Reisner, the sets have been downloaded thousands of times and, while it's impossible to know exactly who has used them, Google and Stability have both confirmed they have in research papers. Some of the sources, like the Free Music Archive dataset, are free to stream for personal use but re … Read the full story at The Verge.",
+      "published": "2026-06-20T18:46:48+00:00",
+      "published_dt": "2026-06-20T18:46:48+00:00",
+      "score": 7.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Atlantic created a searchable database of the music used to train AI (The Verge AI) highlights a notable AI development with score 7.2.",
+      "summary_zh": "The Verge AI 报道：The Atlantic created a searchable database of the music used to train AI，综合评分 7.2，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-21T03:44:00.762928+00:00",
+      "published_dt": "2026-06-21T03:44:00.762928+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-21T03:44:00.762928+00:00",
+      "published_dt": "2026-06-21T03:44:00.762928+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3134695",
+      "title": "In the Weights is your new AI-centric vanity search",
+      "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "So ... what's your In the Weights score?",
+      "published": "2026-06-20T19:41:11+00:00",
+      "published_dt": "2026-06-20T19:41:11+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "In the Weights is your new AI-centric vanity search (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：In the Weights is your new AI-centric vanity search，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48609231",
+      "title": "Show HN: We post-trained a model that pen tests instead of refusing",
+      "url": "https://www.argusred.com/cli",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Anthropic and OpenAI's publicly available models are explicitly guard-railed so that they refuse offensive tasks. And their cyber-focussed models are gated for enterprises. This leaves SMEs and mid market open to major vulnerabilities.AI can be used as both an adversarial and defensive tool in the world of cyber. A worst case outcome is if only the adversaries have access.Meanwhile, most existing AI cyber tools are just wrappers. The problem is that they still have all the guardrails on from the foundation model where they will inherit its refusals.For this project we've post-trained a specific model on a decade of capture-the-flag contests. This won't be made available to anyone and everyone, but we do believe that responsible SMEs and midmarket companies also need access to these tools in order to identify key vulnerabilities in their systems; not just enterprises.We have developed two modes that run over a CLI:• Security scan: a read-only audit of your local codebase for vulnerabilities. It only reports what it can tie to a specific file and line, so you're not wading through vibes-based findings.• Pen test: an active adversarial mode that will try to break a live system in a sandboxed environment. It proves each vulnerability by running the exploit and showing the request it sent and the response your code gave back, not a confidence score. Currently gated.To show what the scan does, we pointed it at Bank of Anthos and it found an integer overflow in the transfer path: amount is an int, and amount + fee can overflow negative, so the balance check passes and you move funds you don't have. Plus the usual auth and secrets issues. (Bank of Anthos is Google's open-source bank. It's a known app and some of it is intentionally weak, which is the point: you can clone it and re-run the scan yourself instead of trusting a screenshot)The base model is a Kimi K2.6 (open weights). We didn't pretrain from scratch. We post-trained it ourselves, SFT on CTF writeups, then RL wit",
+      "published": "2026-06-20T13:49:03+00:00",
+      "published_dt": "2026-06-20T13:49:03+00:00",
+      "hn_score": 77,
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Show HN: We post-trained a model that pen tests instead of refusing (Hacker News) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Hacker News 报道：Show HN: We post-trained a model that pen tests instead of refusing，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3134719",
+      "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
+      "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.”",
+      "published": "2026-06-20T20:32:29+00:00",
+      "published_dt": "2026-06-20T20:32:29+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’ (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48611411",
+      "title": "The Wholesale Plagiarism of Obscure Sorrows",
+      "url": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-20T18:05:31+00:00",
+      "published_dt": "2026-06-20T18:05:31+00:00",
+      "hn_score": 336,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Wholesale Plagiarism of Obscure Sorrows (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：The Wholesale Plagiarism of Obscure Sorrows，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3134677",
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Jumper isn't the only big name leaving Google DeepMind.",
+      "published": "2026-06-20T16:39:57+00:00",
+      "published_dt": "2026-06-20T16:39:57+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Nobel laureate John Jumper is leaving DeepMind for rival Anthropic，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
