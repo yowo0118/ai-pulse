@@ -1,0 +1,814 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T03:51:18",
+  "stats": {
+    "total_items": 13,
+    "high_importance": 0,
+    "medium_importance": 13,
+    "categories_covered": 3
+  },
+  "top_stories": [],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 0,
+      "items": []
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 0,
+      "items": []
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+          "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
+          "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package, including support for complex table transformations, automatic table creation from JSON data and a whole lot more. I released sqlite-utils 4.0rc1, the first release candidate for sqlite-utils v4. The major version bump indicates some (minor) backwards incompatible changes, so I'm interested in having people try this out before I commit to a stable release. New feature: migrations There are two significant new features in this RC compared to the previous 4.0 alphas. The first is support for database migrations. This isn't a completely new implementation - it's a slightly modified port of the sqlite-migrate package I released a few years ago. I think that package has proved itself over time, so I'm now ready to bundle it with sqlite-utils directly. Here's what a set of migrations in a migrations.py file looks like: from sqlite_utils import Database, Migrations migrations = Migrations(\"creatures\") @migrations() def create_table(db): db[\"creatures\"].create( {\"id\": int, \"name\": str, \"species\": str}, pk=\"id\", ) @migrations() def add_weight(db): db[\"creatures\"].add_column(\"weight\", float) This defines a set of two migrations, one creating the creatures table and another adding a column to it. You can then run those migrations either using Python: db = Database(\"creatures.db\") migrations.apply(db) Or with the command-line migrate command: sqlite-utils migrate creatures.db migrations.py The system is deliberately small: it doesn't provide reverse migrations, so any mistakes you make should be fixed by deploying a fresh migration to undo them. Its predecessor has been used by LLM and various other projects for several years, so I'm confident that the design is stable and works well. The new migrations feature is documented here. New feature: db.atomic() transactions This feature is a lot ",
+          "published": "2026-06-21T23:35:47+00:00",
+          "published_dt": "2026-06-21T23:35:47+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sqlite-utils 4.0rc1 adds migrations and nested transactions (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：sqlite-utils 4.0rc1 adds migrations and nested transactions，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything",
+          "title": "sqlite-utils 4.0rc1",
+          "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: sqlite-utils 4.0rc1 See sqlite-utils 4.0rc1 adds migrations and nested transactions. Tags: sqlite-utils",
+          "published": "2026-06-21T23:30:04+00:00",
+          "published_dt": "2026-06-21T23:30:04+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "sqlite-utils 4.0rc1 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：sqlite-utils 4.0rc1，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+          "title": "Temporary Cloudflare Accounts for AI agents",
+          "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Temporary Cloudflare Accounts for AI agents The announcement says this is \"for AI agents\" but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well. Short version: you can now create a Cloudflare Workers project and run this, without even creating a Cloudflare account: npx wrangler deploy --temporary Cloudflare will deploy the application to a new, ephemeral project which will stay live for 60 minutes. I had GPT-5.5 xhigh in Codex Desktop build this test application providing a tool for following HTTP redirects and returning the final destination. The temporary deployment worked as advertised. Running the deployment spits out the URL to a page for claiming the new project, for if you want it to last for more than 60 minutes. Here's what that claim screen looks like: Via Hacker News Tags: cloudflare",
+          "published": "2026-06-21T22:01:04+00:00",
+          "published_dt": "2026-06-21T22:01:04+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Temporary Cloudflare Accounts for AI agents (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：Temporary Cloudflare Accounts for AI agents，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/exclusive-250-off-ai-engineer-tix",
+          "title": "[Exclusive] $250 off AI Engineer tix til Monday",
+          "url": "https://www.latent.space/p/exclusive-250-off-ai-engineer-tix",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Hey there! You’re seeing this because you’re an LS paying subscriber and we promised discounts and stuff. We announced this in AINews, but roughly 30% of you still haven’t opted in to AINews so pardo… Read more",
+          "published": "2026-06-21T15:01:23+00:00",
+          "published_dt": "2026-06-21T15:01:23+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "[Exclusive] $250 off AI Engineer tix til Monday (Latent Space) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Latent Space 报道：[Exclusive] $250 off AI Engineer tix til Monday，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+          "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+          "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+          "published": "2026-06-21T23:00:00+00:00",
+          "published_dt": "2026-06-21T23:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Samsung Electronics brings ChatGPT and Codex to employees (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Samsung Electronics brings ChatGPT and Codex to employees，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48618455",
+          "title": "Identity verification on Claude",
+          "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_...",
+          "published": "2026-06-21T12:44:13+00:00",
+          "published_dt": "2026-06-21T12:44:13+00:00",
+          "hn_score": 617,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Identity verification on Claude (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Identity verification on Claude，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48622778",
+          "title": "Apertus – Open Foundation Model for Sovereign AI",
+          "url": "https://apertvs.ai/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-21T21:29:43+00:00",
+          "published_dt": "2026-06-21T21:29:43+00:00",
+          "hn_score": 250,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apertus – Open Foundation Model for Sovereign AI (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Apertus – Open Foundation Model for Sovereign AI，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3134737",
+          "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+          "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
+          "published": "2026-06-21T15:28:17+00:00",
+          "published_dt": "2026-06-21T15:28:17+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "When the Trump administration cracks down on Anthropic, who benefits? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：When the Trump administration cracks down on Anthropic, who benefits?，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3134254",
+          "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+          "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
+          "published": "2026-06-21T14:40:28+00:00",
+          "published_dt": "2026-06-21T14:40:28+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27 (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48615569",
+          "title": "The brain was not designed for this much bad news",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-21T04:02:08+00:00",
+          "published_dt": "2026-06-21T04:02:08+00:00",
+          "hn_score": 390,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The brain was not designed for this much bad news (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：The brain was not designed for this much bad news，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-22T03:51:15.379802+00:00",
+          "published_dt": "2026-06-22T03:51:15.379802+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-22T03:51:15.379802+00:00",
+          "published_dt": "2026-06-22T03:51:15.379802+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48620462",
+          "title": "Burnout is real for open source maintainers",
+          "url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-06-21T16:56:18+00:00",
+          "published_dt": "2026-06-21T16:56:18+00:00",
+          "hn_score": 117,
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Burnout is real for open source maintainers (Hacker News) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Hacker News 报道：Burnout is real for open source maintainers，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-22T03:51:15.379802+00:00",
+      "published_dt": "2026-06-22T03:51:15.379802+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-22T03:51:15.379802+00:00",
+      "published_dt": "2026-06-22T03:51:15.379802+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+      "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
+      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package, including support for complex table transformations, automatic table creation from JSON data and a whole lot more. I released sqlite-utils 4.0rc1, the first release candidate for sqlite-utils v4. The major version bump indicates some (minor) backwards incompatible changes, so I'm interested in having people try this out before I commit to a stable release. New feature: migrations There are two significant new features in this RC compared to the previous 4.0 alphas. The first is support for database migrations. This isn't a completely new implementation - it's a slightly modified port of the sqlite-migrate package I released a few years ago. I think that package has proved itself over time, so I'm now ready to bundle it with sqlite-utils directly. Here's what a set of migrations in a migrations.py file looks like: from sqlite_utils import Database, Migrations migrations = Migrations(\"creatures\") @migrations() def create_table(db): db[\"creatures\"].create( {\"id\": int, \"name\": str, \"species\": str}, pk=\"id\", ) @migrations() def add_weight(db): db[\"creatures\"].add_column(\"weight\", float) This defines a set of two migrations, one creating the creatures table and another adding a column to it. You can then run those migrations either using Python: db = Database(\"creatures.db\") migrations.apply(db) Or with the command-line migrate command: sqlite-utils migrate creatures.db migrations.py The system is deliberately small: it doesn't provide reverse migrations, so any mistakes you make should be fixed by deploying a fresh migration to undo them. Its predecessor has been used by LLM and various other projects for several years, so I'm confident that the design is stable and works well. The new migrations feature is documented here. New feature: db.atomic() transactions This feature is a lot ",
+      "published": "2026-06-21T23:35:47+00:00",
+      "published_dt": "2026-06-21T23:35:47+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sqlite-utils 4.0rc1 adds migrations and nested transactions (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：sqlite-utils 4.0rc1 adds migrations and nested transactions，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "published": "2026-06-21T23:00:00+00:00",
+      "published_dt": "2026-06-21T23:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Samsung Electronics brings ChatGPT and Codex to employees (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Samsung Electronics brings ChatGPT and Codex to employees，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48618455",
+      "title": "Identity verification on Claude",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_...",
+      "published": "2026-06-21T12:44:13+00:00",
+      "published_dt": "2026-06-21T12:44:13+00:00",
+      "hn_score": 617,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Identity verification on Claude (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Identity verification on Claude，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything",
+      "title": "sqlite-utils 4.0rc1",
+      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: sqlite-utils 4.0rc1 See sqlite-utils 4.0rc1 adds migrations and nested transactions. Tags: sqlite-utils",
+      "published": "2026-06-21T23:30:04+00:00",
+      "published_dt": "2026-06-21T23:30:04+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "sqlite-utils 4.0rc1 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：sqlite-utils 4.0rc1，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+      "title": "Temporary Cloudflare Accounts for AI agents",
+      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Temporary Cloudflare Accounts for AI agents The announcement says this is \"for AI agents\" but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well. Short version: you can now create a Cloudflare Workers project and run this, without even creating a Cloudflare account: npx wrangler deploy --temporary Cloudflare will deploy the application to a new, ephemeral project which will stay live for 60 minutes. I had GPT-5.5 xhigh in Codex Desktop build this test application providing a tool for following HTTP redirects and returning the final destination. The temporary deployment worked as advertised. Running the deployment spits out the URL to a page for claiming the new project, for if you want it to last for more than 60 minutes. Here's what that claim screen looks like: Via Hacker News Tags: cloudflare",
+      "published": "2026-06-21T22:01:04+00:00",
+      "published_dt": "2026-06-21T22:01:04+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Temporary Cloudflare Accounts for AI agents (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：Temporary Cloudflare Accounts for AI agents，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48620462",
+      "title": "Burnout is real for open source maintainers",
+      "url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-21T16:56:18+00:00",
+      "published_dt": "2026-06-21T16:56:18+00:00",
+      "hn_score": 117,
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Burnout is real for open source maintainers (Hacker News) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Hacker News 报道：Burnout is real for open source maintainers，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/exclusive-250-off-ai-engineer-tix",
+      "title": "[Exclusive] $250 off AI Engineer tix til Monday",
+      "url": "https://www.latent.space/p/exclusive-250-off-ai-engineer-tix",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Hey there! You’re seeing this because you’re an LS paying subscriber and we promised discounts and stuff. We announced this in AINews, but roughly 30% of you still haven’t opted in to AINews so pardo… Read more",
+      "published": "2026-06-21T15:01:23+00:00",
+      "published_dt": "2026-06-21T15:01:23+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "[Exclusive] $250 off AI Engineer tix til Monday (Latent Space) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Latent Space 报道：[Exclusive] $250 off AI Engineer tix til Monday，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48622778",
+      "title": "Apertus – Open Foundation Model for Sovereign AI",
+      "url": "https://apertvs.ai/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-21T21:29:43+00:00",
+      "published_dt": "2026-06-21T21:29:43+00:00",
+      "hn_score": 250,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apertus – Open Foundation Model for Sovereign AI (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Apertus – Open Foundation Model for Sovereign AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3134737",
+      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
+      "published": "2026-06-21T15:28:17+00:00",
+      "published_dt": "2026-06-21T15:28:17+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "When the Trump administration cracks down on Anthropic, who benefits? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：When the Trump administration cracks down on Anthropic, who benefits?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3134254",
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
+      "published": "2026-06-21T14:40:28+00:00",
+      "published_dt": "2026-06-21T14:40:28+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27 (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48615569",
+      "title": "The brain was not designed for this much bad news",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-06-21T04:02:08+00:00",
+      "published_dt": "2026-06-21T04:02:08+00:00",
+      "hn_score": 390,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The brain was not designed for this much bad news (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：The brain was not designed for this much bad news，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
