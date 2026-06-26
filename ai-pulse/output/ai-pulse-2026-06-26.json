@@ -1,0 +1,1695 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T02:56:56",
+  "stats": {
+    "total_items": 24,
+    "high_importance": 4,
+    "medium_importance": 20,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "hn-48675435",
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hi HN, Nick here. We’re launching OpenKnowledge (https://openknowledge.ai/), a “what you see is what you get” markdown editor that has direct integrations with Claude, Codex, and other agents. Available as MacOS app or Web UI+CLI. Fully free/local and OSS.We built this because we wanted a Notion-like experience for writing and sharing markdown files across our team. Obsidian is the best alternative we tried, but found it doesn’t have a true WYSWIG UI and it didn’t integrate well with Claude/Codex outside of community plugins.So we built OpenKnowledge. It takes shape as:1. A MacOS app with a file navigator, the WYSIWYG editor, and link explorer.2. Integrations with the Claude, Codex, and Cursor desktop apps. The agents can open an OpenKnowledge editor within their embedded web browsers for a side-by-side experience.3. Built-in mcps, skills, and RAG for LLM-wiki and “AI Second Brain” scenarios + spec writing4. An embedded terminal and CLI for TUI-first usersOSS stack includes: Tiptap/prosemirror, CodeMirror, yjs (CRDT), Electron (MacOS app), Orama, remark/rehype/micromark/mdast, @pierre/treesOn the architecture side, the interesting eng. challenges included:1. A pipeline to convert ProseMirror to markdown in a bidirectional lossless way. ProseMirror uses ASTs, which are not designed to have byte-fidelity.2. A dual-observer CRDT to keep the ProseMirror and markdown state in-sync.The CRDT + git also power a collaborative experience that shows what Agents are doing in the markdown, have undo/redo, and version history. The “Share” and cloud-sync functionality are geared for team collaboration. They feel “no-code” but leverage git/GitHub under the hood, which also means data stays fully private.In that spirit, we made OpenKnowledge open source for anybody who’s curious or who’d like to contribute.We’re actively thinking about plugins/extensibility and what’s next. If you have suggestions or feedback, would love to hear it.",
+      "published": "2026-06-25T16:04:46+00:00",
+      "published_dt": "2026-06-25T16:04:46+00:00",
+      "hn_score": 215,
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG",
+          "agent",
+          "MCP"
+        ]
+      },
+      "summary_en": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion (Hacker News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Hacker News 报道：Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93738",
+      "title": "Cursor Deal Puts US On Track For Record Startup M&A Year",
+      "url": "https://news.crunchbase.com/ma/2026-mergers-acquisitions-record-cursor-spcx/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "When someone spends $60 billion to buy a startup, M&A spending suddenly starts looking pretty robust. Those were the unsurprising findings of a Crunchbase analysis of U.S. startup acquisition outlays in 2026. So far this year, acquirers have spent at least $119.8 billion buying private, venture-backed companies, on pace to exceed 2025’s record-setting tally. For 2026, however, about half of total M&A spending on U.S. startups comes from a single deal: SpaceX’s $60 billion acquisition of AI coding tool Cursor and its parent company Anysphere. SpaceX first announced an option to purchase the company in April and consummated the deal after its IPO this month. The Cursor purchase represents the largest startup acquisition of all time, nearly double the size of the prior frontrunner, Google’s purchase of Wiz for $32 billion. After that, the next-biggest startup M&A deal was Facebook’s $19 billion acquisition of WhatsApp in 2014. Other big M&A deals While other 2026 startup purchases weren’t setting records, many of them were still on the historically large size. To illustrate, we used Crunchbase data to put together a list of the 10 largest disclosed-price U.S. startup acquisitions this year. 1 The bottom nine range from $2 billion to $7 billion. Biotech was a standout Biotech was especially big. This is due in large part to Eli Lilly, which announced in April that it was acquiring Kelonia Therapeutics, a developer of gene therapies with a particular focus on cancer treatment, in a deal valued at up to $7 billion in cash. Per Crunchbase data, the high end of the purchase price represents the largest acquisition of a venture-backed biotech company in years. Lilly was also the acquirer in two other deals in our Top 10 ranking. The pharma giant bought Orna Therapeutics, a developer of RNA therapeutics, for up to $2.4 billion, and Ajax Therapeutics, a developer of blood cancer therapies, for up to $2.3 billion. Overall, half of the 10 largest deals this quarter were biotech ",
+      "published": "2026-06-25T11:00:18+00:00",
+      "published_dt": "2026-06-25T11:00:18+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$60 billion",
+          "$119.8 billion",
+          "$32 billion",
+          "$19 billion",
+          "$2 billion",
+          "$7 billion",
+          "$2.4 billion",
+          "$2.3 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Cursor Deal Puts US On Track For Record Startup M&A Year (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Cursor Deal Puts US On Track For Record Startup M&A Year，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3136499",
+      "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
+      "published": "2026-06-25T20:19:25+00:00",
+      "published_dt": "2026-06-25T20:19:25+00:00",
+      "score": 9.7,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$50M"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents (TechCrunch AI) highlights a notable AI development with score 9.7.",
+      "summary_zh": "TechCrunch AI 报道：Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents，综合评分 9.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3136038",
+      "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
+      "published": "2026-06-25T16:55:00+00:00",
+      "published_dt": "2026-06-25T16:55:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Scale AI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$2.3B",
+          "$320 million",
+          "raised $320 million"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "General Intuition’s $2.3B bet that video games can train AI agents for the real world (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：General Intuition’s $2.3B bet that video games can train AI agents for the real world，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3136540",
+          "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+          "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to.",
+          "published": "2026-06-25T23:34:39+00:00",
+          "published_dt": "2026-06-25T23:34:39+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：The White House is asking OpenAI to slow roll the release of its new model over safety concerns，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-openai-reports-median-internal",
+          "title": "[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.",
+          "url": "https://www.latent.space/p/ainews-openai-reports-median-internal",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Only 200 AI Engineer tickets left - on track to sell out in the next 24 hours. Grab now for over $60k in sponsor credits!Add this to the WTF Happened in 2025? files: OpenAI Economic Research is reporting that token usage for everything outside coding is exploding:Through August 2025, the average OpenAI worker spent less than 10% of their tokens on Codex…Over the last six months, Codex usage has deepened and intensified at OpenAI. Among active internal users, change in combined output tokens rose sharply across departments. Research saw the biggest jump: by June 2026, median use was 56 times higher than in November 2025. Customer Support rose 32 times and Engineering rose 27 times, while Legal grew more gradually but still reached 13 times its November level.This should form an interesting baseline against Tokenmaxxing concerns - remember that OpenAI employees have had unlimited access at all times anyway, and SOMEHOW they were still grossly underusing AI even up til late 2025.Sometimes, you just have to let them cook:AI News for 6/24/2026-6/25/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen Models, Coding Benchmarks, and the GLM/Ornith/Liquid WaveGLM-5.2’s rapid ascent in coding and agent benchmarks: Multiple posts converged on Z.ai’s GLM-5.2 as the day’s most important open-model story. On frontend coding, Arena reported that GLM-5.2 Max reached 1595 on Code Arena: Frontend, surpassing Opus 4.8 and narrowing the gap to Claude Fable 5. On agentic reliability, PostTrainBench noted 34.29% for GLM 5.2 Max reasoning, narrowly ahead of Opus 4.8 Max at 34.08%, with zero failed runs across 84 runs. The speed side also moved: @Yuchenj_UW said Databricks pushed GLM-5.2 to 392 tok/s on Artificial Analysis, up from 201 tok/s on H200s before further gains on B300s, attributing results to both ",
+          "published": "2026-06-26T01:12:30+00:00",
+          "published_dt": "2026-06-26T01:12:30+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Databricks"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025. (Latent Space) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Latent Space 报道：[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93738",
+          "title": "Cursor Deal Puts US On Track For Record Startup M&A Year",
+          "url": "https://news.crunchbase.com/ma/2026-mergers-acquisitions-record-cursor-spcx/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "When someone spends $60 billion to buy a startup, M&A spending suddenly starts looking pretty robust. Those were the unsurprising findings of a Crunchbase analysis of U.S. startup acquisition outlays in 2026. So far this year, acquirers have spent at least $119.8 billion buying private, venture-backed companies, on pace to exceed 2025’s record-setting tally. For 2026, however, about half of total M&A spending on U.S. startups comes from a single deal: SpaceX’s $60 billion acquisition of AI coding tool Cursor and its parent company Anysphere. SpaceX first announced an option to purchase the company in April and consummated the deal after its IPO this month. The Cursor purchase represents the largest startup acquisition of all time, nearly double the size of the prior frontrunner, Google’s purchase of Wiz for $32 billion. After that, the next-biggest startup M&A deal was Facebook’s $19 billion acquisition of WhatsApp in 2014. Other big M&A deals While other 2026 startup purchases weren’t setting records, many of them were still on the historically large size. To illustrate, we used Crunchbase data to put together a list of the 10 largest disclosed-price U.S. startup acquisitions this year. 1 The bottom nine range from $2 billion to $7 billion. Biotech was a standout Biotech was especially big. This is due in large part to Eli Lilly, which announced in April that it was acquiring Kelonia Therapeutics, a developer of gene therapies with a particular focus on cancer treatment, in a deal valued at up to $7 billion in cash. Per Crunchbase data, the high end of the purchase price represents the largest acquisition of a venture-backed biotech company in years. Lilly was also the acquirer in two other deals in our Top 10 ranking. The pharma giant bought Orna Therapeutics, a developer of RNA therapeutics, for up to $2.4 billion, and Ajax Therapeutics, a developer of blood cancer therapies, for up to $2.3 billion. Overall, half of the 10 largest deals this quarter were biotech ",
+          "published": "2026-06-25T11:00:18+00:00",
+          "published_dt": "2026-06-25T11:00:18+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$60 billion",
+              "$119.8 billion",
+              "$32 billion",
+              "$19 billion",
+              "$2 billion",
+              "$7 billion",
+              "$2.4 billion",
+              "$2.3 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Cursor Deal Puts US On Track For Record Startup M&A Year (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Cursor Deal Puts US On Track For Record Startup M&A Year，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3136038",
+          "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+          "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
+          "published": "2026-06-25T16:55:00+00:00",
+          "published_dt": "2026-06-25T16:55:00+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Scale AI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$2.3B",
+              "$320 million",
+              "raised $320 million"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "General Intuition’s $2.3B bet that video games can train AI agents for the real world (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：General Intuition’s $2.3B bet that video games can train AI agents for the real world，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3136123",
+          "title": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster",
+          "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Netris provides software that runs on network switches, and offers a platform that helps neocloud operators reduce the time it takes to go live.",
+          "published": "2026-06-25T14:55:38+00:00",
+          "published_dt": "2026-06-25T14:55:38+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "a16z"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$15M",
+              "Series A"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：Netris raises $15M Series A from a16z to help AI neoclouds go live faster，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3136083",
+          "title": "Amazon ups India bet with fresh $13B AI infrastructure investment",
+          "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Amazon’s latest India investment comes as global tech companies race to expand AI infrastructure in the country.",
+          "published": "2026-06-25T12:00:38+00:00",
+          "published_dt": "2026-06-25T12:00:38+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$13B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Amazon ups India bet with fresh $13B AI infrastructure investment (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：Amazon ups India bet with fresh $13B AI infrastructure investment，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3136070",
+          "title": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit",
+          "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Two days left to lock in your spot at TechCrunch Founder Summit 2026 and save up to $190 before Early Bird rates expire on June 26 at 11:59 p.m. PT. Register today.",
+          "published": "2026-06-25T14:00:00+00:00",
+          "published_dt": "2026-06-25T14:00:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3136499",
+          "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+          "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
+          "published": "2026-06-25T20:19:25+00:00",
+          "published_dt": "2026-06-25T20:19:25+00:00",
+          "score": 9.7,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$50M"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents (TechCrunch AI) highlights a notable AI development with score 9.7.",
+          "summary_zh": "TechCrunch AI 报道：Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents，综合评分 9.7，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+          "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+          "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "In February 2024, Notion bought Skiff, an encrypted email and productivity software startup. Within a year, Notion shut down Skiff’s email service (taking @skiff.com email addresses with it). And in April 2025, the San Francisco-based company released Notion Mail, a Gmail client primarily built by people who joined Notion through the Skiff acquisition. Today, Notion announced that it’s shutting down Notion Mail, effectively killing what little remained of Skiff email. In an X post (first spotted by 9to5Mac) today, Notion said that it will shutter the Notion Mail “inbox across web, desktop, and iOS on September 22.” The post claimed that most Notion users don’t use email clients anyway and instead rely on AI agents to handle their electronic correspondence. It reads:Read full article Comments",
+          "published": "2026-06-25T19:04:57+00:00",
+          "published_dt": "2026-06-25T19:04:57+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Notion killing Skiff-influenced email app since most users use AI agents instead (Ars Technica) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Ars Technica 报道：Notion killing Skiff-influenced email app since most users use AI agents instead，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=957372",
+          "title": "OpenAI will delay GPT-5.6 after Trump administration request",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "The Trump administration, apprehensive of potential security issues, has reportedly asked OpenAI to stagger the release of its next big-ticket model, GPT-5.6. The Information reported that OpenAI CEO Sam Altman told employees Wednesday in a company Q&A that it would release GPT-5.6 in limited preview form - granting access only to a small group of enterprise customers - in compliance with a request from the federal government. During that preview period, the Trump administration itself would reportedly approve access for customers on a case-by-case basis. It's a more favorable deal than the Trump administration gave OpenAI rival Anthropic … Read the full story at The Verge.",
+          "published": "2026-06-25T21:57:06+00:00",
+          "published_dt": "2026-06-25T21:57:06+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI will delay GPT-5.6 after Trump administration request (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：OpenAI will delay GPT-5.6 after Trump administration request，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+          "title": "Our latest Google Finance upgrades, including a new app",
+          "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+          "source": "Google AI Blog",
+          "source_type": "rss",
+          "content": "The new Google Finance is coming out of beta and launching a new Android app.",
+          "published": "2026-06-25T16:00:00+00:00",
+          "published_dt": "2026-06-25T16:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Our latest Google Finance upgrades, including a new app (Google AI Blog) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Google AI Blog 报道：Our latest Google Finance upgrades, including a new app，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a3c384be6c7ac5cabfbc839",
+          "title": "Anthropic Thinks Its Own Success Is Key to Making AI Safe",
+          "url": "https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Anthropic's critics argue it's rapidly accumulating power. The company says that's what responsible AI development looks like.",
+          "published": "2026-06-26T00:49:13+00:00",
+          "published_dt": "2026-06-26T00:49:13+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic Thinks Its Own Success Is Key to Making AI Safe (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Anthropic Thinks Its Own Success Is Key to Making AI Safe，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything",
+          "title": "datasette-export-database 0.3a2",
+          "url": "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette-export-database 0.3a2 An embarrassingly tiny release. The pyproject.toml had pinned to datasette==1.0a27, inadvertently making this plugin incompatible with all other Datasette versions. It's now datasette>=1.0a27 instead. Tags: datasette",
+          "published": "2026-06-25T17:21:09+00:00",
+          "published_dt": "2026-06-25T17:21:09+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "datasette-export-database 0.3a2 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：datasette-export-database 0.3a2，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=956668",
+          "title": "Facebook’s Creator Studio has been revived as an AI companion app",
+          "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "This is what the new Creator Studio app looks like, after the original service was shuttered in 2023. | Image: Meta Meta is bringing back the Facebook Creator Studio page manager, now \"reimagined\" as a standalone AI companion app. The new app aims to make it easier for creators to connect with their audiences and show them \"exactly how to grow on Facebook,\" according to Meta's announcement. Meta's AI Creator Assistant is a central focus of the newly reimagined app - users can ask the chatbot to provide performance tracking insights and tailored recommendations for improving engagement. It can also be used to find \"the most important comments\" left by the user's audience and \"instantly draft replies in your voice.\" The Creator Studio app isn't widely ava … Read the full story at The Verge.",
+          "published": "2026-06-25T09:06:19+00:00",
+          "published_dt": "2026-06-25T09:06:19+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Facebook’s Creator Studio has been revived as an AI companion app (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Facebook’s Creator Studio has been revived as an AI companion app，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 7,
+      "items": [
+        {
+          "id": "hn-48674446",
+          "title": "Ford AI hiccups push carmaker to rehire ‘gray beard’ inspectors",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://archive.ph/DI4Cq",
+          "published": "2026-06-25T14:58:50+00:00",
+          "published_dt": "2026-06-25T14:58:50+00:00",
+          "hn_score": 576,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Ford AI hiccups push carmaker to rehire ‘gray beard’ inspectors (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Ford AI hiccups push carmaker to rehire ‘gray beard’ inspectors，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48672732",
+          "title": "Apple raises prices of MacBooks, iPads",
+          "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://9to5mac.com/2026/06/25/apple-price-increases-mac-ipa...",
+          "published": "2026-06-25T13:02:56+00:00",
+          "published_dt": "2026-06-25T13:02:56+00:00",
+          "hn_score": 647,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple raises prices of MacBooks, iPads (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Apple raises prices of MacBooks, iPads，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3135892",
+          "title": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT",
+          "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows.",
+          "published": "2026-06-25T17:38:27+00:00",
+          "published_dt": "2026-06-25T17:38:27+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/vllm-jobs",
+          "title": "Run a vLLM Server on HF Jobs in One Command",
+          "url": "https://huggingface.co/blog/vllm-jobs",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-06-26T00:00:00+00:00",
+          "published_dt": "2026-06-26T00:00:00+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "vLLM"
+            ]
+          },
+          "summary_en": "Run a vLLM Server on HF Jobs in One Command (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Run a vLLM Server on HF Jobs in One Command，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+          "title": "Which tokens does a hybrid model predict better?",
+          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-06-25T16:11:42+00:00",
+          "published_dt": "2026-06-25T16:11:42+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Which tokens does a hybrid model predict better? (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Which tokens does a hybrid model predict better?，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3136344",
+          "title": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
+          "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Un-0 is an image-generation system tool that shows for the first time how the company's technology can replicate conventional AI systems.",
+          "published": "2026-06-25T16:48:11+00:00",
+          "published_dt": "2026-06-25T16:48:11+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Databricks"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3136081",
+          "title": "Adobe acquires image and video enhancement tool maker Topaz Labs",
+          "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Adobe said that it will integrate Topaz Labs' tools across its apps.",
+          "published": "2026-06-25T13:30:00+00:00",
+          "published_dt": "2026-06-25T13:30:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Adobe acquires image and video enhancement tool maker Topaz Labs (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Adobe acquires image and video enhancement tool maker Topaz Labs，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "hn-48675435",
+          "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+          "url": "https://github.com/inkeep/open-knowledge",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hi HN, Nick here. We’re launching OpenKnowledge (https://openknowledge.ai/), a “what you see is what you get” markdown editor that has direct integrations with Claude, Codex, and other agents. Available as MacOS app or Web UI+CLI. Fully free/local and OSS.We built this because we wanted a Notion-like experience for writing and sharing markdown files across our team. Obsidian is the best alternative we tried, but found it doesn’t have a true WYSWIG UI and it didn’t integrate well with Claude/Codex outside of community plugins.So we built OpenKnowledge. It takes shape as:1. A MacOS app with a file navigator, the WYSIWYG editor, and link explorer.2. Integrations with the Claude, Codex, and Cursor desktop apps. The agents can open an OpenKnowledge editor within their embedded web browsers for a side-by-side experience.3. Built-in mcps, skills, and RAG for LLM-wiki and “AI Second Brain” scenarios + spec writing4. An embedded terminal and CLI for TUI-first usersOSS stack includes: Tiptap/prosemirror, CodeMirror, yjs (CRDT), Electron (MacOS app), Orama, remark/rehype/micromark/mdast, @pierre/treesOn the architecture side, the interesting eng. challenges included:1. A pipeline to convert ProseMirror to markdown in a bidirectional lossless way. ProseMirror uses ASTs, which are not designed to have byte-fidelity.2. A dual-observer CRDT to keep the ProseMirror and markdown state in-sync.The CRDT + git also power a collaborative experience that shows what Agents are doing in the markdown, have undo/redo, and version history. The “Share” and cloud-sync functionality are geared for team collaboration. They feel “no-code” but leverage git/GitHub under the hood, which also means data stays fully private.In that spirit, we made OpenKnowledge open source for anybody who’s curious or who’d like to contribute.We’re actively thinking about plugins/extensibility and what’s next. If you have suggestions or feedback, would love to hear it.",
+          "published": "2026-06-25T16:04:46+00:00",
+          "published_dt": "2026-06-25T16:04:46+00:00",
+          "hn_score": 215,
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "RAG",
+              "agent",
+              "MCP"
+            ]
+          },
+          "summary_en": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion (Hacker News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Hacker News 报道：Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-26T02:56:53.894631+00:00",
+          "published_dt": "2026-06-26T02:56:53.894631+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-06-26T02:56:53.894631+00:00",
+          "published_dt": "2026-06-26T02:56:53.894631+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "hn-48675435",
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hi HN, Nick here. We’re launching OpenKnowledge (https://openknowledge.ai/), a “what you see is what you get” markdown editor that has direct integrations with Claude, Codex, and other agents. Available as MacOS app or Web UI+CLI. Fully free/local and OSS.We built this because we wanted a Notion-like experience for writing and sharing markdown files across our team. Obsidian is the best alternative we tried, but found it doesn’t have a true WYSWIG UI and it didn’t integrate well with Claude/Codex outside of community plugins.So we built OpenKnowledge. It takes shape as:1. A MacOS app with a file navigator, the WYSIWYG editor, and link explorer.2. Integrations with the Claude, Codex, and Cursor desktop apps. The agents can open an OpenKnowledge editor within their embedded web browsers for a side-by-side experience.3. Built-in mcps, skills, and RAG for LLM-wiki and “AI Second Brain” scenarios + spec writing4. An embedded terminal and CLI for TUI-first usersOSS stack includes: Tiptap/prosemirror, CodeMirror, yjs (CRDT), Electron (MacOS app), Orama, remark/rehype/micromark/mdast, @pierre/treesOn the architecture side, the interesting eng. challenges included:1. A pipeline to convert ProseMirror to markdown in a bidirectional lossless way. ProseMirror uses ASTs, which are not designed to have byte-fidelity.2. A dual-observer CRDT to keep the ProseMirror and markdown state in-sync.The CRDT + git also power a collaborative experience that shows what Agents are doing in the markdown, have undo/redo, and version history. The “Share” and cloud-sync functionality are geared for team collaboration. They feel “no-code” but leverage git/GitHub under the hood, which also means data stays fully private.In that spirit, we made OpenKnowledge open source for anybody who’s curious or who’d like to contribute.We’re actively thinking about plugins/extensibility and what’s next. If you have suggestions or feedback, would love to hear it.",
+      "published": "2026-06-25T16:04:46+00:00",
+      "published_dt": "2026-06-25T16:04:46+00:00",
+      "hn_score": 215,
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG",
+          "agent",
+          "MCP"
+        ]
+      },
+      "summary_en": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion (Hacker News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Hacker News 报道：Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93738",
+      "title": "Cursor Deal Puts US On Track For Record Startup M&A Year",
+      "url": "https://news.crunchbase.com/ma/2026-mergers-acquisitions-record-cursor-spcx/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "When someone spends $60 billion to buy a startup, M&A spending suddenly starts looking pretty robust. Those were the unsurprising findings of a Crunchbase analysis of U.S. startup acquisition outlays in 2026. So far this year, acquirers have spent at least $119.8 billion buying private, venture-backed companies, on pace to exceed 2025’s record-setting tally. For 2026, however, about half of total M&A spending on U.S. startups comes from a single deal: SpaceX’s $60 billion acquisition of AI coding tool Cursor and its parent company Anysphere. SpaceX first announced an option to purchase the company in April and consummated the deal after its IPO this month. The Cursor purchase represents the largest startup acquisition of all time, nearly double the size of the prior frontrunner, Google’s purchase of Wiz for $32 billion. After that, the next-biggest startup M&A deal was Facebook’s $19 billion acquisition of WhatsApp in 2014. Other big M&A deals While other 2026 startup purchases weren’t setting records, many of them were still on the historically large size. To illustrate, we used Crunchbase data to put together a list of the 10 largest disclosed-price U.S. startup acquisitions this year. 1 The bottom nine range from $2 billion to $7 billion. Biotech was a standout Biotech was especially big. This is due in large part to Eli Lilly, which announced in April that it was acquiring Kelonia Therapeutics, a developer of gene therapies with a particular focus on cancer treatment, in a deal valued at up to $7 billion in cash. Per Crunchbase data, the high end of the purchase price represents the largest acquisition of a venture-backed biotech company in years. Lilly was also the acquirer in two other deals in our Top 10 ranking. The pharma giant bought Orna Therapeutics, a developer of RNA therapeutics, for up to $2.4 billion, and Ajax Therapeutics, a developer of blood cancer therapies, for up to $2.3 billion. Overall, half of the 10 largest deals this quarter were biotech ",
+      "published": "2026-06-25T11:00:18+00:00",
+      "published_dt": "2026-06-25T11:00:18+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$60 billion",
+          "$119.8 billion",
+          "$32 billion",
+          "$19 billion",
+          "$2 billion",
+          "$7 billion",
+          "$2.4 billion",
+          "$2.3 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Cursor Deal Puts US On Track For Record Startup M&A Year (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Cursor Deal Puts US On Track For Record Startup M&A Year，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3136499",
+      "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
+      "published": "2026-06-25T20:19:25+00:00",
+      "published_dt": "2026-06-25T20:19:25+00:00",
+      "score": 9.7,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$50M"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents (TechCrunch AI) highlights a notable AI development with score 9.7.",
+      "summary_zh": "TechCrunch AI 报道：Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents，综合评分 9.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3136038",
+      "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
+      "published": "2026-06-25T16:55:00+00:00",
+      "published_dt": "2026-06-25T16:55:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Scale AI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$2.3B",
+          "$320 million",
+          "raised $320 million"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "General Intuition’s $2.3B bet that video games can train AI agents for the real world (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：General Intuition’s $2.3B bet that video games can train AI agents for the real world，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3136540",
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to.",
+      "published": "2026-06-25T23:34:39+00:00",
+      "published_dt": "2026-06-25T23:34:39+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：The White House is asking OpenAI to slow roll the release of its new model over safety concerns，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "In February 2024, Notion bought Skiff, an encrypted email and productivity software startup. Within a year, Notion shut down Skiff’s email service (taking @skiff.com email addresses with it). And in April 2025, the San Francisco-based company released Notion Mail, a Gmail client primarily built by people who joined Notion through the Skiff acquisition. Today, Notion announced that it’s shutting down Notion Mail, effectively killing what little remained of Skiff email. In an X post (first spotted by 9to5Mac) today, Notion said that it will shutter the Notion Mail “inbox across web, desktop, and iOS on September 22.” The post claimed that most Notion users don’t use email clients anyway and instead rely on AI agents to handle their electronic correspondence. It reads:Read full article Comments",
+      "published": "2026-06-25T19:04:57+00:00",
+      "published_dt": "2026-06-25T19:04:57+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Notion killing Skiff-influenced email app since most users use AI agents instead (Ars Technica) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Ars Technica 报道：Notion killing Skiff-influenced email app since most users use AI agents instead，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3136123",
+      "title": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster",
+      "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Netris provides software that runs on network switches, and offers a platform that helps neocloud operators reduce the time it takes to go live.",
+      "published": "2026-06-25T14:55:38+00:00",
+      "published_dt": "2026-06-25T14:55:38+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "a16z"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$15M",
+          "Series A"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：Netris raises $15M Series A from a16z to help AI neoclouds go live faster，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3136083",
+      "title": "Amazon ups India bet with fresh $13B AI infrastructure investment",
+      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Amazon’s latest India investment comes as global tech companies race to expand AI infrastructure in the country.",
+      "published": "2026-06-25T12:00:38+00:00",
+      "published_dt": "2026-06-25T12:00:38+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$13B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Amazon ups India bet with fresh $13B AI infrastructure investment (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：Amazon ups India bet with fresh $13B AI infrastructure investment，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-26T02:56:53.894631+00:00",
+      "published_dt": "2026-06-26T02:56:53.894631+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-06-26T02:56:53.894631+00:00",
+      "published_dt": "2026-06-26T02:56:53.894631+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-openai-reports-median-internal",
+      "title": "[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.",
+      "url": "https://www.latent.space/p/ainews-openai-reports-median-internal",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Only 200 AI Engineer tickets left - on track to sell out in the next 24 hours. Grab now for over $60k in sponsor credits!Add this to the WTF Happened in 2025? files: OpenAI Economic Research is reporting that token usage for everything outside coding is exploding:Through August 2025, the average OpenAI worker spent less than 10% of their tokens on Codex…Over the last six months, Codex usage has deepened and intensified at OpenAI. Among active internal users, change in combined output tokens rose sharply across departments. Research saw the biggest jump: by June 2026, median use was 56 times higher than in November 2025. Customer Support rose 32 times and Engineering rose 27 times, while Legal grew more gradually but still reached 13 times its November level.This should form an interesting baseline against Tokenmaxxing concerns - remember that OpenAI employees have had unlimited access at all times anyway, and SOMEHOW they were still grossly underusing AI even up til late 2025.Sometimes, you just have to let them cook:AI News for 6/24/2026-6/25/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen Models, Coding Benchmarks, and the GLM/Ornith/Liquid WaveGLM-5.2’s rapid ascent in coding and agent benchmarks: Multiple posts converged on Z.ai’s GLM-5.2 as the day’s most important open-model story. On frontend coding, Arena reported that GLM-5.2 Max reached 1595 on Code Arena: Frontend, surpassing Opus 4.8 and narrowing the gap to Claude Fable 5. On agentic reliability, PostTrainBench noted 34.29% for GLM 5.2 Max reasoning, narrowly ahead of Opus 4.8 Max at 34.08%, with zero failed runs across 84 runs. The speed side also moved: @Yuchenj_UW said Databricks pushed GLM-5.2 to 392 tok/s on Artificial Analysis, up from 201 tok/s on H200s before further gains on B300s, attributing results to both ",
+      "published": "2026-06-26T01:12:30+00:00",
+      "published_dt": "2026-06-26T01:12:30+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Databricks"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025. (Latent Space) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Latent Space 报道：[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=957372",
+      "title": "OpenAI will delay GPT-5.6 after Trump administration request",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "The Trump administration, apprehensive of potential security issues, has reportedly asked OpenAI to stagger the release of its next big-ticket model, GPT-5.6. The Information reported that OpenAI CEO Sam Altman told employees Wednesday in a company Q&A that it would release GPT-5.6 in limited preview form - granting access only to a small group of enterprise customers - in compliance with a request from the federal government. During that preview period, the Trump administration itself would reportedly approve access for customers on a case-by-case basis. It's a more favorable deal than the Trump administration gave OpenAI rival Anthropic … Read the full story at The Verge.",
+      "published": "2026-06-25T21:57:06+00:00",
+      "published_dt": "2026-06-25T21:57:06+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI will delay GPT-5.6 after Trump administration request (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：OpenAI will delay GPT-5.6 after Trump administration request，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "content": "The new Google Finance is coming out of beta and launching a new Android app.",
+      "published": "2026-06-25T16:00:00+00:00",
+      "published_dt": "2026-06-25T16:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Our latest Google Finance upgrades, including a new app (Google AI Blog) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Google AI Blog 报道：Our latest Google Finance upgrades, including a new app，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48674446",
+      "title": "Ford AI hiccups push carmaker to rehire ‘gray beard’ inspectors",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://archive.ph/DI4Cq",
+      "published": "2026-06-25T14:58:50+00:00",
+      "published_dt": "2026-06-25T14:58:50+00:00",
+      "hn_score": 576,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Ford AI hiccups push carmaker to rehire ‘gray beard’ inspectors (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Ford AI hiccups push carmaker to rehire ‘gray beard’ inspectors，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48672732",
+      "title": "Apple raises prices of MacBooks, iPads",
+      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://9to5mac.com/2026/06/25/apple-price-increases-mac-ipa...",
+      "published": "2026-06-25T13:02:56+00:00",
+      "published_dt": "2026-06-25T13:02:56+00:00",
+      "hn_score": 647,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple raises prices of MacBooks, iPads (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Apple raises prices of MacBooks, iPads，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3135892",
+      "title": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT",
+      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows.",
+      "published": "2026-06-25T17:38:27+00:00",
+      "published_dt": "2026-06-25T17:38:27+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3136070",
+      "title": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit",
+      "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Two days left to lock in your spot at TechCrunch Founder Summit 2026 and save up to $190 before Early Bird rates expire on June 26 at 11:59 p.m. PT. Register today.",
+      "published": "2026-06-25T14:00:00+00:00",
+      "published_dt": "2026-06-25T14:00:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/vllm-jobs",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-06-26T00:00:00+00:00",
+      "published_dt": "2026-06-26T00:00:00+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "vLLM"
+        ]
+      },
+      "summary_en": "Run a vLLM Server on HF Jobs in One Command (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Run a vLLM Server on HF Jobs in One Command，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "title": "Which tokens does a hybrid model predict better?",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-06-25T16:11:42+00:00",
+      "published_dt": "2026-06-25T16:11:42+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Which tokens does a hybrid model predict better? (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Which tokens does a hybrid model predict better?，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a3c384be6c7ac5cabfbc839",
+      "title": "Anthropic Thinks Its Own Success Is Key to Making AI Safe",
+      "url": "https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Anthropic's critics argue it's rapidly accumulating power. The company says that's what responsible AI development looks like.",
+      "published": "2026-06-26T00:49:13+00:00",
+      "published_dt": "2026-06-26T00:49:13+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic Thinks Its Own Success Is Key to Making AI Safe (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Anthropic Thinks Its Own Success Is Key to Making AI Safe，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything",
+      "title": "datasette-export-database 0.3a2",
+      "url": "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette-export-database 0.3a2 An embarrassingly tiny release. The pyproject.toml had pinned to datasette==1.0a27, inadvertently making this plugin incompatible with all other Datasette versions. It's now datasette>=1.0a27 instead. Tags: datasette",
+      "published": "2026-06-25T17:21:09+00:00",
+      "published_dt": "2026-06-25T17:21:09+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "datasette-export-database 0.3a2 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：datasette-export-database 0.3a2，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=956668",
+      "title": "Facebook’s Creator Studio has been revived as an AI companion app",
+      "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "This is what the new Creator Studio app looks like, after the original service was shuttered in 2023. | Image: Meta Meta is bringing back the Facebook Creator Studio page manager, now \"reimagined\" as a standalone AI companion app. The new app aims to make it easier for creators to connect with their audiences and show them \"exactly how to grow on Facebook,\" according to Meta's announcement. Meta's AI Creator Assistant is a central focus of the newly reimagined app - users can ask the chatbot to provide performance tracking insights and tailored recommendations for improving engagement. It can also be used to find \"the most important comments\" left by the user's audience and \"instantly draft replies in your voice.\" The Creator Studio app isn't widely ava … Read the full story at The Verge.",
+      "published": "2026-06-25T09:06:19+00:00",
+      "published_dt": "2026-06-25T09:06:19+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Facebook’s Creator Studio has been revived as an AI companion app (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Facebook’s Creator Studio has been revived as an AI companion app，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3136344",
+      "title": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
+      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Un-0 is an image-generation system tool that shows for the first time how the company's technology can replicate conventional AI systems.",
+      "published": "2026-06-25T16:48:11+00:00",
+      "published_dt": "2026-06-25T16:48:11+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Databricks"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3136081",
+      "title": "Adobe acquires image and video enhancement tool maker Topaz Labs",
+      "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Adobe said that it will integrate Topaz Labs' tools across its apps.",
+      "published": "2026-06-25T13:30:00+00:00",
+      "published_dt": "2026-06-25T13:30:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Adobe acquires image and video enhancement tool maker Topaz Labs (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Adobe acquires image and video enhancement tool maker Topaz Labs，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
