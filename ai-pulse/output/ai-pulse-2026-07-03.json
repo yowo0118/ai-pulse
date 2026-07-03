@@ -1,0 +1,1936 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T02:35:37",
+  "stats": {
+    "total_items": 27,
+    "high_importance": 7,
+    "medium_importance": 20,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+      "title": "llm-coding-agent 0.1a0",
+      "url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: llm-coding-agent 0.1a0 Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it. I started a new Python library using my python-lib-template-repository GitHub template repository, then ran these two prompts (here's the Claude Code for web transcript): Write a spec.md for this project - it will depend on the latest “llm” alpha from PyPI and implement a Claude code style coding agent complete with tools for reading and editing files and executing commands Then: Commit the spec, then build it using red/green TDD in a series of sensible commits (each with passing tests and updated docs) - occasionally manually test it using the OpenAI API key in your environment Here's the spec, the resulting README file, and the sequence of commits. I've shipped a slop-alpha to PyPI, so you can run the new agent like this: uvx --prerelease=allow --with llm-coding-agent llm code It's pretty good for a first attempt! Here's the (Fable-authored) README, which lists recipes like llm code --yolo and llm code --allow \"pytest*\" --allow \"git diff*\". It also presents a Python API based around a CodingAgent(model=\"gpt-5.5\", root=\"/path\", approve=True).run(\"Fix the failing test in tests/test_parser.py\") class which I didn't ask for but I'm delighted to see implemented. Here's the suite of tools it implemented, listed using uvx ... llm tools: CodingTools_edit_file(path: str, old_string: str, new_string: str, replace_all: bool = False) -> str Replace an exact string in a file. old_string must match the file contents exactly (including whitespace) and must identify a unique location unless replace_all is true. Returns a diff of the change so it can be verified. CodingTools_execute_command(command: str, timeout: int = 120) -> str Run a shell command in the session root directory. Returns combined stdout and stderr followed by an Exit code line. timeout is in seconds (maximum 600); o",
+      "published": "2026-07-02T19:33:12+00:00",
+      "published_dt": "2026-07-02T19:33:12+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "llm-coding-agent 0.1a0 (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：llm-coding-agent 0.1a0，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93794",
+      "title": "The Week’s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Want to keep track of the largest startup funding deals in 2026 with our curated list of $100 million-plus venture deals to U.S.-based companies? Check out The Crunchbase Megadeals Board. This is a weekly feature that runs down the week’s top 10 announced funding rounds in the U.S. Check out last week’s biggest funding deal roundup here. U.S. startups announced sizable funding rounds at a steady clip during a truncated holiday week, with energy and AI leading the way. Houston-based energy startup Joulent secured the biggest round, a $1.75 billion strategic financing, followed by Together AI, a developer of infrastructure for companies running open source AI models, and LeapXpert, a provider of compliance tools for enterprises. Other big rounds were for companies focused on therapeutics, homebuilding, and even lacrosse. 1. Joulent, $1.75B, energy: Houston-based Joulent, a provider of energy infrastructure focused on the demands of artificial intelligence and other compute-intensive industries, raised $1.75 billion in a strategic investment backed by National Grid through its National Grid Ventures arm. 2. Together AI, $800M, AI infrastructure: Together AI, developer of an infrastructure layer for companies running open source AI models, secured $800 million in Series C financing. Aramco Ventures led the round, which set an $8.3 billion post-money valuation for the San Francisco-based startup. 3. LeapXpert, $180M, compliance: LeapXpert, a provider of tools for tracking enterprise communications for compliance needs, closed on $180 million in growth financing. Riverwood Capital led the financing for the New York-based company. 4. 8090 Solutions, $135M, AI software development: Redwood City, California-based 8090 Solutions, developer of a platform for building enterprise software with coordinated AI agents under human-led oversight, picked up $135 million in a round led by Salesforce 1. The company, founded in 2024, counts prominent startup investor Chamath Palihapitiya",
+      "published": "2026-07-02T17:12:50+00:00",
+      "published_dt": "2026-07-02T17:12:50+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$100 million",
+          "$1.75 billion",
+          "$1.75B",
+          "$800M",
+          "$800 million",
+          "$8.3 billion",
+          "$180M",
+          "$180 million",
+          "$135M",
+          "$135 million"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "The Week’s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Week’s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93740",
+      "title": "Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits",
+      "url": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Global venture funding reached a record $510 billion in the first half of 2026, surpassing the $440 billion invested in all of 2025 and setting a new high for startup investment in any half-year period on record, Crunchbase data shows. The data also illustrates how capital is concentrating into a handful of companies at unprecedented scale while IPOs and acquisitions have returned in force, with the second quarter notching one of the strongest periods for venture-backed exits in years. OpenAI and Anthropic alone accounted for $217 billion — 43% of all startup funding in H1 — underscoring how a small handful of frontier AI companies is reshaping venture markets. At the same time, other massive funding deals across industries including AI infrastructure, defense, robotics and healthcare — combined with record IPO and M&A activity — signal that the AI investment boom has grown well beyond a select few top foundation labs. Q2 2026 was the second-largest quarter on record for global venture investment, following on the heels of the largest quarter in Q1. All told, investors poured $205 billion into more than 5,000 startups in Q2, following $305 billion invested in Q1. Table of contents Exits peak in Q2 Capital concentration Beyond Anthropic Late-stage funding Early-stage funding Seed Record exits market returns A new venture cycle takes shape Methodology Glossary of funding terms Exits peak in Q2 Record funding defined the first half of the year as the period topped the previous half-year peak, reached in H2 2021, of $375 billion. The second quarter also marked a turning point for liquidity. IPOs and startup acquisitions accelerated alongside venture investment, producing the strongest exit market since the 2021 boom, Crunchbase data shows. The largest IPO ever for a venture-backed company and the largest startup acquisition ever both took place in Q2. Both deals involved SpaceX, as it went public at a value of $1.77 trillion, raising $75 billion, and less than a week la",
+      "published": "2026-07-02T11:00:47+00:00",
+      "published_dt": "2026-07-02T11:00:47+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$510B",
+          "$510 billion",
+          "$440 billion",
+          "$217 billion",
+          "$205 billion",
+          "$305 billion",
+          "$375 billion",
+          "$75 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Fable was relaunched on schedule, and AIE was on top of it with the first Field Guide to Fable talk, as well as the rest of the excellent coverage of AIEWF Day 3 across Autoresearch, Cursor FDE, and a followup to Zach Lloyd’s popular talk yesterday on Software Factories, as well as “all killer no filler” closing keynotes:AI News for 7/1/2026-7/1/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapCoding Models, Agent Harnesses, and the Fable 5 Re-launchAnthropic re-enabled Claude Fable 5, but with visible safety fallbacks: After a day of pent-up demand, @claudeai announced Fable 5 is back, alongside a clarifying note that updated cybersecurity safeguards may route some requests to Opus 4.8, with biology/chemistry classifiers still overly broad for now @claudeai. The relaunch immediately propagated into tooling: Cursor says Fable 5 leads its evals but is the most expensive per task @cursor_ai; Devin added it across Cloud/Desktop/CLI @cognition; Perplexity restored it as an orchestrator model @perplexity_ai. Anthropic also reset rate limits for users once the model was live again @ClaudeDevs.The interesting story was less “model is back” than “how people are adapting to frontier-model constraints”: Multiple builders converged on multi-model orchestration rather than single-model dependence. @theo described using Fable only for higher-value reasoning/planning while delegating implementation, verification, and computer-use work to other models; he reports a substantial improvement in end-to-end PR yield @theo. Similar views came from @omarsar0, who argued teams should design model-combination strategies rather than build around one frontier model, and from @MParakhin, who pushed back on “simple-task pre-classifiers,” arguing that reliable routing often requires solving the task first. On the be",
+      "published": "2026-07-02T07:10:14+00:00",
+      "published_dt": "2026-07-02T07:10:14+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Perplexity"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent",
+          "safety"
+        ]
+      },
+      "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=960588",
+      "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that giving the public a financial interest in the company would be the best way to share the upside of AI, the FT reported, citing two unnamed people familiar with the talks. He's said to have first pitched the idea to Trump early last year. Altman reportedly suggested the 5 percent figure. Based on OpenAI's latest funding round, which ended with the company valued at $852 billion, that stake would be worth … Read the full story at The Verge.",
+      "published": "2026-07-02T10:23:27+00:00",
+      "published_dt": "2026-07-02T10:23:27+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$852 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenAI floats giving Trump administration 5 percent cut of AI boom (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：OpenAI floats giving Trump administration 5 percent cut of AI boom，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
+          "title": "Newly discovered PamStealer isn't your typical macOS malware",
+          "url": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Researchers have found a never-before-seen piece of macOS malware that combines a series of clever tradecraft to infect Macs with stealthy, custom-developed credential-stealing code. The malware is delivered in two stages. The first is distributed in a disk image that masquerades as Maccy, a clipboard manager for Macs. It’s compiled as AppleScript that is notable for the way it delivers the second stage. The malware is named PamStealer because the Rust-written infostealer uses the Pluggable Authentication Modules interface built into macOS to validate the target’s login password before sending it to an attacker-controlled server. A quieter execution chain The use of both disk image and AppleScript is common in malware for Macs. More unusual is the way PamStealer combines them to gain stealth. When the AppleScript is double-clicked, it’s opened in the macOS Script Editor, where the malicious functionality is buried deep within the file.Read full article Comments",
+          "published": "2026-07-02T19:38:57+00:00",
+          "published_dt": "2026-07-02T19:38:57+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Newly discovered PamStealer isn't your typical macOS malware (Ars Technica) highlights a notable AI development with score 6.4.",
+          "summary_zh": "Ars Technica 报道：Newly discovered PamStealer isn't your typical macOS malware，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48762000",
+          "title": "Show HN: Mail Memories – A desktop app to rescue photos from Gmail",
+          "url": "https://mailmemories.com",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hey HN, I’m the creator of Mail Memories. Like many of you, I've had my Gmail address for more than 20 years. A few years ago, I got curious and wanted to see what photos were buried deep in my account. I ended up finding lots of \"lost\" pictures of old friends, family members, and a ridiculous number of vintage memes.I originally built and launched this as a SaaS, but even with code and policies in place that kept users' photos private, I figured everyone would feel more comfortable with a desktop app.So, I threw out the server architecture and completely rewrote it as a 100% local desktop app for Mac and Windows.How it works now: The app connects directly to Google's server from your computer, processes everything entirely on your system, and saves photos straight to your hard drive.You can download your 50 oldest photos for free (no credit card required) just to see what's in there. If you want to download all the pictures in your account, it's a one-time payment of $29. No subscriptions.If you have an old, pre-2010 Gmail account, definitely give it a spin. You'll be surprised at what you find deep in your archive.I'd love to hear your feedback on the layout, scanning performance, or anything else.TL;DR: I turned my SaaS into a local desktop app (Mac/Windows) that recovers decades of forgotten photos from your Gmail. 100% local, no cloud, no subscriptions, no AI.",
+          "published": "2026-07-02T14:16:57+00:00",
+          "published_dt": "2026-07-02T14:16:57+00:00",
+          "hn_score": 99,
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Google",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Show HN: Mail Memories – A desktop app to rescue photos from Gmail (Hacker News) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Hacker News 报道：Show HN: Mail Memories – A desktop app to rescue photos from Gmail，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/the-website-of-the-future",
+          "title": "The website of the future may assemble itself for every visitor",
+          "url": "https://www.latent.space/p/the-website-of-the-future",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Adobe Principal Scientist Carlos Sanchez at AIEWF.For as long as I can remember (and I managed websites in the dot-com period), “personalization” has been a holy grail for websites. But up till now, that’s typically meant selecting from a predefined set of options. A retailer might recommend an item based on a previous purchase, or place a visitor into one of several audience segments — that’s been the extent of personalization.Adobe Principal Scientist Carlos Sanchez is exploring a more radical possibility: what if the website itself could be assembled around the needs of each visitor?At the AI Engineer World’s Fair in San Francisco, Sanchez demonstrated what Adobe calls an “agentic site” — a web experience that interprets a visitor’s intent, retrieves relevant material from the company’s existing content, and composes a personalized page in real time.Adobe calls this approach an “audience of one.” Sanchez’s larger point was that the technology is no longer hypothetical.“Many people don’t even think it’s possible to generate a web page on the fly,” he told Latent Space after his session. “People think it is future-looking. No, you can do this. It’s not the future, it’s the present now.”From personalized components to personalized pagesDuring his presentation, Sanchez demonstrated a site that used the visitor’s browsing behavior and search queries as signals. The system grouped those signals into an intent category — such as exploring, researching or preparing to purchase — and then used an LLM to assemble a page suited to that intent.In one example, a visitor interested in camping received a version of a coffee-machine site whose copy, product selection and supporting content had been reorganized around making coffee outdoors.Sanchez also showed a more open-ended interface in which someone could enter a query such as “Europe AI conferences” and receive a page composed specifically around that request.“We call this ‘audience of one,’ because the idea is to personali",
+          "published": "2026-07-02T21:25:14+00:00",
+          "published_dt": "2026-07-02T21:25:14+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "The website of the future may assemble itself for every visitor (Latent Space) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Latent Space 报道：The website of the future may assemble itself for every visitor，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93794",
+          "title": "The Week’s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Want to keep track of the largest startup funding deals in 2026 with our curated list of $100 million-plus venture deals to U.S.-based companies? Check out The Crunchbase Megadeals Board. This is a weekly feature that runs down the week’s top 10 announced funding rounds in the U.S. Check out last week’s biggest funding deal roundup here. U.S. startups announced sizable funding rounds at a steady clip during a truncated holiday week, with energy and AI leading the way. Houston-based energy startup Joulent secured the biggest round, a $1.75 billion strategic financing, followed by Together AI, a developer of infrastructure for companies running open source AI models, and LeapXpert, a provider of compliance tools for enterprises. Other big rounds were for companies focused on therapeutics, homebuilding, and even lacrosse. 1. Joulent, $1.75B, energy: Houston-based Joulent, a provider of energy infrastructure focused on the demands of artificial intelligence and other compute-intensive industries, raised $1.75 billion in a strategic investment backed by National Grid through its National Grid Ventures arm. 2. Together AI, $800M, AI infrastructure: Together AI, developer of an infrastructure layer for companies running open source AI models, secured $800 million in Series C financing. Aramco Ventures led the round, which set an $8.3 billion post-money valuation for the San Francisco-based startup. 3. LeapXpert, $180M, compliance: LeapXpert, a provider of tools for tracking enterprise communications for compliance needs, closed on $180 million in growth financing. Riverwood Capital led the financing for the New York-based company. 4. 8090 Solutions, $135M, AI software development: Redwood City, California-based 8090 Solutions, developer of a platform for building enterprise software with coordinated AI agents under human-led oversight, picked up $135 million in a round led by Salesforce 1. The company, founded in 2024, counts prominent startup investor Chamath Palihapitiya",
+          "published": "2026-07-02T17:12:50+00:00",
+          "published_dt": "2026-07-02T17:12:50+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$100 million",
+              "$1.75 billion",
+              "$1.75B",
+              "$800M",
+              "$800 million",
+              "$8.3 billion",
+              "$180M",
+              "$180 million",
+              "$135M",
+              "$135 million"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "The Week’s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：The Week’s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93740",
+          "title": "Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits",
+          "url": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Global venture funding reached a record $510 billion in the first half of 2026, surpassing the $440 billion invested in all of 2025 and setting a new high for startup investment in any half-year period on record, Crunchbase data shows. The data also illustrates how capital is concentrating into a handful of companies at unprecedented scale while IPOs and acquisitions have returned in force, with the second quarter notching one of the strongest periods for venture-backed exits in years. OpenAI and Anthropic alone accounted for $217 billion — 43% of all startup funding in H1 — underscoring how a small handful of frontier AI companies is reshaping venture markets. At the same time, other massive funding deals across industries including AI infrastructure, defense, robotics and healthcare — combined with record IPO and M&A activity — signal that the AI investment boom has grown well beyond a select few top foundation labs. Q2 2026 was the second-largest quarter on record for global venture investment, following on the heels of the largest quarter in Q1. All told, investors poured $205 billion into more than 5,000 startups in Q2, following $305 billion invested in Q1. Table of contents Exits peak in Q2 Capital concentration Beyond Anthropic Late-stage funding Early-stage funding Seed Record exits market returns A new venture cycle takes shape Methodology Glossary of funding terms Exits peak in Q2 Record funding defined the first half of the year as the period topped the previous half-year peak, reached in H2 2021, of $375 billion. The second quarter also marked a turning point for liquidity. IPOs and startup acquisitions accelerated alongside venture investment, producing the strongest exit market since the 2021 boom, Crunchbase data shows. The largest IPO ever for a venture-backed company and the largest startup acquisition ever both took place in Q2. Both deals involved SpaceX, as it went public at a value of $1.77 trillion, raising $75 billion, and less than a week la",
+          "published": "2026-07-02T11:00:47+00:00",
+          "published_dt": "2026-07-02T11:00:47+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$510B",
+              "$510 billion",
+              "$440 billion",
+              "$217 billion",
+              "$205 billion",
+              "$305 billion",
+              "$375 billion",
+              "$75 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=960588",
+          "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that giving the public a financial interest in the company would be the best way to share the upside of AI, the FT reported, citing two unnamed people familiar with the talks. He's said to have first pitched the idea to Trump early last year. Altman reportedly suggested the 5 percent figure. Based on OpenAI's latest funding round, which ended with the company valued at $852 billion, that stake would be worth … Read the full story at The Verge.",
+          "published": "2026-07-02T10:23:27+00:00",
+          "published_dt": "2026-07-02T10:23:27+00:00",
+          "score": 9.2,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$852 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "OpenAI floats giving Trump administration 5 percent cut of AI boom (The Verge AI) highlights a notable AI development with score 9.2.",
+          "summary_zh": "The Verge AI 报道：OpenAI floats giving Trump administration 5 percent cut of AI boom，综合评分 9.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3138546",
+          "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+          "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
+          "published": "2026-07-02T13:53:00+00:00",
+          "published_dt": "2026-07-02T13:53:00+00:00",
+          "score": 8.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Microsoft",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$2.5 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Microsoft launches its own AI deployment company with $2.5 billion commitment (TechCrunch AI) highlights a notable AI development with score 8.6.",
+          "summary_zh": "TechCrunch AI 报道：Microsoft launches its own AI deployment company with $2.5 billion commitment，综合评分 8.6，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3138430",
+          "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+          "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office and Google Apps with AI.",
+          "published": "2026-07-02T05:30:00+00:00",
+          "published_dt": "2026-07-02T05:30:00+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google",
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$30M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3138696",
+          "title": "Jersey Mike’s IPO illustrates how bad the AI hype has become",
+          "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But lo and behold.",
+          "published": "2026-07-02T20:11:59+00:00",
+          "published_dt": "2026-07-02T20:11:59+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Jersey Mike’s IPO illustrates how bad the AI hype has become (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Jersey Mike’s IPO illustrates how bad the AI hype has become，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3138687",
+          "title": "Meta quietly launches vibe-coded gaming app Pocket",
+          "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts.",
+          "published": "2026-07-02T18:44:02+00:00",
+          "published_dt": "2026-07-02T18:44:02+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta quietly launches vibe-coded gaming app Pocket (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Meta quietly launches vibe-coded gaming app Pocket，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+          "title": "llm-coding-agent 0.1a0",
+          "url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: llm-coding-agent 0.1a0 Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it. I started a new Python library using my python-lib-template-repository GitHub template repository, then ran these two prompts (here's the Claude Code for web transcript): Write a spec.md for this project - it will depend on the latest “llm” alpha from PyPI and implement a Claude code style coding agent complete with tools for reading and editing files and executing commands Then: Commit the spec, then build it using red/green TDD in a series of sensible commits (each with passing tests and updated docs) - occasionally manually test it using the OpenAI API key in your environment Here's the spec, the resulting README file, and the sequence of commits. I've shipped a slop-alpha to PyPI, so you can run the new agent like this: uvx --prerelease=allow --with llm-coding-agent llm code It's pretty good for a first attempt! Here's the (Fable-authored) README, which lists recipes like llm code --yolo and llm code --allow \"pytest*\" --allow \"git diff*\". It also presents a Python API based around a CodingAgent(model=\"gpt-5.5\", root=\"/path\", approve=True).run(\"Fix the failing test in tests/test_parser.py\") class which I didn't ask for but I'm delighted to see implemented. Here's the suite of tools it implemented, listed using uvx ... llm tools: CodingTools_edit_file(path: str, old_string: str, new_string: str, replace_all: bool = False) -> str Replace an exact string in a file. old_string must match the file contents exactly (including whitespace) and must identify a unique location unless replace_all is true. Returns a diff of the change so it can be verified. CodingTools_execute_command(command: str, timeout: int = 120) -> str Run a shell command in the session root directory. Returns combined stdout and stderr followed by an Exit code line. timeout is in seconds (maximum 600); o",
+          "published": "2026-07-02T19:33:12+00:00",
+          "published_dt": "2026-07-02T19:33:12+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "llm-coding-agent 0.1a0 (Simon Willison) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Simon Willison 报道：llm-coding-agent 0.1a0，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "title": "[AINews] not much happened today",
+          "url": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Fable was relaunched on schedule, and AIE was on top of it with the first Field Guide to Fable talk, as well as the rest of the excellent coverage of AIEWF Day 3 across Autoresearch, Cursor FDE, and a followup to Zach Lloyd’s popular talk yesterday on Software Factories, as well as “all killer no filler” closing keynotes:AI News for 7/1/2026-7/1/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapCoding Models, Agent Harnesses, and the Fable 5 Re-launchAnthropic re-enabled Claude Fable 5, but with visible safety fallbacks: After a day of pent-up demand, @claudeai announced Fable 5 is back, alongside a clarifying note that updated cybersecurity safeguards may route some requests to Opus 4.8, with biology/chemistry classifiers still overly broad for now @claudeai. The relaunch immediately propagated into tooling: Cursor says Fable 5 leads its evals but is the most expensive per task @cursor_ai; Devin added it across Cloud/Desktop/CLI @cognition; Perplexity restored it as an orchestrator model @perplexity_ai. Anthropic also reset rate limits for users once the model was live again @ClaudeDevs.The interesting story was less “model is back” than “how people are adapting to frontier-model constraints”: Multiple builders converged on multi-model orchestration rather than single-model dependence. @theo described using Fable only for higher-value reasoning/planning while delegating implementation, verification, and computer-use work to other models; he reports a substantial improvement in end-to-end PR yield @theo. Similar views came from @omarsar0, who argued teams should design model-combination strategies rather than build around one frontier model, and from @MParakhin, who pushed back on “simple-task pre-classifiers,” arguing that reliable routing often requires solving the task first. On the be",
+          "published": "2026-07-02T07:10:14+00:00",
+          "published_dt": "2026-07-02T07:10:14+00:00",
+          "score": 9.3,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Perplexity"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "agent",
+              "safety"
+            ]
+          },
+          "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 9.3.",
+          "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 9.3，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3138664",
+          "title": "Anthropic is discussing a new custom chip with Samsung",
+          "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom.",
+          "published": "2026-07-02T18:31:09+00:00",
+          "published_dt": "2026-07-02T18:31:09+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic is discussing a new custom chip with Samsung (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic is discussing a new custom chip with Samsung，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48768997",
+          "title": "GitHub is proud to announce that you can now obtain your public repo on CD-ROM",
+          "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-03T00:01:26+00:00",
+          "published_dt": "2026-07-03T00:01:26+00:00",
+          "hn_score": 76,
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "GitHub is proud to announce that you can now obtain your public repo on CD-ROM (Hacker News) highlights a notable AI development with score 6.6.",
+          "summary_zh": "Hacker News 报道：GitHub is proud to announce that you can now obtain your public repo on CD-ROM，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a454f1af3e5961ebd7309fa",
+          "title": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
+          "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Cursor hopes to continue offering third-party AI models after it's acquired by SpaceX, testing the relationships between frontier AI labs.",
+          "published": "2026-07-02T18:01:20+00:00",
+          "published_dt": "2026-07-02T18:01:20+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX? (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 7,
+      "items": [
+        {
+          "id": "hn-48762725",
+          "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
+          "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-02T15:02:26+00:00",
+          "published_dt": "2026-07-02T15:02:26+00:00",
+          "hn_score": 598,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Spain Orders Blacklist of Palantir from Public and Private Companies (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Spain Orders Blacklist of Palantir from Public and Private Companies，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3138873",
+          "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
+          "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
+          "published": "2026-07-02T23:38:10+00:00",
+          "published_dt": "2026-07-02T23:38:10+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3138583",
+          "title": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+          "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI CEO Sam Altman has reportedly proposed giving 5% of the company’s equity to a U.S. sovereign wealth fund, reviving discussions about letting the public share in the financial gains from the AI boom.",
+          "published": "2026-07-02T15:20:51+00:00",
+          "published_dt": "2026-07-02T15:20:51+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI proposed donating 5% of its equity to a US sovereign wealth fund，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48761536",
+          "title": "AI can't be listed as inventor on patent applications, Japan's top court rules",
+          "url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-02T13:43:41+00:00",
+          "published_dt": "2026-07-02T13:43:41+00:00",
+          "hn_score": 362,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI can't be listed as inventor on patent applications, Japan's top court rules (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：AI can't be listed as inventor on patent applications, Japan's top court rules，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48761229",
+          "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
+          "url": "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-02T13:25:25+00:00",
+          "published_dt": "2026-07-02T13:25:25+00:00",
+          "hn_score": 437,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3137764",
+          "title": "Yep, we’re using OpenClaw to date now",
+          "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
+          "published": "2026-07-02T12:00:00+00:00",
+          "published_dt": "2026-07-02T12:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Yep, we’re using OpenClaw to date now (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Yep, we’re using OpenClaw to date now，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48759870",
+          "title": "The primary purpose of code review is to find code that will be hard to maintain",
+          "url": "https://mathstodon.xyz/@mjd/115096720350507897",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-02T11:41:27+00:00",
+          "published_dt": "2026-07-02T11:41:27+00:00",
+          "hn_score": 326,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The primary purpose of code review is to find code that will be hard to maintain (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：The primary purpose of code review is to find code that will be hard to maintain，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/vercel-agents-new-software",
+          "title": "Vercel's Andrew Qu on why agents are a new kind of software",
+          "url": "https://www.latent.space/p/vercel-agents-new-software",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Vercel’s Andrew Qu on the AIEWF expo floor.Andrew Qu is Chief of Software at Vercel, where he works with the CTO across internal engineering, product experimentation and emerging technologies. He has built libraries for MCP, created skills.sh and led the development of eve, Vercel’s framework for building agents.In this interview with Latent Space, Qu explains why agents represent a new form of software, what Vercel learned from building its own, and why Vercel itself is turning into an agent!From web applications to agentsLatent Space: What does a Chief of Software do at Vercel?Andrew Qu: My role is pretty unique. I work with the CTO to ship impact in any way, shape or form. It’s a mix of internal engineering, external experimentation and staying on the frontier by building things.That means building new libraries and frameworks and showing people how to do things for the first time. I built an MCP library that made it easier to create some of the first MCP servers, and I also built skills.sh to make agent skills easier to discover and use.Latent Space: How did Vercel evolve from focusing on web development to investing heavily in agents?Qu: Vercel’s origins were about making it easy for developers to ship websites and web applications. More recently, we’ve seen a shift from people building pages to people building agents.While building our own agent in v0, our vibe-coding product, we ran into a lot of paper cuts that existing tooling did not solve: switching models or providers, adding fallbacks and making runs resumable.We turned those solutions into reusable libraries that could support v0 and also help customers build their own agents. Over time, we accumulated a set of primitives and decided to assemble them more cohesively. That became eve.Why eve became necessaryLatent Space: How did you reach the point where Vercel needed a dedicated agent framework?Qu: About a year ago, I started working toward putting an agent on every desk inside Vercel. That led me to b",
+          "published": "2026-07-03T00:08:18+00:00",
+          "published_dt": "2026-07-03T00:08:18+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "MCP"
+            ]
+          },
+          "summary_en": "Vercel's Andrew Qu on why agents are a new kind of software (Latent Space) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Latent Space 报道：Vercel's Andrew Qu on why agents are a new kind of software，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-03T02:35:35.075831+00:00",
+          "published_dt": "2026-07-03T02:35:35.075831+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-03T02:35:35.075831+00:00",
+          "published_dt": "2026-07-03T02:35:35.075831+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48756602",
+          "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-02T04:32:41+00:00",
+          "published_dt": "2026-07-02T04:32:41+00:00",
+          "hn_score": 402,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Kimi K2.7 Code is generally available in GitHub Copilot (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：Kimi K2.7 Code is generally available in GitHub Copilot，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/skill-engineering-design",
+          "title": "Skill engineering and the case against one-shot AI design",
+          "url": "https://www.latent.space/p/skill-engineering-design",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Impeccable’s Paul Bakaus at the AI Engineer World’s Fair.Paul Bakaus thinks the emerging discipline of “skill engineering” can make AI agents more capable — but he absolutely does not want to remove people from the creative process. He chats to Latent Space about his approach to design in the AI age.Bakaus is the creator of Impeccable, an open-source design skills system that gives coding agents a vocabulary for improving interfaces. Instead of asking an agent to redesign an entire website in one shot, users can tell it to make a section “bolder,” “quieter,” “denser,” or more polished.Behind those apparently simple commands is a larger argument about how AI products should be built. Agents need more than instructions, Bakaus said: they need domain knowledge, context and carefully defined ways for humans to steer the result.“The point is to give you a way to steer what you want to end up with,” he said during a session at the AI Engineer World’s Fair. “It’s never going to be a tool for one-shot design. That’s not the intent.”The emerging craft of skill engineeringImpeccable began as a relatively simple extension of Anthropic’s frontend design skill. As its audience grew, Bakaus expanded it into a more complex system with multiple components and workflows.That process led him to start thinking of skill engineering as a discipline in its own right. His workshop at the conference explored what he called the “dark arts” of building skills.“One of the interesting topics was that most skills — [and] most models — are not very creative,” Bakaus told me. “They converge in one direction, and if everybody uses the same skill to do frontend design work or something like that, everything ends up looking the same.”Skill engineers must also account for differences between agent harnesses and models. Codex and Claude, for example, do not necessarily handle subagents or permissions in the same way. A skill intended to run across Claude Code, Cursor, GitHub Copilot and Codex cannot a",
+          "published": "2026-07-02T14:36:05+00:00",
+          "published_dt": "2026-07-02T14:36:05+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Skill engineering and the case against one-shot AI design (Latent Space) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Latent Space 报道：Skill engineering and the case against one-shot AI design，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+      "title": "llm-coding-agent 0.1a0",
+      "url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: llm-coding-agent 0.1a0 Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it. I started a new Python library using my python-lib-template-repository GitHub template repository, then ran these two prompts (here's the Claude Code for web transcript): Write a spec.md for this project - it will depend on the latest “llm” alpha from PyPI and implement a Claude code style coding agent complete with tools for reading and editing files and executing commands Then: Commit the spec, then build it using red/green TDD in a series of sensible commits (each with passing tests and updated docs) - occasionally manually test it using the OpenAI API key in your environment Here's the spec, the resulting README file, and the sequence of commits. I've shipped a slop-alpha to PyPI, so you can run the new agent like this: uvx --prerelease=allow --with llm-coding-agent llm code It's pretty good for a first attempt! Here's the (Fable-authored) README, which lists recipes like llm code --yolo and llm code --allow \"pytest*\" --allow \"git diff*\". It also presents a Python API based around a CodingAgent(model=\"gpt-5.5\", root=\"/path\", approve=True).run(\"Fix the failing test in tests/test_parser.py\") class which I didn't ask for but I'm delighted to see implemented. Here's the suite of tools it implemented, listed using uvx ... llm tools: CodingTools_edit_file(path: str, old_string: str, new_string: str, replace_all: bool = False) -> str Replace an exact string in a file. old_string must match the file contents exactly (including whitespace) and must identify a unique location unless replace_all is true. Returns a diff of the change so it can be verified. CodingTools_execute_command(command: str, timeout: int = 120) -> str Run a shell command in the session root directory. Returns combined stdout and stderr followed by an Exit code line. timeout is in seconds (maximum 600); o",
+      "published": "2026-07-02T19:33:12+00:00",
+      "published_dt": "2026-07-02T19:33:12+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "llm-coding-agent 0.1a0 (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：llm-coding-agent 0.1a0，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93794",
+      "title": "The Week’s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Want to keep track of the largest startup funding deals in 2026 with our curated list of $100 million-plus venture deals to U.S.-based companies? Check out The Crunchbase Megadeals Board. This is a weekly feature that runs down the week’s top 10 announced funding rounds in the U.S. Check out last week’s biggest funding deal roundup here. U.S. startups announced sizable funding rounds at a steady clip during a truncated holiday week, with energy and AI leading the way. Houston-based energy startup Joulent secured the biggest round, a $1.75 billion strategic financing, followed by Together AI, a developer of infrastructure for companies running open source AI models, and LeapXpert, a provider of compliance tools for enterprises. Other big rounds were for companies focused on therapeutics, homebuilding, and even lacrosse. 1. Joulent, $1.75B, energy: Houston-based Joulent, a provider of energy infrastructure focused on the demands of artificial intelligence and other compute-intensive industries, raised $1.75 billion in a strategic investment backed by National Grid through its National Grid Ventures arm. 2. Together AI, $800M, AI infrastructure: Together AI, developer of an infrastructure layer for companies running open source AI models, secured $800 million in Series C financing. Aramco Ventures led the round, which set an $8.3 billion post-money valuation for the San Francisco-based startup. 3. LeapXpert, $180M, compliance: LeapXpert, a provider of tools for tracking enterprise communications for compliance needs, closed on $180 million in growth financing. Riverwood Capital led the financing for the New York-based company. 4. 8090 Solutions, $135M, AI software development: Redwood City, California-based 8090 Solutions, developer of a platform for building enterprise software with coordinated AI agents under human-led oversight, picked up $135 million in a round led by Salesforce 1. The company, founded in 2024, counts prominent startup investor Chamath Palihapitiya",
+      "published": "2026-07-02T17:12:50+00:00",
+      "published_dt": "2026-07-02T17:12:50+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$100 million",
+          "$1.75 billion",
+          "$1.75B",
+          "$800M",
+          "$800 million",
+          "$8.3 billion",
+          "$180M",
+          "$180 million",
+          "$135M",
+          "$135 million"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "The Week’s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Week’s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93740",
+      "title": "Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits",
+      "url": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Global venture funding reached a record $510 billion in the first half of 2026, surpassing the $440 billion invested in all of 2025 and setting a new high for startup investment in any half-year period on record, Crunchbase data shows. The data also illustrates how capital is concentrating into a handful of companies at unprecedented scale while IPOs and acquisitions have returned in force, with the second quarter notching one of the strongest periods for venture-backed exits in years. OpenAI and Anthropic alone accounted for $217 billion — 43% of all startup funding in H1 — underscoring how a small handful of frontier AI companies is reshaping venture markets. At the same time, other massive funding deals across industries including AI infrastructure, defense, robotics and healthcare — combined with record IPO and M&A activity — signal that the AI investment boom has grown well beyond a select few top foundation labs. Q2 2026 was the second-largest quarter on record for global venture investment, following on the heels of the largest quarter in Q1. All told, investors poured $205 billion into more than 5,000 startups in Q2, following $305 billion invested in Q1. Table of contents Exits peak in Q2 Capital concentration Beyond Anthropic Late-stage funding Early-stage funding Seed Record exits market returns A new venture cycle takes shape Methodology Glossary of funding terms Exits peak in Q2 Record funding defined the first half of the year as the period topped the previous half-year peak, reached in H2 2021, of $375 billion. The second quarter also marked a turning point for liquidity. IPOs and startup acquisitions accelerated alongside venture investment, producing the strongest exit market since the 2021 boom, Crunchbase data shows. The largest IPO ever for a venture-backed company and the largest startup acquisition ever both took place in Q2. Both deals involved SpaceX, as it went public at a value of $1.77 trillion, raising $75 billion, and less than a week la",
+      "published": "2026-07-02T11:00:47+00:00",
+      "published_dt": "2026-07-02T11:00:47+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$510B",
+          "$510 billion",
+          "$440 billion",
+          "$217 billion",
+          "$205 billion",
+          "$305 billion",
+          "$375 billion",
+          "$75 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Fable was relaunched on schedule, and AIE was on top of it with the first Field Guide to Fable talk, as well as the rest of the excellent coverage of AIEWF Day 3 across Autoresearch, Cursor FDE, and a followup to Zach Lloyd’s popular talk yesterday on Software Factories, as well as “all killer no filler” closing keynotes:AI News for 7/1/2026-7/1/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapCoding Models, Agent Harnesses, and the Fable 5 Re-launchAnthropic re-enabled Claude Fable 5, but with visible safety fallbacks: After a day of pent-up demand, @claudeai announced Fable 5 is back, alongside a clarifying note that updated cybersecurity safeguards may route some requests to Opus 4.8, with biology/chemistry classifiers still overly broad for now @claudeai. The relaunch immediately propagated into tooling: Cursor says Fable 5 leads its evals but is the most expensive per task @cursor_ai; Devin added it across Cloud/Desktop/CLI @cognition; Perplexity restored it as an orchestrator model @perplexity_ai. Anthropic also reset rate limits for users once the model was live again @ClaudeDevs.The interesting story was less “model is back” than “how people are adapting to frontier-model constraints”: Multiple builders converged on multi-model orchestration rather than single-model dependence. @theo described using Fable only for higher-value reasoning/planning while delegating implementation, verification, and computer-use work to other models; he reports a substantial improvement in end-to-end PR yield @theo. Similar views came from @omarsar0, who argued teams should design model-combination strategies rather than build around one frontier model, and from @MParakhin, who pushed back on “simple-task pre-classifiers,” arguing that reliable routing often requires solving the task first. On the be",
+      "published": "2026-07-02T07:10:14+00:00",
+      "published_dt": "2026-07-02T07:10:14+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Perplexity"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent",
+          "safety"
+        ]
+      },
+      "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=960588",
+      "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that giving the public a financial interest in the company would be the best way to share the upside of AI, the FT reported, citing two unnamed people familiar with the talks. He's said to have first pitched the idea to Trump early last year. Altman reportedly suggested the 5 percent figure. Based on OpenAI's latest funding round, which ended with the company valued at $852 billion, that stake would be worth … Read the full story at The Verge.",
+      "published": "2026-07-02T10:23:27+00:00",
+      "published_dt": "2026-07-02T10:23:27+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$852 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenAI floats giving Trump administration 5 percent cut of AI boom (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：OpenAI floats giving Trump administration 5 percent cut of AI boom，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3138546",
+      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
+      "published": "2026-07-02T13:53:00+00:00",
+      "published_dt": "2026-07-02T13:53:00+00:00",
+      "score": 8.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Microsoft",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$2.5 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Microsoft launches its own AI deployment company with $2.5 billion commitment (TechCrunch AI) highlights a notable AI development with score 8.6.",
+      "summary_zh": "TechCrunch AI 报道：Microsoft launches its own AI deployment company with $2.5 billion commitment，综合评分 8.6，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/vercel-agents-new-software",
+      "title": "Vercel's Andrew Qu on why agents are a new kind of software",
+      "url": "https://www.latent.space/p/vercel-agents-new-software",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Vercel’s Andrew Qu on the AIEWF expo floor.Andrew Qu is Chief of Software at Vercel, where he works with the CTO across internal engineering, product experimentation and emerging technologies. He has built libraries for MCP, created skills.sh and led the development of eve, Vercel’s framework for building agents.In this interview with Latent Space, Qu explains why agents represent a new form of software, what Vercel learned from building its own, and why Vercel itself is turning into an agent!From web applications to agentsLatent Space: What does a Chief of Software do at Vercel?Andrew Qu: My role is pretty unique. I work with the CTO to ship impact in any way, shape or form. It’s a mix of internal engineering, external experimentation and staying on the frontier by building things.That means building new libraries and frameworks and showing people how to do things for the first time. I built an MCP library that made it easier to create some of the first MCP servers, and I also built skills.sh to make agent skills easier to discover and use.Latent Space: How did Vercel evolve from focusing on web development to investing heavily in agents?Qu: Vercel’s origins were about making it easy for developers to ship websites and web applications. More recently, we’ve seen a shift from people building pages to people building agents.While building our own agent in v0, our vibe-coding product, we ran into a lot of paper cuts that existing tooling did not solve: switching models or providers, adding fallbacks and making runs resumable.We turned those solutions into reusable libraries that could support v0 and also help customers build their own agents. Over time, we accumulated a set of primitives and decided to assemble them more cohesively. That became eve.Why eve became necessaryLatent Space: How did you reach the point where Vercel needed a dedicated agent framework?Qu: About a year ago, I started working toward putting an agent on every desk inside Vercel. That led me to b",
+      "published": "2026-07-03T00:08:18+00:00",
+      "published_dt": "2026-07-03T00:08:18+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "MCP"
+        ]
+      },
+      "summary_en": "Vercel's Andrew Qu on why agents are a new kind of software (Latent Space) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Latent Space 报道：Vercel's Andrew Qu on why agents are a new kind of software，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3138430",
+      "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+      "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office and Google Apps with AI.",
+      "published": "2026-07-02T05:30:00+00:00",
+      "published_dt": "2026-07-02T05:30:00+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$30M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3138664",
+      "title": "Anthropic is discussing a new custom chip with Samsung",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom.",
+      "published": "2026-07-02T18:31:09+00:00",
+      "published_dt": "2026-07-02T18:31:09+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic is discussing a new custom chip with Samsung (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic is discussing a new custom chip with Samsung，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-03T02:35:35.075831+00:00",
+      "published_dt": "2026-07-03T02:35:35.075831+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-03T02:35:35.075831+00:00",
+      "published_dt": "2026-07-03T02:35:35.075831+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48768997",
+      "title": "GitHub is proud to announce that you can now obtain your public repo on CD-ROM",
+      "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-03T00:01:26+00:00",
+      "published_dt": "2026-07-03T00:01:26+00:00",
+      "hn_score": 76,
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "GitHub is proud to announce that you can now obtain your public repo on CD-ROM (Hacker News) highlights a notable AI development with score 6.6.",
+      "summary_zh": "Hacker News 报道：GitHub is proud to announce that you can now obtain your public repo on CD-ROM，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
+      "title": "Newly discovered PamStealer isn't your typical macOS malware",
+      "url": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Researchers have found a never-before-seen piece of macOS malware that combines a series of clever tradecraft to infect Macs with stealthy, custom-developed credential-stealing code. The malware is delivered in two stages. The first is distributed in a disk image that masquerades as Maccy, a clipboard manager for Macs. It’s compiled as AppleScript that is notable for the way it delivers the second stage. The malware is named PamStealer because the Rust-written infostealer uses the Pluggable Authentication Modules interface built into macOS to validate the target’s login password before sending it to an attacker-controlled server. A quieter execution chain The use of both disk image and AppleScript is common in malware for Macs. More unusual is the way PamStealer combines them to gain stealth. When the AppleScript is double-clicked, it’s opened in the macOS Script Editor, where the malicious functionality is buried deep within the file.Read full article Comments",
+      "published": "2026-07-02T19:38:57+00:00",
+      "published_dt": "2026-07-02T19:38:57+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Newly discovered PamStealer isn't your typical macOS malware (Ars Technica) highlights a notable AI development with score 6.4.",
+      "summary_zh": "Ars Technica 报道：Newly discovered PamStealer isn't your typical macOS malware，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3138687",
+      "title": "Meta quietly launches vibe-coded gaming app Pocket",
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts.",
+      "published": "2026-07-02T18:44:02+00:00",
+      "published_dt": "2026-07-02T18:44:02+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta quietly launches vibe-coded gaming app Pocket (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Meta quietly launches vibe-coded gaming app Pocket，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48756602",
+      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-02T04:32:41+00:00",
+      "published_dt": "2026-07-02T04:32:41+00:00",
+      "hn_score": 402,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Kimi K2.7 Code is generally available in GitHub Copilot (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：Kimi K2.7 Code is generally available in GitHub Copilot，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48762000",
+      "title": "Show HN: Mail Memories – A desktop app to rescue photos from Gmail",
+      "url": "https://mailmemories.com",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hey HN, I’m the creator of Mail Memories. Like many of you, I've had my Gmail address for more than 20 years. A few years ago, I got curious and wanted to see what photos were buried deep in my account. I ended up finding lots of \"lost\" pictures of old friends, family members, and a ridiculous number of vintage memes.I originally built and launched this as a SaaS, but even with code and policies in place that kept users' photos private, I figured everyone would feel more comfortable with a desktop app.So, I threw out the server architecture and completely rewrote it as a 100% local desktop app for Mac and Windows.How it works now: The app connects directly to Google's server from your computer, processes everything entirely on your system, and saves photos straight to your hard drive.You can download your 50 oldest photos for free (no credit card required) just to see what's in there. If you want to download all the pictures in your account, it's a one-time payment of $29. No subscriptions.If you have an old, pre-2010 Gmail account, definitely give it a spin. You'll be surprised at what you find deep in your archive.I'd love to hear your feedback on the layout, scanning performance, or anything else.TL;DR: I turned my SaaS into a local desktop app (Mac/Windows) that recovers decades of forgotten photos from your Gmail. 100% local, no cloud, no subscriptions, no AI.",
+      "published": "2026-07-02T14:16:57+00:00",
+      "published_dt": "2026-07-02T14:16:57+00:00",
+      "hn_score": 99,
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Show HN: Mail Memories – A desktop app to rescue photos from Gmail (Hacker News) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Hacker News 报道：Show HN: Mail Memories – A desktop app to rescue photos from Gmail，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48762725",
+      "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
+      "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-02T15:02:26+00:00",
+      "published_dt": "2026-07-02T15:02:26+00:00",
+      "hn_score": 598,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Spain Orders Blacklist of Palantir from Public and Private Companies (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Spain Orders Blacklist of Palantir from Public and Private Companies，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3138696",
+      "title": "Jersey Mike’s IPO illustrates how bad the AI hype has become",
+      "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But lo and behold.",
+      "published": "2026-07-02T20:11:59+00:00",
+      "published_dt": "2026-07-02T20:11:59+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Jersey Mike’s IPO illustrates how bad the AI hype has become (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Jersey Mike’s IPO illustrates how bad the AI hype has become，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/the-website-of-the-future",
+      "title": "The website of the future may assemble itself for every visitor",
+      "url": "https://www.latent.space/p/the-website-of-the-future",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Adobe Principal Scientist Carlos Sanchez at AIEWF.For as long as I can remember (and I managed websites in the dot-com period), “personalization” has been a holy grail for websites. But up till now, that’s typically meant selecting from a predefined set of options. A retailer might recommend an item based on a previous purchase, or place a visitor into one of several audience segments — that’s been the extent of personalization.Adobe Principal Scientist Carlos Sanchez is exploring a more radical possibility: what if the website itself could be assembled around the needs of each visitor?At the AI Engineer World’s Fair in San Francisco, Sanchez demonstrated what Adobe calls an “agentic site” — a web experience that interprets a visitor’s intent, retrieves relevant material from the company’s existing content, and composes a personalized page in real time.Adobe calls this approach an “audience of one.” Sanchez’s larger point was that the technology is no longer hypothetical.“Many people don’t even think it’s possible to generate a web page on the fly,” he told Latent Space after his session. “People think it is future-looking. No, you can do this. It’s not the future, it’s the present now.”From personalized components to personalized pagesDuring his presentation, Sanchez demonstrated a site that used the visitor’s browsing behavior and search queries as signals. The system grouped those signals into an intent category — such as exploring, researching or preparing to purchase — and then used an LLM to assemble a page suited to that intent.In one example, a visitor interested in camping received a version of a coffee-machine site whose copy, product selection and supporting content had been reorganized around making coffee outdoors.Sanchez also showed a more open-ended interface in which someone could enter a query such as “Europe AI conferences” and receive a page composed specifically around that request.“We call this ‘audience of one,’ because the idea is to personali",
+      "published": "2026-07-02T21:25:14+00:00",
+      "published_dt": "2026-07-02T21:25:14+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "The website of the future may assemble itself for every visitor (Latent Space) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Latent Space 报道：The website of the future may assemble itself for every visitor，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a454f1af3e5961ebd7309fa",
+      "title": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
+      "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Cursor hopes to continue offering third-party AI models after it's acquired by SpaceX, testing the relationships between frontier AI labs.",
+      "published": "2026-07-02T18:01:20+00:00",
+      "published_dt": "2026-07-02T18:01:20+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX? (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/skill-engineering-design",
+      "title": "Skill engineering and the case against one-shot AI design",
+      "url": "https://www.latent.space/p/skill-engineering-design",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Impeccable’s Paul Bakaus at the AI Engineer World’s Fair.Paul Bakaus thinks the emerging discipline of “skill engineering” can make AI agents more capable — but he absolutely does not want to remove people from the creative process. He chats to Latent Space about his approach to design in the AI age.Bakaus is the creator of Impeccable, an open-source design skills system that gives coding agents a vocabulary for improving interfaces. Instead of asking an agent to redesign an entire website in one shot, users can tell it to make a section “bolder,” “quieter,” “denser,” or more polished.Behind those apparently simple commands is a larger argument about how AI products should be built. Agents need more than instructions, Bakaus said: they need domain knowledge, context and carefully defined ways for humans to steer the result.“The point is to give you a way to steer what you want to end up with,” he said during a session at the AI Engineer World’s Fair. “It’s never going to be a tool for one-shot design. That’s not the intent.”The emerging craft of skill engineeringImpeccable began as a relatively simple extension of Anthropic’s frontend design skill. As its audience grew, Bakaus expanded it into a more complex system with multiple components and workflows.That process led him to start thinking of skill engineering as a discipline in its own right. His workshop at the conference explored what he called the “dark arts” of building skills.“One of the interesting topics was that most skills — [and] most models — are not very creative,” Bakaus told me. “They converge in one direction, and if everybody uses the same skill to do frontend design work or something like that, everything ends up looking the same.”Skill engineers must also account for differences between agent harnesses and models. Codex and Claude, for example, do not necessarily handle subagents or permissions in the same way. A skill intended to run across Claude Code, Cursor, GitHub Copilot and Codex cannot a",
+      "published": "2026-07-02T14:36:05+00:00",
+      "published_dt": "2026-07-02T14:36:05+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Skill engineering and the case against one-shot AI design (Latent Space) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Latent Space 报道：Skill engineering and the case against one-shot AI design，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3138873",
+      "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
+      "published": "2026-07-02T23:38:10+00:00",
+      "published_dt": "2026-07-02T23:38:10+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3138583",
+      "title": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI CEO Sam Altman has reportedly proposed giving 5% of the company’s equity to a U.S. sovereign wealth fund, reviving discussions about letting the public share in the financial gains from the AI boom.",
+      "published": "2026-07-02T15:20:51+00:00",
+      "published_dt": "2026-07-02T15:20:51+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI proposed donating 5% of its equity to a US sovereign wealth fund，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48761536",
+      "title": "AI can't be listed as inventor on patent applications, Japan's top court rules",
+      "url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-02T13:43:41+00:00",
+      "published_dt": "2026-07-02T13:43:41+00:00",
+      "hn_score": 362,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI can't be listed as inventor on patent applications, Japan's top court rules (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：AI can't be listed as inventor on patent applications, Japan's top court rules，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48761229",
+      "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
+      "url": "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-02T13:25:25+00:00",
+      "published_dt": "2026-07-02T13:25:25+00:00",
+      "hn_score": 437,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3137764",
+      "title": "Yep, we’re using OpenClaw to date now",
+      "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
+      "published": "2026-07-02T12:00:00+00:00",
+      "published_dt": "2026-07-02T12:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Yep, we’re using OpenClaw to date now (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Yep, we’re using OpenClaw to date now，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48759870",
+      "title": "The primary purpose of code review is to find code that will be hard to maintain",
+      "url": "https://mathstodon.xyz/@mjd/115096720350507897",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-02T11:41:27+00:00",
+      "published_dt": "2026-07-02T11:41:27+00:00",
+      "hn_score": 326,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The primary purpose of code review is to find code that will be hard to maintain (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：The primary purpose of code review is to find code that will be hard to maintain，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
