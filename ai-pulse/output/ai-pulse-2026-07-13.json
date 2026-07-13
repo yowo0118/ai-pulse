@@ -1,0 +1,791 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T02:25:41",
+  "stats": {
+    "total_items": 11,
+    "high_importance": 2,
+    "medium_importance": 9,
+    "categories_covered": 5
+  },
+  "top_stories": [
+    {
+      "id": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
+      "title": "6 months to live for open models",
+      "url": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "The most serious test to date of open source AI’s viability is happening right now. I’ve seen many waves of anti open-source AI rhetoric come and go since ChatGPT was launched, but none of them had obvious analogues in their potential enforcement to real action already in place targeting the peer, closed models of the day. It is more real because new forms of regulation are being tested and implemented, with minimal oversight. I will be doing far more policy-facing writing than usual until this passes.As of writing this, many sources are citing White House discussions on how to manage open models via a new executive order. There is no official information here, and it would likely impact a) Chinese-origin models and b) government uses only, but this is how the dominoes start to fall.Open models lack the central economic champion to represent the potential downside of action against them. From recent coverage of the events surrounding model licensing agreements for Fable (and then GPT-5.6), more was said about what unfolded on June 9th:At the meeting, the topic of how the program will deal with open-source AI models came up, according to a person familiar with the session. A representative from Reflection AI, a U.S.-based open-source model provider, argued that open-source models should have exemptions from the framework based on their capabilities, the person said. Currently, Chinese open-source models such as DeepSeek have a substantial lead over other available open models, and Reflection has not yet launched a public model.A ban of any form here would be a big mistake for the long-term trajectory of AI.The most likely incoming action is to ban or indefinitely delay any open-weights model meaningfully above the capability level in the range of GPT 5.5, Claude Opus 4.8, or GLM-5.2. With the consistent capability gap, this should be within the next 6 months.As it stands, these would most likely be from a Chinese company, which is how this conversation of frontier op",
+      "published": "2026-07-12T16:47:42+00:00",
+      "published_dt": "2026-07-12T16:47:42+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "6 months to live for open models (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：6 months to live for open models，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=963346",
+      "title": "The fight against AI data centers is just beginning",
+      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "A yard sign opposing a planned data center is displayed along Route 54 in Mount Carmel Township Northumberland County. | Image: Getty Images This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threatened local power grids, a small group of protesters set the stage for the battles cropping up across communities today. In 2015, Apple announced plans to build a roughly $1 billion data center in the sleepy town of Athenry, Ireland. The data center's 500-acre site would power Apple's services in Europe, including iTunes, iMessage, and Siri. At th … Read the full story at The Verge.",
+      "published": "2026-07-12T12:00:00+00:00",
+      "published_dt": "2026-07-12T12:00:00+00:00",
+      "score": 8.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$1 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The fight against AI data centers is just beginning (The Verge AI) highlights a notable AI development with score 8.4.",
+      "summary_zh": "The Verge AI 报道：The fight against AI data centers is just beginning，综合评分 8.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+          "title": "Fable gets another bump",
+          "url": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19. As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits. Anthropic's original rationale for this was compute constraints - they wanted a better idea of both demand and compute availability before committing to keeping the new model cheap for subscribers. OpenAI appear confident that they won't need to restrict access to GPT-5.6 in the same way. Here's Thibault Sottiaux this morning: The last 48 hours of Codex and ChatGPT Work have been intense! Three important updates: Temporarily removing the 5 hour usage limit restriction for all Plus, Business and Pro plans Rolling out changes that will make GPT 5.6 Sol more efficient across the board and that will be reflected in less usage being used so that it can take you further. Exact impact to be quantified and shared We hit 6M active users, and are landing a usage reset in the next hour At this point I think Anthropic should change track and keep Fable permanently available on those plans. OpenAI are winning users simply due to the uncertainty that surrounds Fable access. Tags: anthropic, generative-ai, gpt, openai, claude-mythos-fable, ai, llms, llm-pricing",
+          "published": "2026-07-12T21:20:07+00:00",
+          "published_dt": "2026-07-12T21:20:07+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Fable gets another bump (Simon Willison) highlights a notable AI development with score 6.4.",
+          "summary_zh": "Simon Willison 报道：Fable gets another bump，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+          "title": "Directly Responsible Individuals (DRI)",
+          "url": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Directly Responsible Individuals (DRI) I went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is \"ultimately accountable for the success or failure of a specific project, initiative, or activity\". I've been thinking about this term recently in the context of LLM-powered agents and how they fit into human organizations. I don't think an agent should ever be considered the DRI for a project - that's something that feels uniquely human to me, because humans can take accountability for their actions where machines cannot. (See also IBM's legendary 1979 training slide that states \"A computer can never be held accountable, therefore a computer must never make a management decision.\") Tags: apple, management, ai, gitlab, generative-ai, llms, ai-ethics, coding-agents",
+          "published": "2026-07-12T23:57:14+00:00",
+          "published_dt": "2026-07-12T23:57:14+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "Directly Responsible Individuals (DRI) (Simon Willison) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Simon Willison 报道：Directly Responsible Individuals (DRI)，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a50b6a1801742f6885445d1",
+          "title": "Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides",
+          "url": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Researchers cobbled together funding and time to show how quantum computing could aid in the development of drugs to help underserved populations and combat rare diseases.",
+          "published": "2026-07-12T10:00:00+00:00",
+          "published_dt": "2026-07-12T10:00:00+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides (Wired AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Wired AI 报道：Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+          "title": "shot-scraper 1.11",
+          "url": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: shot-scraper 1.11 Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer than a second to start serving traffic. server: processes used by shot-scraper multi and shot-scraper video now wait up to 30 seconds for the target URL to accept connections, polling for port availability and replacing the previous fixed one-second delay. #197 The shot-scraper, pdf, html, accessibility and har commands now have a --js-file option for loading JavaScript from a local file, standard input or gh:username/script, as an alternative to --javascriptwhich accepts the string of JavaScript directly as an argument. #192 shot-scraper multi supports the equivalent js_file: YAML key. The shot-scraper javascript and shot-scraper html commands now have a --timeout option for consistency with other commands. #118 Tags: shot-scraper",
+          "published": "2026-07-12T23:46:52+00:00",
+          "published_dt": "2026-07-12T23:46:52+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "shot-scraper 1.11 (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：shot-scraper 1.11，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=963346",
+          "title": "The fight against AI data centers is just beginning",
+          "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "A yard sign opposing a planned data center is displayed along Route 54 in Mount Carmel Township Northumberland County. | Image: Getty Images This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threatened local power grids, a small group of protesters set the stage for the battles cropping up across communities today. In 2015, Apple announced plans to build a roughly $1 billion data center in the sleepy town of Athenry, Ireland. The data center's 500-acre site would power Apple's services in Europe, including iTunes, iMessage, and Siri. At th … Read the full story at The Verge.",
+          "published": "2026-07-12T12:00:00+00:00",
+          "published_dt": "2026-07-12T12:00:00+00:00",
+          "score": 8.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$1 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "The fight against AI data centers is just beginning (The Verge AI) highlights a notable AI development with score 8.4.",
+          "summary_zh": "The Verge AI 报道：The fight against AI data centers is just beginning，综合评分 8.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
+          "title": "sqlite-utils 4.1.1",
+          "url": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: sqlite-utils 4.1.1 Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE. table.transform() now raises a TransactionError if called while a transaction is open with PRAGMA foreign_keys enabled and the table is referenced by foreign keys with destructive ON DELETE actions - CASCADE, SET NULL or SET DEFAULT. The pragma cannot be changed inside a transaction, so previously dropping the old table as part of the transform could fire those actions and silently delete or modify referencing rows. See Foreign keys and transactions for details and workarounds. (#794) The CLI and Python API documentation now cross-reference each other: CLI sections link to the equivalent Python API functionality and Python API sections link back to the corresponding CLI command. (#791) Tags: sqlite, sqlite-utils",
+          "published": "2026-07-12T20:55:30+00:00",
+          "published_dt": "2026-07-12T20:55:30+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "sqlite-utils 4.1.1 (Simon Willison) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Simon Willison 报道：sqlite-utils 4.1.1，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
+          "title": "6 months to live for open models",
+          "url": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "The most serious test to date of open source AI’s viability is happening right now. I’ve seen many waves of anti open-source AI rhetoric come and go since ChatGPT was launched, but none of them had obvious analogues in their potential enforcement to real action already in place targeting the peer, closed models of the day. It is more real because new forms of regulation are being tested and implemented, with minimal oversight. I will be doing far more policy-facing writing than usual until this passes.As of writing this, many sources are citing White House discussions on how to manage open models via a new executive order. There is no official information here, and it would likely impact a) Chinese-origin models and b) government uses only, but this is how the dominoes start to fall.Open models lack the central economic champion to represent the potential downside of action against them. From recent coverage of the events surrounding model licensing agreements for Fable (and then GPT-5.6), more was said about what unfolded on June 9th:At the meeting, the topic of how the program will deal with open-source AI models came up, according to a person familiar with the session. A representative from Reflection AI, a U.S.-based open-source model provider, argued that open-source models should have exemptions from the framework based on their capabilities, the person said. Currently, Chinese open-source models such as DeepSeek have a substantial lead over other available open models, and Reflection has not yet launched a public model.A ban of any form here would be a big mistake for the long-term trajectory of AI.The most likely incoming action is to ban or indefinitely delay any open-weights model meaningfully above the capability level in the range of GPT 5.5, Claude Opus 4.8, or GLM-5.2. With the consistent capability gap, this should be within the next 6 months.As it stands, these would most likely be from a Chinese company, which is how this conversation of frontier op",
+          "published": "2026-07-12T16:47:42+00:00",
+          "published_dt": "2026-07-12T16:47:42+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "6 months to live for open models (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：6 months to live for open models，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48883343",
+          "title": "I love LLMs, I hate hype",
+          "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-12T18:31:56+00:00",
+          "published_dt": "2026-07-12T18:31:56+00:00",
+          "hn_score": 328,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "I love LLMs, I hate hype (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：I love LLMs, I hate hype，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48883275",
+          "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+          "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "This started based off of a hunch. We usually use OpenCode, but were 'forced' to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.This was the initial anecdotal evidence, but we undertook this small study to collect empirical data:We added logging between the agentic coding tool (Claude Code and OpenCode) and Anthropic's endpoint, and captured all requests (and the returned usage blocks).With one caveat (toward the end of the post) we found unambiguously that Claude Code was far more inefficient in terms of its cache strategy and its harness token usage than OpenCode.",
+          "published": "2026-07-12T18:25:51+00:00",
+          "published_dt": "2026-07-12T18:25:51+00:00",
+          "hn_score": 471,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-13T02:25:38.960100+00:00",
+          "published_dt": "2026-07-13T02:25:38.960100+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-13T02:25:38.960100+00:00",
+          "published_dt": "2026-07-13T02:25:38.960100+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
+      "title": "6 months to live for open models",
+      "url": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "The most serious test to date of open source AI’s viability is happening right now. I’ve seen many waves of anti open-source AI rhetoric come and go since ChatGPT was launched, but none of them had obvious analogues in their potential enforcement to real action already in place targeting the peer, closed models of the day. It is more real because new forms of regulation are being tested and implemented, with minimal oversight. I will be doing far more policy-facing writing than usual until this passes.As of writing this, many sources are citing White House discussions on how to manage open models via a new executive order. There is no official information here, and it would likely impact a) Chinese-origin models and b) government uses only, but this is how the dominoes start to fall.Open models lack the central economic champion to represent the potential downside of action against them. From recent coverage of the events surrounding model licensing agreements for Fable (and then GPT-5.6), more was said about what unfolded on June 9th:At the meeting, the topic of how the program will deal with open-source AI models came up, according to a person familiar with the session. A representative from Reflection AI, a U.S.-based open-source model provider, argued that open-source models should have exemptions from the framework based on their capabilities, the person said. Currently, Chinese open-source models such as DeepSeek have a substantial lead over other available open models, and Reflection has not yet launched a public model.A ban of any form here would be a big mistake for the long-term trajectory of AI.The most likely incoming action is to ban or indefinitely delay any open-weights model meaningfully above the capability level in the range of GPT 5.5, Claude Opus 4.8, or GLM-5.2. With the consistent capability gap, this should be within the next 6 months.As it stands, these would most likely be from a Chinese company, which is how this conversation of frontier op",
+      "published": "2026-07-12T16:47:42+00:00",
+      "published_dt": "2026-07-12T16:47:42+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "6 months to live for open models (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：6 months to live for open models，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=963346",
+      "title": "The fight against AI data centers is just beginning",
+      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "A yard sign opposing a planned data center is displayed along Route 54 in Mount Carmel Township Northumberland County. | Image: Getty Images This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threatened local power grids, a small group of protesters set the stage for the battles cropping up across communities today. In 2015, Apple announced plans to build a roughly $1 billion data center in the sleepy town of Athenry, Ireland. The data center's 500-acre site would power Apple's services in Europe, including iTunes, iMessage, and Siri. At th … Read the full story at The Verge.",
+      "published": "2026-07-12T12:00:00+00:00",
+      "published_dt": "2026-07-12T12:00:00+00:00",
+      "score": 8.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$1 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The fight against AI data centers is just beginning (The Verge AI) highlights a notable AI development with score 8.4.",
+      "summary_zh": "The Verge AI 报道：The fight against AI data centers is just beginning，综合评分 8.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-13T02:25:38.960100+00:00",
+      "published_dt": "2026-07-13T02:25:38.960100+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-13T02:25:38.960100+00:00",
+      "published_dt": "2026-07-13T02:25:38.960100+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
+      "title": "sqlite-utils 4.1.1",
+      "url": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: sqlite-utils 4.1.1 Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE. table.transform() now raises a TransactionError if called while a transaction is open with PRAGMA foreign_keys enabled and the table is referenced by foreign keys with destructive ON DELETE actions - CASCADE, SET NULL or SET DEFAULT. The pragma cannot be changed inside a transaction, so previously dropping the old table as part of the transform could fire those actions and silently delete or modify referencing rows. See Foreign keys and transactions for details and workarounds. (#794) The CLI and Python API documentation now cross-reference each other: CLI sections link to the equivalent Python API functionality and Python API sections link back to the corresponding CLI command. (#791) Tags: sqlite, sqlite-utils",
+      "published": "2026-07-12T20:55:30+00:00",
+      "published_dt": "2026-07-12T20:55:30+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "sqlite-utils 4.1.1 (Simon Willison) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Simon Willison 报道：sqlite-utils 4.1.1，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+      "title": "Fable gets another bump",
+      "url": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19. As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits. Anthropic's original rationale for this was compute constraints - they wanted a better idea of both demand and compute availability before committing to keeping the new model cheap for subscribers. OpenAI appear confident that they won't need to restrict access to GPT-5.6 in the same way. Here's Thibault Sottiaux this morning: The last 48 hours of Codex and ChatGPT Work have been intense! Three important updates: Temporarily removing the 5 hour usage limit restriction for all Plus, Business and Pro plans Rolling out changes that will make GPT 5.6 Sol more efficient across the board and that will be reflected in less usage being used so that it can take you further. Exact impact to be quantified and shared We hit 6M active users, and are landing a usage reset in the next hour At this point I think Anthropic should change track and keep Fable permanently available on those plans. OpenAI are winning users simply due to the uncertainty that surrounds Fable access. Tags: anthropic, generative-ai, gpt, openai, claude-mythos-fable, ai, llms, llm-pricing",
+      "published": "2026-07-12T21:20:07+00:00",
+      "published_dt": "2026-07-12T21:20:07+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Fable gets another bump (Simon Willison) highlights a notable AI development with score 6.4.",
+      "summary_zh": "Simon Willison 报道：Fable gets another bump，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+      "title": "shot-scraper 1.11",
+      "url": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: shot-scraper 1.11 Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer than a second to start serving traffic. server: processes used by shot-scraper multi and shot-scraper video now wait up to 30 seconds for the target URL to accept connections, polling for port availability and replacing the previous fixed one-second delay. #197 The shot-scraper, pdf, html, accessibility and har commands now have a --js-file option for loading JavaScript from a local file, standard input or gh:username/script, as an alternative to --javascriptwhich accepts the string of JavaScript directly as an argument. #192 shot-scraper multi supports the equivalent js_file: YAML key. The shot-scraper javascript and shot-scraper html commands now have a --timeout option for consistency with other commands. #118 Tags: shot-scraper",
+      "published": "2026-07-12T23:46:52+00:00",
+      "published_dt": "2026-07-12T23:46:52+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "shot-scraper 1.11 (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：shot-scraper 1.11，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+      "title": "Directly Responsible Individuals (DRI)",
+      "url": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Directly Responsible Individuals (DRI) I went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is \"ultimately accountable for the success or failure of a specific project, initiative, or activity\". I've been thinking about this term recently in the context of LLM-powered agents and how they fit into human organizations. I don't think an agent should ever be considered the DRI for a project - that's something that feels uniquely human to me, because humans can take accountability for their actions where machines cannot. (See also IBM's legendary 1979 training slide that states \"A computer can never be held accountable, therefore a computer must never make a management decision.\") Tags: apple, management, ai, gitlab, generative-ai, llms, ai-ethics, coding-agents",
+      "published": "2026-07-12T23:57:14+00:00",
+      "published_dt": "2026-07-12T23:57:14+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "Directly Responsible Individuals (DRI) (Simon Willison) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Simon Willison 报道：Directly Responsible Individuals (DRI)，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a50b6a1801742f6885445d1",
+      "title": "Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides",
+      "url": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Researchers cobbled together funding and time to show how quantum computing could aid in the development of drugs to help underserved populations and combat rare diseases.",
+      "published": "2026-07-12T10:00:00+00:00",
+      "published_dt": "2026-07-12T10:00:00+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides (Wired AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Wired AI 报道：Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48883343",
+      "title": "I love LLMs, I hate hype",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-12T18:31:56+00:00",
+      "published_dt": "2026-07-12T18:31:56+00:00",
+      "hn_score": 328,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "I love LLMs, I hate hype (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：I love LLMs, I hate hype，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48883275",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "This started based off of a hunch. We usually use OpenCode, but were 'forced' to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.This was the initial anecdotal evidence, but we undertook this small study to collect empirical data:We added logging between the agentic coding tool (Claude Code and OpenCode) and Anthropic's endpoint, and captured all requests (and the returned usage blocks).With one caveat (toward the end of the post) we found unambiguously that Claude Code was far more inefficient in terms of its cache strategy and its harness token usage than OpenCode.",
+      "published": "2026-07-12T18:25:51+00:00",
+      "published_dt": "2026-07-12T18:25:51+00:00",
+      "hn_score": 471,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
