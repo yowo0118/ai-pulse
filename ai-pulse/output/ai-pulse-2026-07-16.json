@@ -1,0 +1,2479 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T02:11:43",
+  "stats": {
+    "total_items": 36,
+    "high_importance": 8,
+    "medium_importance": 28,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+      "title": "xai-org/grok-build, now open source",
+      "url": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "xai-org/grok-build, now open source xAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud buckets. One user reported running it in their home directory and seeing it upload \"my SSH keys, my password manager database, my documents, photos, videos, everything\". I've not seen an official explanation for why it was doing this, but xAI did respond to the feedback (Musk: \"As a precautionary measure, all user data that was uploaded to SpaceXAI before now will be completely and utterly deleted.\") and have disabled the feature. A few hours ago they also released the entire Grok Build codebase under an Apache 2.0 license - presumably to try and regain trust from their users. From their thread announcing the new repository: [...] When data upload was disabled, this choice was respected. In the early beta, data retention was enabled by default for non-ZDR users. Based on your feedback, we changed this. We are now going further to protect privacy. With all retained data deleted, retention default off, and an open-source harness, we are offering complete user privacy. You can also run Grok Build fully open-sourced and local-first with your own inference. We disabled default retention for all Grok Build users starting on July 12th. Additionally, we are deleting all coding data that was previously retained, ensuring every user’s preferences are respected. With these steps, Grok Build goes beyond other major coding products to protect user privacy. It's quite a surprising codebase! Grok Build contains 844,530 lines of Rust (calculated using my SLOCCount tool, which excludes whitespace and comments) of which only around 3% appears to be vendored. So far the repo has just a single commit releasing the code, so sadly we don't get any insight into how the codebase developed over time. A few highlights: xai-grok-agent/templates/prompt.md has the main system pro",
+      "published": "2026-07-15T23:59:30+00:00",
+      "published_dt": "2026-07-15T23:59:30+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Google",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "xai-org/grok-build, now open source (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：xai-org/grok-build, now open source，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93831",
+      "title": "Stripe’s Acquisition Pace Has Accelerated In The Past Five Years, But Nothing Comes Close To Its Reported $53B PayPal Bet",
+      "url": "https://news.crunchbase.com/ma/stripe-acquisition-pace-accelerates-paypal/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Payments giant Stripe and private equity firm Advent International have teamed up to make an offer to buy troubled PayPal in a deal valued at more than $53 billion, Reuters reported Wednesday. The purported deal, which has been rumored for months, is notable not just for its scale — it would be one of the largest acquisitions of a technology company in recent years — but also for its highly unusual nature. Privately held startups typically lack the cash, publicly traded shares and debt capacity to acquire their publicly listed brethren. Of course, Stripe is not just any privately held company. The fintech startup was, until just a few short years ago, the highest valued startup based in the U.S., before being eclipsed on that metric by AI labs Anthropic and OpenAI. In February, the company announced it had inked deals with investors to provide liquidity to current and former employees through a tender offer at a $159 billion valuation, which still ranks it as the fourth most valuable startup in the world. With substantial private capital — it has raised some $10.4 billion since inception, per Crunchbase — Stripe has long been one of the most acquisitive venture-backed startups. It has made 21 known acquisitions since its 2010 inception, according to Crunchbase data. Only three have disclosed prices: stablecoin platform Bridge at $1.1 billion (2025), usage-based billing software startup Metronome at $1 billion (2026), and Nigerian payments startup Paystack at $200 million (2020). Stripe’s M&A pace has also accelerated sharply since 2020, Crunchbase data shows, with 13 of its 21 acquisitions announced since then. Its recent strategy appears to be focused on stablecoins and crypto infrastructure — Bridge, Privy, Valora and PartyDAO — as well as on billing and money movement through Metronome, payment processing startup Lemon Squeezy and Orum. If the plan to buy PayPal does go through, it will most certainly make Stripe an even more formidable player in the crowded paym",
+      "published": "2026-07-15T19:00:05+00:00",
+      "published_dt": "2026-07-15T19:00:05+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$53B",
+          "$53 billion",
+          "$159 billion",
+          "$10.4 billion",
+          "$1.1 billion",
+          "$1 billion",
+          "$200 million"
+        ],
+        "technologies": [
+          "LoRA"
+        ]
+      },
+      "summary_en": "Stripe’s Acquisition Pace Has Accelerated In The Past Five Years, But Nothing Comes Close To Its Reported $53B PayPal Bet (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Stripe’s Acquisition Pace Has Accelerated In The Past Five Years, But Nothing Comes Close To Its Reported $53B PayPal Bet，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93826",
+      "title": "Fintech Funding Surges 23% In H1 2026 As Investors Concentrate Their Bets On AI And Financial Infrastructure",
+      "url": "https://news.crunchbase.com/fintech/funding-rises-deals-slump-h1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Venture funding into fintech startups climbed nearly 23% year over year in H1 2026, even as deal count fell more than 25%, Crunchbase data shows, a sign that investors are writing fewer, but much larger checks into the sector as they focus on areas such as wealth management, financial infrastructure and enterprise automation. All told, fintech startups raised $28.6 billion globally in the first half of 2026, a 22.7% increase from the first half of 2025, but down 17.3% compared to the $34.6 billion raised in the second half of last year. (It’s important to note that H2 2025 marked the strongest six-month funding period for fintech startups since the second half of 2022.) Fintech funding in the first half of 2026 also topped the sector’s investment totals in 2020 and the pre-pandemic year of 2019, though they remain lower than the peak funding year of 2021 as well as 2018. Historically, the United States has led the globe when it comes to fintech funding, and the first half of this year was no exception. More than 52% — $15 billion — of the global fintech funding in H1 flowed into companies based in the U.S. The United Kingdom was the second-largest recipient of capital, with companies there raising a collective $2.7 billion. India came in third, with a total of $1.9 billion raised, Crunchbase data shows. Deal count drops Even as dollar volume climbed, deal flow into venture-backed fintech startups fell fairly significantly in H1 2026, Crunchbase data shows. The first half of the year saw 1,605 funding deals announced in the sector, a 25.7% decline from the more than 2,161 completed in H1 2025 and down 40% from H1 2024. Where investors are placing their bets Active fintech investors who spoke with Crunchbase News said they see a split market emerging. In general, the startup investment market has been cleaved into two extremes, with funding either pouring into brand-new companies or concentrating into a tiny handful of larger, established giants, according to Elena Sa",
+      "published": "2026-07-15T11:00:35+00:00",
+      "published_dt": "2026-07-15T11:00:35+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$28.6 billion",
+          "$34.6 billion",
+          "$15 billion",
+          "$2.7 billion",
+          "$1.9 billion",
+          "raised $28.6 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Fintech Funding Surges 23% In H1 2026 As Investors Concentrate Their Bets On AI And Financial Infrastructure (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Fintech Funding Surges 23% In H1 2026 As Investors Concentrate Their Bets On AI And Financial Infrastructure，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93824",
+      "title": "Corporate Venture Capital Is Splitting In Two",
+      "url": "https://news.crunchbase.com/venture/corporate-vc-splitting-paypal-fidelity-brotman-alpha/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By Steve Brotman Last month, PayPal confirmed its wind down of PayPal Ventures, the corporate venture arm it launched in 2016 and grew to more than $850 million across three funds. The company hired Jefferies to explore selling portfolio stakes on the secondary market, putting positions in companies such as Plaid and Anchorage Digital in play. The news also arrived weeks after Fidelity International quietly closed its London-based venture unit. Two corporate venture programs shutting down inside six weeks invites speculation that corporations are retreating from venture capital, but in fact the opposite is true. Steve Brotman Measured in dollars, corporate venture has never been stronger. According to Bain Capital, corporate investors participated in 68% of global AI deal value in 2025 — venture’s strongest funding year since 2021. Meta, Nvidia, Google, Disney, SpaceX and ASML all led billion-dollar rounds into AI companies last year, per Crunchbase data. Nvidia by itself made more than 40 startup investments and appeared in 13 of the 20 largest AI financings. Meta paid $14.3 billion for its stake in Scale AI. Salesforce Ventures 1 and Cisco’s venture arm backed Anthropic’s $3.5 billion Series E. Amid this strength, though, corporate venture is also quietly splitting in two, and the proof is buried inside the record numbers. Bain attributes the elevated corporate participation largely to Big Tech, and the billion-dollar rounds trace back to the same short list of names. Take that handful out of the data and the year looks very different. Venture capital itself went through the same sorting over the past decade, as mega-funds absorbed more and more of the capital while everyone else competed for allocation, and corporate venture is now following the same script. The people with the most at stake are the smaller funds and startups downstream. And notice that the wind-downs are coming from serious programs. PayPal’s arm ran for a decade and backed more than 80 companie",
+      "published": "2026-07-15T11:00:32+00:00",
+      "published_dt": "2026-07-15T11:00:32+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google",
+          "Meta",
+          "NVIDIA",
+          "Scale AI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$850 million",
+          "$14.3 billion",
+          "$3.5 billion",
+          "Series E"
+        ],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Corporate Venture Capital Is Splitting In Two (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Corporate Venture Capital Is Splitting In Two，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=965616",
+      "title": "AI slop movies are the new direct-to-video cash grabs",
+      "url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaking tech to make the Homeric classic feel fresh. But another director is trying to capitalize on the buzz around Nolan's project to drum up interest in an Odysseus-focused movie of his own. On Tuesday, film studio Fountain 0 announced that it is working on an AI-generated reimagining of The Odyssey titled Odysseus: The Fall, which will be availabl … Read the full story at The Verge.",
+      "published": "2026-07-15T20:00:00+00:00",
+      "published_dt": "2026-07-15T20:00:00+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$100 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "AI slop movies are the new direct-to-video cash grabs (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：AI slop movies are the new direct-to-video cash grabs，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=966072",
+          "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "So when is fair use actually just stealing? | Cath Virginia / The Verge | Photo from Getty Images Suno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer, and Genius, 404 Media reports. Given that Suno has avoided revealing what's in its training datasets and how they were acquired, this a rare glimpse into what Suno has actually been taking from online platforms. That's relevant because Suno has been the subject of several lawsuits that allege it used copyrighted materials to train its AI models. In a notable case filed by the Recording Industry Association of America (RIAA), Suno openly admitted th … Read the full story at The Verge.",
+          "published": "2026-07-15T17:48:01+00:00",
+          "published_dt": "2026-07-15T17:48:01+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Suno snatched millions of songs from YouTube, Genius, and Deezer (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Suno snatched millions of songs from YouTube, Genius, and Deezer，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "2884mjZs7g6yWxefPaGVHN",
+          "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+          "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+          "source": "VentureBeat AI",
+          "source_type": "rss",
+          "content": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahead of the reality: most deployed “agents” are still chatbot wrappers, the control plane enterprises expect is deliberately hybrid to avoid lock-in, and real-time fiscal control over token burn remains the exception.This wave of VentureBeat Pulse Research examines enterprise agent orchestration: which platforms enterprises run on, what drives the choice, what they optimize for, how they expect agent control to be structured, and — most revealingly — how orchestrated their deployed “agents” actually are and how tightly they control the cost of running them.The central finding is a gap between orchestration ambition and orchestration reality. Enterprises are consolidating fast onto the major model platforms: Anthropic’s Claude is the primary platform for 40%, more than double any rival, followed by Microsoft (18%) and OpenAI (13%). The choice is driven by “model gravity” — native alignment with a state-of-the-art base model (21%) — and success is judged by reliable, multi-step execution (task completion reliability 32%, multi-step workflow management 28%). Yet asked to assess their portfolios honestly, 71% say a quarter or fewer of their deployed “agents” are true multi-step orchestrated workflows rather than single-prompt chatbot wrappers, and only 10% have crossed the halfway mark. The orchestration layer is being built well ahead of the orchestrated portfolio it is meant to run.That gap shapes the architecture enterprises are putting in place. By the end of 2026 a clear majority (51%) expect a hybrid control plane — provider-native plus external orchestration — and only 6% expect to hand control to a provider-managed service, because vendor lock-in (35%) is the risk they fear most if control lives inside a model",
+          "published": "2026-07-15T22:24:17+00:00",
+          "published_dt": "2026-07-15T22:24:17+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "alignment"
+            ]
+          },
+          "summary_en": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents (VentureBeat AI) highlights a notable AI development with score 6.4.",
+          "summary_zh": "VentureBeat AI 报道：Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
+          "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
+          "url": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Right on the heels of Microsoft releasing a record number of security patches, a researcher has published exploit code that can enable low-privilege Windows accounts to make sensitive changes to administrator accounts. The exploit, which multiple researchers say works, is sending Microsoft scrambling, yet again, to patch a zero-day released by an anonymous researcher who has complained about the software maker’s handling of their bug reports. To date, the pseudonymous NightmareEclypse has published nine such exploits, including Tuesday’s HiveLegacy. The researcher said the proof-of-concept code included in the report was stripped down to prevent attackers from using it maliciously. A “pretty powerful primitive” HiveLegacy is an elevation-of-privilege exploit that targets a vulnerability residing in the Windows User Profile Service. It allows users (and with more work likely processes) with limited system rights to compromise an admin user's account by modifying its classes registry hive, a resource that ensures the correct application opens when certain types of files are clicked on in Windows Explorer.Read full article Comments",
+          "published": "2026-07-15T19:59:48+00:00",
+          "published_dt": "2026-07-15T19:59:48+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Windows 0-day drops the same day Microsoft releases record number of patches (Ars Technica) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Ars Technica 报道：Windows 0-day drops the same day Microsoft releases record number of patches，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3143129",
+          "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+          "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
+          "published": "2026-07-15T23:59:44+00:00",
+          "published_dt": "2026-07-15T23:59:44+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142768",
+          "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
+          "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
+          "published": "2026-07-15T17:00:34+00:00",
+          "published_dt": "2026-07-15T17:00:34+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Hack suggests AI music generator Suno scraped YouTube for training data (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Hack suggests AI music generator Suno scraped YouTube for training data，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93831",
+          "title": "Stripe’s Acquisition Pace Has Accelerated In The Past Five Years, But Nothing Comes Close To Its Reported $53B PayPal Bet",
+          "url": "https://news.crunchbase.com/ma/stripe-acquisition-pace-accelerates-paypal/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Payments giant Stripe and private equity firm Advent International have teamed up to make an offer to buy troubled PayPal in a deal valued at more than $53 billion, Reuters reported Wednesday. The purported deal, which has been rumored for months, is notable not just for its scale — it would be one of the largest acquisitions of a technology company in recent years — but also for its highly unusual nature. Privately held startups typically lack the cash, publicly traded shares and debt capacity to acquire their publicly listed brethren. Of course, Stripe is not just any privately held company. The fintech startup was, until just a few short years ago, the highest valued startup based in the U.S., before being eclipsed on that metric by AI labs Anthropic and OpenAI. In February, the company announced it had inked deals with investors to provide liquidity to current and former employees through a tender offer at a $159 billion valuation, which still ranks it as the fourth most valuable startup in the world. With substantial private capital — it has raised some $10.4 billion since inception, per Crunchbase — Stripe has long been one of the most acquisitive venture-backed startups. It has made 21 known acquisitions since its 2010 inception, according to Crunchbase data. Only three have disclosed prices: stablecoin platform Bridge at $1.1 billion (2025), usage-based billing software startup Metronome at $1 billion (2026), and Nigerian payments startup Paystack at $200 million (2020). Stripe’s M&A pace has also accelerated sharply since 2020, Crunchbase data shows, with 13 of its 21 acquisitions announced since then. Its recent strategy appears to be focused on stablecoins and crypto infrastructure — Bridge, Privy, Valora and PartyDAO — as well as on billing and money movement through Metronome, payment processing startup Lemon Squeezy and Orum. If the plan to buy PayPal does go through, it will most certainly make Stripe an even more formidable player in the crowded paym",
+          "published": "2026-07-15T19:00:05+00:00",
+          "published_dt": "2026-07-15T19:00:05+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$53B",
+              "$53 billion",
+              "$159 billion",
+              "$10.4 billion",
+              "$1.1 billion",
+              "$1 billion",
+              "$200 million"
+            ],
+            "technologies": [
+              "LoRA"
+            ]
+          },
+          "summary_en": "Stripe’s Acquisition Pace Has Accelerated In The Past Five Years, But Nothing Comes Close To Its Reported $53B PayPal Bet (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Stripe’s Acquisition Pace Has Accelerated In The Past Five Years, But Nothing Comes Close To Its Reported $53B PayPal Bet，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93826",
+          "title": "Fintech Funding Surges 23% In H1 2026 As Investors Concentrate Their Bets On AI And Financial Infrastructure",
+          "url": "https://news.crunchbase.com/fintech/funding-rises-deals-slump-h1-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Venture funding into fintech startups climbed nearly 23% year over year in H1 2026, even as deal count fell more than 25%, Crunchbase data shows, a sign that investors are writing fewer, but much larger checks into the sector as they focus on areas such as wealth management, financial infrastructure and enterprise automation. All told, fintech startups raised $28.6 billion globally in the first half of 2026, a 22.7% increase from the first half of 2025, but down 17.3% compared to the $34.6 billion raised in the second half of last year. (It’s important to note that H2 2025 marked the strongest six-month funding period for fintech startups since the second half of 2022.) Fintech funding in the first half of 2026 also topped the sector’s investment totals in 2020 and the pre-pandemic year of 2019, though they remain lower than the peak funding year of 2021 as well as 2018. Historically, the United States has led the globe when it comes to fintech funding, and the first half of this year was no exception. More than 52% — $15 billion — of the global fintech funding in H1 flowed into companies based in the U.S. The United Kingdom was the second-largest recipient of capital, with companies there raising a collective $2.7 billion. India came in third, with a total of $1.9 billion raised, Crunchbase data shows. Deal count drops Even as dollar volume climbed, deal flow into venture-backed fintech startups fell fairly significantly in H1 2026, Crunchbase data shows. The first half of the year saw 1,605 funding deals announced in the sector, a 25.7% decline from the more than 2,161 completed in H1 2025 and down 40% from H1 2024. Where investors are placing their bets Active fintech investors who spoke with Crunchbase News said they see a split market emerging. In general, the startup investment market has been cleaved into two extremes, with funding either pouring into brand-new companies or concentrating into a tiny handful of larger, established giants, according to Elena Sa",
+          "published": "2026-07-15T11:00:35+00:00",
+          "published_dt": "2026-07-15T11:00:35+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$28.6 billion",
+              "$34.6 billion",
+              "$15 billion",
+              "$2.7 billion",
+              "$1.9 billion",
+              "raised $28.6 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Fintech Funding Surges 23% In H1 2026 As Investors Concentrate Their Bets On AI And Financial Infrastructure (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Fintech Funding Surges 23% In H1 2026 As Investors Concentrate Their Bets On AI And Financial Infrastructure，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93824",
+          "title": "Corporate Venture Capital Is Splitting In Two",
+          "url": "https://news.crunchbase.com/venture/corporate-vc-splitting-paypal-fidelity-brotman-alpha/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "By Steve Brotman Last month, PayPal confirmed its wind down of PayPal Ventures, the corporate venture arm it launched in 2016 and grew to more than $850 million across three funds. The company hired Jefferies to explore selling portfolio stakes on the secondary market, putting positions in companies such as Plaid and Anchorage Digital in play. The news also arrived weeks after Fidelity International quietly closed its London-based venture unit. Two corporate venture programs shutting down inside six weeks invites speculation that corporations are retreating from venture capital, but in fact the opposite is true. Steve Brotman Measured in dollars, corporate venture has never been stronger. According to Bain Capital, corporate investors participated in 68% of global AI deal value in 2025 — venture’s strongest funding year since 2021. Meta, Nvidia, Google, Disney, SpaceX and ASML all led billion-dollar rounds into AI companies last year, per Crunchbase data. Nvidia by itself made more than 40 startup investments and appeared in 13 of the 20 largest AI financings. Meta paid $14.3 billion for its stake in Scale AI. Salesforce Ventures 1 and Cisco’s venture arm backed Anthropic’s $3.5 billion Series E. Amid this strength, though, corporate venture is also quietly splitting in two, and the proof is buried inside the record numbers. Bain attributes the elevated corporate participation largely to Big Tech, and the billion-dollar rounds trace back to the same short list of names. Take that handful out of the data and the year looks very different. Venture capital itself went through the same sorting over the past decade, as mega-funds absorbed more and more of the capital while everyone else competed for allocation, and corporate venture is now following the same script. The people with the most at stake are the smaller funds and startups downstream. And notice that the wind-downs are coming from serious programs. PayPal’s arm ran for a decade and backed more than 80 companie",
+          "published": "2026-07-15T11:00:32+00:00",
+          "published_dt": "2026-07-15T11:00:32+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google",
+              "Meta",
+              "NVIDIA",
+              "Scale AI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$850 million",
+              "$14.3 billion",
+              "$3.5 billion",
+              "Series E"
+            ],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Corporate Venture Capital Is Splitting In Two (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Corporate Venture Capital Is Splitting In Two，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=965616",
+          "title": "AI slop movies are the new direct-to-video cash grabs",
+          "url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaking tech to make the Homeric classic feel fresh. But another director is trying to capitalize on the buzz around Nolan's project to drum up interest in an Odysseus-focused movie of his own. On Tuesday, film studio Fountain 0 announced that it is working on an AI-generated reimagining of The Odyssey titled Odysseus: The Fall, which will be availabl … Read the full story at The Verge.",
+          "published": "2026-07-15T20:00:00+00:00",
+          "published_dt": "2026-07-15T20:00:00+00:00",
+          "score": 9.2,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$100 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "AI slop movies are the new direct-to-video cash grabs (The Verge AI) highlights a notable AI development with score 9.2.",
+          "summary_zh": "The Verge AI 报道：AI slop movies are the new direct-to-video cash grabs，综合评分 9.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142019",
+          "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C",
+          "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The startup has reached a $120 million annualized revenue run rate and more than 200,000 paying customers.",
+          "published": "2026-07-15T12:00:00+00:00",
+          "published_dt": "2026-07-15T12:00:00+00:00",
+          "score": 8.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$130M",
+              "$120 million",
+              "Series C"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C (TechCrunch AI) highlights a notable AI development with score 8.9.",
+          "summary_zh": "TechCrunch AI 报道：Indian AI coding startup Emergent becomes a unicorn with $130M Series C，综合评分 8.9，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142237",
+          "title": "Rime picks up $24M Series A to help enterprises field customer calls",
+          "url": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Rime is handling over 100 million calls each month across multiple companies.",
+          "published": "2026-07-15T13:00:00+00:00",
+          "published_dt": "2026-07-15T13:00:00+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$24M",
+              "Series A"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Rime picks up $24M Series A to help enterprises field customer calls (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：Rime picks up $24M Series A to help enterprises field customer calls，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=84369",
+          "title": "The Crunchbase Tech Layoffs Tracker",
+          "url": "https://news.crunchbase.com/startups/tech-layoffs/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Methodology This tracker includes layoffs conducted by U.S.-based companies or those with a strong U.S. presence and is updated at least bi-weekly. We’ve included both startups and publicly traded, tech-heavy companies. We’ve also included companies based elsewhere that have a sizable team in the United States, such as Klarna, even when it’s unclear how much of the U.S. workforce has been affected by layoffs. Layoff and workforce figures are best estimates based on reporting. We source the layoffs from media reports, our own reporting, social media posts and layoffs.fyi, a crowdsourced database of tech layoffs. We recently updated our layoffs tracker to reflect the most recent round of layoffs each company has conducted. This allows us to quickly and more accurately track layoff trends, which is why you might notice some changes in our most recent numbers. If an employee headcount cannot be confirmed to our standards, we note it as “unclear.”",
+          "published": "2026-07-15T17:30:30+00:00",
+          "published_dt": "2026-07-15T17:30:30+00:00",
+          "score": 7.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Crunchbase Tech Layoffs Tracker (Crunchbase News) highlights a notable AI development with score 7.2.",
+          "summary_zh": "Crunchbase News 报道：The Crunchbase Tech Layoffs Tracker，综合评分 7.2，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
+          "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
+          "url": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Sheetz, a US convenience store chain, is moving its 838 locations off VMware. Sheetz has used VMware virtualization across two Dell R440/R450-series servers at each of its locations since 2019. Now it’s migrating 12 to 14 virtual machines (VMs) in each of its stores from VMware vSphere to StorMagic’s SvHCI, “with an additional two VMs to be replaced over the coming months to transition from Windows 10 to Windows 11,” Scott Robertson, infrastructure team manager at Sheetz, told Ars Technica via email. Ultimately, Sheetz will move about 11,000 VMs from Broadcom's virtualization platform. Sheetz is still running the original Dell server hardware. So far, Sheetz has finished migrating more than 600 stores, averaging 200 per month, according to a company announcement today. Sheetz should be finished with the migration in four months, the announcement said.Read full article Comments",
+          "published": "2026-07-15T21:41:56+00:00",
+          "published_dt": "2026-07-15T21:41:56+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Sheetz is quitting VMware, migrating 11,000 virtual machines (Ars Technica) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Ars Technica 报道：Sheetz is quitting VMware, migrating 11,000 virtual machines，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48927095",
+          "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+          "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-15T21:16:36+00:00",
+          "published_dt": "2026-07-15T21:16:36+00:00",
+          "hn_score": 90,
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Governments, companies, nonprofits should invest in free, open source AI [pdf] (Hacker News) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Hacker News 报道：Governments, companies, nonprofits should invest in free, open source AI [pdf]，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a56aa5fbd6f051dce815702",
+          "title": "Thinking Machines Lab Drops Its First Model",
+          "url": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.",
+          "published": "2026-07-15T18:05:00+00:00",
+          "published_dt": "2026-07-15T18:05:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Thinking Machines Lab Drops Its First Model (Wired AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Wired AI 报道：Thinking Machines Lab Drops Its First Model，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?post_type=tc_video&p=3142876",
+          "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
+          "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Can a handful of engineers really do the work of an army of consultants? That’s the bet behind Ode with Anthropic — the joint venture dedicated to embedding forward-deployed engineers in enterprise firms, backed by Anthropic, Blackstone, Hellman & Friedman, Goldman Sachs and others. On this episode of TechCrunch’s Equity podcast, Rebecca Bellan sits down with Ode’s leaders Chris Taylor and Eddie Siegel, who founded Fractional AI, […]",
+          "published": "2026-07-15T15:00:00+00:00",
+          "published_dt": "2026-07-15T15:00:00+00:00",
+          "score": 7.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "embedding"
+            ]
+          },
+          "summary_en": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise (TechCrunch AI) highlights a notable AI development with score 7.4.",
+          "summary_zh": "TechCrunch AI 报道：Inside Ode with Anthropic, the startup betting AI services are the future of enterprise，综合评分 7.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142774",
+          "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
+          "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+          "published": "2026-07-15T15:29:33+00:00",
+          "published_dt": "2026-07-15T15:29:33+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Alibaba"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Apple Intelligence approved for launch in China with Alibaba’s Qwen AI，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142610",
+          "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models",
+          "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
+          "published": "2026-07-15T13:10:47+00:00",
+          "published_dt": "2026-07-15T13:10:47+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "embedding"
+            ]
+          },
+          "summary_en": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=965901",
+          "title": "OpenAI finally launches hardware… for Codex",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-shaped block of buttons called Codex Micro, is a collaboration between the AI company and keyboard maker Work Louder. OpenAI said it is a limited-run collaboration that will give users more ways to monitor and manage their agents. The pad closely resembles Work Louder's Creator Micro 2, and marketing images show what appears to be an identical … Read the full story at The Verge.",
+          "published": "2026-07-15T16:00:00+00:00",
+          "published_dt": "2026-07-15T16:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "OpenAI finally launches hardware… for Codex (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：OpenAI finally launches hardware… for Codex，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142373",
+          "title": "Whatnot acquires Shaped to power real-time live shopping recommendations",
+          "url": "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Livestream shopping platform Whatnot has acquired AI startup Shaped, a machine learning company focused on real-time recommendations and search. The deal will bolster Whatnot’s personalization and discovery features as it expands into new product categories.",
+          "published": "2026-07-15T17:00:00+00:00",
+          "published_dt": "2026-07-15T17:00:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Whatnot acquires Shaped to power real-time live shopping recommendations (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Whatnot acquires Shaped to power real-time live shopping recommendations，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3135290",
+          "title": "SpaceX falls to $135 IPO price ahead of Starship launch",
+          "url": "https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The stock has steadily fallen from the euphoric post-IPO high, showing that markets may be sobering up to the promises CEO Elon Musk made before and after SpaceX went public.",
+          "published": "2026-07-15T18:06:05+00:00",
+          "published_dt": "2026-07-15T18:06:05+00:00",
+          "score": 8.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "SpaceX falls to $135 IPO price ahead of Starship launch (TechCrunch AI) highlights a notable AI development with score 8.7.",
+          "summary_zh": "TechCrunch AI 报道：SpaceX falls to $135 IPO price ahead of Starship launch，综合评分 8.7，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+          "title": "What building Shippy taught us about building agents",
+          "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-07-15T17:29:41+00:00",
+          "published_dt": "2026-07-15T17:29:41+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "What building Shippy taught us about building agents (Hugging Face Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "Hugging Face Blog 报道：What building Shippy taught us about building agents，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142831",
+          "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+          "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
+          "published": "2026-07-15T19:41:38+00:00",
+          "published_dt": "2026-07-15T19:41:38+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142791",
+          "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
+          "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.",
+          "published": "2026-07-15T16:20:18+00:00",
+          "published_dt": "2026-07-15T16:20:18+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Microsoft patches record number of security vulnerabilities, citing its use of AI (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Microsoft patches record number of security vulnerabilities, citing its use of AI，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 9,
+      "items": [
+        {
+          "id": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+          "title": "The US is advancing AI safety through state and federal action",
+          "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+          "published": "2026-07-15T12:00:00+00:00",
+          "published_dt": "2026-07-15T12:00:00+00:00",
+          "score": 7.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "The US is advancing AI safety through state and federal action (OpenAI Blog) highlights a notable AI development with score 7.6.",
+          "summary_zh": "OpenAI Blog 报道：The US is advancing AI safety through state and federal action，综合评分 7.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+          "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+          "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+          "published": "2026-07-15T10:00:00+00:00",
+          "published_dt": "2026-07-15T10:00:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "alignment",
+              "safety"
+            ]
+          },
+          "summary_en": "GPT-Red: Unlocking Self-Improvement for Robustness (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：GPT-Red: Unlocking Self-Improvement for Robustness，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48916975",
+          "title": "I tricked Claude into leaking your deepest, darkest secrets",
+          "url": "https://www.ayush.digital/blog/the-memory-heist",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-15T06:28:00+00:00",
+          "published_dt": "2026-07-15T06:28:00+00:00",
+          "hn_score": 606,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "I tricked Claude into leaking your deepest, darkest secrets (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：I tricked Claude into leaking your deepest, darkest secrets，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48915709",
+          "title": "Jurassic Park computers in excruciating detail",
+          "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-15T02:57:47+00:00",
+          "published_dt": "2026-07-15T02:57:47+00:00",
+          "hn_score": 869,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Jurassic Park computers in excruciating detail (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Jurassic Park computers in excruciating detail，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+          "title": "Model Routing Is Simple. Until It Isn’t.",
+          "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-07-15T17:27:01+00:00",
+          "published_dt": "2026-07-15T17:27:01+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Model Routing Is Simple. Until It Isn’t. (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Model Routing Is Simple. Until It Isn’t.，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142329",
+          "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+          "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "It's the company's first public proof point after a year and a half spent building AI infrastructure largely out of public view.",
+          "published": "2026-07-15T18:04:06+00:00",
+          "published_dt": "2026-07-15T18:04:06+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48921461",
+          "title": "OpenAI loses trademark dispute at EU court",
+          "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-15T14:32:36+00:00",
+          "published_dt": "2026-07-15T14:32:36+00:00",
+          "hn_score": 216,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI loses trademark dispute at EU court (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：OpenAI loses trademark dispute at EU court，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142243",
+          "title": "Reelful’s AI turns your camera roll into short-form videos for social media",
+          "url": "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The app is designed for people who want to create social content, but find traditional video editing tools too complex or time-consuming.",
+          "published": "2026-07-15T13:00:00+00:00",
+          "published_dt": "2026-07-15T13:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Reelful’s AI turns your camera roll into short-form videos for social media (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Reelful’s AI turns your camera roll into short-form videos for social media，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142184",
+          "title": "Vint Cerf is working on a plan to unleash AI agents on the open internet",
+          "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The guy behind TCP/IP is working on a standard for identifying AI agents in the wild.",
+          "published": "2026-07-15T12:00:00+00:00",
+          "published_dt": "2026-07-15T12:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Vint Cerf is working on a plan to unleash AI agents on the open internet (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Vint Cerf is working on a plan to unleash AI agents on the open internet，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+          "title": "xai-org/grok-build, now open source",
+          "url": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "xai-org/grok-build, now open source xAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud buckets. One user reported running it in their home directory and seeing it upload \"my SSH keys, my password manager database, my documents, photos, videos, everything\". I've not seen an official explanation for why it was doing this, but xAI did respond to the feedback (Musk: \"As a precautionary measure, all user data that was uploaded to SpaceXAI before now will be completely and utterly deleted.\") and have disabled the feature. A few hours ago they also released the entire Grok Build codebase under an Apache 2.0 license - presumably to try and regain trust from their users. From their thread announcing the new repository: [...] When data upload was disabled, this choice was respected. In the early beta, data retention was enabled by default for non-ZDR users. Based on your feedback, we changed this. We are now going further to protect privacy. With all retained data deleted, retention default off, and an open-source harness, we are offering complete user privacy. You can also run Grok Build fully open-sourced and local-first with your own inference. We disabled default retention for all Grok Build users starting on July 12th. Additionally, we are deleting all coding data that was previously retained, ensuring every user’s preferences are respected. With these steps, Grok Build goes beyond other major coding products to protect user privacy. It's quite a surprising codebase! Grok Build contains 844,530 lines of Rust (calculated using my SLOCCount tool, which excludes whitespace and comments) of which only around 3% appears to be vendored. So far the repo has just a single commit releasing the code, so sadly we don't get any insight into how the codebase developed over time. A few highlights: xai-grok-agent/templates/prompt.md has the main system pro",
+          "published": "2026-07-15T23:59:30+00:00",
+          "published_dt": "2026-07-15T23:59:30+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Google",
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "inference",
+              "agent"
+            ]
+          },
+          "summary_en": "xai-org/grok-build, now open source (Simon Willison) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Simon Willison 报道：xai-org/grok-build, now open source，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-16T02:11:40.059984+00:00",
+          "published_dt": "2026-07-16T02:11:40.059984+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-16T02:11:40.059984+00:00",
+          "published_dt": "2026-07-16T02:11:40.059984+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+      "title": "xai-org/grok-build, now open source",
+      "url": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "xai-org/grok-build, now open source xAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud buckets. One user reported running it in their home directory and seeing it upload \"my SSH keys, my password manager database, my documents, photos, videos, everything\". I've not seen an official explanation for why it was doing this, but xAI did respond to the feedback (Musk: \"As a precautionary measure, all user data that was uploaded to SpaceXAI before now will be completely and utterly deleted.\") and have disabled the feature. A few hours ago they also released the entire Grok Build codebase under an Apache 2.0 license - presumably to try and regain trust from their users. From their thread announcing the new repository: [...] When data upload was disabled, this choice was respected. In the early beta, data retention was enabled by default for non-ZDR users. Based on your feedback, we changed this. We are now going further to protect privacy. With all retained data deleted, retention default off, and an open-source harness, we are offering complete user privacy. You can also run Grok Build fully open-sourced and local-first with your own inference. We disabled default retention for all Grok Build users starting on July 12th. Additionally, we are deleting all coding data that was previously retained, ensuring every user’s preferences are respected. With these steps, Grok Build goes beyond other major coding products to protect user privacy. It's quite a surprising codebase! Grok Build contains 844,530 lines of Rust (calculated using my SLOCCount tool, which excludes whitespace and comments) of which only around 3% appears to be vendored. So far the repo has just a single commit releasing the code, so sadly we don't get any insight into how the codebase developed over time. A few highlights: xai-grok-agent/templates/prompt.md has the main system pro",
+      "published": "2026-07-15T23:59:30+00:00",
+      "published_dt": "2026-07-15T23:59:30+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Google",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "xai-org/grok-build, now open source (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：xai-org/grok-build, now open source，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93831",
+      "title": "Stripe’s Acquisition Pace Has Accelerated In The Past Five Years, But Nothing Comes Close To Its Reported $53B PayPal Bet",
+      "url": "https://news.crunchbase.com/ma/stripe-acquisition-pace-accelerates-paypal/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Payments giant Stripe and private equity firm Advent International have teamed up to make an offer to buy troubled PayPal in a deal valued at more than $53 billion, Reuters reported Wednesday. The purported deal, which has been rumored for months, is notable not just for its scale — it would be one of the largest acquisitions of a technology company in recent years — but also for its highly unusual nature. Privately held startups typically lack the cash, publicly traded shares and debt capacity to acquire their publicly listed brethren. Of course, Stripe is not just any privately held company. The fintech startup was, until just a few short years ago, the highest valued startup based in the U.S., before being eclipsed on that metric by AI labs Anthropic and OpenAI. In February, the company announced it had inked deals with investors to provide liquidity to current and former employees through a tender offer at a $159 billion valuation, which still ranks it as the fourth most valuable startup in the world. With substantial private capital — it has raised some $10.4 billion since inception, per Crunchbase — Stripe has long been one of the most acquisitive venture-backed startups. It has made 21 known acquisitions since its 2010 inception, according to Crunchbase data. Only three have disclosed prices: stablecoin platform Bridge at $1.1 billion (2025), usage-based billing software startup Metronome at $1 billion (2026), and Nigerian payments startup Paystack at $200 million (2020). Stripe’s M&A pace has also accelerated sharply since 2020, Crunchbase data shows, with 13 of its 21 acquisitions announced since then. Its recent strategy appears to be focused on stablecoins and crypto infrastructure — Bridge, Privy, Valora and PartyDAO — as well as on billing and money movement through Metronome, payment processing startup Lemon Squeezy and Orum. If the plan to buy PayPal does go through, it will most certainly make Stripe an even more formidable player in the crowded paym",
+      "published": "2026-07-15T19:00:05+00:00",
+      "published_dt": "2026-07-15T19:00:05+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$53B",
+          "$53 billion",
+          "$159 billion",
+          "$10.4 billion",
+          "$1.1 billion",
+          "$1 billion",
+          "$200 million"
+        ],
+        "technologies": [
+          "LoRA"
+        ]
+      },
+      "summary_en": "Stripe’s Acquisition Pace Has Accelerated In The Past Five Years, But Nothing Comes Close To Its Reported $53B PayPal Bet (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Stripe’s Acquisition Pace Has Accelerated In The Past Five Years, But Nothing Comes Close To Its Reported $53B PayPal Bet，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93826",
+      "title": "Fintech Funding Surges 23% In H1 2026 As Investors Concentrate Their Bets On AI And Financial Infrastructure",
+      "url": "https://news.crunchbase.com/fintech/funding-rises-deals-slump-h1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Venture funding into fintech startups climbed nearly 23% year over year in H1 2026, even as deal count fell more than 25%, Crunchbase data shows, a sign that investors are writing fewer, but much larger checks into the sector as they focus on areas such as wealth management, financial infrastructure and enterprise automation. All told, fintech startups raised $28.6 billion globally in the first half of 2026, a 22.7% increase from the first half of 2025, but down 17.3% compared to the $34.6 billion raised in the second half of last year. (It’s important to note that H2 2025 marked the strongest six-month funding period for fintech startups since the second half of 2022.) Fintech funding in the first half of 2026 also topped the sector’s investment totals in 2020 and the pre-pandemic year of 2019, though they remain lower than the peak funding year of 2021 as well as 2018. Historically, the United States has led the globe when it comes to fintech funding, and the first half of this year was no exception. More than 52% — $15 billion — of the global fintech funding in H1 flowed into companies based in the U.S. The United Kingdom was the second-largest recipient of capital, with companies there raising a collective $2.7 billion. India came in third, with a total of $1.9 billion raised, Crunchbase data shows. Deal count drops Even as dollar volume climbed, deal flow into venture-backed fintech startups fell fairly significantly in H1 2026, Crunchbase data shows. The first half of the year saw 1,605 funding deals announced in the sector, a 25.7% decline from the more than 2,161 completed in H1 2025 and down 40% from H1 2024. Where investors are placing their bets Active fintech investors who spoke with Crunchbase News said they see a split market emerging. In general, the startup investment market has been cleaved into two extremes, with funding either pouring into brand-new companies or concentrating into a tiny handful of larger, established giants, according to Elena Sa",
+      "published": "2026-07-15T11:00:35+00:00",
+      "published_dt": "2026-07-15T11:00:35+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$28.6 billion",
+          "$34.6 billion",
+          "$15 billion",
+          "$2.7 billion",
+          "$1.9 billion",
+          "raised $28.6 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Fintech Funding Surges 23% In H1 2026 As Investors Concentrate Their Bets On AI And Financial Infrastructure (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Fintech Funding Surges 23% In H1 2026 As Investors Concentrate Their Bets On AI And Financial Infrastructure，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93824",
+      "title": "Corporate Venture Capital Is Splitting In Two",
+      "url": "https://news.crunchbase.com/venture/corporate-vc-splitting-paypal-fidelity-brotman-alpha/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By Steve Brotman Last month, PayPal confirmed its wind down of PayPal Ventures, the corporate venture arm it launched in 2016 and grew to more than $850 million across three funds. The company hired Jefferies to explore selling portfolio stakes on the secondary market, putting positions in companies such as Plaid and Anchorage Digital in play. The news also arrived weeks after Fidelity International quietly closed its London-based venture unit. Two corporate venture programs shutting down inside six weeks invites speculation that corporations are retreating from venture capital, but in fact the opposite is true. Steve Brotman Measured in dollars, corporate venture has never been stronger. According to Bain Capital, corporate investors participated in 68% of global AI deal value in 2025 — venture’s strongest funding year since 2021. Meta, Nvidia, Google, Disney, SpaceX and ASML all led billion-dollar rounds into AI companies last year, per Crunchbase data. Nvidia by itself made more than 40 startup investments and appeared in 13 of the 20 largest AI financings. Meta paid $14.3 billion for its stake in Scale AI. Salesforce Ventures 1 and Cisco’s venture arm backed Anthropic’s $3.5 billion Series E. Amid this strength, though, corporate venture is also quietly splitting in two, and the proof is buried inside the record numbers. Bain attributes the elevated corporate participation largely to Big Tech, and the billion-dollar rounds trace back to the same short list of names. Take that handful out of the data and the year looks very different. Venture capital itself went through the same sorting over the past decade, as mega-funds absorbed more and more of the capital while everyone else competed for allocation, and corporate venture is now following the same script. The people with the most at stake are the smaller funds and startups downstream. And notice that the wind-downs are coming from serious programs. PayPal’s arm ran for a decade and backed more than 80 companie",
+      "published": "2026-07-15T11:00:32+00:00",
+      "published_dt": "2026-07-15T11:00:32+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google",
+          "Meta",
+          "NVIDIA",
+          "Scale AI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$850 million",
+          "$14.3 billion",
+          "$3.5 billion",
+          "Series E"
+        ],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Corporate Venture Capital Is Splitting In Two (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Corporate Venture Capital Is Splitting In Two，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=965616",
+      "title": "AI slop movies are the new direct-to-video cash grabs",
+      "url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaking tech to make the Homeric classic feel fresh. But another director is trying to capitalize on the buzz around Nolan's project to drum up interest in an Odysseus-focused movie of his own. On Tuesday, film studio Fountain 0 announced that it is working on an AI-generated reimagining of The Odyssey titled Odysseus: The Fall, which will be availabl … Read the full story at The Verge.",
+      "published": "2026-07-15T20:00:00+00:00",
+      "published_dt": "2026-07-15T20:00:00+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$100 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "AI slop movies are the new direct-to-video cash grabs (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：AI slop movies are the new direct-to-video cash grabs，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142019",
+      "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C",
+      "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The startup has reached a $120 million annualized revenue run rate and more than 200,000 paying customers.",
+      "published": "2026-07-15T12:00:00+00:00",
+      "published_dt": "2026-07-15T12:00:00+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$130M",
+          "$120 million",
+          "Series C"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Indian AI coding startup Emergent becomes a unicorn with $130M Series C，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3135290",
+      "title": "SpaceX falls to $135 IPO price ahead of Starship launch",
+      "url": "https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The stock has steadily fallen from the euphoric post-IPO high, showing that markets may be sobering up to the promises CEO Elon Musk made before and after SpaceX went public.",
+      "published": "2026-07-15T18:06:05+00:00",
+      "published_dt": "2026-07-15T18:06:05+00:00",
+      "score": 8.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "SpaceX falls to $135 IPO price ahead of Starship launch (TechCrunch AI) highlights a notable AI development with score 8.7.",
+      "summary_zh": "TechCrunch AI 报道：SpaceX falls to $135 IPO price ahead of Starship launch，综合评分 8.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142237",
+      "title": "Rime picks up $24M Series A to help enterprises field customer calls",
+      "url": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Rime is handling over 100 million calls each month across multiple companies.",
+      "published": "2026-07-15T13:00:00+00:00",
+      "published_dt": "2026-07-15T13:00:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$24M",
+          "Series A"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Rime picks up $24M Series A to help enterprises field customer calls (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Rime picks up $24M Series A to help enterprises field customer calls，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "title": "The US is advancing AI safety through state and federal action",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+      "published": "2026-07-15T12:00:00+00:00",
+      "published_dt": "2026-07-15T12:00:00+00:00",
+      "score": 7.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "The US is advancing AI safety through state and federal action (OpenAI Blog) highlights a notable AI development with score 7.6.",
+      "summary_zh": "OpenAI Blog 报道：The US is advancing AI safety through state and federal action，综合评分 7.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_video&p=3142876",
+      "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
+      "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Can a handful of engineers really do the work of an army of consultants? That’s the bet behind Ode with Anthropic — the joint venture dedicated to embedding forward-deployed engineers in enterprise firms, backed by Anthropic, Blackstone, Hellman & Friedman, Goldman Sachs and others. On this episode of TechCrunch’s Equity podcast, Rebecca Bellan sits down with Ode’s leaders Chris Taylor and Eddie Siegel, who founded Fractional AI, […]",
+      "published": "2026-07-15T15:00:00+00:00",
+      "published_dt": "2026-07-15T15:00:00+00:00",
+      "score": 7.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "embedding"
+        ]
+      },
+      "summary_en": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise (TechCrunch AI) highlights a notable AI development with score 7.4.",
+      "summary_zh": "TechCrunch AI 报道：Inside Ode with Anthropic, the startup betting AI services are the future of enterprise，综合评分 7.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=84369",
+      "title": "The Crunchbase Tech Layoffs Tracker",
+      "url": "https://news.crunchbase.com/startups/tech-layoffs/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Methodology This tracker includes layoffs conducted by U.S.-based companies or those with a strong U.S. presence and is updated at least bi-weekly. We’ve included both startups and publicly traded, tech-heavy companies. We’ve also included companies based elsewhere that have a sizable team in the United States, such as Klarna, even when it’s unclear how much of the U.S. workforce has been affected by layoffs. Layoff and workforce figures are best estimates based on reporting. We source the layoffs from media reports, our own reporting, social media posts and layoffs.fyi, a crowdsourced database of tech layoffs. We recently updated our layoffs tracker to reflect the most recent round of layoffs each company has conducted. This allows us to quickly and more accurately track layoff trends, which is why you might notice some changes in our most recent numbers. If an employee headcount cannot be confirmed to our standards, we note it as “unclear.”",
+      "published": "2026-07-15T17:30:30+00:00",
+      "published_dt": "2026-07-15T17:30:30+00:00",
+      "score": 7.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Crunchbase Tech Layoffs Tracker (Crunchbase News) highlights a notable AI development with score 7.2.",
+      "summary_zh": "Crunchbase News 报道：The Crunchbase Tech Layoffs Tracker，综合评分 7.2，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142774",
+      "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
+      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+      "published": "2026-07-15T15:29:33+00:00",
+      "published_dt": "2026-07-15T15:29:33+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Alibaba"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Apple Intelligence approved for launch in China with Alibaba’s Qwen AI，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-16T02:11:40.059984+00:00",
+      "published_dt": "2026-07-16T02:11:40.059984+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-16T02:11:40.059984+00:00",
+      "published_dt": "2026-07-16T02:11:40.059984+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=966072",
+      "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "So when is fair use actually just stealing? | Cath Virginia / The Verge | Photo from Getty Images Suno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer, and Genius, 404 Media reports. Given that Suno has avoided revealing what's in its training datasets and how they were acquired, this a rare glimpse into what Suno has actually been taking from online platforms. That's relevant because Suno has been the subject of several lawsuits that allege it used copyrighted materials to train its AI models. In a notable case filed by the Recording Industry Association of America (RIAA), Suno openly admitted th … Read the full story at The Verge.",
+      "published": "2026-07-15T17:48:01+00:00",
+      "published_dt": "2026-07-15T17:48:01+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Suno snatched millions of songs from YouTube, Genius, and Deezer (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Suno snatched millions of songs from YouTube, Genius, and Deezer，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "title": "What building Shippy taught us about building agents",
+      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-07-15T17:29:41+00:00",
+      "published_dt": "2026-07-15T17:29:41+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "What building Shippy taught us about building agents (Hugging Face Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "Hugging Face Blog 报道：What building Shippy taught us about building agents，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "published": "2026-07-15T10:00:00+00:00",
+      "published_dt": "2026-07-15T10:00:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "alignment",
+          "safety"
+        ]
+      },
+      "summary_en": "GPT-Red: Unlocking Self-Improvement for Robustness (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：GPT-Red: Unlocking Self-Improvement for Robustness，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "2884mjZs7g6yWxefPaGVHN",
+      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+      "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+      "source": "VentureBeat AI",
+      "source_type": "rss",
+      "content": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahead of the reality: most deployed “agents” are still chatbot wrappers, the control plane enterprises expect is deliberately hybrid to avoid lock-in, and real-time fiscal control over token burn remains the exception.This wave of VentureBeat Pulse Research examines enterprise agent orchestration: which platforms enterprises run on, what drives the choice, what they optimize for, how they expect agent control to be structured, and — most revealingly — how orchestrated their deployed “agents” actually are and how tightly they control the cost of running them.The central finding is a gap between orchestration ambition and orchestration reality. Enterprises are consolidating fast onto the major model platforms: Anthropic’s Claude is the primary platform for 40%, more than double any rival, followed by Microsoft (18%) and OpenAI (13%). The choice is driven by “model gravity” — native alignment with a state-of-the-art base model (21%) — and success is judged by reliable, multi-step execution (task completion reliability 32%, multi-step workflow management 28%). Yet asked to assess their portfolios honestly, 71% say a quarter or fewer of their deployed “agents” are true multi-step orchestrated workflows rather than single-prompt chatbot wrappers, and only 10% have crossed the halfway mark. The orchestration layer is being built well ahead of the orchestrated portfolio it is meant to run.That gap shapes the architecture enterprises are putting in place. By the end of 2026 a clear majority (51%) expect a hybrid control plane — provider-native plus external orchestration — and only 6% expect to hand control to a provider-managed service, because vendor lock-in (35%) is the risk they fear most if control lives inside a model",
+      "published": "2026-07-15T22:24:17+00:00",
+      "published_dt": "2026-07-15T22:24:17+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "alignment"
+        ]
+      },
+      "summary_en": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents (VentureBeat AI) highlights a notable AI development with score 6.4.",
+      "summary_zh": "VentureBeat AI 报道：Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142831",
+      "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
+      "published": "2026-07-15T19:41:38+00:00",
+      "published_dt": "2026-07-15T19:41:38+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142791",
+      "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.",
+      "published": "2026-07-15T16:20:18+00:00",
+      "published_dt": "2026-07-15T16:20:18+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Microsoft patches record number of security vulnerabilities, citing its use of AI (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Microsoft patches record number of security vulnerabilities, citing its use of AI，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142610",
+      "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models",
+      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
+      "published": "2026-07-15T13:10:47+00:00",
+      "published_dt": "2026-07-15T13:10:47+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "embedding"
+        ]
+      },
+      "summary_en": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
+      "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
+      "url": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Sheetz, a US convenience store chain, is moving its 838 locations off VMware. Sheetz has used VMware virtualization across two Dell R440/R450-series servers at each of its locations since 2019. Now it’s migrating 12 to 14 virtual machines (VMs) in each of its stores from VMware vSphere to StorMagic’s SvHCI, “with an additional two VMs to be replaced over the coming months to transition from Windows 10 to Windows 11,” Scott Robertson, infrastructure team manager at Sheetz, told Ars Technica via email. Ultimately, Sheetz will move about 11,000 VMs from Broadcom's virtualization platform. Sheetz is still running the original Dell server hardware. So far, Sheetz has finished migrating more than 600 stores, averaging 200 per month, according to a company announcement today. Sheetz should be finished with the migration in four months, the announcement said.Read full article Comments",
+      "published": "2026-07-15T21:41:56+00:00",
+      "published_dt": "2026-07-15T21:41:56+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Sheetz is quitting VMware, migrating 11,000 virtual machines (Ars Technica) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Ars Technica 报道：Sheetz is quitting VMware, migrating 11,000 virtual machines，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48927095",
+      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+      "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-15T21:16:36+00:00",
+      "published_dt": "2026-07-15T21:16:36+00:00",
+      "hn_score": 90,
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Governments, companies, nonprofits should invest in free, open source AI [pdf] (Hacker News) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Hacker News 报道：Governments, companies, nonprofits should invest in free, open source AI [pdf]，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
+      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
+      "url": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Right on the heels of Microsoft releasing a record number of security patches, a researcher has published exploit code that can enable low-privilege Windows accounts to make sensitive changes to administrator accounts. The exploit, which multiple researchers say works, is sending Microsoft scrambling, yet again, to patch a zero-day released by an anonymous researcher who has complained about the software maker’s handling of their bug reports. To date, the pseudonymous NightmareEclypse has published nine such exploits, including Tuesday’s HiveLegacy. The researcher said the proof-of-concept code included in the report was stripped down to prevent attackers from using it maliciously. A “pretty powerful primitive” HiveLegacy is an elevation-of-privilege exploit that targets a vulnerability residing in the Windows User Profile Service. It allows users (and with more work likely processes) with limited system rights to compromise an admin user's account by modifying its classes registry hive, a resource that ensures the correct application opens when certain types of files are clicked on in Windows Explorer.Read full article Comments",
+      "published": "2026-07-15T19:59:48+00:00",
+      "published_dt": "2026-07-15T19:59:48+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Windows 0-day drops the same day Microsoft releases record number of patches (Ars Technica) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Ars Technica 报道：Windows 0-day drops the same day Microsoft releases record number of patches，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a56aa5fbd6f051dce815702",
+      "title": "Thinking Machines Lab Drops Its First Model",
+      "url": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.",
+      "published": "2026-07-15T18:05:00+00:00",
+      "published_dt": "2026-07-15T18:05:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Thinking Machines Lab Drops Its First Model (Wired AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Wired AI 报道：Thinking Machines Lab Drops Its First Model，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=965901",
+      "title": "OpenAI finally launches hardware… for Codex",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-shaped block of buttons called Codex Micro, is a collaboration between the AI company and keyboard maker Work Louder. OpenAI said it is a limited-run collaboration that will give users more ways to monitor and manage their agents. The pad closely resembles Work Louder's Creator Micro 2, and marketing images show what appears to be an identical … Read the full story at The Verge.",
+      "published": "2026-07-15T16:00:00+00:00",
+      "published_dt": "2026-07-15T16:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "OpenAI finally launches hardware… for Codex (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：OpenAI finally launches hardware… for Codex，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48916975",
+      "title": "I tricked Claude into leaking your deepest, darkest secrets",
+      "url": "https://www.ayush.digital/blog/the-memory-heist",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-15T06:28:00+00:00",
+      "published_dt": "2026-07-15T06:28:00+00:00",
+      "hn_score": 606,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "I tricked Claude into leaking your deepest, darkest secrets (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：I tricked Claude into leaking your deepest, darkest secrets，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48915709",
+      "title": "Jurassic Park computers in excruciating detail",
+      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-15T02:57:47+00:00",
+      "published_dt": "2026-07-15T02:57:47+00:00",
+      "hn_score": 869,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Jurassic Park computers in excruciating detail (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Jurassic Park computers in excruciating detail，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3143129",
+      "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
+      "published": "2026-07-15T23:59:44+00:00",
+      "published_dt": "2026-07-15T23:59:44+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142768",
+      "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
+      "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
+      "published": "2026-07-15T17:00:34+00:00",
+      "published_dt": "2026-07-15T17:00:34+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Hack suggests AI music generator Suno scraped YouTube for training data (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Hack suggests AI music generator Suno scraped YouTube for training data，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142373",
+      "title": "Whatnot acquires Shaped to power real-time live shopping recommendations",
+      "url": "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Livestream shopping platform Whatnot has acquired AI startup Shaped, a machine learning company focused on real-time recommendations and search. The deal will bolster Whatnot’s personalization and discovery features as it expands into new product categories.",
+      "published": "2026-07-15T17:00:00+00:00",
+      "published_dt": "2026-07-15T17:00:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Whatnot acquires Shaped to power real-time live shopping recommendations (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Whatnot acquires Shaped to power real-time live shopping recommendations，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "title": "Model Routing Is Simple. Until It Isn’t.",
+      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-07-15T17:27:01+00:00",
+      "published_dt": "2026-07-15T17:27:01+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Model Routing Is Simple. Until It Isn’t. (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Model Routing Is Simple. Until It Isn’t.，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142329",
+      "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "It's the company's first public proof point after a year and a half spent building AI infrastructure largely out of public view.",
+      "published": "2026-07-15T18:04:06+00:00",
+      "published_dt": "2026-07-15T18:04:06+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48921461",
+      "title": "OpenAI loses trademark dispute at EU court",
+      "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-15T14:32:36+00:00",
+      "published_dt": "2026-07-15T14:32:36+00:00",
+      "hn_score": 216,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI loses trademark dispute at EU court (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：OpenAI loses trademark dispute at EU court，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142243",
+      "title": "Reelful’s AI turns your camera roll into short-form videos for social media",
+      "url": "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The app is designed for people who want to create social content, but find traditional video editing tools too complex or time-consuming.",
+      "published": "2026-07-15T13:00:00+00:00",
+      "published_dt": "2026-07-15T13:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Reelful’s AI turns your camera roll into short-form videos for social media (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Reelful’s AI turns your camera roll into short-form videos for social media，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142184",
+      "title": "Vint Cerf is working on a plan to unleash AI agents on the open internet",
+      "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The guy behind TCP/IP is working on a standard for identifying AI agents in the wild.",
+      "published": "2026-07-15T12:00:00+00:00",
+      "published_dt": "2026-07-15T12:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Vint Cerf is working on a plan to unleash AI agents on the open internet (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Vint Cerf is working on a plan to unleash AI agents on the open internet，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
