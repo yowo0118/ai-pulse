@@ -1,0 +1,2364 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T02:19:41",
+  "stats": {
+    "total_items": 34,
+    "high_importance": 10,
+    "medium_importance": 24,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+      "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+      "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Z.ai GLM has been getting a bit too much love recently, so it’s time for Kimi K3 to fight back! It’s hard to put the scale of today’s open model release in perspective, so thankfully Moonshot AI did it for us:Their vibe reel was entirely edited by Kimi K3 and worth a watch:You can read SimonW and Arena for standard takes and rankings, none of which will be particularly unexpected given the large size of the model, but this pic best summarizes the K2.5 to K3 jump:AI News for 7/15/2026-7/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapMoonshot AI launched Kimi K3 as a frontier-class open-weights model, with official claims that place it near top closed models and above prior open competitors.Moonshot officially introduced Kimi K3 as “Open Frontier Intelligence” with 2.8T total parameters, 1M-token context, native multimodal input, Kimi Delta Attention (KDA), and Attention Residuals, and said the model is live on Kimi.com, Kimi Work, Kimi Code, and API, with open weights promised by July 27, 2026 @Kimi_MoonshotMoonshot also highlighted product positioning around long-horizon agentic coding and self-evolving workflows, plus “vision in the loop” coding/game-building workflows that iterate between code and screenshots @Kimi_MoonshotBefore the formal announcement, multiple accounts circulated leaked or app-sourced details that K3 was 2.8T params, calling it the largest open-weight model ever if weights ship as promised @scaling01, @scaling01, @eliebakouchThe official Kimi blog went live later and was widely shared as the primary technical source @Jianlin_S, @scaling01, @Yulun_DuMoonshot’s own phrasing acknowledged a limitation: despite being highly competitive overall, K3 still has a “noticeable gap in user experience” versus Claude Fable 5 and GPT-5.6 Sol @scaling01Arena announced that Kim",
+      "published": "2026-07-17T01:46:36+00:00",
+      "published_dt": "2026-07-17T01:46:36+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "multimodal"
+        ]
+      },
+      "summary_en": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this the first \"open 3T-class model\" (I guess they're rounding 2.8 trillion up to 3 trillion), taking the crown from DeepSeek's 1.6T v4 Pro. Their self-reported benchmarks have K3 mostly beating Claude Opus 4.8 max and GPT-5.5 high, while losing out to Claude Fable 5 and GPT-5.6 Sol. A few highlights from the Artificial Analysis report on the model: \"On our private long-horizon knowledge work evaluation, Kimi K3 reaches an overall Elo of 1547, +732 points from Kimi K2.6 and behind only Claude Fable 5.\" \"Cost per task ($0.94) is similar to GPT-5.6 Sol ($1.04), ~1/2 the price of Opus 4.8 ($1.80) and higher than open weights peers\" \"Kimi K3’s token usage on the Artificial Analysis Intelligence Index decreased significantly, using 21% fewer output tokens than K2.6.\" The model is also now the leading model on Arena.ai's Frontend Code arena, surpassing even Claude Fable 5. The new model is notable for the pricing: $3/million input tokens and $15/million output tokens, putting it at the same level as Anthropic's Claude Sonnet series and making it the most expensive model released by a Chinese AI lab to date. This is a significant increase on their earlier models such as Kimi K2.6 at $0.95/$4. 2.8 trillion parameters is also more than twice the size of that 1T model. But how does it pelican? I used OpenRouter (to avoid signing up for a Moonshot API key) with the llm-openrouter plugin to generate an SVG of a pelican riding a bicycle: llm -m openrouter/moonshotai/kimi-k3 'Generate an SVG of a pelican riding a bicycle' Here's the transcript. It looks like this: That pelican took 95 input tokens and 16,658 output tokens (13,241 were reasoning tokens), for a total cost of 25 cents! Since K3 accepts image input",
+      "published": "2026-07-16T20:19:30+00:00",
+      "published_dt": "2026-07-16T20:19:30+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "DeepSeek",
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Kimi K3, and what we can still learn from the pelican benchmark (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Kimi K3, and what we can still learn from the pelican benchmark，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3143111",
+      "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
+      "published": "2026-07-16T15:02:00+00:00",
+      "published_dt": "2026-07-16T15:02:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$300M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93822",
+      "title": "The Billion-Dollar Seed Isn’t The Deal You Think It Is",
+      "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By ‍Ellie McDonald Everywhere you look, venture headlines imply that seed rounds have meaningfully changed shape. Yann LeCun raised $1 billion for a company that didn’t exist a week earlier. Project Prometheus launched with $6.2 billion out the gate. Unconventional AI hit $475 million two months after founding. It’s easy to read those headlines and conclude the venture model has been rewritten, that AI is a once-in-a-generation opportunity requiring once-in-a-generation capital. We disagree. And so does the data. The biotech parallel Ellie McDonald At Bison Ventures, we’ve built deep domain expertise in biotech, the sector with the longest history of mega first rounds in venture. Biotech mega-seeds are common because the science requires it, you can’t run a Phase 1 trial on $3 million, but the return profile is often humbling. Large first rounds in biotech have produced a handful of strong outcomes for first-check investors … and a very long tail of modest ones. Our experience with this trend in biotech motivated us to compile a dataset and pressure-test our intuition more broadly. We pulled every publicly available $100 million-plus first round we could find over the last 15 years (roughly 200 deals) and found that only 20% had recorded exits. Of those, only a few delivered what we’d call a venture-like return: 10x MOIC or better for the first-round investor. In other words, approximately 1% of companies that publicly raised $100 million or more in their first financing round generated returns that justify the asset class. Capital intensity, as it turns out, actually worked against venture outcomes. That distribution will improve with a few well-placed AI outcomes this year. OpenAI and Anthropic alone will essentially double the number of outlier returns in this data set when they exit. But even there, the return math is nuanced for first round investors. According to reports, first-round investors are looking at 30-40x returns at OpenAI’s projected IPO valuations.",
+      "published": "2026-07-16T11:00:41+00:00",
+      "published_dt": "2026-07-16T11:00:41+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$1 billion",
+          "$6.2 billion",
+          "$475 million",
+          "$3 million",
+          "$100 million",
+          "raised $1 billion",
+          "raised $100 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The Billion-Dollar Seed Isn’t The Deal You Think It Is (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Billion-Dollar Seed Isn’t The Deal You Think It Is，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93829",
+      "title": "China And AI Lead Asia’s Startup Funding To Multiyear Peak In Q2",
+      "url": "https://news.crunchbase.com/venture/data-china-ai-lead-asia-startup-funding-peak-q2-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Investment into Asia-based startups soared in the second quarter, boosted by a sharp rise in funding to China-based companies and AI startups. Overall, investors poured $42.8 billion into startup funding rounds across all of Asia in Q2 2026, per Crunchbase data. That’s by far the highest quarterly total in more than three years, as charted below. Investment rose sharply at both seed and early stage, driven by megarounds for foundational AI startups. Capital was highly concentrated among a few favored names, with deal counts actually hitting a multiyear low in Q2, even as investment skyrocketed. Table of contents AI leads the surge China leads, followed by India and Singapore Late stage gets a boost Early stage was on fire too Seed holds strong An up quarter Methodology Glossary of funding terms AI leads the surge Artificial intelligence-focused startups scooped up more than 60% of all venture funding to Asia-based startups in Q2. Altogether, those companies pulled in just over $26 billion, by far the highest sum on record. A handful of companies accounted for a big chunk of the total. Of those, China-based large language model developer DeepSeek was the fundraising leader by a wide margin, raising $7.4 billion at a reported $50 billion valuation in June. Two other companies tied for second, each raising $2.5 billion. One, foundational AI startup StepFun, is based in China. The other, AI data center developer DayOne, is headquartered in Singapore. China leads, followed by India and Singapore Alongside the AI surge, the other standout investment trend for Q2 was the sharp rise in funding to China-based startups. Overall, Chinese companies pulled in just over $30 billion in venture funding across stages during the quarter. Investment was up a staggering 424% over year-ago levels and rose 76% from the prior quarter. The next-largest funding destinations were Singapore, which attracted about $3.6 billion, and India, with $3.3 billion. Below, we charted the funding share ",
+      "published": "2026-07-16T11:00:00+00:00",
+      "published_dt": "2026-07-16T11:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$42.8 billion",
+          "$26 billion",
+          "$7.4 billion",
+          "$50 billion",
+          "$2.5 billion",
+          "$30 billion",
+          "$3.6 billion",
+          "$3.3 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "China And AI Lead Asia’s Startup Funding To Multiyear Peak In Q2 (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：China And AI Lead Asia’s Startup Funding To Multiyear Peak In Q2，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+          "title": "Inkling: Our open-weights model",
+          "url": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Inkling: Our open-weights model Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is \"a Mixture-of-Experts transformer with 975B total parameters, 41B active\" - an Apache-2.0 licensed multimodal model trained on 45 trillion tokens of text, images, audio and video. They're also promising Inkling-Small, a 276B (12B active) model, but that's still being tested and the weights will be released \"once that work is complete\". The model card is much shorter than I've come to expect from US AI labs. It links to even shorter Training Data Documentation with almost nothing of interest in it - it's best summarized by these two paragraphs: The datasets Thinking Machines Lab uses to develop its AI services includes content that is in the public domain as well as content that may be subject to intellectual property protection. Thinking Machines Lab’s services were developed using publicly available content obtained from the open internet and publicly accessible data repositories. Certain datasets were also obtained from third parties. By Thinking Machines' own admission, this is not a frontier model. It's instead intended as a strong base model for fine-tuning using their own Tinker training platform: Inkling is not the strongest overall model available today, open or closed. Instead, a combination of qualities makes it a good open-weights base for customization: multimodal capabilities, efficient thinking, and availability on Tinker for fine-tuning. There's a lot to like about this release. It's Apache-2.0 licensed, and looks competitive with the open weight models coming out of China - it's good to see the US open weights ecosystem gain a new viable contender to join NVIDIA Nemotron and Gemma 4. Here's its attempt at an SVG pelican riding a bicycle, which I generated using this curl command against the Thinking Machines API: curl \"https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1/chat/completions\" \\ -H \"Authorization: Bea",
+          "published": "2026-07-16T15:35:25+00:00",
+          "published_dt": "2026-07-16T15:35:25+00:00",
+          "score": 8.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "fine-tuning",
+              "transformer",
+              "multimodal"
+            ]
+          },
+          "summary_en": "Inkling: Our open-weights model (Simon Willison) highlights a notable AI development with score 8.2.",
+          "summary_zh": "Simon Willison 报道：Inkling: Our open-weights model，综合评分 8.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "2Jg9kvtAsPN9IxCbC6KaEt",
+          "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+          "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+          "source": "VentureBeat AI",
+          "source_type": "rss",
+          "content": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-native retrieval has quietly overtaken the dedicated vector databases that define the category — yet a majority of enterprises have already watched their agents produce confident, wrong answers traced to missing or inconsistent context. A governed semantic layer is emerging as the fix, but most are still building it; the field is converging on hybrid retrieval; and even as provider-native tools lead in practice, a plurality say they intend to keep best-of-breed. The result is a context gap — agents that sound authoritative running on a foundation their owners do not yet fully trust.This wave of VentureBeat Pulse Research examines the enterprise RAG and context layer: what feeds AI agents their business context, which retrieval systems enterprises run, how they buy and measure them, where the architecture is heading, and — most revealingly — how often that context is already failing them.The central finding is a context gap — the distance between how confidently enterprise agents answer and how reliable the context beneath them actually is. A majority of enterprises (57%) report that in the past six months their AI agents produced confident but wrong answers they traced to missing or inconsistent business context, and more than half of those said it happened more than once. This is not a fringe failure: retrieval is the primary context source for 38% of enterprises, more than any other approach, so when retrieval is thin or inconsistent, the errors it produces are wearing the agent’s authority. The infrastructure to fix it is being built — 58% already run or are building a governed semantic layer — but for most it is not yet in production.Underneath, the market is consolidating in a direction that surprises. Provider-native retrieval — OpenAI’s file searc",
+          "published": "2026-07-16T17:06:08+00:00",
+          "published_dt": "2026-07-16T17:06:08+00:00",
+          "score": 7.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "agent",
+              "vector database"
+            ]
+          },
+          "summary_en": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix (VentureBeat AI) highlights a notable AI development with score 7.2.",
+          "summary_zh": "VentureBeat AI 报道：The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix，综合评分 7.2，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "guLr7ih5ILpsMnOOTAHLN",
+          "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+          "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+          "source": "VentureBeat AI",
+          "source_type": "rss",
+          "content": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; only about a third give every agent its own scoped identity, and most agents still share credentials; and only three in ten isolate their highest-risk agents. The security stack is overwhelmingly borrowed from the model providers and hyperscalers rather than purpose-built for agents, spending remains a thin slice of the security budget, and enterprises are evenly split on whether their defenses are keeping pace with AI-enabled attackers. The result is an agent security gap — autonomous agents proliferating faster than the identity, isolation, and enforcement controls needed to hold them.This wave of VentureBeat Pulse Research examines how enterprises secure their AI agents: what tooling they run, how they manage agent identity and isolation, what has already gone wrong, how much they spend, and whether they believe their defenses are keeping pace with AI-enabled attackers.The central finding is an agent security gap — the distance between the autonomy enterprises are granting their agents and the controls in place to contain them. More than half of organizations (54%) have already experienced a confirmed agent security incident (18%) or a near-miss caught before harm (36%). The structural weakness beneath those numbers is identity: only about a third (32%) give every agent its own scoped, managed identity, while the rest report that some agents share credentials or that agents mostly run on shared API keys and human or service-account credentials. When agents share credentials, a single compromised or over-permissioned agent carries a wide blast radius — and only three in ten enterprises (30%) isolate their highest-risk agents in sandboxes to bound that radius.What makes the gap notable is how comfortable enterprises are inside it. The security stack ",
+          "published": "2026-07-16T19:02:38+00:00",
+          "published_dt": "2026-07-16T19:02:38+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials (VentureBeat AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "VentureBeat AI 报道：The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48937756",
+          "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks",
+          "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-16T17:44:46+00:00",
+          "published_dt": "2026-07-16T17:44:46+00:00",
+          "hn_score": 125,
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "benchmark"
+            ]
+          },
+          "summary_en": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks (Hacker News) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Hacker News 报道：German AI consortium releases Soofi S, an open 30B model that tops benchmarks，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+          "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+          "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this the first \"open 3T-class model\" (I guess they're rounding 2.8 trillion up to 3 trillion), taking the crown from DeepSeek's 1.6T v4 Pro. Their self-reported benchmarks have K3 mostly beating Claude Opus 4.8 max and GPT-5.5 high, while losing out to Claude Fable 5 and GPT-5.6 Sol. A few highlights from the Artificial Analysis report on the model: \"On our private long-horizon knowledge work evaluation, Kimi K3 reaches an overall Elo of 1547, +732 points from Kimi K2.6 and behind only Claude Fable 5.\" \"Cost per task ($0.94) is similar to GPT-5.6 Sol ($1.04), ~1/2 the price of Opus 4.8 ($1.80) and higher than open weights peers\" \"Kimi K3’s token usage on the Artificial Analysis Intelligence Index decreased significantly, using 21% fewer output tokens than K2.6.\" The model is also now the leading model on Arena.ai's Frontend Code arena, surpassing even Claude Fable 5. The new model is notable for the pricing: $3/million input tokens and $15/million output tokens, putting it at the same level as Anthropic's Claude Sonnet series and making it the most expensive model released by a Chinese AI lab to date. This is a significant increase on their earlier models such as Kimi K2.6 at $0.95/$4. 2.8 trillion parameters is also more than twice the size of that 1T model. But how does it pelican? I used OpenRouter (to avoid signing up for a Moonshot API key) with the llm-openrouter plugin to generate an SVG of a pelican riding a bicycle: llm -m openrouter/moonshotai/kimi-k3 'Generate an SVG of a pelican riding a bicycle' Here's the transcript. It looks like this: That pelican took 95 input tokens and 16,658 output tokens (13,241 were reasoning tokens), for a total cost of 25 cents! Since K3 accepts image input",
+          "published": "2026-07-16T20:19:30+00:00",
+          "published_dt": "2026-07-16T20:19:30+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "DeepSeek",
+              "Moonshot AI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "benchmark"
+            ]
+          },
+          "summary_en": "Kimi K3, and what we can still learn from the pelican benchmark (Simon Willison) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Simon Willison 报道：Kimi K3, and what we can still learn from the pelican benchmark，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3143111",
+          "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
+          "published": "2026-07-16T15:02:00+00:00",
+          "published_dt": "2026-07-16T15:02:00+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "DeepMind"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$300M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product (TechCrunch AI) highlights a notable AI development with score 10.0.",
+          "summary_zh": "TechCrunch AI 报道：How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93822",
+          "title": "The Billion-Dollar Seed Isn’t The Deal You Think It Is",
+          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "By ‍Ellie McDonald Everywhere you look, venture headlines imply that seed rounds have meaningfully changed shape. Yann LeCun raised $1 billion for a company that didn’t exist a week earlier. Project Prometheus launched with $6.2 billion out the gate. Unconventional AI hit $475 million two months after founding. It’s easy to read those headlines and conclude the venture model has been rewritten, that AI is a once-in-a-generation opportunity requiring once-in-a-generation capital. We disagree. And so does the data. The biotech parallel Ellie McDonald At Bison Ventures, we’ve built deep domain expertise in biotech, the sector with the longest history of mega first rounds in venture. Biotech mega-seeds are common because the science requires it, you can’t run a Phase 1 trial on $3 million, but the return profile is often humbling. Large first rounds in biotech have produced a handful of strong outcomes for first-check investors … and a very long tail of modest ones. Our experience with this trend in biotech motivated us to compile a dataset and pressure-test our intuition more broadly. We pulled every publicly available $100 million-plus first round we could find over the last 15 years (roughly 200 deals) and found that only 20% had recorded exits. Of those, only a few delivered what we’d call a venture-like return: 10x MOIC or better for the first-round investor. In other words, approximately 1% of companies that publicly raised $100 million or more in their first financing round generated returns that justify the asset class. Capital intensity, as it turns out, actually worked against venture outcomes. That distribution will improve with a few well-placed AI outcomes this year. OpenAI and Anthropic alone will essentially double the number of outlier returns in this data set when they exit. But even there, the return math is nuanced for first round investors. According to reports, first-round investors are looking at 30-40x returns at OpenAI’s projected IPO valuations.",
+          "published": "2026-07-16T11:00:41+00:00",
+          "published_dt": "2026-07-16T11:00:41+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$1 billion",
+              "$6.2 billion",
+              "$475 million",
+              "$3 million",
+              "$100 million",
+              "raised $1 billion",
+              "raised $100 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "The Billion-Dollar Seed Isn’t The Deal You Think It Is (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：The Billion-Dollar Seed Isn’t The Deal You Think It Is，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93829",
+          "title": "China And AI Lead Asia’s Startup Funding To Multiyear Peak In Q2",
+          "url": "https://news.crunchbase.com/venture/data-china-ai-lead-asia-startup-funding-peak-q2-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Investment into Asia-based startups soared in the second quarter, boosted by a sharp rise in funding to China-based companies and AI startups. Overall, investors poured $42.8 billion into startup funding rounds across all of Asia in Q2 2026, per Crunchbase data. That’s by far the highest quarterly total in more than three years, as charted below. Investment rose sharply at both seed and early stage, driven by megarounds for foundational AI startups. Capital was highly concentrated among a few favored names, with deal counts actually hitting a multiyear low in Q2, even as investment skyrocketed. Table of contents AI leads the surge China leads, followed by India and Singapore Late stage gets a boost Early stage was on fire too Seed holds strong An up quarter Methodology Glossary of funding terms AI leads the surge Artificial intelligence-focused startups scooped up more than 60% of all venture funding to Asia-based startups in Q2. Altogether, those companies pulled in just over $26 billion, by far the highest sum on record. A handful of companies accounted for a big chunk of the total. Of those, China-based large language model developer DeepSeek was the fundraising leader by a wide margin, raising $7.4 billion at a reported $50 billion valuation in June. Two other companies tied for second, each raising $2.5 billion. One, foundational AI startup StepFun, is based in China. The other, AI data center developer DayOne, is headquartered in Singapore. China leads, followed by India and Singapore Alongside the AI surge, the other standout investment trend for Q2 was the sharp rise in funding to China-based startups. Overall, Chinese companies pulled in just over $30 billion in venture funding across stages during the quarter. Investment was up a staggering 424% over year-ago levels and rose 76% from the prior quarter. The next-largest funding destinations were Singapore, which attracted about $3.6 billion, and India, with $3.3 billion. Below, we charted the funding share ",
+          "published": "2026-07-16T11:00:00+00:00",
+          "published_dt": "2026-07-16T11:00:00+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$42.8 billion",
+              "$26 billion",
+              "$7.4 billion",
+              "$50 billion",
+              "$2.5 billion",
+              "$30 billion",
+              "$3.6 billion",
+              "$3.3 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "China And AI Lead Asia’s Startup Funding To Multiyear Peak In Q2 (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：China And AI Lead Asia’s Startup Funding To Multiyear Peak In Q2，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+          "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+          "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Energy companies are raising money at IPO at their fastest pace this century, taking advantage of investors’ hunt for new ways to bet on the boom in power-intensive AI data centers. Initial public offerings for energy firms raised $12.6 billion in the first half of this year, according to data firm Dealogic. That marks the highest half-year level since the peak of the dotcom bubble in late 1999 and the highest first-half figure on record. It is well above 2025’s full-year total of $4.3 billion. The surge in fundraising comes as access to the vast amounts of energy needed to run data centers emerges as a bottleneck in a multi-trillion-dollar AI investment boom.Read full article Comments",
+          "published": "2026-07-16T15:48:21+00:00",
+          "published_dt": "2026-07-16T15:48:21+00:00",
+          "score": 8.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$12.6 billion",
+              "$4.3 billion",
+              "raised $12.6 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Energy IPOs surge as investors hunt for ways to play AI boom (Ars Technica) highlights a notable AI development with score 8.7.",
+          "summary_zh": "Ars Technica 报道：Energy IPOs surge as investors hunt for ways to play AI boom，综合评分 8.7，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "3RCeHS5ENXpygHO6HPhX6f",
+          "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+          "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+          "source": "VentureBeat AI",
+          "source_type": "rss",
+          "content": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized compute almost none of them use today; a majority intend to switch or add providers within the year, many within a quarter. Buying decisions turn on integration and total cost of ownership rather than headline token price — which is fortunate, because most enterprises cannot yet see their unit economics clearly: GPUs sit at half utilization or less, and fewer than half rigorously track what their compute actually costs. The result is a compute gap — heavy, fast-moving investment running ahead of the visibility needed to control it.This wave of VentureBeat Pulse Research examines enterprise AI infrastructure and compute: where organizations are in their deployment journey, what they run AI on today, how satisfied they are, what would make them switch, where they plan to evaluate their investments, and — most revealingly — how well they can measure and control the economics of the compute underneath it all.The central finding is a compute gap — the distance between how aggressively enterprises are investing in AI infrastructure and how little of its economics they can see. Only about one in five (21%) run AI in production at scale, yet spending intentions are outrunning that maturity: the single largest planned area enterprises plan to evaluate over the next year is AI-specialized clouds (45%), a layer almost none of these enterprises use today. Meanwhile the compute already in place runs cold — 83% report GPU utilization of 50% or less — and fewer than half (44%) can rigorously track what their AI compute costs. Enterprises are buying more infrastructure faster than they can account for what they already own.Enterprises are not settled on their infrastructure vendors, either: A clear majority (64%) plan to switc",
+          "published": "2026-07-16T19:16:48+00:00",
+          "published_dt": "2026-07-16T19:16:48+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs (VentureBeat AI) highlights a notable AI development with score 8.5.",
+          "summary_zh": "VentureBeat AI 报道：The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142836",
+          "title": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+          "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.",
+          "published": "2026-07-16T04:00:00+00:00",
+          "published_dt": "2026-07-16T04:00:00+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$20M",
+              "Series A"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Applied Computing wants to give oil and gas operators an AI model for the entire plant (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：Applied Computing wants to give oil and gas operators an AI model for the entire plant，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
+          "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
+          "url": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "The Indian government has fined HP India and its partners a total of 1.4 billion rupees (about $14.4 million) for working with reseller partners in the “cartelization” of computers, ink cartridges, and toner. The Competition Commission of India (CCI) said this week that it found HP India had colluded with some channel partners to drive up the cost of bids for government contracts for computers, as well as for selling ink cartridges, toner, and other printing supplies, including graphic and digital manufacturing supplies. It said that HP was aiming to outcompete other OEMs and discourage resellers from selling “counterfeit” ink and toner.Read full article Comments",
+          "published": "2026-07-16T22:02:31+00:00",
+          "published_dt": "2026-07-16T22:02:31+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$14.4 million"
+            ],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs (Ars Technica) highlights a notable AI development with score 7.9.",
+          "summary_zh": "Ars Technica 报道：HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6G1thpG74idpHRWrKUSYQ9",
+          "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
+          "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+          "source": "VentureBeat AI",
+          "source_type": "rss",
+          "content": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and then failed a customer in production; only one in twenty fully trusts automated evaluation today; and the most-cited weakness is that evaluations do not align with real-world outcomes. Yet two-thirds already allow, or are actively engineering toward, deploying agent changes to production on automated evaluation alone — with no human in the loop. The result is an evaluation gap — the distance between how much autonomy enterprises are handing their agents and how far they trust the tests that are supposed to catch the failures.This wave of VentureBeat Pulse Research examines how technical leaders measure agent performance: which reliability and evaluation platforms they use, how they select and trust them, what breaks in production, and how far they are willing to let agents run without a human in the loop.The central finding is an evaluation gap — the distance between the autonomy enterprises are granting their agents and the trust they place in the evaluations meant to govern it. Half of organizations (50%) have, in the past year, deployed an agent or LLM feature that passed their internal evaluations and then caused a customer-facing failure, and a quarter have seen it happen more than once. Trust in the tests themselves is thin: only 5% say they fully trust automated evaluation today, and the single most-cited limitation is that evaluations align poorly with real-world outcomes (29%). Enterprises are discovering that a passing eval is not the same as a working agent.What makes the gap consequential is the direction of travel. Two-thirds of organizations (66%) already permit fully automated, zero-human-in-the-loop deployment for low-risk agents (34%) or are actively engineering their pipelines to allow it within twelve months (33%). At the same time, ",
+          "published": "2026-07-16T16:40:48+00:00",
+          "published_dt": "2026-07-16T16:40:48+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "RAG",
+              "agent",
+              "alignment"
+            ]
+          },
+          "summary_en": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway (VentureBeat AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "VentureBeat AI 报道：The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
+          "title": "🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences",
+          "url": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Imagine a dark warehouse. Racks and racks of devices with wires, tubes, and electronics sticking out. The next AI data center? No. This is Lila Sciences‘ dream for the future of science. A dark warehouse full of AI-guided robotics and lab equipment, cranking out new experiments 24/7, building toward a scientific superintelligence.Their automated lab is almost hypnotizing to watch. They have floating plates zipping around on Wall-E-esque tracks, used vision-language models to control Windows 95 boxes, and created the world’s largest collection of voided warranties. In the process they’ve built a massive library of scientific reasoning tokens. Over 10 trillion of them, all experimentally validated.No warranties were voided in the making of this videoTo say Lila is ambitious is an understatement. Their goal is a scientific superintelligence wired directly into the wet lab. They are all in on the bitter lesson, and the thesis follows from it: a lab is an infinite token generator. Produce data at scale, and the synergies give you a general reasoner that can tackle any scientific problem. They are committing hard. Biology, chemistry, drug discovery, and materials science, all at the same time. Time will tell if it works, but it is an exciting hypothesis.In our latest episode we sat down with Lila’s very own Andy Beam (CTO) and Rafa Gómez-Bombarelli (CSO, physical sciences) and went on a journey through the possibilities of AI-run science, almost as wide-ranging as Lila’s goals.Did we mention they do both materials science and biology? In the same AI science factory? Same time, same lab, same AI. Finally a guest who can settle a long-running debate we’ve had amongst ourselves: is biology or materials science harder?Watch to find out!We discuss:The internet is spent, science is next. Why Lila thinks the scientific method is the last untapped internet-scale dataset, and why they treat RL as a data generation mechanism with nature as the verifier.The lab as a data center. Ins",
+          "published": "2026-07-16T13:30:44+00:00",
+          "published_dt": "2026-07-16T13:30:44+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences (Latent Space) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Latent Space 报道：🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3142774",
+          "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+          "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+          "published": "2026-07-16T13:17:59+00:00",
+          "published_dt": "2026-07-16T13:17:59+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Alibaba",
+              "Baidu"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple Intelligence approved for launch in China with Alibaba and Baidu (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Apple Intelligence approved for launch in China with Alibaba and Baidu，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3143441",
+          "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
+          "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
+          "published": "2026-07-16T18:22:06+00:00",
+          "published_dt": "2026-07-16T18:22:06+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Roblox launches an AI-powered game-creation feature in its mobile app (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Roblox launches an AI-powered game-creation feature in its mobile app，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=966442",
+          "title": "Claude can now use your 1Password credentials for you",
+          "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for Claude feature means that users can authorize Claude to complete multi-step tasks like booking travel and managing online accounts on their behalf without having to manually input their login credentials, but without actually exposing security information to Anthropic's AI models, according to 1Password. That's made possible by a new \"zero-exposure security framework\" developed by 1Password, which works by injecting the required credentials for each task through a … Read the full story at The Verge.",
+          "published": "2026-07-16T13:00:00+00:00",
+          "published_dt": "2026-07-16T13:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Claude can now use your 1Password credentials for you (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Claude can now use your 1Password credentials for you，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3142431",
+          "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+          "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
+          "published": "2026-07-16T14:40:00+00:00",
+          "published_dt": "2026-07-16T14:40:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’ (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 7,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+          "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+          "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Z.ai GLM has been getting a bit too much love recently, so it’s time for Kimi K3 to fight back! It’s hard to put the scale of today’s open model release in perspective, so thankfully Moonshot AI did it for us:Their vibe reel was entirely edited by Kimi K3 and worth a watch:You can read SimonW and Arena for standard takes and rankings, none of which will be particularly unexpected given the large size of the model, but this pic best summarizes the K2.5 to K3 jump:AI News for 7/15/2026-7/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapMoonshot AI launched Kimi K3 as a frontier-class open-weights model, with official claims that place it near top closed models and above prior open competitors.Moonshot officially introduced Kimi K3 as “Open Frontier Intelligence” with 2.8T total parameters, 1M-token context, native multimodal input, Kimi Delta Attention (KDA), and Attention Residuals, and said the model is live on Kimi.com, Kimi Work, Kimi Code, and API, with open weights promised by July 27, 2026 @Kimi_MoonshotMoonshot also highlighted product positioning around long-horizon agentic coding and self-evolving workflows, plus “vision in the loop” coding/game-building workflows that iterate between code and screenshots @Kimi_MoonshotBefore the formal announcement, multiple accounts circulated leaked or app-sourced details that K3 was 2.8T params, calling it the largest open-weight model ever if weights ship as promised @scaling01, @scaling01, @eliebakouchThe official Kimi blog went live later and was widely shared as the primary technical source @Jianlin_S, @scaling01, @Yulun_DuMoonshot’s own phrasing acknowledged a limitation: despite being highly competitive overall, K3 still has a “noticeable gap in user experience” versus Claude Fable 5 and GPT-5.6 Sol @scaling01Arena announced that Kim",
+          "published": "2026-07-17T01:46:36+00:00",
+          "published_dt": "2026-07-17T01:46:36+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Moonshot AI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "multimodal"
+            ]
+          },
+          "summary_en": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+          "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+          "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Thinky only seems to come up for air once every few months; most recently with Interaction models - but each time they do they impress, showing both taste and depth. Today they introduced Inkling — not a SOTA model, but a very solid new family for a baseline American open model:Our model, called Inkling, is a Mixture-of-Experts transformer with 975B total parameters, 41B active. It supports a context window of up to 1M tokens. It was pretrained on 45 trillion tokens of text, images, audio and video. It is the first in a family of models of different sizes: alongside it we are sharing a preview of Inkling-Small, a lighter-weight model with 12B active parameters, trained with a similar recipe, that achieves strong performance with even lower cost and latency.Inkling reasons natively over text, images, and audio, and balances cost with performance through efficient and controllable thinking effortThe Huggingface breakdown covers some interesting technical highlights:AI News for 7/14/2026-7/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapWhat happenedThinking Machines Lab launched Inkling, its first fully released open-weights foundation model family entry, positioning it as a customizable multimodal base model rather than a benchmark-maxed flagship.Thinking Machines announced Inkling as an open-weights model that “reasons efficiently across text, image, and audio modalities,” with full weights available and immediate support on its Tinker platform and Playground @thinkymachines.Mira Murati described Inkling as the company’s “first model,” “trained from scratch,” with open weights and same-day fine-tuning on Tinker @miramurati.Soumith Chintala framed it as Thinking Machines’ “first general model,” stressing open weights, 975B parameters, native multimodality, and availability on Tinker, ",
+          "published": "2026-07-16T06:18:05+00:00",
+          "published_dt": "2026-07-16T06:18:05+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "fine-tuning",
+              "transformer",
+              "multimodal",
+              "SOTA",
+              "benchmark"
+            ]
+          },
+          "summary_en": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B) (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+          "title": "Why teens deserve access to safe AI",
+          "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+          "published": "2026-07-16T16:00:00+00:00",
+          "published_dt": "2026-07-16T16:00:00+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Why teens deserve access to safe AI (OpenAI Blog) highlights a notable AI development with score 7.3.",
+          "summary_zh": "OpenAI Blog 报道：Why teens deserve access to safe AI，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3143273",
+          "title": "Yes, you can now order DoorDash from the command line",
+          "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
+          "published": "2026-07-16T15:38:55+00:00",
+          "published_dt": "2026-07-16T15:38:55+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Yes, you can now order DoorDash from the command line (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Yes, you can now order DoorDash from the command line，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3143216",
+          "title": "Why is OpenAI selling a ChatGPT basketball?",
+          "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
+          "published": "2026-07-16T15:31:09+00:00",
+          "published_dt": "2026-07-16T15:31:09+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Why is OpenAI selling a ChatGPT basketball? (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Why is OpenAI selling a ChatGPT basketball?，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3143234",
+          "title": "Google’s AI Mode now lets you link and interact with select apps",
+          "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
+          "published": "2026-07-16T16:00:00+00:00",
+          "published_dt": "2026-07-16T16:00:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google’s AI Mode now lets you link and interact with select apps (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Google’s AI Mode now lets you link and interact with select apps，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=966112",
+          "title": "Google is renaming NotebookLM to Gemini Notebook",
+          "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind - in May 2023 before widely releasing the app just months later. Over the past few years, Google has been adding new features to the app to help organize and make sense of your notes, such as the ability to summarize them as AI podcasts, narrated slideshows, and TikTok-style clips. It recently started letting users connect their notebooks to the … Read the full story at The Verge.",
+          "published": "2026-07-16T16:00:00+00:00",
+          "published_dt": "2026-07-16T16:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google is renaming NotebookLM to Gemini Notebook (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Google is renaming NotebookLM to Gemini Notebook，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 7,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=966647",
+          "title": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg's Odd Lots podcast, Hochul said that her team is using \"AI to analyze every single rule, regulation, [and] policy\" to check for outdated legislation. Some of the antiquated laws mentioned by Hochul in the interview include a $25 fee required to take a dog hunting, or a stipulation that pregnant people need a permit to work after midnight. Hochul added that it \"probably would have taken five years at the staff level\" to review all of the laws in the stat … Read the full story at The Verge.",
+          "published": "2026-07-16T17:58:37+00:00",
+          "published_dt": "2026-07-16T17:58:37+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+          "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-07-16T16:01:21+00:00",
+          "published_dt": "2026-07-16T16:01:21+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+          "title": "Newer Models, Same Advantage",
+          "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-07-16T11:49:48+00:00",
+          "published_dt": "2026-07-16T11:49:48+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Newer Models, Same Advantage (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Newer Models, Same Advantage，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3143447",
+          "title": "Google Vids now lets you star in your own AI videos",
+          "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
+          "published": "2026-07-16T18:32:54+00:00",
+          "published_dt": "2026-07-16T18:32:54+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google Vids now lets you star in your own AI videos (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google Vids now lets you star in your own AI videos，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48936451",
+          "title": "NotebookLM is now Gemini Notebook",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-16T16:08:13+00:00",
+          "published_dt": "2026-07-16T16:08:13+00:00",
+          "hn_score": 246,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "NotebookLM is now Gemini Notebook (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：NotebookLM is now Gemini Notebook，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3143233",
+          "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+          "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
+          "published": "2026-07-16T14:26:29+00:00",
+          "published_dt": "2026-07-16T14:26:29+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8 (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48931588",
+          "title": "At least 105 past YC founders have worked at OpenAI and Anthropic",
+          "url": "https://joinedanthropic.com",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-16T08:03:35+00:00",
+          "published_dt": "2026-07-16T08:03:35+00:00",
+          "hn_score": 294,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "At least 105 past YC founders have worked at OpenAI and Anthropic (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：At least 105 past YC founders have worked at OpenAI and Anthropic，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-17T02:19:39.006817+00:00",
+          "published_dt": "2026-07-17T02:19:39.006817+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-17T02:19:39.006817+00:00",
+          "published_dt": "2026-07-17T02:19:39.006817+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+      "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+      "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Z.ai GLM has been getting a bit too much love recently, so it’s time for Kimi K3 to fight back! It’s hard to put the scale of today’s open model release in perspective, so thankfully Moonshot AI did it for us:Their vibe reel was entirely edited by Kimi K3 and worth a watch:You can read SimonW and Arena for standard takes and rankings, none of which will be particularly unexpected given the large size of the model, but this pic best summarizes the K2.5 to K3 jump:AI News for 7/15/2026-7/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapMoonshot AI launched Kimi K3 as a frontier-class open-weights model, with official claims that place it near top closed models and above prior open competitors.Moonshot officially introduced Kimi K3 as “Open Frontier Intelligence” with 2.8T total parameters, 1M-token context, native multimodal input, Kimi Delta Attention (KDA), and Attention Residuals, and said the model is live on Kimi.com, Kimi Work, Kimi Code, and API, with open weights promised by July 27, 2026 @Kimi_MoonshotMoonshot also highlighted product positioning around long-horizon agentic coding and self-evolving workflows, plus “vision in the loop” coding/game-building workflows that iterate between code and screenshots @Kimi_MoonshotBefore the formal announcement, multiple accounts circulated leaked or app-sourced details that K3 was 2.8T params, calling it the largest open-weight model ever if weights ship as promised @scaling01, @scaling01, @eliebakouchThe official Kimi blog went live later and was widely shared as the primary technical source @Jianlin_S, @scaling01, @Yulun_DuMoonshot’s own phrasing acknowledged a limitation: despite being highly competitive overall, K3 still has a “noticeable gap in user experience” versus Claude Fable 5 and GPT-5.6 Sol @scaling01Arena announced that Kim",
+      "published": "2026-07-17T01:46:36+00:00",
+      "published_dt": "2026-07-17T01:46:36+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "multimodal"
+        ]
+      },
+      "summary_en": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this the first \"open 3T-class model\" (I guess they're rounding 2.8 trillion up to 3 trillion), taking the crown from DeepSeek's 1.6T v4 Pro. Their self-reported benchmarks have K3 mostly beating Claude Opus 4.8 max and GPT-5.5 high, while losing out to Claude Fable 5 and GPT-5.6 Sol. A few highlights from the Artificial Analysis report on the model: \"On our private long-horizon knowledge work evaluation, Kimi K3 reaches an overall Elo of 1547, +732 points from Kimi K2.6 and behind only Claude Fable 5.\" \"Cost per task ($0.94) is similar to GPT-5.6 Sol ($1.04), ~1/2 the price of Opus 4.8 ($1.80) and higher than open weights peers\" \"Kimi K3’s token usage on the Artificial Analysis Intelligence Index decreased significantly, using 21% fewer output tokens than K2.6.\" The model is also now the leading model on Arena.ai's Frontend Code arena, surpassing even Claude Fable 5. The new model is notable for the pricing: $3/million input tokens and $15/million output tokens, putting it at the same level as Anthropic's Claude Sonnet series and making it the most expensive model released by a Chinese AI lab to date. This is a significant increase on their earlier models such as Kimi K2.6 at $0.95/$4. 2.8 trillion parameters is also more than twice the size of that 1T model. But how does it pelican? I used OpenRouter (to avoid signing up for a Moonshot API key) with the llm-openrouter plugin to generate an SVG of a pelican riding a bicycle: llm -m openrouter/moonshotai/kimi-k3 'Generate an SVG of a pelican riding a bicycle' Here's the transcript. It looks like this: That pelican took 95 input tokens and 16,658 output tokens (13,241 were reasoning tokens), for a total cost of 25 cents! Since K3 accepts image input",
+      "published": "2026-07-16T20:19:30+00:00",
+      "published_dt": "2026-07-16T20:19:30+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "DeepSeek",
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Kimi K3, and what we can still learn from the pelican benchmark (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Kimi K3, and what we can still learn from the pelican benchmark，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3143111",
+      "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
+      "published": "2026-07-16T15:02:00+00:00",
+      "published_dt": "2026-07-16T15:02:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$300M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93822",
+      "title": "The Billion-Dollar Seed Isn’t The Deal You Think It Is",
+      "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By ‍Ellie McDonald Everywhere you look, venture headlines imply that seed rounds have meaningfully changed shape. Yann LeCun raised $1 billion for a company that didn’t exist a week earlier. Project Prometheus launched with $6.2 billion out the gate. Unconventional AI hit $475 million two months after founding. It’s easy to read those headlines and conclude the venture model has been rewritten, that AI is a once-in-a-generation opportunity requiring once-in-a-generation capital. We disagree. And so does the data. The biotech parallel Ellie McDonald At Bison Ventures, we’ve built deep domain expertise in biotech, the sector with the longest history of mega first rounds in venture. Biotech mega-seeds are common because the science requires it, you can’t run a Phase 1 trial on $3 million, but the return profile is often humbling. Large first rounds in biotech have produced a handful of strong outcomes for first-check investors … and a very long tail of modest ones. Our experience with this trend in biotech motivated us to compile a dataset and pressure-test our intuition more broadly. We pulled every publicly available $100 million-plus first round we could find over the last 15 years (roughly 200 deals) and found that only 20% had recorded exits. Of those, only a few delivered what we’d call a venture-like return: 10x MOIC or better for the first-round investor. In other words, approximately 1% of companies that publicly raised $100 million or more in their first financing round generated returns that justify the asset class. Capital intensity, as it turns out, actually worked against venture outcomes. That distribution will improve with a few well-placed AI outcomes this year. OpenAI and Anthropic alone will essentially double the number of outlier returns in this data set when they exit. But even there, the return math is nuanced for first round investors. According to reports, first-round investors are looking at 30-40x returns at OpenAI’s projected IPO valuations.",
+      "published": "2026-07-16T11:00:41+00:00",
+      "published_dt": "2026-07-16T11:00:41+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$1 billion",
+          "$6.2 billion",
+          "$475 million",
+          "$3 million",
+          "$100 million",
+          "raised $1 billion",
+          "raised $100 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The Billion-Dollar Seed Isn’t The Deal You Think It Is (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Billion-Dollar Seed Isn’t The Deal You Think It Is，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93829",
+      "title": "China And AI Lead Asia’s Startup Funding To Multiyear Peak In Q2",
+      "url": "https://news.crunchbase.com/venture/data-china-ai-lead-asia-startup-funding-peak-q2-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Investment into Asia-based startups soared in the second quarter, boosted by a sharp rise in funding to China-based companies and AI startups. Overall, investors poured $42.8 billion into startup funding rounds across all of Asia in Q2 2026, per Crunchbase data. That’s by far the highest quarterly total in more than three years, as charted below. Investment rose sharply at both seed and early stage, driven by megarounds for foundational AI startups. Capital was highly concentrated among a few favored names, with deal counts actually hitting a multiyear low in Q2, even as investment skyrocketed. Table of contents AI leads the surge China leads, followed by India and Singapore Late stage gets a boost Early stage was on fire too Seed holds strong An up quarter Methodology Glossary of funding terms AI leads the surge Artificial intelligence-focused startups scooped up more than 60% of all venture funding to Asia-based startups in Q2. Altogether, those companies pulled in just over $26 billion, by far the highest sum on record. A handful of companies accounted for a big chunk of the total. Of those, China-based large language model developer DeepSeek was the fundraising leader by a wide margin, raising $7.4 billion at a reported $50 billion valuation in June. Two other companies tied for second, each raising $2.5 billion. One, foundational AI startup StepFun, is based in China. The other, AI data center developer DayOne, is headquartered in Singapore. China leads, followed by India and Singapore Alongside the AI surge, the other standout investment trend for Q2 was the sharp rise in funding to China-based startups. Overall, Chinese companies pulled in just over $30 billion in venture funding across stages during the quarter. Investment was up a staggering 424% over year-ago levels and rose 76% from the prior quarter. The next-largest funding destinations were Singapore, which attracted about $3.6 billion, and India, with $3.3 billion. Below, we charted the funding share ",
+      "published": "2026-07-16T11:00:00+00:00",
+      "published_dt": "2026-07-16T11:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$42.8 billion",
+          "$26 billion",
+          "$7.4 billion",
+          "$50 billion",
+          "$2.5 billion",
+          "$30 billion",
+          "$3.6 billion",
+          "$3.3 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "China And AI Lead Asia’s Startup Funding To Multiyear Peak In Q2 (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：China And AI Lead Asia’s Startup Funding To Multiyear Peak In Q2，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+      "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+      "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Thinky only seems to come up for air once every few months; most recently with Interaction models - but each time they do they impress, showing both taste and depth. Today they introduced Inkling — not a SOTA model, but a very solid new family for a baseline American open model:Our model, called Inkling, is a Mixture-of-Experts transformer with 975B total parameters, 41B active. It supports a context window of up to 1M tokens. It was pretrained on 45 trillion tokens of text, images, audio and video. It is the first in a family of models of different sizes: alongside it we are sharing a preview of Inkling-Small, a lighter-weight model with 12B active parameters, trained with a similar recipe, that achieves strong performance with even lower cost and latency.Inkling reasons natively over text, images, and audio, and balances cost with performance through efficient and controllable thinking effortThe Huggingface breakdown covers some interesting technical highlights:AI News for 7/14/2026-7/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapWhat happenedThinking Machines Lab launched Inkling, its first fully released open-weights foundation model family entry, positioning it as a customizable multimodal base model rather than a benchmark-maxed flagship.Thinking Machines announced Inkling as an open-weights model that “reasons efficiently across text, image, and audio modalities,” with full weights available and immediate support on its Tinker platform and Playground @thinkymachines.Mira Murati described Inkling as the company’s “first model,” “trained from scratch,” with open weights and same-day fine-tuning on Tinker @miramurati.Soumith Chintala framed it as Thinking Machines’ “first general model,” stressing open weights, 975B parameters, native multimodality, and availability on Tinker, ",
+      "published": "2026-07-16T06:18:05+00:00",
+      "published_dt": "2026-07-16T06:18:05+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "fine-tuning",
+          "transformer",
+          "multimodal",
+          "SOTA",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B) (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Energy companies are raising money at IPO at their fastest pace this century, taking advantage of investors’ hunt for new ways to bet on the boom in power-intensive AI data centers. Initial public offerings for energy firms raised $12.6 billion in the first half of this year, according to data firm Dealogic. That marks the highest half-year level since the peak of the dotcom bubble in late 1999 and the highest first-half figure on record. It is well above 2025’s full-year total of $4.3 billion. The surge in fundraising comes as access to the vast amounts of energy needed to run data centers emerges as a bottleneck in a multi-trillion-dollar AI investment boom.Read full article Comments",
+      "published": "2026-07-16T15:48:21+00:00",
+      "published_dt": "2026-07-16T15:48:21+00:00",
+      "score": 8.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$12.6 billion",
+          "$4.3 billion",
+          "raised $12.6 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Energy IPOs surge as investors hunt for ways to play AI boom (Ars Technica) highlights a notable AI development with score 8.7.",
+      "summary_zh": "Ars Technica 报道：Energy IPOs surge as investors hunt for ways to play AI boom，综合评分 8.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "3RCeHS5ENXpygHO6HPhX6f",
+      "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+      "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+      "source": "VentureBeat AI",
+      "source_type": "rss",
+      "content": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized compute almost none of them use today; a majority intend to switch or add providers within the year, many within a quarter. Buying decisions turn on integration and total cost of ownership rather than headline token price — which is fortunate, because most enterprises cannot yet see their unit economics clearly: GPUs sit at half utilization or less, and fewer than half rigorously track what their compute actually costs. The result is a compute gap — heavy, fast-moving investment running ahead of the visibility needed to control it.This wave of VentureBeat Pulse Research examines enterprise AI infrastructure and compute: where organizations are in their deployment journey, what they run AI on today, how satisfied they are, what would make them switch, where they plan to evaluate their investments, and — most revealingly — how well they can measure and control the economics of the compute underneath it all.The central finding is a compute gap — the distance between how aggressively enterprises are investing in AI infrastructure and how little of its economics they can see. Only about one in five (21%) run AI in production at scale, yet spending intentions are outrunning that maturity: the single largest planned area enterprises plan to evaluate over the next year is AI-specialized clouds (45%), a layer almost none of these enterprises use today. Meanwhile the compute already in place runs cold — 83% report GPU utilization of 50% or less — and fewer than half (44%) can rigorously track what their AI compute costs. Enterprises are buying more infrastructure faster than they can account for what they already own.Enterprises are not settled on their infrastructure vendors, either: A clear majority (64%) plan to switc",
+      "published": "2026-07-16T19:16:48+00:00",
+      "published_dt": "2026-07-16T19:16:48+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs (VentureBeat AI) highlights a notable AI development with score 8.5.",
+      "summary_zh": "VentureBeat AI 报道：The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+      "title": "Inkling: Our open-weights model",
+      "url": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Inkling: Our open-weights model Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is \"a Mixture-of-Experts transformer with 975B total parameters, 41B active\" - an Apache-2.0 licensed multimodal model trained on 45 trillion tokens of text, images, audio and video. They're also promising Inkling-Small, a 276B (12B active) model, but that's still being tested and the weights will be released \"once that work is complete\". The model card is much shorter than I've come to expect from US AI labs. It links to even shorter Training Data Documentation with almost nothing of interest in it - it's best summarized by these two paragraphs: The datasets Thinking Machines Lab uses to develop its AI services includes content that is in the public domain as well as content that may be subject to intellectual property protection. Thinking Machines Lab’s services were developed using publicly available content obtained from the open internet and publicly accessible data repositories. Certain datasets were also obtained from third parties. By Thinking Machines' own admission, this is not a frontier model. It's instead intended as a strong base model for fine-tuning using their own Tinker training platform: Inkling is not the strongest overall model available today, open or closed. Instead, a combination of qualities makes it a good open-weights base for customization: multimodal capabilities, efficient thinking, and availability on Tinker for fine-tuning. There's a lot to like about this release. It's Apache-2.0 licensed, and looks competitive with the open weight models coming out of China - it's good to see the US open weights ecosystem gain a new viable contender to join NVIDIA Nemotron and Gemma 4. Here's its attempt at an SVG pelican riding a bicycle, which I generated using this curl command against the Thinking Machines API: curl \"https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1/chat/completions\" \\ -H \"Authorization: Bea",
+      "published": "2026-07-16T15:35:25+00:00",
+      "published_dt": "2026-07-16T15:35:25+00:00",
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "fine-tuning",
+          "transformer",
+          "multimodal"
+        ]
+      },
+      "summary_en": "Inkling: Our open-weights model (Simon Willison) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Simon Willison 报道：Inkling: Our open-weights model，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142836",
+      "title": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+      "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.",
+      "published": "2026-07-16T04:00:00+00:00",
+      "published_dt": "2026-07-16T04:00:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$20M",
+          "Series A"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Applied Computing wants to give oil and gas operators an AI model for the entire plant (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Applied Computing wants to give oil and gas operators an AI model for the entire plant，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
+      "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
+      "url": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "The Indian government has fined HP India and its partners a total of 1.4 billion rupees (about $14.4 million) for working with reseller partners in the “cartelization” of computers, ink cartridges, and toner. The Competition Commission of India (CCI) said this week that it found HP India had colluded with some channel partners to drive up the cost of bids for government contracts for computers, as well as for selling ink cartridges, toner, and other printing supplies, including graphic and digital manufacturing supplies. It said that HP was aiming to outcompete other OEMs and discourage resellers from selling “counterfeit” ink and toner.Read full article Comments",
+      "published": "2026-07-16T22:02:31+00:00",
+      "published_dt": "2026-07-16T22:02:31+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$14.4 million"
+        ],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs (Ars Technica) highlights a notable AI development with score 7.9.",
+      "summary_zh": "Ars Technica 报道：HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6G1thpG74idpHRWrKUSYQ9",
+      "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
+      "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+      "source": "VentureBeat AI",
+      "source_type": "rss",
+      "content": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and then failed a customer in production; only one in twenty fully trusts automated evaluation today; and the most-cited weakness is that evaluations do not align with real-world outcomes. Yet two-thirds already allow, or are actively engineering toward, deploying agent changes to production on automated evaluation alone — with no human in the loop. The result is an evaluation gap — the distance between how much autonomy enterprises are handing their agents and how far they trust the tests that are supposed to catch the failures.This wave of VentureBeat Pulse Research examines how technical leaders measure agent performance: which reliability and evaluation platforms they use, how they select and trust them, what breaks in production, and how far they are willing to let agents run without a human in the loop.The central finding is an evaluation gap — the distance between the autonomy enterprises are granting their agents and the trust they place in the evaluations meant to govern it. Half of organizations (50%) have, in the past year, deployed an agent or LLM feature that passed their internal evaluations and then caused a customer-facing failure, and a quarter have seen it happen more than once. Trust in the tests themselves is thin: only 5% say they fully trust automated evaluation today, and the single most-cited limitation is that evaluations align poorly with real-world outcomes (29%). Enterprises are discovering that a passing eval is not the same as a working agent.What makes the gap consequential is the direction of travel. Two-thirds of organizations (66%) already permit fully automated, zero-human-in-the-loop deployment for low-risk agents (34%) or are actively engineering their pipelines to allow it within twelve months (33%). At the same time, ",
+      "published": "2026-07-16T16:40:48+00:00",
+      "published_dt": "2026-07-16T16:40:48+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG",
+          "agent",
+          "alignment"
+        ]
+      },
+      "summary_en": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway (VentureBeat AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "VentureBeat AI 报道：The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "title": "Why teens deserve access to safe AI",
+      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "published": "2026-07-16T16:00:00+00:00",
+      "published_dt": "2026-07-16T16:00:00+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Why teens deserve access to safe AI (OpenAI Blog) highlights a notable AI development with score 7.3.",
+      "summary_zh": "OpenAI Blog 报道：Why teens deserve access to safe AI，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "2Jg9kvtAsPN9IxCbC6KaEt",
+      "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+      "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+      "source": "VentureBeat AI",
+      "source_type": "rss",
+      "content": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-native retrieval has quietly overtaken the dedicated vector databases that define the category — yet a majority of enterprises have already watched their agents produce confident, wrong answers traced to missing or inconsistent context. A governed semantic layer is emerging as the fix, but most are still building it; the field is converging on hybrid retrieval; and even as provider-native tools lead in practice, a plurality say they intend to keep best-of-breed. The result is a context gap — agents that sound authoritative running on a foundation their owners do not yet fully trust.This wave of VentureBeat Pulse Research examines the enterprise RAG and context layer: what feeds AI agents their business context, which retrieval systems enterprises run, how they buy and measure them, where the architecture is heading, and — most revealingly — how often that context is already failing them.The central finding is a context gap — the distance between how confidently enterprise agents answer and how reliable the context beneath them actually is. A majority of enterprises (57%) report that in the past six months their AI agents produced confident but wrong answers they traced to missing or inconsistent business context, and more than half of those said it happened more than once. This is not a fringe failure: retrieval is the primary context source for 38% of enterprises, more than any other approach, so when retrieval is thin or inconsistent, the errors it produces are wearing the agent’s authority. The infrastructure to fix it is being built — 58% already run or are building a governed semantic layer — but for most it is not yet in production.Underneath, the market is consolidating in a direction that surprises. Provider-native retrieval — OpenAI’s file searc",
+      "published": "2026-07-16T17:06:08+00:00",
+      "published_dt": "2026-07-16T17:06:08+00:00",
+      "score": 7.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent",
+          "vector database"
+        ]
+      },
+      "summary_en": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix (VentureBeat AI) highlights a notable AI development with score 7.2.",
+      "summary_zh": "VentureBeat AI 报道：The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix，综合评分 7.2，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142774",
+      "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+      "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+      "published": "2026-07-16T13:17:59+00:00",
+      "published_dt": "2026-07-16T13:17:59+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Alibaba",
+          "Baidu"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple Intelligence approved for launch in China with Alibaba and Baidu (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Apple Intelligence approved for launch in China with Alibaba and Baidu，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-17T02:19:39.006817+00:00",
+      "published_dt": "2026-07-17T02:19:39.006817+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-17T02:19:39.006817+00:00",
+      "published_dt": "2026-07-17T02:19:39.006817+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "guLr7ih5ILpsMnOOTAHLN",
+      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+      "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "source": "VentureBeat AI",
+      "source_type": "rss",
+      "content": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; only about a third give every agent its own scoped identity, and most agents still share credentials; and only three in ten isolate their highest-risk agents. The security stack is overwhelmingly borrowed from the model providers and hyperscalers rather than purpose-built for agents, spending remains a thin slice of the security budget, and enterprises are evenly split on whether their defenses are keeping pace with AI-enabled attackers. The result is an agent security gap — autonomous agents proliferating faster than the identity, isolation, and enforcement controls needed to hold them.This wave of VentureBeat Pulse Research examines how enterprises secure their AI agents: what tooling they run, how they manage agent identity and isolation, what has already gone wrong, how much they spend, and whether they believe their defenses are keeping pace with AI-enabled attackers.The central finding is an agent security gap — the distance between the autonomy enterprises are granting their agents and the controls in place to contain them. More than half of organizations (54%) have already experienced a confirmed agent security incident (18%) or a near-miss caught before harm (36%). The structural weakness beneath those numbers is identity: only about a third (32%) give every agent its own scoped, managed identity, while the rest report that some agents share credentials or that agents mostly run on shared API keys and human or service-account credentials. When agents share credentials, a single compromised or over-permissioned agent carries a wide blast radius — and only three in ten enterprises (30%) isolate their highest-risk agents in sandboxes to bound that radius.What makes the gap notable is how comfortable enterprises are inside it. The security stack ",
+      "published": "2026-07-16T19:02:38+00:00",
+      "published_dt": "2026-07-16T19:02:38+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials (VentureBeat AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "VentureBeat AI 报道：The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3143441",
+      "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
+      "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
+      "published": "2026-07-16T18:22:06+00:00",
+      "published_dt": "2026-07-16T18:22:06+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Roblox launches an AI-powered game-creation feature in its mobile app (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Roblox launches an AI-powered game-creation feature in its mobile app，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3143273",
+      "title": "Yes, you can now order DoorDash from the command line",
+      "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
+      "published": "2026-07-16T15:38:55+00:00",
+      "published_dt": "2026-07-16T15:38:55+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Yes, you can now order DoorDash from the command line (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Yes, you can now order DoorDash from the command line，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3143216",
+      "title": "Why is OpenAI selling a ChatGPT basketball?",
+      "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
+      "published": "2026-07-16T15:31:09+00:00",
+      "published_dt": "2026-07-16T15:31:09+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Why is OpenAI selling a ChatGPT basketball? (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Why is OpenAI selling a ChatGPT basketball?，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48937756",
+      "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks",
+      "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-16T17:44:46+00:00",
+      "published_dt": "2026-07-16T17:44:46+00:00",
+      "hn_score": 125,
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "benchmark"
+        ]
+      },
+      "summary_en": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks (Hacker News) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Hacker News 报道：German AI consortium releases Soofi S, an open 30B model that tops benchmarks，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=966442",
+      "title": "Claude can now use your 1Password credentials for you",
+      "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for Claude feature means that users can authorize Claude to complete multi-step tasks like booking travel and managing online accounts on their behalf without having to manually input their login credentials, but without actually exposing security information to Anthropic's AI models, according to 1Password. That's made possible by a new \"zero-exposure security framework\" developed by 1Password, which works by injecting the required credentials for each task through a … Read the full story at The Verge.",
+      "published": "2026-07-16T13:00:00+00:00",
+      "published_dt": "2026-07-16T13:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Claude can now use your 1Password credentials for you (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Claude can now use your 1Password credentials for you，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3143234",
+      "title": "Google’s AI Mode now lets you link and interact with select apps",
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
+      "published": "2026-07-16T16:00:00+00:00",
+      "published_dt": "2026-07-16T16:00:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google’s AI Mode now lets you link and interact with select apps (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Google’s AI Mode now lets you link and interact with select apps，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3142431",
+      "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+      "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
+      "published": "2026-07-16T14:40:00+00:00",
+      "published_dt": "2026-07-16T14:40:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’ (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=966647",
+      "title": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg's Odd Lots podcast, Hochul said that her team is using \"AI to analyze every single rule, regulation, [and] policy\" to check for outdated legislation. Some of the antiquated laws mentioned by Hochul in the interview include a $25 fee required to take a dog hunting, or a stipulation that pregnant people need a permit to work after midnight. Hochul added that it \"probably would have taken five years at the staff level\" to review all of the laws in the stat … Read the full story at The Verge.",
+      "published": "2026-07-16T17:58:37+00:00",
+      "published_dt": "2026-07-16T17:58:37+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
+      "title": "🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences",
+      "url": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Imagine a dark warehouse. Racks and racks of devices with wires, tubes, and electronics sticking out. The next AI data center? No. This is Lila Sciences‘ dream for the future of science. A dark warehouse full of AI-guided robotics and lab equipment, cranking out new experiments 24/7, building toward a scientific superintelligence.Their automated lab is almost hypnotizing to watch. They have floating plates zipping around on Wall-E-esque tracks, used vision-language models to control Windows 95 boxes, and created the world’s largest collection of voided warranties. In the process they’ve built a massive library of scientific reasoning tokens. Over 10 trillion of them, all experimentally validated.No warranties were voided in the making of this videoTo say Lila is ambitious is an understatement. Their goal is a scientific superintelligence wired directly into the wet lab. They are all in on the bitter lesson, and the thesis follows from it: a lab is an infinite token generator. Produce data at scale, and the synergies give you a general reasoner that can tackle any scientific problem. They are committing hard. Biology, chemistry, drug discovery, and materials science, all at the same time. Time will tell if it works, but it is an exciting hypothesis.In our latest episode we sat down with Lila’s very own Andy Beam (CTO) and Rafa Gómez-Bombarelli (CSO, physical sciences) and went on a journey through the possibilities of AI-run science, almost as wide-ranging as Lila’s goals.Did we mention they do both materials science and biology? In the same AI science factory? Same time, same lab, same AI. Finally a guest who can settle a long-running debate we’ve had amongst ourselves: is biology or materials science harder?Watch to find out!We discuss:The internet is spent, science is next. Why Lila thinks the scientific method is the last untapped internet-scale dataset, and why they treat RL as a data generation mechanism with nature as the verifier.The lab as a data center. Ins",
+      "published": "2026-07-16T13:30:44+00:00",
+      "published_dt": "2026-07-16T13:30:44+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences (Latent Space) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Latent Space 报道：🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-07-16T16:01:21+00:00",
+      "published_dt": "2026-07-16T16:01:21+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "title": "Newer Models, Same Advantage",
+      "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-07-16T11:49:48+00:00",
+      "published_dt": "2026-07-16T11:49:48+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Newer Models, Same Advantage (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Newer Models, Same Advantage，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=966112",
+      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind - in May 2023 before widely releasing the app just months later. Over the past few years, Google has been adding new features to the app to help organize and make sense of your notes, such as the ability to summarize them as AI podcasts, narrated slideshows, and TikTok-style clips. It recently started letting users connect their notebooks to the … Read the full story at The Verge.",
+      "published": "2026-07-16T16:00:00+00:00",
+      "published_dt": "2026-07-16T16:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google is renaming NotebookLM to Gemini Notebook (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Google is renaming NotebookLM to Gemini Notebook，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3143447",
+      "title": "Google Vids now lets you star in your own AI videos",
+      "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
+      "published": "2026-07-16T18:32:54+00:00",
+      "published_dt": "2026-07-16T18:32:54+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google Vids now lets you star in your own AI videos (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google Vids now lets you star in your own AI videos，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48936451",
+      "title": "NotebookLM is now Gemini Notebook",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-16T16:08:13+00:00",
+      "published_dt": "2026-07-16T16:08:13+00:00",
+      "hn_score": 246,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "NotebookLM is now Gemini Notebook (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：NotebookLM is now Gemini Notebook，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3143233",
+      "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
+      "published": "2026-07-16T14:26:29+00:00",
+      "published_dt": "2026-07-16T14:26:29+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8 (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48931588",
+      "title": "At least 105 past YC founders have worked at OpenAI and Anthropic",
+      "url": "https://joinedanthropic.com",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-16T08:03:35+00:00",
+      "published_dt": "2026-07-16T08:03:35+00:00",
+      "hn_score": 294,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "At least 105 past YC founders have worked at OpenAI and Anthropic (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：At least 105 past YC founders have worked at OpenAI and Anthropic，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
