@@ -1,0 +1,985 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T02:21:14",
+  "stats": {
+    "total_items": 14,
+    "high_importance": 2,
+    "medium_importance": 12,
+    "categories_covered": 5
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "People continue to be impressed by yesterday’s Kimi K3 launch. Congrats to Databricks on their $188B Series M (watch our pod on the latest Databricks narratives) and OpenRouter might get bought (watch Alex Atallah’s keynote).On a slow news day, The most popular talk this week is Abhishek Bhardwaj’s Sandbox track keynote which recaps a year of growth since his original work on Arrakis got him hired by Greg Brockman, and now building out the cloud infra behind ChatGPT Work (upcoming episode!). Spoilers: if you think running agent sandboxes is just “run containers on Kubernetes”, 1) you havent been paying attention to our E2B, Daytona and both Modal podcasts, and 2) you might be overtuned to compute problems and are probably underestimating the importance of storage/filesystems…If you do leading AI work in NYC, especially for AI x Finance, speaker applications for AIE NYC 2026 opened today.AI News for 7/16/2026-7/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapMoonshot’s Kimi K3 Release, Frontier Positioning, and the China/Open-Weight DebateKimi K3 is the center of gravity today: the release triggered a broad reassessment of how close Chinese open-weight models are to the frontier. Multiple posts frame K3 as the first genuinely useful Chinese model at this tier, with strong coding, agentic, and long-horizon knowledge-work performance. Community reaction ranged from Salakhutdinov congratulating Moonshot founder Zhilin Yang to practitioners simply reporting that “Kimi K3 is really, really good”. A recurring theme was that K3 narrows the gap enough to pressure US labs to ship faster, as argued by @kimmonismus and others.The strategic argument shifted from “compute moat” to “efficiency stack”: a notable thread argues that K3 weakens the thesis that frontier capability is gated mainly by raw",
+      "published": "2026-07-18T04:30:21+00:00",
+      "published_dt": "2026-07-18T04:30:21+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Databricks"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$188B",
+          "Series M"
+        ],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+      "title": "Controlling Reasoning Effort in LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+      "source": "Ahead of AI (Sebastian Raschka)",
+      "source_type": "rss",
+      "content": "It has been almost two years since OpenAI released o1, a model that popularized the idea of LLM-based reasoning models. DeepSeek-R1 followed about four months later, together with details of a reinforcement learning with verifiable rewards (RLVR) recipe to train such reasoning models.Last week, OpenAI released the GPT-5.6 model family. It comes in three sizes, each with roughly five or six reasoning-effort settings.Figure 1: The GPT 5.6 Sol model with different reasoning effort settings. (Benchmark numbers for Ultra are currently not available but should be relatively similar to Max, since it uses a similar effort level but accelerates the work with four subagents.)So yes, reasoning models are here to stay. They have become a standard part of modern model releases.In the past, I covered the methodology of reasoning models (Understanding Reasoning LLMs) as well as relevant research papers (The State of Reinforcement Learning for LLM Reasoning and The State of LLM Reasoning Model Inference). And I even wrote a whole new 440-page book on how to develop reasoning models, Build A Reasoning Model (From Scratch).Figure 2: My new Build A Reasoning Model (From Scratch) book. In color!These resources have focused on turning a conventional LLM into a reasoning model. Now, in this article, I want to focus on and explain how to develop a reasoning model that has multiple effort modes, similar to what’s shown in the figure at the beginning of this article.No worries, this article can be read as a standalone article. However, the aforementioned resources may be interesting and useful.1. A brief definition of reasoning modelsWhen talking about pretty much any machine learning or AI technique or subfield, the one lesson is that we usually shouldn’t take technical terms “literally”. For example, an (artificial) neural network in machine learning and AI doesn’t literally work like a biological neural network like the human brain.Similarly, when talking about “reasoning models”, we sho",
+      "published": "2026-07-18T11:16:09+00:00",
+      "published_dt": "2026-07-18T11:16:09+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Figure",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "inference",
+          "agent",
+          "reasoning model",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Controlling Reasoning Effort in LLMs (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：Controlling Reasoning Effort in LLMs，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+          "title": "Controlling Reasoning Effort in LLMs",
+          "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+          "source": "Ahead of AI (Sebastian Raschka)",
+          "source_type": "rss",
+          "content": "It has been almost two years since OpenAI released o1, a model that popularized the idea of LLM-based reasoning models. DeepSeek-R1 followed about four months later, together with details of a reinforcement learning with verifiable rewards (RLVR) recipe to train such reasoning models.Last week, OpenAI released the GPT-5.6 model family. It comes in three sizes, each with roughly five or six reasoning-effort settings.Figure 1: The GPT 5.6 Sol model with different reasoning effort settings. (Benchmark numbers for Ultra are currently not available but should be relatively similar to Max, since it uses a similar effort level but accelerates the work with four subagents.)So yes, reasoning models are here to stay. They have become a standard part of modern model releases.In the past, I covered the methodology of reasoning models (Understanding Reasoning LLMs) as well as relevant research papers (The State of Reinforcement Learning for LLM Reasoning and The State of LLM Reasoning Model Inference). And I even wrote a whole new 440-page book on how to develop reasoning models, Build A Reasoning Model (From Scratch).Figure 2: My new Build A Reasoning Model (From Scratch) book. In color!These resources have focused on turning a conventional LLM into a reasoning model. Now, in this article, I want to focus on and explain how to develop a reasoning model that has multiple effort modes, similar to what’s shown in the figure at the beginning of this article.No worries, this article can be read as a standalone article. However, the aforementioned resources may be interesting and useful.1. A brief definition of reasoning modelsWhen talking about pretty much any machine learning or AI technique or subfield, the one lesson is that we usually shouldn’t take technical terms “literally”. For example, an (artificial) neural network in machine learning and AI doesn’t literally work like a biological neural network like the human brain.Similarly, when talking about “reasoning models”, we sho",
+          "published": "2026-07-18T11:16:09+00:00",
+          "published_dt": "2026-07-18T11:16:09+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Figure",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "inference",
+              "agent",
+              "reasoning model",
+              "benchmark"
+            ]
+          },
+          "summary_en": "Controlling Reasoning Effort in LLMs (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：Controlling Reasoning Effort in LLMs，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3144034",
+          "title": "Neil Rimer thinks the AI money is coming back out",
+          "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
+          "published": "2026-07-18T04:47:25+00:00",
+          "published_dt": "2026-07-18T04:47:25+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Neil Rimer thinks the AI money is coming back out (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：Neil Rimer thinks the AI money is coming back out，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=967630",
+          "title": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Dave Eggers attends the \"The Turning Point: To Be Destroyed\" premiere. | Image: John Lamparski/Getty Images for Tribeca Festival Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer tips on being relentlessly prolific, or how to excel in multiple fields. Instead, he apparently laced into the company. According to the Financial Times, Eggers told the staff: \"The effect of ChatGPT on educators' lives is catastrophic. Whether you intended to do it or not, you've made every teache … Read the full story at The Verge.",
+          "published": "2026-07-18T20:54:42+00:00",
+          "published_dt": "2026-07-18T20:54:42+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’ (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+          "title": "[AINews] not much happened today",
+          "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "People continue to be impressed by yesterday’s Kimi K3 launch. Congrats to Databricks on their $188B Series M (watch our pod on the latest Databricks narratives) and OpenRouter might get bought (watch Alex Atallah’s keynote).On a slow news day, The most popular talk this week is Abhishek Bhardwaj’s Sandbox track keynote which recaps a year of growth since his original work on Arrakis got him hired by Greg Brockman, and now building out the cloud infra behind ChatGPT Work (upcoming episode!). Spoilers: if you think running agent sandboxes is just “run containers on Kubernetes”, 1) you havent been paying attention to our E2B, Daytona and both Modal podcasts, and 2) you might be overtuned to compute problems and are probably underestimating the importance of storage/filesystems…If you do leading AI work in NYC, especially for AI x Finance, speaker applications for AIE NYC 2026 opened today.AI News for 7/16/2026-7/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapMoonshot’s Kimi K3 Release, Frontier Positioning, and the China/Open-Weight DebateKimi K3 is the center of gravity today: the release triggered a broad reassessment of how close Chinese open-weight models are to the frontier. Multiple posts frame K3 as the first genuinely useful Chinese model at this tier, with strong coding, agentic, and long-horizon knowledge-work performance. Community reaction ranged from Salakhutdinov congratulating Moonshot founder Zhilin Yang to practitioners simply reporting that “Kimi K3 is really, really good”. A recurring theme was that K3 narrows the gap enough to pressure US labs to ship faster, as argued by @kimmonismus and others.The strategic argument shifted from “compute moat” to “efficiency stack”: a notable thread argues that K3 weakens the thesis that frontier capability is gated mainly by raw",
+          "published": "2026-07-18T04:30:21+00:00",
+          "published_dt": "2026-07-18T04:30:21+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Databricks"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$188B",
+              "Series M"
+            ],
+            "technologies": [
+              "RAG",
+              "agent"
+            ]
+          },
+          "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+          "title": "Claude make Fable 5 permanent",
+          "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Claude make Fable 5 permanent An update from the @claudeai account on Twitter: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits. Pro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit. As I was saying last week, the competition from GPT-5.6 Sol (and maybe to a lesser extent Kimi 3) made untenable Anthropic's plan to remove Fable 5 from their subscription accounts and make it available exclusively through API pricing. Why pay $100 or $200/month for a subscription plan that doesn't include Anthropic's best model? Their original plan was driven by concerns over compute capacity. I wonder if they'll have to dial back their training efforts in order to make more GPUs available to help serve the model. A lot of people were losing sleep over trying to make the most of Fable 5 before subscriber access was withdrawn. It's nice not to have to worry about the Fablepocalypse any more. Update: Important to note that users on the $20/month plan will still not have access to Fable 5 on that subscription. The Max plans are $100 and $200/month. Tags: ai, generative-ai, llms, anthropic, claude, llm-pricing, claude-mythos-fable",
+          "published": "2026-07-18T06:00:13+00:00",
+          "published_dt": "2026-07-18T06:00:13+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Claude make Fable 5 permanent (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：Claude make Fable 5 permanent，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3144070",
+          "title": "Kimi: Threat or menace?",
+          "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
+          "published": "2026-07-18T18:51:07+00:00",
+          "published_dt": "2026-07-18T18:51:07+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Moonshot AI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Kimi: Threat or menace? (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Kimi: Threat or menace?，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a5a6f75ab2d1ae8fc7d01ff",
+          "title": "Your Period Tracker Is (Probably) Spying on You",
+          "url": "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Plus: Russian cyberspies turn to infrastructure hacking, DHS repeatedly fails to realize it’d been hacked, a breach exposes an AI music generator’s scraping ways, and more.",
+          "published": "2026-07-18T10:30:00+00:00",
+          "published_dt": "2026-07-18T10:30:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Your Period Tracker Is (Probably) Spying on You (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Your Period Tracker Is (Probably) Spying on You，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 5,
+      "items": [
+        {
+          "id": "hn-48957779",
+          "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+          "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-18T13:00:52+00:00",
+          "published_dt": "2026-07-18T13:00:52+00:00",
+          "hn_score": 508,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：GPT-5.6 used a prompt to close a 30-year gap in convex optimization，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48962983",
+          "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+          "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-18T22:13:39+00:00",
+          "published_dt": "2026-07-18T22:13:39+00:00",
+          "hn_score": 235,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Mayor Mamdani Says Landlords Can't Use AI Images to Advertise，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48956949",
+          "title": "What AI did to stackoverflow in a graph",
+          "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-18T11:12:46+00:00",
+          "published_dt": "2026-07-18T11:12:46+00:00",
+          "hn_score": 368,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "What AI did to stackoverflow in a graph (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：What AI did to stackoverflow in a graph，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48956924",
+          "title": "Why do AI company logos look like buttholes? (2025)",
+          "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-18T11:06:50+00:00",
+          "published_dt": "2026-07-18T11:06:50+00:00",
+          "hn_score": 416,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Why do AI company logos look like buttholes? (2025) (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Why do AI company logos look like buttholes? (2025)，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48956879",
+          "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
+          "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-18T11:00:29+00:00",
+          "published_dt": "2026-07-18T11:00:29+00:00",
+          "hn_score": 214,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help? (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-19T02:21:10.170180+00:00",
+          "published_dt": "2026-07-19T02:21:10.170180+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-19T02:21:10.170180+00:00",
+          "published_dt": "2026-07-19T02:21:10.170180+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "People continue to be impressed by yesterday’s Kimi K3 launch. Congrats to Databricks on their $188B Series M (watch our pod on the latest Databricks narratives) and OpenRouter might get bought (watch Alex Atallah’s keynote).On a slow news day, The most popular talk this week is Abhishek Bhardwaj’s Sandbox track keynote which recaps a year of growth since his original work on Arrakis got him hired by Greg Brockman, and now building out the cloud infra behind ChatGPT Work (upcoming episode!). Spoilers: if you think running agent sandboxes is just “run containers on Kubernetes”, 1) you havent been paying attention to our E2B, Daytona and both Modal podcasts, and 2) you might be overtuned to compute problems and are probably underestimating the importance of storage/filesystems…If you do leading AI work in NYC, especially for AI x Finance, speaker applications for AIE NYC 2026 opened today.AI News for 7/16/2026-7/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapMoonshot’s Kimi K3 Release, Frontier Positioning, and the China/Open-Weight DebateKimi K3 is the center of gravity today: the release triggered a broad reassessment of how close Chinese open-weight models are to the frontier. Multiple posts frame K3 as the first genuinely useful Chinese model at this tier, with strong coding, agentic, and long-horizon knowledge-work performance. Community reaction ranged from Salakhutdinov congratulating Moonshot founder Zhilin Yang to practitioners simply reporting that “Kimi K3 is really, really good”. A recurring theme was that K3 narrows the gap enough to pressure US labs to ship faster, as argued by @kimmonismus and others.The strategic argument shifted from “compute moat” to “efficiency stack”: a notable thread argues that K3 weakens the thesis that frontier capability is gated mainly by raw",
+      "published": "2026-07-18T04:30:21+00:00",
+      "published_dt": "2026-07-18T04:30:21+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Databricks"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$188B",
+          "Series M"
+        ],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+      "title": "Controlling Reasoning Effort in LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+      "source": "Ahead of AI (Sebastian Raschka)",
+      "source_type": "rss",
+      "content": "It has been almost two years since OpenAI released o1, a model that popularized the idea of LLM-based reasoning models. DeepSeek-R1 followed about four months later, together with details of a reinforcement learning with verifiable rewards (RLVR) recipe to train such reasoning models.Last week, OpenAI released the GPT-5.6 model family. It comes in three sizes, each with roughly five or six reasoning-effort settings.Figure 1: The GPT 5.6 Sol model with different reasoning effort settings. (Benchmark numbers for Ultra are currently not available but should be relatively similar to Max, since it uses a similar effort level but accelerates the work with four subagents.)So yes, reasoning models are here to stay. They have become a standard part of modern model releases.In the past, I covered the methodology of reasoning models (Understanding Reasoning LLMs) as well as relevant research papers (The State of Reinforcement Learning for LLM Reasoning and The State of LLM Reasoning Model Inference). And I even wrote a whole new 440-page book on how to develop reasoning models, Build A Reasoning Model (From Scratch).Figure 2: My new Build A Reasoning Model (From Scratch) book. In color!These resources have focused on turning a conventional LLM into a reasoning model. Now, in this article, I want to focus on and explain how to develop a reasoning model that has multiple effort modes, similar to what’s shown in the figure at the beginning of this article.No worries, this article can be read as a standalone article. However, the aforementioned resources may be interesting and useful.1. A brief definition of reasoning modelsWhen talking about pretty much any machine learning or AI technique or subfield, the one lesson is that we usually shouldn’t take technical terms “literally”. For example, an (artificial) neural network in machine learning and AI doesn’t literally work like a biological neural network like the human brain.Similarly, when talking about “reasoning models”, we sho",
+      "published": "2026-07-18T11:16:09+00:00",
+      "published_dt": "2026-07-18T11:16:09+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Figure",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "inference",
+          "agent",
+          "reasoning model",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Controlling Reasoning Effort in LLMs (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：Controlling Reasoning Effort in LLMs，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3144034",
+      "title": "Neil Rimer thinks the AI money is coming back out",
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
+      "published": "2026-07-18T04:47:25+00:00",
+      "published_dt": "2026-07-18T04:47:25+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Neil Rimer thinks the AI money is coming back out (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：Neil Rimer thinks the AI money is coming back out，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+      "title": "Claude make Fable 5 permanent",
+      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Claude make Fable 5 permanent An update from the @claudeai account on Twitter: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits. Pro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit. As I was saying last week, the competition from GPT-5.6 Sol (and maybe to a lesser extent Kimi 3) made untenable Anthropic's plan to remove Fable 5 from their subscription accounts and make it available exclusively through API pricing. Why pay $100 or $200/month for a subscription plan that doesn't include Anthropic's best model? Their original plan was driven by concerns over compute capacity. I wonder if they'll have to dial back their training efforts in order to make more GPUs available to help serve the model. A lot of people were losing sleep over trying to make the most of Fable 5 before subscriber access was withdrawn. It's nice not to have to worry about the Fablepocalypse any more. Update: Important to note that users on the $20/month plan will still not have access to Fable 5 on that subscription. The Max plans are $100 and $200/month. Tags: ai, generative-ai, llms, anthropic, claude, llm-pricing, claude-mythos-fable",
+      "published": "2026-07-18T06:00:13+00:00",
+      "published_dt": "2026-07-18T06:00:13+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Claude make Fable 5 permanent (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：Claude make Fable 5 permanent，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-19T02:21:10.170180+00:00",
+      "published_dt": "2026-07-19T02:21:10.170180+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-19T02:21:10.170180+00:00",
+      "published_dt": "2026-07-19T02:21:10.170180+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3144070",
+      "title": "Kimi: Threat or menace?",
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
+      "published": "2026-07-18T18:51:07+00:00",
+      "published_dt": "2026-07-18T18:51:07+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Kimi: Threat or menace? (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Kimi: Threat or menace?，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48957779",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-18T13:00:52+00:00",
+      "published_dt": "2026-07-18T13:00:52+00:00",
+      "hn_score": 508,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：GPT-5.6 used a prompt to close a 30-year gap in convex optimization，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=967630",
+      "title": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Dave Eggers attends the \"The Turning Point: To Be Destroyed\" premiere. | Image: John Lamparski/Getty Images for Tribeca Festival Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer tips on being relentlessly prolific, or how to excel in multiple fields. Instead, he apparently laced into the company. According to the Financial Times, Eggers told the staff: \"The effect of ChatGPT on educators' lives is catastrophic. Whether you intended to do it or not, you've made every teache … Read the full story at The Verge.",
+      "published": "2026-07-18T20:54:42+00:00",
+      "published_dt": "2026-07-18T20:54:42+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’ (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a5a6f75ab2d1ae8fc7d01ff",
+      "title": "Your Period Tracker Is (Probably) Spying on You",
+      "url": "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Plus: Russian cyberspies turn to infrastructure hacking, DHS repeatedly fails to realize it’d been hacked, a breach exposes an AI music generator’s scraping ways, and more.",
+      "published": "2026-07-18T10:30:00+00:00",
+      "published_dt": "2026-07-18T10:30:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Your Period Tracker Is (Probably) Spying on You (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Your Period Tracker Is (Probably) Spying on You，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48962983",
+      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-18T22:13:39+00:00",
+      "published_dt": "2026-07-18T22:13:39+00:00",
+      "hn_score": 235,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Mayor Mamdani Says Landlords Can't Use AI Images to Advertise，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48956949",
+      "title": "What AI did to stackoverflow in a graph",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-18T11:12:46+00:00",
+      "published_dt": "2026-07-18T11:12:46+00:00",
+      "hn_score": 368,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "What AI did to stackoverflow in a graph (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：What AI did to stackoverflow in a graph，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48956924",
+      "title": "Why do AI company logos look like buttholes? (2025)",
+      "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-18T11:06:50+00:00",
+      "published_dt": "2026-07-18T11:06:50+00:00",
+      "hn_score": 416,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Why do AI company logos look like buttholes? (2025) (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Why do AI company logos look like buttholes? (2025)，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48956879",
+      "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
+      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-18T11:00:29+00:00",
+      "published_dt": "2026-07-18T11:00:29+00:00",
+      "hn_score": 214,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help? (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
