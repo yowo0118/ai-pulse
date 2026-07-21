@@ -1,0 +1,1802 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T02:20:30",
+  "stats": {
+    "total_items": 27,
+    "high_importance": 4,
+    "medium_importance": 23,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+      "title": "Who’s Afraid of Chinese Models?",
+      "url": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Who’s Afraid of Chinese Models? Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts: The U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars terms of service that forbid distillation, for U.S. companies at a minimum. Stopping distillation — which is literally just querying the API — is nearly impossible; the U.S. should go the other way and lean into a new copyright policy that both indemnifies the labs and also guarantees that what they learned fuels further innovation for everyone else. Ben also theorizes that Alibaba's decision to release Qwen 3.8 Max as open weights - a reversal from their decision not to release Qwen 3.7 Max in May - may have been influenced by a recent speech by Xi Jinping, who said: We should seize this rare, historic opportunity to encourage open source, openness, collaboration and sharing. And on the subject of Qwen 3.8 Max - a new 2.4T parameter model (nearly as large as the 2.8T Kimi K3) - here's a pelican it drew: I particularly enjoyed seeing these notes in the (extensive) reasoning trace: \"Could add helmet? No.\" and \"Maybe add small bell? no.\" and \"Need maybe add small fish in basket? Not necessary.\" Via John Gruber Tags: ai, generative-ai, llms, training-data, qwen, pelican-riding-a-bicycle, ai-ethics, llm-release, ai-in-china",
+      "published": "2026-07-20T17:09:19+00:00",
+      "published_dt": "2026-07-20T17:09:19+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Alibaba"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG",
+          "distillation"
+        ]
+      },
+      "summary_en": "Who’s Afraid of Chinese Models? (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Who’s Afraid of Chinese Models?，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93842",
+      "title": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
+      "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "For the third quarter in the past year, Mexico-based companies raised more venture capital in Q2 than their Brazilian counterparts, Crunchbase data on startup funding in Latin America shows, as Silicon Valley investors including Founders Fund and Andreessen Horowitz (a16z) led some of the largest deals in the region. Mexico’s startups led the LatAm pack in Q2 — by a wide margin. The country’s startups raised $944 million in the second quarter, up 131% compared to $409 million in last year’s Q2, and up 136% from the $401 million raised in this year’s first quarter, per Crunchbase data. For comparison’s sake, that’s almost as much as Latin American startups as a whole raised in the second quarter of 2025. Notably, Mexico-based companies accounted for the region’s three largest fundraising deals in the quarter ended June 30. Meanwhile, Brazil-headquartered startups raised $350 million in Q2 2026, down 11% from the $363 million raised in Q2 2025, but up 20% from the $270 million raised in Q1 2026. In general, a continued boom in late-stage and growth funding helped buoy the region for the period, Crunchbase data shows. Startups in Latin America raised a combined $1.36 billion across seed- and growth-stage deals in the second quarter, up 47% year over year and 22% from the first quarter. For perspective, we charted out total investment, color-coded by stage, for the past 10 quarters below. Of that total, $991 million went into late-stage and growth deals, up 84% year over year and 30% compared to the first quarter of 2026. Round counts declined sequentially and year-over-year across angel, seed and early stages. (We expect the Q2 deal count to rise somewhat over time, however, as seed rounds in particular are commonly reported weeks or months after they close.) Table of contents Late-stage boom Investor POV The US-LatAm connection Methodology Glossary of funding terms Late-stage boom There were five nine-figure raises in Latin America in the second quarter, and as mentio",
+      "published": "2026-07-20T11:00:30+00:00",
+      "published_dt": "2026-07-20T11:00:30+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure",
+          "a16z"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$944 million",
+          "$409 million",
+          "$401 million",
+          "$350 million",
+          "$363 million",
+          "$270 million",
+          "$1.36 billion",
+          "$991 million",
+          "raised $944 million",
+          "raised $350 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+      "title": "Kimi K3: The open-weights escalation",
+      "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "On Thursday July 16th, Moonshot AI released their latest flagship model Kimi K3. K3 is a 2.8T parameter MoE model which will have its weights released on July 27th. Much of this article follows as a reflection on the state of the ecosystem, under the assumption that Moonshot keeps their promise of the weights release date. This is a more extreme view of the equilibrium, and many of the results end up in a middle ground if the state of affairs is that China has similarly powerful, but closed models (i.e. K3 is never released). The key fact is that either the open-to-closed or American-to-Chinese model performance gap has been reduced from the debated 6-9 months to something shorter, say 3-5 months.From the release materials, it is clear that K3 is a true frontier model. It will be the closest open models have been to the frontier since DeepSeek R1. DeepSeek R1 was a different story. This was a Chinese lab being extremely quick to pivot to reasoning models and release one faster than many American companies. Kimi K3 an example of a Chinese lab executing on scaling the known areas: data, algorithms, architecture, tools, environments, etc. Kimi K3 comes in at #2 overall on the Vals AI index, #3 overall on Artificial Analysis’s Intelligence Index (only beaten by Claude Fable and GPT-5.6 Sol Max while being cheaper), #1 overall in Frontend Code Arena, and more impressive results. Moonshot AI is going toe to toe with Anthropic and OpenAI with far, far fewer resources.It is clearly the strongest open model ever released. It should be clear looking at this model that if adversarial distillation from the closed frontier models in the U.S. contributed, it is at most to a relatively small degree. AI observers who followed the distillation panic and came away with the wrong conclusion that Chinese AI labs are only producing good models due to IP theft are in for an awakening – that Chinese companies are extremely good at building models in the same way the leading American compa",
+      "published": "2026-07-20T15:48:28+00:00",
+      "published_dt": "2026-07-20T15:48:28+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "DeepSeek",
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "MoE",
+          "reasoning model",
+          "distillation"
+        ]
+      },
+      "summary_en": "Kimi K3: The open-weights escalation (Interconnects (Nathan Lambert)) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Kimi K3: The open-weights escalation，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+      "title": "Quoting Sam Altman",
+      "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded. — Sam Altman, Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026) Tags: ai-ethics, sam-altman, generative-ai, openai, ai, llms",
+      "published": "2026-07-20T03:47:59+00:00",
+      "published_dt": "2026-07-20T03:47:59+00:00",
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG"
+        ]
+      },
+      "summary_en": "Quoting Sam Altman (Simon Willison) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Simon Willison 报道：Quoting Sam Altman，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+          "title": "Who’s Afraid of Chinese Models?",
+          "url": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Who’s Afraid of Chinese Models? Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts: The U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars terms of service that forbid distillation, for U.S. companies at a minimum. Stopping distillation — which is literally just querying the API — is nearly impossible; the U.S. should go the other way and lean into a new copyright policy that both indemnifies the labs and also guarantees that what they learned fuels further innovation for everyone else. Ben also theorizes that Alibaba's decision to release Qwen 3.8 Max as open weights - a reversal from their decision not to release Qwen 3.7 Max in May - may have been influenced by a recent speech by Xi Jinping, who said: We should seize this rare, historic opportunity to encourage open source, openness, collaboration and sharing. And on the subject of Qwen 3.8 Max - a new 2.4T parameter model (nearly as large as the 2.8T Kimi K3) - here's a pelican it drew: I particularly enjoyed seeing these notes in the (extensive) reasoning trace: \"Could add helmet? No.\" and \"Maybe add small bell? no.\" and \"Need maybe add small fish in basket? Not necessary.\" Via John Gruber Tags: ai, generative-ai, llms, training-data, qwen, pelican-riding-a-bicycle, ai-ethics, llm-release, ai-in-china",
+          "published": "2026-07-20T17:09:19+00:00",
+          "published_dt": "2026-07-20T17:09:19+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Alibaba"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "RAG",
+              "distillation"
+            ]
+          },
+          "summary_en": "Who’s Afraid of Chinese Models? (Simon Willison) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Simon Willison 报道：Who’s Afraid of Chinese Models?，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+          "title": "Kimi K3: The open-weights escalation",
+          "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "On Thursday July 16th, Moonshot AI released their latest flagship model Kimi K3. K3 is a 2.8T parameter MoE model which will have its weights released on July 27th. Much of this article follows as a reflection on the state of the ecosystem, under the assumption that Moonshot keeps their promise of the weights release date. This is a more extreme view of the equilibrium, and many of the results end up in a middle ground if the state of affairs is that China has similarly powerful, but closed models (i.e. K3 is never released). The key fact is that either the open-to-closed or American-to-Chinese model performance gap has been reduced from the debated 6-9 months to something shorter, say 3-5 months.From the release materials, it is clear that K3 is a true frontier model. It will be the closest open models have been to the frontier since DeepSeek R1. DeepSeek R1 was a different story. This was a Chinese lab being extremely quick to pivot to reasoning models and release one faster than many American companies. Kimi K3 an example of a Chinese lab executing on scaling the known areas: data, algorithms, architecture, tools, environments, etc. Kimi K3 comes in at #2 overall on the Vals AI index, #3 overall on Artificial Analysis’s Intelligence Index (only beaten by Claude Fable and GPT-5.6 Sol Max while being cheaper), #1 overall in Frontend Code Arena, and more impressive results. Moonshot AI is going toe to toe with Anthropic and OpenAI with far, far fewer resources.It is clearly the strongest open model ever released. It should be clear looking at this model that if adversarial distillation from the closed frontier models in the U.S. contributed, it is at most to a relatively small degree. AI observers who followed the distillation panic and came away with the wrong conclusion that Chinese AI labs are only producing good models due to IP theft are in for an awakening – that Chinese companies are extremely good at building models in the same way the leading American compa",
+          "published": "2026-07-20T15:48:28+00:00",
+          "published_dt": "2026-07-20T15:48:28+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "DeepSeek",
+              "Moonshot AI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "MoE",
+              "reasoning model",
+              "distillation"
+            ]
+          },
+          "summary_en": "Kimi K3: The open-weights escalation (Interconnects (Nathan Lambert)) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：Kimi K3: The open-weights escalation，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48981136",
+          "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+          "url": "https://news.ycombinator.com/item?id=48981136",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hi HN, I’m Alex Southmayd, the founder of Bloomy (https://bloomylearning.com) – an AI-powered mastery-learning platform for K-12 students. Bloomy provides students with an AI tutor alongside adaptive curriculum (right now Math, English Language Arts, and Writing).How it works: we diagnose students’ skill gaps, place them on personalized learning paths, and give them standards-aligned lessons and a Socratic AI tutor that scaffolds their learning without just giving away the answer.The goal is to solve the Bloom 2-sigma problem (https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem) with AI.Short launch video: https://tinyurl.com/bloomylearningLonger product demo: https://youtu.be/XHvoKt6qMeoFamilies access for Bloomy: https://bloomylearning.com/familiesI started as a teacher. I taught 7th-grade English and writing with Teach For America, and every day I struggled to deliver differentiated instruction to 30 students with 30 different sets of needs. Some students needed remediation, some needed acceleration, and many needed a tutor sitting next to them helping them reason through the next step. Benjamin Bloom’s two-sigma result—that one-on-one tutoring can produce much better outcomes than conventional classroom instruction—always felt intuitively true to me. The hard part was making that kind of attention affordable and available to every child.Then AI changed the cost curve. When I saw schools such as Alpha organize academics around mastery rather than seat time, the model clicked. If you’ve heard of Alpha School, that is directionally the kind of learning model that inspired us. But I kept thinking about the families and schools that already exist: homeschool families, microschools, hybrid schools, and regular classrooms where most children are today.Most students and teachers see learning gaps at the wrong resolution. They get a grade, percentile, benchmark score, or broad standard—not “this is the next skill this student should learn.” Existing personalized-lear",
+          "published": "2026-07-20T16:32:10+00:00",
+          "published_dt": "2026-07-20T16:32:10+00:00",
+          "hn_score": 60,
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "benchmark"
+            ]
+          },
+          "summary_en": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12 (Hacker News) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Hacker News 报道：Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48979269",
+          "title": "China’s open-weights AI strategy is winning",
+          "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-20T14:21:47+00:00",
+          "published_dt": "2026-07-20T14:21:47+00:00",
+          "hn_score": 989,
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "China’s open-weights AI strategy is winning (Hacker News) highlights a notable AI development with score 6.8.",
+          "summary_zh": "Hacker News 报道：China’s open-weights AI strategy is winning，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93842",
+          "title": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
+          "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "For the third quarter in the past year, Mexico-based companies raised more venture capital in Q2 than their Brazilian counterparts, Crunchbase data on startup funding in Latin America shows, as Silicon Valley investors including Founders Fund and Andreessen Horowitz (a16z) led some of the largest deals in the region. Mexico’s startups led the LatAm pack in Q2 — by a wide margin. The country’s startups raised $944 million in the second quarter, up 131% compared to $409 million in last year’s Q2, and up 136% from the $401 million raised in this year’s first quarter, per Crunchbase data. For comparison’s sake, that’s almost as much as Latin American startups as a whole raised in the second quarter of 2025. Notably, Mexico-based companies accounted for the region’s three largest fundraising deals in the quarter ended June 30. Meanwhile, Brazil-headquartered startups raised $350 million in Q2 2026, down 11% from the $363 million raised in Q2 2025, but up 20% from the $270 million raised in Q1 2026. In general, a continued boom in late-stage and growth funding helped buoy the region for the period, Crunchbase data shows. Startups in Latin America raised a combined $1.36 billion across seed- and growth-stage deals in the second quarter, up 47% year over year and 22% from the first quarter. For perspective, we charted out total investment, color-coded by stage, for the past 10 quarters below. Of that total, $991 million went into late-stage and growth deals, up 84% year over year and 30% compared to the first quarter of 2026. Round counts declined sequentially and year-over-year across angel, seed and early stages. (We expect the Q2 deal count to rise somewhat over time, however, as seed rounds in particular are commonly reported weeks or months after they close.) Table of contents Late-stage boom Investor POV The US-LatAm connection Methodology Glossary of funding terms Late-stage boom There were five nine-figure raises in Latin America in the second quarter, and as mentio",
+          "published": "2026-07-20T11:00:30+00:00",
+          "published_dt": "2026-07-20T11:00:30+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure",
+              "a16z"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$944 million",
+              "$409 million",
+              "$401 million",
+              "$350 million",
+              "$363 million",
+              "$270 million",
+              "$1.36 billion",
+              "$991 million",
+              "raised $944 million",
+              "raised $350 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+          "title": "Quoting Sam Altman",
+          "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded. — Sam Altman, Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026) Tags: ai-ethics, sam-altman, generative-ai, openai, ai, llms",
+          "published": "2026-07-20T03:47:59+00:00",
+          "published_dt": "2026-07-20T03:47:59+00:00",
+          "score": 8.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "RAG"
+            ]
+          },
+          "summary_en": "Quoting Sam Altman (Simon Willison) highlights a notable AI development with score 8.2.",
+          "summary_zh": "Simon Willison 报道：Quoting Sam Altman，综合评分 8.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3144190",
+          "title": "YouTube clarifies policies around AI slop and upsetting videos",
+          "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "YouTube has updated its monetization policies to more clearly define the kinds of AI-generated and low-quality videos that can’t earn ad revenue.",
+          "published": "2026-07-20T15:23:06+00:00",
+          "published_dt": "2026-07-20T15:23:06+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "YouTube clarifies policies around AI slop and upsetting videos (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：YouTube clarifies policies around AI slop and upsetting videos，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=968257",
+          "title": "SpaceX in your index fund, explained",
+          "url": "https://www.theverge.com/business/968257/spacex-in-your-index-fund-explained",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "AUUUUUGH | Image: Cath Virginia / The Verge, Getty Images Index funds are touted as one of the safest ways to invest. Rather than picking and choosing individual stocks, index funds let you bet on the market as a whole. So what happens when a company like SpaceX - a giant gamble, and, in my opinion, terribly overpriced - is fast-tracked into the Nasdaq-100? Does it suddenly threaten the stability of index funds based on the Nasdaq-100? Can a $1.77 trillion IPO crater the retirement funds of regular people who would ordinarily have no interest in investing in Elon Musk's meme stock? The answer has less to do with SpaceX and more to do with index funds - how they work, their history, and why they've … Read the full story at The Verge.",
+          "published": "2026-07-20T21:00:00+00:00",
+          "published_dt": "2026-07-20T21:00:00+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "SpaceX in your index fund, explained (The Verge AI) highlights a notable AI development with score 6.4.",
+          "summary_zh": "The Verge AI 报道：SpaceX in your index fund, explained，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3144118",
+          "title": "Adobe camera app’s new feature will critique your photos using AI",
+          "url": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Adobe's Project Indigo can now remove all kinds of backgrounds from photos you snap using the app.",
+          "published": "2026-07-20T15:45:00+00:00",
+          "published_dt": "2026-07-20T15:45:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Adobe camera app’s new feature will critique your photos using AI (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Adobe camera app’s new feature will critique your photos using AI，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3144370",
+          "title": "X relaunches a rebuilt Android app after year-long effort",
+          "url": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "X says the rebuilt version of its Android app is now available globally.",
+          "published": "2026-07-20T19:37:39+00:00",
+          "published_dt": "2026-07-20T19:37:39+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "X relaunches a rebuilt Android app after year-long effort (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：X relaunches a rebuilt Android app after year-long effort，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=967791",
+          "title": "Adobe’s ‘natural look’ camera app embraces generative AI",
+          "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Welcome to the “what is a photo” debate, Adobe. | Image: Adobe Adobe's experimental camera app has taken an unexpected turn. After Project Indigo was launched last year to provide a \"more natural (SLR-like) look\" for iPhone photography, the Indigo camera app is now being updated with a suite of generative AI tools. And the change doesn't rely upon Adobe's own Firefly AI models. Adobe describes the new \"AI Playground\" tooling suite as an experiment and says there's a button that allows users to opt out and continue using the app as before. Free access to the suite with no sign-on requirement is being tested with a small percentage of Indigo users over the next few weeks. \"Our goal is to learn how people … Read the full story at The Verge.",
+          "published": "2026-07-20T16:00:00+00:00",
+          "published_dt": "2026-07-20T16:00:00+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Adobe’s ‘natural look’ camera app embraces generative AI (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Adobe’s ‘natural look’ camera app embraces generative AI，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=967781",
+          "title": "China delivers a one-two punch to America’s AI dominance",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight, just as the technology is becoming central to national security, economic power, and geopolitical influence. The opening salvo came from Beijing-based Moonshot AI, one of China's leading AI model developers, which unveiled Kimi K3 on Friday. Moonshot claims its own testing ranks it consistently above nearly every US system, trailing only OpenAI … Read the full story at The Verge.",
+          "published": "2026-07-20T10:16:33+00:00",
+          "published_dt": "2026-07-20T10:16:33+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Moonshot AI",
+              "Alibaba"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "China delivers a one-two punch to America’s AI dominance (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：China delivers a one-two punch to America’s AI dominance，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+          "title": "Reverse-engineering is cheap now",
+          "url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes. I think this is an interesting illustration of the impact of the reduced cost of writing code. Prior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer knows that undocumented, unstable APIs like that may well change or break in the future. Is that initial work worth the effort if you're committing yourself to a frustrating cycle of maintenance in the future? Coding agents change that equation entirely. The effort to get a simple automation working has dropped, as has the cost of trying and failing to get it to work. Since the code is so cheap, the idea of having to maintain it in the future - or throw it away and start again - carries way less psychological baggage. Tags: reverse-engineering, coding-agents, ai-assisted-programming, generative-ai, ai, llms",
+          "published": "2026-07-20T19:24:05+00:00",
+          "published_dt": "2026-07-20T19:24:05+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "Reverse-engineering is cheap now (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：Reverse-engineering is cheap now，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "title": "Safety and alignment in an era of long-horizon models",
+          "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+          "published": "2026-07-20T10:00:00+00:00",
+          "published_dt": "2026-07-20T10:00:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "alignment",
+              "safety"
+            ]
+          },
+          "summary_en": "Safety and alignment in an era of long-horizon models (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：Safety and alignment in an era of long-horizon models，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3144516",
+          "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
+          "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
+          "published": "2026-07-21T00:12:24+00:00",
+          "published_dt": "2026-07-21T00:12:24+00:00",
+          "score": 6.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$1.5B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Anthropic’s landmark $1.5B copyright settlement is approved (TechCrunch AI) highlights a notable AI development with score 6.5.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic’s landmark $1.5B copyright settlement is approved，综合评分 6.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48976846",
+          "title": "Airport Simulator",
+          "url": "https://airport.apunen.com/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-20T10:30:40+00:00",
+          "published_dt": "2026-07-20T10:30:40+00:00",
+          "hn_score": 722,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Airport Simulator (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Airport Simulator，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48973869",
+          "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+          "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-20T02:51:16+00:00",
+          "published_dt": "2026-07-20T02:51:16+00:00",
+          "hn_score": 682,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Claude Fable produced a counterexample to the Jacobian Conjecture (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Claude Fable produced a counterexample to the Jacobian Conjecture，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/nvidia/cosmos3edge",
+          "title": "Introducing Cosmos 3 Edge",
+          "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-07-20T15:58:51+00:00",
+          "published_dt": "2026-07-20T15:58:51+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Introducing Cosmos 3 Edge (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Introducing Cosmos 3 Edge，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3144451",
+          "title": "Trump’s latest AI czar has already resigned",
+          "url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar.",
+          "published": "2026-07-20T22:21:04+00:00",
+          "published_dt": "2026-07-20T22:21:04+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Trump’s latest AI czar has already resigned (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Trump’s latest AI czar has already resigned，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3144366",
+          "title": "Google is working on a new AI chip designed to make Gemini more efficient",
+          "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Alphabet, Google's parent company, is reportedly working on a new chip designed to make its Gemini models run much more efficiently.",
+          "published": "2026-07-20T21:21:15+00:00",
+          "published_dt": "2026-07-20T21:21:15+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google is working on a new AI chip designed to make Gemini more efficient (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google is working on a new AI chip designed to make Gemini more efficient，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3144390",
+          "title": "AI’s most important protocol is getting a little bit easier to use",
+          "url": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Under the new system, the protocol will take a looser, \"stateless\" approach to session IDs on the server side, similar to how most ordinary websites already work.",
+          "published": "2026-07-20T20:50:40+00:00",
+          "published_dt": "2026-07-20T20:50:40+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI’s most important protocol is getting a little bit easier to use (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：AI’s most important protocol is getting a little bit easier to use，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3144280",
+          "title": "OpenAI is scared of open-weight models. Should the US be?",
+          "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Talk of banning Chinese-made open-weight LLMs reveals the challenge of turning AI into a business.",
+          "published": "2026-07-20T19:33:25+00:00",
+          "published_dt": "2026-07-20T19:33:25+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "OpenAI is scared of open-weight models. Should the US be? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI is scared of open-weight models. Should the US be?，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-48980019",
+          "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
+          "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-20T15:13:42+00:00",
+          "published_dt": "2026-07-20T15:13:42+00:00",
+          "hn_score": 296,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-21T02:20:28.385246+00:00",
+          "published_dt": "2026-07-21T02:20:28.385246+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-21T02:20:28.385246+00:00",
+          "published_dt": "2026-07-21T02:20:28.385246+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+      "title": "Who’s Afraid of Chinese Models?",
+      "url": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Who’s Afraid of Chinese Models? Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts: The U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars terms of service that forbid distillation, for U.S. companies at a minimum. Stopping distillation — which is literally just querying the API — is nearly impossible; the U.S. should go the other way and lean into a new copyright policy that both indemnifies the labs and also guarantees that what they learned fuels further innovation for everyone else. Ben also theorizes that Alibaba's decision to release Qwen 3.8 Max as open weights - a reversal from their decision not to release Qwen 3.7 Max in May - may have been influenced by a recent speech by Xi Jinping, who said: We should seize this rare, historic opportunity to encourage open source, openness, collaboration and sharing. And on the subject of Qwen 3.8 Max - a new 2.4T parameter model (nearly as large as the 2.8T Kimi K3) - here's a pelican it drew: I particularly enjoyed seeing these notes in the (extensive) reasoning trace: \"Could add helmet? No.\" and \"Maybe add small bell? no.\" and \"Need maybe add small fish in basket? Not necessary.\" Via John Gruber Tags: ai, generative-ai, llms, training-data, qwen, pelican-riding-a-bicycle, ai-ethics, llm-release, ai-in-china",
+      "published": "2026-07-20T17:09:19+00:00",
+      "published_dt": "2026-07-20T17:09:19+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Alibaba"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG",
+          "distillation"
+        ]
+      },
+      "summary_en": "Who’s Afraid of Chinese Models? (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Who’s Afraid of Chinese Models?，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93842",
+      "title": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
+      "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "For the third quarter in the past year, Mexico-based companies raised more venture capital in Q2 than their Brazilian counterparts, Crunchbase data on startup funding in Latin America shows, as Silicon Valley investors including Founders Fund and Andreessen Horowitz (a16z) led some of the largest deals in the region. Mexico’s startups led the LatAm pack in Q2 — by a wide margin. The country’s startups raised $944 million in the second quarter, up 131% compared to $409 million in last year’s Q2, and up 136% from the $401 million raised in this year’s first quarter, per Crunchbase data. For comparison’s sake, that’s almost as much as Latin American startups as a whole raised in the second quarter of 2025. Notably, Mexico-based companies accounted for the region’s three largest fundraising deals in the quarter ended June 30. Meanwhile, Brazil-headquartered startups raised $350 million in Q2 2026, down 11% from the $363 million raised in Q2 2025, but up 20% from the $270 million raised in Q1 2026. In general, a continued boom in late-stage and growth funding helped buoy the region for the period, Crunchbase data shows. Startups in Latin America raised a combined $1.36 billion across seed- and growth-stage deals in the second quarter, up 47% year over year and 22% from the first quarter. For perspective, we charted out total investment, color-coded by stage, for the past 10 quarters below. Of that total, $991 million went into late-stage and growth deals, up 84% year over year and 30% compared to the first quarter of 2026. Round counts declined sequentially and year-over-year across angel, seed and early stages. (We expect the Q2 deal count to rise somewhat over time, however, as seed rounds in particular are commonly reported weeks or months after they close.) Table of contents Late-stage boom Investor POV The US-LatAm connection Methodology Glossary of funding terms Late-stage boom There were five nine-figure raises in Latin America in the second quarter, and as mentio",
+      "published": "2026-07-20T11:00:30+00:00",
+      "published_dt": "2026-07-20T11:00:30+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure",
+          "a16z"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$944 million",
+          "$409 million",
+          "$401 million",
+          "$350 million",
+          "$363 million",
+          "$270 million",
+          "$1.36 billion",
+          "$991 million",
+          "raised $944 million",
+          "raised $350 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+      "title": "Kimi K3: The open-weights escalation",
+      "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "On Thursday July 16th, Moonshot AI released their latest flagship model Kimi K3. K3 is a 2.8T parameter MoE model which will have its weights released on July 27th. Much of this article follows as a reflection on the state of the ecosystem, under the assumption that Moonshot keeps their promise of the weights release date. This is a more extreme view of the equilibrium, and many of the results end up in a middle ground if the state of affairs is that China has similarly powerful, but closed models (i.e. K3 is never released). The key fact is that either the open-to-closed or American-to-Chinese model performance gap has been reduced from the debated 6-9 months to something shorter, say 3-5 months.From the release materials, it is clear that K3 is a true frontier model. It will be the closest open models have been to the frontier since DeepSeek R1. DeepSeek R1 was a different story. This was a Chinese lab being extremely quick to pivot to reasoning models and release one faster than many American companies. Kimi K3 an example of a Chinese lab executing on scaling the known areas: data, algorithms, architecture, tools, environments, etc. Kimi K3 comes in at #2 overall on the Vals AI index, #3 overall on Artificial Analysis’s Intelligence Index (only beaten by Claude Fable and GPT-5.6 Sol Max while being cheaper), #1 overall in Frontend Code Arena, and more impressive results. Moonshot AI is going toe to toe with Anthropic and OpenAI with far, far fewer resources.It is clearly the strongest open model ever released. It should be clear looking at this model that if adversarial distillation from the closed frontier models in the U.S. contributed, it is at most to a relatively small degree. AI observers who followed the distillation panic and came away with the wrong conclusion that Chinese AI labs are only producing good models due to IP theft are in for an awakening – that Chinese companies are extremely good at building models in the same way the leading American compa",
+      "published": "2026-07-20T15:48:28+00:00",
+      "published_dt": "2026-07-20T15:48:28+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "DeepSeek",
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "MoE",
+          "reasoning model",
+          "distillation"
+        ]
+      },
+      "summary_en": "Kimi K3: The open-weights escalation (Interconnects (Nathan Lambert)) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Kimi K3: The open-weights escalation，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+      "title": "Quoting Sam Altman",
+      "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded. — Sam Altman, Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026) Tags: ai-ethics, sam-altman, generative-ai, openai, ai, llms",
+      "published": "2026-07-20T03:47:59+00:00",
+      "published_dt": "2026-07-20T03:47:59+00:00",
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG"
+        ]
+      },
+      "summary_en": "Quoting Sam Altman (Simon Willison) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Simon Willison 报道：Quoting Sam Altman，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-21T02:20:28.385246+00:00",
+      "published_dt": "2026-07-21T02:20:28.385246+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-21T02:20:28.385246+00:00",
+      "published_dt": "2026-07-21T02:20:28.385246+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48981136",
+      "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+      "url": "https://news.ycombinator.com/item?id=48981136",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hi HN, I’m Alex Southmayd, the founder of Bloomy (https://bloomylearning.com) – an AI-powered mastery-learning platform for K-12 students. Bloomy provides students with an AI tutor alongside adaptive curriculum (right now Math, English Language Arts, and Writing).How it works: we diagnose students’ skill gaps, place them on personalized learning paths, and give them standards-aligned lessons and a Socratic AI tutor that scaffolds their learning without just giving away the answer.The goal is to solve the Bloom 2-sigma problem (https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem) with AI.Short launch video: https://tinyurl.com/bloomylearningLonger product demo: https://youtu.be/XHvoKt6qMeoFamilies access for Bloomy: https://bloomylearning.com/familiesI started as a teacher. I taught 7th-grade English and writing with Teach For America, and every day I struggled to deliver differentiated instruction to 30 students with 30 different sets of needs. Some students needed remediation, some needed acceleration, and many needed a tutor sitting next to them helping them reason through the next step. Benjamin Bloom’s two-sigma result—that one-on-one tutoring can produce much better outcomes than conventional classroom instruction—always felt intuitively true to me. The hard part was making that kind of attention affordable and available to every child.Then AI changed the cost curve. When I saw schools such as Alpha organize academics around mastery rather than seat time, the model clicked. If you’ve heard of Alpha School, that is directionally the kind of learning model that inspired us. But I kept thinking about the families and schools that already exist: homeschool families, microschools, hybrid schools, and regular classrooms where most children are today.Most students and teachers see learning gaps at the wrong resolution. They get a grade, percentile, benchmark score, or broad standard—not “this is the next skill this student should learn.” Existing personalized-lear",
+      "published": "2026-07-20T16:32:10+00:00",
+      "published_dt": "2026-07-20T16:32:10+00:00",
+      "hn_score": 60,
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "benchmark"
+        ]
+      },
+      "summary_en": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12 (Hacker News) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Hacker News 报道：Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=967791",
+      "title": "Adobe’s ‘natural look’ camera app embraces generative AI",
+      "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Welcome to the “what is a photo” debate, Adobe. | Image: Adobe Adobe's experimental camera app has taken an unexpected turn. After Project Indigo was launched last year to provide a \"more natural (SLR-like) look\" for iPhone photography, the Indigo camera app is now being updated with a suite of generative AI tools. And the change doesn't rely upon Adobe's own Firefly AI models. Adobe describes the new \"AI Playground\" tooling suite as an experiment and says there's a button that allows users to opt out and continue using the app as before. Free access to the suite with no sign-on requirement is being tested with a small percentage of Indigo users over the next few weeks. \"Our goal is to learn how people … Read the full story at The Verge.",
+      "published": "2026-07-20T16:00:00+00:00",
+      "published_dt": "2026-07-20T16:00:00+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Adobe’s ‘natural look’ camera app embraces generative AI (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Adobe’s ‘natural look’ camera app embraces generative AI，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48979269",
+      "title": "China’s open-weights AI strategy is winning",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-20T14:21:47+00:00",
+      "published_dt": "2026-07-20T14:21:47+00:00",
+      "hn_score": 989,
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "China’s open-weights AI strategy is winning (Hacker News) highlights a notable AI development with score 6.8.",
+      "summary_zh": "Hacker News 报道：China’s open-weights AI strategy is winning，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "published": "2026-07-20T10:00:00+00:00",
+      "published_dt": "2026-07-20T10:00:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "alignment",
+          "safety"
+        ]
+      },
+      "summary_en": "Safety and alignment in an era of long-horizon models (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：Safety and alignment in an era of long-horizon models，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3144190",
+      "title": "YouTube clarifies policies around AI slop and upsetting videos",
+      "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "YouTube has updated its monetization policies to more clearly define the kinds of AI-generated and low-quality videos that can’t earn ad revenue.",
+      "published": "2026-07-20T15:23:06+00:00",
+      "published_dt": "2026-07-20T15:23:06+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "YouTube clarifies policies around AI slop and upsetting videos (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：YouTube clarifies policies around AI slop and upsetting videos，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3144516",
+      "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
+      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
+      "published": "2026-07-21T00:12:24+00:00",
+      "published_dt": "2026-07-21T00:12:24+00:00",
+      "score": 6.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$1.5B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Anthropic’s landmark $1.5B copyright settlement is approved (TechCrunch AI) highlights a notable AI development with score 6.5.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic’s landmark $1.5B copyright settlement is approved，综合评分 6.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=968257",
+      "title": "SpaceX in your index fund, explained",
+      "url": "https://www.theverge.com/business/968257/spacex-in-your-index-fund-explained",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "AUUUUUGH | Image: Cath Virginia / The Verge, Getty Images Index funds are touted as one of the safest ways to invest. Rather than picking and choosing individual stocks, index funds let you bet on the market as a whole. So what happens when a company like SpaceX - a giant gamble, and, in my opinion, terribly overpriced - is fast-tracked into the Nasdaq-100? Does it suddenly threaten the stability of index funds based on the Nasdaq-100? Can a $1.77 trillion IPO crater the retirement funds of regular people who would ordinarily have no interest in investing in Elon Musk's meme stock? The answer has less to do with SpaceX and more to do with index funds - how they work, their history, and why they've … Read the full story at The Verge.",
+      "published": "2026-07-20T21:00:00+00:00",
+      "published_dt": "2026-07-20T21:00:00+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "SpaceX in your index fund, explained (The Verge AI) highlights a notable AI development with score 6.4.",
+      "summary_zh": "The Verge AI 报道：SpaceX in your index fund, explained，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3144370",
+      "title": "X relaunches a rebuilt Android app after year-long effort",
+      "url": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "X says the rebuilt version of its Android app is now available globally.",
+      "published": "2026-07-20T19:37:39+00:00",
+      "published_dt": "2026-07-20T19:37:39+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "X relaunches a rebuilt Android app after year-long effort (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：X relaunches a rebuilt Android app after year-long effort，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=967781",
+      "title": "China delivers a one-two punch to America’s AI dominance",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight, just as the technology is becoming central to national security, economic power, and geopolitical influence. The opening salvo came from Beijing-based Moonshot AI, one of China's leading AI model developers, which unveiled Kimi K3 on Friday. Moonshot claims its own testing ranks it consistently above nearly every US system, trailing only OpenAI … Read the full story at The Verge.",
+      "published": "2026-07-20T10:16:33+00:00",
+      "published_dt": "2026-07-20T10:16:33+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Moonshot AI",
+          "Alibaba"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "China delivers a one-two punch to America’s AI dominance (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：China delivers a one-two punch to America’s AI dominance，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48976846",
+      "title": "Airport Simulator",
+      "url": "https://airport.apunen.com/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-20T10:30:40+00:00",
+      "published_dt": "2026-07-20T10:30:40+00:00",
+      "hn_score": 722,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Airport Simulator (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Airport Simulator，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48973869",
+      "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+      "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-20T02:51:16+00:00",
+      "published_dt": "2026-07-20T02:51:16+00:00",
+      "hn_score": 682,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Claude Fable produced a counterexample to the Jacobian Conjecture (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Claude Fable produced a counterexample to the Jacobian Conjecture，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3144118",
+      "title": "Adobe camera app’s new feature will critique your photos using AI",
+      "url": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Adobe's Project Indigo can now remove all kinds of backgrounds from photos you snap using the app.",
+      "published": "2026-07-20T15:45:00+00:00",
+      "published_dt": "2026-07-20T15:45:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Adobe camera app’s new feature will critique your photos using AI (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Adobe camera app’s new feature will critique your photos using AI，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/cosmos3edge",
+      "title": "Introducing Cosmos 3 Edge",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-07-20T15:58:51+00:00",
+      "published_dt": "2026-07-20T15:58:51+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Introducing Cosmos 3 Edge (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Introducing Cosmos 3 Edge，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+      "title": "Reverse-engineering is cheap now",
+      "url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes. I think this is an interesting illustration of the impact of the reduced cost of writing code. Prior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer knows that undocumented, unstable APIs like that may well change or break in the future. Is that initial work worth the effort if you're committing yourself to a frustrating cycle of maintenance in the future? Coding agents change that equation entirely. The effort to get a simple automation working has dropped, as has the cost of trying and failing to get it to work. Since the code is so cheap, the idea of having to maintain it in the future - or throw it away and start again - carries way less psychological baggage. Tags: reverse-engineering, coding-agents, ai-assisted-programming, generative-ai, ai, llms",
+      "published": "2026-07-20T19:24:05+00:00",
+      "published_dt": "2026-07-20T19:24:05+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "Reverse-engineering is cheap now (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：Reverse-engineering is cheap now，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3144451",
+      "title": "Trump’s latest AI czar has already resigned",
+      "url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar.",
+      "published": "2026-07-20T22:21:04+00:00",
+      "published_dt": "2026-07-20T22:21:04+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Trump’s latest AI czar has already resigned (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Trump’s latest AI czar has already resigned，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3144366",
+      "title": "Google is working on a new AI chip designed to make Gemini more efficient",
+      "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Alphabet, Google's parent company, is reportedly working on a new chip designed to make its Gemini models run much more efficiently.",
+      "published": "2026-07-20T21:21:15+00:00",
+      "published_dt": "2026-07-20T21:21:15+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google is working on a new AI chip designed to make Gemini more efficient (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google is working on a new AI chip designed to make Gemini more efficient，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3144390",
+      "title": "AI’s most important protocol is getting a little bit easier to use",
+      "url": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Under the new system, the protocol will take a looser, \"stateless\" approach to session IDs on the server side, similar to how most ordinary websites already work.",
+      "published": "2026-07-20T20:50:40+00:00",
+      "published_dt": "2026-07-20T20:50:40+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI’s most important protocol is getting a little bit easier to use (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：AI’s most important protocol is getting a little bit easier to use，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3144280",
+      "title": "OpenAI is scared of open-weight models. Should the US be?",
+      "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Talk of banning Chinese-made open-weight LLMs reveals the challenge of turning AI into a business.",
+      "published": "2026-07-20T19:33:25+00:00",
+      "published_dt": "2026-07-20T19:33:25+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "OpenAI is scared of open-weight models. Should the US be? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI is scared of open-weight models. Should the US be?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48980019",
+      "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
+      "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-20T15:13:42+00:00",
+      "published_dt": "2026-07-20T15:13:42+00:00",
+      "hn_score": 296,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48978835",
+      "title": "Firefox 153 available with support for Vulkan video decoding, JPEG-XL",
+      "url": "https://www.phoronix.com/news/Firefox-153-Downloads",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-20T13:47:13+00:00",
+      "published_dt": "2026-07-20T13:47:13+00:00",
+      "hn_score": 241,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Firefox 153 available with support for Vulkan video decoding, JPEG-XL (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Firefox 153 available with support for Vulkan video decoding, JPEG-XL，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-48975665",
+      "title": "I found a WordPress RCEs with GPT5.6 and $25",
+      "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-20T08:13:36+00:00",
+      "published_dt": "2026-07-20T08:13:36+00:00",
+      "hn_score": 386,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "I found a WordPress RCEs with GPT5.6 and $25 (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：I found a WordPress RCEs with GPT5.6 and $25，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
