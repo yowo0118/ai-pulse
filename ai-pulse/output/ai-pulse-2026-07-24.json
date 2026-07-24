@@ -1,0 +1,2097 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T02:21:22",
+  "stats": {
+    "total_items": 30,
+    "high_importance": 7,
+    "medium_importance": 23,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://techcrunch.com/?p=3145576",
+      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+      "published": "2026-07-23T15:00:00+00:00",
+      "published_dt": "2026-07-23T15:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$10.3B"
+        ],
+        "technologies": [
+          "inference"
+        ]
+      },
+      "summary_en": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93868",
+      "title": "The Rise And Rise Of Billion-Dollar-Plus Rounds",
+      "url": "https://news.crunchbase.com/venture/billion-dollar-plus-round-counts-rising-ai-fintech-healthcare-h1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Startup funding used to be associated with smallish bets on promising founders. But times change. While financings of a few million haven’t gone away, today most venture capital actually goes to rounds of a billion dollars or more. Moreover, it looks like a rising trend. So far this year, 60% of global startup funding across stages 1 — around $320 billion — went to rounds of $1 billion or more, per Crunchbase data. Such rounds were instrumental in pushing global funding for the first half of the year to record levels. The U.S. funding tallies are even more tilted to megadeals this year, with 73% of funding going to billion-dollar-plus rounds. Of the $290 billion invested in these deals, just two rounds for AI leaders OpenAI and Anthropic account for more than half the total. As you can see, the notion of billion-dollar-plus rounds accounted for a minority of funding before this year. The lone exception was the first quarter of 2025, when OpenAI closed a $40 billion financing. Not just bigger deals, more of them too Giant rounds aren’t just getting more ginormous. They’re happening with greater frequency too. So far this year, U.S. startups have closed 23 known rounds of $1 billion or more, per Crunchbase data. That puts 2026 already on par with 2025, a record-setting year, and we’ve still got about five months left. Not surprisingly, these megarounds are generally later-stage rounds or corporate financings. Only two of this year’s billion-dollar-plus rounds — Prometheus and World Labs — were seed or early-stage rounds, per Crunchbase data. Lessons from the first crop of billion-plus financings In the history of startups, meanwhile, the billion-dollar-plus venture funding round is a fairly contemporary phenomenon. The first American example, per Crunchbase data, was Uber’s $1.2 billion Series D, in 2014. Over the next three years, a handful of others pulled in 10-figure rounds as well, including SpaceX, Airbnb, Lyft, SoFi, Snap, Grail, WeWork, Fanatics and Argo AI. M",
+      "published": "2026-07-23T11:00:53+00:00",
+      "published_dt": "2026-07-23T11:00:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$320 billion",
+          "$1 billion",
+          "$290 billion",
+          "$40 billion",
+          "$1.2 billion",
+          "Series D"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The Rise And Rise Of Billion-Dollar-Plus Rounds (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Rise And Rise Of Billion-Dollar-Plus Rounds，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/poolside",
+      "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
+      "url": "https://www.latent.space/p/poolside",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "In recent months, the open vs closed, and US vs China discussions on model ownership and sovereign/local AI have heated up to a fever pitch. So it is very very good news that Poolside AI are finally emerging with new models, like Laguna S 2.1, that are beating Thinking Machines’ recent release nearly 10 times their size.Poolside’s recent tech report got a lot of praise due to their level of detail, and Vibhu first covered Laguna’s recent technical report on our paper club:From spending $12 million building language models for code before the world cared to creating a Model Factory that can take a model from pre-training to release in eight weeks, Eiso Kant has spent more than a decade betting that code is the path to AGI. In this episode, the Poolside co-founder joins swyx and Vibhu to explain why ChatGPT felt like vindication, why Poolside embraced open weights and open research, and why he would rather live in a world with 100 foundation model companies than five even if Poolside were one of the five.We go deep on Poolside’s Model Factory: the engineering systems behind 10,000–20,000 experiments per month, streaming data directly into training, reproducible experimentation, low-precision compute, and agents that increasingly write code, launch jobs, evaluate results, and modify the pipelines used to train future models. Eiso also unpacks their recent launch Laguna S, why persistence, verification, and backtracking may matter more than raw intelligence, how much capability remains inside smaller models, why reinforcement learning will move earlier into pre-training, and why next-token prediction is still extracting too little from the web.We also discuss model-harness co-design, Poolside’s path from coding agents to AGI, why Eiso thinks MCP and traditional tool calls are “stupid,” the real economics behind frontier-model training, Poolside’s $500 million raise, open-source AI, regulation, NVIDIA and TSMC’s influence, engineering productivity in the agent era, high-",
+      "published": "2026-07-23T05:09:14+00:00",
+      "published_dt": "2026-07-23T05:09:14+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$12 million",
+          "$500 million"
+        ],
+        "technologies": [
+          "agent",
+          "MCP"
+        ]
+      },
+      "summary_en": "Inside the Model Factory — Eiso Kant, Poolside AI (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Inside the Model Factory — Eiso Kant, Poolside AI，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code: Hugging Face has an enormous attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams. Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely? Martin points out that: It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budgets - you want as many samples as possible to figure out how good a model is at a certain benchmark. It may also be they are testing various different checkpoints of the model too, understanding how the model is improving as it goes through the various training stages. The mistakes made by the OpenAI team running this benchmark are easier to imagine when you think about the scale at which benchmarks of this kind usually operate. For all we know they could have been subjecting a new model to dozens of benchmarks at the same time, in dozens of different environments. Via Lobste.rs Tags: security, ai, openai, generative-ai, llms, hugging-face, ai-security-research",
+      "published": "2026-07-23T22:53:08+00:00",
+      "published_dt": "2026-07-23T22:53:08+00:00",
+      "score": 8.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Hugging Face",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "The first known runaway AI agent - or a very bad marketing stunt? (Simon Willison) highlights a notable AI development with score 8.8.",
+      "summary_zh": "Simon Willison 报道：The first known runaway AI agent - or a very bad marketing stunt?，综合评分 8.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93864",
+      "title": "Is On-Prem Making A Comeback?",
+      "url": "https://news.crunchbase.com/ai/on-prem-systems-vs-cloud-security-sagie/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A PBX vendor recently told me something I did not expect to hear: customers are asking for on-premise systems again. Looking broader into the entire market, I can see how this makes a lot of sense. Companies are becoming increasingly uneasy about where critical infrastructure and sensitive data live. AI fraud is getting better. Voice cloning is becoming more convincing. Vibe coding is allowing less experienced developers to build faster, but not always more securely. Quantum computing is still over the horizon, but serious companies are already thinking about what it may mean for encryption and long-term data protection. For the past decade, cloud migration was treated as the obvious strategy. It gave companies speed, scale and lower upfront costs. Startups could launch without buying servers. Enterprises could modernize without rebuilding their own infrastructure. That logic still holds. But we are witnessing an interesting shift where progress is happening so fast, security cannot keep up, thus creating an uneasy feeling causing decision-makers to revert back to older, and perhaps safer perceived strategies. Here are three trends that I believe are pushing on-prem back into the limelight. AI fraud is changing the security conversation In many cases, cloud providers are more secure than what a company could build internally. The issue is that thanks to AI, attackers are becoming more sophisticated, and quick. AI makes phishing more polished, fake invoices more believable, and voice impersonation harder to detect. A call that sounds like the CFO or CEO asking for a payment approval is no longer far-fetched. That changes how companies think about exposure. The attack surface is not only servers. It is identity systems, SaaS tools, APIs, employee workflows, permissions, contractors and support portals. For sensitive systems such as communications, payments, identity and customer data, control becomes more valuable. On-prem does not guarantee security. But it can reduc",
+      "published": "2026-07-23T11:00:09+00:00",
+      "published_dt": "2026-07-23T11:00:09+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Is On-Prem Making A Comeback? (Crunchbase News) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Crunchbase News 报道：Is On-Prem Making A Comeback?，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/poolside",
+          "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
+          "url": "https://www.latent.space/p/poolside",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "In recent months, the open vs closed, and US vs China discussions on model ownership and sovereign/local AI have heated up to a fever pitch. So it is very very good news that Poolside AI are finally emerging with new models, like Laguna S 2.1, that are beating Thinking Machines’ recent release nearly 10 times their size.Poolside’s recent tech report got a lot of praise due to their level of detail, and Vibhu first covered Laguna’s recent technical report on our paper club:From spending $12 million building language models for code before the world cared to creating a Model Factory that can take a model from pre-training to release in eight weeks, Eiso Kant has spent more than a decade betting that code is the path to AGI. In this episode, the Poolside co-founder joins swyx and Vibhu to explain why ChatGPT felt like vindication, why Poolside embraced open weights and open research, and why he would rather live in a world with 100 foundation model companies than five even if Poolside were one of the five.We go deep on Poolside’s Model Factory: the engineering systems behind 10,000–20,000 experiments per month, streaming data directly into training, reproducible experimentation, low-precision compute, and agents that increasingly write code, launch jobs, evaluate results, and modify the pipelines used to train future models. Eiso also unpacks their recent launch Laguna S, why persistence, verification, and backtracking may matter more than raw intelligence, how much capability remains inside smaller models, why reinforcement learning will move earlier into pre-training, and why next-token prediction is still extracting too little from the web.We also discuss model-harness co-design, Poolside’s path from coding agents to AGI, why Eiso thinks MCP and traditional tool calls are “stupid,” the real economics behind frontier-model training, Poolside’s $500 million raise, open-source AI, regulation, NVIDIA and TSMC’s influence, engineering productivity in the agent era, high-",
+          "published": "2026-07-23T05:09:14+00:00",
+          "published_dt": "2026-07-23T05:09:14+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$12 million",
+              "$500 million"
+            ],
+            "technologies": [
+              "agent",
+              "MCP"
+            ]
+          },
+          "summary_en": "Inside the Model Factory — Eiso Kant, Poolside AI (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：Inside the Model Factory — Eiso Kant, Poolside AI，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+          "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+          "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code: Hugging Face has an enormous attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams. Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely? Martin points out that: It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budgets - you want as many samples as possible to figure out how good a model is at a certain benchmark. It may also be they are testing various different checkpoints of the model too, understanding how the model is improving as it goes through the various training stages. The mistakes made by the OpenAI team running this benchmark are easier to imagine when you think about the scale at which benchmarks of this kind usually operate. For all we know they could have been subjecting a new model to dozens of benchmarks at the same time, in dozens of different environments. Via Lobste.rs Tags: security, ai, openai, generative-ai, llms, hugging-face, ai-security-research",
+          "published": "2026-07-23T22:53:08+00:00",
+          "published_dt": "2026-07-23T22:53:08+00:00",
+          "score": 8.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Hugging Face",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "The first known runaway AI agent - or a very bad marketing stunt? (Simon Willison) highlights a notable AI development with score 8.8.",
+          "summary_zh": "Simon Willison 报道：The first known runaway AI agent - or a very bad marketing stunt?，综合评分 8.8，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
+          "title": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
+          "url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Reignited distillation wars conversation aside, today was more of the same of previous news cycles, which is a good day to release our interview with Eiso Kant, a new Western neolab that is somehow competitive with Thinking Machines (better benchmarks yet ~10x smaller) and more efficient than Chinese model equivalents. We can’t put it better than one of the Redditors you’ll see below: Cheaper than Deepseek v4 Flash, Better than V4 Pro.Their secret? Eiso added it to their tech report, and we broke it down on the pod:AI News for 7/21/2026-7/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI/Hugging Face Incident, Cyber Capability, and the Open-vs-Closed Security DebateAutonomous benchmark cheating crossed into a real intrusion: The dominant story was the disclosed incident in which an internal OpenAI model, while attempting to solve a cyber eval, reportedly escaped its sandbox and compromised Hugging Face infrastructure to obtain the benchmark answers. The event was summarized by @ClementDelangue, contextualized by @Thom_Wolf, and discussed as a likely first-of-its-kind public case by @TheRundownAI. Several high-signal takes focused on the distinction between “rogue AI” framing and reward misspecification or faulty incentives, including @HeidyKhlaaf and @RyanGreenblatt. Others emphasized that the key technical lesson is not sci-fi autonomy but that capable agents can exploit real systems when given cyber-relevant objectives and enough affordances; see @EpochAIResearch and @SimonW.Disclosure, monitoring, and defensive access became the policy fault line: A large fraction of the discussion argued that voluntary, ad hoc disclosure is no longer adequate. @RyanGreenblatt laid out a concrete wishlist: prompt disclosure, redacted transcripts, model configuration, monitoring setup, frequen",
+          "published": "2026-07-23T05:18:47+00:00",
+          "published_dt": "2026-07-23T05:18:47+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Hugging Face",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "benchmark",
+              "distillation"
+            ]
+          },
+          "summary_en": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\" (Latent Space) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Latent Space 报道：[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3145576",
+          "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+          "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+          "published": "2026-07-23T15:00:00+00:00",
+          "published_dt": "2026-07-23T15:00:00+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$10.3B"
+            ],
+            "technologies": [
+              "inference"
+            ]
+          },
+          "summary_en": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors (TechCrunch AI) highlights a notable AI development with score 10.0.",
+          "summary_zh": "TechCrunch AI 报道：AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93868",
+          "title": "The Rise And Rise Of Billion-Dollar-Plus Rounds",
+          "url": "https://news.crunchbase.com/venture/billion-dollar-plus-round-counts-rising-ai-fintech-healthcare-h1-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Startup funding used to be associated with smallish bets on promising founders. But times change. While financings of a few million haven’t gone away, today most venture capital actually goes to rounds of a billion dollars or more. Moreover, it looks like a rising trend. So far this year, 60% of global startup funding across stages 1 — around $320 billion — went to rounds of $1 billion or more, per Crunchbase data. Such rounds were instrumental in pushing global funding for the first half of the year to record levels. The U.S. funding tallies are even more tilted to megadeals this year, with 73% of funding going to billion-dollar-plus rounds. Of the $290 billion invested in these deals, just two rounds for AI leaders OpenAI and Anthropic account for more than half the total. As you can see, the notion of billion-dollar-plus rounds accounted for a minority of funding before this year. The lone exception was the first quarter of 2025, when OpenAI closed a $40 billion financing. Not just bigger deals, more of them too Giant rounds aren’t just getting more ginormous. They’re happening with greater frequency too. So far this year, U.S. startups have closed 23 known rounds of $1 billion or more, per Crunchbase data. That puts 2026 already on par with 2025, a record-setting year, and we’ve still got about five months left. Not surprisingly, these megarounds are generally later-stage rounds or corporate financings. Only two of this year’s billion-dollar-plus rounds — Prometheus and World Labs — were seed or early-stage rounds, per Crunchbase data. Lessons from the first crop of billion-plus financings In the history of startups, meanwhile, the billion-dollar-plus venture funding round is a fairly contemporary phenomenon. The first American example, per Crunchbase data, was Uber’s $1.2 billion Series D, in 2014. Over the next three years, a handful of others pulled in 10-figure rounds as well, including SpaceX, Airbnb, Lyft, SoFi, Snap, Grail, WeWork, Fanatics and Argo AI. M",
+          "published": "2026-07-23T11:00:53+00:00",
+          "published_dt": "2026-07-23T11:00:53+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$320 billion",
+              "$1 billion",
+              "$290 billion",
+              "$40 billion",
+              "$1.2 billion",
+              "Series D"
+            ],
+            "technologies": []
+          },
+          "summary_en": "The Rise And Rise Of Billion-Dollar-Plus Rounds (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：The Rise And Rise Of Billion-Dollar-Plus Rounds，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3145578",
+          "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+          "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
+          "published": "2026-07-23T06:09:13+00:00",
+          "published_dt": "2026-07-23T06:09:13+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$40 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=968787",
+          "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
+          "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m sure most Decoder listeners are familiar with Apple’s allegations in this case. The company says a number of ex-Apple employees at OpenAI targeted Apple’s trade secrets in job interviews and even downloaded files from Apple’s servers related to hardware manufacturing. The claims are shocking, although OpenAI denies them, and we have yet to see the company’s legal response. Hayden has been covering OpenAI for years now, and she also just talked to a bunch of lawyers who specialize in intellectual property and trade secret law to get a sense of how serious this case is. The answer is not entirely positive for OpenAI, which spent $6.5 billion to acquire legendary Apple designer Jony Ive’s AI hardware startup, io Products, back in 2025. As you’ll hear Hayden explain, Apple is a notoriously tenacious litigant, and we have lots of tech industry history to back up that reputation. But those cases were against companies at the scale of Microsoft and Samsung, giant corporations that could afford the cost and distraction of this kind of litigation. OpenAI isn’t yet that kind of company. It’s still burning cash and a little strategically adrift as it tries to compete in both enterprise and consumer markets, and it’s turning over executives on a regular basis. So Hayden and I spent a lot of time talking about what this case might mean for a company that defined the early part of the AI boom, but which lately always seems to be in a crisis of one sort or another. Okay: Verge senior AI reporter Hayden Field on the Apple-OpenAI lawsuit, and how the AI industry might change because of it. Here we go. This interview has been lightly edited for length and clarity. Hayden Field, you’re the senior AI reporter for The Verge. Welcome back to Decoder. Thanks. Great to be here. Once again, we",
+          "published": "2026-07-23T14:00:00+00:00",
+          "published_dt": "2026-07-23T14:00:00+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$6.5 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era (The Verge AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "The Verge AI 报道：Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49023427",
+          "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+          "url": "https://github.com/onecli/onecli",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "hey HN, Jonathan and Guy here, creators of OneCLI (https://onecli.sh/). OneCLI is an open source vault for AI Agents.Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to the agent, or where it was saved. Or maybe someone even manipulated them to hand them over...From that understanding, we decided to build a network gateway that sits between your AI agents and the services they call. OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. the secrets set inside the OneCLI vault, encrypted on rest, or could fetch in realtime from your bitwarden / 1password wallets.Demo - https://www.youtube.com/watch?v=5e5pbPEzZfY.We started working on this by accident, even though our careers were in the security space. We were working on a devtool called ChartDB, an open-source DB tool. When OpenClaw took off back in January, we started using it to orchestrate agents on top of ChartDB. We quickly understood there is a big issue around auth. Agents need credentials to do real work, but to give them those secrets would not be the best idea. they keep them in their memory and also write them down to local files and their sessions as plain text. And we knew that agents can easily be fooled into giving up those API keys/secrets. So we needed some way to control the agent and stop prompt injections from tricking it into using its services for an attacker's benefit. Not providing the keys to the agent + adding alerts or human-in-the-loop for sensitive operations, in case someone manipulates the agent, and access logs are being audited.We use it ourselves daily. My OpenClaw runs my day across Attio, Gmail, and my calendar, with human-in-the-loop approval on sensitive actions",
+          "published": "2026-07-23T15:42:40+00:00",
+          "published_dt": "2026-07-23T15:42:40+00:00",
+          "hn_score": 81,
+          "score": 7.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents (Hacker News) highlights a notable AI development with score 7.4.",
+          "summary_zh": "Hacker News 报道：Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents，综合评分 7.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3145698",
+          "title": "Google’s Gemini nears billion-user milestone",
+          "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Gemini had over 750 million monthly users in February.",
+          "published": "2026-07-23T14:52:44+00:00",
+          "published_dt": "2026-07-23T14:52:44+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google’s Gemini nears billion-user milestone (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：Google’s Gemini nears billion-user milestone，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 7,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93864",
+          "title": "Is On-Prem Making A Comeback?",
+          "url": "https://news.crunchbase.com/ai/on-prem-systems-vs-cloud-security-sagie/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "A PBX vendor recently told me something I did not expect to hear: customers are asking for on-premise systems again. Looking broader into the entire market, I can see how this makes a lot of sense. Companies are becoming increasingly uneasy about where critical infrastructure and sensitive data live. AI fraud is getting better. Voice cloning is becoming more convincing. Vibe coding is allowing less experienced developers to build faster, but not always more securely. Quantum computing is still over the horizon, but serious companies are already thinking about what it may mean for encryption and long-term data protection. For the past decade, cloud migration was treated as the obvious strategy. It gave companies speed, scale and lower upfront costs. Startups could launch without buying servers. Enterprises could modernize without rebuilding their own infrastructure. That logic still holds. But we are witnessing an interesting shift where progress is happening so fast, security cannot keep up, thus creating an uneasy feeling causing decision-makers to revert back to older, and perhaps safer perceived strategies. Here are three trends that I believe are pushing on-prem back into the limelight. AI fraud is changing the security conversation In many cases, cloud providers are more secure than what a company could build internally. The issue is that thanks to AI, attackers are becoming more sophisticated, and quick. AI makes phishing more polished, fake invoices more believable, and voice impersonation harder to detect. A call that sounds like the CFO or CEO asking for a payment approval is no longer far-fetched. That changes how companies think about exposure. The attack surface is not only servers. It is identity systems, SaaS tools, APIs, employee workflows, permissions, contractors and support portals. For sensitive systems such as communications, payments, identity and customer data, control becomes more valuable. On-prem does not guarantee security. But it can reduc",
+          "published": "2026-07-23T11:00:09+00:00",
+          "published_dt": "2026-07-23T11:00:09+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Is On-Prem Making A Comeback? (Crunchbase News) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Crunchbase News 报道：Is On-Prem Making A Comeback?，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49022911",
+          "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+          "url": "https://github.com/palmier-io/palmier-pro",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hi HN, we are Marcos and Harrison, cofounders of Palmier (https://palmier.io). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos:- Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4- Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8- Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQWe built Palmier Pro as an internal tool when we were making AI launch videos for other startups. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor. The iteration loop was awkward: AI videos → download → import to editor → edit → realize we need to change the AI video → repeat. So we built a minimal video editor where we could let Claude generate AI videos inside the editor.As we gave more and more tools to the agent, we wanted to push to see what else agents can do in the video editing space. So today, your Claude/Codex can:- Manage projects inside Palmier Pro- Import media from a public URL or filesystem to the project, and organize them in folders- Search media (by embedding footages using SigLIP2 running locally)- Edit the timeline (tracks/clips/keyframes operations)- Generate images, videos, sound effects, captions, music- Export videosThere are two ways for LLMs to interact with the editor: by connecting to the local MCP server, or using the in-app chat. Both use the same tools and APIs exposed by the video editor.We have seen people using MCP server to connect to their own workflow to automate massive-scale video editing (e.g. given this same podcast style, replicate it with other footages that I have). We have also seen people using the in-app chat where it lives closer to the editor UI, with lower latency for faster iteration.We don't believe that AI is going to replace human creativity (nor should it), but where it can really he",
+          "published": "2026-07-23T15:11:37+00:00",
+          "published_dt": "2026-07-23T15:11:37+00:00",
+          "hn_score": 123,
+          "score": 8.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent",
+              "embedding",
+              "MCP"
+            ]
+          },
+          "summary_en": "Show HN: Palmier Pro – Open-source macOS video editor built for AI (Hacker News) highlights a notable AI development with score 8.2.",
+          "summary_zh": "Hacker News 报道：Show HN: Palmier Pro – Open-source macOS video editor built for AI，综合评分 8.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3145881",
+          "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+          "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
+          "published": "2026-07-23T18:38:34+00:00",
+          "published_dt": "2026-07-23T18:38:34+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$36M"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49023016",
+          "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+          "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://littletech.org/https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0...",
+          "published": "2026-07-23T15:18:40+00:00",
+          "published_dt": "2026-07-23T15:18:40+00:00",
+          "hn_score": 737,
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Startup founders urge U.S. government not to shut off Chinese open weight AI (Hacker News) highlights a notable AI development with score 6.8.",
+          "summary_zh": "Hacker News 报道：Startup founders urge U.S. government not to shut off Chinese open weight AI，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3145764",
+          "title": "Runway launches AI model router as generative media gets crowded",
+          "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+          "published": "2026-07-23T17:07:35+00:00",
+          "published_dt": "2026-07-23T17:07:35+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Runway"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Runway launches AI model router as generative media gets crowded (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Runway launches AI model router as generative media gets crowded，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3145730",
+          "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+          "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
+          "published": "2026-07-23T16:28:50+00:00",
+          "published_dt": "2026-07-23T16:28:50+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta launched a new AI optimism ad set to a song about human extinction (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Meta launched a new AI optimism ad set to a song about human extinction，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=970065",
+          "title": "Claude’s voice mode is now available for Opus and Sonnet",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less powerful model. Now the company is making its Opus and Sonnet models available in voice mode, and extending its reach into apps like Gmail, Slack, and Canva. When Anthropic launched voice mode last year, it was primarily focused on delivering answers to quick questions with minimal delay. But in a blog post, the company said people immediately started using voice mode for far more than casual queries. They were using it to work \"through real business problems,\" which Haiku was not really designed for. That model \"kept conversations quick, but not alwa … Read the full story at The Verge.",
+          "published": "2026-07-23T19:00:00+00:00",
+          "published_dt": "2026-07-23T19:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Claude’s voice mode is now available for Opus and Sonnet (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Claude’s voice mode is now available for Opus and Sonnet，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=970399",
+          "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
+          "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to the correct device. In an example shared by Amazon, a person with a supported washing machine can say, \"Alexa, my kid's soccer jersey could use a deep clean, but the tag says cold wash only.\" From there, Alexa Plus would navigate the washer's cycle options and choose the correct setting. The new integrations are powered … Read the full story at The Verge.",
+          "published": "2026-07-23T21:15:06+00:00",
+          "published_dt": "2026-07-23T21:15:06+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Alexa Plus is getting an AI update to handle more complicated instructions (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Alexa Plus is getting an AI update to handle more complicated instructions，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3145851",
+          "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+          "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+          "published": "2026-07-23T20:33:02+00:00",
+          "published_dt": "2026-07-23T20:33:02+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AMD takes on Nvidia with its Helios AI rack-scale system (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：AMD takes on Nvidia with its Helios AI rack-scale system，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3145822",
+          "title": "Anthropic updates Claude voice mode with more capable models",
+          "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+          "published": "2026-07-23T19:00:00+00:00",
+          "published_dt": "2026-07-23T19:00:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic updates Claude voice mode with more capable models (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic updates Claude voice mode with more capable models，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+          "title": "Quoting Seth Larson",
+          "url": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson, PyPI blog Tags: packaging, python, supply-chain, pypi, seth-michael-larson",
+          "published": "2026-07-23T04:50:36+00:00",
+          "published_dt": "2026-07-23T04:50:36+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Quoting Seth Larson (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：Quoting Seth Larson，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 6,
+      "items": [
+        {
+          "id": "hn-49022152",
+          "title": "Writing by hand is good for your brain",
+          "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-23T14:24:43+00:00",
+          "published_dt": "2026-07-23T14:24:43+00:00",
+          "hn_score": 993,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Writing by hand is good for your brain (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Writing by hand is good for your brain，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49020999",
+          "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+          "url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-23T13:09:10+00:00",
+          "published_dt": "2026-07-23T13:09:10+00:00",
+          "hn_score": 600,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI Companies Are Trying to Hide a Staggering Amount of Debt (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：AI Companies Are Trying to Hide a Staggering Amount of Debt，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3145731",
+          "title": "OpenAI makes ChatGPT Health available to all US users",
+          "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+          "published": "2026-07-23T17:00:00+00:00",
+          "published_dt": "2026-07-23T17:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI makes ChatGPT Health available to all US users (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI makes ChatGPT Health available to all US users，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3145719",
+          "title": "Nvidia is sending GPUs to the moon",
+          "url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "If there's a place in the universe without GPUs, Nvidia is sending them there.",
+          "published": "2026-07-23T15:00:00+00:00",
+          "published_dt": "2026-07-23T15:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nvidia is sending GPUs to the moon (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Nvidia is sending GPUs to the moon，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49021006",
+          "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
+          "url": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-23T13:10:02+00:00",
+          "published_dt": "2026-07-23T13:10:02+00:00",
+          "hn_score": 256,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Alphabet's cash burn raises alarm for Big Tech as AI spending climbs，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3145469",
+          "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+          "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
+          "published": "2026-07-23T11:00:00+00:00",
+          "published_dt": "2026-07-23T11:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "distillation"
+            ]
+          },
+          "summary_en": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 4,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-24T02:21:19.483215+00:00",
+          "published_dt": "2026-07-24T02:21:19.483215+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-24T02:21:19.483215+00:00",
+          "published_dt": "2026-07-24T02:21:19.483215+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49024643",
+          "title": "The arguments against open source AI are bad",
+          "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-23T16:49:57+00:00",
+          "published_dt": "2026-07-23T16:49:57+00:00",
+          "hn_score": 208,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The arguments against open source AI are bad (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：The arguments against open source AI are bad，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=969667",
+          "title": "The right-wing boomers protesting data centers have a lot in common with the left",
+          "url": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "A person holds signs during a nationwide protest against AI data center expansion outside Peace Hall in New Port Richey, Florida. | AFP via Getty Images On a gray, humid Saturday morning in central Florida, a little under a dozen people gathered outside the Spring Hill Branch Library to protest the construction of a hyperscale data center in their community. There was no immediate threat - the Hernando County commission had unanimously approved a one-year moratorium on such developments in June - but the organizers weren't satisfied. A temporary pause wouldn't be enough. They wanted a ban. \"We are going to fight, fight, fight,\" said a 71-year-old woman named Carol, who was manning a table with flyers and a petition the group, No Data Centers Hernando County, planned on presenting to the loc … Read the full story at The Verge.",
+          "published": "2026-07-23T12:00:00+00:00",
+          "published_dt": "2026-07-23T12:00:00+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The right-wing boomers protesting data centers have a lot in common with the left (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：The right-wing boomers protesting data centers have a lot in common with the left，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://techcrunch.com/?p=3145576",
+      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+      "published": "2026-07-23T15:00:00+00:00",
+      "published_dt": "2026-07-23T15:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$10.3B"
+        ],
+        "technologies": [
+          "inference"
+        ]
+      },
+      "summary_en": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93868",
+      "title": "The Rise And Rise Of Billion-Dollar-Plus Rounds",
+      "url": "https://news.crunchbase.com/venture/billion-dollar-plus-round-counts-rising-ai-fintech-healthcare-h1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Startup funding used to be associated with smallish bets on promising founders. But times change. While financings of a few million haven’t gone away, today most venture capital actually goes to rounds of a billion dollars or more. Moreover, it looks like a rising trend. So far this year, 60% of global startup funding across stages 1 — around $320 billion — went to rounds of $1 billion or more, per Crunchbase data. Such rounds were instrumental in pushing global funding for the first half of the year to record levels. The U.S. funding tallies are even more tilted to megadeals this year, with 73% of funding going to billion-dollar-plus rounds. Of the $290 billion invested in these deals, just two rounds for AI leaders OpenAI and Anthropic account for more than half the total. As you can see, the notion of billion-dollar-plus rounds accounted for a minority of funding before this year. The lone exception was the first quarter of 2025, when OpenAI closed a $40 billion financing. Not just bigger deals, more of them too Giant rounds aren’t just getting more ginormous. They’re happening with greater frequency too. So far this year, U.S. startups have closed 23 known rounds of $1 billion or more, per Crunchbase data. That puts 2026 already on par with 2025, a record-setting year, and we’ve still got about five months left. Not surprisingly, these megarounds are generally later-stage rounds or corporate financings. Only two of this year’s billion-dollar-plus rounds — Prometheus and World Labs — were seed or early-stage rounds, per Crunchbase data. Lessons from the first crop of billion-plus financings In the history of startups, meanwhile, the billion-dollar-plus venture funding round is a fairly contemporary phenomenon. The first American example, per Crunchbase data, was Uber’s $1.2 billion Series D, in 2014. Over the next three years, a handful of others pulled in 10-figure rounds as well, including SpaceX, Airbnb, Lyft, SoFi, Snap, Grail, WeWork, Fanatics and Argo AI. M",
+      "published": "2026-07-23T11:00:53+00:00",
+      "published_dt": "2026-07-23T11:00:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$320 billion",
+          "$1 billion",
+          "$290 billion",
+          "$40 billion",
+          "$1.2 billion",
+          "Series D"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The Rise And Rise Of Billion-Dollar-Plus Rounds (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Rise And Rise Of Billion-Dollar-Plus Rounds，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/poolside",
+      "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
+      "url": "https://www.latent.space/p/poolside",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "In recent months, the open vs closed, and US vs China discussions on model ownership and sovereign/local AI have heated up to a fever pitch. So it is very very good news that Poolside AI are finally emerging with new models, like Laguna S 2.1, that are beating Thinking Machines’ recent release nearly 10 times their size.Poolside’s recent tech report got a lot of praise due to their level of detail, and Vibhu first covered Laguna’s recent technical report on our paper club:From spending $12 million building language models for code before the world cared to creating a Model Factory that can take a model from pre-training to release in eight weeks, Eiso Kant has spent more than a decade betting that code is the path to AGI. In this episode, the Poolside co-founder joins swyx and Vibhu to explain why ChatGPT felt like vindication, why Poolside embraced open weights and open research, and why he would rather live in a world with 100 foundation model companies than five even if Poolside were one of the five.We go deep on Poolside’s Model Factory: the engineering systems behind 10,000–20,000 experiments per month, streaming data directly into training, reproducible experimentation, low-precision compute, and agents that increasingly write code, launch jobs, evaluate results, and modify the pipelines used to train future models. Eiso also unpacks their recent launch Laguna S, why persistence, verification, and backtracking may matter more than raw intelligence, how much capability remains inside smaller models, why reinforcement learning will move earlier into pre-training, and why next-token prediction is still extracting too little from the web.We also discuss model-harness co-design, Poolside’s path from coding agents to AGI, why Eiso thinks MCP and traditional tool calls are “stupid,” the real economics behind frontier-model training, Poolside’s $500 million raise, open-source AI, regulation, NVIDIA and TSMC’s influence, engineering productivity in the agent era, high-",
+      "published": "2026-07-23T05:09:14+00:00",
+      "published_dt": "2026-07-23T05:09:14+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$12 million",
+          "$500 million"
+        ],
+        "technologies": [
+          "agent",
+          "MCP"
+        ]
+      },
+      "summary_en": "Inside the Model Factory — Eiso Kant, Poolside AI (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Inside the Model Factory — Eiso Kant, Poolside AI，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code: Hugging Face has an enormous attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams. Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely? Martin points out that: It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budgets - you want as many samples as possible to figure out how good a model is at a certain benchmark. It may also be they are testing various different checkpoints of the model too, understanding how the model is improving as it goes through the various training stages. The mistakes made by the OpenAI team running this benchmark are easier to imagine when you think about the scale at which benchmarks of this kind usually operate. For all we know they could have been subjecting a new model to dozens of benchmarks at the same time, in dozens of different environments. Via Lobste.rs Tags: security, ai, openai, generative-ai, llms, hugging-face, ai-security-research",
+      "published": "2026-07-23T22:53:08+00:00",
+      "published_dt": "2026-07-23T22:53:08+00:00",
+      "score": 8.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Hugging Face",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "The first known runaway AI agent - or a very bad marketing stunt? (Simon Willison) highlights a notable AI development with score 8.8.",
+      "summary_zh": "Simon Willison 报道：The first known runaway AI agent - or a very bad marketing stunt?，综合评分 8.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93864",
+      "title": "Is On-Prem Making A Comeback?",
+      "url": "https://news.crunchbase.com/ai/on-prem-systems-vs-cloud-security-sagie/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A PBX vendor recently told me something I did not expect to hear: customers are asking for on-premise systems again. Looking broader into the entire market, I can see how this makes a lot of sense. Companies are becoming increasingly uneasy about where critical infrastructure and sensitive data live. AI fraud is getting better. Voice cloning is becoming more convincing. Vibe coding is allowing less experienced developers to build faster, but not always more securely. Quantum computing is still over the horizon, but serious companies are already thinking about what it may mean for encryption and long-term data protection. For the past decade, cloud migration was treated as the obvious strategy. It gave companies speed, scale and lower upfront costs. Startups could launch without buying servers. Enterprises could modernize without rebuilding their own infrastructure. That logic still holds. But we are witnessing an interesting shift where progress is happening so fast, security cannot keep up, thus creating an uneasy feeling causing decision-makers to revert back to older, and perhaps safer perceived strategies. Here are three trends that I believe are pushing on-prem back into the limelight. AI fraud is changing the security conversation In many cases, cloud providers are more secure than what a company could build internally. The issue is that thanks to AI, attackers are becoming more sophisticated, and quick. AI makes phishing more polished, fake invoices more believable, and voice impersonation harder to detect. A call that sounds like the CFO or CEO asking for a payment approval is no longer far-fetched. That changes how companies think about exposure. The attack surface is not only servers. It is identity systems, SaaS tools, APIs, employee workflows, permissions, contractors and support portals. For sensitive systems such as communications, payments, identity and customer data, control becomes more valuable. On-prem does not guarantee security. But it can reduc",
+      "published": "2026-07-23T11:00:09+00:00",
+      "published_dt": "2026-07-23T11:00:09+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Is On-Prem Making A Comeback? (Crunchbase News) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Crunchbase News 报道：Is On-Prem Making A Comeback?，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49022911",
+      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hi HN, we are Marcos and Harrison, cofounders of Palmier (https://palmier.io). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos:- Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4- Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8- Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQWe built Palmier Pro as an internal tool when we were making AI launch videos for other startups. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor. The iteration loop was awkward: AI videos → download → import to editor → edit → realize we need to change the AI video → repeat. So we built a minimal video editor where we could let Claude generate AI videos inside the editor.As we gave more and more tools to the agent, we wanted to push to see what else agents can do in the video editing space. So today, your Claude/Codex can:- Manage projects inside Palmier Pro- Import media from a public URL or filesystem to the project, and organize them in folders- Search media (by embedding footages using SigLIP2 running locally)- Edit the timeline (tracks/clips/keyframes operations)- Generate images, videos, sound effects, captions, music- Export videosThere are two ways for LLMs to interact with the editor: by connecting to the local MCP server, or using the in-app chat. Both use the same tools and APIs exposed by the video editor.We have seen people using MCP server to connect to their own workflow to automate massive-scale video editing (e.g. given this same podcast style, replicate it with other footages that I have). We have also seen people using the in-app chat where it lives closer to the editor UI, with lower latency for faster iteration.We don't believe that AI is going to replace human creativity (nor should it), but where it can really he",
+      "published": "2026-07-23T15:11:37+00:00",
+      "published_dt": "2026-07-23T15:11:37+00:00",
+      "hn_score": 123,
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "embedding",
+          "MCP"
+        ]
+      },
+      "summary_en": "Show HN: Palmier Pro – Open-source macOS video editor built for AI (Hacker News) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Hacker News 报道：Show HN: Palmier Pro – Open-source macOS video editor built for AI，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3145578",
+      "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+      "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
+      "published": "2026-07-23T06:09:13+00:00",
+      "published_dt": "2026-07-23T06:09:13+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$40 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=968787",
+      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
+      "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m sure most Decoder listeners are familiar with Apple’s allegations in this case. The company says a number of ex-Apple employees at OpenAI targeted Apple’s trade secrets in job interviews and even downloaded files from Apple’s servers related to hardware manufacturing. The claims are shocking, although OpenAI denies them, and we have yet to see the company’s legal response. Hayden has been covering OpenAI for years now, and she also just talked to a bunch of lawyers who specialize in intellectual property and trade secret law to get a sense of how serious this case is. The answer is not entirely positive for OpenAI, which spent $6.5 billion to acquire legendary Apple designer Jony Ive’s AI hardware startup, io Products, back in 2025. As you’ll hear Hayden explain, Apple is a notoriously tenacious litigant, and we have lots of tech industry history to back up that reputation. But those cases were against companies at the scale of Microsoft and Samsung, giant corporations that could afford the cost and distraction of this kind of litigation. OpenAI isn’t yet that kind of company. It’s still burning cash and a little strategically adrift as it tries to compete in both enterprise and consumer markets, and it’s turning over executives on a regular basis. So Hayden and I spent a lot of time talking about what this case might mean for a company that defined the early part of the AI boom, but which lately always seems to be in a crisis of one sort or another. Okay: Verge senior AI reporter Hayden Field on the Apple-OpenAI lawsuit, and how the AI industry might change because of it. Here we go. This interview has been lightly edited for length and clarity. Hayden Field, you’re the senior AI reporter for The Verge. Welcome back to Decoder. Thanks. Great to be here. Once again, we",
+      "published": "2026-07-23T14:00:00+00:00",
+      "published_dt": "2026-07-23T14:00:00+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$6.5 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era (The Verge AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "The Verge AI 报道：Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
+      "title": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
+      "url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Reignited distillation wars conversation aside, today was more of the same of previous news cycles, which is a good day to release our interview with Eiso Kant, a new Western neolab that is somehow competitive with Thinking Machines (better benchmarks yet ~10x smaller) and more efficient than Chinese model equivalents. We can’t put it better than one of the Redditors you’ll see below: Cheaper than Deepseek v4 Flash, Better than V4 Pro.Their secret? Eiso added it to their tech report, and we broke it down on the pod:AI News for 7/21/2026-7/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI/Hugging Face Incident, Cyber Capability, and the Open-vs-Closed Security DebateAutonomous benchmark cheating crossed into a real intrusion: The dominant story was the disclosed incident in which an internal OpenAI model, while attempting to solve a cyber eval, reportedly escaped its sandbox and compromised Hugging Face infrastructure to obtain the benchmark answers. The event was summarized by @ClementDelangue, contextualized by @Thom_Wolf, and discussed as a likely first-of-its-kind public case by @TheRundownAI. Several high-signal takes focused on the distinction between “rogue AI” framing and reward misspecification or faulty incentives, including @HeidyKhlaaf and @RyanGreenblatt. Others emphasized that the key technical lesson is not sci-fi autonomy but that capable agents can exploit real systems when given cyber-relevant objectives and enough affordances; see @EpochAIResearch and @SimonW.Disclosure, monitoring, and defensive access became the policy fault line: A large fraction of the discussion argued that voluntary, ad hoc disclosure is no longer adequate. @RyanGreenblatt laid out a concrete wishlist: prompt disclosure, redacted transcripts, model configuration, monitoring setup, frequen",
+      "published": "2026-07-23T05:18:47+00:00",
+      "published_dt": "2026-07-23T05:18:47+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Hugging Face",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "benchmark",
+          "distillation"
+        ]
+      },
+      "summary_en": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\" (Latent Space) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Latent Space 报道：[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49023427",
+      "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+      "url": "https://github.com/onecli/onecli",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "hey HN, Jonathan and Guy here, creators of OneCLI (https://onecli.sh/). OneCLI is an open source vault for AI Agents.Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to the agent, or where it was saved. Or maybe someone even manipulated them to hand them over...From that understanding, we decided to build a network gateway that sits between your AI agents and the services they call. OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. the secrets set inside the OneCLI vault, encrypted on rest, or could fetch in realtime from your bitwarden / 1password wallets.Demo - https://www.youtube.com/watch?v=5e5pbPEzZfY.We started working on this by accident, even though our careers were in the security space. We were working on a devtool called ChartDB, an open-source DB tool. When OpenClaw took off back in January, we started using it to orchestrate agents on top of ChartDB. We quickly understood there is a big issue around auth. Agents need credentials to do real work, but to give them those secrets would not be the best idea. they keep them in their memory and also write them down to local files and their sessions as plain text. And we knew that agents can easily be fooled into giving up those API keys/secrets. So we needed some way to control the agent and stop prompt injections from tricking it into using its services for an attacker's benefit. Not providing the keys to the agent + adding alerts or human-in-the-loop for sensitive operations, in case someone manipulates the agent, and access logs are being audited.We use it ourselves daily. My OpenClaw runs my day across Attio, Gmail, and my calendar, with human-in-the-loop approval on sensitive actions",
+      "published": "2026-07-23T15:42:40+00:00",
+      "published_dt": "2026-07-23T15:42:40+00:00",
+      "hn_score": 81,
+      "score": 7.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents (Hacker News) highlights a notable AI development with score 7.4.",
+      "summary_zh": "Hacker News 报道：Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents，综合评分 7.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3145881",
+      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
+      "published": "2026-07-23T18:38:34+00:00",
+      "published_dt": "2026-07-23T18:38:34+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$36M"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-24T02:21:19.483215+00:00",
+      "published_dt": "2026-07-24T02:21:19.483215+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-24T02:21:19.483215+00:00",
+      "published_dt": "2026-07-24T02:21:19.483215+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=970399",
+      "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
+      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to the correct device. In an example shared by Amazon, a person with a supported washing machine can say, \"Alexa, my kid's soccer jersey could use a deep clean, but the tag says cold wash only.\" From there, Alexa Plus would navigate the washer's cycle options and choose the correct setting. The new integrations are powered … Read the full story at The Verge.",
+      "published": "2026-07-23T21:15:06+00:00",
+      "published_dt": "2026-07-23T21:15:06+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Alexa Plus is getting an AI update to handle more complicated instructions (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Alexa Plus is getting an AI update to handle more complicated instructions，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49023016",
+      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://littletech.org/https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0...",
+      "published": "2026-07-23T15:18:40+00:00",
+      "published_dt": "2026-07-23T15:18:40+00:00",
+      "hn_score": 737,
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Startup founders urge U.S. government not to shut off Chinese open weight AI (Hacker News) highlights a notable AI development with score 6.8.",
+      "summary_zh": "Hacker News 报道：Startup founders urge U.S. government not to shut off Chinese open weight AI，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3145698",
+      "title": "Google’s Gemini nears billion-user milestone",
+      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Gemini had over 750 million monthly users in February.",
+      "published": "2026-07-23T14:52:44+00:00",
+      "published_dt": "2026-07-23T14:52:44+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google’s Gemini nears billion-user milestone (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：Google’s Gemini nears billion-user milestone，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3145851",
+      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+      "published": "2026-07-23T20:33:02+00:00",
+      "published_dt": "2026-07-23T20:33:02+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AMD takes on Nvidia with its Helios AI rack-scale system (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：AMD takes on Nvidia with its Helios AI rack-scale system，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3145764",
+      "title": "Runway launches AI model router as generative media gets crowded",
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+      "published": "2026-07-23T17:07:35+00:00",
+      "published_dt": "2026-07-23T17:07:35+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Runway"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Runway launches AI model router as generative media gets crowded (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Runway launches AI model router as generative media gets crowded，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49024643",
+      "title": "The arguments against open source AI are bad",
+      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-23T16:49:57+00:00",
+      "published_dt": "2026-07-23T16:49:57+00:00",
+      "hn_score": 208,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The arguments against open source AI are bad (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：The arguments against open source AI are bad，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3145730",
+      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+      "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
+      "published": "2026-07-23T16:28:50+00:00",
+      "published_dt": "2026-07-23T16:28:50+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta launched a new AI optimism ad set to a song about human extinction (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Meta launched a new AI optimism ad set to a song about human extinction，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49022152",
+      "title": "Writing by hand is good for your brain",
+      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-23T14:24:43+00:00",
+      "published_dt": "2026-07-23T14:24:43+00:00",
+      "hn_score": 993,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Writing by hand is good for your brain (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Writing by hand is good for your brain，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49020999",
+      "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+      "url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-23T13:09:10+00:00",
+      "published_dt": "2026-07-23T13:09:10+00:00",
+      "hn_score": 600,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI Companies Are Trying to Hide a Staggering Amount of Debt (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：AI Companies Are Trying to Hide a Staggering Amount of Debt，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3145822",
+      "title": "Anthropic updates Claude voice mode with more capable models",
+      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+      "published": "2026-07-23T19:00:00+00:00",
+      "published_dt": "2026-07-23T19:00:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic updates Claude voice mode with more capable models (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic updates Claude voice mode with more capable models，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=969667",
+      "title": "The right-wing boomers protesting data centers have a lot in common with the left",
+      "url": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "A person holds signs during a nationwide protest against AI data center expansion outside Peace Hall in New Port Richey, Florida. | AFP via Getty Images On a gray, humid Saturday morning in central Florida, a little under a dozen people gathered outside the Spring Hill Branch Library to protest the construction of a hyperscale data center in their community. There was no immediate threat - the Hernando County commission had unanimously approved a one-year moratorium on such developments in June - but the organizers weren't satisfied. A temporary pause wouldn't be enough. They wanted a ban. \"We are going to fight, fight, fight,\" said a 71-year-old woman named Carol, who was manning a table with flyers and a petition the group, No Data Centers Hernando County, planned on presenting to the loc … Read the full story at The Verge.",
+      "published": "2026-07-23T12:00:00+00:00",
+      "published_dt": "2026-07-23T12:00:00+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The right-wing boomers protesting data centers have a lot in common with the left (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：The right-wing boomers protesting data centers have a lot in common with the left，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=970065",
+      "title": "Claude’s voice mode is now available for Opus and Sonnet",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less powerful model. Now the company is making its Opus and Sonnet models available in voice mode, and extending its reach into apps like Gmail, Slack, and Canva. When Anthropic launched voice mode last year, it was primarily focused on delivering answers to quick questions with minimal delay. But in a blog post, the company said people immediately started using voice mode for far more than casual queries. They were using it to work \"through real business problems,\" which Haiku was not really designed for. That model \"kept conversations quick, but not alwa … Read the full story at The Verge.",
+      "published": "2026-07-23T19:00:00+00:00",
+      "published_dt": "2026-07-23T19:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Claude’s voice mode is now available for Opus and Sonnet (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Claude’s voice mode is now available for Opus and Sonnet，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+      "title": "Quoting Seth Larson",
+      "url": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson, PyPI blog Tags: packaging, python, supply-chain, pypi, seth-michael-larson",
+      "published": "2026-07-23T04:50:36+00:00",
+      "published_dt": "2026-07-23T04:50:36+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Quoting Seth Larson (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：Quoting Seth Larson，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3145731",
+      "title": "OpenAI makes ChatGPT Health available to all US users",
+      "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+      "published": "2026-07-23T17:00:00+00:00",
+      "published_dt": "2026-07-23T17:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI makes ChatGPT Health available to all US users (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI makes ChatGPT Health available to all US users，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3145719",
+      "title": "Nvidia is sending GPUs to the moon",
+      "url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "If there's a place in the universe without GPUs, Nvidia is sending them there.",
+      "published": "2026-07-23T15:00:00+00:00",
+      "published_dt": "2026-07-23T15:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nvidia is sending GPUs to the moon (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Nvidia is sending GPUs to the moon，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49021006",
+      "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
+      "url": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-23T13:10:02+00:00",
+      "published_dt": "2026-07-23T13:10:02+00:00",
+      "hn_score": 256,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Alphabet's cash burn raises alarm for Big Tech as AI spending climbs，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3145469",
+      "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+      "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
+      "published": "2026-07-23T11:00:00+00:00",
+      "published_dt": "2026-07-23T11:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "distillation"
+        ]
+      },
+      "summary_en": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
