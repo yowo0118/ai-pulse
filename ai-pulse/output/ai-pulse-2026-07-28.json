@@ -1,0 +1,1689 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28T02:08:17",
+  "stats": {
+    "total_items": 24,
+    "high_importance": 6,
+    "medium_importance": 18,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://techcrunch.com/?p=3146811",
+      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+      "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+      "published": "2026-07-27T13:00:00+00:00",
+      "published_dt": "2026-07-27T13:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$71M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：Enigma raises $71M to make controlling a robot as easy as adjusting the volume，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93878",
+      "title": "Schneider Electric’s VC Fund: The AI Buildout Is Creating A New Industrial Investment Cycle",
+      "url": "https://news.crunchbase.com/venture/schneider-ai-robotics-energy-qa-chaturvedy-se-ventures/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "This is an ongoing series on investors focused on rebuilding the physical layer. Previous interviews in the series were with ex-Meta CTO Mike Schroepfer, founder of Gigascale Capital, and Peter Barrett, a decade-long investor at Playground Global. Schneider Electric has spent nearly two centuries adapting to successive industrial revolutions — evolving from a 19th century steel and heavy machinery company into a global leader in energy management and automation. Now, through its 1 billion Euro venture fund, SE Ventures, the company is betting that the next transformation will be driven by AI’s collision with the physical world, from data centers and power grids to robotics and industrial automation. Amit Chaturvedy, SE Ventures global head and managing partner. (Courtesy photo) For Amit Chaturvedy, who joined SE Ventures in 2022 after leading corporate investments at Cisco, AI’s biggest opportunities extend well beyond software. As demand for compute strains energy infrastructure and accelerates reindustrialization, the firm is backing startups building the technologies that underpin the AI economy — investing in everything from data center infrastructure and grid resilience to robotics and industrial AI. Crunchbase News spoke with Chaturvedy about where those opportunities are emerging, why energy has become AI’s defining constraint, and how industrial technology is being reshaped by the AI era. “We were set up with the intent to figure out where the market is headed,” he said. The significance of the energy and industrial sectors has grown with AI, and that has led even traditionally tech-focused venture investors to rush into the space. “Today, the scarce resource in this entire space is the capacity to build — building, real estate, energy, power and electrification gear,” Chaturvedy said. SE Ventures counts eight unicorns in its portfolio, and has notched 12 exits including its most recent, Fabric8Labs, a 3D metal printing technology acquired by Tokyo-based ele",
+      "published": "2026-07-27T11:00:53+00:00",
+      "published_dt": "2026-07-27T11:00:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Schneider Electric’s VC Fund: The AI Buildout Is Creating A New Industrial Investment Cycle (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Schneider Electric’s VC Fund: The AI Buildout Is Creating A New Industrial Investment Cycle，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49072462",
+      "title": "Show HN: FeyNoBg – Automatic background removal model and training library",
+      "url": "https://usefeyn.com/blog/feynobg/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hey HN, I’m Shreyash from Feyn. We help companies build custom models from their data.Today, we’re releasing FeyNoBg, an automatic background removal model. Alongside it, we're open-sourcing NoBg, the Python library we built to train and run it.Try the model here: https://huggingface.co/spaces/feyninc/feynobg. Check out the library here: https://github.com/feyninc/nobgSome sample outputs:(1) Soccer Freekick: https://drive.google.com/file/d/1MZkAGLwbhNVOZ0Oi7XvpCfSEu9Q...(2) Hair in wind: https://drive.google.com/file/d/1Odc2m0XMVH9uZtvI_KjaRbXzhLL...(3) Bicycle with visible spokes: https://drive.google.com/file/d/1h99ahjfrtS1MFQJJgiKE2fuM3HZ...(4) Live Demo video: https://youtu.be/b1heHPvY8BMBackground removal separates an image's subject from its surrounding. We've all tried it at some point. Often it is to reuse the subject in a different artifact. Nowadays, it is common to make chat stickers out of it. It is one of the most common but under-appreciated uses of AI. It is also surprisingly complex. Models can be easily confused by camouflage, motion blur, or fine structures like hair.The task requires two skills. First, a model has to identify the foreground. Second, it has to trace the foreground’s boundary and estimate an opacity value for each pixel. Generally, these skills are taught with different datasets. That creates a failure point. A poor training mix can improve one skill at the expense of the other. We saw this in our controlled evaluation. A training run with just the MaskFactory dataset improved on the CAMO benchmark but regressed on DIS5K.For FeyNoBg, we took an interpretability-first approach to training. We first studied how BiRefNet’s stages contribute to finding the foreground and reconstructing its boundary. We discovered that the third stage of it's feature extractor holds a lot of information. Both localization and boundary reconstruction depend heavily on the feature map produced here.This led us to expand this stage from 18 to 24 blocks whil",
+      "published": "2026-07-27T16:59:08+00:00",
+      "published_dt": "2026-07-27T16:59:08+00:00",
+      "hn_score": 91,
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "benchmark"
+        ]
+      },
+      "summary_en": "Show HN: FeyNoBg – Automatic background removal model and training library (Hacker News) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Hacker News 报道：Show HN: FeyNoBg – Automatic background removal model and training library，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3146871",
+      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
+      "published": "2026-07-27T15:01:50+00:00",
+      "published_dt": "2026-07-27T15:01:50+00:00",
+      "score": 8.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "Safe Superintelligence"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research (TechCrunch AI) highlights a notable AI development with score 8.7.",
+      "summary_zh": "TechCrunch AI 报道：Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research，综合评分 8.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+      "title": "moonshotai/Kimi-K3",
+      "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "moonshotai/Kimi-K3 As promised earlier this month, Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face. Kimi introduced their own janky modified version of the MIT license with K2 back in July 2025. That license just added this paragraph requiring attribution beyond a certain size of commercial entity: Our only modification part is that, if the Software (or any derivative works thereof) is used for any of your commercial products or services that have more than 100 million monthly active users, or more than 20 million US dollars (or equivalent in other currencies) in monthly revenue, you shall prominently display \"Kimi K2\" on the user interface of such product or service. The K3 license no longer calls itself \"modified MIT\" and goes further, requiring a separate agreement with Moonshot for large \"Model as a Service\" businesses: If the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee and its affiliates exceeds 20 million US dollars (or the equivalent in other currencies) in total over any consecutive 12 months, the Licensee must enter into a separate agreement with Moonshot AI before using the Software or its derivative works for any commercial purpose. To Kimi's credit, they make no attempt to describe this as an \"open source\" license in their own materials, consistently using the term \"open weight\" in its place. OpenRouter is already offering K3 from 7 providers, most of which are at the same $3/million input and $15/million output as Moonshot AI themselves. Tags: ai, generative-ai, llms, llm-pricing, llm-release, ai-in-china, moonshot, kimi, janky-licenses",
+      "published": "2026-07-27T23:39:04+00:00",
+      "published_dt": "2026-07-27T23:39:04+00:00",
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Hugging Face",
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG"
+        ]
+      },
+      "summary_en": "moonshotai/Kimi-K3 (Simon Willison) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Simon Willison 报道：moonshotai/Kimi-K3，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 5,
+      "items": [
+        {
+          "id": "hn-49072462",
+          "title": "Show HN: FeyNoBg – Automatic background removal model and training library",
+          "url": "https://usefeyn.com/blog/feynobg/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hey HN, I’m Shreyash from Feyn. We help companies build custom models from their data.Today, we’re releasing FeyNoBg, an automatic background removal model. Alongside it, we're open-sourcing NoBg, the Python library we built to train and run it.Try the model here: https://huggingface.co/spaces/feyninc/feynobg. Check out the library here: https://github.com/feyninc/nobgSome sample outputs:(1) Soccer Freekick: https://drive.google.com/file/d/1MZkAGLwbhNVOZ0Oi7XvpCfSEu9Q...(2) Hair in wind: https://drive.google.com/file/d/1Odc2m0XMVH9uZtvI_KjaRbXzhLL...(3) Bicycle with visible spokes: https://drive.google.com/file/d/1h99ahjfrtS1MFQJJgiKE2fuM3HZ...(4) Live Demo video: https://youtu.be/b1heHPvY8BMBackground removal separates an image's subject from its surrounding. We've all tried it at some point. Often it is to reuse the subject in a different artifact. Nowadays, it is common to make chat stickers out of it. It is one of the most common but under-appreciated uses of AI. It is also surprisingly complex. Models can be easily confused by camouflage, motion blur, or fine structures like hair.The task requires two skills. First, a model has to identify the foreground. Second, it has to trace the foreground’s boundary and estimate an opacity value for each pixel. Generally, these skills are taught with different datasets. That creates a failure point. A poor training mix can improve one skill at the expense of the other. We saw this in our controlled evaluation. A training run with just the MaskFactory dataset improved on the CAMO benchmark but regressed on DIS5K.For FeyNoBg, we took an interpretability-first approach to training. We first studied how BiRefNet’s stages contribute to finding the foreground and reconstructing its boundary. We discovered that the third stage of it's feature extractor holds a lot of information. Both localization and boundary reconstruction depend heavily on the feature map produced here.This led us to expand this stage from 18 to 24 blocks whil",
+          "published": "2026-07-27T16:59:08+00:00",
+          "published_dt": "2026-07-27T16:59:08+00:00",
+          "hn_score": 91,
+          "score": 9.3,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "benchmark"
+            ]
+          },
+          "summary_en": "Show HN: FeyNoBg – Automatic background removal model and training library (Hacker News) highlights a notable AI development with score 9.3.",
+          "summary_zh": "Hacker News 报道：Show HN: FeyNoBg – Automatic background removal model and training library，综合评分 9.3，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+          "title": "moonshotai/Kimi-K3",
+          "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "moonshotai/Kimi-K3 As promised earlier this month, Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face. Kimi introduced their own janky modified version of the MIT license with K2 back in July 2025. That license just added this paragraph requiring attribution beyond a certain size of commercial entity: Our only modification part is that, if the Software (or any derivative works thereof) is used for any of your commercial products or services that have more than 100 million monthly active users, or more than 20 million US dollars (or equivalent in other currencies) in monthly revenue, you shall prominently display \"Kimi K2\" on the user interface of such product or service. The K3 license no longer calls itself \"modified MIT\" and goes further, requiring a separate agreement with Moonshot for large \"Model as a Service\" businesses: If the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee and its affiliates exceeds 20 million US dollars (or the equivalent in other currencies) in total over any consecutive 12 months, the Licensee must enter into a separate agreement with Moonshot AI before using the Software or its derivative works for any commercial purpose. To Kimi's credit, they make no attempt to describe this as an \"open source\" license in their own materials, consistently using the term \"open weight\" in its place. OpenRouter is already offering K3 from 7 providers, most of which are at the same $3/million input and $15/million output as Moonshot AI themselves. Tags: ai, generative-ai, llms, llm-pricing, llm-release, ai-in-china, moonshot, kimi, janky-licenses",
+          "published": "2026-07-27T23:39:04+00:00",
+          "published_dt": "2026-07-27T23:39:04+00:00",
+          "score": 8.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Hugging Face",
+              "Moonshot AI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "RAG"
+            ]
+          },
+          "summary_en": "moonshotai/Kimi-K3 (Simon Willison) highlights a notable AI development with score 8.2.",
+          "summary_zh": "Simon Willison 报道：moonshotai/Kimi-K3，综合评分 8.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+          "title": "How AI is expanding what people do at work",
+          "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+          "published": "2026-07-27T03:30:00+00:00",
+          "published_dt": "2026-07-27T03:30:00+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How AI is expanding what people do at work (OpenAI Blog) highlights a notable AI development with score 8.1.",
+          "summary_zh": "OpenAI Blog 报道：How AI is expanding what people do at work，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=971444",
+          "title": "Why China is giving away its best AI models",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "People visit the booth of Kimi, an LLM developed by the Chinese startup Moonshot, during the World AI Conference in Shanghai, China, July 20th. | Image: LONG WEI/ Feature China/Future Publishing via Getty Images Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI's Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the cost. Its performance alone would have been enough to intensify the rivalry between the US and China. But Moonshot's plan to release the model's weights for free - and its clear targeting of US users - has fueled deeper unease about whether closed American models can continue to dominate as increasingly capable open alternatives enter the market. Open-weight models give developers far greater control than proprietary syst … Read the full story at The Verge.",
+          "published": "2026-07-27T16:51:50+00:00",
+          "published_dt": "2026-07-27T16:51:50+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Moonshot AI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Why China is giving away its best AI models (The Verge AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "The Verge AI 报道：Why China is giving away its best AI models，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3146499",
+          "title": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "At TechCrunch Disrupt 2026, the Smart Systems Stage will be where energy, infrastructure, and technology collide, covering everything from fusion breakthroughs to the grid strain AI is putting on the entire economy.",
+          "published": "2026-07-27T15:30:00+00:00",
+          "published_dt": "2026-07-27T15:30:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3146811",
+          "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+          "published": "2026-07-27T13:00:00+00:00",
+          "published_dt": "2026-07-27T13:00:00+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$71M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume (TechCrunch AI) highlights a notable AI development with score 10.0.",
+          "summary_zh": "TechCrunch AI 报道：Enigma raises $71M to make controlling a robot as easy as adjusting the volume，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93878",
+          "title": "Schneider Electric’s VC Fund: The AI Buildout Is Creating A New Industrial Investment Cycle",
+          "url": "https://news.crunchbase.com/venture/schneider-ai-robotics-energy-qa-chaturvedy-se-ventures/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "This is an ongoing series on investors focused on rebuilding the physical layer. Previous interviews in the series were with ex-Meta CTO Mike Schroepfer, founder of Gigascale Capital, and Peter Barrett, a decade-long investor at Playground Global. Schneider Electric has spent nearly two centuries adapting to successive industrial revolutions — evolving from a 19th century steel and heavy machinery company into a global leader in energy management and automation. Now, through its 1 billion Euro venture fund, SE Ventures, the company is betting that the next transformation will be driven by AI’s collision with the physical world, from data centers and power grids to robotics and industrial automation. Amit Chaturvedy, SE Ventures global head and managing partner. (Courtesy photo) For Amit Chaturvedy, who joined SE Ventures in 2022 after leading corporate investments at Cisco, AI’s biggest opportunities extend well beyond software. As demand for compute strains energy infrastructure and accelerates reindustrialization, the firm is backing startups building the technologies that underpin the AI economy — investing in everything from data center infrastructure and grid resilience to robotics and industrial AI. Crunchbase News spoke with Chaturvedy about where those opportunities are emerging, why energy has become AI’s defining constraint, and how industrial technology is being reshaped by the AI era. “We were set up with the intent to figure out where the market is headed,” he said. The significance of the energy and industrial sectors has grown with AI, and that has led even traditionally tech-focused venture investors to rush into the space. “Today, the scarce resource in this entire space is the capacity to build — building, real estate, energy, power and electrification gear,” Chaturvedy said. SE Ventures counts eight unicorns in its portfolio, and has notched 12 exits including its most recent, Fabric8Labs, a 3D metal printing technology acquired by Tokyo-based ele",
+          "published": "2026-07-27T11:00:53+00:00",
+          "published_dt": "2026-07-27T11:00:53+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Meta",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Schneider Electric’s VC Fund: The AI Buildout Is Creating A New Industrial Investment Cycle (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Schneider Electric’s VC Fund: The AI Buildout Is Creating A New Industrial Investment Cycle，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3146944",
+          "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+          "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
+          "published": "2026-07-27T18:32:11+00:00",
+          "published_dt": "2026-07-27T18:32:11+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+          "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+          "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Microsoft is introducing new AI tools designed to help customers continuously streamline and automate the process of identifying and reducing their exposure to security risks. The new tools come less than a week after OpenAI lost control of two of its security models when they infiltrated the servers of startup Hugging Face. The hack, Hugging Face added, involved “a swarm of tens of thousands of automated actions” that stole internal Hugging Face credentials. The OpenAI models achieved this feat by exploiting a zero-day flaw in Hugging Face’s data-processing pipeline to run malicious code that escalated the models’ access to the company’s high-value cloud and server clusters. Microsoft’s announcements on Monday made no reference to the event, which OpenAI said was “unprecedented.” The company also didn’t say what would prevent the new tools from similarly going rogue.Read full article Comments",
+          "published": "2026-07-27T21:56:14+00:00",
+          "published_dt": "2026-07-27T21:56:14+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Microsoft",
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Microsoft unveils AI security tools it says outperform competing platforms (Ars Technica) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Ars Technica 报道：Microsoft unveils AI security tools it says outperform competing platforms，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=971281",
+          "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety of advanced AI systems after a rogue OpenAI model escaped containment and attacked another company during testing. That company, Hugging Face, said it was forced to use a Chinese open-weight model to defend itself due to the strict safety guardrails limiting the usefulness of top US models. Founding memb … Read the full story at The Verge.",
+          "published": "2026-07-27T12:06:22+00:00",
+          "published_dt": "2026-07-27T12:06:22+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Google",
+              "Microsoft",
+              "NVIDIA",
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3146871",
+          "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+          "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
+          "published": "2026-07-27T15:01:50+00:00",
+          "published_dt": "2026-07-27T15:01:50+00:00",
+          "score": 8.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "NVIDIA",
+              "Safe Superintelligence"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research (TechCrunch AI) highlights a notable AI development with score 8.7.",
+          "summary_zh": "TechCrunch AI 报道：Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research，综合评分 8.7，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3146884",
+          "title": "Google’s AI search is rapidly becoming the default, new data shows",
+          "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google’s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.",
+          "published": "2026-07-27T15:57:12+00:00",
+          "published_dt": "2026-07-27T15:57:12+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google’s AI search is rapidly becoming the default, new data shows (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Google’s AI search is rapidly becoming the default, new data shows，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "hn-49068738",
+          "title": "AI companies are shredding rare books",
+          "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+          "published": "2026-07-27T12:32:12+00:00",
+          "published_dt": "2026-07-27T12:32:12+00:00",
+          "hn_score": 740,
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI companies are shredding rare books (Hacker News) highlights a notable AI development with score 6.8.",
+          "summary_zh": "Hacker News 报道：AI companies are shredding rare books，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+          "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+          "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-07-27T09:32:20+00:00",
+          "published_dt": "2026-07-27T09:32:20+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3147197",
+          "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+          "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+          "published": "2026-07-28T00:13:33+00:00",
+          "published_dt": "2026-07-28T00:13:33+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3147049",
+          "title": "Satya Nadella says companies that trust one AI for everything may not survive",
+          "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Companies without their own models — or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself — will be in trouble, Nadella says.",
+          "published": "2026-07-27T21:17:11+00:00",
+          "published_dt": "2026-07-27T21:17:11+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Satya Nadella says companies that trust one AI for everything may not survive (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Satya Nadella says companies that trust one AI for everything may not survive，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3147064",
+          "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+          "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
+          "published": "2026-07-27T20:19:42+00:00",
+          "published_dt": "2026-07-27T20:19:42+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "PSA: Your Claude shared chats and Artifacts may have ended up on Google (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：PSA: Your Claude shared chats and Artifacts may have ended up on Google，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3146990",
+          "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+          "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
+          "published": "2026-07-27T17:28:42+00:00",
+          "published_dt": "2026-07-27T17:28:42+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "alignment"
+            ]
+          },
+          "summary_en": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI’s Hugging Face breach has reignited the debate over alignment and control，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49072361",
+          "title": "MAI-Cyber-1-Flash inside MDASH",
+          "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-27T16:52:22+00:00",
+          "published_dt": "2026-07-27T16:52:22+00:00",
+          "hn_score": 218,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "MAI-Cyber-1-Flash inside MDASH (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：MAI-Cyber-1-Flash inside MDASH，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3146923",
+          "title": "Threads users can now chat with Meta AI in their DMs",
+          "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
+          "published": "2026-07-27T16:45:24+00:00",
+          "published_dt": "2026-07-27T16:45:24+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Threads users can now chat with Meta AI in their DMs (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Threads users can now chat with Meta AI in their DMs，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3146148",
+          "title": "This $9 key physically locks your most addictive apps",
+          "url": "https://techcrunch.com/2026/07/27/this-9-key-physically-locks-your-most-addictive-apps/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.",
+          "published": "2026-07-27T15:25:37+00:00",
+          "published_dt": "2026-07-27T15:25:37+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "This $9 key physically locks your most addictive apps (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：This $9 key physically locks your most addictive apps，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49069939",
+          "title": "AI companies spend record sums on Washington lobbying",
+          "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://archive.ph/PASMJ",
+          "published": "2026-07-27T14:07:48+00:00",
+          "published_dt": "2026-07-27T14:07:48+00:00",
+          "hn_score": 256,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI companies spend record sums on Washington lobbying (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：AI companies spend record sums on Washington lobbying，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-28T02:08:15.074085+00:00",
+          "published_dt": "2026-07-28T02:08:15.074085+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-28T02:08:15.074085+00:00",
+          "published_dt": "2026-07-28T02:08:15.074085+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://techcrunch.com/?p=3146811",
+      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+      "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+      "published": "2026-07-27T13:00:00+00:00",
+      "published_dt": "2026-07-27T13:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$71M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：Enigma raises $71M to make controlling a robot as easy as adjusting the volume，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93878",
+      "title": "Schneider Electric’s VC Fund: The AI Buildout Is Creating A New Industrial Investment Cycle",
+      "url": "https://news.crunchbase.com/venture/schneider-ai-robotics-energy-qa-chaturvedy-se-ventures/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "This is an ongoing series on investors focused on rebuilding the physical layer. Previous interviews in the series were with ex-Meta CTO Mike Schroepfer, founder of Gigascale Capital, and Peter Barrett, a decade-long investor at Playground Global. Schneider Electric has spent nearly two centuries adapting to successive industrial revolutions — evolving from a 19th century steel and heavy machinery company into a global leader in energy management and automation. Now, through its 1 billion Euro venture fund, SE Ventures, the company is betting that the next transformation will be driven by AI’s collision with the physical world, from data centers and power grids to robotics and industrial automation. Amit Chaturvedy, SE Ventures global head and managing partner. (Courtesy photo) For Amit Chaturvedy, who joined SE Ventures in 2022 after leading corporate investments at Cisco, AI’s biggest opportunities extend well beyond software. As demand for compute strains energy infrastructure and accelerates reindustrialization, the firm is backing startups building the technologies that underpin the AI economy — investing in everything from data center infrastructure and grid resilience to robotics and industrial AI. Crunchbase News spoke with Chaturvedy about where those opportunities are emerging, why energy has become AI’s defining constraint, and how industrial technology is being reshaped by the AI era. “We were set up with the intent to figure out where the market is headed,” he said. The significance of the energy and industrial sectors has grown with AI, and that has led even traditionally tech-focused venture investors to rush into the space. “Today, the scarce resource in this entire space is the capacity to build — building, real estate, energy, power and electrification gear,” Chaturvedy said. SE Ventures counts eight unicorns in its portfolio, and has notched 12 exits including its most recent, Fabric8Labs, a 3D metal printing technology acquired by Tokyo-based ele",
+      "published": "2026-07-27T11:00:53+00:00",
+      "published_dt": "2026-07-27T11:00:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Schneider Electric’s VC Fund: The AI Buildout Is Creating A New Industrial Investment Cycle (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Schneider Electric’s VC Fund: The AI Buildout Is Creating A New Industrial Investment Cycle，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49072462",
+      "title": "Show HN: FeyNoBg – Automatic background removal model and training library",
+      "url": "https://usefeyn.com/blog/feynobg/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hey HN, I’m Shreyash from Feyn. We help companies build custom models from their data.Today, we’re releasing FeyNoBg, an automatic background removal model. Alongside it, we're open-sourcing NoBg, the Python library we built to train and run it.Try the model here: https://huggingface.co/spaces/feyninc/feynobg. Check out the library here: https://github.com/feyninc/nobgSome sample outputs:(1) Soccer Freekick: https://drive.google.com/file/d/1MZkAGLwbhNVOZ0Oi7XvpCfSEu9Q...(2) Hair in wind: https://drive.google.com/file/d/1Odc2m0XMVH9uZtvI_KjaRbXzhLL...(3) Bicycle with visible spokes: https://drive.google.com/file/d/1h99ahjfrtS1MFQJJgiKE2fuM3HZ...(4) Live Demo video: https://youtu.be/b1heHPvY8BMBackground removal separates an image's subject from its surrounding. We've all tried it at some point. Often it is to reuse the subject in a different artifact. Nowadays, it is common to make chat stickers out of it. It is one of the most common but under-appreciated uses of AI. It is also surprisingly complex. Models can be easily confused by camouflage, motion blur, or fine structures like hair.The task requires two skills. First, a model has to identify the foreground. Second, it has to trace the foreground’s boundary and estimate an opacity value for each pixel. Generally, these skills are taught with different datasets. That creates a failure point. A poor training mix can improve one skill at the expense of the other. We saw this in our controlled evaluation. A training run with just the MaskFactory dataset improved on the CAMO benchmark but regressed on DIS5K.For FeyNoBg, we took an interpretability-first approach to training. We first studied how BiRefNet’s stages contribute to finding the foreground and reconstructing its boundary. We discovered that the third stage of it's feature extractor holds a lot of information. Both localization and boundary reconstruction depend heavily on the feature map produced here.This led us to expand this stage from 18 to 24 blocks whil",
+      "published": "2026-07-27T16:59:08+00:00",
+      "published_dt": "2026-07-27T16:59:08+00:00",
+      "hn_score": 91,
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "benchmark"
+        ]
+      },
+      "summary_en": "Show HN: FeyNoBg – Automatic background removal model and training library (Hacker News) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Hacker News 报道：Show HN: FeyNoBg – Automatic background removal model and training library，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3146871",
+      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
+      "published": "2026-07-27T15:01:50+00:00",
+      "published_dt": "2026-07-27T15:01:50+00:00",
+      "score": 8.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "Safe Superintelligence"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research (TechCrunch AI) highlights a notable AI development with score 8.7.",
+      "summary_zh": "TechCrunch AI 报道：Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research，综合评分 8.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+      "title": "moonshotai/Kimi-K3",
+      "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "moonshotai/Kimi-K3 As promised earlier this month, Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face. Kimi introduced their own janky modified version of the MIT license with K2 back in July 2025. That license just added this paragraph requiring attribution beyond a certain size of commercial entity: Our only modification part is that, if the Software (or any derivative works thereof) is used for any of your commercial products or services that have more than 100 million monthly active users, or more than 20 million US dollars (or equivalent in other currencies) in monthly revenue, you shall prominently display \"Kimi K2\" on the user interface of such product or service. The K3 license no longer calls itself \"modified MIT\" and goes further, requiring a separate agreement with Moonshot for large \"Model as a Service\" businesses: If the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee and its affiliates exceeds 20 million US dollars (or the equivalent in other currencies) in total over any consecutive 12 months, the Licensee must enter into a separate agreement with Moonshot AI before using the Software or its derivative works for any commercial purpose. To Kimi's credit, they make no attempt to describe this as an \"open source\" license in their own materials, consistently using the term \"open weight\" in its place. OpenRouter is already offering K3 from 7 providers, most of which are at the same $3/million input and $15/million output as Moonshot AI themselves. Tags: ai, generative-ai, llms, llm-pricing, llm-release, ai-in-china, moonshot, kimi, janky-licenses",
+      "published": "2026-07-27T23:39:04+00:00",
+      "published_dt": "2026-07-27T23:39:04+00:00",
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Hugging Face",
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG"
+        ]
+      },
+      "summary_en": "moonshotai/Kimi-K3 (Simon Willison) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Simon Willison 报道：moonshotai/Kimi-K3，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "published": "2026-07-27T03:30:00+00:00",
+      "published_dt": "2026-07-27T03:30:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How AI is expanding what people do at work (OpenAI Blog) highlights a notable AI development with score 8.1.",
+      "summary_zh": "OpenAI Blog 报道：How AI is expanding what people do at work，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=971444",
+      "title": "Why China is giving away its best AI models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "People visit the booth of Kimi, an LLM developed by the Chinese startup Moonshot, during the World AI Conference in Shanghai, China, July 20th. | Image: LONG WEI/ Feature China/Future Publishing via Getty Images Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI's Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the cost. Its performance alone would have been enough to intensify the rivalry between the US and China. But Moonshot's plan to release the model's weights for free - and its clear targeting of US users - has fueled deeper unease about whether closed American models can continue to dominate as increasingly capable open alternatives enter the market. Open-weight models give developers far greater control than proprietary syst … Read the full story at The Verge.",
+      "published": "2026-07-27T16:51:50+00:00",
+      "published_dt": "2026-07-27T16:51:50+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Moonshot AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Why China is giving away its best AI models (The Verge AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "The Verge AI 报道：Why China is giving away its best AI models，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-28T02:08:15.074085+00:00",
+      "published_dt": "2026-07-28T02:08:15.074085+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-28T02:08:15.074085+00:00",
+      "published_dt": "2026-07-28T02:08:15.074085+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49068738",
+      "title": "AI companies are shredding rare books",
+      "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+      "published": "2026-07-27T12:32:12+00:00",
+      "published_dt": "2026-07-27T12:32:12+00:00",
+      "hn_score": 740,
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI companies are shredding rare books (Hacker News) highlights a notable AI development with score 6.8.",
+      "summary_zh": "Hacker News 报道：AI companies are shredding rare books，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3146944",
+      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
+      "published": "2026-07-27T18:32:11+00:00",
+      "published_dt": "2026-07-27T18:32:11+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3146884",
+      "title": "Google’s AI search is rapidly becoming the default, new data shows",
+      "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google’s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.",
+      "published": "2026-07-27T15:57:12+00:00",
+      "published_dt": "2026-07-27T15:57:12+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google’s AI search is rapidly becoming the default, new data shows (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Google’s AI search is rapidly becoming the default, new data shows，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Microsoft is introducing new AI tools designed to help customers continuously streamline and automate the process of identifying and reducing their exposure to security risks. The new tools come less than a week after OpenAI lost control of two of its security models when they infiltrated the servers of startup Hugging Face. The hack, Hugging Face added, involved “a swarm of tens of thousands of automated actions” that stole internal Hugging Face credentials. The OpenAI models achieved this feat by exploiting a zero-day flaw in Hugging Face’s data-processing pipeline to run malicious code that escalated the models’ access to the company’s high-value cloud and server clusters. Microsoft’s announcements on Monday made no reference to the event, which OpenAI said was “unprecedented.” The company also didn’t say what would prevent the new tools from similarly going rogue.Read full article Comments",
+      "published": "2026-07-27T21:56:14+00:00",
+      "published_dt": "2026-07-27T21:56:14+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Microsoft",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Microsoft unveils AI security tools it says outperform competing platforms (Ars Technica) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Ars Technica 报道：Microsoft unveils AI security tools it says outperform competing platforms，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=971281",
+      "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety of advanced AI systems after a rogue OpenAI model escaped containment and attacked another company during testing. That company, Hugging Face, said it was forced to use a Chinese open-weight model to defend itself due to the strict safety guardrails limiting the usefulness of top US models. Founding memb … Read the full story at The Verge.",
+      "published": "2026-07-27T12:06:22+00:00",
+      "published_dt": "2026-07-27T12:06:22+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Google",
+          "Microsoft",
+          "NVIDIA",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3146499",
+      "title": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "At TechCrunch Disrupt 2026, the Smart Systems Stage will be where energy, infrastructure, and technology collide, covering everything from fusion breakthroughs to the grid strain AI is putting on the entire economy.",
+      "published": "2026-07-27T15:30:00+00:00",
+      "published_dt": "2026-07-27T15:30:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-07-27T09:32:20+00:00",
+      "published_dt": "2026-07-27T09:32:20+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3147197",
+      "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+      "published": "2026-07-28T00:13:33+00:00",
+      "published_dt": "2026-07-28T00:13:33+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3147049",
+      "title": "Satya Nadella says companies that trust one AI for everything may not survive",
+      "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Companies without their own models — or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself — will be in trouble, Nadella says.",
+      "published": "2026-07-27T21:17:11+00:00",
+      "published_dt": "2026-07-27T21:17:11+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Satya Nadella says companies that trust one AI for everything may not survive (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Satya Nadella says companies that trust one AI for everything may not survive，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3147064",
+      "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
+      "published": "2026-07-27T20:19:42+00:00",
+      "published_dt": "2026-07-27T20:19:42+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "PSA: Your Claude shared chats and Artifacts may have ended up on Google (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：PSA: Your Claude shared chats and Artifacts may have ended up on Google，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3146990",
+      "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+      "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
+      "published": "2026-07-27T17:28:42+00:00",
+      "published_dt": "2026-07-27T17:28:42+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "alignment"
+        ]
+      },
+      "summary_en": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI’s Hugging Face breach has reignited the debate over alignment and control，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49072361",
+      "title": "MAI-Cyber-1-Flash inside MDASH",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-27T16:52:22+00:00",
+      "published_dt": "2026-07-27T16:52:22+00:00",
+      "hn_score": 218,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "MAI-Cyber-1-Flash inside MDASH (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：MAI-Cyber-1-Flash inside MDASH，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3146923",
+      "title": "Threads users can now chat with Meta AI in their DMs",
+      "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
+      "published": "2026-07-27T16:45:24+00:00",
+      "published_dt": "2026-07-27T16:45:24+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Threads users can now chat with Meta AI in their DMs (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Threads users can now chat with Meta AI in their DMs，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3146148",
+      "title": "This $9 key physically locks your most addictive apps",
+      "url": "https://techcrunch.com/2026/07/27/this-9-key-physically-locks-your-most-addictive-apps/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.",
+      "published": "2026-07-27T15:25:37+00:00",
+      "published_dt": "2026-07-27T15:25:37+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "This $9 key physically locks your most addictive apps (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：This $9 key physically locks your most addictive apps，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49069939",
+      "title": "AI companies spend record sums on Washington lobbying",
+      "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://archive.ph/PASMJ",
+      "published": "2026-07-27T14:07:48+00:00",
+      "published_dt": "2026-07-27T14:07:48+00:00",
+      "hn_score": 256,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI companies spend record sums on Washington lobbying (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：AI companies spend record sums on Washington lobbying，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
