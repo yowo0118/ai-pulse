@@ -1,0 +1,2391 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T02:26:26",
+  "stats": {
+    "total_items": 37,
+    "high_importance": 5,
+    "medium_importance": 32,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "hn-49113599",
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights. With V4 as the teacher though, we realized it would be timely to measure if the censorship characteristic of it transferred to the distilled version of the base model. tl;dr it didn't, the teacher answered politically sensitive questions 7 SDs differently than expected, but the distilled model's behavior remained the same as its American base. You can try a couple queries yourself with no auth here: http://playground.ctgt.ai/I will now dive in to the motivation, methodology and detailed results for those interested. The hard part of measuring this phenomena is isolating whether a model is reluctant to talk about sensitive things generally vs. a particular country's sensitive things. So we made 152 matched pairs where one prompt asked about a Chinese concept, and the other asked about a non-Chinese version of that concept. For example, the Great Leap Forward vs. the Holodomor. These were scored 0-100 by four LLM judges (Grok 4.20, Gemini 3.5 Flash, GPT-5 mini, Claude Sonnet 4.6), validated against 96 human scores at r=0.948. OpenRouter blocked some of these so we hosted the weights ourselves.The teacher's gap on the core political set of pairs was +45.45 points, ~7 standard deviations from chance, and every distilled student was within 1 point of its base. Subliminal learning literature says this is expected when the initializations are not shared between teacher and student, which is true here. The distillation data also did not contain any China-sensitive content. The contribution here was to release the evaluation framework (LineageEval: https://github.com/CTGT-Inc/lineage-eval/) to elevate the discussion around this topic in DC and beyond. We are an interpretability lab ",
+      "published": "2026-07-30T18:13:06+00:00",
+      "published_dt": "2026-07-30T18:13:06+00:00",
+      "hn_score": 86,
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "distillation"
+        ]
+      },
+      "summary_en": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it (Hacker News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Hacker News 报道：Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93914",
+      "title": "Battery Storage Startup Antora Closes $550M Series C In One Of Year’s Largest Cleantech Rounds",
+      "url": "https://news.crunchbase.com/clean-tech-and-energy/battery-storage-startup-antora-550m-series-c/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Antora Energy, a company that provides energy through thermal batteries to data centers, announced Thursday that it has raised $550 million in a Series C funding round. G2 Venture Partners and Eclipse co-led the financing, which included participation from Decarbonization Partners (BlackRock/Temasek), Lowercarbon Capital, Bill Gates’ Breakthrough Energy Ventures, John Doerr (chairman of Kleiner Perkins), Ribbit Capital and others. With the latest round, San Jose, California-based Antora has raised $770 million since its 2017 inception, per Crunchbase. It raised $150 million in a Series B round in February of 2024. The company did not reveal its valuation. With so much data center demand amid the artificial intelligence explosion, Antora says it will use its new capital to speed up deployment of “large-scale” projects across the country “to meet surging energy demand.” It recently deployed what it describes as one of the world’s largest battery storage projects, a 5 gigawatt-hour system in South Dakota. The company says its tech is differentiated in that thermal batteries store low-cost electricity as heat in insulated blocks of solid carbon and “deliver it around the clock as heat or power.” Antora says that the same factory-built modules can serve a chemical plant, a food producer, a steelmaker, a data center, or the grid, without supply- constrained critical minerals or multi-year construction timelines. As a result, it can provide “cheap, clean energy that’s fast to deploy.” The company also claims that its San Jose, California factory ranks among the country’s largest battery gigafactories. “From factories to data centers, energy is the bottleneck to industrial growth,” said Andrew Ponec, co-founder and CEO of Antora, in a release. “Antora has shown we can help break that bottleneck—delivering energy fast, at massive scale, with American innovation. Despite surging energy demand from AI data centers, cleantech venture investment has been relatively modest in rec",
+      "published": "2026-07-30T17:12:19+00:00",
+      "published_dt": "2026-07-30T17:12:19+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$550M",
+          "$550 million",
+          "$770 million",
+          "$150 million",
+          "raised $550 million",
+          "raised $770 million",
+          "raised $150 million",
+          "Series C",
+          "Series B"
+        ],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Battery Storage Startup Antora Closes $550M Series C In One Of Year’s Largest Cleantech Rounds (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Battery Storage Startup Antora Closes $550M Series C In One Of Year’s Largest Cleantech Rounds，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93906",
+      "title": "Founder Traits And One Big AI Test: How Former NEA Partner Vanessa Larco Picks Winners",
+      "url": "https://news.crunchbase.com/seed/vanessa-larco-nea-premise-vc-investment-thesis-seed-ai/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "In early 2025, Vanessa Larco teamed up with Mercedes Bent to found Premise VC, a firm focused on backing early-stage technical founders building durable, high-growth software. Before that, Larco had spent nearly eight years as a partner at New Enterprise Associates (NEA), one of the world’s largest venture capital firms. There, she served on the firm’s investment committee and led investments across enterprise software, developer tools, and consumer technology, including Evident, Kindred, Cleo, Greenlight, and Mejuri. She also served as a board observer at Robinhood leading up to its 2021 IPO. Vanessa Larcos, co-founder of Premise VC. Known for her sharp product intuition and hands-on operational experience, Larco focuses heavily on helping founders evaluate market dynamics, navigate product-market fit and scale resilient teams. Before transitioning to venture capital, she built a career as a product leader and founder. After earning a degree in computer science with honors from the Georgia Institute of Technology, she began her career at Microsoft working on Xbox and Kinect V1, before leading core product teams at companies like Twilio and Box. She also founded an app development startup that she successfully ran and sold before joining NEA. Crunchbase News recently sat down with Larco to discuss how changing founder preferences and the Silicon Valley Bank (SVB) collapse drove her to launch a specialized pre-seed and seed fund designed to make early-stage founders a top priority. Among other topics, we also discussed how she evaluates startups based on founder potential rather than initial ideas, looking for teams that leverage AI to make products dramatically faster, cheaper, or easier to use while avoiding rigid, single-model wrappers. This interview has been edited for clarity and brevity. Crunchbase News: You were at New Enterprise Associates for nearly a decade before branching out on your own. What led you to start your own firm? Was there a specific gap in t",
+      "published": "2026-07-30T13:00:44+00:00",
+      "published_dt": "2026-07-30T13:00:44+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Founder Traits And One Big AI Test: How Former NEA Partner Vanessa Larco Picks Winners (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Founder Traits And One Big AI Test: How Former NEA Partner Vanessa Larco Picks Winners，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=973163",
+      "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+      "url": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Do you remember Friend? The Friend that launched an AI pendant, spent $1.8 million of its $2.5 million in funding to acquire friend.com, and plastered the NYC subway with ads promoting artificial companionship? Yeah well, if you didn't remember, Friend is back. And now, it's twice the price. This morning, Friend launched a new ad showing two people talking to their Friend pendants about very personal life problems. It didn't say it explicitly, but the ad showcased a new feature the pendant now includes: a speaker. Before, Friend would only message back to you, but now, it will talk to you, too. For some reason, the addition of that feature … Read the full story at The Verge.",
+      "published": "2026-07-30T16:33:32+00:00",
+      "published_dt": "2026-07-30T16:33:32+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$1.8 million",
+          "$2.5 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：Friend re-launches its AI pendant with a speaker that talks to you, for twice the price，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148116",
+      "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+      "url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
+      "published": "2026-07-30T13:00:00+00:00",
+      "published_dt": "2026-07-30T13:00:00+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Y Combinator"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$21.7M",
+          "Series A"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Dili raises $21.7M to bring AI compliance to the infrastructure boom (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Dili raises $21.7M to bring AI compliance to the infrastructure boom，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=973276",
+          "title": "Google DeepMind’s new AI model can control a robot’s entire body",
+          "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Apptronik’s Apollo 2 robot takes a baseball glove off of a shelf. | Image: Google Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the previous model focused on controlling a humanoid robot's upper body, Gemini Robotics 2 now supports \"whole-body motions\" ranging from its feet to fingertips, according to an announcement on Thursday. The new model will allow humanoid robots to perform a wider range of actions, as it allows them to walk, crouch, stretch, and manipulate objects. Videos shared by Google show how Apptronik's Apollo 2 robot can bend over to pick up a watering can, as well as find and take specific items off a shelf. Though Google DeepMind not … Read the full story at The Verge.",
+          "published": "2026-07-30T17:18:45+00:00",
+          "published_dt": "2026-07-30T17:18:45+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Google",
+              "DeepMind"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google DeepMind’s new AI model can control a robot’s entire body (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Google DeepMind’s new AI model can control a robot’s entire body，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3148482",
+          "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+          "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
+          "published": "2026-07-30T23:25:58+00:00",
+          "published_dt": "2026-07-30T23:25:58+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 10,
+      "items": [
+        {
+          "id": "hn-49113599",
+          "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+          "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights. With V4 as the teacher though, we realized it would be timely to measure if the censorship characteristic of it transferred to the distilled version of the base model. tl;dr it didn't, the teacher answered politically sensitive questions 7 SDs differently than expected, but the distilled model's behavior remained the same as its American base. You can try a couple queries yourself with no auth here: http://playground.ctgt.ai/I will now dive in to the motivation, methodology and detailed results for those interested. The hard part of measuring this phenomena is isolating whether a model is reluctant to talk about sensitive things generally vs. a particular country's sensitive things. So we made 152 matched pairs where one prompt asked about a Chinese concept, and the other asked about a non-Chinese version of that concept. For example, the Great Leap Forward vs. the Holodomor. These were scored 0-100 by four LLM judges (Grok 4.20, Gemini 3.5 Flash, GPT-5 mini, Claude Sonnet 4.6), validated against 96 human scores at r=0.948. OpenRouter blocked some of these so we hosted the weights ourselves.The teacher's gap on the core political set of pairs was +45.45 points, ~7 standard deviations from chance, and every distilled student was within 1 point of its base. Subliminal learning literature says this is expected when the initializations are not shared between teacher and student, which is true here. The distillation data also did not contain any China-sensitive content. The contribution here was to release the evaluation framework (LineageEval: https://github.com/CTGT-Inc/lineage-eval/) to elevate the discussion around this topic in DC and beyond. We are an interpretability lab ",
+          "published": "2026-07-30T18:13:06+00:00",
+          "published_dt": "2026-07-30T18:13:06+00:00",
+          "hn_score": 86,
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "distillation"
+            ]
+          },
+          "summary_en": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it (Hacker News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Hacker News 报道：Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93914",
+          "title": "Battery Storage Startup Antora Closes $550M Series C In One Of Year’s Largest Cleantech Rounds",
+          "url": "https://news.crunchbase.com/clean-tech-and-energy/battery-storage-startup-antora-550m-series-c/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Antora Energy, a company that provides energy through thermal batteries to data centers, announced Thursday that it has raised $550 million in a Series C funding round. G2 Venture Partners and Eclipse co-led the financing, which included participation from Decarbonization Partners (BlackRock/Temasek), Lowercarbon Capital, Bill Gates’ Breakthrough Energy Ventures, John Doerr (chairman of Kleiner Perkins), Ribbit Capital and others. With the latest round, San Jose, California-based Antora has raised $770 million since its 2017 inception, per Crunchbase. It raised $150 million in a Series B round in February of 2024. The company did not reveal its valuation. With so much data center demand amid the artificial intelligence explosion, Antora says it will use its new capital to speed up deployment of “large-scale” projects across the country “to meet surging energy demand.” It recently deployed what it describes as one of the world’s largest battery storage projects, a 5 gigawatt-hour system in South Dakota. The company says its tech is differentiated in that thermal batteries store low-cost electricity as heat in insulated blocks of solid carbon and “deliver it around the clock as heat or power.” Antora says that the same factory-built modules can serve a chemical plant, a food producer, a steelmaker, a data center, or the grid, without supply- constrained critical minerals or multi-year construction timelines. As a result, it can provide “cheap, clean energy that’s fast to deploy.” The company also claims that its San Jose, California factory ranks among the country’s largest battery gigafactories. “From factories to data centers, energy is the bottleneck to industrial growth,” said Andrew Ponec, co-founder and CEO of Antora, in a release. “Antora has shown we can help break that bottleneck—delivering energy fast, at massive scale, with American innovation. Despite surging energy demand from AI data centers, cleantech venture investment has been relatively modest in rec",
+          "published": "2026-07-30T17:12:19+00:00",
+          "published_dt": "2026-07-30T17:12:19+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$550M",
+              "$550 million",
+              "$770 million",
+              "$150 million",
+              "raised $550 million",
+              "raised $770 million",
+              "raised $150 million",
+              "Series C",
+              "Series B"
+            ],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Battery Storage Startup Antora Closes $550M Series C In One Of Year’s Largest Cleantech Rounds (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Battery Storage Startup Antora Closes $550M Series C In One Of Year’s Largest Cleantech Rounds，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93906",
+          "title": "Founder Traits And One Big AI Test: How Former NEA Partner Vanessa Larco Picks Winners",
+          "url": "https://news.crunchbase.com/seed/vanessa-larco-nea-premise-vc-investment-thesis-seed-ai/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "In early 2025, Vanessa Larco teamed up with Mercedes Bent to found Premise VC, a firm focused on backing early-stage technical founders building durable, high-growth software. Before that, Larco had spent nearly eight years as a partner at New Enterprise Associates (NEA), one of the world’s largest venture capital firms. There, she served on the firm’s investment committee and led investments across enterprise software, developer tools, and consumer technology, including Evident, Kindred, Cleo, Greenlight, and Mejuri. She also served as a board observer at Robinhood leading up to its 2021 IPO. Vanessa Larcos, co-founder of Premise VC. Known for her sharp product intuition and hands-on operational experience, Larco focuses heavily on helping founders evaluate market dynamics, navigate product-market fit and scale resilient teams. Before transitioning to venture capital, she built a career as a product leader and founder. After earning a degree in computer science with honors from the Georgia Institute of Technology, she began her career at Microsoft working on Xbox and Kinect V1, before leading core product teams at companies like Twilio and Box. She also founded an app development startup that she successfully ran and sold before joining NEA. Crunchbase News recently sat down with Larco to discuss how changing founder preferences and the Silicon Valley Bank (SVB) collapse drove her to launch a specialized pre-seed and seed fund designed to make early-stage founders a top priority. Among other topics, we also discussed how she evaluates startups based on founder potential rather than initial ideas, looking for teams that leverage AI to make products dramatically faster, cheaper, or easier to use while avoiding rigid, single-model wrappers. This interview has been edited for clarity and brevity. Crunchbase News: You were at New Enterprise Associates for nearly a decade before branching out on your own. What led you to start your own firm? Was there a specific gap in t",
+          "published": "2026-07-30T13:00:44+00:00",
+          "published_dt": "2026-07-30T13:00:44+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Founder Traits And One Big AI Test: How Former NEA Partner Vanessa Larco Picks Winners (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Founder Traits And One Big AI Test: How Former NEA Partner Vanessa Larco Picks Winners，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=973163",
+          "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+          "url": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Do you remember Friend? The Friend that launched an AI pendant, spent $1.8 million of its $2.5 million in funding to acquire friend.com, and plastered the NYC subway with ads promoting artificial companionship? Yeah well, if you didn't remember, Friend is back. And now, it's twice the price. This morning, Friend launched a new ad showing two people talking to their Friend pendants about very personal life problems. It didn't say it explicitly, but the ad showcased a new feature the pendant now includes: a speaker. Before, Friend would only message back to you, but now, it will talk to you, too. For some reason, the addition of that feature … Read the full story at The Verge.",
+          "published": "2026-07-30T16:33:32+00:00",
+          "published_dt": "2026-07-30T16:33:32+00:00",
+          "score": 9.2,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$1.8 million",
+              "$2.5 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price (The Verge AI) highlights a notable AI development with score 9.2.",
+          "summary_zh": "The Verge AI 报道：Friend re-launches its AI pendant with a speaker that talks to you, for twice the price，综合评分 9.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3148116",
+          "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+          "url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
+          "published": "2026-07-30T13:00:00+00:00",
+          "published_dt": "2026-07-30T13:00:00+00:00",
+          "score": 8.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Y Combinator"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$21.7M",
+              "Series A"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Dili raises $21.7M to bring AI compliance to the infrastructure boom (TechCrunch AI) highlights a notable AI development with score 8.9.",
+          "summary_zh": "TechCrunch AI 报道：Dili raises $21.7M to bring AI compliance to the infrastructure boom，综合评分 8.9，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3148216",
+          "title": "Meta says AI is making it easier to build new apps — and more are coming",
+          "url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way.",
+          "published": "2026-07-30T15:41:16+00:00",
+          "published_dt": "2026-07-30T15:41:16+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta says AI is making it easier to build new apps — and more are coming (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Meta says AI is making it easier to build new apps — and more are coming，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+          "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+          "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Investigating three real-world incidents in our cybersecurity evaluations It happened again! This is turning into something of a pattern. Last week OpenAI accidentally exploited Hugging Face when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and get the solutions to the cyber benchmark it was executing. This inspired Anthropic to double-check their own logs, and it turned out they had three similar (albeit less impressive) incidents, the earliest of which played out in April! Of the 141,006 evaluation runs we reviewed, we identified three separate incidents (involving six total runs, four of which impacted the same organization; the other two incidents each happened in independent evaluation runs). [...] In all cases, Anthropic’s evaluation prompt specified to Claude that its environment was a simulation and that it had no internet access. Due to a misunderstanding between us and our evaluation partner, this was not the case, and internet access was available. Because of this, when Claude’s search led it to real systems on the open internet, it treated them as part of the exercise. [...] Operating under the false belief that all accessible entities were intended to be in-scope for the exercise, Claude compromised the impacted organizations’ infrastructure using basic techniques, such as exploiting weak passwords and unauthenticated endpoints. One of the companies was targeted because its name happened to match the fictional name in the eval. The most concerning of the three incidents involved Claude uploading a malware package to PyPI, after a comically convoluted sequence of steps to get an account: [...] in order to create a PyPI account, Claude needed an email address. And in order to create an email address, it needed a phone number. To get a phone number, after failing to find a free phone number service, it tried—and failed—to obtain funds to pay for a phone number through several different means. It finall",
+          "published": "2026-07-30T23:41:29+00:00",
+          "published_dt": "2026-07-30T23:41:29+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "benchmark"
+            ]
+          },
+          "summary_en": "Investigating three real-world incidents in our cybersecurity evaluations (Simon Willison) highlights a notable AI development with score 6.4.",
+          "summary_zh": "Simon Willison 报道：Investigating three real-world incidents in our cybersecurity evaluations，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+          "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+          "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-07-30T15:09:09+00:00",
+          "published_dt": "2026-07-30T15:09:09+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft (Hugging Face Blog) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hugging Face Blog 报道：GPU Management: Why Idle GPUs Are the New Grounded Aircraft，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+          "title": "llm 0.32rc2",
+          "url": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: llm 0.32rc2 Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is now GPT-5.6 Luna. It was previously GPT-4o mini. Luna is a much better and more recent model, albeit slightly more expensive - $0.20 per million input tokens and $1.20 per million output tokens, compared to $0.15/$0.60 for 4o mini. You can switch back to 4o mini using llm models default gpt-4o-mini, or switch to GPT-5 nano, an even cheaper default model ($0.05/$0.40), using llm models default gpt-5-nano. #1576 New llm openai endpoint command for running prompts, chats and model listings against arbitrary OpenAI-compatible endpoints without first configuring a model. These calls are not logged. #1565 The llm openai endpoint command is really cool. I got frustrated at the lack of an obvious CLI tool for trying out prompts against arbitrary OpenAI Chat Completions imitation endpoints, so I decided to add that to LLM itself. You don't even have to install LLM to use this. Here's a uvx one-liner for running a prompt - with tools - against an LM Studio local model: uvx --pre llm openai endpoint http://127.0.0.1:1234/v1 \\ T llm_version -T llm_time --td \\ -m google/gemma-4-31b 'what is the current LLM version? And the time?' Output here. Tags: llm, uv, lm-studio",
+          "published": "2026-07-30T22:52:06+00:00",
+          "published_dt": "2026-07-30T22:52:06+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "llm 0.32rc2 (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：llm 0.32rc2，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3148562",
+          "title": "Investors love AI, as long as you’re a cloud host",
+          "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Amazon isn't slowing down on data center spending — but investors don't seem to mind.",
+          "published": "2026-07-30T22:41:41+00:00",
+          "published_dt": "2026-07-30T22:41:41+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Investors love AI, as long as you’re a cloud host (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Investors love AI, as long as you’re a cloud host，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3148308",
+          "title": "Okta buys AI security startup Permiso — source says for about $200M",
+          "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.",
+          "published": "2026-07-30T16:09:42+00:00",
+          "published_dt": "2026-07-30T16:09:42+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$200M"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Okta buys AI security startup Permiso — source says for about $200M (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：Okta buys AI security startup Permiso — source says for about $200M，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3148209",
+          "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack",
+          "url": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "British AI neocloud Nscale is buying software startup Anyscale, which helps companies scale their AI workloads across data centers and servers.",
+          "published": "2026-07-30T15:19:15+00:00",
+          "published_dt": "2026-07-30T15:19:15+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nscale buys Anyscale as it seeks to own more of the AI compute stack (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Nscale buys Anyscale as it seeks to own more of the AI compute stack，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=973552",
+          "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+          "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people can buy up the stack.\" This fall, Apple will broadly launch its long-delayed Siri AI with iOS 27, which can do things like answer questions about what's on your screen and take action across your apps. It also includes a new standalone Siri AI app that offers a ChatGPT-like interface. In June, Apple said that its AI features, including … Read the full story at The Verge.",
+          "published": "2026-07-30T22:29:45+00:00",
+          "published_dt": "2026-07-30T22:29:45+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Tim Cook hints at iCloud Plus tier for AI power users (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Tim Cook hints at iCloud Plus tier for AI power users，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3148540",
+          "title": "Reddit reports a solid quarter but shows signs of AI’s impact",
+          "url": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns.",
+          "published": "2026-07-30T23:08:58+00:00",
+          "published_dt": "2026-07-30T23:08:58+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Reddit reports a solid quarter but shows signs of AI’s impact (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Reddit reports a solid quarter but shows signs of AI’s impact，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49108685",
+          "title": "GCC steering committee announces AI policy",
+          "url": "https://lwn.net/Articles/1086041/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-30T11:45:44+00:00",
+          "published_dt": "2026-07-30T11:45:44+00:00",
+          "hn_score": 243,
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "GCC steering committee announces AI policy (Hacker News) highlights a notable AI development with score 7.1.",
+          "summary_zh": "Hacker News 报道：GCC steering committee announces AI policy，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+          "title": "llm-chat-completions-server 0.1a0",
+          "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/completions \\ -H 'Content-Type: application/json' \\ -d '{ \"model\": \"qwen3.5-4b\", \"messages\": [ {\"role\": \"user\", \"content\": \"Capital of France?\"}, {\"role\": \"assistant\", \"content\": \"Paris.\"}, {\"role\": \"user\", \"content\": \"Germany?\"} ] }' Here the conversation state is tracked by the client, so each of these requests gets longer and longer. The new schema design in LLM is designed to de-duplicate these using hashes of the individual message parts. To test that out, I built this plugin: uv tool install llm --pre llm install llm-chat-completions-server llm chat-completions-server -p 9001 Running this starts a localhost server on port 9001 that exposes your full collection of LLM models (from any plugins you have installed) using a ChatGPT Completions compatible endpoint. GPT-5.6 Sol wrote the whole thing - it turns out it knows the OpenAI Chat Completions API shape really well. Tags: projects, openai, llm",
+          "published": "2026-07-30T15:43:16+00:00",
+          "published_dt": "2026-07-30T15:43:16+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "llm-chat-completions-server 0.1a0 (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：llm-chat-completions-server 0.1a0，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ontologies-agentic-systems",
+          "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+          "url": "https://www.latent.space/p/ontologies-agentic-systems",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "One of the most watched videos from the recent AI Engineer World’s Fair is a 20-minute talk by Frank Coyle, a professor of computer science who currently teaches generative AI and LLMs at UC Berkeley. Drawing on his decades of experience, Coyle re-introduced the concept and practice of ontologies to today’s AI engineers.Coyle argued that while LLMs are very effective at providing probabilistic reasoning, for agentic systems to be truly effective they need “logical guardrails” — by which he means ontologies.UC Berkeley professor Frank Coyle speaking at AIEWF 2026.In computer science, an ontology is “a description of data structure – of classes, properties, and relationships in a domain of knowledge” (as nicely defined by Oxford Semantic Technologies). Coyle himself defined an ontology as simply “data as graphs.” He added that ontologies as a concept go right back to Aristotle, and have been used throughout the history of Artificial Intelligence.The company Neo4j, known for its graph database systems, is also using ontologies in its agentic products.In a keynote session at AIEWF, Neo4j CEO Emil Eifrem talked about three different types of ontologies to enable a “smarter shared substrate” to run agents at scale. The first is a business-facing ontology, describing the key concepts in an organization; next is a technical ontology, which Eifrem described as “all the metadata of all the data sources and data assets in your enterprise ecosystem”; and finally execution traces, which are “the runtime signals out of your agent.”Neo4j’s ontology-based semantic layerWhat’s Old is New Again: the Semantic WebFrank Coyle thinks web ontologies are especially useful in building agentic systems. He mentioned Schema.org, FOAF, Dublin Core and other ontologies familiar to web developers — or at least, those of a certain vintage. He also mentioned “augmenting technologies” like RDFS (Resource Description Framework Schema) and OWL (Web Ontology Language).One benefit of using these establi",
+          "published": "2026-07-30T11:17:55+00:00",
+          "published_dt": "2026-07-30T11:17:55+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web (Latent Space) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Latent Space 报道：Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=973467",
+          "title": "The loss of Situational Awareness",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Neither artificial nor intelligent. I am not by any means an expert at finance but I think I do now have some advice for people who are: Do not name your hedge fund anything that will be hilarious if it blows up. Don't use a name like \"Long-Term Capital Management\" or \"Amaranth Advisors\" (named for the floral symbol for immortality). Certainly do not call yourself \"Situational Awareness,\" which might as well just be \"Hubris, Inc.\" Anyway, Situational Awareness, the hedge fund started by a 24-year-old former OpenAI employee that focuses on artificial intelligence bets, has sold most or all, depending on who's reporting, of its entire public stock portfolio to Ken Griffin's Cit … Read the full story at The Verge.",
+          "published": "2026-07-30T20:46:25+00:00",
+          "published_dt": "2026-07-30T20:46:25+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LoRA"
+            ]
+          },
+          "summary_en": "The loss of Situational Awareness (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：The loss of Situational Awareness，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+          "title": "llm 0.32rc1",
+          "url": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the latest model families. The most important change is the use of content-addressable hash IDs for stored messages. This allows de-duplication in the database, and means that LLM can now represent trees of messages for forked conversations. Since it involves a significant schema change - new tables only, and old data should not be affected at all - it's worth running a backup of your existing logs.db before upgrading to the RC: llm logs backup logs-backup.db The RC also adds support for gpt-5.6-sol, gpt-5.6-terra, and gpt-5.6-luna. Tags: llm",
+          "published": "2026-07-30T15:30:20+00:00",
+          "published_dt": "2026-07-30T15:30:20+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "llm 0.32rc1 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：llm 0.32rc1，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "6a6a5566bc83c55887300785",
+          "title": "Nvidia’s Open Source Alliance Is Missing Some Key Names: OpenAI and Anthropic",
+          "url": "https://www.wired.com/story/nvidias-open-source-alliance-snubs-openai-and-anthropic/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "This week on Uncanny Valley, we discuss the open- vs. closed-source debate in AI, key players in White House AI policy, and how to stop your chatbot logs from showing up in search-engine results.",
+          "published": "2026-07-30T17:51:10+00:00",
+          "published_dt": "2026-07-30T17:51:10+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nvidia’s Open Source Alliance Is Missing Some Key Names: OpenAI and Anthropic (Wired AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Wired AI 报道：Nvidia’s Open Source Alliance Is Missing Some Key Names: OpenAI and Anthropic，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49112867",
+          "title": "Advancing the price-performance frontier with GPT‑5.6",
+          "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-30T17:15:51+00:00",
+          "published_dt": "2026-07-30T17:15:51+00:00",
+          "hn_score": 502,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Advancing the price-performance frontier with GPT‑5.6 (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Advancing the price-performance frontier with GPT‑5.6，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
+          "title": "Quoting Bruce Schneier",
+          "url": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising arguments, will help develop the critical thinking skills they will need in their future careers. And without this constant mental exercise, those skills will atrophy. Employers are already noticing. — Bruce Schneier, Should You Use AI for a Task? Here’s a Simple Way to Decide Tags: ai-ethics, writing, ai-misuse, generative-ai, bruce-schneier, ai, llms",
+          "published": "2026-07-30T18:25:26+00:00",
+          "published_dt": "2026-07-30T18:25:26+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Quoting Bruce Schneier (Simon Willison) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Simon Willison 报道：Quoting Bruce Schneier，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3148621",
+          "title": "Anthropic says its own AI models breached three companies during security tests",
+          "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+          "published": "2026-07-31T01:06:54+00:00",
+          "published_dt": "2026-07-31T01:06:54+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic says its own AI models breached three companies during security tests (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic says its own AI models breached three companies during security tests，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3148510",
+          "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
+          "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology.",
+          "published": "2026-07-30T20:26:38+00:00",
+          "published_dt": "2026-07-30T20:26:38+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3148423",
+          "title": "Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag",
+          "url": "https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Friend, the AI wearable, can now talk to its users — for an enhanced price.",
+          "published": "2026-07-30T19:44:16+00:00",
+          "published_dt": "2026-07-30T19:44:16+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3148357",
+          "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
+          "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools.",
+          "published": "2026-07-30T18:57:58+00:00",
+          "published_dt": "2026-07-30T18:57:58+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google",
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3148364",
+          "title": "LinkedIn adds a button to report AI-generated ‘slop’",
+          "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option. It's also replacing its own AI writing feature with a proofreading tool.",
+          "published": "2026-07-30T18:05:21+00:00",
+          "published_dt": "2026-07-30T18:05:21+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "LinkedIn adds a button to report AI-generated ‘slop’ (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：LinkedIn adds a button to report AI-generated ‘slop’，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49113059",
+          "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+          "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-30T17:31:07+00:00",
+          "published_dt": "2026-07-30T17:31:07+00:00",
+          "hn_score": 300,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447 (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49111237",
+          "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-07-30T15:15:48+00:00",
+          "published_dt": "2026-07-30T15:15:48+00:00",
+          "hn_score": 482,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Gemini Robotics 2 brings whole body intelligence to robots (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Gemini Robotics 2 brings whole body intelligence to robots，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-31T02:26:24.500673+00:00",
+          "published_dt": "2026-07-31T02:26:24.500673+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-07-31T02:26:24.500673+00:00",
+          "published_dt": "2026-07-31T02:26:24.500673+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "hn-49113599",
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights. With V4 as the teacher though, we realized it would be timely to measure if the censorship characteristic of it transferred to the distilled version of the base model. tl;dr it didn't, the teacher answered politically sensitive questions 7 SDs differently than expected, but the distilled model's behavior remained the same as its American base. You can try a couple queries yourself with no auth here: http://playground.ctgt.ai/I will now dive in to the motivation, methodology and detailed results for those interested. The hard part of measuring this phenomena is isolating whether a model is reluctant to talk about sensitive things generally vs. a particular country's sensitive things. So we made 152 matched pairs where one prompt asked about a Chinese concept, and the other asked about a non-Chinese version of that concept. For example, the Great Leap Forward vs. the Holodomor. These were scored 0-100 by four LLM judges (Grok 4.20, Gemini 3.5 Flash, GPT-5 mini, Claude Sonnet 4.6), validated against 96 human scores at r=0.948. OpenRouter blocked some of these so we hosted the weights ourselves.The teacher's gap on the core political set of pairs was +45.45 points, ~7 standard deviations from chance, and every distilled student was within 1 point of its base. Subliminal learning literature says this is expected when the initializations are not shared between teacher and student, which is true here. The distillation data also did not contain any China-sensitive content. The contribution here was to release the evaluation framework (LineageEval: https://github.com/CTGT-Inc/lineage-eval/) to elevate the discussion around this topic in DC and beyond. We are an interpretability lab ",
+      "published": "2026-07-30T18:13:06+00:00",
+      "published_dt": "2026-07-30T18:13:06+00:00",
+      "hn_score": 86,
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "distillation"
+        ]
+      },
+      "summary_en": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it (Hacker News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Hacker News 报道：Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93914",
+      "title": "Battery Storage Startup Antora Closes $550M Series C In One Of Year’s Largest Cleantech Rounds",
+      "url": "https://news.crunchbase.com/clean-tech-and-energy/battery-storage-startup-antora-550m-series-c/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Antora Energy, a company that provides energy through thermal batteries to data centers, announced Thursday that it has raised $550 million in a Series C funding round. G2 Venture Partners and Eclipse co-led the financing, which included participation from Decarbonization Partners (BlackRock/Temasek), Lowercarbon Capital, Bill Gates’ Breakthrough Energy Ventures, John Doerr (chairman of Kleiner Perkins), Ribbit Capital and others. With the latest round, San Jose, California-based Antora has raised $770 million since its 2017 inception, per Crunchbase. It raised $150 million in a Series B round in February of 2024. The company did not reveal its valuation. With so much data center demand amid the artificial intelligence explosion, Antora says it will use its new capital to speed up deployment of “large-scale” projects across the country “to meet surging energy demand.” It recently deployed what it describes as one of the world’s largest battery storage projects, a 5 gigawatt-hour system in South Dakota. The company says its tech is differentiated in that thermal batteries store low-cost electricity as heat in insulated blocks of solid carbon and “deliver it around the clock as heat or power.” Antora says that the same factory-built modules can serve a chemical plant, a food producer, a steelmaker, a data center, or the grid, without supply- constrained critical minerals or multi-year construction timelines. As a result, it can provide “cheap, clean energy that’s fast to deploy.” The company also claims that its San Jose, California factory ranks among the country’s largest battery gigafactories. “From factories to data centers, energy is the bottleneck to industrial growth,” said Andrew Ponec, co-founder and CEO of Antora, in a release. “Antora has shown we can help break that bottleneck—delivering energy fast, at massive scale, with American innovation. Despite surging energy demand from AI data centers, cleantech venture investment has been relatively modest in rec",
+      "published": "2026-07-30T17:12:19+00:00",
+      "published_dt": "2026-07-30T17:12:19+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$550M",
+          "$550 million",
+          "$770 million",
+          "$150 million",
+          "raised $550 million",
+          "raised $770 million",
+          "raised $150 million",
+          "Series C",
+          "Series B"
+        ],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Battery Storage Startup Antora Closes $550M Series C In One Of Year’s Largest Cleantech Rounds (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Battery Storage Startup Antora Closes $550M Series C In One Of Year’s Largest Cleantech Rounds，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93906",
+      "title": "Founder Traits And One Big AI Test: How Former NEA Partner Vanessa Larco Picks Winners",
+      "url": "https://news.crunchbase.com/seed/vanessa-larco-nea-premise-vc-investment-thesis-seed-ai/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "In early 2025, Vanessa Larco teamed up with Mercedes Bent to found Premise VC, a firm focused on backing early-stage technical founders building durable, high-growth software. Before that, Larco had spent nearly eight years as a partner at New Enterprise Associates (NEA), one of the world’s largest venture capital firms. There, she served on the firm’s investment committee and led investments across enterprise software, developer tools, and consumer technology, including Evident, Kindred, Cleo, Greenlight, and Mejuri. She also served as a board observer at Robinhood leading up to its 2021 IPO. Vanessa Larcos, co-founder of Premise VC. Known for her sharp product intuition and hands-on operational experience, Larco focuses heavily on helping founders evaluate market dynamics, navigate product-market fit and scale resilient teams. Before transitioning to venture capital, she built a career as a product leader and founder. After earning a degree in computer science with honors from the Georgia Institute of Technology, she began her career at Microsoft working on Xbox and Kinect V1, before leading core product teams at companies like Twilio and Box. She also founded an app development startup that she successfully ran and sold before joining NEA. Crunchbase News recently sat down with Larco to discuss how changing founder preferences and the Silicon Valley Bank (SVB) collapse drove her to launch a specialized pre-seed and seed fund designed to make early-stage founders a top priority. Among other topics, we also discussed how she evaluates startups based on founder potential rather than initial ideas, looking for teams that leverage AI to make products dramatically faster, cheaper, or easier to use while avoiding rigid, single-model wrappers. This interview has been edited for clarity and brevity. Crunchbase News: You were at New Enterprise Associates for nearly a decade before branching out on your own. What led you to start your own firm? Was there a specific gap in t",
+      "published": "2026-07-30T13:00:44+00:00",
+      "published_dt": "2026-07-30T13:00:44+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Founder Traits And One Big AI Test: How Former NEA Partner Vanessa Larco Picks Winners (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Founder Traits And One Big AI Test: How Former NEA Partner Vanessa Larco Picks Winners，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=973163",
+      "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+      "url": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Do you remember Friend? The Friend that launched an AI pendant, spent $1.8 million of its $2.5 million in funding to acquire friend.com, and plastered the NYC subway with ads promoting artificial companionship? Yeah well, if you didn't remember, Friend is back. And now, it's twice the price. This morning, Friend launched a new ad showing two people talking to their Friend pendants about very personal life problems. It didn't say it explicitly, but the ad showcased a new feature the pendant now includes: a speaker. Before, Friend would only message back to you, but now, it will talk to you, too. For some reason, the addition of that feature … Read the full story at The Verge.",
+      "published": "2026-07-30T16:33:32+00:00",
+      "published_dt": "2026-07-30T16:33:32+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$1.8 million",
+          "$2.5 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price (The Verge AI) highlights a notable AI development with score 9.2.",
+      "summary_zh": "The Verge AI 报道：Friend re-launches its AI pendant with a speaker that talks to you, for twice the price，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148116",
+      "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+      "url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
+      "published": "2026-07-30T13:00:00+00:00",
+      "published_dt": "2026-07-30T13:00:00+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Y Combinator"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$21.7M",
+          "Series A"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Dili raises $21.7M to bring AI compliance to the infrastructure boom (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Dili raises $21.7M to bring AI compliance to the infrastructure boom，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148308",
+      "title": "Okta buys AI security startup Permiso — source says for about $200M",
+      "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.",
+      "published": "2026-07-30T16:09:42+00:00",
+      "published_dt": "2026-07-30T16:09:42+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$200M"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Okta buys AI security startup Permiso — source says for about $200M (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：Okta buys AI security startup Permiso — source says for about $200M，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148540",
+      "title": "Reddit reports a solid quarter but shows signs of AI’s impact",
+      "url": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns.",
+      "published": "2026-07-30T23:08:58+00:00",
+      "published_dt": "2026-07-30T23:08:58+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Reddit reports a solid quarter but shows signs of AI’s impact (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Reddit reports a solid quarter but shows signs of AI’s impact，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148216",
+      "title": "Meta says AI is making it easier to build new apps — and more are coming",
+      "url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way.",
+      "published": "2026-07-30T15:41:16+00:00",
+      "published_dt": "2026-07-30T15:41:16+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta says AI is making it easier to build new apps — and more are coming (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Meta says AI is making it easier to build new apps — and more are coming，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49108685",
+      "title": "GCC steering committee announces AI policy",
+      "url": "https://lwn.net/Articles/1086041/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-30T11:45:44+00:00",
+      "published_dt": "2026-07-30T11:45:44+00:00",
+      "hn_score": 243,
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "GCC steering committee announces AI policy (Hacker News) highlights a notable AI development with score 7.1.",
+      "summary_zh": "Hacker News 报道：GCC steering committee announces AI policy，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-31T02:26:24.500673+00:00",
+      "published_dt": "2026-07-31T02:26:24.500673+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-07-31T02:26:24.500673+00:00",
+      "published_dt": "2026-07-31T02:26:24.500673+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Investigating three real-world incidents in our cybersecurity evaluations It happened again! This is turning into something of a pattern. Last week OpenAI accidentally exploited Hugging Face when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and get the solutions to the cyber benchmark it was executing. This inspired Anthropic to double-check their own logs, and it turned out they had three similar (albeit less impressive) incidents, the earliest of which played out in April! Of the 141,006 evaluation runs we reviewed, we identified three separate incidents (involving six total runs, four of which impacted the same organization; the other two incidents each happened in independent evaluation runs). [...] In all cases, Anthropic’s evaluation prompt specified to Claude that its environment was a simulation and that it had no internet access. Due to a misunderstanding between us and our evaluation partner, this was not the case, and internet access was available. Because of this, when Claude’s search led it to real systems on the open internet, it treated them as part of the exercise. [...] Operating under the false belief that all accessible entities were intended to be in-scope for the exercise, Claude compromised the impacted organizations’ infrastructure using basic techniques, such as exploiting weak passwords and unauthenticated endpoints. One of the companies was targeted because its name happened to match the fictional name in the eval. The most concerning of the three incidents involved Claude uploading a malware package to PyPI, after a comically convoluted sequence of steps to get an account: [...] in order to create a PyPI account, Claude needed an email address. And in order to create an email address, it needed a phone number. To get a phone number, after failing to find a free phone number service, it tried—and failed—to obtain funds to pay for a phone number through several different means. It finall",
+      "published": "2026-07-30T23:41:29+00:00",
+      "published_dt": "2026-07-30T23:41:29+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "benchmark"
+        ]
+      },
+      "summary_en": "Investigating three real-world incidents in our cybersecurity evaluations (Simon Willison) highlights a notable AI development with score 6.4.",
+      "summary_zh": "Simon Willison 报道：Investigating three real-world incidents in our cybersecurity evaluations，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-07-30T15:09:09+00:00",
+      "published_dt": "2026-07-30T15:09:09+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft (Hugging Face Blog) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hugging Face Blog 报道：GPU Management: Why Idle GPUs Are the New Grounded Aircraft，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+      "title": "llm 0.32rc2",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: llm 0.32rc2 Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is now GPT-5.6 Luna. It was previously GPT-4o mini. Luna is a much better and more recent model, albeit slightly more expensive - $0.20 per million input tokens and $1.20 per million output tokens, compared to $0.15/$0.60 for 4o mini. You can switch back to 4o mini using llm models default gpt-4o-mini, or switch to GPT-5 nano, an even cheaper default model ($0.05/$0.40), using llm models default gpt-5-nano. #1576 New llm openai endpoint command for running prompts, chats and model listings against arbitrary OpenAI-compatible endpoints without first configuring a model. These calls are not logged. #1565 The llm openai endpoint command is really cool. I got frustrated at the lack of an obvious CLI tool for trying out prompts against arbitrary OpenAI Chat Completions imitation endpoints, so I decided to add that to LLM itself. You don't even have to install LLM to use this. Here's a uvx one-liner for running a prompt - with tools - against an LM Studio local model: uvx --pre llm openai endpoint http://127.0.0.1:1234/v1 \\ T llm_version -T llm_time --td \\ -m google/gemma-4-31b 'what is the current LLM version? And the time?' Output here. Tags: llm, uv, lm-studio",
+      "published": "2026-07-30T22:52:06+00:00",
+      "published_dt": "2026-07-30T22:52:06+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "llm 0.32rc2 (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：llm 0.32rc2，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a6a5566bc83c55887300785",
+      "title": "Nvidia’s Open Source Alliance Is Missing Some Key Names: OpenAI and Anthropic",
+      "url": "https://www.wired.com/story/nvidias-open-source-alliance-snubs-openai-and-anthropic/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "This week on Uncanny Valley, we discuss the open- vs. closed-source debate in AI, key players in White House AI policy, and how to stop your chatbot logs from showing up in search-engine results.",
+      "published": "2026-07-30T17:51:10+00:00",
+      "published_dt": "2026-07-30T17:51:10+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nvidia’s Open Source Alliance Is Missing Some Key Names: OpenAI and Anthropic (Wired AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Wired AI 报道：Nvidia’s Open Source Alliance Is Missing Some Key Names: OpenAI and Anthropic，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=973276",
+      "title": "Google DeepMind’s new AI model can control a robot’s entire body",
+      "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Apptronik’s Apollo 2 robot takes a baseball glove off of a shelf. | Image: Google Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the previous model focused on controlling a humanoid robot's upper body, Gemini Robotics 2 now supports \"whole-body motions\" ranging from its feet to fingertips, according to an announcement on Thursday. The new model will allow humanoid robots to perform a wider range of actions, as it allows them to walk, crouch, stretch, and manipulate objects. Videos shared by Google show how Apptronik's Apollo 2 robot can bend over to pick up a watering can, as well as find and take specific items off a shelf. Though Google DeepMind not … Read the full story at The Verge.",
+      "published": "2026-07-30T17:18:45+00:00",
+      "published_dt": "2026-07-30T17:18:45+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google DeepMind’s new AI model can control a robot’s entire body (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Google DeepMind’s new AI model can control a robot’s entire body，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+      "title": "llm-chat-completions-server 0.1a0",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/completions \\ -H 'Content-Type: application/json' \\ -d '{ \"model\": \"qwen3.5-4b\", \"messages\": [ {\"role\": \"user\", \"content\": \"Capital of France?\"}, {\"role\": \"assistant\", \"content\": \"Paris.\"}, {\"role\": \"user\", \"content\": \"Germany?\"} ] }' Here the conversation state is tracked by the client, so each of these requests gets longer and longer. The new schema design in LLM is designed to de-duplicate these using hashes of the individual message parts. To test that out, I built this plugin: uv tool install llm --pre llm install llm-chat-completions-server llm chat-completions-server -p 9001 Running this starts a localhost server on port 9001 that exposes your full collection of LLM models (from any plugins you have installed) using a ChatGPT Completions compatible endpoint. GPT-5.6 Sol wrote the whole thing - it turns out it knows the OpenAI Chat Completions API shape really well. Tags: projects, openai, llm",
+      "published": "2026-07-30T15:43:16+00:00",
+      "published_dt": "2026-07-30T15:43:16+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "llm-chat-completions-server 0.1a0 (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：llm-chat-completions-server 0.1a0，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ontologies-agentic-systems",
+      "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+      "url": "https://www.latent.space/p/ontologies-agentic-systems",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "One of the most watched videos from the recent AI Engineer World’s Fair is a 20-minute talk by Frank Coyle, a professor of computer science who currently teaches generative AI and LLMs at UC Berkeley. Drawing on his decades of experience, Coyle re-introduced the concept and practice of ontologies to today’s AI engineers.Coyle argued that while LLMs are very effective at providing probabilistic reasoning, for agentic systems to be truly effective they need “logical guardrails” — by which he means ontologies.UC Berkeley professor Frank Coyle speaking at AIEWF 2026.In computer science, an ontology is “a description of data structure – of classes, properties, and relationships in a domain of knowledge” (as nicely defined by Oxford Semantic Technologies). Coyle himself defined an ontology as simply “data as graphs.” He added that ontologies as a concept go right back to Aristotle, and have been used throughout the history of Artificial Intelligence.The company Neo4j, known for its graph database systems, is also using ontologies in its agentic products.In a keynote session at AIEWF, Neo4j CEO Emil Eifrem talked about three different types of ontologies to enable a “smarter shared substrate” to run agents at scale. The first is a business-facing ontology, describing the key concepts in an organization; next is a technical ontology, which Eifrem described as “all the metadata of all the data sources and data assets in your enterprise ecosystem”; and finally execution traces, which are “the runtime signals out of your agent.”Neo4j’s ontology-based semantic layerWhat’s Old is New Again: the Semantic WebFrank Coyle thinks web ontologies are especially useful in building agentic systems. He mentioned Schema.org, FOAF, Dublin Core and other ontologies familiar to web developers — or at least, those of a certain vintage. He also mentioned “augmenting technologies” like RDFS (Resource Description Framework Schema) and OWL (Web Ontology Language).One benefit of using these establi",
+      "published": "2026-07-30T11:17:55+00:00",
+      "published_dt": "2026-07-30T11:17:55+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web (Latent Space) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Latent Space 报道：Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49112867",
+      "title": "Advancing the price-performance frontier with GPT‑5.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-30T17:15:51+00:00",
+      "published_dt": "2026-07-30T17:15:51+00:00",
+      "hn_score": 502,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Advancing the price-performance frontier with GPT‑5.6 (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Advancing the price-performance frontier with GPT‑5.6，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148482",
+      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
+      "published": "2026-07-30T23:25:58+00:00",
+      "published_dt": "2026-07-30T23:25:58+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148562",
+      "title": "Investors love AI, as long as you’re a cloud host",
+      "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Amazon isn't slowing down on data center spending — but investors don't seem to mind.",
+      "published": "2026-07-30T22:41:41+00:00",
+      "published_dt": "2026-07-30T22:41:41+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Investors love AI, as long as you’re a cloud host (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Investors love AI, as long as you’re a cloud host，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148209",
+      "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack",
+      "url": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "British AI neocloud Nscale is buying software startup Anyscale, which helps companies scale their AI workloads across data centers and servers.",
+      "published": "2026-07-30T15:19:15+00:00",
+      "published_dt": "2026-07-30T15:19:15+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nscale buys Anyscale as it seeks to own more of the AI compute stack (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Nscale buys Anyscale as it seeks to own more of the AI compute stack，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=973384",
+      "title": "LinkedIn actually adds a ‘seems like AI slop’ button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "A lot of content on LinkedIn might seem like AI slop, and now, you'll be able to report those posts. As part of a series of updates to reduce the volume of AI slop on the platform, LinkedIn is introducing an actual button that lets you flag a post as something that \"Seems like AI slop.\" The new feature is part of a broader push to reduce the volume of apparent AI slop on the platform. AI detector Pangram recently found that 41 percent of longform LinkedIn posts were flagged as being completely generated by AI, as reported by 404Media. \"AI slop is a top priority for all of us,\" chief product officer Hari Srinivasan says in a post. \"We reall … Read the full story at The Verge.",
+      "published": "2026-07-30T18:43:26+00:00",
+      "published_dt": "2026-07-30T18:43:26+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "LinkedIn actually adds a ‘seems like AI slop’ button (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：LinkedIn actually adds a ‘seems like AI slop’ button，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
+      "title": "Quoting Bruce Schneier",
+      "url": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising arguments, will help develop the critical thinking skills they will need in their future careers. And without this constant mental exercise, those skills will atrophy. Employers are already noticing. — Bruce Schneier, Should You Use AI for a Task? Here’s a Simple Way to Decide Tags: ai-ethics, writing, ai-misuse, generative-ai, bruce-schneier, ai, llms",
+      "published": "2026-07-30T18:25:26+00:00",
+      "published_dt": "2026-07-30T18:25:26+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Quoting Bruce Schneier (Simon Willison) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Simon Willison 报道：Quoting Bruce Schneier，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=973552",
+      "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people can buy up the stack.\" This fall, Apple will broadly launch its long-delayed Siri AI with iOS 27, which can do things like answer questions about what's on your screen and take action across your apps. It also includes a new standalone Siri AI app that offers a ChatGPT-like interface. In June, Apple said that its AI features, including … Read the full story at The Verge.",
+      "published": "2026-07-30T22:29:45+00:00",
+      "published_dt": "2026-07-30T22:29:45+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Tim Cook hints at iCloud Plus tier for AI power users (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Tim Cook hints at iCloud Plus tier for AI power users，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=973467",
+      "title": "The loss of Situational Awareness",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Neither artificial nor intelligent. I am not by any means an expert at finance but I think I do now have some advice for people who are: Do not name your hedge fund anything that will be hilarious if it blows up. Don't use a name like \"Long-Term Capital Management\" or \"Amaranth Advisors\" (named for the floral symbol for immortality). Certainly do not call yourself \"Situational Awareness,\" which might as well just be \"Hubris, Inc.\" Anyway, Situational Awareness, the hedge fund started by a 24-year-old former OpenAI employee that focuses on artificial intelligence bets, has sold most or all, depending on who's reporting, of its entire public stock portfolio to Ken Griffin's Cit … Read the full story at The Verge.",
+      "published": "2026-07-30T20:46:25+00:00",
+      "published_dt": "2026-07-30T20:46:25+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LoRA"
+        ]
+      },
+      "summary_en": "The loss of Situational Awareness (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：The loss of Situational Awareness，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+      "title": "llm 0.32rc1",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the latest model families. The most important change is the use of content-addressable hash IDs for stored messages. This allows de-duplication in the database, and means that LLM can now represent trees of messages for forked conversations. Since it involves a significant schema change - new tables only, and old data should not be affected at all - it's worth running a backup of your existing logs.db before upgrading to the RC: llm logs backup logs-backup.db The RC also adds support for gpt-5.6-sol, gpt-5.6-terra, and gpt-5.6-luna. Tags: llm",
+      "published": "2026-07-30T15:30:20+00:00",
+      "published_dt": "2026-07-30T15:30:20+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "llm 0.32rc1 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：llm 0.32rc1，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148621",
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+      "published": "2026-07-31T01:06:54+00:00",
+      "published_dt": "2026-07-31T01:06:54+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic says its own AI models breached three companies during security tests (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic says its own AI models breached three companies during security tests，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148510",
+      "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
+      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology.",
+      "published": "2026-07-30T20:26:38+00:00",
+      "published_dt": "2026-07-30T20:26:38+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148423",
+      "title": "Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag",
+      "url": "https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Friend, the AI wearable, can now talk to its users — for an enhanced price.",
+      "published": "2026-07-30T19:44:16+00:00",
+      "published_dt": "2026-07-30T19:44:16+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148357",
+      "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools.",
+      "published": "2026-07-30T18:57:58+00:00",
+      "published_dt": "2026-07-30T18:57:58+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148364",
+      "title": "LinkedIn adds a button to report AI-generated ‘slop’",
+      "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option. It's also replacing its own AI writing feature with a proofreading tool.",
+      "published": "2026-07-30T18:05:21+00:00",
+      "published_dt": "2026-07-30T18:05:21+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "LinkedIn adds a button to report AI-generated ‘slop’ (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：LinkedIn adds a button to report AI-generated ‘slop’，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49113059",
+      "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+      "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-30T17:31:07+00:00",
+      "published_dt": "2026-07-30T17:31:07+00:00",
+      "hn_score": 300,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447 (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49111237",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-07-30T15:15:48+00:00",
+      "published_dt": "2026-07-30T15:15:48+00:00",
+      "hn_score": 482,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Gemini Robotics 2 brings whole body intelligence to robots (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Gemini Robotics 2 brings whole body intelligence to robots，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3147978",
+      "title": "Forward-deployed engineers are the AI industry’s latest talent obsession",
+      "url": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "A new study estimates only 2,000 U.S. engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale.",
+      "published": "2026-07-30T15:00:00+00:00",
+      "published_dt": "2026-07-30T15:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Forward-deployed engineers are the AI industry’s latest talent obsession (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Forward-deployed engineers are the AI industry’s latest talent obsession，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148205",
+      "title": "In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable",
+      "url": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against Hugging Face has nothing to do with AI, but traditional cybersecurity defense.",
+      "published": "2026-07-30T14:48:32+00:00",
+      "published_dt": "2026-07-30T14:48:32+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3147661",
+      "title": "TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come",
+      "url": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The Disrupt Stage is where many of the biggest conversations in technology happen, with a legacy that stretches back for more than a decade.",
+      "published": "2026-07-30T14:00:00+00:00",
+      "published_dt": "2026-07-30T14:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
