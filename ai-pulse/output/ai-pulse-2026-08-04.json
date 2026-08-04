@@ -1,0 +1,1537 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T02:06:53",
+  "stats": {
+    "total_items": 21,
+    "high_importance": 5,
+    "medium_importance": 16,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/inference-eng",
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "url": "https://www.latent.space/p/inference-eng",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "We first covered Baseten last year when DeepSeek mania was at peak hype. Now they have raised a monster $13B round and become one of the new cohort of AI Infra decacorns that are (with Nvidia, Intel, and the semis complex) chief beneficiaries of the Inference Inflection. We return to Baseten at the peak of the 2026 edition of Open Weights debate. Ali has published a viral breakdown of Kimi K3:And since you last saw him, Philip has spoken at AI Engineer and written the definitive book on Inference Engineering spotted all over SF:Three years ago, inference engineering barely existed as a category.Today, it is one of the most critical disciplines in AI. Inference engineering inherently tackles a different question than standard model training: “How do you turn those weights from training into a product that is fast, reliable, and affordable at scale?” Focusing on these creates an entirely new optimization problem.In one recent GLM-5.2 experiment, quantizing more of the model actually preserved its benchmark quality while increasing throughput by 20%, because the errors introduced in different layers could cancel each other out.Inference is no longer just the final step after training. It is becoming its own engineering discipline, with its own research problems, infrastructure, and increasingly specialized roles.In this episode, Baseten’s Philip Kiely and Ali Taha join swyx and Vibhu to explain what actually happens after a new open model is released and what it takes to turn “we generated a token” into a fast, reliable, production-ready API.We go deep on cache-aware routing, disaggregated prefill and decode, quantization, speculative decoding, KV-cache movement, model parallelism, GPU kernels, and the race to make frontier models up to 10× faster. Philip and Ali explain why inference optimizations can still produce gains of 20%, 100%, or even 200%; how quantization errors can cancel one another out; why identical weights can behave differently across clusters; and how",
+      "published": "2026-08-03T21:44:03+00:00",
+      "published_dt": "2026-08-03T21:44:03+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$13B"
+        ],
+        "technologies": [
+          "inference",
+          "benchmark",
+          "quantization"
+        ]
+      },
+      "summary_en": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
+      "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "No voiceover for this quick post, but a quick video version is here.We’re expanding our open models coverage into standalone projects that let you go deeper on the state of the open model ecosystem. The new free sources of data are:The Artifacts Hub — a curated view of the models trending on Hugging Face, highlighting inference tokens via Open Router, model intelligence via Artificial Analysis, and our tailored adoption metrics building on top of Hugging Face’s data.Our Adoption Dashboard — a living dashboard of download and derivative model numbers by geography and organization. This highlights the US-China gap and growing players in the open ecosystem.To date, our primary efforts on Interconnects have been release recaps for popular models like Kimi K3, GLM 5.2, DeepSeek R1, etc. and monthly round-ups of the open models that matter, Artifacts Log. We’re expanding on these, building on the tools and internal data we’ve collected for other projects like The ATOM Project (and report). This allows us to capture our ecosystem view of open models, develop methods for understanding adoption of giant MoE models, and everything in between. We’re sharing them freely to help the open ecosystem find its strengths and grow.Visit the Artifacts HubThe Artifacts Hub right now covers 792 models released in the last two years, across the core text-focused language models and multimodal generative models. At Interconnects we follow the data of every model on Hugging Face, analyze the core few thousand LLMs (this list is public on GitHub and regularly updated), and hand select these core few hundred for further explanation. We built the Hub as a way to go deeper on this analysis in collaboration with Project VAIL — an AI verification startup who has been one of the most loyal fans of our open model curation.For the most popular models, the Hub let’s you quickly see how far behind the model was in terms of frontier intelligence based on Artificial Analysis’s Intelligence Index, compar",
+      "published": "2026-08-03T14:03:08+00:00",
+      "published_dt": "2026-08-03T14:03:08+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Hugging Face",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG",
+          "inference",
+          "MoE",
+          "multimodal"
+        ]
+      },
+      "summary_en": "Introducing our Artifacts Hub and Adoption Dashboard (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Introducing our Artifacts Hub and Adoption Dashboard，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93915",
+      "title": "‘A Rare Land-Grab Moment’: Menlo Ventures’ Matt Murphy On The Next Wave of AI And Putting $3B In New Capital To Work",
+      "url": "https://news.crunchbase.com/venture/menlo-ventures-matt-murphy-anthropic-ai-investment-thesis/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "In June, Menlo Ventures footnote]Menlo Ventures is an investor in Crunchbase. They have no say in our editorial process. For more, head here.[/footnote] announced $3 billion in new capital across two funds, marking the largest raise in its 50-year history. Menlo Ventures XVII will invest primarily in seed and Series A companies, while Menlo Inflection IV will provide growth capital to startups at Series B and beyond. The new funds will target companies throughout the AI market, from foundational models and infrastructure to enterprise, healthcare and consumer applications. The new capital gives the Silicon Valley firm more flexibility to back companies from their earliest days through later funding rounds that can require hundreds of millions of dollars. It also shows how important AI has become to a firm previously known for investments in companies including Uber, Roku and Siri. Matt Murphy of Menlo Ventures. In recent years, Anthropic has become the most prominent company in Menlo’s AI portfolio. The firm first invested in the AI model developer in 2023 and has added to its investment in later rounds. Menlo’s other AI investments include app-building platform Lovable, music-generation startup Suno, AI model marketplace OpenRouter, voice productivity company Wispr, AI infrastructure companies Fireworks AI and Modal, robotics startup Skild AI, and AI research company Goodfire. Matt Murphy, a partner at Menlo since 2015, has played a central role in developing that strategy. He invests across AI infrastructure, developer tools and AI-native software and has led Menlo’s investments in companies including Anthropic, Lovable, OpenRouter, AI-powered software delivery platform Harness, code security startup Semgrep and legaltech startup Legora. Before joining Menlo, Murphy spent 15 years as a general partner at Kleiner Perkins, where he was an observer at Google from the firm’s initial investment through its IPO, helped launch the $200 million iFund with Apple and worked",
+      "published": "2026-08-03T11:00:43+00:00",
+      "published_dt": "2026-08-03T11:00:43+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$3B",
+          "$3 billion",
+          "$200 million",
+          "Series A",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "‘A Rare Land-Grab Moment’: Menlo Ventures’ Matt Murphy On The Next Wave of AI And Putting $3B In New Capital To Work (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：‘A Rare Land-Grab Moment’: Menlo Ventures’ Matt Murphy On The Next Wave of AI And Putting $3B In New Capital To Work，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148764",
+      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
+      "published": "2026-08-03T10:00:00+00:00",
+      "published_dt": "2026-08-03T10:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$20 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：A Marc Benioff-backed startup thinks AI can solve the AI deployment problem，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149146",
+      "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
+      "published": "2026-08-03T19:28:57+00:00",
+      "published_dt": "2026-08-03T19:28:57+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$7.9 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Design Arena creators raise $7.9 million to bring taste to AI models (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Design Arena creators raise $7.9 million to bring taste to AI models，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/inference-eng",
+          "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+          "url": "https://www.latent.space/p/inference-eng",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "We first covered Baseten last year when DeepSeek mania was at peak hype. Now they have raised a monster $13B round and become one of the new cohort of AI Infra decacorns that are (with Nvidia, Intel, and the semis complex) chief beneficiaries of the Inference Inflection. We return to Baseten at the peak of the 2026 edition of Open Weights debate. Ali has published a viral breakdown of Kimi K3:And since you last saw him, Philip has spoken at AI Engineer and written the definitive book on Inference Engineering spotted all over SF:Three years ago, inference engineering barely existed as a category.Today, it is one of the most critical disciplines in AI. Inference engineering inherently tackles a different question than standard model training: “How do you turn those weights from training into a product that is fast, reliable, and affordable at scale?” Focusing on these creates an entirely new optimization problem.In one recent GLM-5.2 experiment, quantizing more of the model actually preserved its benchmark quality while increasing throughput by 20%, because the errors introduced in different layers could cancel each other out.Inference is no longer just the final step after training. It is becoming its own engineering discipline, with its own research problems, infrastructure, and increasingly specialized roles.In this episode, Baseten’s Philip Kiely and Ali Taha join swyx and Vibhu to explain what actually happens after a new open model is released and what it takes to turn “we generated a token” into a fast, reliable, production-ready API.We go deep on cache-aware routing, disaggregated prefill and decode, quantization, speculative decoding, KV-cache movement, model parallelism, GPU kernels, and the race to make frontier models up to 10× faster. Philip and Ali explain why inference optimizations can still produce gains of 20%, 100%, or even 200%; how quantization errors can cancel one another out; why identical weights can behave differently across clusters; and how",
+          "published": "2026-08-03T21:44:03+00:00",
+          "published_dt": "2026-08-03T21:44:03+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "NVIDIA",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$13B"
+            ],
+            "technologies": [
+              "inference",
+              "benchmark",
+              "quantization"
+            ]
+          },
+          "summary_en": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93920",
+          "title": "Why The Product Manager To CEO Pipeline Is The Underrated Crash Course For Leadership In Tech",
+          "url": "https://news.crunchbase.com/workplace/tech-ceo-leadership-career-path-product-manager/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "By Ben Chisell The road to the top rarely runs in a straight line, but there are less circuitous routes to becoming CEO. According to one of the largest ongoing studies analyzing every CEO succession in the S&P 500 since 2000, there are four feeder roles: COOs, divisional CEOs, CFOs, and “leapfrog” leaders promoted from below the C-suite. Ben Chisell of Paysend But a separate 10-year study called the CEO Genome Project suggests that the fastest climbers ± “sprinters” who reached the CEO seat well ahead of the 24-year average — didn’t get there by climbing the corporate ladder to the top. They got there through bold, often unconventional career moves, such as taking on a failing division or building something from scratch. In fact, what set them apart wasn’t pedigree but building a specific skillset that made them CEO material: decisiveness, reliability, adaptability, and the ability to engage people around a plan. Product management doesn’t appear in the CEO-pathway research, likely because none of the major studies breaks the role out as a separate category. It’s a relatively newer function, and it tends to get folded into general management or engineering in career datasets. But once you look at what the job demands — ownership of a tangible outcome, obsession with what customers value, the willingness to make tough decisions — it maps directly onto the traits the CEO Genome Project found in its sprinters. I’ve spent my career leading product and technology at companies including Amazon, eBay, Starling Bank and OakNorth. Those roles landed me my first CEO position without having to fill the typical CEO-starter pack jobs because I was able to articulate my skill set to the board. In short, product management is about making a product successful; being CEO is about making a business successful. The ingredients are the same. Don’t take my word for it. Sundar Pichai joined Google in 2004, leading product management for the Google Toolbar, years before he became CEO. N",
+          "published": "2026-08-03T13:00:06+00:00",
+          "published_dt": "2026-08-03T13:00:06+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Google",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Why The Product Manager To CEO Pipeline Is The Underrated Crash Course For Leadership In Tech (Crunchbase News) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Crunchbase News 报道：Why The Product Manager To CEO Pipeline Is The Underrated Crash Course For Leadership In Tech，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+          "title": "How we built a realtime system for responsive voice AI in six months",
+          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+          "published": "2026-08-03T07:00:00+00:00",
+          "published_dt": "2026-08-03T07:00:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How we built a realtime system for responsive voice AI in six months (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：How we built a realtime system for responsive voice AI in six months，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93915",
+          "title": "‘A Rare Land-Grab Moment’: Menlo Ventures’ Matt Murphy On The Next Wave of AI And Putting $3B In New Capital To Work",
+          "url": "https://news.crunchbase.com/venture/menlo-ventures-matt-murphy-anthropic-ai-investment-thesis/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "In June, Menlo Ventures footnote]Menlo Ventures is an investor in Crunchbase. They have no say in our editorial process. For more, head here.[/footnote] announced $3 billion in new capital across two funds, marking the largest raise in its 50-year history. Menlo Ventures XVII will invest primarily in seed and Series A companies, while Menlo Inflection IV will provide growth capital to startups at Series B and beyond. The new funds will target companies throughout the AI market, from foundational models and infrastructure to enterprise, healthcare and consumer applications. The new capital gives the Silicon Valley firm more flexibility to back companies from their earliest days through later funding rounds that can require hundreds of millions of dollars. It also shows how important AI has become to a firm previously known for investments in companies including Uber, Roku and Siri. Matt Murphy of Menlo Ventures. In recent years, Anthropic has become the most prominent company in Menlo’s AI portfolio. The firm first invested in the AI model developer in 2023 and has added to its investment in later rounds. Menlo’s other AI investments include app-building platform Lovable, music-generation startup Suno, AI model marketplace OpenRouter, voice productivity company Wispr, AI infrastructure companies Fireworks AI and Modal, robotics startup Skild AI, and AI research company Goodfire. Matt Murphy, a partner at Menlo since 2015, has played a central role in developing that strategy. He invests across AI infrastructure, developer tools and AI-native software and has led Menlo’s investments in companies including Anthropic, Lovable, OpenRouter, AI-powered software delivery platform Harness, code security startup Semgrep and legaltech startup Legora. Before joining Menlo, Murphy spent 15 years as a general partner at Kleiner Perkins, where he was an observer at Google from the firm’s initial investment through its IPO, helped launch the $200 million iFund with Apple and worked",
+          "published": "2026-08-03T11:00:43+00:00",
+          "published_dt": "2026-08-03T11:00:43+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$3B",
+              "$3 billion",
+              "$200 million",
+              "Series A",
+              "Series B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "‘A Rare Land-Grab Moment’: Menlo Ventures’ Matt Murphy On The Next Wave of AI And Putting $3B In New Capital To Work (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：‘A Rare Land-Grab Moment’: Menlo Ventures’ Matt Murphy On The Next Wave of AI And Putting $3B In New Capital To Work，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3148764",
+          "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+          "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
+          "published": "2026-08-03T10:00:00+00:00",
+          "published_dt": "2026-08-03T10:00:00+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$20 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem (TechCrunch AI) highlights a notable AI development with score 10.0.",
+          "summary_zh": "TechCrunch AI 报道：A Marc Benioff-backed startup thinks AI can solve the AI deployment problem，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3149146",
+          "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+          "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
+          "published": "2026-08-03T19:28:57+00:00",
+          "published_dt": "2026-08-03T19:28:57+00:00",
+          "score": 8.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$7.9 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Design Arena creators raise $7.9 million to bring taste to AI models (TechCrunch AI) highlights a notable AI development with score 8.9.",
+          "summary_zh": "TechCrunch AI 报道：Design Arena creators raise $7.9 million to bring taste to AI models，综合评分 8.9，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3149421",
+          "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+          "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
+          "published": "2026-08-03T23:19:50+00:00",
+          "published_dt": "2026-08-03T23:19:50+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$1 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’ (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3148841",
+          "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+          "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "AWS now allows vibe-coding tool Superblocks to be embedded into the private clouds of AWS customers. It's another step toward decoupling apps from models.",
+          "published": "2026-08-03T20:00:00+00:00",
+          "published_dt": "2026-08-03T20:00:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AWS is helping vibe-coding startup Superblocks, and the implications are big (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：AWS is helping vibe-coding startup Superblocks, and the implications are big，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+          "title": "Introducing our Artifacts Hub and Adoption Dashboard",
+          "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "No voiceover for this quick post, but a quick video version is here.We’re expanding our open models coverage into standalone projects that let you go deeper on the state of the open model ecosystem. The new free sources of data are:The Artifacts Hub — a curated view of the models trending on Hugging Face, highlighting inference tokens via Open Router, model intelligence via Artificial Analysis, and our tailored adoption metrics building on top of Hugging Face’s data.Our Adoption Dashboard — a living dashboard of download and derivative model numbers by geography and organization. This highlights the US-China gap and growing players in the open ecosystem.To date, our primary efforts on Interconnects have been release recaps for popular models like Kimi K3, GLM 5.2, DeepSeek R1, etc. and monthly round-ups of the open models that matter, Artifacts Log. We’re expanding on these, building on the tools and internal data we’ve collected for other projects like The ATOM Project (and report). This allows us to capture our ecosystem view of open models, develop methods for understanding adoption of giant MoE models, and everything in between. We’re sharing them freely to help the open ecosystem find its strengths and grow.Visit the Artifacts HubThe Artifacts Hub right now covers 792 models released in the last two years, across the core text-focused language models and multimodal generative models. At Interconnects we follow the data of every model on Hugging Face, analyze the core few thousand LLMs (this list is public on GitHub and regularly updated), and hand select these core few hundred for further explanation. We built the Hub as a way to go deeper on this analysis in collaboration with Project VAIL — an AI verification startup who has been one of the most loyal fans of our open model curation.For the most popular models, the Hub let’s you quickly see how far behind the model was in terms of frontier intelligence based on Artificial Analysis’s Intelligence Index, compar",
+          "published": "2026-08-03T14:03:08+00:00",
+          "published_dt": "2026-08-03T14:03:08+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Hugging Face",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "RAG",
+              "inference",
+              "MoE",
+              "multimodal"
+            ]
+          },
+          "summary_en": "Introducing our Artifacts Hub and Adoption Dashboard (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：Introducing our Artifacts Hub and Adoption Dashboard，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=974342",
+          "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "The Alibaba logo is displayed outside its headquarters in Hangzhou, Zhejiang Province, China. | Image: NurPhoto via Getty Images Chinese tech giant Alibaba released what it says is its largest and \"most capable AI model to date,\" claiming performance rivaling the best systems from US frontier labs Anthropic and OpenAI, as well as domestic rivals like Moonshot AI's Kimi K3. Alibaba said it was making the model, Qwen3.8-Max, widely available to users in a blog post published on Monday. The release had been expected after the company previewed the model last month, when it claimed it was \"second only to Fable 5,\" Anthropic's flagship. The open release of another highly capable Chinese AI model adds to sky-high tensions along multiple fronts in Silicon Valley and Washin … Read the full story at The Verge.",
+          "published": "2026-08-03T11:01:11+00:00",
+          "published_dt": "2026-08-03T11:01:11+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Moonshot AI",
+              "Alibaba"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：China&#8217;s Alibaba takes another swipe at America’s AI supremacy，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3149151",
+          "title": "Congress’ favorite AI tool? ChatGPT",
+          "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications.",
+          "published": "2026-08-03T16:40:55+00:00",
+          "published_dt": "2026-08-03T16:40:55+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Congress’ favorite AI tool? ChatGPT (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Congress’ favorite AI tool? ChatGPT，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 5,
+      "items": [
+        {
+          "id": "hn-49154332",
+          "title": "SQLite Critical CVEs or LLM Slop?",
+          "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-03T11:28:54+00:00",
+          "published_dt": "2026-08-03T11:28:54+00:00",
+          "hn_score": 699,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "SQLite Critical CVEs or LLM Slop? (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：SQLite Critical CVEs or LLM Slop?，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49161518",
+          "title": "LLMs reward expertise",
+          "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-03T21:13:53+00:00",
+          "published_dt": "2026-08-03T21:13:53+00:00",
+          "hn_score": 458,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "LLMs reward expertise (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：LLMs reward expertise，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3149254",
+          "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+          "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.",
+          "published": "2026-08-03T19:09:56+00:00",
+          "published_dt": "2026-08-03T19:09:56+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Influencers draw backlash for attending OpenAI’s first luxury trip (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Influencers draw backlash for attending OpenAI’s first luxury trip，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3149128",
+          "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
+          "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Apple’s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be. Yet it arrives at a moment when simply being a capable AI assistant no longer feels revolutionary.",
+          "published": "2026-08-03T18:43:43+00:00",
+          "published_dt": "2026-08-03T18:43:43+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple finally fixed Siri. So why does it feel anticlimactic? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Apple finally fixed Siri. So why does it feel anticlimactic?，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49153374",
+          "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+          "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-03T09:32:07+00:00",
+          "published_dt": "2026-08-03T09:32:07+00:00",
+          "hn_score": 388,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Prevent cognitive debt by manually retyping LLM-generated code (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Prevent cognitive debt by manually retyping LLM-generated code，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 5,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-04T02:06:49.951983+00:00",
+          "published_dt": "2026-08-04T02:06:49.951983+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-04T02:06:49.951983+00:00",
+          "published_dt": "2026-08-04T02:06:49.951983+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+          "title": "Devtools must be open source (exe.dev)",
+          "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "My comment on Devtools must be open source (exe.dev) — Hacker News.One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on other people to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often. I think LLMs have changed that equation in a way that makes the original dream much more feasible. Several times a day I'll prompt regular Claude chat to \"Clone x/y from GitHub and tell me how Z works\". Getting software to compile in order to start hacking on it used to be enough friction that I often wouldn't bother. Now I treat that as a zero time investment challenge: tell Codex or Claude Code to checkout and build X and then come back ten minutes later and see how it got on. I'm not habitually modifying the software I use yet, but I can see a path to that which didn't exist a year or so ago. Tags: hacker-news, open-source, ai, generative-ai, llms, ai-assisted-programming",
+          "published": "2026-08-03T15:30:38+00:00",
+          "published_dt": "2026-08-03T15:30:38+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Devtools must be open source (exe.dev) (Simon Willison) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Simon Willison 报道：Devtools must be open source (exe.dev)，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49152842",
+          "title": "Bonsai: Janestreet's UI Library",
+          "url": "https://github.com/janestreet/bonsai",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-03T08:29:57+00:00",
+          "published_dt": "2026-08-03T08:29:57+00:00",
+          "hn_score": 305,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Bonsai: Janestreet's UI Library (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：Bonsai: Janestreet's UI Library，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+          "title": "Quoting David Crawshaw's prompt",
+          "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. — David Crawshaw's prompt, Devtools must be open source Tags: prompt-engineering, coding-agents, generative-ai, ai, llms, open-source",
+          "published": "2026-08-03T16:15:27+00:00",
+          "published_dt": "2026-08-03T16:15:27+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "Quoting David Crawshaw's prompt (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：Quoting David Crawshaw's prompt，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/inference-eng",
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "url": "https://www.latent.space/p/inference-eng",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "We first covered Baseten last year when DeepSeek mania was at peak hype. Now they have raised a monster $13B round and become one of the new cohort of AI Infra decacorns that are (with Nvidia, Intel, and the semis complex) chief beneficiaries of the Inference Inflection. We return to Baseten at the peak of the 2026 edition of Open Weights debate. Ali has published a viral breakdown of Kimi K3:And since you last saw him, Philip has spoken at AI Engineer and written the definitive book on Inference Engineering spotted all over SF:Three years ago, inference engineering barely existed as a category.Today, it is one of the most critical disciplines in AI. Inference engineering inherently tackles a different question than standard model training: “How do you turn those weights from training into a product that is fast, reliable, and affordable at scale?” Focusing on these creates an entirely new optimization problem.In one recent GLM-5.2 experiment, quantizing more of the model actually preserved its benchmark quality while increasing throughput by 20%, because the errors introduced in different layers could cancel each other out.Inference is no longer just the final step after training. It is becoming its own engineering discipline, with its own research problems, infrastructure, and increasingly specialized roles.In this episode, Baseten’s Philip Kiely and Ali Taha join swyx and Vibhu to explain what actually happens after a new open model is released and what it takes to turn “we generated a token” into a fast, reliable, production-ready API.We go deep on cache-aware routing, disaggregated prefill and decode, quantization, speculative decoding, KV-cache movement, model parallelism, GPU kernels, and the race to make frontier models up to 10× faster. Philip and Ali explain why inference optimizations can still produce gains of 20%, 100%, or even 200%; how quantization errors can cancel one another out; why identical weights can behave differently across clusters; and how",
+      "published": "2026-08-03T21:44:03+00:00",
+      "published_dt": "2026-08-03T21:44:03+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$13B"
+        ],
+        "technologies": [
+          "inference",
+          "benchmark",
+          "quantization"
+        ]
+      },
+      "summary_en": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
+      "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "No voiceover for this quick post, but a quick video version is here.We’re expanding our open models coverage into standalone projects that let you go deeper on the state of the open model ecosystem. The new free sources of data are:The Artifacts Hub — a curated view of the models trending on Hugging Face, highlighting inference tokens via Open Router, model intelligence via Artificial Analysis, and our tailored adoption metrics building on top of Hugging Face’s data.Our Adoption Dashboard — a living dashboard of download and derivative model numbers by geography and organization. This highlights the US-China gap and growing players in the open ecosystem.To date, our primary efforts on Interconnects have been release recaps for popular models like Kimi K3, GLM 5.2, DeepSeek R1, etc. and monthly round-ups of the open models that matter, Artifacts Log. We’re expanding on these, building on the tools and internal data we’ve collected for other projects like The ATOM Project (and report). This allows us to capture our ecosystem view of open models, develop methods for understanding adoption of giant MoE models, and everything in between. We’re sharing them freely to help the open ecosystem find its strengths and grow.Visit the Artifacts HubThe Artifacts Hub right now covers 792 models released in the last two years, across the core text-focused language models and multimodal generative models. At Interconnects we follow the data of every model on Hugging Face, analyze the core few thousand LLMs (this list is public on GitHub and regularly updated), and hand select these core few hundred for further explanation. We built the Hub as a way to go deeper on this analysis in collaboration with Project VAIL — an AI verification startup who has been one of the most loyal fans of our open model curation.For the most popular models, the Hub let’s you quickly see how far behind the model was in terms of frontier intelligence based on Artificial Analysis’s Intelligence Index, compar",
+      "published": "2026-08-03T14:03:08+00:00",
+      "published_dt": "2026-08-03T14:03:08+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Hugging Face",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG",
+          "inference",
+          "MoE",
+          "multimodal"
+        ]
+      },
+      "summary_en": "Introducing our Artifacts Hub and Adoption Dashboard (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Introducing our Artifacts Hub and Adoption Dashboard，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93915",
+      "title": "‘A Rare Land-Grab Moment’: Menlo Ventures’ Matt Murphy On The Next Wave of AI And Putting $3B In New Capital To Work",
+      "url": "https://news.crunchbase.com/venture/menlo-ventures-matt-murphy-anthropic-ai-investment-thesis/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "In June, Menlo Ventures footnote]Menlo Ventures is an investor in Crunchbase. They have no say in our editorial process. For more, head here.[/footnote] announced $3 billion in new capital across two funds, marking the largest raise in its 50-year history. Menlo Ventures XVII will invest primarily in seed and Series A companies, while Menlo Inflection IV will provide growth capital to startups at Series B and beyond. The new funds will target companies throughout the AI market, from foundational models and infrastructure to enterprise, healthcare and consumer applications. The new capital gives the Silicon Valley firm more flexibility to back companies from their earliest days through later funding rounds that can require hundreds of millions of dollars. It also shows how important AI has become to a firm previously known for investments in companies including Uber, Roku and Siri. Matt Murphy of Menlo Ventures. In recent years, Anthropic has become the most prominent company in Menlo’s AI portfolio. The firm first invested in the AI model developer in 2023 and has added to its investment in later rounds. Menlo’s other AI investments include app-building platform Lovable, music-generation startup Suno, AI model marketplace OpenRouter, voice productivity company Wispr, AI infrastructure companies Fireworks AI and Modal, robotics startup Skild AI, and AI research company Goodfire. Matt Murphy, a partner at Menlo since 2015, has played a central role in developing that strategy. He invests across AI infrastructure, developer tools and AI-native software and has led Menlo’s investments in companies including Anthropic, Lovable, OpenRouter, AI-powered software delivery platform Harness, code security startup Semgrep and legaltech startup Legora. Before joining Menlo, Murphy spent 15 years as a general partner at Kleiner Perkins, where he was an observer at Google from the firm’s initial investment through its IPO, helped launch the $200 million iFund with Apple and worked",
+      "published": "2026-08-03T11:00:43+00:00",
+      "published_dt": "2026-08-03T11:00:43+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$3B",
+          "$3 billion",
+          "$200 million",
+          "Series A",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "‘A Rare Land-Grab Moment’: Menlo Ventures’ Matt Murphy On The Next Wave of AI And Putting $3B In New Capital To Work (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：‘A Rare Land-Grab Moment’: Menlo Ventures’ Matt Murphy On The Next Wave of AI And Putting $3B In New Capital To Work，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148764",
+      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
+      "published": "2026-08-03T10:00:00+00:00",
+      "published_dt": "2026-08-03T10:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$20 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：A Marc Benioff-backed startup thinks AI can solve the AI deployment problem，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149146",
+      "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
+      "published": "2026-08-03T19:28:57+00:00",
+      "published_dt": "2026-08-03T19:28:57+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$7.9 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Design Arena creators raise $7.9 million to bring taste to AI models (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Design Arena creators raise $7.9 million to bring taste to AI models，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149421",
+      "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+      "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
+      "published": "2026-08-03T23:19:50+00:00",
+      "published_dt": "2026-08-03T23:19:50+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$1 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’ (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-04T02:06:49.951983+00:00",
+      "published_dt": "2026-08-04T02:06:49.951983+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-04T02:06:49.951983+00:00",
+      "published_dt": "2026-08-04T02:06:49.951983+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+      "title": "Devtools must be open source (exe.dev)",
+      "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "My comment on Devtools must be open source (exe.dev) — Hacker News.One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on other people to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often. I think LLMs have changed that equation in a way that makes the original dream much more feasible. Several times a day I'll prompt regular Claude chat to \"Clone x/y from GitHub and tell me how Z works\". Getting software to compile in order to start hacking on it used to be enough friction that I often wouldn't bother. Now I treat that as a zero time investment challenge: tell Codex or Claude Code to checkout and build X and then come back ten minutes later and see how it got on. I'm not habitually modifying the software I use yet, but I can see a path to that which didn't exist a year or so ago. Tags: hacker-news, open-source, ai, generative-ai, llms, ai-assisted-programming",
+      "published": "2026-08-03T15:30:38+00:00",
+      "published_dt": "2026-08-03T15:30:38+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Devtools must be open source (exe.dev) (Simon Willison) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Simon Willison 报道：Devtools must be open source (exe.dev)，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93920",
+      "title": "Why The Product Manager To CEO Pipeline Is The Underrated Crash Course For Leadership In Tech",
+      "url": "https://news.crunchbase.com/workplace/tech-ceo-leadership-career-path-product-manager/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By Ben Chisell The road to the top rarely runs in a straight line, but there are less circuitous routes to becoming CEO. According to one of the largest ongoing studies analyzing every CEO succession in the S&P 500 since 2000, there are four feeder roles: COOs, divisional CEOs, CFOs, and “leapfrog” leaders promoted from below the C-suite. Ben Chisell of Paysend But a separate 10-year study called the CEO Genome Project suggests that the fastest climbers ± “sprinters” who reached the CEO seat well ahead of the 24-year average — didn’t get there by climbing the corporate ladder to the top. They got there through bold, often unconventional career moves, such as taking on a failing division or building something from scratch. In fact, what set them apart wasn’t pedigree but building a specific skillset that made them CEO material: decisiveness, reliability, adaptability, and the ability to engage people around a plan. Product management doesn’t appear in the CEO-pathway research, likely because none of the major studies breaks the role out as a separate category. It’s a relatively newer function, and it tends to get folded into general management or engineering in career datasets. But once you look at what the job demands — ownership of a tangible outcome, obsession with what customers value, the willingness to make tough decisions — it maps directly onto the traits the CEO Genome Project found in its sprinters. I’ve spent my career leading product and technology at companies including Amazon, eBay, Starling Bank and OakNorth. Those roles landed me my first CEO position without having to fill the typical CEO-starter pack jobs because I was able to articulate my skill set to the board. In short, product management is about making a product successful; being CEO is about making a business successful. The ingredients are the same. Don’t take my word for it. Sundar Pichai joined Google in 2004, leading product management for the Google Toolbar, years before he became CEO. N",
+      "published": "2026-08-03T13:00:06+00:00",
+      "published_dt": "2026-08-03T13:00:06+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Why The Product Manager To CEO Pipeline Is The Underrated Crash Course For Leadership In Tech (Crunchbase News) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Crunchbase News 报道：Why The Product Manager To CEO Pipeline Is The Underrated Crash Course For Leadership In Tech，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=974342",
+      "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "The Alibaba logo is displayed outside its headquarters in Hangzhou, Zhejiang Province, China. | Image: NurPhoto via Getty Images Chinese tech giant Alibaba released what it says is its largest and \"most capable AI model to date,\" claiming performance rivaling the best systems from US frontier labs Anthropic and OpenAI, as well as domestic rivals like Moonshot AI's Kimi K3. Alibaba said it was making the model, Qwen3.8-Max, widely available to users in a blog post published on Monday. The release had been expected after the company previewed the model last month, when it claimed it was \"second only to Fable 5,\" Anthropic's flagship. The open release of another highly capable Chinese AI model adds to sky-high tensions along multiple fronts in Silicon Valley and Washin … Read the full story at The Verge.",
+      "published": "2026-08-03T11:01:11+00:00",
+      "published_dt": "2026-08-03T11:01:11+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Moonshot AI",
+          "Alibaba"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：China&#8217;s Alibaba takes another swipe at America’s AI supremacy，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "published": "2026-08-03T07:00:00+00:00",
+      "published_dt": "2026-08-03T07:00:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How we built a realtime system for responsive voice AI in six months (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：How we built a realtime system for responsive voice AI in six months，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149151",
+      "title": "Congress’ favorite AI tool? ChatGPT",
+      "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications.",
+      "published": "2026-08-03T16:40:55+00:00",
+      "published_dt": "2026-08-03T16:40:55+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Congress’ favorite AI tool? ChatGPT (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Congress’ favorite AI tool? ChatGPT，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49154332",
+      "title": "SQLite Critical CVEs or LLM Slop?",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-03T11:28:54+00:00",
+      "published_dt": "2026-08-03T11:28:54+00:00",
+      "hn_score": 699,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "SQLite Critical CVEs or LLM Slop? (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：SQLite Critical CVEs or LLM Slop?，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3148841",
+      "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+      "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "AWS now allows vibe-coding tool Superblocks to be embedded into the private clouds of AWS customers. It's another step toward decoupling apps from models.",
+      "published": "2026-08-03T20:00:00+00:00",
+      "published_dt": "2026-08-03T20:00:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AWS is helping vibe-coding startup Superblocks, and the implications are big (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：AWS is helping vibe-coding startup Superblocks, and the implications are big，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49152842",
+      "title": "Bonsai: Janestreet's UI Library",
+      "url": "https://github.com/janestreet/bonsai",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-03T08:29:57+00:00",
+      "published_dt": "2026-08-03T08:29:57+00:00",
+      "hn_score": 305,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Bonsai: Janestreet's UI Library (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：Bonsai: Janestreet's UI Library，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+      "title": "Quoting David Crawshaw's prompt",
+      "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. — David Crawshaw's prompt, Devtools must be open source Tags: prompt-engineering, coding-agents, generative-ai, ai, llms, open-source",
+      "published": "2026-08-03T16:15:27+00:00",
+      "published_dt": "2026-08-03T16:15:27+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "Quoting David Crawshaw's prompt (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：Quoting David Crawshaw's prompt，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49161518",
+      "title": "LLMs reward expertise",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-03T21:13:53+00:00",
+      "published_dt": "2026-08-03T21:13:53+00:00",
+      "hn_score": 458,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "LLMs reward expertise (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：LLMs reward expertise，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149254",
+      "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+      "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.",
+      "published": "2026-08-03T19:09:56+00:00",
+      "published_dt": "2026-08-03T19:09:56+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Influencers draw backlash for attending OpenAI’s first luxury trip (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Influencers draw backlash for attending OpenAI’s first luxury trip，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149128",
+      "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
+      "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Apple’s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be. Yet it arrives at a moment when simply being a capable AI assistant no longer feels revolutionary.",
+      "published": "2026-08-03T18:43:43+00:00",
+      "published_dt": "2026-08-03T18:43:43+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple finally fixed Siri. So why does it feel anticlimactic? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Apple finally fixed Siri. So why does it feel anticlimactic?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49153374",
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-03T09:32:07+00:00",
+      "published_dt": "2026-08-03T09:32:07+00:00",
+      "hn_score": 388,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Prevent cognitive debt by manually retyping LLM-generated code (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Prevent cognitive debt by manually retyping LLM-generated code，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
