@@ -1,0 +1,2210 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T02:10:00",
+  "stats": {
+    "total_items": 33,
+    "high_importance": 6,
+    "medium_importance": 27,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+      "title": "Introducing Muse Code and Muse Spark 1.2",
+      "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expanding training environment diversity. The model also maintains its strength in other key areas like general agents. [...] We co-trained Muse Spark 1.2 with Muse Code to ensure the model exhibits its best performance and coding usability when paired together. The training included rejection sampled harness trajectories and recipe optimizations for goals, compaction, and subagents, alongside the integration of the Muse Code toolset to maximize harness compatibility. [...] Muse Spark 1.2 was extensively trained on long-horizon coding tasks, including whole-repository generation, large end-to-end projects, and auto-research. Here's a pelican riding a bicycle SVG produced by Muse Spark 1.2: You can see the Spark 1.1 pelican from 9th July here. I think the 1.2 pelican is a small but material improvement. An interesting twist on pricing is that the model is offered as two different model IDs. muse-spark-1.2 is priced at $1.25/million input and $4.25/million output - close to Gemini 3.6 Flash ($1.50/$7.50) - but if you agree to let Meta use your data \"to improve our products\" you can use muse-spark-1.2-contributor which is $0.10/$0.20 - a huge discount, closer to GPT-5.6 Luna ($0.20/$1.20) and Gemini 3.1 Flash-Lite ($0.25/$1.50). I added those new prices to llm-prices.com. Via Hacker News Tags: ai, generative-ai, llms, meta, llm-pricing, pelican-riding-a-bicycle, llm-release, coding-agents",
+      "published": "2026-08-05T23:58:35+00:00",
+      "published_dt": "2026-08-05T23:58:35+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "Introducing Muse Code and Muse Spark 1.2 (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Introducing Muse Code and Muse Spark 1.2，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93936",
+      "title": "‘Nobody Wanted to Give A Former Principal Money’: How An Educator Built An Edtech AI Startup With $63M From VCs",
+      "url": "https://news.crunchbase.com/venture/educator-built-edtech-startup-ai-magicschool-kahn/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Editor’s note: The following is the first profile in a series of articles in coming weeks about startup founders from non-technical backgrounds who have launched successful venture-backed companies. In November 2022, Adeel Khan was doing something rare for a longtime educator: taking time off. Having launched his career as a teacher in Atlanta Public Schools, Khan became an assistant principal before founding his own public high school in Denver. After a year spent coaching principals at the district office, he decided to take a “personal sabbatical.” Then, ChatGPT came out. Khan began tinkering with the new technology, fascinated by its potential. Adeel Khan, founder of MagicSchool AI. (Courtesy photo) “I actually went out to my old school building, the one that I founded, and started using it with teachers,” Khan recalls. He ran workshops and asked the educators to use the tool in as many scenarios as possible. The responses were varied. Most teachers barely touched it. A few tried, but felt doing the work manually was faster. However, some had a lightbulb moment. “There were one or two teachers who told me, ‘This has completely revolutionized the way I teach,’ ” Khan said in an interview with Crunchbase News. Seeing that divide sparked something in him. “I thought this technology could impact every teacher, not just teachers who are really enthusiastic about using new technologies,” Khan said. “So the task then was, ‘How can we take all the power of this new technology and make it really accessible to teachers?’ ” Building the ‘vertical AI’ for K-12 That experiment set the groundwork for MagicSchool AI, a platform designed as an all-in-one AI operating system for K-12 educators and students. For teachers, the tool acts as a daily assistant. It performs tasks like building rubrics, differentiating assignments for varied learning levels, and generating practice worksheets and reading materials. The platform also helps educators offer monitored AI experiences direct",
+      "published": "2026-08-05T11:00:41+00:00",
+      "published_dt": "2026-08-05T11:00:41+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$63M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "‘Nobody Wanted to Give A Former Principal Money’: How An Educator Built An Edtech AI Startup With $63M From VCs (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：‘Nobody Wanted to Give A Former Principal Money’: How An Educator Built An Edtech AI Startup With $63M From VCs，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93930",
+      "title": "Your AI Strategy May Be Destroying Your Exit Value",
+      "url": "https://news.crunchbase.com/ai/strategies-enhancing-exit-value-acquisitions-sagie/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "It seems that more and more boards and founders view AI as a valuation enhancer and future-proof strategy. While I agree that for some companies this may be true, in other cases I think it may actually be destroying the company’s value. It is difficult to define the extent to which a specific company should morph itself into an “AI native” company. Does this add value for everyone? AI does not automatically increase exit value. In some cases, it can reduce differentiation, compress margins, complicate diligence and make a company more difficult to acquire. Like pricing, customer service or go-to-market strategy, AI requires a careful balancing act between speed and defensibility, innovation and complexity, short-term productivity and long-term strategic value. Let’s jump into three ways AI strategy can impact exit value. Build an AI architecture that acquirers can trust Many startups are rapidly adding AI copilots, model integrations, orchestration layers, prompt libraries, vector databases and third-party AI tools across the organization. This may accelerate product development and help teams ship faster. However, from the perspective of an acquirer, it can also create a more complicated architecture. During due diligence, buyers care about how AI is being used. Which models are embedded in the product? Which vendors are critical to delivery? Where does customer data flow? How are outputs monitored? What happens if pricing changes, APIs break or regulation shifts? A startup may see AI adoption as innovation. A buyer may see it as integration complexity, vendor dependency, compliance exposure and security risk. This is especially important for strategic acquirers that need to integrate the target into a larger platform. If AI makes the product easier to scale, automate, secure and maintain, it can support valuation. If it creates a fragile layer of external dependencies, unclear data flows and difficult-to-audit decision-making, it may reduce confidence and lower th",
+      "published": "2026-08-05T11:00:37+00:00",
+      "published_dt": "2026-08-05T11:00:37+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "vector database"
+        ]
+      },
+      "summary_en": "Your AI Strategy May Be Destroying Your Exit Value (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Your AI Strategy May Be Destroying Your Exit Value，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149729",
+      "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+      "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
+      "published": "2026-08-05T11:00:00+00:00",
+      "published_dt": "2026-08-05T11:00:00+00:00",
+      "score": 9.7,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$37 million",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "AI makes weather prediction better. Can WindBorne make it lucrative? (TechCrunch AI) highlights a notable AI development with score 9.7.",
+      "summary_zh": "TechCrunch AI 报道：AI makes weather prediction better. Can WindBorne make it lucrative?，综合评分 9.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+      "title": "AI agents can't yet do open-ended AI research",
+      "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+      "source": "AI Snake Oil",
+      "source_type": "rss",
+      "content": "The goal of leading AI labs is recursive self-improvement (RSI): the automation of AI research using AI agents. RSI also underpins forecasts of explosive AI progress. How can we assess if we are close to this milestone?One way is to use benchmarks that test if agents can conduct AI research. Given the AI community’s focus on benchmarks, they have been the dominant way to evaluate progress towards RSI. Over the last year, many such evaluations have found that agents are now able to make progress on tasks where success is easily verifiable, prompting speculation that we are on the verge of RSI.But while these evaluations are helpful, they are limited to narrow, verifiable tasks. AI research can be much more open-ended. Success is often not immediately clear or verifiable, and to make progress, researchers need to test promising hypotheses, backtrack, or consider new or unconventional approaches. How can we evaluate agents’ ability to conduct open-ended AI research? We take our first step towards answering this question in a new paper.We partnered with the authors of two unpublished AI papers and asked them to draft their papers’ main research questions. We then tasked frontier AI agents with conducting research to answer these questions, and gave them thousands of dollars of API credits and compute, and six days of wall-clock time. The original authors reviewed the agents’ papers.The authors unambiguously rejected both agent papers. To better understand these results, our team spent over a hundred hours analyzing the agents’ logs. Our main takeaways:The agents lacked the judgment for conducting open-ended research. While the agents proposed directions the expert reviewers found impressive, they quickly rejected their proposed directions based on low-quality or synthetic data.The agents lacked awareness about the resources available to them. Both runs ended with less than 50% of the API budget spent and with hours left before the deadline, even though the agents could ",
+      "published": "2026-08-05T13:49:19+00:00",
+      "published_dt": "2026-08-05T13:49:19+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "AI agents can't yet do open-ended AI research (AI Snake Oil) highlights a notable AI development with score 9.3.",
+      "summary_zh": "AI Snake Oil 报道：AI agents can't yet do open-ended AI research，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+          "title": "AI agents can't yet do open-ended AI research",
+          "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+          "source": "AI Snake Oil",
+          "source_type": "rss",
+          "content": "The goal of leading AI labs is recursive self-improvement (RSI): the automation of AI research using AI agents. RSI also underpins forecasts of explosive AI progress. How can we assess if we are close to this milestone?One way is to use benchmarks that test if agents can conduct AI research. Given the AI community’s focus on benchmarks, they have been the dominant way to evaluate progress towards RSI. Over the last year, many such evaluations have found that agents are now able to make progress on tasks where success is easily verifiable, prompting speculation that we are on the verge of RSI.But while these evaluations are helpful, they are limited to narrow, verifiable tasks. AI research can be much more open-ended. Success is often not immediately clear or verifiable, and to make progress, researchers need to test promising hypotheses, backtrack, or consider new or unconventional approaches. How can we evaluate agents’ ability to conduct open-ended AI research? We take our first step towards answering this question in a new paper.We partnered with the authors of two unpublished AI papers and asked them to draft their papers’ main research questions. We then tasked frontier AI agents with conducting research to answer these questions, and gave them thousands of dollars of API credits and compute, and six days of wall-clock time. The original authors reviewed the agents’ papers.The authors unambiguously rejected both agent papers. To better understand these results, our team spent over a hundred hours analyzing the agents’ logs. Our main takeaways:The agents lacked the judgment for conducting open-ended research. While the agents proposed directions the expert reviewers found impressive, they quickly rejected their proposed directions based on low-quality or synthetic data.The agents lacked awareness about the resources available to them. Both runs ended with less than 50% of the API budget spent and with hours left before the deadline, even though the agents could ",
+          "published": "2026-08-05T13:49:19+00:00",
+          "published_dt": "2026-08-05T13:49:19+00:00",
+          "score": 9.3,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "AI agents can't yet do open-ended AI research (AI Snake Oil) highlights a notable AI development with score 9.3.",
+          "summary_zh": "AI Snake Oil 报道：AI agents can't yet do open-ended AI research，综合评分 9.3，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3149608",
+          "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
+          "url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "MacPaw is building a local version of its AI assistant Eney using Liquid AI's models.",
+          "published": "2026-08-05T12:28:38+00:00",
+          "published_dt": "2026-08-05T12:28:38+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "inference"
+            ]
+          },
+          "summary_en": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：MacPaw taps Liquid AI to offer on-device inference to devs building for its app store，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
+          "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
+          "url": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Thousands of Internet-connected servers sold by the world’s biggest manufacturers can be remotely backdoored by exploiting critical vulnerabilities—some more than a decade old—that lurk deep inside system motherboards, according to research presented Wednesday. Baseboard management controllers are miniature computers that are embedded into the motherboards of virtually every enterprise server. The microcontrollers, typically abbreviated as BMCs, run with their own operating system firmware, network stack, and IP address. Administrators rely on them to monitor the physical status of large fleets of servers and to perform a variety of tasks, including rebooting machines, installing updates, and even reinstalling operating systems. BMCs provide what’s known as “lights out” and “out-of-band” management because they work even when servers they’re attached to are turned off or are unresponsive. A “pervasive, under-monitored, under-patched parallel attack surface” Researchers have warned since at least 2013 that BMCs present a golden opportunity for hackers looking for ways to gain deep and persistent access to datacenters. The chief culprit was IPMI, the protocol that allows BMCs to operate independently of servers and to perform administrative tasks. Vulnerabilities in this firmware made it possible for attackers to remotely execute malicious code on the controllers and, from there, infect the servers they manage.Read full article Comments",
+          "published": "2026-08-05T22:35:20+00:00",
+          "published_dt": "2026-08-05T22:35:20+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers (Ars Technica) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Ars Technica 报道：Thousands of servers can be backdoored by exploiting buggy motherboard controllers，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93936",
+          "title": "‘Nobody Wanted to Give A Former Principal Money’: How An Educator Built An Edtech AI Startup With $63M From VCs",
+          "url": "https://news.crunchbase.com/venture/educator-built-edtech-startup-ai-magicschool-kahn/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Editor’s note: The following is the first profile in a series of articles in coming weeks about startup founders from non-technical backgrounds who have launched successful venture-backed companies. In November 2022, Adeel Khan was doing something rare for a longtime educator: taking time off. Having launched his career as a teacher in Atlanta Public Schools, Khan became an assistant principal before founding his own public high school in Denver. After a year spent coaching principals at the district office, he decided to take a “personal sabbatical.” Then, ChatGPT came out. Khan began tinkering with the new technology, fascinated by its potential. Adeel Khan, founder of MagicSchool AI. (Courtesy photo) “I actually went out to my old school building, the one that I founded, and started using it with teachers,” Khan recalls. He ran workshops and asked the educators to use the tool in as many scenarios as possible. The responses were varied. Most teachers barely touched it. A few tried, but felt doing the work manually was faster. However, some had a lightbulb moment. “There were one or two teachers who told me, ‘This has completely revolutionized the way I teach,’ ” Khan said in an interview with Crunchbase News. Seeing that divide sparked something in him. “I thought this technology could impact every teacher, not just teachers who are really enthusiastic about using new technologies,” Khan said. “So the task then was, ‘How can we take all the power of this new technology and make it really accessible to teachers?’ ” Building the ‘vertical AI’ for K-12 That experiment set the groundwork for MagicSchool AI, a platform designed as an all-in-one AI operating system for K-12 educators and students. For teachers, the tool acts as a daily assistant. It performs tasks like building rubrics, differentiating assignments for varied learning levels, and generating practice worksheets and reading materials. The platform also helps educators offer monitored AI experiences direct",
+          "published": "2026-08-05T11:00:41+00:00",
+          "published_dt": "2026-08-05T11:00:41+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$63M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "‘Nobody Wanted to Give A Former Principal Money’: How An Educator Built An Edtech AI Startup With $63M From VCs (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：‘Nobody Wanted to Give A Former Principal Money’: How An Educator Built An Edtech AI Startup With $63M From VCs，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3149729",
+          "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
+          "published": "2026-08-05T11:00:00+00:00",
+          "published_dt": "2026-08-05T11:00:00+00:00",
+          "score": 9.7,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$37 million",
+              "Series B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "AI makes weather prediction better. Can WindBorne make it lucrative? (TechCrunch AI) highlights a notable AI development with score 9.7.",
+          "summary_zh": "TechCrunch AI 报道：AI makes weather prediction better. Can WindBorne make it lucrative?，综合评分 9.7，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+          "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+          "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Back in 2024 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web) could build the entire game from the content of that tweet. It did a pretty good job of it! You can play the game here. Here's the GitHub repo, and a short video demo: Your browser does not support HTML5 video. How I built this This is the August 5th, 2022 tweet: My GPT-3 prompt back then was: Write a detailed product description of a computer game where a team of raccoons go on heists. This was in the text completion days, where you asked GPT-3 to complete the rest of the text. It completed: In \"Raccoon Heist\", you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew. You'll need to use your wits and your skills to avoid the police and make a clean getaway with the loot. With exciting gameplay and a charming cast of characters, \"Raccoon Heist\" is the perfect game for anyone looking for a light-hearted caper. My prompt to DALL-E was short: Screenshot from a video game where a team of raccoons go on a heist Today's experiment: can I dump those screenshots into Fable 5 with a prompt telling it to write a game, then leave it to its own devices and get a working game at the end? Setting Claude Code for web up to use GitHub Pages A frustrating thing about Claude Code for web is that it can be hard to test what it's working on while it's still working. I've been using GitHub Pages to work around that limitation, and found it to work really well. Here's my process: Create a new repository for the project at https://github.com/new - this can be public or private, the trick works equally well for both. Start a Claude Code for web session, in the Claude iPhone or Desktop apps or in the browser at https://claude.ai/c",
+          "published": "2026-08-05T19:42:38+00:00",
+          "published_dt": "2026-08-05T19:42:38+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "One-shotting a Raccoon Heist game using Claude Fable 5 (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：One-shotting a Raccoon Heist game using Claude Fable 5，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=84369",
+          "title": "The Crunchbase Tech Layoffs Tracker",
+          "url": "https://news.crunchbase.com/startups/tech-layoffs/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Methodology This tracker includes layoffs conducted by U.S.-based companies or those with a strong U.S. presence and is updated at least bi-weekly. We’ve included both startups and publicly traded, tech-heavy companies. We’ve also included companies based elsewhere that have a sizable team in the United States, such as Klarna, even when it’s unclear how much of the U.S. workforce has been affected by layoffs. Layoff and workforce figures are best estimates based on reporting. We source the layoffs from media reports, our own reporting, social media posts and layoffs.fyi, a crowdsourced database of tech layoffs. We recently updated our layoffs tracker to reflect the most recent round of layoffs each company has conducted. This allows us to quickly and more accurately track layoff trends, which is why you might notice some changes in our most recent numbers. If an employee headcount cannot be confirmed to our standards, we note it as “unclear.”",
+          "published": "2026-08-05T18:09:30+00:00",
+          "published_dt": "2026-08-05T18:09:30+00:00",
+          "score": 7.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Crunchbase Tech Layoffs Tracker (Crunchbase News) highlights a notable AI development with score 7.2.",
+          "summary_zh": "Crunchbase News 报道：The Crunchbase Tech Layoffs Tracker，综合评分 7.2，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+          "title": "Third-party cyber evaluations involving OpenAI models",
+          "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Third-party cyber evaluations involving OpenAI models And another one. I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see my previous post) and another attack enabled by Irregular: Irregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfiguration allowed models to access the public internet. [...] In one test, the name of the fictional target for the CTF challenge unintentionally coincided with a real domain. Because the testing environment was mistakenly connected to the internet, the model exploited a real website, mistaking it to be part of the simulated environment. Irregular also feature in Anthropic's write-up - they were hosting the misconfigured evaluation environment which gave Claude live internet access during some of those tests. Tags: security, ai, openai, llms, accidental-cyberattacks",
+          "published": "2026-08-05T23:45:32+00:00",
+          "published_dt": "2026-08-05T23:45:32+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "safety"
+            ]
+          },
+          "summary_en": "Third-party cyber evaluations involving OpenAI models (Simon Willison) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Simon Willison 报道：Third-party cyber evaluations involving OpenAI models，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3150299",
+          "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+          "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
+          "published": "2026-08-05T19:30:19+00:00",
+          "published_dt": "2026-08-05T19:30:19+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：Jeff Dean and other top AI researchers are leaving Google to launch their own startup，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a721839c1f34408cf89bc11",
+          "title": "Google’s Top AI Brains Are Leaving to Launch Discovery Loop",
+          "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Jeff Dean and other high-profile Google executives have founded Discovery Loop, a startup that will seek AI-powered breakthroughs in everything from drug discovery to chip design.",
+          "published": "2026-08-05T16:00:00+00:00",
+          "published_dt": "2026-08-05T16:00:00+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google’s Top AI Brains Are Leaving to Launch Discovery Loop (Wired AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Wired AI 报道：Google’s Top AI Brains Are Leaving to Launch Discovery Loop，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3150382",
+          "title": "Meta launches Muse Code, an AI agent for large code bases",
+          "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+          "published": "2026-08-05T21:21:28+00:00",
+          "published_dt": "2026-08-05T21:21:28+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Meta launches Muse Code, an AI agent for large code bases (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Meta launches Muse Code, an AI agent for large code bases，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=975398",
+          "title": "Reddit is introducing a new moderator: AI",
+          "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Reddit is enlisting AI to help moderate new subreddits - and eventually the rest of site. The company is introducing automated moderation tools that rely on LLMs to help mods manage their communities, and it's expanding who can use those tools today ahead of a full launch later this year. The company calls the suite of tools \"Rules Hub,\" and the tools let mods decide what rules should be automatically enforced and what should happen when a rule is triggered. Rules Hub relies on LLMs to evaluate \"whether a post or comment matches the intent of a rule,\" which \"allows Rules Hub to better handle nuance, natural language, and edge cases while pr … Read the full story at The Verge.",
+          "published": "2026-08-05T16:00:00+00:00",
+          "published_dt": "2026-08-05T16:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Reddit is introducing a new moderator: AI (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Reddit is introducing a new moderator: AI，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+          "title": "Introducing Muse Code and Muse Spark 1.2",
+          "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expanding training environment diversity. The model also maintains its strength in other key areas like general agents. [...] We co-trained Muse Spark 1.2 with Muse Code to ensure the model exhibits its best performance and coding usability when paired together. The training included rejection sampled harness trajectories and recipe optimizations for goals, compaction, and subagents, alongside the integration of the Muse Code toolset to maximize harness compatibility. [...] Muse Spark 1.2 was extensively trained on long-horizon coding tasks, including whole-repository generation, large end-to-end projects, and auto-research. Here's a pelican riding a bicycle SVG produced by Muse Spark 1.2: You can see the Spark 1.1 pelican from 9th July here. I think the 1.2 pelican is a small but material improvement. An interesting twist on pricing is that the model is offered as two different model IDs. muse-spark-1.2 is priced at $1.25/million input and $4.25/million output - close to Gemini 3.6 Flash ($1.50/$7.50) - but if you agree to let Meta use your data \"to improve our products\" you can use muse-spark-1.2-contributor which is $0.10/$0.20 - a huge discount, closer to GPT-5.6 Luna ($0.20/$1.20) and Gemini 3.1 Flash-Lite ($0.25/$1.50). I added those new prices to llm-prices.com. Via Hacker News Tags: ai, generative-ai, llms, meta, llm-pricing, pelican-riding-a-bicycle, llm-release, coding-agents",
+          "published": "2026-08-05T23:58:35+00:00",
+          "published_dt": "2026-08-05T23:58:35+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "Introducing Muse Code and Muse Spark 1.2 (Simon Willison) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Simon Willison 报道：Introducing Muse Code and Muse Spark 1.2，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93930",
+          "title": "Your AI Strategy May Be Destroying Your Exit Value",
+          "url": "https://news.crunchbase.com/ai/strategies-enhancing-exit-value-acquisitions-sagie/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "It seems that more and more boards and founders view AI as a valuation enhancer and future-proof strategy. While I agree that for some companies this may be true, in other cases I think it may actually be destroying the company’s value. It is difficult to define the extent to which a specific company should morph itself into an “AI native” company. Does this add value for everyone? AI does not automatically increase exit value. In some cases, it can reduce differentiation, compress margins, complicate diligence and make a company more difficult to acquire. Like pricing, customer service or go-to-market strategy, AI requires a careful balancing act between speed and defensibility, innovation and complexity, short-term productivity and long-term strategic value. Let’s jump into three ways AI strategy can impact exit value. Build an AI architecture that acquirers can trust Many startups are rapidly adding AI copilots, model integrations, orchestration layers, prompt libraries, vector databases and third-party AI tools across the organization. This may accelerate product development and help teams ship faster. However, from the perspective of an acquirer, it can also create a more complicated architecture. During due diligence, buyers care about how AI is being used. Which models are embedded in the product? Which vendors are critical to delivery? Where does customer data flow? How are outputs monitored? What happens if pricing changes, APIs break or regulation shifts? A startup may see AI adoption as innovation. A buyer may see it as integration complexity, vendor dependency, compliance exposure and security risk. This is especially important for strategic acquirers that need to integrate the target into a larger platform. If AI makes the product easier to scale, automate, secure and maintain, it can support valuation. If it creates a fragile layer of external dependencies, unclear data flows and difficult-to-audit decision-making, it may reduce confidence and lower th",
+          "published": "2026-08-05T11:00:37+00:00",
+          "published_dt": "2026-08-05T11:00:37+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "vector database"
+            ]
+          },
+          "summary_en": "Your AI Strategy May Be Destroying Your Exit Value (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Your AI Strategy May Be Destroying Your Exit Value，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3149995",
+          "title": "Hark previews its browser use agent for completing tasks",
+          "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Hark claims that its browser use agent is faster and cheaper than competition.",
+          "published": "2026-08-05T15:46:27+00:00",
+          "published_dt": "2026-08-05T15:46:27+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Hark previews its browser use agent for completing tasks (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Hark previews its browser use agent for completing tasks，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=976004",
+          "title": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said. Grokipedia launched in v0.1 in October 2025 with an initial batch of 885,000 articles, and is now on v0.2 (released in November 2025) and has more than 6,000,000 total articles, according to grokipedia.com/live. But that live page also has a section titled \"Recent changes to…\" with a message under it that reads \"No live edits av … Read the full story at The Verge.",
+          "published": "2026-08-06T00:25:10+00:00",
+          "published_dt": "2026-08-06T00:25:10+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=975677",
+          "title": "Google just announced a major shakeup of its top AI leadership",
+          "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and the chief scientist at Alphabet, CEO Sundar Pichai announced on Wednesday. Hassabis will continue to lead Alphabet's Isomorphic Labs, which aims to use AI to develop drugs. Koray Kavukcuoglu, formerly DeepMind's CTO, is stepping up to become Google's SVP of DeepMind and will report to Pichai. Kavukcuoglu will remain Google's chief AI architect as well. \"​​As you've heard me say many times, I've always believed the No.1 application of AI should be to improve human h … Read the full story at The Verge.",
+          "published": "2026-08-05T16:47:23+00:00",
+          "published_dt": "2026-08-05T16:47:23+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google",
+              "DeepMind"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google just announced a major shakeup of its top AI leadership (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Google just announced a major shakeup of its top AI leadership，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=975577",
+          "title": "Rogue AI agents created fake online identities in another hacking attempt",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a report from the UK's AI Security Institute, which evaluates frontier models from top AI labs before they are released, agents powered by OpenAI's GPT-5.6-Sol and Anthropic's Mythos 5 went \"engaged in sustained, potentially harmful activity directed at real people and organisations.\" This included trying to insert malicious code i … Read the full story at The Verge.",
+          "published": "2026-08-05T15:14:57+00:00",
+          "published_dt": "2026-08-05T15:14:57+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "safety"
+            ]
+          },
+          "summary_en": "Rogue AI agents created fake online identities in another hacking attempt (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Rogue AI agents created fake online identities in another hacking attempt，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=975516",
+          "title": "Google Assistant will disappear from your phone next month",
+          "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Farewell, Google Assistant art, we hardly knew ye. | Illustration by Alex Castro / The Verge Google Assistant's days have been numbered ever since Gemini arrived on the scene, and its time is now up. Google has announced that it will be removing access to Assistant on Android phones and tablets, along with paired devices like smartwatches or headphones, from September 4th. The announcement came in an email apparently sent to some users, as reported by 9to5Google and shared in full on Reddit. The Verge has asked Google for confirmation that the email is accurate, and will update this story once we have it. \"We will begin removing access to Google Assistant starting on 4 September,\" Google states in the email, \"and expect that this … Read the full story at The Verge.",
+          "published": "2026-08-05T11:12:50+00:00",
+          "published_dt": "2026-08-05T11:12:50+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google Assistant will disappear from your phone next month (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Google Assistant will disappear from your phone next month，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=975509",
+          "title": "Trump’s AI testing plan is limited and vague",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "The Trump administration's framework for assessing potential cybersecurity risks posed by advanced AI reportedly has no interest in testing open models. Axios reports that not only do the voluntary guidelines outright exclude open models - meaning anyone can download them and inspect their core components - but the framework explicitly says it can't be used to restrict open models after they've been released. The AI testing framework was created after President Trump signed an executive order in June, requesting that AI companies share their frontier models with the federal government prior to release to address cybersecurity concerns. AI c … Read the full story at The Verge.",
+          "published": "2026-08-05T10:29:47+00:00",
+          "published_dt": "2026-08-05T10:29:47+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Trump’s AI testing plan is limited and vague (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Trump’s AI testing plan is limited and vague，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=975528",
+          "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "And you thought we were done with this one… | Image: Fenix Flexin We were pretty sure that Fenix Flexin's \"Rubberz\" was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects when a song was generated using Treblo, though not other AI tools. According to a blog post, it has a false positive rate of less than 1 in 10,000. That's not unimpeachable, but it's notable that the company's own Classifier determined that \"Rubberz\" was \"very likely Treblo\" with \"high confidence,\" adding more fuel to the PR nightmare for Fenix. … Read the full story at The Verge.",
+          "published": "2026-08-05T16:57:25+00:00",
+          "published_dt": "2026-08-05T16:57:25+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Sure seems like Fenix Flexin used AI music generator Treblo (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Sure seems like Fenix Flexin used AI music generator Treblo，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a72127c679c5abd64d0c57a",
+          "title": "The AI Notetaker Has Been Invited to All the Meetings",
+          "url": "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Wispr Flow, a popular dictation tool, has released a live notetaker that transcribes and summarizes meetings. It joins a growing wave of AI notetakers for the workplace.",
+          "published": "2026-08-05T07:00:00+00:00",
+          "published_dt": "2026-08-05T07:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The AI Notetaker Has Been Invited to All the Meetings (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：The AI Notetaker Has Been Invited to All the Meetings，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 8,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3150282",
+          "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+          "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.",
+          "published": "2026-08-05T20:05:00+00:00",
+          "published_dt": "2026-08-05T20:05:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49186762",
+          "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+          "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-05T18:18:56+00:00",
+          "published_dt": "2026-08-05T18:18:56+00:00",
+          "hn_score": 227,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Beating GPT-5.6 Sol on retrieval with 100x cheaper open models，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49184755",
+          "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+          "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassa...https://www.reuters.com/business/google-shakes-up-ai-leaders...https://www.discoveryloop.com/, https://news.ycombinator.com/item?id=49184960https://twitter.com/JeffDean/status/2085034604172603724, https://xcancel.com/JeffDean/status/2085034604172603724",
+          "published": "2026-08-05T16:05:31+00:00",
+          "published_dt": "2026-08-05T16:05:31+00:00",
+          "hn_score": 487,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google",
+              "DeepMind"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3150177",
+          "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+          "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
+          "published": "2026-08-05T15:56:14+00:00",
+          "published_dt": "2026-08-05T15:56:14+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Shopify says AI search is driving more traffic and sales, not replacing Google (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Shopify says AI search is driving more traffic and sales, not replacing Google，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3149903",
+          "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+          "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+          "published": "2026-08-05T15:05:00+00:00",
+          "published_dt": "2026-08-05T15:05:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3150081",
+          "title": "Anthropic is hiring an AI chip design team",
+          "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
+          "published": "2026-08-05T14:13:18+00:00",
+          "published_dt": "2026-08-05T14:13:18+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic is hiring an AI chip design team (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic is hiring an AI chip design team，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49182041",
+          "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
+          "url": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-05T12:41:47+00:00",
+          "published_dt": "2026-08-05T12:41:47+00:00",
+          "hn_score": 230,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "TIME Is Serving AI Bots a Different Website, with Ads Built In (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：TIME Is Serving AI Bots a Different Website, with Ads Built In，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49181083",
+          "title": "Position: LLMs Can't Jump",
+          "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-05T11:01:37+00:00",
+          "published_dt": "2026-08-05T11:01:37+00:00",
+          "hn_score": 247,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Position: LLMs Can't Jump (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Position: LLMs Can't Jump，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+          "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+          "url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Incident Report: unsanctioned agent behaviour during cyber testing It happened again. This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessful and, to the best of our knowledge, no real-world harm resulted. [...] Across 122 evaluation attempts on two of AISI’s cyber challenges, AISI found 19 instances where AI agents took unsanctioned action on the live internet, including cases that targeted real people and organisations. [...] It is uncertain to what extent the model recognised it was taking actions against real people. In the most serious case, an AI agent (Mythos 5) decided to attempt to solve the cyber challenge using a supply-chain attack. As a result, the AI agent created a GitHub account and then tried to convince an open-source repository maintainer to accept a malicious GitHub pull request (PR), including by creating a second account masquerading as another human user endorsing the PR. [...] Furthermore, in its attempt to solve the challenge, the agent decided to employ the technique of “spear-phishing” by sending targeted emails containing malicious content and attempting to manipulate recipients into accepting the code changes, and planned a prompt injection to compromise other coding agents. The thing I found most surprising is that AISI were running these agents without any form of network sandboxing at all: AISI provided the AI agents with internet access during these evaluations, which enabled their actions on the open internet in this setting. Internet access was a deliberate part of AISI’s evaluation configuration in this setting, and not due to sandbox escape. This, combined with the fact that ",
+          "published": "2026-08-05T23:32:06+00:00",
+          "published_dt": "2026-08-05T23:32:06+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "safety"
+            ]
+          },
+          "summary_en": "Incident Report: unsanctioned agent behaviour during cyber testing (Simon Willison) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Simon Willison 报道：Incident Report: unsanctioned agent behaviour during cyber testing，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-06T02:09:58.775480+00:00",
+          "published_dt": "2026-08-06T02:09:58.775480+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-06T02:09:58.775480+00:00",
+          "published_dt": "2026-08-06T02:09:58.775480+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+      "title": "Introducing Muse Code and Muse Spark 1.2",
+      "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expanding training environment diversity. The model also maintains its strength in other key areas like general agents. [...] We co-trained Muse Spark 1.2 with Muse Code to ensure the model exhibits its best performance and coding usability when paired together. The training included rejection sampled harness trajectories and recipe optimizations for goals, compaction, and subagents, alongside the integration of the Muse Code toolset to maximize harness compatibility. [...] Muse Spark 1.2 was extensively trained on long-horizon coding tasks, including whole-repository generation, large end-to-end projects, and auto-research. Here's a pelican riding a bicycle SVG produced by Muse Spark 1.2: You can see the Spark 1.1 pelican from 9th July here. I think the 1.2 pelican is a small but material improvement. An interesting twist on pricing is that the model is offered as two different model IDs. muse-spark-1.2 is priced at $1.25/million input and $4.25/million output - close to Gemini 3.6 Flash ($1.50/$7.50) - but if you agree to let Meta use your data \"to improve our products\" you can use muse-spark-1.2-contributor which is $0.10/$0.20 - a huge discount, closer to GPT-5.6 Luna ($0.20/$1.20) and Gemini 3.1 Flash-Lite ($0.25/$1.50). I added those new prices to llm-prices.com. Via Hacker News Tags: ai, generative-ai, llms, meta, llm-pricing, pelican-riding-a-bicycle, llm-release, coding-agents",
+      "published": "2026-08-05T23:58:35+00:00",
+      "published_dt": "2026-08-05T23:58:35+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "Introducing Muse Code and Muse Spark 1.2 (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：Introducing Muse Code and Muse Spark 1.2，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93936",
+      "title": "‘Nobody Wanted to Give A Former Principal Money’: How An Educator Built An Edtech AI Startup With $63M From VCs",
+      "url": "https://news.crunchbase.com/venture/educator-built-edtech-startup-ai-magicschool-kahn/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Editor’s note: The following is the first profile in a series of articles in coming weeks about startup founders from non-technical backgrounds who have launched successful venture-backed companies. In November 2022, Adeel Khan was doing something rare for a longtime educator: taking time off. Having launched his career as a teacher in Atlanta Public Schools, Khan became an assistant principal before founding his own public high school in Denver. After a year spent coaching principals at the district office, he decided to take a “personal sabbatical.” Then, ChatGPT came out. Khan began tinkering with the new technology, fascinated by its potential. Adeel Khan, founder of MagicSchool AI. (Courtesy photo) “I actually went out to my old school building, the one that I founded, and started using it with teachers,” Khan recalls. He ran workshops and asked the educators to use the tool in as many scenarios as possible. The responses were varied. Most teachers barely touched it. A few tried, but felt doing the work manually was faster. However, some had a lightbulb moment. “There were one or two teachers who told me, ‘This has completely revolutionized the way I teach,’ ” Khan said in an interview with Crunchbase News. Seeing that divide sparked something in him. “I thought this technology could impact every teacher, not just teachers who are really enthusiastic about using new technologies,” Khan said. “So the task then was, ‘How can we take all the power of this new technology and make it really accessible to teachers?’ ” Building the ‘vertical AI’ for K-12 That experiment set the groundwork for MagicSchool AI, a platform designed as an all-in-one AI operating system for K-12 educators and students. For teachers, the tool acts as a daily assistant. It performs tasks like building rubrics, differentiating assignments for varied learning levels, and generating practice worksheets and reading materials. The platform also helps educators offer monitored AI experiences direct",
+      "published": "2026-08-05T11:00:41+00:00",
+      "published_dt": "2026-08-05T11:00:41+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$63M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "‘Nobody Wanted to Give A Former Principal Money’: How An Educator Built An Edtech AI Startup With $63M From VCs (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：‘Nobody Wanted to Give A Former Principal Money’: How An Educator Built An Edtech AI Startup With $63M From VCs，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93930",
+      "title": "Your AI Strategy May Be Destroying Your Exit Value",
+      "url": "https://news.crunchbase.com/ai/strategies-enhancing-exit-value-acquisitions-sagie/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "It seems that more and more boards and founders view AI as a valuation enhancer and future-proof strategy. While I agree that for some companies this may be true, in other cases I think it may actually be destroying the company’s value. It is difficult to define the extent to which a specific company should morph itself into an “AI native” company. Does this add value for everyone? AI does not automatically increase exit value. In some cases, it can reduce differentiation, compress margins, complicate diligence and make a company more difficult to acquire. Like pricing, customer service or go-to-market strategy, AI requires a careful balancing act between speed and defensibility, innovation and complexity, short-term productivity and long-term strategic value. Let’s jump into three ways AI strategy can impact exit value. Build an AI architecture that acquirers can trust Many startups are rapidly adding AI copilots, model integrations, orchestration layers, prompt libraries, vector databases and third-party AI tools across the organization. This may accelerate product development and help teams ship faster. However, from the perspective of an acquirer, it can also create a more complicated architecture. During due diligence, buyers care about how AI is being used. Which models are embedded in the product? Which vendors are critical to delivery? Where does customer data flow? How are outputs monitored? What happens if pricing changes, APIs break or regulation shifts? A startup may see AI adoption as innovation. A buyer may see it as integration complexity, vendor dependency, compliance exposure and security risk. This is especially important for strategic acquirers that need to integrate the target into a larger platform. If AI makes the product easier to scale, automate, secure and maintain, it can support valuation. If it creates a fragile layer of external dependencies, unclear data flows and difficult-to-audit decision-making, it may reduce confidence and lower th",
+      "published": "2026-08-05T11:00:37+00:00",
+      "published_dt": "2026-08-05T11:00:37+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "vector database"
+        ]
+      },
+      "summary_en": "Your AI Strategy May Be Destroying Your Exit Value (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Your AI Strategy May Be Destroying Your Exit Value，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149729",
+      "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+      "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
+      "published": "2026-08-05T11:00:00+00:00",
+      "published_dt": "2026-08-05T11:00:00+00:00",
+      "score": 9.7,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$37 million",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "AI makes weather prediction better. Can WindBorne make it lucrative? (TechCrunch AI) highlights a notable AI development with score 9.7.",
+      "summary_zh": "TechCrunch AI 报道：AI makes weather prediction better. Can WindBorne make it lucrative?，综合评分 9.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+      "title": "AI agents can't yet do open-ended AI research",
+      "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+      "source": "AI Snake Oil",
+      "source_type": "rss",
+      "content": "The goal of leading AI labs is recursive self-improvement (RSI): the automation of AI research using AI agents. RSI also underpins forecasts of explosive AI progress. How can we assess if we are close to this milestone?One way is to use benchmarks that test if agents can conduct AI research. Given the AI community’s focus on benchmarks, they have been the dominant way to evaluate progress towards RSI. Over the last year, many such evaluations have found that agents are now able to make progress on tasks where success is easily verifiable, prompting speculation that we are on the verge of RSI.But while these evaluations are helpful, they are limited to narrow, verifiable tasks. AI research can be much more open-ended. Success is often not immediately clear or verifiable, and to make progress, researchers need to test promising hypotheses, backtrack, or consider new or unconventional approaches. How can we evaluate agents’ ability to conduct open-ended AI research? We take our first step towards answering this question in a new paper.We partnered with the authors of two unpublished AI papers and asked them to draft their papers’ main research questions. We then tasked frontier AI agents with conducting research to answer these questions, and gave them thousands of dollars of API credits and compute, and six days of wall-clock time. The original authors reviewed the agents’ papers.The authors unambiguously rejected both agent papers. To better understand these results, our team spent over a hundred hours analyzing the agents’ logs. Our main takeaways:The agents lacked the judgment for conducting open-ended research. While the agents proposed directions the expert reviewers found impressive, they quickly rejected their proposed directions based on low-quality or synthetic data.The agents lacked awareness about the resources available to them. Both runs ended with less than 50% of the API budget spent and with hours left before the deadline, even though the agents could ",
+      "published": "2026-08-05T13:49:19+00:00",
+      "published_dt": "2026-08-05T13:49:19+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "AI agents can't yet do open-ended AI research (AI Snake Oil) highlights a notable AI development with score 9.3.",
+      "summary_zh": "AI Snake Oil 报道：AI agents can't yet do open-ended AI research，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+      "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+      "url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Incident Report: unsanctioned agent behaviour during cyber testing It happened again. This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessful and, to the best of our knowledge, no real-world harm resulted. [...] Across 122 evaluation attempts on two of AISI’s cyber challenges, AISI found 19 instances where AI agents took unsanctioned action on the live internet, including cases that targeted real people and organisations. [...] It is uncertain to what extent the model recognised it was taking actions against real people. In the most serious case, an AI agent (Mythos 5) decided to attempt to solve the cyber challenge using a supply-chain attack. As a result, the AI agent created a GitHub account and then tried to convince an open-source repository maintainer to accept a malicious GitHub pull request (PR), including by creating a second account masquerading as another human user endorsing the PR. [...] Furthermore, in its attempt to solve the challenge, the agent decided to employ the technique of “spear-phishing” by sending targeted emails containing malicious content and attempting to manipulate recipients into accepting the code changes, and planned a prompt injection to compromise other coding agents. The thing I found most surprising is that AISI were running these agents without any form of network sandboxing at all: AISI provided the AI agents with internet access during these evaluations, which enabled their actions on the open internet in this setting. Internet access was a deliberate part of AISI’s evaluation configuration in this setting, and not due to sandbox escape. This, combined with the fact that ",
+      "published": "2026-08-05T23:32:06+00:00",
+      "published_dt": "2026-08-05T23:32:06+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "safety"
+        ]
+      },
+      "summary_en": "Incident Report: unsanctioned agent behaviour during cyber testing (Simon Willison) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Simon Willison 报道：Incident Report: unsanctioned agent behaviour during cyber testing，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3150299",
+      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
+      "published": "2026-08-05T19:30:19+00:00",
+      "published_dt": "2026-08-05T19:30:19+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：Jeff Dean and other top AI researchers are leaving Google to launch their own startup，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+      "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Back in 2024 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web) could build the entire game from the content of that tweet. It did a pretty good job of it! You can play the game here. Here's the GitHub repo, and a short video demo: Your browser does not support HTML5 video. How I built this This is the August 5th, 2022 tweet: My GPT-3 prompt back then was: Write a detailed product description of a computer game where a team of raccoons go on heists. This was in the text completion days, where you asked GPT-3 to complete the rest of the text. It completed: In \"Raccoon Heist\", you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew. You'll need to use your wits and your skills to avoid the police and make a clean getaway with the loot. With exciting gameplay and a charming cast of characters, \"Raccoon Heist\" is the perfect game for anyone looking for a light-hearted caper. My prompt to DALL-E was short: Screenshot from a video game where a team of raccoons go on a heist Today's experiment: can I dump those screenshots into Fable 5 with a prompt telling it to write a game, then leave it to its own devices and get a working game at the end? Setting Claude Code for web up to use GitHub Pages A frustrating thing about Claude Code for web is that it can be hard to test what it's working on while it's still working. I've been using GitHub Pages to work around that limitation, and found it to work really well. Here's my process: Create a new repository for the project at https://github.com/new - this can be public or private, the trick works equally well for both. Start a Claude Code for web session, in the Claude iPhone or Desktop apps or in the browser at https://claude.ai/c",
+      "published": "2026-08-05T19:42:38+00:00",
+      "published_dt": "2026-08-05T19:42:38+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "One-shotting a Raccoon Heist game using Claude Fable 5 (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：One-shotting a Raccoon Heist game using Claude Fable 5，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a721839c1f34408cf89bc11",
+      "title": "Google’s Top AI Brains Are Leaving to Launch Discovery Loop",
+      "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Jeff Dean and other high-profile Google executives have founded Discovery Loop, a startup that will seek AI-powered breakthroughs in everything from drug discovery to chip design.",
+      "published": "2026-08-05T16:00:00+00:00",
+      "published_dt": "2026-08-05T16:00:00+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google’s Top AI Brains Are Leaving to Launch Discovery Loop (Wired AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Wired AI 报道：Google’s Top AI Brains Are Leaving to Launch Discovery Loop，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=84369",
+      "title": "The Crunchbase Tech Layoffs Tracker",
+      "url": "https://news.crunchbase.com/startups/tech-layoffs/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Methodology This tracker includes layoffs conducted by U.S.-based companies or those with a strong U.S. presence and is updated at least bi-weekly. We’ve included both startups and publicly traded, tech-heavy companies. We’ve also included companies based elsewhere that have a sizable team in the United States, such as Klarna, even when it’s unclear how much of the U.S. workforce has been affected by layoffs. Layoff and workforce figures are best estimates based on reporting. We source the layoffs from media reports, our own reporting, social media posts and layoffs.fyi, a crowdsourced database of tech layoffs. We recently updated our layoffs tracker to reflect the most recent round of layoffs each company has conducted. This allows us to quickly and more accurately track layoff trends, which is why you might notice some changes in our most recent numbers. If an employee headcount cannot be confirmed to our standards, we note it as “unclear.”",
+      "published": "2026-08-05T18:09:30+00:00",
+      "published_dt": "2026-08-05T18:09:30+00:00",
+      "score": 7.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Crunchbase Tech Layoffs Tracker (Crunchbase News) highlights a notable AI development with score 7.2.",
+      "summary_zh": "Crunchbase News 报道：The Crunchbase Tech Layoffs Tracker，综合评分 7.2，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149995",
+      "title": "Hark previews its browser use agent for completing tasks",
+      "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Hark claims that its browser use agent is faster and cheaper than competition.",
+      "published": "2026-08-05T15:46:27+00:00",
+      "published_dt": "2026-08-05T15:46:27+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Hark previews its browser use agent for completing tasks (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Hark previews its browser use agent for completing tasks，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-06T02:09:58.775480+00:00",
+      "published_dt": "2026-08-06T02:09:58.775480+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-06T02:09:58.775480+00:00",
+      "published_dt": "2026-08-06T02:09:58.775480+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=976004",
+      "title": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said. Grokipedia launched in v0.1 in October 2025 with an initial batch of 885,000 articles, and is now on v0.2 (released in November 2025) and has more than 6,000,000 total articles, according to grokipedia.com/live. But that live page also has a section titled \"Recent changes to…\" with a message under it that reads \"No live edits av … Read the full story at The Verge.",
+      "published": "2026-08-06T00:25:10+00:00",
+      "published_dt": "2026-08-06T00:25:10+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3150382",
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+      "published": "2026-08-05T21:21:28+00:00",
+      "published_dt": "2026-08-05T21:21:28+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Meta launches Muse Code, an AI agent for large code bases (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Meta launches Muse Code, an AI agent for large code bases，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=975677",
+      "title": "Google just announced a major shakeup of its top AI leadership",
+      "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and the chief scientist at Alphabet, CEO Sundar Pichai announced on Wednesday. Hassabis will continue to lead Alphabet's Isomorphic Labs, which aims to use AI to develop drugs. Koray Kavukcuoglu, formerly DeepMind's CTO, is stepping up to become Google's SVP of DeepMind and will report to Pichai. Kavukcuoglu will remain Google's chief AI architect as well. \"​​As you've heard me say many times, I've always believed the No.1 application of AI should be to improve human h … Read the full story at The Verge.",
+      "published": "2026-08-05T16:47:23+00:00",
+      "published_dt": "2026-08-05T16:47:23+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google just announced a major shakeup of its top AI leadership (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Google just announced a major shakeup of its top AI leadership，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=975577",
+      "title": "Rogue AI agents created fake online identities in another hacking attempt",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a report from the UK's AI Security Institute, which evaluates frontier models from top AI labs before they are released, agents powered by OpenAI's GPT-5.6-Sol and Anthropic's Mythos 5 went \"engaged in sustained, potentially harmful activity directed at real people and organisations.\" This included trying to insert malicious code i … Read the full story at The Verge.",
+      "published": "2026-08-05T15:14:57+00:00",
+      "published_dt": "2026-08-05T15:14:57+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "safety"
+        ]
+      },
+      "summary_en": "Rogue AI agents created fake online identities in another hacking attempt (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Rogue AI agents created fake online identities in another hacking attempt，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=975516",
+      "title": "Google Assistant will disappear from your phone next month",
+      "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Farewell, Google Assistant art, we hardly knew ye. | Illustration by Alex Castro / The Verge Google Assistant's days have been numbered ever since Gemini arrived on the scene, and its time is now up. Google has announced that it will be removing access to Assistant on Android phones and tablets, along with paired devices like smartwatches or headphones, from September 4th. The announcement came in an email apparently sent to some users, as reported by 9to5Google and shared in full on Reddit. The Verge has asked Google for confirmation that the email is accurate, and will update this story once we have it. \"We will begin removing access to Google Assistant starting on 4 September,\" Google states in the email, \"and expect that this … Read the full story at The Verge.",
+      "published": "2026-08-05T11:12:50+00:00",
+      "published_dt": "2026-08-05T11:12:50+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google Assistant will disappear from your phone next month (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Google Assistant will disappear from your phone next month，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=975509",
+      "title": "Trump’s AI testing plan is limited and vague",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "The Trump administration's framework for assessing potential cybersecurity risks posed by advanced AI reportedly has no interest in testing open models. Axios reports that not only do the voluntary guidelines outright exclude open models - meaning anyone can download them and inspect their core components - but the framework explicitly says it can't be used to restrict open models after they've been released. The AI testing framework was created after President Trump signed an executive order in June, requesting that AI companies share their frontier models with the federal government prior to release to address cybersecurity concerns. AI c … Read the full story at The Verge.",
+      "published": "2026-08-05T10:29:47+00:00",
+      "published_dt": "2026-08-05T10:29:47+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Trump’s AI testing plan is limited and vague (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Trump’s AI testing plan is limited and vague，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149608",
+      "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
+      "url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "MacPaw is building a local version of its AI assistant Eney using Liquid AI's models.",
+      "published": "2026-08-05T12:28:38+00:00",
+      "published_dt": "2026-08-05T12:28:38+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference"
+        ]
+      },
+      "summary_en": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：MacPaw taps Liquid AI to offer on-device inference to devs building for its app store，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Third-party cyber evaluations involving OpenAI models And another one. I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see my previous post) and another attack enabled by Irregular: Irregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfiguration allowed models to access the public internet. [...] In one test, the name of the fictional target for the CTF challenge unintentionally coincided with a real domain. Because the testing environment was mistakenly connected to the internet, the model exploited a real website, mistaking it to be part of the simulated environment. Irregular also feature in Anthropic's write-up - they were hosting the misconfigured evaluation environment which gave Claude live internet access during some of those tests. Tags: security, ai, openai, llms, accidental-cyberattacks",
+      "published": "2026-08-05T23:45:32+00:00",
+      "published_dt": "2026-08-05T23:45:32+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "safety"
+        ]
+      },
+      "summary_en": "Third-party cyber evaluations involving OpenAI models (Simon Willison) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Simon Willison 报道：Third-party cyber evaluations involving OpenAI models，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
+      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
+      "url": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Thousands of Internet-connected servers sold by the world’s biggest manufacturers can be remotely backdoored by exploiting critical vulnerabilities—some more than a decade old—that lurk deep inside system motherboards, according to research presented Wednesday. Baseboard management controllers are miniature computers that are embedded into the motherboards of virtually every enterprise server. The microcontrollers, typically abbreviated as BMCs, run with their own operating system firmware, network stack, and IP address. Administrators rely on them to monitor the physical status of large fleets of servers and to perform a variety of tasks, including rebooting machines, installing updates, and even reinstalling operating systems. BMCs provide what’s known as “lights out” and “out-of-band” management because they work even when servers they’re attached to are turned off or are unresponsive. A “pervasive, under-monitored, under-patched parallel attack surface” Researchers have warned since at least 2013 that BMCs present a golden opportunity for hackers looking for ways to gain deep and persistent access to datacenters. The chief culprit was IPMI, the protocol that allows BMCs to operate independently of servers and to perform administrative tasks. Vulnerabilities in this firmware made it possible for attackers to remotely execute malicious code on the controllers and, from there, infect the servers they manage.Read full article Comments",
+      "published": "2026-08-05T22:35:20+00:00",
+      "published_dt": "2026-08-05T22:35:20+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers (Ars Technica) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Ars Technica 报道：Thousands of servers can be backdoored by exploiting buggy motherboard controllers，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=975528",
+      "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "And you thought we were done with this one… | Image: Fenix Flexin We were pretty sure that Fenix Flexin's \"Rubberz\" was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects when a song was generated using Treblo, though not other AI tools. According to a blog post, it has a false positive rate of less than 1 in 10,000. That's not unimpeachable, but it's notable that the company's own Classifier determined that \"Rubberz\" was \"very likely Treblo\" with \"high confidence,\" adding more fuel to the PR nightmare for Fenix. … Read the full story at The Verge.",
+      "published": "2026-08-05T16:57:25+00:00",
+      "published_dt": "2026-08-05T16:57:25+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Sure seems like Fenix Flexin used AI music generator Treblo (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Sure seems like Fenix Flexin used AI music generator Treblo，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=975398",
+      "title": "Reddit is introducing a new moderator: AI",
+      "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Reddit is enlisting AI to help moderate new subreddits - and eventually the rest of site. The company is introducing automated moderation tools that rely on LLMs to help mods manage their communities, and it's expanding who can use those tools today ahead of a full launch later this year. The company calls the suite of tools \"Rules Hub,\" and the tools let mods decide what rules should be automatically enforced and what should happen when a rule is triggered. Rules Hub relies on LLMs to evaluate \"whether a post or comment matches the intent of a rule,\" which \"allows Rules Hub to better handle nuance, natural language, and edge cases while pr … Read the full story at The Verge.",
+      "published": "2026-08-05T16:00:00+00:00",
+      "published_dt": "2026-08-05T16:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Reddit is introducing a new moderator: AI (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Reddit is introducing a new moderator: AI，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a72127c679c5abd64d0c57a",
+      "title": "The AI Notetaker Has Been Invited to All the Meetings",
+      "url": "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Wispr Flow, a popular dictation tool, has released a live notetaker that transcribes and summarizes meetings. It joins a growing wave of AI notetakers for the workplace.",
+      "published": "2026-08-05T07:00:00+00:00",
+      "published_dt": "2026-08-05T07:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The AI Notetaker Has Been Invited to All the Meetings (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：The AI Notetaker Has Been Invited to All the Meetings，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3150282",
+      "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+      "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.",
+      "published": "2026-08-05T20:05:00+00:00",
+      "published_dt": "2026-08-05T20:05:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49186762",
+      "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+      "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-05T18:18:56+00:00",
+      "published_dt": "2026-08-05T18:18:56+00:00",
+      "hn_score": 227,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Beating GPT-5.6 Sol on retrieval with 100x cheaper open models，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49184755",
+      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassa...https://www.reuters.com/business/google-shakes-up-ai-leaders...https://www.discoveryloop.com/, https://news.ycombinator.com/item?id=49184960https://twitter.com/JeffDean/status/2085034604172603724, https://xcancel.com/JeffDean/status/2085034604172603724",
+      "published": "2026-08-05T16:05:31+00:00",
+      "published_dt": "2026-08-05T16:05:31+00:00",
+      "hn_score": 487,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3150177",
+      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+      "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
+      "published": "2026-08-05T15:56:14+00:00",
+      "published_dt": "2026-08-05T15:56:14+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Shopify says AI search is driving more traffic and sales, not replacing Google (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Shopify says AI search is driving more traffic and sales, not replacing Google，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149903",
+      "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+      "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+      "published": "2026-08-05T15:05:00+00:00",
+      "published_dt": "2026-08-05T15:05:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3150081",
+      "title": "Anthropic is hiring an AI chip design team",
+      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
+      "published": "2026-08-05T14:13:18+00:00",
+      "published_dt": "2026-08-05T14:13:18+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic is hiring an AI chip design team (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic is hiring an AI chip design team，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49182041",
+      "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
+      "url": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-05T12:41:47+00:00",
+      "published_dt": "2026-08-05T12:41:47+00:00",
+      "hn_score": 230,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "TIME Is Serving AI Bots a Different Website, with Ads Built In (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：TIME Is Serving AI Bots a Different Website, with Ads Built In，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49181083",
+      "title": "Position: LLMs Can't Jump",
+      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-05T11:01:37+00:00",
+      "published_dt": "2026-08-05T11:01:37+00:00",
+      "hn_score": 247,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Position: LLMs Can't Jump (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Position: LLMs Can't Jump，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
