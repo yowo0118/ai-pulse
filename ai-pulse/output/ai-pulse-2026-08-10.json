@@ -1,0 +1,815 @@
+{
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10T01:22:16",
+  "stats": {
+    "total_items": 11,
+    "high_importance": 3,
+    "medium_importance": 8,
+    "categories_covered": 4
+  },
+  "top_stories": [
+    {
+      "id": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+      "title": "Lessons from the hacks",
+      "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "The recent run of cyberattacks by in-development frontier models has got me thinking a lot about how our current incentive systems are not well suited for such fast technological transitions. The two primary power structures here are the rapidly growing technology companies and the federal government. The companies are incentivized to grow, so they can keep growing and keep scaling – in what is an extremely competitive market. This scaling is pushing us towards new, inevitable AI transitions (which are accompanied by new risks). On the other side is our current government, a product of the last few centuries of global history – one that deserves its reputation as being slow-moving. This is a government that I expect to only act in substance once real, measurable harms from new AI models happen, and to overreact.How do we balance these powers? At the core of it is a need for more transparency on both sides. The frontier labs are building such complex systems so fast that they cannot keep up with them – a good time for more eyes to study the problem. On the other side, the government said it does not plan to release details on its frontier model evaluation framework. We are heading to challenges so significant that none of these entities are on track to handle this on their own. Frontier labs could better control risk by meaningfully slowing down, which I don’t expect them to do. The government could handle this better by massively improving state capacity around AI and helping the broader industrial base prepare for AI-native risks, which I don’t expect them to do either. There are more cases like this.These are the two most influential power structures determining what will happen, but many more have influence. All together, I think the AI industry is wildly, collectively unprepared for handling the next 12-24 months well.This article is a grab bag of takeaways I have from the OpenAI-HuggingFace hack, as we’ve learned more details, and most of the ideas are reinforc",
+      "published": "2026-08-09T14:57:11+00:00",
+      "published_dt": "2026-08-09T14:57:11+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Lessons from the hacks (Interconnects (Nathan Lambert)) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Lessons from the hacks，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+      "title": "GitHub Models is now retired",
+      "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has been completed. GitHub Models was an odd-shaped duck. GitHub provided a model playground tool and a unified API across a bunch of different LLM providers, with the biggest benefit being that code running in GitHub Actions could use the GitHub API key already present in that environment to execute prompts. This made it easy to build things that fit GitHub Next's Continuous AI concept. GitHub didn't share the reason behind the shutdown, but my bet is that it fits the pattern where coding agent patterns made it prohibitively expensive to offer free or subsidized tokens. My workflow uses an LLM call to create folder summaries for the README, using this code here. I swapped GitHub Models out for an OpenAI API key with a monthly spending limit, and I'm now generating my summaries using GPT-5.6 Luna. Tags: github, ai, github-actions, generative-ai, llms, llm-pricing",
+      "published": "2026-08-09T22:48:05+00:00",
+      "published_dt": "2026-08-09T22:48:05+00:00",
+      "score": 9.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "GitHub Models is now retired (Simon Willison) highlights a notable AI development with score 9.0.",
+      "summary_zh": "Simon Willison 报道：GitHub Models is now retired，综合评分 9.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151435",
+      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The AI-focused hedge fund is still making some big bets.",
+      "published": "2026-08-09T20:35:17+00:00",
+      "published_dt": "2026-08-09T20:35:17+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$400M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+          "title": "Quoting Claude Opus 5 system prompt",
+          "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt, ensuring Claude doesn't provide incorrect answers about the export controls situation Tags: system-prompts, anthropic, claude, generative-ai, ai, llms, claude-mythos-fable",
+          "published": "2026-08-09T23:31:39+00:00",
+          "published_dt": "2026-08-09T23:31:39+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Quoting Claude Opus 5 system prompt (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：Quoting Claude Opus 5 system prompt，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+          "title": "Lessons from the hacks",
+          "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "The recent run of cyberattacks by in-development frontier models has got me thinking a lot about how our current incentive systems are not well suited for such fast technological transitions. The two primary power structures here are the rapidly growing technology companies and the federal government. The companies are incentivized to grow, so they can keep growing and keep scaling – in what is an extremely competitive market. This scaling is pushing us towards new, inevitable AI transitions (which are accompanied by new risks). On the other side is our current government, a product of the last few centuries of global history – one that deserves its reputation as being slow-moving. This is a government that I expect to only act in substance once real, measurable harms from new AI models happen, and to overreact.How do we balance these powers? At the core of it is a need for more transparency on both sides. The frontier labs are building such complex systems so fast that they cannot keep up with them – a good time for more eyes to study the problem. On the other side, the government said it does not plan to release details on its frontier model evaluation framework. We are heading to challenges so significant that none of these entities are on track to handle this on their own. Frontier labs could better control risk by meaningfully slowing down, which I don’t expect them to do. The government could handle this better by massively improving state capacity around AI and helping the broader industrial base prepare for AI-native risks, which I don’t expect them to do either. There are more cases like this.These are the two most influential power structures determining what will happen, but many more have influence. All together, I think the AI industry is wildly, collectively unprepared for handling the next 12-24 months well.This article is a grab bag of takeaways I have from the OpenAI-HuggingFace hack, as we’ve learned more details, and most of the ideas are reinforc",
+          "published": "2026-08-09T14:57:11+00:00",
+          "published_dt": "2026-08-09T14:57:11+00:00",
+          "score": 9.3,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Lessons from the hacks (Interconnects (Nathan Lambert)) highlights a notable AI development with score 9.3.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：Lessons from the hacks，综合评分 9.3，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3151435",
+          "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+          "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The AI-focused hedge fund is still making some big bets.",
+          "published": "2026-08-09T20:35:17+00:00",
+          "published_dt": "2026-08-09T20:35:17+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$400M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 0,
+      "items": []
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3151324",
+          "title": "The AI safety test is becoming a safety risk",
+          "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+          "published": "2026-08-09T14:30:00+00:00",
+          "published_dt": "2026-08-09T14:30:00+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "safety"
+            ]
+          },
+          "summary_en": "The AI safety test is becoming a safety risk (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：The AI safety test is becoming a safety risk，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3151431",
+          "title": "Anthropic is turning Claude Code’s auto mode on by default",
+          "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Programming with Claude Code will soon require even less human oversight.",
+          "published": "2026-08-09T19:20:32+00:00",
+          "published_dt": "2026-08-09T19:20:32+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic is turning Claude Code’s auto mode on by default (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic is turning Claude Code’s auto mode on by default，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49234675",
+          "title": "How I use LLMs to learn complex topics",
+          "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-09T19:16:49+00:00",
+          "published_dt": "2026-08-09T19:16:49+00:00",
+          "hn_score": 397,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "How I use LLMs to learn complex topics (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：How I use LLMs to learn complex topics，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3151401",
+          "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+          "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
+          "published": "2026-08-09T15:00:00+00:00",
+          "published_dt": "2026-08-09T15:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+          "title": "GitHub Models is now retired",
+          "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has been completed. GitHub Models was an odd-shaped duck. GitHub provided a model playground tool and a unified API across a bunch of different LLM providers, with the biggest benefit being that code running in GitHub Actions could use the GitHub API key already present in that environment to execute prompts. This made it easy to build things that fit GitHub Next's Continuous AI concept. GitHub didn't share the reason behind the shutdown, but my bet is that it fits the pattern where coding agent patterns made it prohibitively expensive to offer free or subsidized tokens. My workflow uses an LLM call to create folder summaries for the README, using this code here. I swapped GitHub Models out for an OpenAI API key with a monthly spending limit, and I'm now generating my summaries using GPT-5.6 Luna. Tags: github, ai, github-actions, generative-ai, llms, llm-pricing",
+          "published": "2026-08-09T22:48:05+00:00",
+          "published_dt": "2026-08-09T22:48:05+00:00",
+          "score": 9.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "GitHub Models is now retired (Simon Willison) highlights a notable AI development with score 9.0.",
+          "summary_zh": "Simon Willison 报道：GitHub Models is now retired，综合评分 9.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-10T01:22:13.456390+00:00",
+          "published_dt": "2026-08-10T01:22:13.456390+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-10T01:22:13.456390+00:00",
+          "published_dt": "2026-08-10T01:22:13.456390+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a75f5ae8162fdd1c3cd55cb",
+          "title": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How",
+          "url": "https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "There are endless ways to record and transcribe your virtual meetings with AI. Here’s an option that’s free and open source.",
+          "published": "2026-08-09T10:30:00+00:00",
+          "published_dt": "2026-08-09T10:30:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+      "title": "Lessons from the hacks",
+      "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "The recent run of cyberattacks by in-development frontier models has got me thinking a lot about how our current incentive systems are not well suited for such fast technological transitions. The two primary power structures here are the rapidly growing technology companies and the federal government. The companies are incentivized to grow, so they can keep growing and keep scaling – in what is an extremely competitive market. This scaling is pushing us towards new, inevitable AI transitions (which are accompanied by new risks). On the other side is our current government, a product of the last few centuries of global history – one that deserves its reputation as being slow-moving. This is a government that I expect to only act in substance once real, measurable harms from new AI models happen, and to overreact.How do we balance these powers? At the core of it is a need for more transparency on both sides. The frontier labs are building such complex systems so fast that they cannot keep up with them – a good time for more eyes to study the problem. On the other side, the government said it does not plan to release details on its frontier model evaluation framework. We are heading to challenges so significant that none of these entities are on track to handle this on their own. Frontier labs could better control risk by meaningfully slowing down, which I don’t expect them to do. The government could handle this better by massively improving state capacity around AI and helping the broader industrial base prepare for AI-native risks, which I don’t expect them to do either. There are more cases like this.These are the two most influential power structures determining what will happen, but many more have influence. All together, I think the AI industry is wildly, collectively unprepared for handling the next 12-24 months well.This article is a grab bag of takeaways I have from the OpenAI-HuggingFace hack, as we’ve learned more details, and most of the ideas are reinforc",
+      "published": "2026-08-09T14:57:11+00:00",
+      "published_dt": "2026-08-09T14:57:11+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Lessons from the hacks (Interconnects (Nathan Lambert)) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Lessons from the hacks，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+      "title": "GitHub Models is now retired",
+      "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has been completed. GitHub Models was an odd-shaped duck. GitHub provided a model playground tool and a unified API across a bunch of different LLM providers, with the biggest benefit being that code running in GitHub Actions could use the GitHub API key already present in that environment to execute prompts. This made it easy to build things that fit GitHub Next's Continuous AI concept. GitHub didn't share the reason behind the shutdown, but my bet is that it fits the pattern where coding agent patterns made it prohibitively expensive to offer free or subsidized tokens. My workflow uses an LLM call to create folder summaries for the README, using this code here. I swapped GitHub Models out for an OpenAI API key with a monthly spending limit, and I'm now generating my summaries using GPT-5.6 Luna. Tags: github, ai, github-actions, generative-ai, llms, llm-pricing",
+      "published": "2026-08-09T22:48:05+00:00",
+      "published_dt": "2026-08-09T22:48:05+00:00",
+      "score": 9.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "GitHub Models is now retired (Simon Willison) highlights a notable AI development with score 9.0.",
+      "summary_zh": "Simon Willison 报道：GitHub Models is now retired，综合评分 9.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151435",
+      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The AI-focused hedge fund is still making some big bets.",
+      "published": "2026-08-09T20:35:17+00:00",
+      "published_dt": "2026-08-09T20:35:17+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$400M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151324",
+      "title": "The AI safety test is becoming a safety risk",
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+      "published": "2026-08-09T14:30:00+00:00",
+      "published_dt": "2026-08-09T14:30:00+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "safety"
+        ]
+      },
+      "summary_en": "The AI safety test is becoming a safety risk (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：The AI safety test is becoming a safety risk，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-10T01:22:13.456390+00:00",
+      "published_dt": "2026-08-10T01:22:13.456390+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-10T01:22:13.456390+00:00",
+      "published_dt": "2026-08-10T01:22:13.456390+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+      "title": "Quoting Claude Opus 5 system prompt",
+      "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt, ensuring Claude doesn't provide incorrect answers about the export controls situation Tags: system-prompts, anthropic, claude, generative-ai, ai, llms, claude-mythos-fable",
+      "published": "2026-08-09T23:31:39+00:00",
+      "published_dt": "2026-08-09T23:31:39+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Quoting Claude Opus 5 system prompt (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：Quoting Claude Opus 5 system prompt，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a75f5ae8162fdd1c3cd55cb",
+      "title": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How",
+      "url": "https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "There are endless ways to record and transcribe your virtual meetings with AI. Here’s an option that’s free and open source.",
+      "published": "2026-08-09T10:30:00+00:00",
+      "published_dt": "2026-08-09T10:30:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151431",
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Programming with Claude Code will soon require even less human oversight.",
+      "published": "2026-08-09T19:20:32+00:00",
+      "published_dt": "2026-08-09T19:20:32+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic is turning Claude Code’s auto mode on by default (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic is turning Claude Code’s auto mode on by default，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49234675",
+      "title": "How I use LLMs to learn complex topics",
+      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-09T19:16:49+00:00",
+      "published_dt": "2026-08-09T19:16:49+00:00",
+      "hn_score": 397,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "How I use LLMs to learn complex topics (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：How I use LLMs to learn complex topics，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151401",
+      "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+      "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
+      "published": "2026-08-09T15:00:00+00:00",
+      "published_dt": "2026-08-09T15:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
