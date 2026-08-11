@@ -1,0 +1,1854 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T01:20:11",
+  "stats": {
+    "total_items": 27,
+    "high_importance": 5,
+    "medium_importance": 22,
+    "categories_covered": 5
+  },
+  "top_stories": [
+    {
+      "id": "hn-49246804",
+      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "url": "https://cactuscompute.com/needle",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hey HN,Henry from Cactus here!We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2.The whole model is a single 14MB binary that runs a full session in 28MB of RAM; 45m parameters at 2bit compression. Needle hits 500 tokens/sec decode speed on a Raspberry Pi 5, sits between 400-1,500 tokens/sec on VR devices like Meta Quest 3S and Apple Vision Pro, and ranges 300-700 on sub-$200 phones such as the Samsung A-Series.On the tool call and mobile device use benchmarks, Needle 2 trades wins with closest small models like LFM2.5 230M and Apple Foundation Model, at 5x to 70x smaller, both at f16 vs Needle 2 at 2bit. Needle is based on Simple Attention Networks from our paper (https://arxiv.org/abs/2607.18363).Edge AI has lately meant Macs and PCs, but that is just 1.5 billion of over 21 billion connected IoT devices in the world today, and in emerging markets most phones ship under $200, no NPU, cheap GPUs. These include budget phones, Raspberry Pis, microcontrollers, wearables, small robots like Reachy Mini, and connected home devices.A conventional transformer of Needle's width and depth spends 164 MFLOPs per token, and even one squeezed down to Needle's parameter count spends 87, Needle spends 70. Even on a high-end phone, an always-on assistant lives inside a power budget; every MFLOP is milliwatt-hours, and Needle spends 7x to 85x fewer of them per token than the smallest performant LLMs. More about the architecture in the link.When we structure intelligence for consumer devices as functions with typed parameters, the only hard part is mapping a messy sentence onto them; which function, with which values. Our research found that when framed that way, the problem needs no world knowledge and no open-ended prose, which is why 45M parameters suffice.Ne",
+      "published": "2026-08-10T17:22:07+00:00",
+      "published_dt": "2026-08-10T17:22:07+00:00",
+      "hn_score": 162,
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "transformer",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots (Hacker News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Hacker News 报道：Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93956",
+      "title": "Global New Unicorn Counts In The First Half Of 2026 Have Already Surpassed 2025’s Totals",
+      "url": "https://news.crunchbase.com/venture/global-unicorn-counts-rise-ai-robotics-chips-h1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A total 195 companies joined The Crunchbase Unicorn Board in the first half of 2026 — far surpassing counts seen since the second half of 2022. Already, H1 is above the new unicorn totals for all of 2025, when 193 companies were minted with that status. In this bifurcated funding environment, we also see a wide range in valuations, as well as select companies that raised multiple rounds at a significant valuation increase in the space of months. Among this cohort, robotics and AI neolabs were the leading sectors for new unicorns. Other industries that stand out were in financial services, healthcare and biotech as well as AI infrastructure, AI deployment and devtools, defense, semiconductor and aerospace. H1 new unicorns have added roughly $440 billion in value to the board — 5% of the board’s current value. These companies have raised $80 billion over time, representing 5% of funding raised by still-private, unicorn-valued companies. The most valuable new unicorn this year is China-based open-source model developer DeepSeek, which was valued at $50 billion in its first external financing. Seychelles-based crypto exchange OKX, valued at $25 billion, is the second most valuable company to join in the first half of this year. San Francisco-based OpenAI Deployment Co., majority owned by OpenAI and valued at $14 billion when it raised $4 billion from private equity, is in the third spot. From this cohort, four companies were valued as decacorns in H1, and a further five were valued above $5 billion, as of early August 2026. Based on trends for 2025 companies, we expect valuations for this cohort to climb significantly in the next year. For the 193 new unicorns that joined in 2025, 12 were decacorns and another 18 were valued above $5 billion. Nine of those decacorns for this cohort became $10 billion-plus-valued companies in 2026. US leads, China picks up The U.S. leads with 110 companies — 56% of new unicorns in H1. China was in second place with 38 companies, a signif",
+      "published": "2026-08-10T11:00:38+00:00",
+      "published_dt": "2026-08-10T11:00:38+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$440 billion",
+          "$80 billion",
+          "$50 billion",
+          "$25 billion",
+          "$14 billion",
+          "$4 billion",
+          "$5 billion",
+          "$10 billion",
+          "raised $80 billion",
+          "raised $4 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Global New Unicorn Counts In The First Half Of 2026 Have Already Surpassed 2025’s Totals (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Global New Unicorn Counts In The First Half Of 2026 Have Already Surpassed 2025’s Totals，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93952",
+      "title": "The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward.",
+      "url": "https://news.crunchbase.com/public/ai-ipo-results-lp-liquidity-gershfeld-flint/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By Andrew Gershfeld The current focus on AI IPOs is largely centered on public market performance. Investors want to know whether these companies justify their valuations and how their shares will trade after listing. But everybody is watching the wrong metric. The more consequential story begins after the bell rings, when limited partners receive distributions and decide where to deploy that capital next. At sufficient scale, AI IPOs become a capital formation event for the broader venture ecosystem. If several of the largest AI companies reach the public markets over the next few years, those exits could reshape venture fundraising and further concentrate capital among the industry’s largest firms. The real story begins after the IPO Andrew Gershfeld, general partner at Flint Capital. The more meaningful process starts when investors receive distributions from successful exits. Pension funds, university endowments, sovereign wealth funds and family offices rarely leave that capital sitting idle for long. As portfolios are rebalanced, investment committees begin evaluating new commitments across private markets. Venture has spent several years waiting for meaningful liquidity. Higher private valuations may improve paper returns, but they do not return capital to limited partners. Only successful exits complete that cycle. SpaceX’s $85.7 billion IPO illustrates both the potential and the limits of a single listing. One IPO alone is unlikely to transform venture fundraising. But a sustained wave of listings involving companies such as OpenAI, Anthropic, Databricks and Stripe could steadily return capital to investors and give limited partners fresh resources to recommit. Liquidity drives the next fundraising cycle The importance of the next AI IPOs lies less in their individual performance than in their combined effect on venture fundraising. As capital flows back to limited partners, investment committees gain both the liquidity and the flexibility to make new commi",
+      "published": "2026-08-10T11:00:36+00:00",
+      "published_dt": "2026-08-10T11:00:36+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Databricks"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$85.7 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward. (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward.，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151767",
+      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+      "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "San Francisco's housing market is in trouble again.",
+      "published": "2026-08-11T00:03:18+00:00",
+      "published_dt": "2026-08-11T00:03:18+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$7 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenAI reportedly completed a $7 billion employee tender offer (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI reportedly completed a $7 billion employee tender offer，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151410",
+      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
+      "published": "2026-08-10T12:00:00+00:00",
+      "published_dt": "2026-08-10T12:00:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$9 million",
+          "raised $9 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Discovered Materials is playing AI whack-a-mole to hunt cooler chips，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 7,
+      "items": [
+        {
+          "id": "hn-49246804",
+          "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+          "url": "https://cactuscompute.com/needle",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hey HN,Henry from Cactus here!We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2.The whole model is a single 14MB binary that runs a full session in 28MB of RAM; 45m parameters at 2bit compression. Needle hits 500 tokens/sec decode speed on a Raspberry Pi 5, sits between 400-1,500 tokens/sec on VR devices like Meta Quest 3S and Apple Vision Pro, and ranges 300-700 on sub-$200 phones such as the Samsung A-Series.On the tool call and mobile device use benchmarks, Needle 2 trades wins with closest small models like LFM2.5 230M and Apple Foundation Model, at 5x to 70x smaller, both at f16 vs Needle 2 at 2bit. Needle is based on Simple Attention Networks from our paper (https://arxiv.org/abs/2607.18363).Edge AI has lately meant Macs and PCs, but that is just 1.5 billion of over 21 billion connected IoT devices in the world today, and in emerging markets most phones ship under $200, no NPU, cheap GPUs. These include budget phones, Raspberry Pis, microcontrollers, wearables, small robots like Reachy Mini, and connected home devices.A conventional transformer of Needle's width and depth spends 164 MFLOPs per token, and even one squeezed down to Needle's parameter count spends 87, Needle spends 70. Even on a high-end phone, an always-on assistant lives inside a power budget; every MFLOP is milliwatt-hours, and Needle spends 7x to 85x fewer of them per token than the smallest performant LLMs. More about the architecture in the link.When we structure intelligence for consumer devices as functions with typed parameters, the only hard part is mapping a messy sentence onto them; which function, with which values. Our research found that when framed that way, the problem needs no world knowledge and no open-ended prose, which is why 45M parameters suffice.Ne",
+          "published": "2026-08-10T17:22:07+00:00",
+          "published_dt": "2026-08-10T17:22:07+00:00",
+          "hn_score": 162,
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "transformer",
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots (Hacker News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Hacker News 报道：Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+          "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+          "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "Housekeeping: No voiceover on another quick “launch” post. More essays soon!After a few long years of finding time to document my lessons from training open models, my post-training book is done! It’s published by Manning, under the title Reinforcement Learning from Human Feedback: Aligning and Post-training LLMs. Telling the story of the book is a useful way to explain why you may want a copy. The book started as a website where I wanted to document key methods of post-training that had potentially no online material explaining them. If there was something, I couldn’t find it. This existed for more topics than you would expect, given post-training was already popular in 2024 (when I bought the domain), and continues to this day. Topics like rejection sampling, outcome reward models, and character training are prime examples. This has helped make the website fairly popular, as it’s still one of the few places discussing these topics at a foundational, intuitive way.Otherwise, most of the book is about communicating intuitions and history. Much of the LLM industry is defined by core techniques that haven’t changed much in the last few years. This book was my attempt to explain in simple terms why post-training works, what trade-offs people need to make to get it right, and what misconceptions people often get stuck on. To do this, some of the older, foundational blog posts on Interconnects were reworked to stitch together the story behind key mathematical topics. For this reason, a lot of the explanatory text is likely higher voice than your average textbook. This is the book I wanted to read when I was getting started a few years ago! With how many people still ask me basic post-training questions, in fact a population that’s accelerating in size, I suspect this book will be very well received. I still use the book regularly and hear from established researchers all over the industry that they do too. So, it’s not a beginner book — it’s more tailored to someone who ",
+          "published": "2026-08-10T13:02:42+00:00",
+          "published_dt": "2026-08-10T13:02:42+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "RAG"
+            ]
+          },
+          "summary_en": "5 useful things you'll learn in my new post-training textbook (shipping now!) (Interconnects (Nathan Lambert)) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：5 useful things you'll learn in my new post-training textbook (shipping now!)，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+          "title": "Quoting OpenClaw",
+          "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. — OpenClaw, hacking an Australian gym-booking website Tags: ai-ethics, generative-ai, openclaw, ai, ai-security-research, llms",
+          "published": "2026-08-10T02:05:16+00:00",
+          "published_dt": "2026-08-10T02:05:16+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Quoting OpenClaw (Simon Willison) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Simon Willison 报道：Quoting OpenClaw，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/model-ml",
+          "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+          "url": "https://openai.com/index/model-ml",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+          "published": "2026-08-10T12:00:00+00:00",
+          "published_dt": "2026-08-10T12:00:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Model ML completes finance work more efficiently with GPT-5.6 Sol (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：Model ML completes finance work more efficiently with GPT-5.6 Sol，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+          "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+          "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+          "published": "2026-08-10T10:00:00+00:00",
+          "published_dt": "2026-08-10T10:00:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Expanding Daybreak as the Cyber Defense Window Narrows (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：Expanding Daybreak as the Cyber Defense Window Narrows，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+          "title": "Introducing Muse Glimmer",
+          "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success rates on full-task benchmarks including DeepSearch QA, MCP-Atlas, 𝛕-Bench and SWE-Bench, which measure its ability to work within scaffolds, write and debug code, and resolve multi-turn requests from start to finish. Reliable Tool Use. The model handles a wide range of function calls, invoking tools with precise schemas throughout extended workflows. Multi-Step Reasoning. Muse Glimmer chains reasoning over long horizons, sustaining coherent plans across complex, extended workflows. [...] Here's a pelican which I generated using LM Studio's 18.16 GB version of the model: I also tried it out with my llm-coding-agent plugin, running against a fresh checkout of Datasette with the prompt: how does auth work? Here's the response, at the end of a long transcript showing all of the tool calls it made to explore the codebase. I ran this using llm-lmstudio with this patch applied to upgrade it for compatibility with LLM 0.32. I really like this size of model, because if a machine has 32 GB of RAM or more (mine has 128GB) it leaves plenty of space for running other applications at the same time. Glimmer is a vision model, so I asked it to describe this image: llm -m lmstudio/meta/muse-glimmer -a https://static.inaturalist.org/photos/714731804/large.jpg 'describe image' Here's what I got back: The photograph shows a rocky, breakwater-style shoreline on an overcast day with a smooth, gray body of water and a faint dock/pier line in the soft-focused background. In the foreground two large brown pelicans, Pelecanus occidentalis, are perched on the jumbled gray-white stones. They have the species’ characteristic long, down-curved ye",
+          "published": "2026-08-10T23:56:03+00:00",
+          "published_dt": "2026-08-10T23:56:03+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Meta",
+              "Cohere"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent",
+              "benchmark",
+              "MCP"
+            ]
+          },
+          "summary_en": "Introducing Muse Glimmer (Simon Willison) highlights a notable AI development with score 6.4.",
+          "summary_zh": "Simon Willison 报道：Introducing Muse Glimmer，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+          "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+          "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-08-10T16:25:36+00:00",
+          "published_dt": "2026-08-10T16:25:36+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS (Hugging Face Blog) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hugging Face Blog 报道：Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93956",
+          "title": "Global New Unicorn Counts In The First Half Of 2026 Have Already Surpassed 2025’s Totals",
+          "url": "https://news.crunchbase.com/venture/global-unicorn-counts-rise-ai-robotics-chips-h1-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "A total 195 companies joined The Crunchbase Unicorn Board in the first half of 2026 — far surpassing counts seen since the second half of 2022. Already, H1 is above the new unicorn totals for all of 2025, when 193 companies were minted with that status. In this bifurcated funding environment, we also see a wide range in valuations, as well as select companies that raised multiple rounds at a significant valuation increase in the space of months. Among this cohort, robotics and AI neolabs were the leading sectors for new unicorns. Other industries that stand out were in financial services, healthcare and biotech as well as AI infrastructure, AI deployment and devtools, defense, semiconductor and aerospace. H1 new unicorns have added roughly $440 billion in value to the board — 5% of the board’s current value. These companies have raised $80 billion over time, representing 5% of funding raised by still-private, unicorn-valued companies. The most valuable new unicorn this year is China-based open-source model developer DeepSeek, which was valued at $50 billion in its first external financing. Seychelles-based crypto exchange OKX, valued at $25 billion, is the second most valuable company to join in the first half of this year. San Francisco-based OpenAI Deployment Co., majority owned by OpenAI and valued at $14 billion when it raised $4 billion from private equity, is in the third spot. From this cohort, four companies were valued as decacorns in H1, and a further five were valued above $5 billion, as of early August 2026. Based on trends for 2025 companies, we expect valuations for this cohort to climb significantly in the next year. For the 193 new unicorns that joined in 2025, 12 were decacorns and another 18 were valued above $5 billion. Nine of those decacorns for this cohort became $10 billion-plus-valued companies in 2026. US leads, China picks up The U.S. leads with 110 companies — 56% of new unicorns in H1. China was in second place with 38 companies, a signif",
+          "published": "2026-08-10T11:00:38+00:00",
+          "published_dt": "2026-08-10T11:00:38+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$440 billion",
+              "$80 billion",
+              "$50 billion",
+              "$25 billion",
+              "$14 billion",
+              "$4 billion",
+              "$5 billion",
+              "$10 billion",
+              "raised $80 billion",
+              "raised $4 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Global New Unicorn Counts In The First Half Of 2026 Have Already Surpassed 2025’s Totals (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Global New Unicorn Counts In The First Half Of 2026 Have Already Surpassed 2025’s Totals，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93952",
+          "title": "The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward.",
+          "url": "https://news.crunchbase.com/public/ai-ipo-results-lp-liquidity-gershfeld-flint/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "By Andrew Gershfeld The current focus on AI IPOs is largely centered on public market performance. Investors want to know whether these companies justify their valuations and how their shares will trade after listing. But everybody is watching the wrong metric. The more consequential story begins after the bell rings, when limited partners receive distributions and decide where to deploy that capital next. At sufficient scale, AI IPOs become a capital formation event for the broader venture ecosystem. If several of the largest AI companies reach the public markets over the next few years, those exits could reshape venture fundraising and further concentrate capital among the industry’s largest firms. The real story begins after the IPO Andrew Gershfeld, general partner at Flint Capital. The more meaningful process starts when investors receive distributions from successful exits. Pension funds, university endowments, sovereign wealth funds and family offices rarely leave that capital sitting idle for long. As portfolios are rebalanced, investment committees begin evaluating new commitments across private markets. Venture has spent several years waiting for meaningful liquidity. Higher private valuations may improve paper returns, but they do not return capital to limited partners. Only successful exits complete that cycle. SpaceX’s $85.7 billion IPO illustrates both the potential and the limits of a single listing. One IPO alone is unlikely to transform venture fundraising. But a sustained wave of listings involving companies such as OpenAI, Anthropic, Databricks and Stripe could steadily return capital to investors and give limited partners fresh resources to recommit. Liquidity drives the next fundraising cycle The importance of the next AI IPOs lies less in their individual performance than in their combined effect on venture fundraising. As capital flows back to limited partners, investment committees gain both the liquidity and the flexibility to make new commi",
+          "published": "2026-08-10T11:00:36+00:00",
+          "published_dt": "2026-08-10T11:00:36+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Databricks"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$85.7 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward. (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward.，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3151767",
+          "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+          "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "San Francisco's housing market is in trouble again.",
+          "published": "2026-08-11T00:03:18+00:00",
+          "published_dt": "2026-08-11T00:03:18+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$7 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "OpenAI reportedly completed a $7 billion employee tender offer (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI reportedly completed a $7 billion employee tender offer，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3151410",
+          "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+          "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
+          "published": "2026-08-10T12:00:00+00:00",
+          "published_dt": "2026-08-10T12:00:00+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$9 million",
+              "raised $9 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：Discovered Materials is playing AI whack-a-mole to hunt cooler chips，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 2,
+      "items": [
+        {
+          "id": "hn-49246057",
+          "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
+          "url": "https://www.stoaexchange.com",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hi HN, we’re Eren, Berat and Kaan. We’re building Stoa (https://www.stoaexchange.com), a marketplace for new and used GPUs and AI servers.GPUs are the collateral in the data center buildout. Today, financing terms mostly depend on the offtaker, meaning the company that has committed to use the compute.If that company is a hyperscaler, the financing can look investment grade. If it’s a smaller cloud or startup, terms get expensive fast, even with the same hardware as collateral.The lender’s problem is pretty reasonable. If the borrower defaults and we need to sell these servers, what can we actually get for them? There isn’t a good answer today.We started brokering GPU deals to understand why. It was much more manual than we expected. The hardware is still traded through phone calls, forwarded spreadsheets and long email threads.One week, a seller quoted us $200k for a server node and another quoted $240k for what looked like the same thing. Neither was necessarily wrong. They had different information and could only see their own corner of the market.Before we could compare the quotes, we had to sort out the configuration, condition, warranty, location and delivery terms. It’s the same information Kelley Blue Book attaches to a used-car price through the year, trim, mileage and condition. “An H100 server” isn’t enough information to know what something is worth, just as “a used BMW” isn’t.This is also just a bad way to buy or sell hardware. A buyer looking for the best price shouldn’t have to contact several brokers and dealers separately, repeat the same request and then untangle a pile of different quotes. Sellers shouldn’t have to search for demand one buyer at a time. A market of this size deserves better liquidity.Stoa puts the request into one format and sends it to dealers that have gone through know-your-business (KYB) checks. We verify the company, who owns it and who is allowed to trade for it. Before the request goes out, the buyer confirms the exact conf",
+          "published": "2026-08-10T16:35:27+00:00",
+          "published_dt": "2026-08-10T16:35:27+00:00",
+          "hn_score": 63,
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers (Hacker News) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Hacker News 报道：Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3151655",
+          "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+          "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+          "published": "2026-08-10T23:56:15+00:00",
+          "published_dt": "2026-08-10T23:56:15+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "As AI-led attacks multiply, OpenAI launches a new cyber model (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：As AI-led attacks multiply, OpenAI launches a new cyber model，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 0,
+      "items": []
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=975732",
+          "title": "What happens to Bose when headphones become AI?",
+          "url": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Today, I’m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose — it’s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both car audio and noise-canceling headphones. Lila was last on the show about four years ago, and since then she’s dramatically rearchitected the company. The focus on research is still there, but she’s sold off Bose Professional, acquired the high-end audio brands McIntosh Labs and Sonus faber, and, perhaps most importantly, started licensing all that core Bose technology to other companies. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. That means that while you can still go buy a Bose soundbar or Bose headphones, the company is also turning into a B2B business, and you can get Bose technology in Skullcandy headphones and Epson projectors, among many other products. That big change in the business comes with a big change in structure. Becoming a software company in addition to a product company comes with a whole new set of challenges, and Lila and I talked about how it’s all working out. I also wanted to know if this is all a reaction to the potential rise of AI wearables — products that might end up looking a lot like headphones, and which need all kinds of audio processing to enable voice input. Is Bose just trying to sell tech to a range of new companies that might disrupt headphones entirely? Or does Lila have a plan for a headphones market that was already disrupted when phone vendors like Apple and Samsung made their own products like AirPods and Galaxy Buds work better than the competition? We got deep on this, and Lila was pretty open about the challenges and the opportunities here. As Decoder listeners know, I’m a huge audio nerd, so I loved every minute of this conv",
+          "published": "2026-08-10T14:00:00+00:00",
+          "published_dt": "2026-08-10T14:00:00+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "What happens to Bose when headphones become AI? (The Verge AI) highlights a notable AI development with score 6.4.",
+          "summary_zh": "The Verge AI 报道：What happens to Bose when headphones become AI?，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/building-an-ai-native-finance-function",
+          "title": "What building an AI-native finance function taught me",
+          "url": "https://openai.com/index/building-an-ai-native-finance-function",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+          "published": "2026-08-10T17:00:00+00:00",
+          "published_dt": "2026-08-10T17:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "What building an AI-native finance function taught me (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：What building an AI-native finance function taught me，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/responsible-ai-infrastructure-texas",
+          "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+          "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+          "published": "2026-08-10T14:00:00+00:00",
+          "published_dt": "2026-08-10T14:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+          "title": "Putting frontier cyber models in more trusted hands",
+          "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+          "published": "2026-08-10T10:00:00+00:00",
+          "published_dt": "2026-08-10T10:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Putting frontier cyber models in more trusted hands (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Putting frontier cyber models in more trusted hands，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49239751",
+          "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+          "url": "https://www.docker.com/products/docker-sandboxes/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-10T06:02:38+00:00",
+          "published_dt": "2026-08-10T06:02:38+00:00",
+          "hn_score": 625,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Docker Sandboxes – Disposable, isolated sandboxes for AI agents，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+          "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-08-10T10:05:36+00:00",
+          "published_dt": "2026-08-10T10:05:36+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "distillation"
+            ]
+          },
+          "summary_en": "Making Knowledge Distillation Cheap Enough to Run at Scale (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Making Knowledge Distillation Cheap Enough to Run at Scale，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3151570",
+          "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+          "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building.",
+          "published": "2026-08-10T20:53:02+00:00",
+          "published_dt": "2026-08-10T20:53:02+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3151503",
+          "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+          "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
+          "published": "2026-08-10T20:04:24+00:00",
+          "published_dt": "2026-08-10T20:04:24+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Tech industry is buzzing after a Claude agent hacked into a gym (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Tech industry is buzzing after a Claude agent hacked into a gym，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3151491",
+          "title": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
+          "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
+          "published": "2026-08-10T16:20:13+00:00",
+          "published_dt": "2026-08-10T16:20:13+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49243880",
+          "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+          "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/",
+          "published": "2026-08-10T14:06:22+00:00",
+          "published_dt": "2026-08-10T14:06:22+00:00",
+          "hn_score": 355,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-11T01:20:09.644584+00:00",
+          "published_dt": "2026-08-11T01:20:09.644584+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-11T01:20:09.644584+00:00",
+          "published_dt": "2026-08-11T01:20:09.644584+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "hn-49246804",
+      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "url": "https://cactuscompute.com/needle",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hey HN,Henry from Cactus here!We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2.The whole model is a single 14MB binary that runs a full session in 28MB of RAM; 45m parameters at 2bit compression. Needle hits 500 tokens/sec decode speed on a Raspberry Pi 5, sits between 400-1,500 tokens/sec on VR devices like Meta Quest 3S and Apple Vision Pro, and ranges 300-700 on sub-$200 phones such as the Samsung A-Series.On the tool call and mobile device use benchmarks, Needle 2 trades wins with closest small models like LFM2.5 230M and Apple Foundation Model, at 5x to 70x smaller, both at f16 vs Needle 2 at 2bit. Needle is based on Simple Attention Networks from our paper (https://arxiv.org/abs/2607.18363).Edge AI has lately meant Macs and PCs, but that is just 1.5 billion of over 21 billion connected IoT devices in the world today, and in emerging markets most phones ship under $200, no NPU, cheap GPUs. These include budget phones, Raspberry Pis, microcontrollers, wearables, small robots like Reachy Mini, and connected home devices.A conventional transformer of Needle's width and depth spends 164 MFLOPs per token, and even one squeezed down to Needle's parameter count spends 87, Needle spends 70. Even on a high-end phone, an always-on assistant lives inside a power budget; every MFLOP is milliwatt-hours, and Needle spends 7x to 85x fewer of them per token than the smallest performant LLMs. More about the architecture in the link.When we structure intelligence for consumer devices as functions with typed parameters, the only hard part is mapping a messy sentence onto them; which function, with which values. Our research found that when framed that way, the problem needs no world knowledge and no open-ended prose, which is why 45M parameters suffice.Ne",
+      "published": "2026-08-10T17:22:07+00:00",
+      "published_dt": "2026-08-10T17:22:07+00:00",
+      "hn_score": 162,
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "transformer",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots (Hacker News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Hacker News 报道：Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93956",
+      "title": "Global New Unicorn Counts In The First Half Of 2026 Have Already Surpassed 2025’s Totals",
+      "url": "https://news.crunchbase.com/venture/global-unicorn-counts-rise-ai-robotics-chips-h1-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A total 195 companies joined The Crunchbase Unicorn Board in the first half of 2026 — far surpassing counts seen since the second half of 2022. Already, H1 is above the new unicorn totals for all of 2025, when 193 companies were minted with that status. In this bifurcated funding environment, we also see a wide range in valuations, as well as select companies that raised multiple rounds at a significant valuation increase in the space of months. Among this cohort, robotics and AI neolabs were the leading sectors for new unicorns. Other industries that stand out were in financial services, healthcare and biotech as well as AI infrastructure, AI deployment and devtools, defense, semiconductor and aerospace. H1 new unicorns have added roughly $440 billion in value to the board — 5% of the board’s current value. These companies have raised $80 billion over time, representing 5% of funding raised by still-private, unicorn-valued companies. The most valuable new unicorn this year is China-based open-source model developer DeepSeek, which was valued at $50 billion in its first external financing. Seychelles-based crypto exchange OKX, valued at $25 billion, is the second most valuable company to join in the first half of this year. San Francisco-based OpenAI Deployment Co., majority owned by OpenAI and valued at $14 billion when it raised $4 billion from private equity, is in the third spot. From this cohort, four companies were valued as decacorns in H1, and a further five were valued above $5 billion, as of early August 2026. Based on trends for 2025 companies, we expect valuations for this cohort to climb significantly in the next year. For the 193 new unicorns that joined in 2025, 12 were decacorns and another 18 were valued above $5 billion. Nine of those decacorns for this cohort became $10 billion-plus-valued companies in 2026. US leads, China picks up The U.S. leads with 110 companies — 56% of new unicorns in H1. China was in second place with 38 companies, a signif",
+      "published": "2026-08-10T11:00:38+00:00",
+      "published_dt": "2026-08-10T11:00:38+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$440 billion",
+          "$80 billion",
+          "$50 billion",
+          "$25 billion",
+          "$14 billion",
+          "$4 billion",
+          "$5 billion",
+          "$10 billion",
+          "raised $80 billion",
+          "raised $4 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Global New Unicorn Counts In The First Half Of 2026 Have Already Surpassed 2025’s Totals (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Global New Unicorn Counts In The First Half Of 2026 Have Already Surpassed 2025’s Totals，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93952",
+      "title": "The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward.",
+      "url": "https://news.crunchbase.com/public/ai-ipo-results-lp-liquidity-gershfeld-flint/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By Andrew Gershfeld The current focus on AI IPOs is largely centered on public market performance. Investors want to know whether these companies justify their valuations and how their shares will trade after listing. But everybody is watching the wrong metric. The more consequential story begins after the bell rings, when limited partners receive distributions and decide where to deploy that capital next. At sufficient scale, AI IPOs become a capital formation event for the broader venture ecosystem. If several of the largest AI companies reach the public markets over the next few years, those exits could reshape venture fundraising and further concentrate capital among the industry’s largest firms. The real story begins after the IPO Andrew Gershfeld, general partner at Flint Capital. The more meaningful process starts when investors receive distributions from successful exits. Pension funds, university endowments, sovereign wealth funds and family offices rarely leave that capital sitting idle for long. As portfolios are rebalanced, investment committees begin evaluating new commitments across private markets. Venture has spent several years waiting for meaningful liquidity. Higher private valuations may improve paper returns, but they do not return capital to limited partners. Only successful exits complete that cycle. SpaceX’s $85.7 billion IPO illustrates both the potential and the limits of a single listing. One IPO alone is unlikely to transform venture fundraising. But a sustained wave of listings involving companies such as OpenAI, Anthropic, Databricks and Stripe could steadily return capital to investors and give limited partners fresh resources to recommit. Liquidity drives the next fundraising cycle The importance of the next AI IPOs lies less in their individual performance than in their combined effect on venture fundraising. As capital flows back to limited partners, investment committees gain both the liquidity and the flexibility to make new commi",
+      "published": "2026-08-10T11:00:36+00:00",
+      "published_dt": "2026-08-10T11:00:36+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Databricks"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$85.7 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward. (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward.，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151767",
+      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+      "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "San Francisco's housing market is in trouble again.",
+      "published": "2026-08-11T00:03:18+00:00",
+      "published_dt": "2026-08-11T00:03:18+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$7 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenAI reportedly completed a $7 billion employee tender offer (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI reportedly completed a $7 billion employee tender offer，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151410",
+      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
+      "published": "2026-08-10T12:00:00+00:00",
+      "published_dt": "2026-08-10T12:00:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$9 million",
+          "raised $9 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Discovered Materials is playing AI whack-a-mole to hunt cooler chips，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49246057",
+      "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
+      "url": "https://www.stoaexchange.com",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hi HN, we’re Eren, Berat and Kaan. We’re building Stoa (https://www.stoaexchange.com), a marketplace for new and used GPUs and AI servers.GPUs are the collateral in the data center buildout. Today, financing terms mostly depend on the offtaker, meaning the company that has committed to use the compute.If that company is a hyperscaler, the financing can look investment grade. If it’s a smaller cloud or startup, terms get expensive fast, even with the same hardware as collateral.The lender’s problem is pretty reasonable. If the borrower defaults and we need to sell these servers, what can we actually get for them? There isn’t a good answer today.We started brokering GPU deals to understand why. It was much more manual than we expected. The hardware is still traded through phone calls, forwarded spreadsheets and long email threads.One week, a seller quoted us $200k for a server node and another quoted $240k for what looked like the same thing. Neither was necessarily wrong. They had different information and could only see their own corner of the market.Before we could compare the quotes, we had to sort out the configuration, condition, warranty, location and delivery terms. It’s the same information Kelley Blue Book attaches to a used-car price through the year, trim, mileage and condition. “An H100 server” isn’t enough information to know what something is worth, just as “a used BMW” isn’t.This is also just a bad way to buy or sell hardware. A buyer looking for the best price shouldn’t have to contact several brokers and dealers separately, repeat the same request and then untangle a pile of different quotes. Sellers shouldn’t have to search for demand one buyer at a time. A market of this size deserves better liquidity.Stoa puts the request into one format and sends it to dealers that have gone through know-your-business (KYB) checks. We verify the company, who owns it and who is allowed to trade for it. Before the request goes out, the buyer confirms the exact conf",
+      "published": "2026-08-10T16:35:27+00:00",
+      "published_dt": "2026-08-10T16:35:27+00:00",
+      "hn_score": 63,
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers (Hacker News) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Hacker News 报道：Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+      "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "Housekeeping: No voiceover on another quick “launch” post. More essays soon!After a few long years of finding time to document my lessons from training open models, my post-training book is done! It’s published by Manning, under the title Reinforcement Learning from Human Feedback: Aligning and Post-training LLMs. Telling the story of the book is a useful way to explain why you may want a copy. The book started as a website where I wanted to document key methods of post-training that had potentially no online material explaining them. If there was something, I couldn’t find it. This existed for more topics than you would expect, given post-training was already popular in 2024 (when I bought the domain), and continues to this day. Topics like rejection sampling, outcome reward models, and character training are prime examples. This has helped make the website fairly popular, as it’s still one of the few places discussing these topics at a foundational, intuitive way.Otherwise, most of the book is about communicating intuitions and history. Much of the LLM industry is defined by core techniques that haven’t changed much in the last few years. This book was my attempt to explain in simple terms why post-training works, what trade-offs people need to make to get it right, and what misconceptions people often get stuck on. To do this, some of the older, foundational blog posts on Interconnects were reworked to stitch together the story behind key mathematical topics. For this reason, a lot of the explanatory text is likely higher voice than your average textbook. This is the book I wanted to read when I was getting started a few years ago! With how many people still ask me basic post-training questions, in fact a population that’s accelerating in size, I suspect this book will be very well received. I still use the book regularly and hear from established researchers all over the industry that they do too. So, it’s not a beginner book — it’s more tailored to someone who ",
+      "published": "2026-08-10T13:02:42+00:00",
+      "published_dt": "2026-08-10T13:02:42+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG"
+        ]
+      },
+      "summary_en": "5 useful things you'll learn in my new post-training textbook (shipping now!) (Interconnects (Nathan Lambert)) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：5 useful things you'll learn in my new post-training textbook (shipping now!)，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-11T01:20:09.644584+00:00",
+      "published_dt": "2026-08-11T01:20:09.644584+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-11T01:20:09.644584+00:00",
+      "published_dt": "2026-08-11T01:20:09.644584+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+      "title": "Quoting OpenClaw",
+      "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. — OpenClaw, hacking an Australian gym-booking website Tags: ai-ethics, generative-ai, openclaw, ai, ai-security-research, llms",
+      "published": "2026-08-10T02:05:16+00:00",
+      "published_dt": "2026-08-10T02:05:16+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Quoting OpenClaw (Simon Willison) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Simon Willison 报道：Quoting OpenClaw，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/model-ml",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "url": "https://openai.com/index/model-ml",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "published": "2026-08-10T12:00:00+00:00",
+      "published_dt": "2026-08-10T12:00:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Model ML completes finance work more efficiently with GPT-5.6 Sol (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：Model ML completes finance work more efficiently with GPT-5.6 Sol，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+      "published": "2026-08-10T10:00:00+00:00",
+      "published_dt": "2026-08-10T10:00:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Expanding Daybreak as the Cyber Defense Window Narrows (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：Expanding Daybreak as the Cyber Defense Window Narrows，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "title": "Introducing Muse Glimmer",
+      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success rates on full-task benchmarks including DeepSearch QA, MCP-Atlas, 𝛕-Bench and SWE-Bench, which measure its ability to work within scaffolds, write and debug code, and resolve multi-turn requests from start to finish. Reliable Tool Use. The model handles a wide range of function calls, invoking tools with precise schemas throughout extended workflows. Multi-Step Reasoning. Muse Glimmer chains reasoning over long horizons, sustaining coherent plans across complex, extended workflows. [...] Here's a pelican which I generated using LM Studio's 18.16 GB version of the model: I also tried it out with my llm-coding-agent plugin, running against a fresh checkout of Datasette with the prompt: how does auth work? Here's the response, at the end of a long transcript showing all of the tool calls it made to explore the codebase. I ran this using llm-lmstudio with this patch applied to upgrade it for compatibility with LLM 0.32. I really like this size of model, because if a machine has 32 GB of RAM or more (mine has 128GB) it leaves plenty of space for running other applications at the same time. Glimmer is a vision model, so I asked it to describe this image: llm -m lmstudio/meta/muse-glimmer -a https://static.inaturalist.org/photos/714731804/large.jpg 'describe image' Here's what I got back: The photograph shows a rocky, breakwater-style shoreline on an overcast day with a smooth, gray body of water and a faint dock/pier line in the soft-focused background. In the foreground two large brown pelicans, Pelecanus occidentalis, are perched on the jumbled gray-white stones. They have the species’ characteristic long, down-curved ye",
+      "published": "2026-08-10T23:56:03+00:00",
+      "published_dt": "2026-08-10T23:56:03+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Meta",
+          "Cohere"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark",
+          "MCP"
+        ]
+      },
+      "summary_en": "Introducing Muse Glimmer (Simon Willison) highlights a notable AI development with score 6.4.",
+      "summary_zh": "Simon Willison 报道：Introducing Muse Glimmer，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=975732",
+      "title": "What happens to Bose when headphones become AI?",
+      "url": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Today, I’m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose — it’s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both car audio and noise-canceling headphones. Lila was last on the show about four years ago, and since then she’s dramatically rearchitected the company. The focus on research is still there, but she’s sold off Bose Professional, acquired the high-end audio brands McIntosh Labs and Sonus faber, and, perhaps most importantly, started licensing all that core Bose technology to other companies. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. That means that while you can still go buy a Bose soundbar or Bose headphones, the company is also turning into a B2B business, and you can get Bose technology in Skullcandy headphones and Epson projectors, among many other products. That big change in the business comes with a big change in structure. Becoming a software company in addition to a product company comes with a whole new set of challenges, and Lila and I talked about how it’s all working out. I also wanted to know if this is all a reaction to the potential rise of AI wearables — products that might end up looking a lot like headphones, and which need all kinds of audio processing to enable voice input. Is Bose just trying to sell tech to a range of new companies that might disrupt headphones entirely? Or does Lila have a plan for a headphones market that was already disrupted when phone vendors like Apple and Samsung made their own products like AirPods and Galaxy Buds work better than the competition? We got deep on this, and Lila was pretty open about the challenges and the opportunities here. As Decoder listeners know, I’m a huge audio nerd, so I loved every minute of this conv",
+      "published": "2026-08-10T14:00:00+00:00",
+      "published_dt": "2026-08-10T14:00:00+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "What happens to Bose when headphones become AI? (The Verge AI) highlights a notable AI development with score 6.4.",
+      "summary_zh": "The Verge AI 报道：What happens to Bose when headphones become AI?，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151655",
+      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+      "published": "2026-08-10T23:56:15+00:00",
+      "published_dt": "2026-08-10T23:56:15+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "As AI-led attacks multiply, OpenAI launches a new cyber model (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：As AI-led attacks multiply, OpenAI launches a new cyber model，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-08-10T16:25:36+00:00",
+      "published_dt": "2026-08-10T16:25:36+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS (Hugging Face Blog) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hugging Face Blog 报道：Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/building-an-ai-native-finance-function",
+      "title": "What building an AI-native finance function taught me",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+      "published": "2026-08-10T17:00:00+00:00",
+      "published_dt": "2026-08-10T17:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "What building an AI-native finance function taught me (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：What building an AI-native finance function taught me，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "published": "2026-08-10T14:00:00+00:00",
+      "published_dt": "2026-08-10T14:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+      "published": "2026-08-10T10:00:00+00:00",
+      "published_dt": "2026-08-10T10:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Putting frontier cyber models in more trusted hands (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Putting frontier cyber models in more trusted hands，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49239751",
+      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "url": "https://www.docker.com/products/docker-sandboxes/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-10T06:02:38+00:00",
+      "published_dt": "2026-08-10T06:02:38+00:00",
+      "hn_score": 625,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Docker Sandboxes – Disposable, isolated sandboxes for AI agents，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-08-10T10:05:36+00:00",
+      "published_dt": "2026-08-10T10:05:36+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "distillation"
+        ]
+      },
+      "summary_en": "Making Knowledge Distillation Cheap Enough to Run at Scale (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Making Knowledge Distillation Cheap Enough to Run at Scale，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151570",
+      "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+      "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building.",
+      "published": "2026-08-10T20:53:02+00:00",
+      "published_dt": "2026-08-10T20:53:02+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151503",
+      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+      "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
+      "published": "2026-08-10T20:04:24+00:00",
+      "published_dt": "2026-08-10T20:04:24+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Tech industry is buzzing after a Claude agent hacked into a gym (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Tech industry is buzzing after a Claude agent hacked into a gym，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3151491",
+      "title": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
+      "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
+      "published": "2026-08-10T16:20:13+00:00",
+      "published_dt": "2026-08-10T16:20:13+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49243880",
+      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/",
+      "published": "2026-08-10T14:06:22+00:00",
+      "published_dt": "2026-08-10T14:06:22+00:00",
+      "hn_score": 355,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49243397",
+      "title": "Mistral Patent for “Code implemented tool calls”",
+      "url": "https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-10T13:29:12+00:00",
+      "published_dt": "2026-08-10T13:29:12+00:00",
+      "hn_score": 208,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Mistral"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Mistral Patent for “Code implemented tool calls” (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Mistral Patent for “Code implemented tool calls”，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49239021",
+      "title": "Auto mode is now the default in Claude Code",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-10T03:50:00+00:00",
+      "published_dt": "2026-08-10T03:50:00+00:00",
+      "hn_score": 276,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Auto mode is now the default in Claude Code (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Auto mode is now the default in Claude Code，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
