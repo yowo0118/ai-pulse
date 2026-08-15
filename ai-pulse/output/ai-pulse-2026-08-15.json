@@ -1,0 +1,1433 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T00:59:33",
+  "stats": {
+    "total_items": 19,
+    "high_importance": 4,
+    "medium_importance": 15,
+    "categories_covered": 5
+  },
+  "top_stories": [
+    {
+      "id": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "Housekeeping: I’m traveling so cannot make a voiceover for this post. EDIT — I added a bullet point 5 on the Chinese data industry after sending the email out.Today, Z.ai announced their GLM-5.3 model, currently only available in the coding plan, coming soon to their API and in two weeks’ time to Hugging Face (open weights). This model looks exceptional, with a somewhat astounding increase in scores. On many benchmarks the model has surpassed Moonshot AI’s Kimi K3 and on some it’s surpassed Claude Fable 5 or GPT-5.6-Sol.Here’s a more complete comparison:This puts the model more or less at the frontier of agentic coding benchmarks, with only ~750B parameters – a third of Kimi K3! The Z.ai blog post is rather straightforward, and starts with a bold sentence:Scaling post-training is all we did for GLM-5.3.GLM-5.3 is the same base model as GLM-5.2 with substantially extended post-training. To risk a broad oversimplification, Z.ai seems to have a strength in post-training when compared to Kimi, which is more of a pretraining masterpiece. Following this release there have been a lot of discussions wondering how China can keep up so well? How can such a small model be matching the leading public American models? Are these results real?Subscribe nowThe simplest explanation is that Z.ai is very good at what they do – it’s worth recalling that they’ve been working on this line of models longer than almost anyone in the industry. Here’s a brief history of the GLM models.Zhipu AI Founded – 2019GLM (General Language Model) — March 2021 — released by THUDM, Tsinghua University’s Data Mining / Knowledge Engineering group. WeightsGLM-130B — August 2022 — Scaled version. Technical report for GLM-130B through GLM-4 — WeightsChatGLM — March 14, 2023 — first chat version. WeightsChatGLM2 — June 25, 2023 — WeightsChatGLM3 — October 27, 2023 — WeightsGLM-4 — January 16, 2024 — rebranded as just GLM; open-weight GLM-4-9B followed in June. WeightsGLM-5 — February 11, 2026 — latest major ge",
+      "published": "2026-08-14T21:23:35+00:00",
+      "published_dt": "2026-08-14T21:23:35+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Hugging Face",
+          "Moonshot AI",
+          "Zhipu AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "GLM-5.3: How Chinese labs keep stride with the frontier (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：GLM-5.3: How Chinese labs keep stride with the frontier，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93980",
+      "title": "The Week’s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
+      "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Want to keep track of the largest startup funding deals in 2026 with our curated list of $100 million-plus venture deals to U.S.-based companies? Check out The Crunchbase Megadeals Board. This is a weekly feature that runs down the week’s top 10 announced funding rounds in the U.S. Check out last week’s biggest funding deal roundup here. Databricks is back raising another $5 billion, after it raised that amount eight months ago. The largest fundings also went to an AI neolab, data center and electricity storage, defense, coding and biotech. Let’s take a look. 1. Databricks, $5B, data platform: Databricks has surpassed a $7 billion revenue run rate, with more than 80% year-over-year growth in Q2. The San Francisco-based company raised $ 5 billion in a funding round led by Coatue, with participation from Blackstone, MGX, T. Rowe Price, and new investor Sixth Street Growth, and raised its valuation to $190 billion. Databricks was valued at $134 billion back in December 2025 when the company announced it had surpassed a $4.8 billion revenue run rate. From its Series A funding of $13 million in 2013, the 13-year-old company has raised around $25 billion in funding over all time, per Crunchbase data. 2. River AI, $1.1B, AI reinforcement learning: Founded earlier this year, River AI raised $1.1 billion across its seed and Series A rounds led by AMP PBC and General Catalyst, with strategic investment from Nvidia and AMD Ventures. Its founder, Igor Babuschkin, has been at the center of AI developments at Google DeepMind, OpenAI and xAI over the past decade. The Palo Alto, California-based company seeks to build AI that is personalized and trained directly on what a company or person needs to accomplish, giving the end user control. 3. Form Energy, $750M, electric grid: Form Energy raised a Series G funding round led by T. Rowe Price. The Massachusetts-based company builds longer-lasting 100-hour batteries for grid electricity storage. A host of investors participated, includ",
+      "published": "2026-08-14T19:32:36+00:00",
+      "published_dt": "2026-08-14T19:32:36+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Google",
+          "DeepMind",
+          "NVIDIA",
+          "xAI",
+          "Databricks"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$100 million",
+          "$5 billion",
+          "$5B",
+          "$7 billion",
+          "$ 5 billion",
+          "$190 billion",
+          "$134 billion",
+          "$4.8 billion",
+          "$13 million",
+          "$25 billion"
+        ],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "The Week’s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Week’s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93975",
+      "title": "40 Companies Joined The Unicorn Board In July, The Highest Count In 4 Years",
+      "url": "https://news.crunchbase.com/venture/unicorn-board-grows-40-companies-fintech-robotics-ai-july-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A total of 40 companies joined The Crunchbase Unicorn Board in July, the highest monthly total in more than four years, with three joining at values greater than $10 billion. Leading sectors by count were financial services, robotics, AI orchestration, multimodal AI, energy and the semiconductor industry. In the past two months, the board added more than $100 billion each month in value from newly minted unicorns. Three companies joined the board at decacorn values. Crypto.com, Kling AI and Ant International together added $49 billion in the past month. The U.S. counts 19 new unicorn companies, just under half of the newly minted unicorns in July. China, the second-largest country, numbered eight. From the U.K., there were three companies, and from Singapore, two. Lithuania, Germany, Spain, Hungary, Australia, India, Israel and Hong Kong each count one. Among the newly minted unicorns, 15 were less than 3 years old. And seven companies were more than 10 years old. So far this year, the count of new unicorns has accelerated. A total of 195 companies joined in H1 this year, already exceeding the total for all of 2025. New unicorns in July Here are July’s new unicorn companies: Financial services Singapore-based Ant International, an affiliate of the private payments company Ant Group, raised a $1.2 billion Series A funding round with participation from Ant Group and Alibaba Group. Ant International was spun out in 2024 and was valued at $11.2 billion in this recent funding. Lumin Digital, a digital banking platform for banks and credit unions, raised $115 million in private equity funding led by Light Street Capital. The 9-year-old San Ramon, California-based company that supports customer retention and services was valued at $1.6 billion. Budapest-based Ominimo, an auto insurance provider using AI, raised a $23 million Series B funding round led by EBRD Venture Capital. The almost 2-year-old company, founded by a Serbian team, was valued at $1.6 billion. Ominimo repo",
+      "published": "2026-08-14T11:00:53+00:00",
+      "published_dt": "2026-08-14T11:00:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Alibaba"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$10 billion",
+          "$100 billion",
+          "$49 billion",
+          "$1.2 billion",
+          "$11.2 billion",
+          "$115 million",
+          "$1.6 billion",
+          "$23 million",
+          "raised $115 million",
+          "Series A"
+        ],
+        "technologies": [
+          "multimodal"
+        ]
+      },
+      "summary_en": "40 Companies Joined The Unicorn Board In July, The Highest Count In 4 Years (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：40 Companies Joined The Unicorn Board In July, The Highest Count In 4 Years，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_podcast&p=3153152",
+      "title": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+      "published": "2026-08-14T14:00:00+00:00",
+      "published_dt": "2026-08-14T14:00:00+00:00",
+      "score": 8.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$250M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Meta’s ‘open’ AI, and a $250M deal gone very wrong (TechCrunch AI) highlights a notable AI development with score 8.6.",
+      "summary_zh": "TechCrunch AI 报道：Meta’s ‘open’ AI, and a $250M deal gone very wrong，综合评分 8.6，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+          "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+          "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "Housekeeping: I’m traveling so cannot make a voiceover for this post. EDIT — I added a bullet point 5 on the Chinese data industry after sending the email out.Today, Z.ai announced their GLM-5.3 model, currently only available in the coding plan, coming soon to their API and in two weeks’ time to Hugging Face (open weights). This model looks exceptional, with a somewhat astounding increase in scores. On many benchmarks the model has surpassed Moonshot AI’s Kimi K3 and on some it’s surpassed Claude Fable 5 or GPT-5.6-Sol.Here’s a more complete comparison:This puts the model more or less at the frontier of agentic coding benchmarks, with only ~750B parameters – a third of Kimi K3! The Z.ai blog post is rather straightforward, and starts with a bold sentence:Scaling post-training is all we did for GLM-5.3.GLM-5.3 is the same base model as GLM-5.2 with substantially extended post-training. To risk a broad oversimplification, Z.ai seems to have a strength in post-training when compared to Kimi, which is more of a pretraining masterpiece. Following this release there have been a lot of discussions wondering how China can keep up so well? How can such a small model be matching the leading public American models? Are these results real?Subscribe nowThe simplest explanation is that Z.ai is very good at what they do – it’s worth recalling that they’ve been working on this line of models longer than almost anyone in the industry. Here’s a brief history of the GLM models.Zhipu AI Founded – 2019GLM (General Language Model) — March 2021 — released by THUDM, Tsinghua University’s Data Mining / Knowledge Engineering group. WeightsGLM-130B — August 2022 — Scaled version. Technical report for GLM-130B through GLM-4 — WeightsChatGLM — March 14, 2023 — first chat version. WeightsChatGLM2 — June 25, 2023 — WeightsChatGLM3 — October 27, 2023 — WeightsGLM-4 — January 16, 2024 — rebranded as just GLM; open-weight GLM-4-9B followed in June. WeightsGLM-5 — February 11, 2026 — latest major ge",
+          "published": "2026-08-14T21:23:35+00:00",
+          "published_dt": "2026-08-14T21:23:35+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Hugging Face",
+              "Moonshot AI",
+              "Zhipu AI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "GLM-5.3: How Chinese labs keep stride with the frontier (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：GLM-5.3: How Chinese labs keep stride with the frontier，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+          "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+          "url": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "After its cloud storage provider went defunct, a PBS affiliate decided to sue a data center provider to regain access to 50TB of TV shows, videos, and other data dating back 70 years. As reported this week by Current, a trade newspaper covering public broadcasting, St. Louis affiliate Nine PBS filed a lawsuit against Iron Mountain Data Centers on July 28, seeking access to the data. In the litigation filed in Denver District Court, Nine PBS says that its cloud storage provider, Open Source Storage (OSS), used one of Iron Mountain’s Denver data centers to store the channel’s data. However, OSS is being unresponsive, and Nine PBS says Iron Mountain has refused to release its data. The data in question includes the station’s coverage of the COVID-19 pandemic, East St. Louis’ history, The Great Flood of 1993, and over 11,000 files, The Denver Post reported in July. The lawsuit claims that “most” of the data is “unique and irreplaceable,” according to the Post.Read full article Comments",
+          "published": "2026-08-14T17:03:54+00:00",
+          "published_dt": "2026-08-14T17:03:54+00:00",
+          "score": 7.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider (Ars Technica) highlights a notable AI development with score 7.4.",
+          "summary_zh": "Ars Technica 报道：PBS station fears losing 50TB of data after being ghosted by cloud storage provider，综合评分 7.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3153090",
+          "title": "Kog is going deeper to squeeze more inference out of GPUs",
+          "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+          "published": "2026-08-14T14:50:11+00:00",
+          "published_dt": "2026-08-14T14:50:11+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "inference",
+              "agent"
+            ]
+          },
+          "summary_en": "Kog is going deeper to squeeze more inference out of GPUs (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：Kog is going deeper to squeeze more inference out of GPUs，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3153145",
+          "title": "Google will now allow users to remove visible watermark from its AI generations",
+          "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+          "published": "2026-08-14T16:13:40+00:00",
+          "published_dt": "2026-08-14T16:13:40+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "benchmark"
+            ]
+          },
+          "summary_en": "Google will now allow users to remove visible watermark from its AI generations (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Google will now allow users to remove visible watermark from its AI generations，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93980",
+          "title": "The Week’s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Want to keep track of the largest startup funding deals in 2026 with our curated list of $100 million-plus venture deals to U.S.-based companies? Check out The Crunchbase Megadeals Board. This is a weekly feature that runs down the week’s top 10 announced funding rounds in the U.S. Check out last week’s biggest funding deal roundup here. Databricks is back raising another $5 billion, after it raised that amount eight months ago. The largest fundings also went to an AI neolab, data center and electricity storage, defense, coding and biotech. Let’s take a look. 1. Databricks, $5B, data platform: Databricks has surpassed a $7 billion revenue run rate, with more than 80% year-over-year growth in Q2. The San Francisco-based company raised $ 5 billion in a funding round led by Coatue, with participation from Blackstone, MGX, T. Rowe Price, and new investor Sixth Street Growth, and raised its valuation to $190 billion. Databricks was valued at $134 billion back in December 2025 when the company announced it had surpassed a $4.8 billion revenue run rate. From its Series A funding of $13 million in 2013, the 13-year-old company has raised around $25 billion in funding over all time, per Crunchbase data. 2. River AI, $1.1B, AI reinforcement learning: Founded earlier this year, River AI raised $1.1 billion across its seed and Series A rounds led by AMP PBC and General Catalyst, with strategic investment from Nvidia and AMD Ventures. Its founder, Igor Babuschkin, has been at the center of AI developments at Google DeepMind, OpenAI and xAI over the past decade. The Palo Alto, California-based company seeks to build AI that is personalized and trained directly on what a company or person needs to accomplish, giving the end user control. 3. Form Energy, $750M, electric grid: Form Energy raised a Series G funding round led by T. Rowe Price. The Massachusetts-based company builds longer-lasting 100-hour batteries for grid electricity storage. A host of investors participated, includ",
+          "published": "2026-08-14T19:32:36+00:00",
+          "published_dt": "2026-08-14T19:32:36+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Google",
+              "DeepMind",
+              "NVIDIA",
+              "xAI",
+              "Databricks"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$100 million",
+              "$5 billion",
+              "$5B",
+              "$7 billion",
+              "$ 5 billion",
+              "$190 billion",
+              "$134 billion",
+              "$4.8 billion",
+              "$13 million",
+              "$25 billion"
+            ],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "The Week’s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：The Week’s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=93975",
+          "title": "40 Companies Joined The Unicorn Board In July, The Highest Count In 4 Years",
+          "url": "https://news.crunchbase.com/venture/unicorn-board-grows-40-companies-fintech-robotics-ai-july-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "A total of 40 companies joined The Crunchbase Unicorn Board in July, the highest monthly total in more than four years, with three joining at values greater than $10 billion. Leading sectors by count were financial services, robotics, AI orchestration, multimodal AI, energy and the semiconductor industry. In the past two months, the board added more than $100 billion each month in value from newly minted unicorns. Three companies joined the board at decacorn values. Crypto.com, Kling AI and Ant International together added $49 billion in the past month. The U.S. counts 19 new unicorn companies, just under half of the newly minted unicorns in July. China, the second-largest country, numbered eight. From the U.K., there were three companies, and from Singapore, two. Lithuania, Germany, Spain, Hungary, Australia, India, Israel and Hong Kong each count one. Among the newly minted unicorns, 15 were less than 3 years old. And seven companies were more than 10 years old. So far this year, the count of new unicorns has accelerated. A total of 195 companies joined in H1 this year, already exceeding the total for all of 2025. New unicorns in July Here are July’s new unicorn companies: Financial services Singapore-based Ant International, an affiliate of the private payments company Ant Group, raised a $1.2 billion Series A funding round with participation from Ant Group and Alibaba Group. Ant International was spun out in 2024 and was valued at $11.2 billion in this recent funding. Lumin Digital, a digital banking platform for banks and credit unions, raised $115 million in private equity funding led by Light Street Capital. The 9-year-old San Ramon, California-based company that supports customer retention and services was valued at $1.6 billion. Budapest-based Ominimo, an auto insurance provider using AI, raised a $23 million Series B funding round led by EBRD Venture Capital. The almost 2-year-old company, founded by a Serbian team, was valued at $1.6 billion. Ominimo repo",
+          "published": "2026-08-14T11:00:53+00:00",
+          "published_dt": "2026-08-14T11:00:53+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Alibaba"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$10 billion",
+              "$100 billion",
+              "$49 billion",
+              "$1.2 billion",
+              "$11.2 billion",
+              "$115 million",
+              "$1.6 billion",
+              "$23 million",
+              "raised $115 million",
+              "Series A"
+            ],
+            "technologies": [
+              "multimodal"
+            ]
+          },
+          "summary_en": "40 Companies Joined The Unicorn Board In July, The Highest Count In 4 Years (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：40 Companies Joined The Unicorn Board In July, The Highest Count In 4 Years，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+          "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Leading US AI labs such as OpenAI and Anthropic are releasing cheaper models as they fight to retain cost-conscious customers who are switching to cut-price alternatives from Chinese rivals. The price war comes as rising AI bills push companies to curb usage and seek cheaper models, helping Chinese developers including Moonshot and DeepSeek make inroads with users from Silicon Valley to Europe. OpenAI recently said that it was slashing prices for GPT-5.6 Luna, its “fastest and most affordable model”, by 80 percent. Anthropic has launched Claude Opus 5, touting the system’s “frontier intelligence... at half the price” of Fable 5, the company’s most capable model.Read full article Comments",
+          "published": "2026-08-14T14:27:14+00:00",
+          "published_dt": "2026-08-14T14:27:14+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground (Ars Technica) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Ars Technica 报道：OpenAI and Anthropic in price war as Chinese AI rivals gain ground，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=980416",
+          "title": "You can now turn off Google Gemini&#8217;s visible watermarks",
+          "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of content generated with the company's Nano Banana and Omni models. Though visible watermarks are now optional, AI-generated content will have invisible SynthID watermarks and C2PA metadata embedded in the background, according to Josh Woodward, the vice president of Google Labs, Gemini, and AI Studio. That means you … Read the full story at The Verge.",
+          "published": "2026-08-14T16:39:32+00:00",
+          "published_dt": "2026-08-14T16:39:32+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google",
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "You can now turn off Google Gemini&#8217;s visible watermarks (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：You can now turn off Google Gemini&#8217;s visible watermarks，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+          "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+          "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "The most compelling chart on today’s Gemini 3.7 Flash update was this one:Where you can see the degree to which 3.5 and 3.6 Flash had fallen behind the more recent Claude 4.8+ and GPT 5.5+ series mod… Read more",
+          "published": "2026-08-14T05:30:39+00:00",
+          "published_dt": "2026-08-14T05:30:39+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront (Latent Space) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Latent Space 报道：[AINews] Gemini 3.7 Flash brings GDM back to the forefront，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?post_type=tc_podcast&p=3153152",
+          "title": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+          "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+          "published": "2026-08-14T14:00:00+00:00",
+          "published_dt": "2026-08-14T14:00:00+00:00",
+          "score": 8.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$250M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Meta’s ‘open’ AI, and a $250M deal gone very wrong (TechCrunch AI) highlights a notable AI development with score 8.6.",
+          "summary_zh": "TechCrunch AI 报道：Meta’s ‘open’ AI, and a $250M deal gone very wrong，综合评分 8.6，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?post_type=tc_video&p=3153153",
+          "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+          "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+          "published": "2026-08-14T15:43:28+00:00",
+          "published_dt": "2026-08-14T15:43:28+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Does Mark Zuckerberg really believe AI is ‘for everyone’? (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Does Mark Zuckerberg really believe AI is ‘for everyone’?，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=980160",
+          "title": "Apple trained its own AI model for China with help from Alibaba",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained with the company's support, Reuters reports, citing three unnamed people familiar with the matter. Developing a custom model of its own marks a departure from Apple's previous strategy in the country and would give the company more control over its products in the competitive Chinese smartphone market. Historically, Apple has used domestic Chines … Read the full story at The Verge.",
+          "published": "2026-08-14T09:21:17+00:00",
+          "published_dt": "2026-08-14T09:21:17+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Alibaba"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple trained its own AI model for China with help from Alibaba (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Apple trained its own AI model for China with help from Alibaba，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=980367",
+          "title": "Mark Zuckerberg has an Instagzam",
+          "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do this. On this episode of The Vergecast, David and Nilay start by discussing the new logo, the executive urge to redesign everything all the time, and whether new is always better. After that, they get into the other big Meta release of the week: Mark Zuckerberg's many-thousand-word missive on the future of AI. There are a lot of ideas and proposals … Read the full story at The Verge.",
+          "published": "2026-08-14T16:54:16+00:00",
+          "published_dt": "2026-08-14T16:54:16+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Mark Zuckerberg has an Instagzam (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Mark Zuckerberg has an Instagzam，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 3,
+      "items": [
+        {
+          "id": "hn-49300314",
+          "title": "Google is making private AI practical with homomorphic encryption",
+          "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-14T15:43:10+00:00",
+          "published_dt": "2026-08-14T15:43:10+00:00",
+          "hn_score": 270,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google is making private AI practical with homomorphic encryption (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Google is making private AI practical with homomorphic encryption，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3152944",
+          "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
+          "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
+          "published": "2026-08-14T14:05:00+00:00",
+          "published_dt": "2026-08-14T14:05:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Hyperscalers might regret embracing natural gas if new forecast proves correct (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Hyperscalers might regret embracing natural gas if new forecast proves correct，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49294199",
+          "title": "US conducted mass spying campaign against leftwing and anti-ICE protesters",
+          "url": "https://www.theguardian.com/us-news/2026/aug/13/us-government-spied-anti-ice-protesters",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-14T02:39:10+00:00",
+          "published_dt": "2026-08-14T02:39:10+00:00",
+          "hn_score": 244,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "US conducted mass spying campaign against leftwing and anti-ICE protesters (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：US conducted mass spying campaign against leftwing and anti-ICE protesters，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-15T00:59:19.179553+00:00",
+          "published_dt": "2026-08-15T00:59:19.179553+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-15T00:59:19.179553+00:00",
+          "published_dt": "2026-08-15T00:59:19.179553+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a7df60ff868b5c7ca33c338",
+          "title": "Tech Visionary Says the Big AI Labs Don’t Get What People Want",
+          "url": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Tim O’Reilly built a publishing empire that AI is helping to destroy. Yet he loves AI—as long as it’s open source.",
+          "published": "2026-08-14T15:00:00+00:00",
+          "published_dt": "2026-08-14T15:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Tech Visionary Says the Big AI Labs Don’t Get What People Want (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Tech Visionary Says the Big AI Labs Don’t Get What People Want，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "Housekeeping: I’m traveling so cannot make a voiceover for this post. EDIT — I added a bullet point 5 on the Chinese data industry after sending the email out.Today, Z.ai announced their GLM-5.3 model, currently only available in the coding plan, coming soon to their API and in two weeks’ time to Hugging Face (open weights). This model looks exceptional, with a somewhat astounding increase in scores. On many benchmarks the model has surpassed Moonshot AI’s Kimi K3 and on some it’s surpassed Claude Fable 5 or GPT-5.6-Sol.Here’s a more complete comparison:This puts the model more or less at the frontier of agentic coding benchmarks, with only ~750B parameters – a third of Kimi K3! The Z.ai blog post is rather straightforward, and starts with a bold sentence:Scaling post-training is all we did for GLM-5.3.GLM-5.3 is the same base model as GLM-5.2 with substantially extended post-training. To risk a broad oversimplification, Z.ai seems to have a strength in post-training when compared to Kimi, which is more of a pretraining masterpiece. Following this release there have been a lot of discussions wondering how China can keep up so well? How can such a small model be matching the leading public American models? Are these results real?Subscribe nowThe simplest explanation is that Z.ai is very good at what they do – it’s worth recalling that they’ve been working on this line of models longer than almost anyone in the industry. Here’s a brief history of the GLM models.Zhipu AI Founded – 2019GLM (General Language Model) — March 2021 — released by THUDM, Tsinghua University’s Data Mining / Knowledge Engineering group. WeightsGLM-130B — August 2022 — Scaled version. Technical report for GLM-130B through GLM-4 — WeightsChatGLM — March 14, 2023 — first chat version. WeightsChatGLM2 — June 25, 2023 — WeightsChatGLM3 — October 27, 2023 — WeightsGLM-4 — January 16, 2024 — rebranded as just GLM; open-weight GLM-4-9B followed in June. WeightsGLM-5 — February 11, 2026 — latest major ge",
+      "published": "2026-08-14T21:23:35+00:00",
+      "published_dt": "2026-08-14T21:23:35+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Hugging Face",
+          "Moonshot AI",
+          "Zhipu AI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "GLM-5.3: How Chinese labs keep stride with the frontier (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：GLM-5.3: How Chinese labs keep stride with the frontier，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93980",
+      "title": "The Week’s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
+      "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Want to keep track of the largest startup funding deals in 2026 with our curated list of $100 million-plus venture deals to U.S.-based companies? Check out The Crunchbase Megadeals Board. This is a weekly feature that runs down the week’s top 10 announced funding rounds in the U.S. Check out last week’s biggest funding deal roundup here. Databricks is back raising another $5 billion, after it raised that amount eight months ago. The largest fundings also went to an AI neolab, data center and electricity storage, defense, coding and biotech. Let’s take a look. 1. Databricks, $5B, data platform: Databricks has surpassed a $7 billion revenue run rate, with more than 80% year-over-year growth in Q2. The San Francisco-based company raised $ 5 billion in a funding round led by Coatue, with participation from Blackstone, MGX, T. Rowe Price, and new investor Sixth Street Growth, and raised its valuation to $190 billion. Databricks was valued at $134 billion back in December 2025 when the company announced it had surpassed a $4.8 billion revenue run rate. From its Series A funding of $13 million in 2013, the 13-year-old company has raised around $25 billion in funding over all time, per Crunchbase data. 2. River AI, $1.1B, AI reinforcement learning: Founded earlier this year, River AI raised $1.1 billion across its seed and Series A rounds led by AMP PBC and General Catalyst, with strategic investment from Nvidia and AMD Ventures. Its founder, Igor Babuschkin, has been at the center of AI developments at Google DeepMind, OpenAI and xAI over the past decade. The Palo Alto, California-based company seeks to build AI that is personalized and trained directly on what a company or person needs to accomplish, giving the end user control. 3. Form Energy, $750M, electric grid: Form Energy raised a Series G funding round led by T. Rowe Price. The Massachusetts-based company builds longer-lasting 100-hour batteries for grid electricity storage. A host of investors participated, includ",
+      "published": "2026-08-14T19:32:36+00:00",
+      "published_dt": "2026-08-14T19:32:36+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Google",
+          "DeepMind",
+          "NVIDIA",
+          "xAI",
+          "Databricks"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$100 million",
+          "$5 billion",
+          "$5B",
+          "$7 billion",
+          "$ 5 billion",
+          "$190 billion",
+          "$134 billion",
+          "$4.8 billion",
+          "$13 million",
+          "$25 billion"
+        ],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "The Week’s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Week’s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93975",
+      "title": "40 Companies Joined The Unicorn Board In July, The Highest Count In 4 Years",
+      "url": "https://news.crunchbase.com/venture/unicorn-board-grows-40-companies-fintech-robotics-ai-july-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A total of 40 companies joined The Crunchbase Unicorn Board in July, the highest monthly total in more than four years, with three joining at values greater than $10 billion. Leading sectors by count were financial services, robotics, AI orchestration, multimodal AI, energy and the semiconductor industry. In the past two months, the board added more than $100 billion each month in value from newly minted unicorns. Three companies joined the board at decacorn values. Crypto.com, Kling AI and Ant International together added $49 billion in the past month. The U.S. counts 19 new unicorn companies, just under half of the newly minted unicorns in July. China, the second-largest country, numbered eight. From the U.K., there were three companies, and from Singapore, two. Lithuania, Germany, Spain, Hungary, Australia, India, Israel and Hong Kong each count one. Among the newly minted unicorns, 15 were less than 3 years old. And seven companies were more than 10 years old. So far this year, the count of new unicorns has accelerated. A total of 195 companies joined in H1 this year, already exceeding the total for all of 2025. New unicorns in July Here are July’s new unicorn companies: Financial services Singapore-based Ant International, an affiliate of the private payments company Ant Group, raised a $1.2 billion Series A funding round with participation from Ant Group and Alibaba Group. Ant International was spun out in 2024 and was valued at $11.2 billion in this recent funding. Lumin Digital, a digital banking platform for banks and credit unions, raised $115 million in private equity funding led by Light Street Capital. The 9-year-old San Ramon, California-based company that supports customer retention and services was valued at $1.6 billion. Budapest-based Ominimo, an auto insurance provider using AI, raised a $23 million Series B funding round led by EBRD Venture Capital. The almost 2-year-old company, founded by a Serbian team, was valued at $1.6 billion. Ominimo repo",
+      "published": "2026-08-14T11:00:53+00:00",
+      "published_dt": "2026-08-14T11:00:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Alibaba"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$10 billion",
+          "$100 billion",
+          "$49 billion",
+          "$1.2 billion",
+          "$11.2 billion",
+          "$115 million",
+          "$1.6 billion",
+          "$23 million",
+          "raised $115 million",
+          "Series A"
+        ],
+        "technologies": [
+          "multimodal"
+        ]
+      },
+      "summary_en": "40 Companies Joined The Unicorn Board In July, The Highest Count In 4 Years (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：40 Companies Joined The Unicorn Board In July, The Highest Count In 4 Years，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_podcast&p=3153152",
+      "title": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+      "published": "2026-08-14T14:00:00+00:00",
+      "published_dt": "2026-08-14T14:00:00+00:00",
+      "score": 8.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$250M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Meta’s ‘open’ AI, and a $250M deal gone very wrong (TechCrunch AI) highlights a notable AI development with score 8.6.",
+      "summary_zh": "TechCrunch AI 报道：Meta’s ‘open’ AI, and a $250M deal gone very wrong，综合评分 8.6，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+      "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+      "url": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "After its cloud storage provider went defunct, a PBS affiliate decided to sue a data center provider to regain access to 50TB of TV shows, videos, and other data dating back 70 years. As reported this week by Current, a trade newspaper covering public broadcasting, St. Louis affiliate Nine PBS filed a lawsuit against Iron Mountain Data Centers on July 28, seeking access to the data. In the litigation filed in Denver District Court, Nine PBS says that its cloud storage provider, Open Source Storage (OSS), used one of Iron Mountain’s Denver data centers to store the channel’s data. However, OSS is being unresponsive, and Nine PBS says Iron Mountain has refused to release its data. The data in question includes the station’s coverage of the COVID-19 pandemic, East St. Louis’ history, The Great Flood of 1993, and over 11,000 files, The Denver Post reported in July. The lawsuit claims that “most” of the data is “unique and irreplaceable,” according to the Post.Read full article Comments",
+      "published": "2026-08-14T17:03:54+00:00",
+      "published_dt": "2026-08-14T17:03:54+00:00",
+      "score": 7.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider (Ars Technica) highlights a notable AI development with score 7.4.",
+      "summary_zh": "Ars Technica 报道：PBS station fears losing 50TB of data after being ghosted by cloud storage provider，综合评分 7.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_video&p=3153153",
+      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+      "published": "2026-08-14T15:43:28+00:00",
+      "published_dt": "2026-08-14T15:43:28+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Does Mark Zuckerberg really believe AI is ‘for everyone’? (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Does Mark Zuckerberg really believe AI is ‘for everyone’?，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-15T00:59:19.179553+00:00",
+      "published_dt": "2026-08-15T00:59:19.179553+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-15T00:59:19.179553+00:00",
+      "published_dt": "2026-08-15T00:59:19.179553+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153090",
+      "title": "Kog is going deeper to squeeze more inference out of GPUs",
+      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+      "published": "2026-08-14T14:50:11+00:00",
+      "published_dt": "2026-08-14T14:50:11+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "Kog is going deeper to squeeze more inference out of GPUs (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：Kog is going deeper to squeeze more inference out of GPUs，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Leading US AI labs such as OpenAI and Anthropic are releasing cheaper models as they fight to retain cost-conscious customers who are switching to cut-price alternatives from Chinese rivals. The price war comes as rising AI bills push companies to curb usage and seek cheaper models, helping Chinese developers including Moonshot and DeepSeek make inroads with users from Silicon Valley to Europe. OpenAI recently said that it was slashing prices for GPT-5.6 Luna, its “fastest and most affordable model”, by 80 percent. Anthropic has launched Claude Opus 5, touting the system’s “frontier intelligence... at half the price” of Fable 5, the company’s most capable model.Read full article Comments",
+      "published": "2026-08-14T14:27:14+00:00",
+      "published_dt": "2026-08-14T14:27:14+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground (Ars Technica) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Ars Technica 报道：OpenAI and Anthropic in price war as Chinese AI rivals gain ground，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=980160",
+      "title": "Apple trained its own AI model for China with help from Alibaba",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained with the company's support, Reuters reports, citing three unnamed people familiar with the matter. Developing a custom model of its own marks a departure from Apple's previous strategy in the country and would give the company more control over its products in the competitive Chinese smartphone market. Historically, Apple has used domestic Chines … Read the full story at The Verge.",
+      "published": "2026-08-14T09:21:17+00:00",
+      "published_dt": "2026-08-14T09:21:17+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Alibaba"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple trained its own AI model for China with help from Alibaba (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Apple trained its own AI model for China with help from Alibaba，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153145",
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "published": "2026-08-14T16:13:40+00:00",
+      "published_dt": "2026-08-14T16:13:40+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "benchmark"
+        ]
+      },
+      "summary_en": "Google will now allow users to remove visible watermark from its AI generations (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Google will now allow users to remove visible watermark from its AI generations，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=980416",
+      "title": "You can now turn off Google Gemini&#8217;s visible watermarks",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of content generated with the company's Nano Banana and Omni models. Though visible watermarks are now optional, AI-generated content will have invisible SynthID watermarks and C2PA metadata embedded in the background, according to Josh Woodward, the vice president of Google Labs, Gemini, and AI Studio. That means you … Read the full story at The Verge.",
+      "published": "2026-08-14T16:39:32+00:00",
+      "published_dt": "2026-08-14T16:39:32+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google",
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "You can now turn off Google Gemini&#8217;s visible watermarks (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：You can now turn off Google Gemini&#8217;s visible watermarks，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+      "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "The most compelling chart on today’s Gemini 3.7 Flash update was this one:Where you can see the degree to which 3.5 and 3.6 Flash had fallen behind the more recent Claude 4.8+ and GPT 5.5+ series mod… Read more",
+      "published": "2026-08-14T05:30:39+00:00",
+      "published_dt": "2026-08-14T05:30:39+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront (Latent Space) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Latent Space 报道：[AINews] Gemini 3.7 Flash brings GDM back to the forefront，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=980367",
+      "title": "Mark Zuckerberg has an Instagzam",
+      "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do this. On this episode of The Vergecast, David and Nilay start by discussing the new logo, the executive urge to redesign everything all the time, and whether new is always better. After that, they get into the other big Meta release of the week: Mark Zuckerberg's many-thousand-word missive on the future of AI. There are a lot of ideas and proposals … Read the full story at The Verge.",
+      "published": "2026-08-14T16:54:16+00:00",
+      "published_dt": "2026-08-14T16:54:16+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Mark Zuckerberg has an Instagzam (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Mark Zuckerberg has an Instagzam，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a7df60ff868b5c7ca33c338",
+      "title": "Tech Visionary Says the Big AI Labs Don’t Get What People Want",
+      "url": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Tim O’Reilly built a publishing empire that AI is helping to destroy. Yet he loves AI—as long as it’s open source.",
+      "published": "2026-08-14T15:00:00+00:00",
+      "published_dt": "2026-08-14T15:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Tech Visionary Says the Big AI Labs Don’t Get What People Want (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Tech Visionary Says the Big AI Labs Don’t Get What People Want，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49300314",
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-14T15:43:10+00:00",
+      "published_dt": "2026-08-14T15:43:10+00:00",
+      "hn_score": 270,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google is making private AI practical with homomorphic encryption (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Google is making private AI practical with homomorphic encryption，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3152944",
+      "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
+      "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
+      "published": "2026-08-14T14:05:00+00:00",
+      "published_dt": "2026-08-14T14:05:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Hyperscalers might regret embracing natural gas if new forecast proves correct (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Hyperscalers might regret embracing natural gas if new forecast proves correct，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49294199",
+      "title": "US conducted mass spying campaign against leftwing and anti-ICE protesters",
+      "url": "https://www.theguardian.com/us-news/2026/aug/13/us-government-spied-anti-ice-protesters",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-14T02:39:10+00:00",
+      "published_dt": "2026-08-14T02:39:10+00:00",
+      "hn_score": 244,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "US conducted mass spying campaign against leftwing and anti-ICE protesters (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：US conducted mass spying campaign against leftwing and anti-ICE protesters，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
