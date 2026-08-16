@@ -1,0 +1,774 @@
+{
+  "date": "2026-08-16",
+  "generated_at": "2026-08-16T01:02:50",
+  "stats": {
+    "total_items": 12,
+    "high_importance": 0,
+    "medium_importance": 12,
+    "categories_covered": 5
+  },
+  "top_stories": [],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 0,
+      "items": []
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3153306",
+          "title": "SpaceX officially closes its Cursor acquisition",
+          "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "AI coding startup Cursor is now officially a part of SpaceX.",
+          "published": "2026-08-15T16:30:00+00:00",
+          "published_dt": "2026-08-15T16:30:00+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "SpaceX officially closes its Cursor acquisition (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：SpaceX officially closes its Cursor acquisition，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+          "title": "Building an AI Text Detector From Scratch",
+          "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+          "source": "Ahead of AI (Sebastian Raschka)",
+          "source_type": "rss",
+          "content": "Substack recently launched its AI detector feature in the UI, which is super interesting.Separately, lots of people asked me about interesting local do-it-yourself LLM projects as demos to show what small language models (SLMs) are capable of.Putting one and one together, I thought it would be interesting to show how an AI detector can be implemented. I will also use it as a verifier to train a small language model to produce text that avoids detection. This is a small educational project for studying the limitations of AI detectors and exploring a verifier-based LLM application beyond regular reasoning models trained on math and code.Figure 1: Substack now features a built-in AI detector.So, as mentioned above, the intended goal of this tutorial is to explain how AI detectors work by building (a simple) one.In practice, such a detector can be used to filter out spammy content, but also to potentially improve your personal writing without turning it into AI-generated text. For example, if you wrote a lengthy article and want to improve spelling and grammar, it is tempting (and actually useful) to use a grammar checker to polish it and improve readability. There are different services for that, including general-purpose LLMs like ChatGPT. However, this also runs the risk that these tools turn your writing, even though it’s still your own writing, into something that is then overpolished and now sounds like AI and gets flagged as spammy content.For example, with an AI checker, one could say, “Fix my grammar while ensuring that my text still scores 0% AI-generated.”Anyway, while we are building a fully functional checker here, the goal is to explain 1) how AI checkers (can) work and 2) use this as a case study for a more general topic on how to build a scorer or verifier that can be used with LLMs.Disclaimer: AI checkers are essentially a cat-and-mouse game. AI checkers may learn to detect a certain pattern that is indicative of AI-generated content. Then, the next LLM",
+          "published": "2026-08-15T11:54:24+00:00",
+          "published_dt": "2026-08-15T11:54:24+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "reasoning model"
+            ]
+          },
+          "summary_en": "Building an AI Text Detector From Scratch (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：Building an AI Text Detector From Scratch，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/flue-2",
+          "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+          "url": "https://www.latent.space/p/flue-2",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Agent frameworks for developers are still at an early stage, with the likes of Vercel’s eve and Fred Schott’s Flue — both launched this year — setting the early template.Schott is the creator of the web framework Astro, which led to his company being acquired by Cloudflare in January. He’s just released version 2 of Flue, its first stable release, which has as its foundation React-style “Agent Hooks.”In Flue, an agent is represented by a JavaScript function. This function “re-renders on every turn,” meaning before every model call.The addition of hooks came after Schott realized that React’s composability would be a great fit for agent development.“I originally tweeted that we were building the Astro for agents or the Next.js for agents,” he told us. “But then I realized: maybe no one has even built the React for agents.”Editor’s Note: we last talked about the React for Agents with Bret Taylor, CEO of Sierra and Chairman of OpenAI:“We’re still trying to figure out who the reactive agents are and the jury is still out… We’re sort of in the jQuery era of agents, not the react era.” Hooks are authored in TypeScript. According to the Flue 2 launch post, they “let you build dynamic agents that can manage their own state, listen to agent lifecycle events, and even attach different resources and capabilities dynamically to enhance themselves at runtime.”There are 16 built-in hooks in Flue 2, including useSkill(), useTool(), useSubagent(). You can also add custom hooks.How Flue evolved via React-style hooks; diagram by Richard MacManusWhat hooks open up for developers is that they make an agent much more dynamic, by allowing its configuration to change as a conversation or workflow progresses. Schott said this is needed to build “real support bots, real triage bots,” because they can’t be fully configured in advance. The agent can’t just be static — it has to adapt in real-time to what the user wants or the situation demands.Agent hooks bring those capabilities to Flue. For",
+          "published": "2026-08-15T15:46:22+00:00",
+          "published_dt": "2026-08-15T15:46:22+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Meta",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue (Latent Space) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Latent Space 报道：React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49309451",
+          "title": "Working with AI feels more like leadership than coding",
+          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-15T10:39:41+00:00",
+          "published_dt": "2026-08-15T10:39:41+00:00",
+          "hn_score": 263,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Working with AI feels more like leadership than coding (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：Working with AI feels more like leadership than coding，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6a7f35587f588ccda7affc4f",
+          "title": "Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out",
+          "url": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "When Twitch announced that streamers could opt out, thousands of users questioned why their content was being used to train AI models in the first place.",
+          "published": "2026-08-15T09:00:00+00:00",
+          "published_dt": "2026-08-15T09:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.qbitai.com/?p=473866",
+          "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
+          "url": "https://www.qbitai.com/2026/08/473866.html",
+          "source": "量子位",
+          "source_type": "rss",
+          "content": "音潮API限时免费开放",
+          "published": "2026-08-15T06:36:05+00:00",
+          "published_dt": "2026-08-15T06:36:05+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO (量子位) highlights a notable AI development with score 5.3.",
+          "summary_zh": "量子位 报道：根治AI音乐通病！这家国产音乐模型正面挑战SUNO，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3153313",
+          "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+          "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+          "published": "2026-08-15T21:29:19+00:00",
+          "published_dt": "2026-08-15T21:29:19+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Woman claims her stepfather used Grok to transform childhood photo into explicit imagery，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3153310",
+          "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+          "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+          "published": "2026-08-15T18:58:39+00:00",
+          "published_dt": "2026-08-15T18:58:39+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic shares more details about how Claude’s new watermarks will work (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic shares more details about how Claude’s new watermarks will work，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49312845",
+          "title": "AI has access to a vastly larger working memory than the human brain",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-15T18:13:02+00:00",
+          "published_dt": "2026-08-15T18:13:02+00:00",
+          "hn_score": 403,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI has access to a vastly larger working memory than the human brain (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：AI has access to a vastly larger working memory than the human brain，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-16T01:02:47.461214+00:00",
+          "published_dt": "2026-08-16T01:02:47.461214+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-16T01:02:47.461214+00:00",
+          "published_dt": "2026-08-16T01:02:47.461214+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.qbitai.com/?p=473597",
+          "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了",
+          "url": "https://www.qbitai.com/2026/08/473597.html",
+          "source": "量子位",
+          "source_type": "rss",
+          "content": "大家已经给DeepSeek装上了啥",
+          "published": "2026-08-15T05:53:01+00:00",
+          "published_dt": "2026-08-15T05:53:01+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了 (量子位) highlights a notable AI development with score 5.3.",
+          "summary_zh": "量子位 报道：DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-16T01:02:47.461214+00:00",
+      "published_dt": "2026-08-16T01:02:47.461214+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-16T01:02:47.461214+00:00",
+      "published_dt": "2026-08-16T01:02:47.461214+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/flue-2",
+      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "url": "https://www.latent.space/p/flue-2",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Agent frameworks for developers are still at an early stage, with the likes of Vercel’s eve and Fred Schott’s Flue — both launched this year — setting the early template.Schott is the creator of the web framework Astro, which led to his company being acquired by Cloudflare in January. He’s just released version 2 of Flue, its first stable release, which has as its foundation React-style “Agent Hooks.”In Flue, an agent is represented by a JavaScript function. This function “re-renders on every turn,” meaning before every model call.The addition of hooks came after Schott realized that React’s composability would be a great fit for agent development.“I originally tweeted that we were building the Astro for agents or the Next.js for agents,” he told us. “But then I realized: maybe no one has even built the React for agents.”Editor’s Note: we last talked about the React for Agents with Bret Taylor, CEO of Sierra and Chairman of OpenAI:“We’re still trying to figure out who the reactive agents are and the jury is still out… We’re sort of in the jQuery era of agents, not the react era.” Hooks are authored in TypeScript. According to the Flue 2 launch post, they “let you build dynamic agents that can manage their own state, listen to agent lifecycle events, and even attach different resources and capabilities dynamically to enhance themselves at runtime.”There are 16 built-in hooks in Flue 2, including useSkill(), useTool(), useSubagent(). You can also add custom hooks.How Flue evolved via React-style hooks; diagram by Richard MacManusWhat hooks open up for developers is that they make an agent much more dynamic, by allowing its configuration to change as a conversation or workflow progresses. Schott said this is needed to build “real support bots, real triage bots,” because they can’t be fully configured in advance. The agent can’t just be static — it has to adapt in real-time to what the user wants or the situation demands.Agent hooks bring those capabilities to Flue. For",
+      "published": "2026-08-15T15:46:22+00:00",
+      "published_dt": "2026-08-15T15:46:22+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Meta",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue (Latent Space) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Latent Space 报道：React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153306",
+      "title": "SpaceX officially closes its Cursor acquisition",
+      "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "AI coding startup Cursor is now officially a part of SpaceX.",
+      "published": "2026-08-15T16:30:00+00:00",
+      "published_dt": "2026-08-15T16:30:00+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "SpaceX officially closes its Cursor acquisition (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：SpaceX officially closes its Cursor acquisition，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49309451",
+      "title": "Working with AI feels more like leadership than coding",
+      "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-15T10:39:41+00:00",
+      "published_dt": "2026-08-15T10:39:41+00:00",
+      "hn_score": 263,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Working with AI feels more like leadership than coding (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：Working with AI feels more like leadership than coding，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+      "title": "Building an AI Text Detector From Scratch",
+      "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+      "source": "Ahead of AI (Sebastian Raschka)",
+      "source_type": "rss",
+      "content": "Substack recently launched its AI detector feature in the UI, which is super interesting.Separately, lots of people asked me about interesting local do-it-yourself LLM projects as demos to show what small language models (SLMs) are capable of.Putting one and one together, I thought it would be interesting to show how an AI detector can be implemented. I will also use it as a verifier to train a small language model to produce text that avoids detection. This is a small educational project for studying the limitations of AI detectors and exploring a verifier-based LLM application beyond regular reasoning models trained on math and code.Figure 1: Substack now features a built-in AI detector.So, as mentioned above, the intended goal of this tutorial is to explain how AI detectors work by building (a simple) one.In practice, such a detector can be used to filter out spammy content, but also to potentially improve your personal writing without turning it into AI-generated text. For example, if you wrote a lengthy article and want to improve spelling and grammar, it is tempting (and actually useful) to use a grammar checker to polish it and improve readability. There are different services for that, including general-purpose LLMs like ChatGPT. However, this also runs the risk that these tools turn your writing, even though it’s still your own writing, into something that is then overpolished and now sounds like AI and gets flagged as spammy content.For example, with an AI checker, one could say, “Fix my grammar while ensuring that my text still scores 0% AI-generated.”Anyway, while we are building a fully functional checker here, the goal is to explain 1) how AI checkers (can) work and 2) use this as a case study for a more general topic on how to build a scorer or verifier that can be used with LLMs.Disclaimer: AI checkers are essentially a cat-and-mouse game. AI checkers may learn to detect a certain pattern that is indicative of AI-generated content. Then, the next LLM",
+      "published": "2026-08-15T11:54:24+00:00",
+      "published_dt": "2026-08-15T11:54:24+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "reasoning model"
+        ]
+      },
+      "summary_en": "Building an AI Text Detector From Scratch (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：Building an AI Text Detector From Scratch，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6a7f35587f588ccda7affc4f",
+      "title": "Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out",
+      "url": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "When Twitch announced that streamers could opt out, thousands of users questioned why their content was being used to train AI models in the first place.",
+      "published": "2026-08-15T09:00:00+00:00",
+      "published_dt": "2026-08-15T09:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.qbitai.com/?p=473866",
+      "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
+      "url": "https://www.qbitai.com/2026/08/473866.html",
+      "source": "量子位",
+      "source_type": "rss",
+      "content": "音潮API限时免费开放",
+      "published": "2026-08-15T06:36:05+00:00",
+      "published_dt": "2026-08-15T06:36:05+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO (量子位) highlights a notable AI development with score 5.3.",
+      "summary_zh": "量子位 报道：根治AI音乐通病！这家国产音乐模型正面挑战SUNO，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.qbitai.com/?p=473597",
+      "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了",
+      "url": "https://www.qbitai.com/2026/08/473597.html",
+      "source": "量子位",
+      "source_type": "rss",
+      "content": "大家已经给DeepSeek装上了啥",
+      "published": "2026-08-15T05:53:01+00:00",
+      "published_dt": "2026-08-15T05:53:01+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了 (量子位) highlights a notable AI development with score 5.3.",
+      "summary_zh": "量子位 报道：DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153313",
+      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+      "published": "2026-08-15T21:29:19+00:00",
+      "published_dt": "2026-08-15T21:29:19+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Woman claims her stepfather used Grok to transform childhood photo into explicit imagery，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153310",
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+      "published": "2026-08-15T18:58:39+00:00",
+      "published_dt": "2026-08-15T18:58:39+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic shares more details about how Claude’s new watermarks will work (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic shares more details about how Claude’s new watermarks will work，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49312845",
+      "title": "AI has access to a vastly larger working memory than the human brain",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-15T18:13:02+00:00",
+      "published_dt": "2026-08-15T18:13:02+00:00",
+      "hn_score": 403,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI has access to a vastly larger working memory than the human brain (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：AI has access to a vastly larger working memory than the human brain，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
