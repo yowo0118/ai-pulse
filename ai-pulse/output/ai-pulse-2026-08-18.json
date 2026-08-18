@@ -1,0 +1,1954 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T00:58:40",
+  "stats": {
+    "total_items": 27,
+    "high_importance": 8,
+    "medium_importance": 19,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "hn-49332751",
+      "title": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
+      "url": "https://speko.ai/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hi HN! I'm Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why.Demo: https://www.youtube.com/watch?v=no2LY2gRh-cTypical production voice agent is an ensemble of three models: STT, an LLM, and TTS.Each of those layers offers a dozen credible vendors, and each month there are new models on the market. Almost everyone evaluates once, picks a stack of their choice, and never rechecks because switching from a vendor to another involves yet another integration and arguments about the numbers.The result is that you use voice agents running last quarter's models while better and cheaper options are available.Before founding Speko, I spent four years as cofounder and CTO building voice agents for enterprises across Asia in 10+ languages. Each time a new speech model would arrive, we repeated the same ritual: hire native-speaking raters, benchmark it against our existing stack, and update production if it improved. Speko turns this process into an API. A team running thousands of calls a day told us: \"we can literally go to this dashboard, switch the model, and it will do it for us.\"How it works: you send a request with your optimization criteria (accuracy, latency, cost or balanced), language and region. The router filters to models which we measured for the given combination of constraints, benchmarks them, selects the winner, and returns a response with headers containing provider, model names, and the scores. The gateway prefetches signed session plans, so a new session dials the provider straight from memory; no control-plane round trip while a caller waits.Failover happens only during connection setup stage: if the provider refuses the connection attempt, we start connecting to the runners-up.Some of the customer stories: one founder came to us not knowing what to pick at all: he gave us his use case and now routes everyt",
+      "published": "2026-08-17T15:36:18+00:00",
+      "published_dt": "2026-08-17T15:36:18+00:00",
+      "hn_score": 89,
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI (Hacker News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Hacker News 报道：Launch HN: Speko (YC S26) – OpenRouter for Voice AI，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+      "title": "Teaching Everyone to Fish for Tokens",
+      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "Housekeeping: No voiceover for this post as I’m traveling.The oldest comparison people try to make is how what’s happening with open models compares to foundational open-source software projects like the Linux operating system. There are fairly clean analogies, but they paint a narrow path forwards for the self-sustaining nature of the open-source model ecosystem, where once Linux got big enough it was going to be self-fulfilling as the best possible tool for many jobs. The open-source language model – i.e. only models that come with a full training recipe, data, code, etc. – is a closer analogue to the open-source operating system. The open weight models you use – those with just model weights and inference code to run them – are closer to specific versions of software that you install in a project built upon them.ShareModel weights are very transient on average, but they still have a long shelf life, as with a lot of heavily used software. It’s why many companies are still using workflows built on Llama 3, despite agentic behaviors taking off years later. The open-source recipe, typified in modern times by the Olmo models I helped build at Ai2, with its predecessors like Pythia from EleutherAI, is a resource intensive process that any company can pick up, modify, and press “run” on to produce a new set of model weights. In the best cases, the community can contribute improvements in data or training code back into the next model too! This is why Nvidia is investing so much in nearly open-source models – for their Nemotron models they release all the data they legally can and the training code, etc. Nvidia wants a world where countless people can build token machines, so intelligence is not monopolized. This is a world with massive demand for inference across many companies, all of which want to buy Nvidia’s offerings.Open-source AI has a tricky future, as building the best models is extremely capital intensive. The ability to build competitive models has stayed mo",
+      "published": "2026-08-17T15:07:49+00:00",
+      "published_dt": "2026-08-17T15:07:49+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "Teaching Everyone to Fish for Tokens (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Teaching Everyone to Fish for Tokens，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93977",
+      "title": "Semiconductor Giants Are Busy Backing Startups This Year",
+      "url": "https://news.crunchbase.com/venture/semiconductor-giants-nvda-intc-backing-ai-robotics-starups-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Anyone with a stock portfolio has invariably noticed that semiconductor companies are on a tear this year. Massive AI spending has helped push earnings and valuations for industry leaders to record levels. In turn, semiconductor giants are investing record sums in startups. So far this year, the sector’s most valuable companies have participated in rounds collectively valued at over $250 billion, per Crunchbase data. That’s multiples above prior high marks. Large cap chip companies are also leading and co-leading some of the biggest financings. This includes OpenAI’s record-breaking $122 billion March funding round, in which Nvidia was one of eight lead investors. The other big deals There’s no getting around that the OpenAI megaround really skewed the 2026 totals. That one deal accounts for over 95% of the value of all semiconductor company-led financings. Still, there are plenty of other big rounds with semiconductor backing this year that, by any other comparative benchmark, would also be considered enormous. Take July’s $5 billion corporate financing from Nvidia for foundational AI startup Safe Superintelligence. So far this year, corporate semiconductor giants have invested in more than 60 startup financings of $100 million or more. Of those, 16 rounds were valued at $1 billion or more, which we list below. Most active and highest spending semiconductor investors It should surprise no one that Nvidia is the most active and highest spending corporate investor in the semiconductor space. The AI chip architect has participated in a record 59 known funding rounds so far this year, per Crunchbase data, up from 53 in all of 2025. With a market cap around $5.4 trillion and a continued reign as the world’s most valuable public company, Nvidia certainly has the financial resources to invest heavily in startups. The company is also active as a lead investor, having led or co-led at least 11 private company financings this year, per Crunchbase data. AMD, with 19 private c",
+      "published": "2026-08-17T11:00:24+00:00",
+      "published_dt": "2026-08-17T11:00:24+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "NVIDIA",
+          "Safe Superintelligence"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$250 billion",
+          "$122 billion",
+          "$5 billion",
+          "$100 million",
+          "$1 billion"
+        ],
+        "technologies": [
+          "benchmark"
+        ]
+      },
+      "summary_en": "Semiconductor Giants Are Busy Backing Startups This Year (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Semiconductor Giants Are Busy Backing Startups This Year，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153443",
+      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+      "published": "2026-08-17T16:15:12+00:00",
+      "published_dt": "2026-08-17T16:15:12+00:00",
+      "score": 9.7,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$350M",
+          "$350 million",
+          "$3.5 billion",
+          "raised $350 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Groq raises $350M to fuel its pivot from AI chips to neocloud (TechCrunch AI) highlights a notable AI development with score 9.7.",
+      "summary_zh": "TechCrunch AI 报道：Groq raises $350M to fuel its pivot from AI chips to neocloud，综合评分 9.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+      "title": "[AINews] Stripe buys OpenRouter for $7B",
+      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "TheInformation had the scoop last month, but OpenRouter’s acquisition by Stripe for $7B was seems all but closed this weekend, 90 days after their $1.3B Series B. Their last revenue number out there was $140m annualized, so this represents a “standard” 50x multiple for a top tier AI company. What’s incredible is the profitability: Although much smaller than Cursor, OpenRouter likely has better economics. Its costs to serve its model-routing product were recently about $40 million on an annualized basis, or 28.5% of its revenue, meaning it was generating $100 million in annualized gross profit. With a roughly 70% gross profit margin, OpenRouter was near the level of high-performing, publicly traded software firms in that regard…. … Overall, OpenRouter is facilitating AI model usage at a rate of 250 trillion tokens per month, up from 50 trillion tokens per month in February.A 70x P/E ratio is possibly cheap for a high growth (5x in 6 months) startup with a broad (8 million developers) base. Certainly a good outcome for new billionaire Alex Atallah, and good for fellow router startups, but certainly there are a lot of implications on Stripe’s AI strategy and where value accrues in AI infra (much less GPU infra, much less Agent Labs, much less Frontier Model Labs).You can catch Alex’s last public appearance on the AIE State of Model Routing panel.AI News for 8/15/2026-8/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapAI Infrastructure, Compute, and the Platform StackOpenAI’s power-and-compute strategy is getting very literal: Two related posts suggest OpenAI is moving beyond “GPU supply” narratives into long-horizon control of the full infrastructure stack. @markchen90 described a 4+ GW NVIDIA capacity commitment; @kimmonismus added detail on an 8 GW Ohio campus, with SB Energy building ",
+      "published": "2026-08-17T23:13:41+00:00",
+      "published_dt": "2026-08-17T23:13:41+00:00",
+      "score": 9.5,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$7B",
+          "$1.3B",
+          "$140m",
+          "$40 million",
+          "$100 million",
+          "Series B"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "[AINews] Stripe buys OpenRouter for $7B (Latent Space) highlights a notable AI development with score 9.5.",
+      "summary_zh": "Latent Space 报道：[AINews] Stripe buys OpenRouter for $7B，综合评分 9.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+          "title": "Teaching Everyone to Fish for Tokens",
+          "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "Housekeeping: No voiceover for this post as I’m traveling.The oldest comparison people try to make is how what’s happening with open models compares to foundational open-source software projects like the Linux operating system. There are fairly clean analogies, but they paint a narrow path forwards for the self-sustaining nature of the open-source model ecosystem, where once Linux got big enough it was going to be self-fulfilling as the best possible tool for many jobs. The open-source language model – i.e. only models that come with a full training recipe, data, code, etc. – is a closer analogue to the open-source operating system. The open weight models you use – those with just model weights and inference code to run them – are closer to specific versions of software that you install in a project built upon them.ShareModel weights are very transient on average, but they still have a long shelf life, as with a lot of heavily used software. It’s why many companies are still using workflows built on Llama 3, despite agentic behaviors taking off years later. The open-source recipe, typified in modern times by the Olmo models I helped build at Ai2, with its predecessors like Pythia from EleutherAI, is a resource intensive process that any company can pick up, modify, and press “run” on to produce a new set of model weights. In the best cases, the community can contribute improvements in data or training code back into the next model too! This is why Nvidia is investing so much in nearly open-source models – for their Nemotron models they release all the data they legally can and the training code, etc. Nvidia wants a world where countless people can build token machines, so intelligence is not monopolized. This is a world with massive demand for inference across many companies, all of which want to buy Nvidia’s offerings.Open-source AI has a tricky future, as building the best models is extremely capital intensive. The ability to build competitive models has stayed mo",
+          "published": "2026-08-17T15:07:49+00:00",
+          "published_dt": "2026-08-17T15:07:49+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "inference",
+              "agent"
+            ]
+          },
+          "summary_en": "Teaching Everyone to Fish for Tokens (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：Teaching Everyone to Fish for Tokens，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3153430",
+          "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+          "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
+          "published": "2026-08-17T16:38:44+00:00",
+          "published_dt": "2026-08-17T16:38:44+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Amazon, which started off selling books, is destroying rare texts to train AI (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Amazon, which started off selling books, is destroying rare texts to train AI，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 9,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93977",
+          "title": "Semiconductor Giants Are Busy Backing Startups This Year",
+          "url": "https://news.crunchbase.com/venture/semiconductor-giants-nvda-intc-backing-ai-robotics-starups-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Anyone with a stock portfolio has invariably noticed that semiconductor companies are on a tear this year. Massive AI spending has helped push earnings and valuations for industry leaders to record levels. In turn, semiconductor giants are investing record sums in startups. So far this year, the sector’s most valuable companies have participated in rounds collectively valued at over $250 billion, per Crunchbase data. That’s multiples above prior high marks. Large cap chip companies are also leading and co-leading some of the biggest financings. This includes OpenAI’s record-breaking $122 billion March funding round, in which Nvidia was one of eight lead investors. The other big deals There’s no getting around that the OpenAI megaround really skewed the 2026 totals. That one deal accounts for over 95% of the value of all semiconductor company-led financings. Still, there are plenty of other big rounds with semiconductor backing this year that, by any other comparative benchmark, would also be considered enormous. Take July’s $5 billion corporate financing from Nvidia for foundational AI startup Safe Superintelligence. So far this year, corporate semiconductor giants have invested in more than 60 startup financings of $100 million or more. Of those, 16 rounds were valued at $1 billion or more, which we list below. Most active and highest spending semiconductor investors It should surprise no one that Nvidia is the most active and highest spending corporate investor in the semiconductor space. The AI chip architect has participated in a record 59 known funding rounds so far this year, per Crunchbase data, up from 53 in all of 2025. With a market cap around $5.4 trillion and a continued reign as the world’s most valuable public company, Nvidia certainly has the financial resources to invest heavily in startups. The company is also active as a lead investor, having led or co-led at least 11 private company financings this year, per Crunchbase data. AMD, with 19 private c",
+          "published": "2026-08-17T11:00:24+00:00",
+          "published_dt": "2026-08-17T11:00:24+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "NVIDIA",
+              "Safe Superintelligence"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$250 billion",
+              "$122 billion",
+              "$5 billion",
+              "$100 million",
+              "$1 billion"
+            ],
+            "technologies": [
+              "benchmark"
+            ]
+          },
+          "summary_en": "Semiconductor Giants Are Busy Backing Startups This Year (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Semiconductor Giants Are Busy Backing Startups This Year，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3153443",
+          "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+          "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+          "published": "2026-08-17T16:15:12+00:00",
+          "published_dt": "2026-08-17T16:15:12+00:00",
+          "score": 9.7,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$350M",
+              "$350 million",
+              "$3.5 billion",
+              "raised $350 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Groq raises $350M to fuel its pivot from AI chips to neocloud (TechCrunch AI) highlights a notable AI development with score 9.7.",
+          "summary_zh": "TechCrunch AI 报道：Groq raises $350M to fuel its pivot from AI chips to neocloud，综合评分 9.7，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+          "title": "[AINews] Stripe buys OpenRouter for $7B",
+          "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "TheInformation had the scoop last month, but OpenRouter’s acquisition by Stripe for $7B was seems all but closed this weekend, 90 days after their $1.3B Series B. Their last revenue number out there was $140m annualized, so this represents a “standard” 50x multiple for a top tier AI company. What’s incredible is the profitability: Although much smaller than Cursor, OpenRouter likely has better economics. Its costs to serve its model-routing product were recently about $40 million on an annualized basis, or 28.5% of its revenue, meaning it was generating $100 million in annualized gross profit. With a roughly 70% gross profit margin, OpenRouter was near the level of high-performing, publicly traded software firms in that regard…. … Overall, OpenRouter is facilitating AI model usage at a rate of 250 trillion tokens per month, up from 50 trillion tokens per month in February.A 70x P/E ratio is possibly cheap for a high growth (5x in 6 months) startup with a broad (8 million developers) base. Certainly a good outcome for new billionaire Alex Atallah, and good for fellow router startups, but certainly there are a lot of implications on Stripe’s AI strategy and where value accrues in AI infra (much less GPU infra, much less Agent Labs, much less Frontier Model Labs).You can catch Alex’s last public appearance on the AIE State of Model Routing panel.AI News for 8/15/2026-8/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapAI Infrastructure, Compute, and the Platform StackOpenAI’s power-and-compute strategy is getting very literal: Two related posts suggest OpenAI is moving beyond “GPU supply” narratives into long-horizon control of the full infrastructure stack. @markchen90 described a 4+ GW NVIDIA capacity commitment; @kimmonismus added detail on an 8 GW Ohio campus, with SB Energy building ",
+          "published": "2026-08-17T23:13:41+00:00",
+          "published_dt": "2026-08-17T23:13:41+00:00",
+          "score": 9.5,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$7B",
+              "$1.3B",
+              "$140m",
+              "$40 million",
+              "$100 million",
+              "Series B"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "[AINews] Stripe buys OpenRouter for $7B (Latent Space) highlights a notable AI development with score 9.5.",
+          "summary_zh": "Latent Space 报道：[AINews] Stripe buys OpenRouter for $7B，综合评分 9.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3153341",
+          "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+          "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
+          "published": "2026-08-17T13:10:05+00:00",
+          "published_dt": "2026-08-17T13:10:05+00:00",
+          "score": 9.4,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$280M",
+              "$2B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Wispr raises $280M at $2B valuation as it looks beyond dictation (TechCrunch AI) highlights a notable AI development with score 9.4.",
+          "summary_zh": "TechCrunch AI 报道：Wispr raises $280M at $2B valuation as it looks beyond dictation，综合评分 9.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+          "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+          "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scanning from June 2025.) 404 Media investigated with an AirTag! In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order. The book ended up delivered to the VGT3 corner of the LAS8 Amazon facility in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book! Photo credit: 404 Media Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books. Tags: amazon, journalism, ai, training-data, ai-ethics, 404-media",
+          "published": "2026-08-17T15:21:29+00:00",
+          "published_dt": "2026-08-17T15:21:29+00:00",
+          "score": 9.3,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility (Simon Willison) highlights a notable AI development with score 9.3.",
+          "summary_zh": "Simon Willison 报道：We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility，综合评分 9.3，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+          "title": "Nvidia discloses $21B stake in SpaceX",
+          "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Nvidia has disclosed that it owns nearly 123 million shares in SpaceX, further highlighting the chipmaker’s entangled financial relationships with some of its biggest customers. The $5.5 trillion company owned SpaceX stock worth nearly $21 billion at the end of June, according to an SEC filing on Friday. Elon Musk’s rocket conglomerate’s shares have fallen sharply since its June initial public offering, meaning Nvidia’s stake would now be worth $17 billion. The disclosure marks a huge pay-off on Nvidia’s investment in xAI, completed in January, shortly before Musk combined the AI lab with SpaceX.Read full article Comments",
+          "published": "2026-08-17T14:22:54+00:00",
+          "published_dt": "2026-08-17T14:22:54+00:00",
+          "score": 9.2,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA",
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$21B",
+              "$21 billion",
+              "$17 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Nvidia discloses $21B stake in SpaceX (Ars Technica) highlights a notable AI development with score 9.2.",
+          "summary_zh": "Ars Technica 报道：Nvidia discloses $21B stake in SpaceX，综合评分 9.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/openai-joins-ports-pike-project",
+          "title": "OpenAI joins PORTS-Pike project",
+          "url": "https://openai.com/index/openai-joins-ports-pike-project",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+          "published": "2026-08-17T05:00:00+00:00",
+          "published_dt": "2026-08-17T05:00:00+00:00",
+          "score": 7.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI joins PORTS-Pike project (OpenAI Blog) highlights a notable AI development with score 7.6.",
+          "summary_zh": "OpenAI Blog 报道：OpenAI joins PORTS-Pike project，综合评分 7.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3153733",
+          "title": "Anthropic’s annualized revenue surges to $65B",
+          "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The model maker added $18 billion in annualized revenue in two months.",
+          "published": "2026-08-17T23:56:26+00:00",
+          "published_dt": "2026-08-17T23:56:26+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$65B",
+              "$18 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Anthropic’s annualized revenue surges to $65B (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic’s annualized revenue surges to $65B，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3153419",
+          "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+          "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
+          "published": "2026-08-17T15:16:24+00:00",
+          "published_dt": "2026-08-17T15:16:24+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$1.5B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3153653",
+          "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+          "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
+          "published": "2026-08-17T21:27:05+00:00",
+          "published_dt": "2026-08-17T21:27:05+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI automation startup Relay shuts down, staff joins Google’s Chrome team (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：AI automation startup Relay shuts down, staff joins Google’s Chrome team，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 4,
+      "items": [
+        {
+          "id": "hn-49332751",
+          "title": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
+          "url": "https://speko.ai/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hi HN! I'm Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why.Demo: https://www.youtube.com/watch?v=no2LY2gRh-cTypical production voice agent is an ensemble of three models: STT, an LLM, and TTS.Each of those layers offers a dozen credible vendors, and each month there are new models on the market. Almost everyone evaluates once, picks a stack of their choice, and never rechecks because switching from a vendor to another involves yet another integration and arguments about the numbers.The result is that you use voice agents running last quarter's models while better and cheaper options are available.Before founding Speko, I spent four years as cofounder and CTO building voice agents for enterprises across Asia in 10+ languages. Each time a new speech model would arrive, we repeated the same ritual: hire native-speaking raters, benchmark it against our existing stack, and update production if it improved. Speko turns this process into an API. A team running thousands of calls a day told us: \"we can literally go to this dashboard, switch the model, and it will do it for us.\"How it works: you send a request with your optimization criteria (accuracy, latency, cost or balanced), language and region. The router filters to models which we measured for the given combination of constraints, benchmarks them, selects the winner, and returns a response with headers containing provider, model names, and the scores. The gateway prefetches signed session plans, so a new session dials the provider straight from memory; no control-plane round trip while a caller waits.Failover happens only during connection setup stage: if the provider refuses the connection attempt, we start connecting to the runners-up.Some of the customer stories: one founder came to us not knowing what to pick at all: he gave us his use case and now routes everyt",
+          "published": "2026-08-17T15:36:18+00:00",
+          "published_dt": "2026-08-17T15:36:18+00:00",
+          "hn_score": 89,
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI (Hacker News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Hacker News 报道：Launch HN: Speko (YC S26) – OpenRouter for Voice AI，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/the-defenders-window",
+          "title": "The Defender’s Window",
+          "url": "https://openai.com/index/the-defenders-window",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+          "published": "2026-08-17T05:30:00+00:00",
+          "published_dt": "2026-08-17T05:30:00+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Defender’s Window (OpenAI Blog) highlights a notable AI development with score 7.3.",
+          "summary_zh": "OpenAI Blog 报道：The Defender’s Window，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49329575",
+          "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+          "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-17T12:09:42+00:00",
+          "published_dt": "2026-08-17T12:09:42+00:00",
+          "hn_score": 297,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：GPT 5.6 Sol is the best \"vision\" model OpenAI ever released，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=980869",
+          "title": "Anthropic explains how Claude&#8217;s invisible text watermarks will work",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text approach\" - an open-source watermarking technology developed by Google DeepMind that creates detectable patterns using wording probabilities. This watermarking feature, alongside C2PA support for Claude-processed images, is being introduced to meet Anthropic's obligations under the European Union's AI Act, which requires synthetic audio, image, video, and text to include machine-readable marks … Read the full story at The Verge.",
+          "published": "2026-08-17T10:57:13+00:00",
+          "published_dt": "2026-08-17T10:57:13+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google",
+              "DeepMind"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic explains how Claude&#8217;s invisible text watermarks will work (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Anthropic explains how Claude&#8217;s invisible text watermarks will work，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+          "title": "New policy ideas for the Intelligence Age",
+          "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+          "published": "2026-08-17T03:15:00+00:00",
+          "published_dt": "2026-08-17T03:15:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "New policy ideas for the Intelligence Age (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：New policy ideas for the Intelligence Age，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49336573",
+          "title": "AI;DR (AI; Didn't Read)",
+          "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-17T19:47:15+00:00",
+          "published_dt": "2026-08-17T19:47:15+00:00",
+          "hn_score": 562,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI;DR (AI; Didn't Read) (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：AI;DR (AI; Didn't Read)，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49325789",
+          "title": "On AI regulation and messaging",
+          "url": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://xcancel.com/DarioAmodei/status/2088758816376807762",
+          "published": "2026-08-17T01:59:56+00:00",
+          "published_dt": "2026-08-17T01:59:56+00:00",
+          "hn_score": 234,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "On AI regulation and messaging (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：On AI regulation and messaging，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+          "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+          "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-08-17T19:46:21+00:00",
+          "published_dt": "2026-08-17T19:46:21+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Same Cluster, 33 Points More Utilization: What Changed Was the Order (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Same Cluster, 33 Points More Utilization: What Changed Was the Order，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49332981",
+          "title": "Universal Health Coverage Could Save $1T and 114k Lives a Year, Yale Study",
+          "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-17T15:49:57+00:00",
+          "published_dt": "2026-08-17T15:49:57+00:00",
+          "hn_score": 381,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Universal Health Coverage Could Save $1T and 114k Lives a Year, Yale Study (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Universal Health Coverage Could Save $1T and 114k Lives a Year, Yale Study，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49331220",
+          "title": "How to disable or avoid intrusive AI",
+          "url": "https://www.librarian.net/notoai/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-17T14:07:56+00:00",
+          "published_dt": "2026-08-17T14:07:56+00:00",
+          "hn_score": 248,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How to disable or avoid intrusive AI (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：How to disable or avoid intrusive AI，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 5,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-18T00:58:37.401404+00:00",
+          "published_dt": "2026-08-18T00:58:37.401404+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-18T00:58:37.401404+00:00",
+          "published_dt": "2026-08-18T00:58:37.401404+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49331423",
+          "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+          "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-17T14:18:38+00:00",
+          "published_dt": "2026-08-17T14:18:38+00:00",
+          "hn_score": 310,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49333728",
+          "title": "GitHub Has an Availability Problem. Is It Time to Look Elsewhere?",
+          "url": "https://dhruv2038.bearblog.dev/github-has-an-availability-problem-is-it-time-to-look-elsewhere/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-17T16:31:17+00:00",
+          "published_dt": "2026-08-17T16:31:17+00:00",
+          "hn_score": 62,
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "GitHub Has an Availability Problem. Is It Time to Look Elsewhere? (Hacker News) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Hacker News 报道：GitHub Has an Availability Problem. Is It Time to Look Elsewhere?，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49332564",
+          "title": "Anthropic's War on open source AI",
+          "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-17T15:24:34+00:00",
+          "published_dt": "2026-08-17T15:24:34+00:00",
+          "hn_score": 133,
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic's War on open source AI (Hacker News) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Hacker News 报道：Anthropic's War on open source AI，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "hn-49332751",
+      "title": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
+      "url": "https://speko.ai/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hi HN! I'm Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why.Demo: https://www.youtube.com/watch?v=no2LY2gRh-cTypical production voice agent is an ensemble of three models: STT, an LLM, and TTS.Each of those layers offers a dozen credible vendors, and each month there are new models on the market. Almost everyone evaluates once, picks a stack of their choice, and never rechecks because switching from a vendor to another involves yet another integration and arguments about the numbers.The result is that you use voice agents running last quarter's models while better and cheaper options are available.Before founding Speko, I spent four years as cofounder and CTO building voice agents for enterprises across Asia in 10+ languages. Each time a new speech model would arrive, we repeated the same ritual: hire native-speaking raters, benchmark it against our existing stack, and update production if it improved. Speko turns this process into an API. A team running thousands of calls a day told us: \"we can literally go to this dashboard, switch the model, and it will do it for us.\"How it works: you send a request with your optimization criteria (accuracy, latency, cost or balanced), language and region. The router filters to models which we measured for the given combination of constraints, benchmarks them, selects the winner, and returns a response with headers containing provider, model names, and the scores. The gateway prefetches signed session plans, so a new session dials the provider straight from memory; no control-plane round trip while a caller waits.Failover happens only during connection setup stage: if the provider refuses the connection attempt, we start connecting to the runners-up.Some of the customer stories: one founder came to us not knowing what to pick at all: he gave us his use case and now routes everyt",
+      "published": "2026-08-17T15:36:18+00:00",
+      "published_dt": "2026-08-17T15:36:18+00:00",
+      "hn_score": 89,
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI (Hacker News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Hacker News 报道：Launch HN: Speko (YC S26) – OpenRouter for Voice AI，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+      "title": "Teaching Everyone to Fish for Tokens",
+      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "Housekeeping: No voiceover for this post as I’m traveling.The oldest comparison people try to make is how what’s happening with open models compares to foundational open-source software projects like the Linux operating system. There are fairly clean analogies, but they paint a narrow path forwards for the self-sustaining nature of the open-source model ecosystem, where once Linux got big enough it was going to be self-fulfilling as the best possible tool for many jobs. The open-source language model – i.e. only models that come with a full training recipe, data, code, etc. – is a closer analogue to the open-source operating system. The open weight models you use – those with just model weights and inference code to run them – are closer to specific versions of software that you install in a project built upon them.ShareModel weights are very transient on average, but they still have a long shelf life, as with a lot of heavily used software. It’s why many companies are still using workflows built on Llama 3, despite agentic behaviors taking off years later. The open-source recipe, typified in modern times by the Olmo models I helped build at Ai2, with its predecessors like Pythia from EleutherAI, is a resource intensive process that any company can pick up, modify, and press “run” on to produce a new set of model weights. In the best cases, the community can contribute improvements in data or training code back into the next model too! This is why Nvidia is investing so much in nearly open-source models – for their Nemotron models they release all the data they legally can and the training code, etc. Nvidia wants a world where countless people can build token machines, so intelligence is not monopolized. This is a world with massive demand for inference across many companies, all of which want to buy Nvidia’s offerings.Open-source AI has a tricky future, as building the best models is extremely capital intensive. The ability to build competitive models has stayed mo",
+      "published": "2026-08-17T15:07:49+00:00",
+      "published_dt": "2026-08-17T15:07:49+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "Teaching Everyone to Fish for Tokens (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Teaching Everyone to Fish for Tokens，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=93977",
+      "title": "Semiconductor Giants Are Busy Backing Startups This Year",
+      "url": "https://news.crunchbase.com/venture/semiconductor-giants-nvda-intc-backing-ai-robotics-starups-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Anyone with a stock portfolio has invariably noticed that semiconductor companies are on a tear this year. Massive AI spending has helped push earnings and valuations for industry leaders to record levels. In turn, semiconductor giants are investing record sums in startups. So far this year, the sector’s most valuable companies have participated in rounds collectively valued at over $250 billion, per Crunchbase data. That’s multiples above prior high marks. Large cap chip companies are also leading and co-leading some of the biggest financings. This includes OpenAI’s record-breaking $122 billion March funding round, in which Nvidia was one of eight lead investors. The other big deals There’s no getting around that the OpenAI megaround really skewed the 2026 totals. That one deal accounts for over 95% of the value of all semiconductor company-led financings. Still, there are plenty of other big rounds with semiconductor backing this year that, by any other comparative benchmark, would also be considered enormous. Take July’s $5 billion corporate financing from Nvidia for foundational AI startup Safe Superintelligence. So far this year, corporate semiconductor giants have invested in more than 60 startup financings of $100 million or more. Of those, 16 rounds were valued at $1 billion or more, which we list below. Most active and highest spending semiconductor investors It should surprise no one that Nvidia is the most active and highest spending corporate investor in the semiconductor space. The AI chip architect has participated in a record 59 known funding rounds so far this year, per Crunchbase data, up from 53 in all of 2025. With a market cap around $5.4 trillion and a continued reign as the world’s most valuable public company, Nvidia certainly has the financial resources to invest heavily in startups. The company is also active as a lead investor, having led or co-led at least 11 private company financings this year, per Crunchbase data. AMD, with 19 private c",
+      "published": "2026-08-17T11:00:24+00:00",
+      "published_dt": "2026-08-17T11:00:24+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "NVIDIA",
+          "Safe Superintelligence"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$250 billion",
+          "$122 billion",
+          "$5 billion",
+          "$100 million",
+          "$1 billion"
+        ],
+        "technologies": [
+          "benchmark"
+        ]
+      },
+      "summary_en": "Semiconductor Giants Are Busy Backing Startups This Year (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Semiconductor Giants Are Busy Backing Startups This Year，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153443",
+      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+      "published": "2026-08-17T16:15:12+00:00",
+      "published_dt": "2026-08-17T16:15:12+00:00",
+      "score": 9.7,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$350M",
+          "$350 million",
+          "$3.5 billion",
+          "raised $350 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Groq raises $350M to fuel its pivot from AI chips to neocloud (TechCrunch AI) highlights a notable AI development with score 9.7.",
+      "summary_zh": "TechCrunch AI 报道：Groq raises $350M to fuel its pivot from AI chips to neocloud，综合评分 9.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+      "title": "[AINews] Stripe buys OpenRouter for $7B",
+      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "TheInformation had the scoop last month, but OpenRouter’s acquisition by Stripe for $7B was seems all but closed this weekend, 90 days after their $1.3B Series B. Their last revenue number out there was $140m annualized, so this represents a “standard” 50x multiple for a top tier AI company. What’s incredible is the profitability: Although much smaller than Cursor, OpenRouter likely has better economics. Its costs to serve its model-routing product were recently about $40 million on an annualized basis, or 28.5% of its revenue, meaning it was generating $100 million in annualized gross profit. With a roughly 70% gross profit margin, OpenRouter was near the level of high-performing, publicly traded software firms in that regard…. … Overall, OpenRouter is facilitating AI model usage at a rate of 250 trillion tokens per month, up from 50 trillion tokens per month in February.A 70x P/E ratio is possibly cheap for a high growth (5x in 6 months) startup with a broad (8 million developers) base. Certainly a good outcome for new billionaire Alex Atallah, and good for fellow router startups, but certainly there are a lot of implications on Stripe’s AI strategy and where value accrues in AI infra (much less GPU infra, much less Agent Labs, much less Frontier Model Labs).You can catch Alex’s last public appearance on the AIE State of Model Routing panel.AI News for 8/15/2026-8/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapAI Infrastructure, Compute, and the Platform StackOpenAI’s power-and-compute strategy is getting very literal: Two related posts suggest OpenAI is moving beyond “GPU supply” narratives into long-horizon control of the full infrastructure stack. @markchen90 described a 4+ GW NVIDIA capacity commitment; @kimmonismus added detail on an 8 GW Ohio campus, with SB Energy building ",
+      "published": "2026-08-17T23:13:41+00:00",
+      "published_dt": "2026-08-17T23:13:41+00:00",
+      "score": 9.5,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$7B",
+          "$1.3B",
+          "$140m",
+          "$40 million",
+          "$100 million",
+          "Series B"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "[AINews] Stripe buys OpenRouter for $7B (Latent Space) highlights a notable AI development with score 9.5.",
+      "summary_zh": "Latent Space 报道：[AINews] Stripe buys OpenRouter for $7B，综合评分 9.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153341",
+      "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+      "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
+      "published": "2026-08-17T13:10:05+00:00",
+      "published_dt": "2026-08-17T13:10:05+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$280M",
+          "$2B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Wispr raises $280M at $2B valuation as it looks beyond dictation (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：Wispr raises $280M at $2B valuation as it looks beyond dictation，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scanning from June 2025.) 404 Media investigated with an AirTag! In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order. The book ended up delivered to the VGT3 corner of the LAS8 Amazon facility in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book! Photo credit: 404 Media Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books. Tags: amazon, journalism, ai, training-data, ai-ethics, 404-media",
+      "published": "2026-08-17T15:21:29+00:00",
+      "published_dt": "2026-08-17T15:21:29+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility (Simon Willison) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Simon Willison 报道：We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Nvidia has disclosed that it owns nearly 123 million shares in SpaceX, further highlighting the chipmaker’s entangled financial relationships with some of its biggest customers. The $5.5 trillion company owned SpaceX stock worth nearly $21 billion at the end of June, according to an SEC filing on Friday. Elon Musk’s rocket conglomerate’s shares have fallen sharply since its June initial public offering, meaning Nvidia’s stake would now be worth $17 billion. The disclosure marks a huge pay-off on Nvidia’s investment in xAI, completed in January, shortly before Musk combined the AI lab with SpaceX.Read full article Comments",
+      "published": "2026-08-17T14:22:54+00:00",
+      "published_dt": "2026-08-17T14:22:54+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$21B",
+          "$21 billion",
+          "$17 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Nvidia discloses $21B stake in SpaceX (Ars Technica) highlights a notable AI development with score 9.2.",
+      "summary_zh": "Ars Technica 报道：Nvidia discloses $21B stake in SpaceX，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/openai-joins-ports-pike-project",
+      "title": "OpenAI joins PORTS-Pike project",
+      "url": "https://openai.com/index/openai-joins-ports-pike-project",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "published": "2026-08-17T05:00:00+00:00",
+      "published_dt": "2026-08-17T05:00:00+00:00",
+      "score": 7.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI joins PORTS-Pike project (OpenAI Blog) highlights a notable AI development with score 7.6.",
+      "summary_zh": "OpenAI Blog 报道：OpenAI joins PORTS-Pike project，综合评分 7.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153733",
+      "title": "Anthropic’s annualized revenue surges to $65B",
+      "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The model maker added $18 billion in annualized revenue in two months.",
+      "published": "2026-08-17T23:56:26+00:00",
+      "published_dt": "2026-08-17T23:56:26+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$65B",
+          "$18 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Anthropic’s annualized revenue surges to $65B (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic’s annualized revenue surges to $65B，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153419",
+      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
+      "published": "2026-08-17T15:16:24+00:00",
+      "published_dt": "2026-08-17T15:16:24+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$1.5B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/the-defenders-window",
+      "title": "The Defender’s Window",
+      "url": "https://openai.com/index/the-defenders-window",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "published": "2026-08-17T05:30:00+00:00",
+      "published_dt": "2026-08-17T05:30:00+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Defender’s Window (OpenAI Blog) highlights a notable AI development with score 7.3.",
+      "summary_zh": "OpenAI Blog 报道：The Defender’s Window，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-18T00:58:37.401404+00:00",
+      "published_dt": "2026-08-18T00:58:37.401404+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-18T00:58:37.401404+00:00",
+      "published_dt": "2026-08-18T00:58:37.401404+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "title": "New policy ideas for the Intelligence Age",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "published": "2026-08-17T03:15:00+00:00",
+      "published_dt": "2026-08-17T03:15:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "New policy ideas for the Intelligence Age (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：New policy ideas for the Intelligence Age，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49331423",
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-17T14:18:38+00:00",
+      "published_dt": "2026-08-17T14:18:38+00:00",
+      "hn_score": 310,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49329575",
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-17T12:09:42+00:00",
+      "published_dt": "2026-08-17T12:09:42+00:00",
+      "hn_score": 297,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：GPT 5.6 Sol is the best \"vision\" model OpenAI ever released，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49336573",
+      "title": "AI;DR (AI; Didn't Read)",
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-17T19:47:15+00:00",
+      "published_dt": "2026-08-17T19:47:15+00:00",
+      "hn_score": 562,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI;DR (AI; Didn't Read) (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：AI;DR (AI; Didn't Read)，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153653",
+      "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
+      "published": "2026-08-17T21:27:05+00:00",
+      "published_dt": "2026-08-17T21:27:05+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI automation startup Relay shuts down, staff joins Google’s Chrome team (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：AI automation startup Relay shuts down, staff joins Google’s Chrome team，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3153430",
+      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
+      "published": "2026-08-17T16:38:44+00:00",
+      "published_dt": "2026-08-17T16:38:44+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Amazon, which started off selling books, is destroying rare texts to train AI (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Amazon, which started off selling books, is destroying rare texts to train AI，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49325789",
+      "title": "On AI regulation and messaging",
+      "url": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://xcancel.com/DarioAmodei/status/2088758816376807762",
+      "published": "2026-08-17T01:59:56+00:00",
+      "published_dt": "2026-08-17T01:59:56+00:00",
+      "hn_score": 234,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "On AI regulation and messaging (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：On AI regulation and messaging，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-08-17T19:46:21+00:00",
+      "published_dt": "2026-08-17T19:46:21+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Same Cluster, 33 Points More Utilization: What Changed Was the Order (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Same Cluster, 33 Points More Utilization: What Changed Was the Order，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49333728",
+      "title": "GitHub Has an Availability Problem. Is It Time to Look Elsewhere?",
+      "url": "https://dhruv2038.bearblog.dev/github-has-an-availability-problem-is-it-time-to-look-elsewhere/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-17T16:31:17+00:00",
+      "published_dt": "2026-08-17T16:31:17+00:00",
+      "hn_score": 62,
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "GitHub Has an Availability Problem. Is It Time to Look Elsewhere? (Hacker News) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Hacker News 报道：GitHub Has an Availability Problem. Is It Time to Look Elsewhere?，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49332564",
+      "title": "Anthropic's War on open source AI",
+      "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-17T15:24:34+00:00",
+      "published_dt": "2026-08-17T15:24:34+00:00",
+      "hn_score": 133,
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic's War on open source AI (Hacker News) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Hacker News 报道：Anthropic's War on open source AI，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=980869",
+      "title": "Anthropic explains how Claude&#8217;s invisible text watermarks will work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text approach\" - an open-source watermarking technology developed by Google DeepMind that creates detectable patterns using wording probabilities. This watermarking feature, alongside C2PA support for Claude-processed images, is being introduced to meet Anthropic's obligations under the European Union's AI Act, which requires synthetic audio, image, video, and text to include machine-readable marks … Read the full story at The Verge.",
+      "published": "2026-08-17T10:57:13+00:00",
+      "published_dt": "2026-08-17T10:57:13+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic explains how Claude&#8217;s invisible text watermarks will work (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Anthropic explains how Claude&#8217;s invisible text watermarks will work，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49332981",
+      "title": "Universal Health Coverage Could Save $1T and 114k Lives a Year, Yale Study",
+      "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-17T15:49:57+00:00",
+      "published_dt": "2026-08-17T15:49:57+00:00",
+      "hn_score": 381,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Universal Health Coverage Could Save $1T and 114k Lives a Year, Yale Study (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Universal Health Coverage Could Save $1T and 114k Lives a Year, Yale Study，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49331220",
+      "title": "How to disable or avoid intrusive AI",
+      "url": "https://www.librarian.net/notoai/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-17T14:07:56+00:00",
+      "published_dt": "2026-08-17T14:07:56+00:00",
+      "hn_score": 248,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How to disable or avoid intrusive AI (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：How to disable or avoid intrusive AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
