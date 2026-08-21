@@ -1,0 +1,2068 @@
+{
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T01:02:52",
+  "stats": {
+    "total_items": 31,
+    "high_importance": 6,
+    "medium_importance": 25,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://news.crunchbase.com/?p=93990",
+      "title": "From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup",
+      "url": "https://news.crunchbase.com/venture/ai-fintech-startup-tabs-founder-hussain/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Editor’s note: The following is the third profile in a series of articles about startup founders from non-technical backgrounds who have launched successful venture-backed companies. Read the previous interviews with MagicSchool AI founder Adeel Khan here, and Trunk Tools founder Sarah Buchner here. Ali Hussain spent much of his childhood in his family’s St. Paul, Minnesota, convenience store, where he packed cigarette cartons and watched his father run a business seven days a week, 365 days a year. Hussain was the son of a first-generation immigrant who arrived from Karachi, Pakistan, and worked his way from employment at a 7-Eleven to owning his own corner store. That experience instilled in Hussain a work ethic that stuck with him. But his father made a clear trade-off with him in high school. Ali Hussain, founder of Tabs. (Courtesy photo) “My dad didn’t want me to necessarily come back to the store,” Hussain recalls. “He’s like, ‘Look, like this is what I did and built. Go use school as a mechanism to leave.’ ” Ultimately, Hussain went on to form Tabs, a New York-based AI startup that automates parts of finance and accounting. Founded in 2023, the company has raised around $90 million, employs about 180 people, and was last valued at $400 million, according to Hussain. But unlike many tech startup founders, Hussain didn’t study computer science in college. Instead, he earned a humanities degree at Cornell, won a Marshall Scholarship to Oxford, left academia abruptly to work at The Boston Consulting Group, and spent six years learning the operational ropes at early-stage startup Latch before launching Tabs in 2023. From St. Paul to Oxford Hussain leveraged a scholarship from the Telluride Association to attend Cornell, where he fell in love with comparative politics and history. Fixated on academia, he graduated and immediately headed to Oxford to pursue a Ph.D. Two months in, reality hit. “I realized this is a terrible idea,” Hussain admits. “I grew up … way too",
+      "published": "2026-08-20T11:00:56+00:00",
+      "published_dt": "2026-08-20T11:00:56+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$400M",
+          "$90 million",
+          "$400 million"
+        ],
+        "technologies": [
+          "RAG",
+          "SOTA"
+        ]
+      },
+      "summary_en": "From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3155270",
+      "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+      "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
+      "published": "2026-08-21T00:13:44+00:00",
+      "published_dt": "2026-08-21T00:13:44+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$500M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：AI data startup Micro1 reaches $500M gross run rate amid AI training boom，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+      "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+      "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "We’ve covered GLM 5.2 very excitedly before, and Prof Jie Tang’s belief that there will be an open weights Fable-class model by end of the year (spot check - with 134 days left, there are now two 2-3T models (Qwen 3.8 Max and Kimi K3) with estimates that Fable is 3-7T, and only 2 points higher on the AA index.)Prof Jie Tang is back on X to tell us that our shorthand for model sizes is no longer enough: “Parameter count is only meaningful alongside three others — how much data you have, where you intend to spend your compute, and who will run the model, under what conditions.”We have covered Chinchilla (and post-Chinchilla) scaling laws in past LS years, but, so we will skip the history lesson, but it is good to level-set on why Chinchilla’s assumptions were wrong in the Inference Inflection world (no fixed number, between 200-900 toks/param, citing Roberts et al on task dependence). In short: Memorization prefers more parameters. Reasoning prefers more post-training data and effective depth. GLM-5.3’s big jumps come solely from RL on long horizon environments:The environments now cover a much broader range of production workflows, with tasks designed around how engineering and research work is actually carried out in practice. Some represent several days of work for an experienced engineer. In an ML infrastructure task, for example, the model may be given the same working environment as an engineer, with access to compute clusters, storage systems, internal documentation, codebases, and experiment results. It must diagnose bottlenecks across the training stack, implement optimizations, run experiments, and deliver a measurable end-to-end speedup while preserving correctness. Training on environments at this level pushes the model toward taking ownership of substantial work end to end, rather than relying on users to decompose the problem and supervise each step.For those following the recursive self improvement story, their entire environment and judging and verifie",
+      "published": "2026-08-20T05:17:12+00:00",
+      "published_dt": "2026-08-20T05:17:12+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "inference"
+        ]
+      },
+      "summary_en": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law (Latent Space) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Latent Space 报道：[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Earlier this week, researchers outlined an attack that used a secret input provided by Microsoft 365 Copilot for enterprise to cause the AI assistant to exfiltrate a password present in the user’s inbox. Now, a separate team has devised a similar attack against Grok. The new data theft hack employs a deceptively simple trick to force the Elon Musk-owned large language model to steal user chats and other personal information. At the time this post went live, the assistant continued to cough up the data, despite xAI being informed of it in June. The lesson from both this week’s episodes—and the countless other ones that have come before it—is that LLMs are incapable of solving the root causes for prompt injections, the most severe vulnerability classes they’re most prone to. That leaves AI developers with no other option but to build a guardrail that steers the model away from the harmful actions. As I noted in Tuesday’s story, the approach is tantamount to a road traffic safety engineer erecting a protective rail around a dangerous bend rather than banking the curve. Cryptographic Context Injection in the house Prompt injections exploit LLMs' training to comply with user requests whenever possible. Attackers can capitalize on the predilection by smuggling harmful instructions into emails or webpages the assistant is instructed to summarize. Because LLMs can’t reliably distinguish between content in an email sent by an untrusted party and user instructions entered directly into a prompt, the overly solicitous LLM faithfully follows them. To date, Grok and other LLMs' only recourse is to create guardrails that flag suspicious instructions and forbid them from being executed.Read full article Comments",
+      "published": "2026-08-20T13:00:35+00:00",
+      "published_dt": "2026-08-20T13:00:35+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Microsoft",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "safety"
+        ]
+      },
+      "summary_en": "Grok exfiltrates user data when malicious instructions are encrypted (Ars Technica) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Ars Technica 报道：Grok exfiltrates user data when malicious instructions are encrypted，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=982628",
+      "title": "Slack is launching collaborative vibe-coding channels",
+      "url": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have an idea or need to build a new feature, update a web page, or fix a bug, you simply tag in a coding agent like Anthropic's Claude or Cognition's Devin, and that agent then spins up a code channel to tackle the task,\" Slack said in its press release. \"There, everyone … Read the full story at The Verge.",
+      "published": "2026-08-20T12:00:00+00:00",
+      "published_dt": "2026-08-20T12:00:00+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Slack is launching collaborative vibe-coding channels (The Verge AI) highlights a notable AI development with score 8.5.",
+      "summary_zh": "The Verge AI 报道：Slack is launching collaborative vibe-coding channels，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 8,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3155270",
+          "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+          "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
+          "published": "2026-08-21T00:13:44+00:00",
+          "published_dt": "2026-08-21T00:13:44+00:00",
+          "score": 9.4,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$500M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom (TechCrunch AI) highlights a notable AI development with score 9.4.",
+          "summary_zh": "TechCrunch AI 报道：AI data startup Micro1 reaches $500M gross run rate amid AI training boom，综合评分 9.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+          "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+          "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "We’ve covered GLM 5.2 very excitedly before, and Prof Jie Tang’s belief that there will be an open weights Fable-class model by end of the year (spot check - with 134 days left, there are now two 2-3T models (Qwen 3.8 Max and Kimi K3) with estimates that Fable is 3-7T, and only 2 points higher on the AA index.)Prof Jie Tang is back on X to tell us that our shorthand for model sizes is no longer enough: “Parameter count is only meaningful alongside three others — how much data you have, where you intend to spend your compute, and who will run the model, under what conditions.”We have covered Chinchilla (and post-Chinchilla) scaling laws in past LS years, but, so we will skip the history lesson, but it is good to level-set on why Chinchilla’s assumptions were wrong in the Inference Inflection world (no fixed number, between 200-900 toks/param, citing Roberts et al on task dependence). In short: Memorization prefers more parameters. Reasoning prefers more post-training data and effective depth. GLM-5.3’s big jumps come solely from RL on long horizon environments:The environments now cover a much broader range of production workflows, with tasks designed around how engineering and research work is actually carried out in practice. Some represent several days of work for an experienced engineer. In an ML infrastructure task, for example, the model may be given the same working environment as an engineer, with access to compute clusters, storage systems, internal documentation, codebases, and experiment results. It must diagnose bottlenecks across the training stack, implement optimizations, run experiments, and deliver a measurable end-to-end speedup while preserving correctness. Training on environments at this level pushes the model toward taking ownership of substantial work end to end, rather than relying on users to decompose the problem and supervise each step.For those following the recursive self improvement story, their entire environment and judging and verifie",
+          "published": "2026-08-20T05:17:12+00:00",
+          "published_dt": "2026-08-20T05:17:12+00:00",
+          "score": 9.3,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "inference"
+            ]
+          },
+          "summary_en": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law (Latent Space) highlights a notable AI development with score 9.3.",
+          "summary_zh": "Latent Space 报道：[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law，综合评分 9.3，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+          "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+          "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Earlier this week, researchers outlined an attack that used a secret input provided by Microsoft 365 Copilot for enterprise to cause the AI assistant to exfiltrate a password present in the user’s inbox. Now, a separate team has devised a similar attack against Grok. The new data theft hack employs a deceptively simple trick to force the Elon Musk-owned large language model to steal user chats and other personal information. At the time this post went live, the assistant continued to cough up the data, despite xAI being informed of it in June. The lesson from both this week’s episodes—and the countless other ones that have come before it—is that LLMs are incapable of solving the root causes for prompt injections, the most severe vulnerability classes they’re most prone to. That leaves AI developers with no other option but to build a guardrail that steers the model away from the harmful actions. As I noted in Tuesday’s story, the approach is tantamount to a road traffic safety engineer erecting a protective rail around a dangerous bend rather than banking the curve. Cryptographic Context Injection in the house Prompt injections exploit LLMs' training to comply with user requests whenever possible. Attackers can capitalize on the predilection by smuggling harmful instructions into emails or webpages the assistant is instructed to summarize. Because LLMs can’t reliably distinguish between content in an email sent by an untrusted party and user instructions entered directly into a prompt, the overly solicitous LLM faithfully follows them. To date, Grok and other LLMs' only recourse is to create guardrails that flag suspicious instructions and forbid them from being executed.Read full article Comments",
+          "published": "2026-08-20T13:00:35+00:00",
+          "published_dt": "2026-08-20T13:00:35+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Microsoft",
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "safety"
+            ]
+          },
+          "summary_en": "Grok exfiltrates user data when malicious instructions are encrypted (Ars Technica) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Ars Technica 报道：Grok exfiltrates user data when malicious instructions are encrypted，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/wayfinder-skill",
+          "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+          "url": "https://www.latent.space/p/wayfinder-skill",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "We’re currently developing a new series about skills, with the aim of giving you a regular supply of new skills to use in your projects. We’re kicking things off with an interview — and a super-useful skill — featuring Matt Pocock, whose “AI Skills for Real Engineers” project has over 220,000 stars on GitHub. He also talks about these skills to 347,000 subscribers on his YouTube channel.Pocock recently released a new skill called /wayfinder. Its purpose is to help you and your agent figure out a project where the end state isn’t entirely clear. Or as Pocock put it in our interview, /wayfinder helps you navigate “the fog of war,” where you have a project but “you can’t quite decide everything right at the start.”The following interview has been slightly condensed for readability, so you can read it, absorb Matt’s insights, and then test out /wayfinder for yourself!Latent Space: What were the goals of wayfinder?Pocock: What I noticed is I was doing a lot of work with AFK agents [Away From Keyboard] and trying to schedule in a ton of work so that my agents could run virtually overnight. I would just plan a bunch of stuff, and then I would create a spec and then turn that spec into tickets. And I had a really well-developed set of skills for how to turn work into scheduled stuff that agents could just crack on.But [...] I was finding the planning stage really onerous, because I would have to be constantly thinking about my session management. Like, how many tokens am I into my context window? How deep am I going here?Matt Pocock’s wayfinder skill, as documented in GitHubI didn’t want to feel constrained in the planning stage anymore. I wanted an orchestrator layer that would basically say, okay, whatever you want to plan, I’m going to handle the planning sessions for you. I’m going to split this out into multiple different threads, do prototyping, do research and pull it all back together, so that you don’t feel constrained in the planning anymore.And then your specs ca",
+          "published": "2026-08-20T20:59:09+00:00",
+          "published_dt": "2026-08-20T20:59:09+00:00",
+          "score": 8.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "The /wayfinder Skill: Navigating the “Fog of War” of Planning (Latent Space) highlights a notable AI development with score 8.2.",
+          "summary_zh": "Latent Space 报道：The /wayfinder Skill: Navigating the “Fog of War” of Planning，综合评分 8.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3155215",
+          "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+          "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
+          "published": "2026-08-20T22:36:37+00:00",
+          "published_dt": "2026-08-20T22:36:37+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI is gaining on Anthropic with business users, new data indicates (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI is gaining on Anthropic with business users, new data indicates，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=982434",
+          "title": "Welcome to the AI crisis in math",
+          "url": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Today on Decoder, I’m talking with Robert Hart, The Verge’s London-based AI reporter, about what AI is doing to the field of mathematics and the existential crisis many lead mathematicians are having about it. OpenAI just published a set of solutions to longstanding problems in math that went off like a bombshell in the field. It caused a huge debate in the math community, and Rob spent some time talking to some of the most accomplished mathematicians of our time about it. It’s funny that AI systems are all still pretty bad at elementary school arithmetic, but getting increasingly good at very high-end abstract math. That raises some big questions for the field of advanced math. If AI can do math of this caliber, does that mean AI labs can transfer those skills to other domains? What good are academic grants and university programs training new generations of human mathematicians to identify new problems as they try to solve existing ones, if frontier models simply answer all the outstanding questions? What if all this attention around math is just a big marketing exercise for frontier AI labs, which couldn’t care less what happens to one of the oldest and most fundamental academic disciplines there is? There’s a lot here, and Robert has talked to a lot of people with a lot of views on all of it. Okay: Verge AI reporter Robert Hart on what AI is doing to math. Here we go. This interview has been lightly edited for length and clarity. Robert Hart, you’re our London-based AI reporter here at The Verge. Welcome to Decoder. Thank you for having me. I am very excited to talk to you. There’s a lot going on in particular with AI and math that you recently dove into. You spoke to a lot of leading mathematicians about the crisis in mathematics due to AI. It feels like a lot, and also like there’s a lot yet to know and discover about the interaction of these two things. A full existential crisis, which is pure Decoder bait. Broadly tell us what’s going on. I think “a lot” sum",
+          "published": "2026-08-20T14:00:00+00:00",
+          "published_dt": "2026-08-20T14:00:00+00:00",
+          "score": 7.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Welcome to the AI crisis in math (The Verge AI) highlights a notable AI development with score 7.2.",
+          "summary_zh": "The Verge AI 报道：Welcome to the AI crisis in math，综合评分 7.2，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49373456",
+          "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+          "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes/sec on an iPhone 15).The idea is basically GitHub Copilot or Tabnine, except instead of prompting it with code, you prompt it by playing a few notes on a MIDI piano. The model then continues what you played, entirely on-device.The app is free if anyone wants to try it. Happy to answer questions about the model, training, Core ML, or the many things that didn't work.",
+          "published": "2026-08-20T12:04:38+00:00",
+          "published_dt": "2026-08-20T12:04:38+00:00",
+          "hn_score": 492,
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "transformer"
+            ]
+          },
+          "summary_en": "Show HN: I trained a 125M model to autocomplete piano on-device (Hacker News) highlights a notable AI development with score 7.1.",
+          "summary_zh": "Hacker News 报道：Show HN: I trained a 125M model to autocomplete piano on-device，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+          "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-08-20T16:52:57+00:00",
+          "published_dt": "2026-08-20T16:52:57+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "inference"
+            ]
+          },
+          "summary_en": "Up to 3.2x Faster Inference with LFM2.5-DSpark (Hugging Face Blog) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hugging Face Blog 报道：Up to 3.2x Faster Inference with LFM2.5-DSpark，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=93990",
+          "title": "From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup",
+          "url": "https://news.crunchbase.com/venture/ai-fintech-startup-tabs-founder-hussain/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Editor’s note: The following is the third profile in a series of articles about startup founders from non-technical backgrounds who have launched successful venture-backed companies. Read the previous interviews with MagicSchool AI founder Adeel Khan here, and Trunk Tools founder Sarah Buchner here. Ali Hussain spent much of his childhood in his family’s St. Paul, Minnesota, convenience store, where he packed cigarette cartons and watched his father run a business seven days a week, 365 days a year. Hussain was the son of a first-generation immigrant who arrived from Karachi, Pakistan, and worked his way from employment at a 7-Eleven to owning his own corner store. That experience instilled in Hussain a work ethic that stuck with him. But his father made a clear trade-off with him in high school. Ali Hussain, founder of Tabs. (Courtesy photo) “My dad didn’t want me to necessarily come back to the store,” Hussain recalls. “He’s like, ‘Look, like this is what I did and built. Go use school as a mechanism to leave.’ ” Ultimately, Hussain went on to form Tabs, a New York-based AI startup that automates parts of finance and accounting. Founded in 2023, the company has raised around $90 million, employs about 180 people, and was last valued at $400 million, according to Hussain. But unlike many tech startup founders, Hussain didn’t study computer science in college. Instead, he earned a humanities degree at Cornell, won a Marshall Scholarship to Oxford, left academia abruptly to work at The Boston Consulting Group, and spent six years learning the operational ropes at early-stage startup Latch before launching Tabs in 2023. From St. Paul to Oxford Hussain leveraged a scholarship from the Telluride Association to attend Cornell, where he fell in love with comparative politics and history. Fixated on academia, he graduated and immediately headed to Oxford to pursue a Ph.D. Two months in, reality hit. “I realized this is a terrible idea,” Hussain admits. “I grew up … way too",
+          "published": "2026-08-20T11:00:56+00:00",
+          "published_dt": "2026-08-20T11:00:56+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$400M",
+              "$90 million",
+              "$400 million"
+            ],
+            "technologies": [
+              "RAG",
+              "SOTA"
+            ]
+          },
+          "summary_en": "From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49375237",
+          "title": "Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours",
+          "url": "https://pub.doub.ly/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hi HN, I built this. Quick background on why it exists:When music is streamed on digital streaming platforms (think Spotify, Apple Music, Pandora), there are two separate royalty streams: one for the recording, paid through your distributor (DistroKid, TuneCore, CDBaby), and one for the underlying work (generally known as publishing). The work side's mechanical royalties are collected by The MLC, a nonprofit that was created by the 2018 Music Modernization Act (MMA). If you haven't registered your songs with The MLC, there are issues with your metadata, or about half a dozen other reasons, that money will never reach you, it just collects in a big pile we call the \"black box\".That pile is big. The MLC's own dashboard currently shows over $656M is held (themlc.com/blanket-royalties), and the biggest problem is the MMA dictates that The MLC cannot hold that money indefinitely. At some point, by law, The MLC must distribute this big pile of cash, and since they don't know who it's supposed to go to, they pay it out through a process called \"market share\" (themlc.com/marketshare). Market share means they pay it out, pro-rata, to the artists, songwriters and publishers that are in the system, which in practice means the largest publishers collect most of the leftovers.This is slated to begin in January 2027 and will pay portions of the pool out monthly (themlc.com/unclaimed-accrued-royalties), as of this morning, the next 12 months of market share sums up to $76.61M, starting with $6.41M in January.Full disclosure: I run Doubly, which is an independent publishing administrator, so I have a commercial interest in this space. That being said, we're a team of two people and we don't have the bandwidth to directly assist the hundreds of thousands of artists and songwriters who are going to start losing this money in January 2027.That's why I built this self-service tool, no signup, no email, no paywall, the reports are completely actionable without needing anything from us.T",
+          "published": "2026-08-20T14:38:28+00:00",
+          "published_dt": "2026-08-20T14:38:28+00:00",
+          "hn_score": 60,
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$656M",
+              "$76.61M",
+              "$6.41M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours (Hacker News) highlights a notable AI development with score 7.1.",
+          "summary_zh": "Hacker News 报道：Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=982774",
+          "title": "It’s Greg Brockman’s OpenAI now",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives have departed, including some of the company's biggest names. Throughout it all, one person has quietly amassed power: Greg Brockman. Brockman is currently OpenAI's president and cofounder. He's helped lead OpenAI since its inception, described as an \"engineering workhorse that pushed to build scaled-up systems that wou … Read the full story at The Verge.",
+          "published": "2026-08-20T15:45:55+00:00",
+          "published_dt": "2026-08-20T15:45:55+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "It’s Greg Brockman’s OpenAI now (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：It’s Greg Brockman’s OpenAI now，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3154855",
+          "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
+          "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Fusion power startup Inertia Enterprises reduced the fuel filling process from a week to just a few hours. It's one of 10 hurdles the company must overcome to make a profitable power plant.",
+          "published": "2026-08-20T16:00:00+00:00",
+          "published_dt": "2026-08-20T16:00:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Inertia Enterprises finds a way to make its fusion fuel fast (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Inertia Enterprises finds a way to make its fusion fuel fast，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=982628",
+          "title": "Slack is launching collaborative vibe-coding channels",
+          "url": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have an idea or need to build a new feature, update a web page, or fix a bug, you simply tag in a coding agent like Anthropic's Claude or Cognition's Devin, and that agent then spins up a code channel to tackle the task,\" Slack said in its press release. \"There, everyone … Read the full story at The Verge.",
+          "published": "2026-08-20T12:00:00+00:00",
+          "published_dt": "2026-08-20T12:00:00+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Slack is launching collaborative vibe-coding channels (The Verge AI) highlights a notable AI development with score 8.5.",
+          "summary_zh": "The Verge AI 报道：Slack is launching collaborative vibe-coding channels，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+          "title": "ChatGPT search now uses the site:operator at scale",
+          "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT. The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products. Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month: The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8. It's important to note that these figures only reflect the prompts for which they have automated tracking enabled. This corresponds to OpenAI's somewhat vague August 6th announcement: For Plus and Pro users, we’re updating GPT‑5.6 Sol in Chat to be more reliable with facts and provide more focused answers. Once again I am hampered by OpenAI's decision to actively obscure their system prompts, but from poking at ChatGPT I believe their latest search tool has a shape like search(query, recency, domains) rather than encouraging a site: operator directly. In a follow-up on August 18th Promptwatch reported that ChatGPT appeared to have greatly reduced the likelihood of Reddit being used in those searches. My own attempts to ascertain if the system prompt has been updated to discourage Reddit sourcing have been unsuccessful - the most thorough leaked system prompt collection I know of doesn't yet show any relevant changes. Tags: reddit, seo, openai, chatgpt, ai-assisted-search, system-prompts",
+          "published": "2026-08-20T23:57:32+00:00",
+          "published_dt": "2026-08-20T23:57:32+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "ChatGPT search now uses the site:operator at scale (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：ChatGPT search now uses the site:operator at scale，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3154941",
+          "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
+          "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "ChatGPT and other AI models are now authoring and editing much of the new web.",
+          "published": "2026-08-20T17:18:58+00:00",
+          "published_dt": "2026-08-20T17:18:58+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3154851",
+          "title": "Ramp launches its own AI model router, called Router",
+          "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
+          "published": "2026-08-20T16:46:00+00:00",
+          "published_dt": "2026-08-20T16:46:00+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Ramp launches its own AI model router, called Router (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Ramp launches its own AI model router, called Router，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+          "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+          "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4, the first stable version since the infamous Rust rewrite a few months ago. Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes: Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0. Bun v1.4 also fixes over 2,900 issues. It reduces idle CPU usage by 5x, reduces memory usage by up to 35%, and starts 50% faster on Linux. It adds Bun.Image, Bun.WebView, Bun.markdown, Bun.cron(), Bun.Terminal, bun run --parallel, bun test --parallel, bun audit fix, bun dedupe, and bun prune. And it rewrites Bun from Zig to Rust. Of these the one that most caught my eye was Bun.WebView, which adds first class support for browser automation to Bun core using either macOS WebKit or control of a local Chromium process via the Chrome DevTools Protocol (CDP). I had Claude Code for web build a prototype of a web API providing the ability to load a web page and then execute JavaScript against it, inspired by my shot-scraper javascript CLI tool - partly to see how much RAM would be needed by such a service. Here's that TypeScript server implementation, which appears to need a 192MB-256MB container to run a full Chrome against complex web pages - tested using cgroups. Tags: browsers, javascript, ai, rust, typescript, generative-ai, llms, coding-agents, bun",
+          "published": "2026-08-20T15:37:00+00:00",
+          "published_dt": "2026-08-20T15:37:00+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView (Simon Willison) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Simon Willison 报道：A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "hn-49371857",
+          "title": "Don't paste the AI, please",
+          "url": "https://dontpastetheai.com/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-08-20T08:20:44+00:00",
+          "published_dt": "2026-08-20T08:20:44+00:00",
+          "hn_score": 987,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Don't paste the AI, please (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Don't paste the AI, please，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/introducing-ai-futures",
+          "title": "Introducing AI Futures",
+          "url": "https://openai.com/index/introducing-ai-futures",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+          "published": "2026-08-20T07:00:00+00:00",
+          "published_dt": "2026-08-20T07:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Introducing AI Futures (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Introducing AI Futures，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3155224",
+          "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+          "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.",
+          "published": "2026-08-20T22:09:51+00:00",
+          "published_dt": "2026-08-20T22:09:51+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "ChatGPT can now send texts for you with new Apple Messages plug-in (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：ChatGPT can now send texts for you with new Apple Messages plug-in，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3154392",
+          "title": "OK, can we actually cool data centers with our pee?",
+          "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- but his suggestion is not completely ludicrous.",
+          "published": "2026-08-20T20:53:13+00:00",
+          "published_dt": "2026-08-20T20:53:13+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OK, can we actually cool data centers with our pee? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：OK, can we actually cool data centers with our pee?，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3155082",
+          "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+          "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
+          "published": "2026-08-20T19:18:21+00:00",
+          "published_dt": "2026-08-20T19:18:21+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google gives publishers a new way to fight AI-driven traffic losses (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google gives publishers a new way to fight AI-driven traffic losses，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3154952",
+          "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+          "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+          "published": "2026-08-20T19:15:05+00:00",
+          "published_dt": "2026-08-20T19:15:05+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3155017",
+          "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+          "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+          "published": "2026-08-20T18:20:35+00:00",
+          "published_dt": "2026-08-20T18:20:35+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Linkdaze’s smart calendar is built to run a household, not just track a schedule (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Linkdaze’s smart calendar is built to run a household, not just track a schedule，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3154977",
+          "title": "Grok keeps sending gibberish responses to users",
+          "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
+          "published": "2026-08-20T17:32:16+00:00",
+          "published_dt": "2026-08-20T17:32:16+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Grok keeps sending gibberish responses to users (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Grok keeps sending gibberish responses to users，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3154881",
+          "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
+          "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
+          "published": "2026-08-20T16:07:26+00:00",
+          "published_dt": "2026-08-20T16:07:26+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Meta brings Pocket, an app that lets you vibe-code and share games, to US users，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3154766",
+          "title": "Meta AI’s new Mac app wants you to talk to your apps",
+          "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue.",
+          "published": "2026-08-20T12:11:57+00:00",
+          "published_dt": "2026-08-20T12:11:57+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta AI’s new Mac app wants you to talk to your apps (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Meta AI’s new Mac app wants you to talk to your apps，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-21T01:02:42.042013+00:00",
+          "published_dt": "2026-08-21T01:02:42.042013+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-21T01:02:42.042013+00:00",
+          "published_dt": "2026-08-21T01:02:42.042013+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49378768",
+          "title": "Show HN: Huzzah – a novel approach to coding with AI",
+          "url": "https://www.danielvaughn.dev/posts/huzzah/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hello everyone. I've been working on this experimental editor called Huzzah.I've been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They're great, but I'm finding it more and more tedious to write full sentences for every change I want. Not only that, but it seems there's a complexity limit for codebases - beyond a certain point the agent begins confusing itself.I'd like to go back to writing code, but I don't want to go all the way back to fully manual coding. So I've come up with this interaction paradigm where you: 1. write pseudocode in whatever way makes the most sense to you 2. on save, the editor synchronizes your work to real source code 3. the pseudocode is persisted alongside the generated code, making your prompt effectively a stored record of intent. It may not work for every use case, but in my initial playthroughs I've found it very enjoyable.Right now it's just a proof of concept - installation instructions are here in the readme: https://github.com/danielvaughn/hzYou can also watch a video of it in action here: https://x.com/danielvaughn/status/2090456808431165715Cheers!",
+          "published": "2026-08-20T19:05:36+00:00",
+          "published_dt": "2026-08-20T19:05:36+00:00",
+          "hn_score": 212,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Show HN: Huzzah – a novel approach to coding with AI (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：Show HN: Huzzah – a novel approach to coding with AI，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://news.crunchbase.com/?p=93990",
+      "title": "From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup",
+      "url": "https://news.crunchbase.com/venture/ai-fintech-startup-tabs-founder-hussain/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Editor’s note: The following is the third profile in a series of articles about startup founders from non-technical backgrounds who have launched successful venture-backed companies. Read the previous interviews with MagicSchool AI founder Adeel Khan here, and Trunk Tools founder Sarah Buchner here. Ali Hussain spent much of his childhood in his family’s St. Paul, Minnesota, convenience store, where he packed cigarette cartons and watched his father run a business seven days a week, 365 days a year. Hussain was the son of a first-generation immigrant who arrived from Karachi, Pakistan, and worked his way from employment at a 7-Eleven to owning his own corner store. That experience instilled in Hussain a work ethic that stuck with him. But his father made a clear trade-off with him in high school. Ali Hussain, founder of Tabs. (Courtesy photo) “My dad didn’t want me to necessarily come back to the store,” Hussain recalls. “He’s like, ‘Look, like this is what I did and built. Go use school as a mechanism to leave.’ ” Ultimately, Hussain went on to form Tabs, a New York-based AI startup that automates parts of finance and accounting. Founded in 2023, the company has raised around $90 million, employs about 180 people, and was last valued at $400 million, according to Hussain. But unlike many tech startup founders, Hussain didn’t study computer science in college. Instead, he earned a humanities degree at Cornell, won a Marshall Scholarship to Oxford, left academia abruptly to work at The Boston Consulting Group, and spent six years learning the operational ropes at early-stage startup Latch before launching Tabs in 2023. From St. Paul to Oxford Hussain leveraged a scholarship from the Telluride Association to attend Cornell, where he fell in love with comparative politics and history. Fixated on academia, he graduated and immediately headed to Oxford to pursue a Ph.D. Two months in, reality hit. “I realized this is a terrible idea,” Hussain admits. “I grew up … way too",
+      "published": "2026-08-20T11:00:56+00:00",
+      "published_dt": "2026-08-20T11:00:56+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$400M",
+          "$90 million",
+          "$400 million"
+        ],
+        "technologies": [
+          "RAG",
+          "SOTA"
+        ]
+      },
+      "summary_en": "From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3155270",
+      "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+      "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
+      "published": "2026-08-21T00:13:44+00:00",
+      "published_dt": "2026-08-21T00:13:44+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$500M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：AI data startup Micro1 reaches $500M gross run rate amid AI training boom，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+      "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+      "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "We’ve covered GLM 5.2 very excitedly before, and Prof Jie Tang’s belief that there will be an open weights Fable-class model by end of the year (spot check - with 134 days left, there are now two 2-3T models (Qwen 3.8 Max and Kimi K3) with estimates that Fable is 3-7T, and only 2 points higher on the AA index.)Prof Jie Tang is back on X to tell us that our shorthand for model sizes is no longer enough: “Parameter count is only meaningful alongside three others — how much data you have, where you intend to spend your compute, and who will run the model, under what conditions.”We have covered Chinchilla (and post-Chinchilla) scaling laws in past LS years, but, so we will skip the history lesson, but it is good to level-set on why Chinchilla’s assumptions were wrong in the Inference Inflection world (no fixed number, between 200-900 toks/param, citing Roberts et al on task dependence). In short: Memorization prefers more parameters. Reasoning prefers more post-training data and effective depth. GLM-5.3’s big jumps come solely from RL on long horizon environments:The environments now cover a much broader range of production workflows, with tasks designed around how engineering and research work is actually carried out in practice. Some represent several days of work for an experienced engineer. In an ML infrastructure task, for example, the model may be given the same working environment as an engineer, with access to compute clusters, storage systems, internal documentation, codebases, and experiment results. It must diagnose bottlenecks across the training stack, implement optimizations, run experiments, and deliver a measurable end-to-end speedup while preserving correctness. Training on environments at this level pushes the model toward taking ownership of substantial work end to end, rather than relying on users to decompose the problem and supervise each step.For those following the recursive self improvement story, their entire environment and judging and verifie",
+      "published": "2026-08-20T05:17:12+00:00",
+      "published_dt": "2026-08-20T05:17:12+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "inference"
+        ]
+      },
+      "summary_en": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law (Latent Space) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Latent Space 报道：[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Earlier this week, researchers outlined an attack that used a secret input provided by Microsoft 365 Copilot for enterprise to cause the AI assistant to exfiltrate a password present in the user’s inbox. Now, a separate team has devised a similar attack against Grok. The new data theft hack employs a deceptively simple trick to force the Elon Musk-owned large language model to steal user chats and other personal information. At the time this post went live, the assistant continued to cough up the data, despite xAI being informed of it in June. The lesson from both this week’s episodes—and the countless other ones that have come before it—is that LLMs are incapable of solving the root causes for prompt injections, the most severe vulnerability classes they’re most prone to. That leaves AI developers with no other option but to build a guardrail that steers the model away from the harmful actions. As I noted in Tuesday’s story, the approach is tantamount to a road traffic safety engineer erecting a protective rail around a dangerous bend rather than banking the curve. Cryptographic Context Injection in the house Prompt injections exploit LLMs' training to comply with user requests whenever possible. Attackers can capitalize on the predilection by smuggling harmful instructions into emails or webpages the assistant is instructed to summarize. Because LLMs can’t reliably distinguish between content in an email sent by an untrusted party and user instructions entered directly into a prompt, the overly solicitous LLM faithfully follows them. To date, Grok and other LLMs' only recourse is to create guardrails that flag suspicious instructions and forbid them from being executed.Read full article Comments",
+      "published": "2026-08-20T13:00:35+00:00",
+      "published_dt": "2026-08-20T13:00:35+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Microsoft",
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "safety"
+        ]
+      },
+      "summary_en": "Grok exfiltrates user data when malicious instructions are encrypted (Ars Technica) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Ars Technica 报道：Grok exfiltrates user data when malicious instructions are encrypted，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=982628",
+      "title": "Slack is launching collaborative vibe-coding channels",
+      "url": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have an idea or need to build a new feature, update a web page, or fix a bug, you simply tag in a coding agent like Anthropic's Claude or Cognition's Devin, and that agent then spins up a code channel to tackle the task,\" Slack said in its press release. \"There, everyone … Read the full story at The Verge.",
+      "published": "2026-08-20T12:00:00+00:00",
+      "published_dt": "2026-08-20T12:00:00+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Slack is launching collaborative vibe-coding channels (The Verge AI) highlights a notable AI development with score 8.5.",
+      "summary_zh": "The Verge AI 报道：Slack is launching collaborative vibe-coding channels，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/wayfinder-skill",
+      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+      "url": "https://www.latent.space/p/wayfinder-skill",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "We’re currently developing a new series about skills, with the aim of giving you a regular supply of new skills to use in your projects. We’re kicking things off with an interview — and a super-useful skill — featuring Matt Pocock, whose “AI Skills for Real Engineers” project has over 220,000 stars on GitHub. He also talks about these skills to 347,000 subscribers on his YouTube channel.Pocock recently released a new skill called /wayfinder. Its purpose is to help you and your agent figure out a project where the end state isn’t entirely clear. Or as Pocock put it in our interview, /wayfinder helps you navigate “the fog of war,” where you have a project but “you can’t quite decide everything right at the start.”The following interview has been slightly condensed for readability, so you can read it, absorb Matt’s insights, and then test out /wayfinder for yourself!Latent Space: What were the goals of wayfinder?Pocock: What I noticed is I was doing a lot of work with AFK agents [Away From Keyboard] and trying to schedule in a ton of work so that my agents could run virtually overnight. I would just plan a bunch of stuff, and then I would create a spec and then turn that spec into tickets. And I had a really well-developed set of skills for how to turn work into scheduled stuff that agents could just crack on.But [...] I was finding the planning stage really onerous, because I would have to be constantly thinking about my session management. Like, how many tokens am I into my context window? How deep am I going here?Matt Pocock’s wayfinder skill, as documented in GitHubI didn’t want to feel constrained in the planning stage anymore. I wanted an orchestrator layer that would basically say, okay, whatever you want to plan, I’m going to handle the planning sessions for you. I’m going to split this out into multiple different threads, do prototyping, do research and pull it all back together, so that you don’t feel constrained in the planning anymore.And then your specs ca",
+      "published": "2026-08-20T20:59:09+00:00",
+      "published_dt": "2026-08-20T20:59:09+00:00",
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "The /wayfinder Skill: Navigating the “Fog of War” of Planning (Latent Space) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Latent Space 报道：The /wayfinder Skill: Navigating the “Fog of War” of Planning，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3155215",
+      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
+      "published": "2026-08-20T22:36:37+00:00",
+      "published_dt": "2026-08-20T22:36:37+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI is gaining on Anthropic with business users, new data indicates (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI is gaining on Anthropic with business users, new data indicates，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "title": "ChatGPT search now uses the site:operator at scale",
+      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT. The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products. Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month: The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8. It's important to note that these figures only reflect the prompts for which they have automated tracking enabled. This corresponds to OpenAI's somewhat vague August 6th announcement: For Plus and Pro users, we’re updating GPT‑5.6 Sol in Chat to be more reliable with facts and provide more focused answers. Once again I am hampered by OpenAI's decision to actively obscure their system prompts, but from poking at ChatGPT I believe their latest search tool has a shape like search(query, recency, domains) rather than encouraging a site: operator directly. In a follow-up on August 18th Promptwatch reported that ChatGPT appeared to have greatly reduced the likelihood of Reddit being used in those searches. My own attempts to ascertain if the system prompt has been updated to discourage Reddit sourcing have been unsuccessful - the most thorough leaked system prompt collection I know of doesn't yet show any relevant changes. Tags: reddit, seo, openai, chatgpt, ai-assisted-search, system-prompts",
+      "published": "2026-08-20T23:57:32+00:00",
+      "published_dt": "2026-08-20T23:57:32+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "ChatGPT search now uses the site:operator at scale (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：ChatGPT search now uses the site:operator at scale，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=982434",
+      "title": "Welcome to the AI crisis in math",
+      "url": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Today on Decoder, I’m talking with Robert Hart, The Verge’s London-based AI reporter, about what AI is doing to the field of mathematics and the existential crisis many lead mathematicians are having about it. OpenAI just published a set of solutions to longstanding problems in math that went off like a bombshell in the field. It caused a huge debate in the math community, and Rob spent some time talking to some of the most accomplished mathematicians of our time about it. It’s funny that AI systems are all still pretty bad at elementary school arithmetic, but getting increasingly good at very high-end abstract math. That raises some big questions for the field of advanced math. If AI can do math of this caliber, does that mean AI labs can transfer those skills to other domains? What good are academic grants and university programs training new generations of human mathematicians to identify new problems as they try to solve existing ones, if frontier models simply answer all the outstanding questions? What if all this attention around math is just a big marketing exercise for frontier AI labs, which couldn’t care less what happens to one of the oldest and most fundamental academic disciplines there is? There’s a lot here, and Robert has talked to a lot of people with a lot of views on all of it. Okay: Verge AI reporter Robert Hart on what AI is doing to math. Here we go. This interview has been lightly edited for length and clarity. Robert Hart, you’re our London-based AI reporter here at The Verge. Welcome to Decoder. Thank you for having me. I am very excited to talk to you. There’s a lot going on in particular with AI and math that you recently dove into. You spoke to a lot of leading mathematicians about the crisis in mathematics due to AI. It feels like a lot, and also like there’s a lot yet to know and discover about the interaction of these two things. A full existential crisis, which is pure Decoder bait. Broadly tell us what’s going on. I think “a lot” sum",
+      "published": "2026-08-20T14:00:00+00:00",
+      "published_dt": "2026-08-20T14:00:00+00:00",
+      "score": 7.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Welcome to the AI crisis in math (The Verge AI) highlights a notable AI development with score 7.2.",
+      "summary_zh": "The Verge AI 报道：Welcome to the AI crisis in math，综合评分 7.2，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3154941",
+      "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
+      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "ChatGPT and other AI models are now authoring and editing much of the new web.",
+      "published": "2026-08-20T17:18:58+00:00",
+      "published_dt": "2026-08-20T17:18:58+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3154851",
+      "title": "Ramp launches its own AI model router, called Router",
+      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
+      "published": "2026-08-20T16:46:00+00:00",
+      "published_dt": "2026-08-20T16:46:00+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Ramp launches its own AI model router, called Router (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Ramp launches its own AI model router, called Router，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49375237",
+      "title": "Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours",
+      "url": "https://pub.doub.ly/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hi HN, I built this. Quick background on why it exists:When music is streamed on digital streaming platforms (think Spotify, Apple Music, Pandora), there are two separate royalty streams: one for the recording, paid through your distributor (DistroKid, TuneCore, CDBaby), and one for the underlying work (generally known as publishing). The work side's mechanical royalties are collected by The MLC, a nonprofit that was created by the 2018 Music Modernization Act (MMA). If you haven't registered your songs with The MLC, there are issues with your metadata, or about half a dozen other reasons, that money will never reach you, it just collects in a big pile we call the \"black box\".That pile is big. The MLC's own dashboard currently shows over $656M is held (themlc.com/blanket-royalties), and the biggest problem is the MMA dictates that The MLC cannot hold that money indefinitely. At some point, by law, The MLC must distribute this big pile of cash, and since they don't know who it's supposed to go to, they pay it out through a process called \"market share\" (themlc.com/marketshare). Market share means they pay it out, pro-rata, to the artists, songwriters and publishers that are in the system, which in practice means the largest publishers collect most of the leftovers.This is slated to begin in January 2027 and will pay portions of the pool out monthly (themlc.com/unclaimed-accrued-royalties), as of this morning, the next 12 months of market share sums up to $76.61M, starting with $6.41M in January.Full disclosure: I run Doubly, which is an independent publishing administrator, so I have a commercial interest in this space. That being said, we're a team of two people and we don't have the bandwidth to directly assist the hundreds of thousands of artists and songwriters who are going to start losing this money in January 2027.That's why I built this self-service tool, no signup, no email, no paywall, the reports are completely actionable without needing anything from us.T",
+      "published": "2026-08-20T14:38:28+00:00",
+      "published_dt": "2026-08-20T14:38:28+00:00",
+      "hn_score": 60,
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$656M",
+          "$76.61M",
+          "$6.41M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours (Hacker News) highlights a notable AI development with score 7.1.",
+      "summary_zh": "Hacker News 报道：Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49373456",
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes/sec on an iPhone 15).The idea is basically GitHub Copilot or Tabnine, except instead of prompting it with code, you prompt it by playing a few notes on a MIDI piano. The model then continues what you played, entirely on-device.The app is free if anyone wants to try it. Happy to answer questions about the model, training, Core ML, or the many things that didn't work.",
+      "published": "2026-08-20T12:04:38+00:00",
+      "published_dt": "2026-08-20T12:04:38+00:00",
+      "hn_score": 492,
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "transformer"
+        ]
+      },
+      "summary_en": "Show HN: I trained a 125M model to autocomplete piano on-device (Hacker News) highlights a notable AI development with score 7.1.",
+      "summary_zh": "Hacker News 报道：Show HN: I trained a 125M model to autocomplete piano on-device，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-21T01:02:42.042013+00:00",
+      "published_dt": "2026-08-21T01:02:42.042013+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-21T01:02:42.042013+00:00",
+      "published_dt": "2026-08-21T01:02:42.042013+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+      "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+      "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4, the first stable version since the infamous Rust rewrite a few months ago. Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes: Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0. Bun v1.4 also fixes over 2,900 issues. It reduces idle CPU usage by 5x, reduces memory usage by up to 35%, and starts 50% faster on Linux. It adds Bun.Image, Bun.WebView, Bun.markdown, Bun.cron(), Bun.Terminal, bun run --parallel, bun test --parallel, bun audit fix, bun dedupe, and bun prune. And it rewrites Bun from Zig to Rust. Of these the one that most caught my eye was Bun.WebView, which adds first class support for browser automation to Bun core using either macOS WebKit or control of a local Chromium process via the Chrome DevTools Protocol (CDP). I had Claude Code for web build a prototype of a web API providing the ability to load a web page and then execute JavaScript against it, inspired by my shot-scraper javascript CLI tool - partly to see how much RAM would be needed by such a service. Here's that TypeScript server implementation, which appears to need a 192MB-256MB container to run a full Chrome against complex web pages - tested using cgroups. Tags: browsers, javascript, ai, rust, typescript, generative-ai, llms, coding-agents, bun",
+      "published": "2026-08-20T15:37:00+00:00",
+      "published_dt": "2026-08-20T15:37:00+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView (Simon Willison) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Simon Willison 报道：A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49378768",
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hello everyone. I've been working on this experimental editor called Huzzah.I've been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They're great, but I'm finding it more and more tedious to write full sentences for every change I want. Not only that, but it seems there's a complexity limit for codebases - beyond a certain point the agent begins confusing itself.I'd like to go back to writing code, but I don't want to go all the way back to fully manual coding. So I've come up with this interaction paradigm where you: 1. write pseudocode in whatever way makes the most sense to you 2. on save, the editor synchronizes your work to real source code 3. the pseudocode is persisted alongside the generated code, making your prompt effectively a stored record of intent. It may not work for every use case, but in my initial playthroughs I've found it very enjoyable.Right now it's just a proof of concept - installation instructions are here in the readme: https://github.com/danielvaughn/hzYou can also watch a video of it in action here: https://x.com/danielvaughn/status/2090456808431165715Cheers!",
+      "published": "2026-08-20T19:05:36+00:00",
+      "published_dt": "2026-08-20T19:05:36+00:00",
+      "hn_score": 212,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Show HN: Huzzah – a novel approach to coding with AI (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：Show HN: Huzzah – a novel approach to coding with AI，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-08-20T16:52:57+00:00",
+      "published_dt": "2026-08-20T16:52:57+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference"
+        ]
+      },
+      "summary_en": "Up to 3.2x Faster Inference with LFM2.5-DSpark (Hugging Face Blog) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hugging Face Blog 报道：Up to 3.2x Faster Inference with LFM2.5-DSpark，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=982774",
+      "title": "It’s Greg Brockman’s OpenAI now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives have departed, including some of the company's biggest names. Throughout it all, one person has quietly amassed power: Greg Brockman. Brockman is currently OpenAI's president and cofounder. He's helped lead OpenAI since its inception, described as an \"engineering workhorse that pushed to build scaled-up systems that wou … Read the full story at The Verge.",
+      "published": "2026-08-20T15:45:55+00:00",
+      "published_dt": "2026-08-20T15:45:55+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "It’s Greg Brockman’s OpenAI now (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：It’s Greg Brockman’s OpenAI now，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49371857",
+      "title": "Don't paste the AI, please",
+      "url": "https://dontpastetheai.com/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-08-20T08:20:44+00:00",
+      "published_dt": "2026-08-20T08:20:44+00:00",
+      "hn_score": 987,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Don't paste the AI, please (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Don't paste the AI, please，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/introducing-ai-futures",
+      "title": "Introducing AI Futures",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "published": "2026-08-20T07:00:00+00:00",
+      "published_dt": "2026-08-20T07:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Introducing AI Futures (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Introducing AI Futures，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3154855",
+      "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
+      "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Fusion power startup Inertia Enterprises reduced the fuel filling process from a week to just a few hours. It's one of 10 hurdles the company must overcome to make a profitable power plant.",
+      "published": "2026-08-20T16:00:00+00:00",
+      "published_dt": "2026-08-20T16:00:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Inertia Enterprises finds a way to make its fusion fuel fast (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Inertia Enterprises finds a way to make its fusion fuel fast，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3155224",
+      "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.",
+      "published": "2026-08-20T22:09:51+00:00",
+      "published_dt": "2026-08-20T22:09:51+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "ChatGPT can now send texts for you with new Apple Messages plug-in (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：ChatGPT can now send texts for you with new Apple Messages plug-in，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3154392",
+      "title": "OK, can we actually cool data centers with our pee?",
+      "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- but his suggestion is not completely ludicrous.",
+      "published": "2026-08-20T20:53:13+00:00",
+      "published_dt": "2026-08-20T20:53:13+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OK, can we actually cool data centers with our pee? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：OK, can we actually cool data centers with our pee?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3155082",
+      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
+      "published": "2026-08-20T19:18:21+00:00",
+      "published_dt": "2026-08-20T19:18:21+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google gives publishers a new way to fight AI-driven traffic losses (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google gives publishers a new way to fight AI-driven traffic losses，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3154952",
+      "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+      "published": "2026-08-20T19:15:05+00:00",
+      "published_dt": "2026-08-20T19:15:05+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3155017",
+      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+      "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+      "published": "2026-08-20T18:20:35+00:00",
+      "published_dt": "2026-08-20T18:20:35+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Linkdaze’s smart calendar is built to run a household, not just track a schedule (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Linkdaze’s smart calendar is built to run a household, not just track a schedule，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3154977",
+      "title": "Grok keeps sending gibberish responses to users",
+      "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
+      "published": "2026-08-20T17:32:16+00:00",
+      "published_dt": "2026-08-20T17:32:16+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Grok keeps sending gibberish responses to users (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Grok keeps sending gibberish responses to users，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3154881",
+      "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
+      "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
+      "published": "2026-08-20T16:07:26+00:00",
+      "published_dt": "2026-08-20T16:07:26+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Meta brings Pocket, an app that lets you vibe-code and share games, to US users，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3154766",
+      "title": "Meta AI’s new Mac app wants you to talk to your apps",
+      "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue.",
+      "published": "2026-08-20T12:11:57+00:00",
+      "published_dt": "2026-08-20T12:11:57+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta AI’s new Mac app wants you to talk to your apps (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Meta AI’s new Mac app wants you to talk to your apps，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3154391",
+      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Binance's Agent OS works with tools such as ChatGPT, Claude Code, and Cursor.",
+      "published": "2026-08-20T09:30:00+00:00",
+      "published_dt": "2026-08-20T09:30:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Binance now lets AI agents trade, but keeping them in check is largely up to users (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Binance now lets AI agents trade, but keeping them in check is largely up to users，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
