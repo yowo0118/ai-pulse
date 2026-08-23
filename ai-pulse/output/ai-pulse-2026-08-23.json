@@ -1,0 +1,752 @@
+{
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T01:04:18",
+  "stats": {
+    "total_items": 10,
+    "high_importance": 2,
+    "medium_importance": 8,
+    "categories_covered": 5
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
+      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "By AI standards today is a pretty quiet Friday, so it’s time to take a step back and reflect on what is really going on. If you read our 2025 reading list, and followed our coverage of Z.ai GLM, understood the Poolside pivot, been following our AI for Science themes, and tuned in to today’s Simile pod, you not only are one of the biggest readers of Latent Space, you will probably also arrive at this mental model:Every year since 2022, one more component of the pipeline that produces machine intelligence has flipped from human-made to model-made. Not gradually, and not evenly — each flip has a patient zero, a paper or product where the synthetic version first became load-bearing at a frontier lab, and from there on, the future is simply here but not yet productionized.And if you squint, what we used to call “synthetic data” and “synthetic rubrics” and “AI researcher” and “end to end RL environments” is just increasingly ambitious human simulation - 10% worse, but 100x cheaper and 10,000x faster.Stage 1: The reward signal (2022)The first thing to go synthetic was, counterintuitively, the judge. InstructGPT established the now-canonical trick: collect human preferences once, train a reward model, and let the policy optimize against the model rather than the humans. From the policy’s point of view, the thing dispensing approval was already an LLM. Constitutional AI pushed further and had the AI critique itself against a set of principles (RLAIF), and Lee et al. later showed AI feedback matching human feedback at a fraction of the cost. By the time LLM-as-judge became the default eval methodology (MT-Bench, AlpacaEval), the entire approval apparatus — reward, critique, evaluation — ran on models judging models.Stage 2: The training data (2023)Microsoft’s Phi series made the argument in its title: Textbooks Are All You Need. A small model trained on LLM-synthesized, textbook-quality data punched far above its parameter count, and phi-1.5 confirmed it wasn’t a fluke. Apple",
+      "published": "2026-08-22T07:36:00+00:00",
+      "published_dt": "2026-08-22T07:36:00+00:00",
+      "score": 8.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG"
+        ]
+      },
+      "summary_en": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over (Latent Space) highlights a notable AI development with score 8.8.",
+      "summary_zh": "Latent Space 报道：[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over，综合评分 8.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3155023",
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "published": "2026-08-22T19:00:00+00:00",
+      "published_dt": "2026-08-22T19:00:00+00:00",
+      "score": 8.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research (TechCrunch AI) highlights a notable AI development with score 8.7.",
+      "summary_zh": "TechCrunch AI 报道：Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research，综合评分 8.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+          "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
+          "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "By AI standards today is a pretty quiet Friday, so it’s time to take a step back and reflect on what is really going on. If you read our 2025 reading list, and followed our coverage of Z.ai GLM, understood the Poolside pivot, been following our AI for Science themes, and tuned in to today’s Simile pod, you not only are one of the biggest readers of Latent Space, you will probably also arrive at this mental model:Every year since 2022, one more component of the pipeline that produces machine intelligence has flipped from human-made to model-made. Not gradually, and not evenly — each flip has a patient zero, a paper or product where the synthetic version first became load-bearing at a frontier lab, and from there on, the future is simply here but not yet productionized.And if you squint, what we used to call “synthetic data” and “synthetic rubrics” and “AI researcher” and “end to end RL environments” is just increasingly ambitious human simulation - 10% worse, but 100x cheaper and 10,000x faster.Stage 1: The reward signal (2022)The first thing to go synthetic was, counterintuitively, the judge. InstructGPT established the now-canonical trick: collect human preferences once, train a reward model, and let the policy optimize against the model rather than the humans. From the policy’s point of view, the thing dispensing approval was already an LLM. Constitutional AI pushed further and had the AI critique itself against a set of principles (RLAIF), and Lee et al. later showed AI feedback matching human feedback at a fraction of the cost. By the time LLM-as-judge became the default eval methodology (MT-Bench, AlpacaEval), the entire approval apparatus — reward, critique, evaluation — ran on models judging models.Stage 2: The training data (2023)Microsoft’s Phi series made the argument in its title: Textbooks Are All You Need. A small model trained on LLM-synthesized, textbook-quality data punched far above its parameter count, and phi-1.5 confirmed it wasn’t a fluke. Apple",
+          "published": "2026-08-22T07:36:00+00:00",
+          "published_dt": "2026-08-22T07:36:00+00:00",
+          "score": 8.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "RAG"
+            ]
+          },
+          "summary_en": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over (Latent Space) highlights a notable AI development with score 8.8.",
+          "summary_zh": "Latent Space 报道：[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over，综合评分 8.8，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3155023",
+          "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+          "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+          "published": "2026-08-22T19:00:00+00:00",
+          "published_dt": "2026-08-22T19:00:00+00:00",
+          "score": 8.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "DeepMind"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research (TechCrunch AI) highlights a notable AI development with score 8.7.",
+          "summary_zh": "TechCrunch AI 报道：Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research，综合评分 8.7，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.latent.space/p/attention-interface",
+          "title": "The Evolution of the Agent Harness",
+          "url": "https://www.latent.space/p/attention-interface",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Sometime around Christmas 2025, AI engineers noticed a change in agents. They started to work! It’s hard to pin down exactly why. Maybe we finally had holiday downtime to try the newest agents with the newest models. Maybe the models had crossed some capability threshold. Maybe the wrappers around the models had matured.What I’ll argue in this post is that it was the confluence of the last two. The model and the harness improving together and then their curves of improvement crossing at the right moment. And that dynamic helps to explain what comes next: models keep absorbing the harness into their weights, engineers keep deleting what got absorbed, and what remains is a harness for human attention rather than for the model.Lukasz Kaiser, one of the people who invented the Transformer, said on “Unsupervised Learning” in June:“The change last winter, last Christmas — it’s a little hard to pin down. I mean, the harness changed and a little post-training changed and then new pre-trained models came… but it felt like a big jump which is not that easy to pin down what did it.”The answer to “What happened?” isn’t solely in the model weights. It’s in the system that grew up around the weights.The answer is in the agent harness.Think back to November 2022, when ChatGPT was the most advanced AI tool. The only capability at its disposal was next-token prediction and some Reinforcement Learning from Human Feedback (RLHF) that allowed it to act like a helpful assistant. No tools, no search, and no reasoning.The original ChatGPT was confined to its training data and the prompt you sent it. No more, no less. It was a brain in a vat.The agent harness is a way for the LLM to break free from that confinement and interact with real digital information space.What a Harness Actually IsAn agent harness is everything besides the model weights that makes the agent work. The environment, tools, context and guardrails that surround the model. Without the harness the model is a brain in a va",
+          "published": "2026-08-22T07:30:52+00:00",
+          "published_dt": "2026-08-22T07:30:52+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "transformer",
+              "agent",
+              "RLHF"
+            ]
+          },
+          "summary_en": "The Evolution of the Agent Harness (Latent Space) highlights a notable AI development with score 6.4.",
+          "summary_zh": "Latent Space 报道：The Evolution of the Agent Harness，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 0,
+      "items": []
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3155861",
+          "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+          "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+          "published": "2026-08-22T21:46:56+00:00",
+          "published_dt": "2026-08-22T21:46:56+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Harvard’s $699 startup bootcamp offers AI avatars of its instructors，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/22/llm/",
+          "title": "llm 0.33",
+          "url": "https://simonwillison.net/2026/Aug/22/llm/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2. #1608, #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm embed-multi now accept --key. The Python EmbeddingModel.embed(), EmbeddingModel.embed_multi(), Collection.embed() and Collection.embed_multi() methods accept key= too, passing the resolved per-call key to embedding plugins without changing shared model state. Existing plugins that read self.key continue to work through a compatibility fallback. Thanks, ChrisJr404. #757, #1620 The embedding models now use the same pattern for keys that regular LLM models do. llm prompt -t/--template can now be repeated to combine templates in order. This allows model configuration and options from one template to be used with a prompt from another. This unlocks a neat pattern where you can create templates that package a model with a set of default options: llm -m gpt-5.6-luna -o reasoning_effort high --save lhigh llm \"Generate an SVG of a pelican riding a bicycle\" --save pelican # Combine and run the templates llm -t lhigh -t pelican Reasoning-capable Responses API models now support a reasoning_summary option with auto, concise, and detailed values. This can be used with llm openai endpoint --responses. #1600 This is particularly useful for exercising different models that provide their own imitation of the OpenAI Responses API. Tags: annotated-release-notes, llm",
+          "published": "2026-08-22T17:01:16+00:00",
+          "published_dt": "2026-08-22T17:01:16+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "embedding"
+            ]
+          },
+          "summary_en": "llm 0.33 (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：llm 0.33，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+          "title": "How Claude Watermarks AI-Generated Text",
+          "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+          "source": "Ahead of AI (Sebastian Raschka)",
+          "source_type": "rss",
+          "content": "I recently posted a Substack note about Claude’s new watermarking process and implementation. Since it’s such a popular topic and sparked such a lively discussion, I thought it might be interesting to go into a bit more detail when explaining how it works.Instead of the usual text article, I recorded a little lecture on the topic (to change it up a bit from my usual articles). So, below is the video along with a transcript.Originally, I planned to make 10 slides and record a short 10-min video. However, while putting it together, I added some crucial details here and there, resulting in >50 slides and a 48 min recording.I hope that this now explains it well, though! Happy watching!I also have a YouTube version if you prefer using the YouTube playerAnd here is a link to the slidesSubscribe nowVideo TranscriptNote: The transcript below is slightly edited and cleaned up for readability but preserves the overall order and flow of the video lecture above.0:00How Claude’s Text Watermarking WorksSlide 2 of 52, time stamp 0:00Hi everyone. So, a few days ago, Anthropic announced that they will watermark the text outputs of their Claude models. I then did a social media post briefly explaining how that works. And yeah, this was quite the popular post. So not the watermarking itself was popular, but I guess the explanation or the mechanism behind it. Then, it might be worthwhile expanding this a bit to explain it in more detail, because this post only had one figure, and there were a lot of questions and discussions.So, I thought, well, let’s make a few more figures. I actually originally planned to do like 10 slides and walk you through it. It ended up being 50 slides, but I hope this really explains how this watermarking technique works well, how watermarking itself can fail or be removed, and so forth. So I think it might be an interesting topic because a lot of people use LLMs these days and also consume a lot of text on the Internet that might be generated by LLMs.And now",
+          "published": "2026-08-22T11:11:39+00:00",
+          "published_dt": "2026-08-22T11:11:39+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "How Claude Watermarks AI-Generated Text (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：How Claude Watermarks AI-Generated Text，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3155841",
+          "title": "OpenAI says California should strengthen its AI safety bill",
+          "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+          "published": "2026-08-22T16:30:34+00:00",
+          "published_dt": "2026-08-22T16:30:34+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "OpenAI says California should strengthen its AI safety bill (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI says California should strengthen its AI safety bill，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3155518",
+          "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+          "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+          "published": "2026-08-22T16:00:00+00:00",
+          "published_dt": "2026-08-22T16:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Frontier AI labs still won’t say how they’d contain a rogue model (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Frontier AI labs still won’t say how they’d contain a rogue model，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-23T01:04:15.883554+00:00",
+          "published_dt": "2026-08-23T01:04:15.883554+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-08-23T01:04:15.883554+00:00",
+          "published_dt": "2026-08-23T01:04:15.883554+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
+      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "By AI standards today is a pretty quiet Friday, so it’s time to take a step back and reflect on what is really going on. If you read our 2025 reading list, and followed our coverage of Z.ai GLM, understood the Poolside pivot, been following our AI for Science themes, and tuned in to today’s Simile pod, you not only are one of the biggest readers of Latent Space, you will probably also arrive at this mental model:Every year since 2022, one more component of the pipeline that produces machine intelligence has flipped from human-made to model-made. Not gradually, and not evenly — each flip has a patient zero, a paper or product where the synthetic version first became load-bearing at a frontier lab, and from there on, the future is simply here but not yet productionized.And if you squint, what we used to call “synthetic data” and “synthetic rubrics” and “AI researcher” and “end to end RL environments” is just increasingly ambitious human simulation - 10% worse, but 100x cheaper and 10,000x faster.Stage 1: The reward signal (2022)The first thing to go synthetic was, counterintuitively, the judge. InstructGPT established the now-canonical trick: collect human preferences once, train a reward model, and let the policy optimize against the model rather than the humans. From the policy’s point of view, the thing dispensing approval was already an LLM. Constitutional AI pushed further and had the AI critique itself against a set of principles (RLAIF), and Lee et al. later showed AI feedback matching human feedback at a fraction of the cost. By the time LLM-as-judge became the default eval methodology (MT-Bench, AlpacaEval), the entire approval apparatus — reward, critique, evaluation — ran on models judging models.Stage 2: The training data (2023)Microsoft’s Phi series made the argument in its title: Textbooks Are All You Need. A small model trained on LLM-synthesized, textbook-quality data punched far above its parameter count, and phi-1.5 confirmed it wasn’t a fluke. Apple",
+      "published": "2026-08-22T07:36:00+00:00",
+      "published_dt": "2026-08-22T07:36:00+00:00",
+      "score": 8.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG"
+        ]
+      },
+      "summary_en": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over (Latent Space) highlights a notable AI development with score 8.8.",
+      "summary_zh": "Latent Space 报道：[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over，综合评分 8.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3155023",
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "published": "2026-08-22T19:00:00+00:00",
+      "published_dt": "2026-08-22T19:00:00+00:00",
+      "score": 8.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research (TechCrunch AI) highlights a notable AI development with score 8.7.",
+      "summary_zh": "TechCrunch AI 报道：Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research，综合评分 8.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Aug/22/llm/",
+      "title": "llm 0.33",
+      "url": "https://simonwillison.net/2026/Aug/22/llm/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2. #1608, #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm embed-multi now accept --key. The Python EmbeddingModel.embed(), EmbeddingModel.embed_multi(), Collection.embed() and Collection.embed_multi() methods accept key= too, passing the resolved per-call key to embedding plugins without changing shared model state. Existing plugins that read self.key continue to work through a compatibility fallback. Thanks, ChrisJr404. #757, #1620 The embedding models now use the same pattern for keys that regular LLM models do. llm prompt -t/--template can now be repeated to combine templates in order. This allows model configuration and options from one template to be used with a prompt from another. This unlocks a neat pattern where you can create templates that package a model with a set of default options: llm -m gpt-5.6-luna -o reasoning_effort high --save lhigh llm \"Generate an SVG of a pelican riding a bicycle\" --save pelican # Combine and run the templates llm -t lhigh -t pelican Reasoning-capable Responses API models now support a reasoning_summary option with auto, concise, and detailed values. This can be used with llm openai endpoint --responses. #1600 This is particularly useful for exercising different models that provide their own imitation of the OpenAI Responses API. Tags: annotated-release-notes, llm",
+      "published": "2026-08-22T17:01:16+00:00",
+      "published_dt": "2026-08-22T17:01:16+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "embedding"
+        ]
+      },
+      "summary_en": "llm 0.33 (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：llm 0.33，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-23T01:04:15.883554+00:00",
+      "published_dt": "2026-08-23T01:04:15.883554+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-08-23T01:04:15.883554+00:00",
+      "published_dt": "2026-08-23T01:04:15.883554+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/attention-interface",
+      "title": "The Evolution of the Agent Harness",
+      "url": "https://www.latent.space/p/attention-interface",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Sometime around Christmas 2025, AI engineers noticed a change in agents. They started to work! It’s hard to pin down exactly why. Maybe we finally had holiday downtime to try the newest agents with the newest models. Maybe the models had crossed some capability threshold. Maybe the wrappers around the models had matured.What I’ll argue in this post is that it was the confluence of the last two. The model and the harness improving together and then their curves of improvement crossing at the right moment. And that dynamic helps to explain what comes next: models keep absorbing the harness into their weights, engineers keep deleting what got absorbed, and what remains is a harness for human attention rather than for the model.Lukasz Kaiser, one of the people who invented the Transformer, said on “Unsupervised Learning” in June:“The change last winter, last Christmas — it’s a little hard to pin down. I mean, the harness changed and a little post-training changed and then new pre-trained models came… but it felt like a big jump which is not that easy to pin down what did it.”The answer to “What happened?” isn’t solely in the model weights. It’s in the system that grew up around the weights.The answer is in the agent harness.Think back to November 2022, when ChatGPT was the most advanced AI tool. The only capability at its disposal was next-token prediction and some Reinforcement Learning from Human Feedback (RLHF) that allowed it to act like a helpful assistant. No tools, no search, and no reasoning.The original ChatGPT was confined to its training data and the prompt you sent it. No more, no less. It was a brain in a vat.The agent harness is a way for the LLM to break free from that confinement and interact with real digital information space.What a Harness Actually IsAn agent harness is everything besides the model weights that makes the agent work. The environment, tools, context and guardrails that surround the model. Without the harness the model is a brain in a va",
+      "published": "2026-08-22T07:30:52+00:00",
+      "published_dt": "2026-08-22T07:30:52+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "transformer",
+          "agent",
+          "RLHF"
+        ]
+      },
+      "summary_en": "The Evolution of the Agent Harness (Latent Space) highlights a notable AI development with score 6.4.",
+      "summary_zh": "Latent Space 报道：The Evolution of the Agent Harness，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3155861",
+      "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "published": "2026-08-22T21:46:56+00:00",
+      "published_dt": "2026-08-22T21:46:56+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Harvard’s $699 startup bootcamp offers AI avatars of its instructors，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3155841",
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "published": "2026-08-22T16:30:34+00:00",
+      "published_dt": "2026-08-22T16:30:34+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "OpenAI says California should strengthen its AI safety bill (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI says California should strengthen its AI safety bill，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+      "title": "How Claude Watermarks AI-Generated Text",
+      "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+      "source": "Ahead of AI (Sebastian Raschka)",
+      "source_type": "rss",
+      "content": "I recently posted a Substack note about Claude’s new watermarking process and implementation. Since it’s such a popular topic and sparked such a lively discussion, I thought it might be interesting to go into a bit more detail when explaining how it works.Instead of the usual text article, I recorded a little lecture on the topic (to change it up a bit from my usual articles). So, below is the video along with a transcript.Originally, I planned to make 10 slides and record a short 10-min video. However, while putting it together, I added some crucial details here and there, resulting in >50 slides and a 48 min recording.I hope that this now explains it well, though! Happy watching!I also have a YouTube version if you prefer using the YouTube playerAnd here is a link to the slidesSubscribe nowVideo TranscriptNote: The transcript below is slightly edited and cleaned up for readability but preserves the overall order and flow of the video lecture above.0:00How Claude’s Text Watermarking WorksSlide 2 of 52, time stamp 0:00Hi everyone. So, a few days ago, Anthropic announced that they will watermark the text outputs of their Claude models. I then did a social media post briefly explaining how that works. And yeah, this was quite the popular post. So not the watermarking itself was popular, but I guess the explanation or the mechanism behind it. Then, it might be worthwhile expanding this a bit to explain it in more detail, because this post only had one figure, and there were a lot of questions and discussions.So, I thought, well, let’s make a few more figures. I actually originally planned to do like 10 slides and walk you through it. It ended up being 50 slides, but I hope this really explains how this watermarking technique works well, how watermarking itself can fail or be removed, and so forth. So I think it might be an interesting topic because a lot of people use LLMs these days and also consume a lot of text on the Internet that might be generated by LLMs.And now",
+      "published": "2026-08-22T11:11:39+00:00",
+      "published_dt": "2026-08-22T11:11:39+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "How Claude Watermarks AI-Generated Text (Ahead of AI (Sebastian Raschka)) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Ahead of AI (Sebastian Raschka) 报道：How Claude Watermarks AI-Generated Text，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3155518",
+      "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+      "published": "2026-08-22T16:00:00+00:00",
+      "published_dt": "2026-08-22T16:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Frontier AI labs still won’t say how they’d contain a rogue model (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Frontier AI labs still won’t say how they’d contain a rogue model，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
