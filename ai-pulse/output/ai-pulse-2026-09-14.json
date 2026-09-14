@@ -1,0 +1,703 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T03:08:20",
+  "stats": {
+    "total_items": 11,
+    "high_importance": 0,
+    "medium_importance": 11,
+    "categories_covered": 4
+  },
+  "top_stories": [],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 0,
+      "items": []
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3163436",
+          "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+          "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+          "published": "2026-09-13T16:30:00+00:00",
+          "published_dt": "2026-09-13T16:30:00+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：Obama urges Democrats to have a ‘clear plan’ for AI safeguards，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+          "title": "commit-rewriter 0.1",
+          "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit messages for a repository you can run it like this: uvx commit-rewriter path/to/repo Omit the path if you are already in the directory for that repo. When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent. Tags: git, projects, python, ai-assisted-programming",
+          "published": "2026-09-14T00:28:10+00:00",
+          "published_dt": "2026-09-14T00:28:10+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "commit-rewriter 0.1 (Simon Willison) highlights a notable AI development with score 6.6.",
+          "summary_zh": "Simon Willison 报道：commit-rewriter 0.1，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+          "title": "shot-scraper 1.12",
+          "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP file will be lossless. In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See the PR for some examples. I shipped this feature so I could use it to generate the screenshot for my new commit-rewriter tool. Tags: playwright, shot-scraper",
+          "published": "2026-09-13T23:58:14+00:00",
+          "published_dt": "2026-09-13T23:58:14+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "shot-scraper 1.12 (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：shot-scraper 1.12，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49689706",
+          "title": "Due to concerns about malicious applications, GPT2 will not be released (2019)",
+          "url": "https://openai.com/index/better-language-models/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-13T23:11:17+00:00",
+          "published_dt": "2026-09-13T23:11:17+00:00",
+          "hn_score": 60,
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Due to concerns about malicious applications, GPT2 will not be released (2019) (Hacker News) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Hacker News 报道：Due to concerns about malicious applications, GPT2 will not be released (2019)，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+          "published": "2026-09-14T00:00:00+00:00",
+          "published_dt": "2026-09-14T00:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Perplexity"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Perplexity trusts GPT-6 Astra with end-to-end systems (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Perplexity trusts GPT-6 Astra with end-to-end systems，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49685991",
+          "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+          "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-13T16:52:33+00:00",
+          "published_dt": "2026-09-13T16:52:33+00:00",
+          "hn_score": 279,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3163449",
+          "title": "What’s behind the AI industry’s latest warnings of doom?",
+          "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+          "published": "2026-09-13T19:40:15+00:00",
+          "published_dt": "2026-09-13T19:40:15+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "What’s behind the AI industry’s latest warnings of doom? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：What’s behind the AI industry’s latest warnings of doom?，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49685253",
+          "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
+          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-13T15:44:38+00:00",
+          "published_dt": "2026-09-13T15:44:38+00:00",
+          "hn_score": 366,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Garry Tan wants US open-weight AI labs to 'distill' frontier models, too，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-09-14T03:08:17.578553+00:00",
+          "published_dt": "2026-09-14T03:08:17.578553+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-09-14T03:08:17.578553+00:00",
+          "published_dt": "2026-09-14T03:08:17.578553+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.qbitai.com/?p=488519",
+          "title": "GitHub三榜第一背后，一个“专升本”工程师的十年",
+          "url": "https://www.qbitai.com/2026/09/488519.html",
+          "source": "量子位",
+          "source_type": "rss",
+          "content": "出身寒微不是耻辱，放弃自己才是。",
+          "published": "2026-09-13T07:20:19+00:00",
+          "published_dt": "2026-09-13T07:20:19+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "GitHub三榜第一背后，一个“专升本”工程师的十年 (量子位) highlights a notable AI development with score 5.3.",
+          "summary_zh": "量子位 报道：GitHub三榜第一背后，一个“专升本”工程师的十年，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-09-14T03:08:17.578553+00:00",
+      "published_dt": "2026-09-14T03:08:17.578553+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-09-14T03:08:17.578553+00:00",
+      "published_dt": "2026-09-14T03:08:17.578553+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "title": "commit-rewriter 0.1",
+      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit messages for a repository you can run it like this: uvx commit-rewriter path/to/repo Omit the path if you are already in the directory for that repo. When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent. Tags: git, projects, python, ai-assisted-programming",
+      "published": "2026-09-14T00:28:10+00:00",
+      "published_dt": "2026-09-14T00:28:10+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "commit-rewriter 0.1 (Simon Willison) highlights a notable AI development with score 6.6.",
+      "summary_zh": "Simon Willison 报道：commit-rewriter 0.1，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3163436",
+      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+      "published": "2026-09-13T16:30:00+00:00",
+      "published_dt": "2026-09-13T16:30:00+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：Obama urges Democrats to have a ‘clear plan’ for AI safeguards，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+      "title": "shot-scraper 1.12",
+      "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP file will be lossless. In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See the PR for some examples. I shipped this feature so I could use it to generate the screenshot for my new commit-rewriter tool. Tags: playwright, shot-scraper",
+      "published": "2026-09-13T23:58:14+00:00",
+      "published_dt": "2026-09-13T23:58:14+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "shot-scraper 1.12 (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：shot-scraper 1.12，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "published": "2026-09-14T00:00:00+00:00",
+      "published_dt": "2026-09-14T00:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Perplexity"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Perplexity trusts GPT-6 Astra with end-to-end systems (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Perplexity trusts GPT-6 Astra with end-to-end systems，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49685991",
+      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+      "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-13T16:52:33+00:00",
+      "published_dt": "2026-09-13T16:52:33+00:00",
+      "hn_score": 279,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49689706",
+      "title": "Due to concerns about malicious applications, GPT2 will not be released (2019)",
+      "url": "https://openai.com/index/better-language-models/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-13T23:11:17+00:00",
+      "published_dt": "2026-09-13T23:11:17+00:00",
+      "hn_score": 60,
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Due to concerns about malicious applications, GPT2 will not be released (2019) (Hacker News) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Hacker News 报道：Due to concerns about malicious applications, GPT2 will not be released (2019)，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.qbitai.com/?p=488519",
+      "title": "GitHub三榜第一背后，一个“专升本”工程师的十年",
+      "url": "https://www.qbitai.com/2026/09/488519.html",
+      "source": "量子位",
+      "source_type": "rss",
+      "content": "出身寒微不是耻辱，放弃自己才是。",
+      "published": "2026-09-13T07:20:19+00:00",
+      "published_dt": "2026-09-13T07:20:19+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "GitHub三榜第一背后，一个“专升本”工程师的十年 (量子位) highlights a notable AI development with score 5.3.",
+      "summary_zh": "量子位 报道：GitHub三榜第一背后，一个“专升本”工程师的十年，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3163449",
+      "title": "What’s behind the AI industry’s latest warnings of doom?",
+      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+      "published": "2026-09-13T19:40:15+00:00",
+      "published_dt": "2026-09-13T19:40:15+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "What’s behind the AI industry’s latest warnings of doom? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：What’s behind the AI industry’s latest warnings of doom?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49685253",
+      "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-13T15:44:38+00:00",
+      "published_dt": "2026-09-13T15:44:38+00:00",
+      "hn_score": 366,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Garry Tan wants US open-weight AI labs to 'distill' frontier models, too，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
