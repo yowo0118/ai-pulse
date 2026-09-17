@@ -1,0 +1,2333 @@
+{
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T03:10:57",
+  "stats": {
+    "total_items": 37,
+    "high_importance": 4,
+    "medium_importance": 33,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.latent.space/p/aiuc",
+      "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+      "url": "https://www.latent.space/p/aiuc",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "AIUC first got our attention with the NFDG backing, and have just announced a $40M series A today, with the most impressive industry advisor list we may have ever seen for an early startup behind AIUC-1, their agent standard backed by real insurance:From being Anthropic’s first product hire to building the standards, testing, and insurance infrastructure meant to make frontier AI deployable, Rune Kvist is betting that the biggest constraint on AI adoption won’t be capability it will be trust. In this episode, the AIUC cofounder joins swyx and Vibhu to announce a new $40M round and explain why companies like Cursor, Harvey, Lovable, and ElevenLabs are increasingly confronting a problem that gets harder as AI gets better: who is responsible when autonomous systems fail?We go deep on AIUC-1, the emerging standard for agent security, safety, and reliability; how AI agents are stress-tested for jailbreaks, hallucinations, and data leaks; and why Rune thinks standards and insurance could become critical infrastructure for AI. We also discuss the growing trust gap between governments and frontier labs, AI-enabled cyber and biological risks, why every model can ultimately be jailbroken, what happens when a $20 coding agent causes $200M of damage, whether AI engineers should be certified, and why even after AGI there may be one job the labs can never do themselves: be their own watchdog.We discuss:Why risk, liability, and trust may become the binding constraint on AI adoptionRune’s path from reading the Scaling Laws paper to joining Anthropic in its earliest daysWhat Anthropic understood about scaling, compute, and the future years before it became obviousWhy Waymo illustrates the gap between AI capability and real-world deploymentAIUC’s $40M round and work with Cursor, Harvey, Lovable, ElevenLabs, and other frontier AI companiesAIUC-1: a standard for AI agent security, safety, and reliabilityHow agents are tested for jailbreaks, hallucinations, and data leakageWhy most AI c",
+      "published": "2026-09-16T18:07:45+00:00",
+      "published_dt": "2026-09-16T18:07:45+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Harvey"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$40M",
+          "$200M",
+          "series A"
+        ],
+        "technologies": [
+          "agent",
+          "safety"
+        ]
+      },
+      "summary_en": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "AIEi Paris (Sep 23-24) and AIE NYC (Oct 12-14) is >50% sold out, AIE CODE (Nov 10-12 in SF) and AIEi Shanghai (Nov 5-6) are next on deck before AIEi Sydney (Dec 7-8 alongside NeurIPS) closes the year!It’s very rare that a new startup launch will make title story, especially on a day when Gemini 3.8 Live and Periodic Labs had strong announcements, however, TypeSafe’s launch has sat comfortably atop Hacker News all day. We were fortunate to preview them last month at AIE pre launch:and now their announcement (blog, evals, docs) has gotten millions of views:For those used to traditional autoregressive LLMs, a fast model that cannot code and doesn’t reason might feel counterintuitive in its usefulness. That’s exactly what the team is aiming for in complementing “System Two” slower LLMs: you let go of strings and chat, and you get 1) parallel sampling, 2) “no hallucination”, 3) calibration.The system was trained through “RLCD” - calibrated decisions: a topic that Clementine from HuggingFace had highlighted as one of the important research frontiers in our pod:AI News for 9/14/2026-9/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapPeriodic Labs’ Neon: Lab-Grounded RL for Materials ScienceNeon’s core result: The biggest technical story in the set is Periodic Labs’ Neon announcement via Liam Fedus: a model trained in a tight loop between high-throughput physical labs and ML, focused first on materials science problems like superconductors, magnets, and semiconductors. Periodic says it used 1,300 H200s, months of proprietary experimental data, mid-training plus RL, and an open-source base model to surpass GPT-6 Astra on its analysis benchmark. Follow-on posts add useful detail: @periodiclabs describes continuously running experiments feeding model improvement; @DBahdanau says the team trained",
+      "published": "2026-09-16T11:09:53+00:00",
+      "published_dt": "2026-09-16T11:09:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94087",
+      "title": "A Hard Year For Software IPOs",
+      "url": "https://news.crunchbase.com/public/energy-ai-defense-saas-ipos-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "If you’re looking to measure tech IPO market strength by the amount of money companies have raised, 2026 is certainly up there. U.S. venture-backed technology 1 companies have secured nearly $90 billion in domestic public offerings this year, per Crunchbase data. That’s already the second-highest annual tally on record, and we’ve still got a few months to go. However, virtually all the money went to two companies. SpaceX alone accounted for 83% of the $90 billion raised this year, while AI infrastructure company Cerebras Systems scooped up another 6%. A potential offering from Anthropic, meanwhile, could be even bigger. The remaining field is comparatively modest. Just 21 other venture-backed technology companies went public this year in sizable Nasdaq or New York Stock Exchange offerings 2, per Crunchbase data. Collectively, their offerings, which include traditional IPOs and SPAC deals, pulled in less than $10 billion. This small cohort is intriguing for what it excludes as well as what it includes. Enterprise software, long a staple industry among venture-backed IPOs, was essentially a no-show this year. Energy, defense and space tech, by contrast, were well-represented. We also saw smaller offerings from other sectors, including medical devices and consumer-facing startups. Here are some of the key findings in more detail: Energy powers the most IPOs: About a quarter of this year’s tech startup offerings hail from the energy sector. The largest of these was from geothermal energy provider Fervo Energy. Several nuclear power-focused startups also made their debuts, including X-energy and Hadron Energy, developers of small modular nuclear reactors, as well as Standard Nuclear, focused on advanced nuclear fuel. A dash of quantum, defense, aerospace, devices and consumer: Beyond energy, quantum computing company Quantinuum delivered one of the year’s larger debuts, as did equipment rental platform EquipmentShare. Defense tech and aerospace were also strong performer",
+      "published": "2026-09-16T11:00:47+00:00",
+      "published_dt": "2026-09-16T11:00:47+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$90 billion",
+          "$10 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "A Hard Year For Software IPOs (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：A Hard Year For Software IPOs，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3152543",
+      "title": "Former Infosys chief’s AI startup nabs another $53M",
+      "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.",
+      "published": "2026-09-16T13:00:00+00:00",
+      "published_dt": "2026-09-16T13:00:00+00:00",
+      "score": 8.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$53M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Former Infosys chief’s AI startup nabs another $53M (TechCrunch AI) highlights a notable AI development with score 8.6.",
+      "summary_zh": "TechCrunch AI 报道：Former Infosys chief’s AI startup nabs another $53M，综合评分 8.6，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 9,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+          "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+          "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "AIEi Paris (Sep 23-24) and AIE NYC (Oct 12-14) is >50% sold out, AIE CODE (Nov 10-12 in SF) and AIEi Shanghai (Nov 5-6) are next on deck before AIEi Sydney (Dec 7-8 alongside NeurIPS) closes the year!It’s very rare that a new startup launch will make title story, especially on a day when Gemini 3.8 Live and Periodic Labs had strong announcements, however, TypeSafe’s launch has sat comfortably atop Hacker News all day. We were fortunate to preview them last month at AIE pre launch:and now their announcement (blog, evals, docs) has gotten millions of views:For those used to traditional autoregressive LLMs, a fast model that cannot code and doesn’t reason might feel counterintuitive in its usefulness. That’s exactly what the team is aiming for in complementing “System Two” slower LLMs: you let go of strings and chat, and you get 1) parallel sampling, 2) “no hallucination”, 3) calibration.The system was trained through “RLCD” - calibrated decisions: a topic that Clementine from HuggingFace had highlighted as one of the important research frontiers in our pod:AI News for 9/14/2026-9/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapPeriodic Labs’ Neon: Lab-Grounded RL for Materials ScienceNeon’s core result: The biggest technical story in the set is Periodic Labs’ Neon announcement via Liam Fedus: a model trained in a tight loop between high-throughput physical labs and ML, focused first on materials science problems like superconductors, magnets, and semiconductors. Periodic says it used 1,300 H200s, months of proprietary experimental data, mid-training plus RL, and an open-source base model to surpass GPT-6 Astra on its analysis benchmark. Follow-on posts add useful detail: @periodiclabs describes continuously running experiments feeding model improvement; @DBahdanau says the team trained",
+          "published": "2026-09-16T11:09:53+00:00",
+          "published_dt": "2026-09-16T11:09:53+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "benchmark"
+            ]
+          },
+          "summary_en": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=996470",
+          "title": "The AI data center e-waste problem is huge — and getting bigger",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a significantly higher estimate of AI's e-waste than previous studies have found because the authors of the new report factor in all the infrastructure needed to support servers in data centers. The broader scope provides a clearer picture of junk AI leaves behind, according to the nonprofit Basel Action Network (BAN), which published the paper today. \"AI may feel weightless, but every model dep … Read the full story at The Verge.",
+          "published": "2026-09-16T20:40:46+00:00",
+          "published_dt": "2026-09-16T20:40:46+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The AI data center e-waste problem is huge — and getting bigger (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：The AI data center e-waste problem is huge — and getting bigger，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+          "title": "How to connect AI usage to business value",
+          "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+          "published": "2026-09-16T12:00:00+00:00",
+          "published_dt": "2026-09-16T12:00:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How to connect AI usage to business value (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：How to connect AI usage to business value，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/unlocking-new-ways-of-working",
+          "title": "How workers are unlocking new ways of working",
+          "url": "https://openai.com/index/unlocking-new-ways-of-working",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+          "published": "2026-09-16T09:00:00+00:00",
+          "published_dt": "2026-09-16T09:00:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How workers are unlocking new ways of working (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：How workers are unlocking new ways of working，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49726343",
+          "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
+          "url": "https://stale.jock.pl/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-16T13:01:52+00:00",
+          "published_dt": "2026-09-16T13:01:52+00:00",
+          "hn_score": 70,
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models (Hacker News) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Hacker News 报道：Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49732270",
+          "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+          "url": "https://mimo.xiaomi.com/rl/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-16T20:09:18+00:00",
+          "published_dt": "2026-09-16T20:09:18+00:00",
+          "hn_score": 295,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Xiaomi Mimo 2.6 live post-training dashboard (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：Xiaomi Mimo 2.6 live post-training dashboard，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49731285",
+          "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+          "url": "https://rohanbansal.com/qorl",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-16T18:50:00+00:00",
+          "published_dt": "2026-09-16T18:50:00+00:00",
+          "hn_score": 426,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Training a 4B model to produce 81% faster query plans than Postgres (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：Training a 4B model to produce 81% faster query plans than Postgres，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3164631",
+          "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 on your pass.",
+          "published": "2026-09-16T15:00:00+00:00",
+          "published_dt": "2026-09-16T15:00:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=995348",
+          "title": "The sexy AI-powered dating app scams are here",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Security researcher Matthew \"Zigula\" Gore-Kormanik was analyzing a fraudulent dating app called Dora when he got a pop-up message saying he was receiving a call from Jennifer. According to her bio, she's a 41-year-old Sagittarius with red hair, blue eyes, and piercings. She likes music, horror movies, nightlife, and sports. Gore-Kormanik answered the call, but didn't see Jennifer in his video feed. He saw a tapestry that was moving, probably due to a fan, and heard weird distortion in the background. After the call ended, \"Jennifer\" messaged him to say she'd had fun and \"your voice is way better than expected.\" His microphone hadn't even be … Read the full story at The Verge.",
+          "published": "2026-09-16T14:45:00+00:00",
+          "published_dt": "2026-09-16T14:45:00+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The sexy AI-powered dating app scams are here (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：The sexy AI-powered dating app scams are here，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/aiuc",
+          "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+          "url": "https://www.latent.space/p/aiuc",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "AIUC first got our attention with the NFDG backing, and have just announced a $40M series A today, with the most impressive industry advisor list we may have ever seen for an early startup behind AIUC-1, their agent standard backed by real insurance:From being Anthropic’s first product hire to building the standards, testing, and insurance infrastructure meant to make frontier AI deployable, Rune Kvist is betting that the biggest constraint on AI adoption won’t be capability it will be trust. In this episode, the AIUC cofounder joins swyx and Vibhu to announce a new $40M round and explain why companies like Cursor, Harvey, Lovable, and ElevenLabs are increasingly confronting a problem that gets harder as AI gets better: who is responsible when autonomous systems fail?We go deep on AIUC-1, the emerging standard for agent security, safety, and reliability; how AI agents are stress-tested for jailbreaks, hallucinations, and data leaks; and why Rune thinks standards and insurance could become critical infrastructure for AI. We also discuss the growing trust gap between governments and frontier labs, AI-enabled cyber and biological risks, why every model can ultimately be jailbroken, what happens when a $20 coding agent causes $200M of damage, whether AI engineers should be certified, and why even after AGI there may be one job the labs can never do themselves: be their own watchdog.We discuss:Why risk, liability, and trust may become the binding constraint on AI adoptionRune’s path from reading the Scaling Laws paper to joining Anthropic in its earliest daysWhat Anthropic understood about scaling, compute, and the future years before it became obviousWhy Waymo illustrates the gap between AI capability and real-world deploymentAIUC’s $40M round and work with Cursor, Harvey, Lovable, ElevenLabs, and other frontier AI companiesAIUC-1: a standard for AI agent security, safety, and reliabilityHow agents are tested for jailbreaks, hallucinations, and data leakageWhy most AI c",
+          "published": "2026-09-16T18:07:45+00:00",
+          "published_dt": "2026-09-16T18:07:45+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Harvey"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$40M",
+              "$200M",
+              "series A"
+            ],
+            "technologies": [
+              "agent",
+              "safety"
+            ]
+          },
+          "summary_en": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=94087",
+          "title": "A Hard Year For Software IPOs",
+          "url": "https://news.crunchbase.com/public/energy-ai-defense-saas-ipos-2026/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "If you’re looking to measure tech IPO market strength by the amount of money companies have raised, 2026 is certainly up there. U.S. venture-backed technology 1 companies have secured nearly $90 billion in domestic public offerings this year, per Crunchbase data. That’s already the second-highest annual tally on record, and we’ve still got a few months to go. However, virtually all the money went to two companies. SpaceX alone accounted for 83% of the $90 billion raised this year, while AI infrastructure company Cerebras Systems scooped up another 6%. A potential offering from Anthropic, meanwhile, could be even bigger. The remaining field is comparatively modest. Just 21 other venture-backed technology companies went public this year in sizable Nasdaq or New York Stock Exchange offerings 2, per Crunchbase data. Collectively, their offerings, which include traditional IPOs and SPAC deals, pulled in less than $10 billion. This small cohort is intriguing for what it excludes as well as what it includes. Enterprise software, long a staple industry among venture-backed IPOs, was essentially a no-show this year. Energy, defense and space tech, by contrast, were well-represented. We also saw smaller offerings from other sectors, including medical devices and consumer-facing startups. Here are some of the key findings in more detail: Energy powers the most IPOs: About a quarter of this year’s tech startup offerings hail from the energy sector. The largest of these was from geothermal energy provider Fervo Energy. Several nuclear power-focused startups also made their debuts, including X-energy and Hadron Energy, developers of small modular nuclear reactors, as well as Standard Nuclear, focused on advanced nuclear fuel. A dash of quantum, defense, aerospace, devices and consumer: Beyond energy, quantum computing company Quantinuum delivered one of the year’s larger debuts, as did equipment rental platform EquipmentShare. Defense tech and aerospace were also strong performer",
+          "published": "2026-09-16T11:00:47+00:00",
+          "published_dt": "2026-09-16T11:00:47+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$90 billion",
+              "$10 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "A Hard Year For Software IPOs (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：A Hard Year For Software IPOs，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/model-misalignment-reporting-framework",
+          "title": "Our framework for reporting model misalignment",
+          "url": "https://openai.com/index/model-misalignment-reporting-framework",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+          "published": "2026-09-16T17:00:00+00:00",
+          "published_dt": "2026-09-16T17:00:00+00:00",
+          "score": 7.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "alignment"
+            ]
+          },
+          "summary_en": "Our framework for reporting model misalignment (OpenAI Blog) highlights a notable AI development with score 7.6.",
+          "summary_zh": "OpenAI Blog 报道：Our framework for reporting model misalignment，综合评分 7.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3164598",
+          "title": "Next wave of VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 revealed",
+          "url": "https://techcrunch.com/2026/09/16/next-wave-of-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026-revealed/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meet the next five top-tier investors judging the Startup Battlefield 200 contenders live at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 and don't miss a moment of the ultimate startup pitch competition.",
+          "published": "2026-09-16T14:15:00+00:00",
+          "published_dt": "2026-09-16T14:15:00+00:00",
+          "score": 7.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Next wave of VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 revealed (TechCrunch AI) highlights a notable AI development with score 7.4.",
+          "summary_zh": "TechCrunch AI 报道：Next wave of VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 revealed，综合评分 7.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=84369",
+          "title": "The Crunchbase Tech Layoffs Tracker",
+          "url": "https://news.crunchbase.com/startups/tech-layoffs/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Methodology This tracker includes layoffs conducted by U.S.-based companies or those with a strong U.S. presence and is updated at least bi-weekly. We’ve included both startups and publicly traded, tech-heavy companies. We’ve also included companies based elsewhere that have a sizable team in the United States, such as Klarna, even when it’s unclear how much of the U.S. workforce has been affected by layoffs. Layoff and workforce figures are best estimates based on reporting. We source the layoffs from media reports, our own reporting, social media posts and layoffs.fyi, a crowdsourced database of tech layoffs. We recently updated our layoffs tracker to reflect the most recent round of layoffs each company has conducted. This allows us to quickly and more accurately track layoff trends, which is why you might notice some changes in our most recent numbers. If an employee headcount cannot be confirmed to our standards, we note it as “unclear.”",
+          "published": "2026-09-16T16:28:30+00:00",
+          "published_dt": "2026-09-16T16:28:30+00:00",
+          "score": 7.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Crunchbase Tech Layoffs Tracker (Crunchbase News) highlights a notable AI development with score 7.2.",
+          "summary_zh": "Crunchbase News 报道：The Crunchbase Tech Layoffs Tracker，综合评分 7.2，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3164491",
+          "title": "3 days left to exhibit: Get your brand in front of VCs and high-value leads at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/16/3-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Last day to book your exhibit table at Disrupt is September 18. Three days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
+          "published": "2026-09-16T14:00:00+00:00",
+          "published_dt": "2026-09-16T14:00:00+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "3 days left to exhibit: Get your brand in front of VCs and high-value leads at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：3 days left to exhibit: Get your brand in front of VCs and high-value leads at TechCrunch Disrupt 2026，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3152543",
+          "title": "Former Infosys chief’s AI startup nabs another $53M",
+          "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.",
+          "published": "2026-09-16T13:00:00+00:00",
+          "published_dt": "2026-09-16T13:00:00+00:00",
+          "score": 8.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$53M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Former Infosys chief’s AI startup nabs another $53M (TechCrunch AI) highlights a notable AI development with score 8.6.",
+          "summary_zh": "TechCrunch AI 报道：Former Infosys chief’s AI startup nabs another $53M，综合评分 8.6，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3164815",
+          "title": "Your AI agents can now control your Google Home devices",
+          "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
+          "published": "2026-09-16T17:00:00+00:00",
+          "published_dt": "2026-09-16T17:00:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "MCP"
+            ]
+          },
+          "summary_en": "Your AI agents can now control your Google Home devices (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Your AI agents can now control your Google Home devices，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3164327",
+          "title": "Amazon launches Alexa+ in India with Hindi support",
+          "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Amazon is letting all customers use Alexa+ assistant in early access period.",
+          "published": "2026-09-16T10:34:47+00:00",
+          "published_dt": "2026-09-16T10:34:47+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon launches Alexa+ in India with Hindi support (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Amazon launches Alexa+ in India with Hindi support，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=996078",
+          "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+          "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Specs Intelligence as an \"anticipatory AI service\" that \"helps you manage what needs attention today, so you can make progress toward your longer-term goals.\" Like with other AI assistants, you can also chat with it. Specs Intelligence is being launched alongside Specs, Snap's first consumer pair of augmented reality glasses. But it's also available on iOS today in pre … Read the full story at The Verge.",
+          "published": "2026-09-16T23:40:00+00:00",
+          "published_dt": "2026-09-16T23:40:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/16/datasette/",
+          "title": "datasette 1.0a40",
+          "url": "https://simonwillison.net/2026/Sep/16/datasette/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette 1.0a40 Same security fix as 0.65.5, plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia. I've migrated Datasette to httpx2 for features like the internal datasette.client.get() method. A whole lot of bug fixes, many of them stemming from a recent effort to triage issues for a 1.0 stable release. Tags: security, datasette",
+          "published": "2026-09-16T23:51:43+00:00",
+          "published_dt": "2026-09-16T23:51:43+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "datasette 1.0a40 (Simon Willison) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Simon Willison 报道：datasette 1.0a40，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+          "title": "datasette 0.65.5",
+          "url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m. Tags: security, datasette",
+          "published": "2026-09-16T23:51:08+00:00",
+          "published_dt": "2026-09-16T23:51:08+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "datasette 0.65.5 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：datasette 0.65.5，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=996234",
+          "title": "Claude comes for Gemini with its own take on Docs and Slides",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Claude is getting a pair of new tools today: Docs and Slides. They'll let you create documents and presentations through Claude chats, which you can export, edit, and share with other users. As part of the announcement, Anthropic is also simplifying how Claude chats work, merging regular chats and Cowork into \"one Claude,\" with all of its AI productivity tools available from any chat. Artifacts and Claude Design capabilities will be available through the new single interface as well. According to Anthropic, Claude \"can now figure out what a task needs, so what Cowork and Design can do is available from any conversation, with the context, sk … Read the full story at The Verge.",
+          "published": "2026-09-16T16:30:00+00:00",
+          "published_dt": "2026-09-16T16:30:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Claude comes for Gemini with its own take on Docs and Slides (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Claude comes for Gemini with its own take on Docs and Slides，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3165076",
+          "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
+          "published": "2026-09-16T21:07:24+00:00",
+          "published_dt": "2026-09-16T21:07:24+00:00",
+          "score": 7.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent? (TechCrunch AI) highlights a notable AI development with score 7.4.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?，综合评分 7.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/reimagining-advertising-with-ai",
+          "title": "Reimagining advertising with AI",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+          "published": "2026-09-16T13:00:00+00:00",
+          "published_dt": "2026-09-16T13:00:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Reimagining advertising with AI (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：Reimagining advertising with AI，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+          "title": "Helping older adults use AI in everyday life",
+          "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+          "published": "2026-09-16T16:00:00+00:00",
+          "published_dt": "2026-09-16T16:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Helping older adults use AI in everyday life (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Helping older adults use AI in everyday life，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49723408",
+          "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+          "url": "https://mistral.ai/news/mistral-x-mozilla/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-16T08:08:57+00:00",
+          "published_dt": "2026-09-16T08:08:57+00:00",
+          "hn_score": 541,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Mistral"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Mistral X Mozilla: Private, Multilingual AI Browsing (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Mistral X Mozilla: Private, Multilingual AI Browsing，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3165213",
+          "title": "Snap tries to make the case again for its $2,200 smart glasses",
+          "url": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Since Specs' debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist.",
+          "published": "2026-09-17T00:58:49+00:00",
+          "published_dt": "2026-09-17T00:58:49+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Snap tries to make the case again for its $2,200 smart glasses (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Snap tries to make the case again for its $2,200 smart glasses，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3165204",
+          "title": "Al Gore says the real AI risk isn’t data centers — it’s what industry leaders are warning about",
+          "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed.",
+          "published": "2026-09-16T23:43:09+00:00",
+          "published_dt": "2026-09-16T23:43:09+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Al Gore says the real AI risk isn’t data centers — it’s what industry leaders are warning about (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Al Gore says the real AI risk isn’t data centers — it’s what industry leaders are warning about，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3164997",
+          "title": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera",
+          "url": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Can Meta dodge the \"pervert glasses\" accusations with a new camera-free product?",
+          "published": "2026-09-16T20:12:00+00:00",
+          "published_dt": "2026-09-16T20:12:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3164427",
+          "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
+          "published": "2026-09-16T18:25:25+00:00",
+          "published_dt": "2026-09-16T18:25:25+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "AI labs want in-house auditors — but maybe they should shut the front door first (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：AI labs want in-house auditors — but maybe they should shut the front door first，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3164745",
+          "title": "Anthropic merges Claude chat and Cowork in one interface",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+          "published": "2026-09-16T16:30:00+00:00",
+          "published_dt": "2026-09-16T16:30:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic merges Claude chat and Cowork in one interface (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic merges Claude chat and Cowork in one interface，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49727627",
+          "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
+          "url": "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-16T14:30:36+00:00",
+          "published_dt": "2026-09-16T14:30:36+00:00",
+          "hn_score": 306,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\" (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-09-17T03:10:54.046198+00:00",
+          "published_dt": "2026-09-17T03:10:54.046198+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-09-17T03:10:54.046198+00:00",
+          "published_dt": "2026-09-17T03:10:54.046198+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.latent.space/p/aiuc",
+      "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+      "url": "https://www.latent.space/p/aiuc",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "AIUC first got our attention with the NFDG backing, and have just announced a $40M series A today, with the most impressive industry advisor list we may have ever seen for an early startup behind AIUC-1, their agent standard backed by real insurance:From being Anthropic’s first product hire to building the standards, testing, and insurance infrastructure meant to make frontier AI deployable, Rune Kvist is betting that the biggest constraint on AI adoption won’t be capability it will be trust. In this episode, the AIUC cofounder joins swyx and Vibhu to announce a new $40M round and explain why companies like Cursor, Harvey, Lovable, and ElevenLabs are increasingly confronting a problem that gets harder as AI gets better: who is responsible when autonomous systems fail?We go deep on AIUC-1, the emerging standard for agent security, safety, and reliability; how AI agents are stress-tested for jailbreaks, hallucinations, and data leaks; and why Rune thinks standards and insurance could become critical infrastructure for AI. We also discuss the growing trust gap between governments and frontier labs, AI-enabled cyber and biological risks, why every model can ultimately be jailbroken, what happens when a $20 coding agent causes $200M of damage, whether AI engineers should be certified, and why even after AGI there may be one job the labs can never do themselves: be their own watchdog.We discuss:Why risk, liability, and trust may become the binding constraint on AI adoptionRune’s path from reading the Scaling Laws paper to joining Anthropic in its earliest daysWhat Anthropic understood about scaling, compute, and the future years before it became obviousWhy Waymo illustrates the gap between AI capability and real-world deploymentAIUC’s $40M round and work with Cursor, Harvey, Lovable, ElevenLabs, and other frontier AI companiesAIUC-1: a standard for AI agent security, safety, and reliabilityHow agents are tested for jailbreaks, hallucinations, and data leakageWhy most AI c",
+      "published": "2026-09-16T18:07:45+00:00",
+      "published_dt": "2026-09-16T18:07:45+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Harvey"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$40M",
+          "$200M",
+          "series A"
+        ],
+        "technologies": [
+          "agent",
+          "safety"
+        ]
+      },
+      "summary_en": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "AIEi Paris (Sep 23-24) and AIE NYC (Oct 12-14) is >50% sold out, AIE CODE (Nov 10-12 in SF) and AIEi Shanghai (Nov 5-6) are next on deck before AIEi Sydney (Dec 7-8 alongside NeurIPS) closes the year!It’s very rare that a new startup launch will make title story, especially on a day when Gemini 3.8 Live and Periodic Labs had strong announcements, however, TypeSafe’s launch has sat comfortably atop Hacker News all day. We were fortunate to preview them last month at AIE pre launch:and now their announcement (blog, evals, docs) has gotten millions of views:For those used to traditional autoregressive LLMs, a fast model that cannot code and doesn’t reason might feel counterintuitive in its usefulness. That’s exactly what the team is aiming for in complementing “System Two” slower LLMs: you let go of strings and chat, and you get 1) parallel sampling, 2) “no hallucination”, 3) calibration.The system was trained through “RLCD” - calibrated decisions: a topic that Clementine from HuggingFace had highlighted as one of the important research frontiers in our pod:AI News for 9/14/2026-9/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapPeriodic Labs’ Neon: Lab-Grounded RL for Materials ScienceNeon’s core result: The biggest technical story in the set is Periodic Labs’ Neon announcement via Liam Fedus: a model trained in a tight loop between high-throughput physical labs and ML, focused first on materials science problems like superconductors, magnets, and semiconductors. Periodic says it used 1,300 H200s, months of proprietary experimental data, mid-training plus RL, and an open-source base model to surpass GPT-6 Astra on its analysis benchmark. Follow-on posts add useful detail: @periodiclabs describes continuously running experiments feeding model improvement; @DBahdanau says the team trained",
+      "published": "2026-09-16T11:09:53+00:00",
+      "published_dt": "2026-09-16T11:09:53+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94087",
+      "title": "A Hard Year For Software IPOs",
+      "url": "https://news.crunchbase.com/public/energy-ai-defense-saas-ipos-2026/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "If you’re looking to measure tech IPO market strength by the amount of money companies have raised, 2026 is certainly up there. U.S. venture-backed technology 1 companies have secured nearly $90 billion in domestic public offerings this year, per Crunchbase data. That’s already the second-highest annual tally on record, and we’ve still got a few months to go. However, virtually all the money went to two companies. SpaceX alone accounted for 83% of the $90 billion raised this year, while AI infrastructure company Cerebras Systems scooped up another 6%. A potential offering from Anthropic, meanwhile, could be even bigger. The remaining field is comparatively modest. Just 21 other venture-backed technology companies went public this year in sizable Nasdaq or New York Stock Exchange offerings 2, per Crunchbase data. Collectively, their offerings, which include traditional IPOs and SPAC deals, pulled in less than $10 billion. This small cohort is intriguing for what it excludes as well as what it includes. Enterprise software, long a staple industry among venture-backed IPOs, was essentially a no-show this year. Energy, defense and space tech, by contrast, were well-represented. We also saw smaller offerings from other sectors, including medical devices and consumer-facing startups. Here are some of the key findings in more detail: Energy powers the most IPOs: About a quarter of this year’s tech startup offerings hail from the energy sector. The largest of these was from geothermal energy provider Fervo Energy. Several nuclear power-focused startups also made their debuts, including X-energy and Hadron Energy, developers of small modular nuclear reactors, as well as Standard Nuclear, focused on advanced nuclear fuel. A dash of quantum, defense, aerospace, devices and consumer: Beyond energy, quantum computing company Quantinuum delivered one of the year’s larger debuts, as did equipment rental platform EquipmentShare. Defense tech and aerospace were also strong performer",
+      "published": "2026-09-16T11:00:47+00:00",
+      "published_dt": "2026-09-16T11:00:47+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$90 billion",
+          "$10 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "A Hard Year For Software IPOs (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：A Hard Year For Software IPOs，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3152543",
+      "title": "Former Infosys chief’s AI startup nabs another $53M",
+      "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.",
+      "published": "2026-09-16T13:00:00+00:00",
+      "published_dt": "2026-09-16T13:00:00+00:00",
+      "score": 8.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$53M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Former Infosys chief’s AI startup nabs another $53M (TechCrunch AI) highlights a notable AI development with score 8.6.",
+      "summary_zh": "TechCrunch AI 报道：Former Infosys chief’s AI startup nabs another $53M，综合评分 8.6，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/model-misalignment-reporting-framework",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "published": "2026-09-16T17:00:00+00:00",
+      "published_dt": "2026-09-16T17:00:00+00:00",
+      "score": 7.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "alignment"
+        ]
+      },
+      "summary_en": "Our framework for reporting model misalignment (OpenAI Blog) highlights a notable AI development with score 7.6.",
+      "summary_zh": "OpenAI Blog 报道：Our framework for reporting model misalignment，综合评分 7.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3165076",
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
+      "published": "2026-09-16T21:07:24+00:00",
+      "published_dt": "2026-09-16T21:07:24+00:00",
+      "score": 7.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent? (TechCrunch AI) highlights a notable AI development with score 7.4.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?，综合评分 7.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164598",
+      "title": "Next wave of VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 revealed",
+      "url": "https://techcrunch.com/2026/09/16/next-wave-of-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026-revealed/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meet the next five top-tier investors judging the Startup Battlefield 200 contenders live at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 and don't miss a moment of the ultimate startup pitch competition.",
+      "published": "2026-09-16T14:15:00+00:00",
+      "published_dt": "2026-09-16T14:15:00+00:00",
+      "score": 7.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Next wave of VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 revealed (TechCrunch AI) highlights a notable AI development with score 7.4.",
+      "summary_zh": "TechCrunch AI 报道：Next wave of VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 revealed，综合评分 7.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=84369",
+      "title": "The Crunchbase Tech Layoffs Tracker",
+      "url": "https://news.crunchbase.com/startups/tech-layoffs/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Methodology This tracker includes layoffs conducted by U.S.-based companies or those with a strong U.S. presence and is updated at least bi-weekly. We’ve included both startups and publicly traded, tech-heavy companies. We’ve also included companies based elsewhere that have a sizable team in the United States, such as Klarna, even when it’s unclear how much of the U.S. workforce has been affected by layoffs. Layoff and workforce figures are best estimates based on reporting. We source the layoffs from media reports, our own reporting, social media posts and layoffs.fyi, a crowdsourced database of tech layoffs. We recently updated our layoffs tracker to reflect the most recent round of layoffs each company has conducted. This allows us to quickly and more accurately track layoff trends, which is why you might notice some changes in our most recent numbers. If an employee headcount cannot be confirmed to our standards, we note it as “unclear.”",
+      "published": "2026-09-16T16:28:30+00:00",
+      "published_dt": "2026-09-16T16:28:30+00:00",
+      "score": 7.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Crunchbase Tech Layoffs Tracker (Crunchbase News) highlights a notable AI development with score 7.2.",
+      "summary_zh": "Crunchbase News 报道：The Crunchbase Tech Layoffs Tracker，综合评分 7.2，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-09-17T03:10:54.046198+00:00",
+      "published_dt": "2026-09-17T03:10:54.046198+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-09-17T03:10:54.046198+00:00",
+      "published_dt": "2026-09-17T03:10:54.046198+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Sep/16/datasette/",
+      "title": "datasette 1.0a40",
+      "url": "https://simonwillison.net/2026/Sep/16/datasette/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette 1.0a40 Same security fix as 0.65.5, plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia. I've migrated Datasette to httpx2 for features like the internal datasette.client.get() method. A whole lot of bug fixes, many of them stemming from a recent effort to triage issues for a 1.0 stable release. Tags: security, datasette",
+      "published": "2026-09-16T23:51:43+00:00",
+      "published_dt": "2026-09-16T23:51:43+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "datasette 1.0a40 (Simon Willison) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Simon Willison 报道：datasette 1.0a40，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=996470",
+      "title": "The AI data center e-waste problem is huge — and getting bigger",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a significantly higher estimate of AI's e-waste than previous studies have found because the authors of the new report factor in all the infrastructure needed to support servers in data centers. The broader scope provides a clearer picture of junk AI leaves behind, according to the nonprofit Basel Action Network (BAN), which published the paper today. \"AI may feel weightless, but every model dep … Read the full story at The Verge.",
+      "published": "2026-09-16T20:40:46+00:00",
+      "published_dt": "2026-09-16T20:40:46+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The AI data center e-waste problem is huge — and getting bigger (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：The AI data center e-waste problem is huge — and getting bigger，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/reimagining-advertising-with-ai",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "published": "2026-09-16T13:00:00+00:00",
+      "published_dt": "2026-09-16T13:00:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Reimagining advertising with AI (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：Reimagining advertising with AI，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "title": "How to connect AI usage to business value",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "published": "2026-09-16T12:00:00+00:00",
+      "published_dt": "2026-09-16T12:00:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How to connect AI usage to business value (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：How to connect AI usage to business value，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/unlocking-new-ways-of-working",
+      "title": "How workers are unlocking new ways of working",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "published": "2026-09-16T09:00:00+00:00",
+      "published_dt": "2026-09-16T09:00:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How workers are unlocking new ways of working (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：How workers are unlocking new ways of working，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164491",
+      "title": "3 days left to exhibit: Get your brand in front of VCs and high-value leads at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/16/3-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Last day to book your exhibit table at Disrupt is September 18. Three days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
+      "published": "2026-09-16T14:00:00+00:00",
+      "published_dt": "2026-09-16T14:00:00+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "3 days left to exhibit: Get your brand in front of VCs and high-value leads at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：3 days left to exhibit: Get your brand in front of VCs and high-value leads at TechCrunch Disrupt 2026，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164815",
+      "title": "Your AI agents can now control your Google Home devices",
+      "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
+      "published": "2026-09-16T17:00:00+00:00",
+      "published_dt": "2026-09-16T17:00:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "MCP"
+        ]
+      },
+      "summary_en": "Your AI agents can now control your Google Home devices (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Your AI agents can now control your Google Home devices，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164327",
+      "title": "Amazon launches Alexa+ in India with Hindi support",
+      "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Amazon is letting all customers use Alexa+ assistant in early access period.",
+      "published": "2026-09-16T10:34:47+00:00",
+      "published_dt": "2026-09-16T10:34:47+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon launches Alexa+ in India with Hindi support (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Amazon launches Alexa+ in India with Hindi support，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49726343",
+      "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
+      "url": "https://stale.jock.pl/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-16T13:01:52+00:00",
+      "published_dt": "2026-09-16T13:01:52+00:00",
+      "hn_score": 70,
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models (Hacker News) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Hacker News 报道：Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "published": "2026-09-16T16:00:00+00:00",
+      "published_dt": "2026-09-16T16:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Helping older adults use AI in everyday life (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Helping older adults use AI in everyday life，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49723408",
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "url": "https://mistral.ai/news/mistral-x-mozilla/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-16T08:08:57+00:00",
+      "published_dt": "2026-09-16T08:08:57+00:00",
+      "hn_score": 541,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Mistral"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Mistral X Mozilla: Private, Multilingual AI Browsing (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Mistral X Mozilla: Private, Multilingual AI Browsing，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49732270",
+      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "url": "https://mimo.xiaomi.com/rl/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-16T20:09:18+00:00",
+      "published_dt": "2026-09-16T20:09:18+00:00",
+      "hn_score": 295,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Xiaomi Mimo 2.6 live post-training dashboard (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：Xiaomi Mimo 2.6 live post-training dashboard，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49731285",
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "url": "https://rohanbansal.com/qorl",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-16T18:50:00+00:00",
+      "published_dt": "2026-09-16T18:50:00+00:00",
+      "hn_score": 426,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Training a 4B model to produce 81% faster query plans than Postgres (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：Training a 4B model to produce 81% faster query plans than Postgres，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164631",
+      "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 on your pass.",
+      "published": "2026-09-16T15:00:00+00:00",
+      "published_dt": "2026-09-16T15:00:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=995348",
+      "title": "The sexy AI-powered dating app scams are here",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Security researcher Matthew \"Zigula\" Gore-Kormanik was analyzing a fraudulent dating app called Dora when he got a pop-up message saying he was receiving a call from Jennifer. According to her bio, she's a 41-year-old Sagittarius with red hair, blue eyes, and piercings. She likes music, horror movies, nightlife, and sports. Gore-Kormanik answered the call, but didn't see Jennifer in his video feed. He saw a tapestry that was moving, probably due to a fan, and heard weird distortion in the background. After the call ended, \"Jennifer\" messaged him to say she'd had fun and \"your voice is way better than expected.\" His microphone hadn't even be … Read the full story at The Verge.",
+      "published": "2026-09-16T14:45:00+00:00",
+      "published_dt": "2026-09-16T14:45:00+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The sexy AI-powered dating app scams are here (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：The sexy AI-powered dating app scams are here，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+      "title": "datasette 0.65.5",
+      "url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m. Tags: security, datasette",
+      "published": "2026-09-16T23:51:08+00:00",
+      "published_dt": "2026-09-16T23:51:08+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "datasette 0.65.5 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：datasette 0.65.5，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=996078",
+      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+      "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Specs Intelligence as an \"anticipatory AI service\" that \"helps you manage what needs attention today, so you can make progress toward your longer-term goals.\" Like with other AI assistants, you can also chat with it. Specs Intelligence is being launched alongside Specs, Snap's first consumer pair of augmented reality glasses. But it's also available on iOS today in pre … Read the full story at The Verge.",
+      "published": "2026-09-16T23:40:00+00:00",
+      "published_dt": "2026-09-16T23:40:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=996234",
+      "title": "Claude comes for Gemini with its own take on Docs and Slides",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Claude is getting a pair of new tools today: Docs and Slides. They'll let you create documents and presentations through Claude chats, which you can export, edit, and share with other users. As part of the announcement, Anthropic is also simplifying how Claude chats work, merging regular chats and Cowork into \"one Claude,\" with all of its AI productivity tools available from any chat. Artifacts and Claude Design capabilities will be available through the new single interface as well. According to Anthropic, Claude \"can now figure out what a task needs, so what Cowork and Design can do is available from any conversation, with the context, sk … Read the full story at The Verge.",
+      "published": "2026-09-16T16:30:00+00:00",
+      "published_dt": "2026-09-16T16:30:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Claude comes for Gemini with its own take on Docs and Slides (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Claude comes for Gemini with its own take on Docs and Slides，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3165213",
+      "title": "Snap tries to make the case again for its $2,200 smart glasses",
+      "url": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Since Specs' debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist.",
+      "published": "2026-09-17T00:58:49+00:00",
+      "published_dt": "2026-09-17T00:58:49+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Snap tries to make the case again for its $2,200 smart glasses (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Snap tries to make the case again for its $2,200 smart glasses，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3165204",
+      "title": "Al Gore says the real AI risk isn’t data centers — it’s what industry leaders are warning about",
+      "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed.",
+      "published": "2026-09-16T23:43:09+00:00",
+      "published_dt": "2026-09-16T23:43:09+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Al Gore says the real AI risk isn’t data centers — it’s what industry leaders are warning about (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Al Gore says the real AI risk isn’t data centers — it’s what industry leaders are warning about，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164997",
+      "title": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera",
+      "url": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Can Meta dodge the \"pervert glasses\" accusations with a new camera-free product?",
+      "published": "2026-09-16T20:12:00+00:00",
+      "published_dt": "2026-09-16T20:12:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164427",
+      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
+      "published": "2026-09-16T18:25:25+00:00",
+      "published_dt": "2026-09-16T18:25:25+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "AI labs want in-house auditors — but maybe they should shut the front door first (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：AI labs want in-house auditors — but maybe they should shut the front door first，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164745",
+      "title": "Anthropic merges Claude chat and Cowork in one interface",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+      "published": "2026-09-16T16:30:00+00:00",
+      "published_dt": "2026-09-16T16:30:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic merges Claude chat and Cowork in one interface (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic merges Claude chat and Cowork in one interface，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49727627",
+      "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
+      "url": "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-16T14:30:36+00:00",
+      "published_dt": "2026-09-16T14:30:36+00:00",
+      "hn_score": 306,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\" (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164799",
+      "title": "Threads’ new features let podcasters promote shows and reach listeners",
+      "url": "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Threads is rolling out new tools for podcasters, including profile cards, episode links, transcripts, guest tags, posting reminders, and audience insights, as Meta looks to make the X rival a bigger hub for podcast promotion and discussion.",
+      "published": "2026-09-16T14:24:58+00:00",
+      "published_dt": "2026-09-16T14:24:58+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Threads’ new features let podcasters promote shows and reach listeners (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Threads’ new features let podcasters promote shows and reach listeners，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164755",
+      "title": "SK Hynix reportedly in talks with Intel to build memory chips in US",
+      "url": "https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "SK Hynix told TechCrunch the company hasn't finalized any plans or arrangements yet.",
+      "published": "2026-09-16T13:23:02+00:00",
+      "published_dt": "2026-09-16T13:23:02+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "SK Hynix reportedly in talks with Intel to build memory chips in US (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：SK Hynix reportedly in talks with Intel to build memory chips in US，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49723873",
+      "title": "Learning Programming in an Age of LLMs",
+      "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-16T09:12:34+00:00",
+      "published_dt": "2026-09-16T09:12:34+00:00",
+      "hn_score": 234,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Learning Programming in an Age of LLMs (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Learning Programming in an Age of LLMs，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
