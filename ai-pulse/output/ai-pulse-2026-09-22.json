@@ -1,0 +1,1859 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T03:04:51",
+  "stats": {
+    "total_items": 28,
+    "high_importance": 3,
+    "medium_importance": 25,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "I was recently invited to brief a group of Congressional members and staff on the state of open-weight models in the lens of U.S.-China competition. I’m sharing my prepared remarks as a state of the union on open models that is accessible to a broader audience.Interconnects AI is a reader-supported publication. Consider becoming a subscriber.Recap: What is an open source v. open-weight vs. closed model?Open language models are AI models where their weights are publicly available for inspection or downstream use. These are most often contrasted to so-called “closed” AI models. Closed models offer access only through Application Programming Interfaces (APIs) that developers can use to directly query a model, like GPT-4 or Claude Opus 4.5, or through products, like ChatGPT and Claude Code.Open language models primarily are bucketed into two categories, open-weight and open-source models. Open-weight models are the most common form, such as popular models like Meta’s Llama, Alibaba’s Qwen, Google’s Gemma, or DeepSeek’s models. These models are governed by licenses, governing documents dictating what is allowed with downstream use, and are often accompanied by inference code in libraries such as Transformers, VLLM, SGLANG, etc. Since about April 2025, Chinese AI companies have been the clear leader in open-weight models.True “open-source” models are similar to these, as they include the weights, licenses, and inference code, but they also include the complete information needed to reproduce the model – the training code and training data. The most prominent open-source models have been built in the United States, led recently by the Allen Institute for AI’s Olmo models that I helped build in my recent 2.5 years there. The other prominent open-source models are also built by American non-profit organizations, including OpenAthena’s Marin models and EleutherAI’s Pythia models.Open-weight, open-source, and every other label for a model – including closed models primarily of",
+      "published": "2026-09-21T11:56:56+00:00",
+      "published_dt": "2026-09-21T11:56:56+00:00",
+      "score": 9.8,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google",
+          "Meta",
+          "DeepSeek",
+          "Alibaba"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "inference",
+          "transformer",
+          "vLLM"
+        ]
+      },
+      "summary_en": "The current balance of power in open models (Interconnects (Nathan Lambert)) highlights a notable AI development with score 9.8.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：The current balance of power in open models，综合评分 9.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/jev",
+      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+      "url": "https://www.latent.space/p/jev",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Tickets for AIE NYC now open, and apply for the invite-only AIE CODE. Join us!We have an unusual relationship with today’s guest: for years since coauthoring the InstructGPT paper, Diogo Almeida had been saying that API-available frontier models have been going down the wrong path, everything from the alignment to refusals to reliability perspectives, that we have dropped every mode other than autoregressive chat-tuned LLMs because of the overwhelming success of ChatGPT.In a launch video now viewed ~40M times (by comparison, GPT4o was 22M, Fable 5 was 15M, Navier Stokes was 74M, and 6 Astra was 137M), Diogo introduced Jev and it immediately took over the AI timeline — we’ll skip full Jev explainers because your favorite AI influencer/educator has probably already done one. We also collected:the official patterns and cookbooks you should see first, from AllieJev usecasesspeed based - games and computer usethe voice + computer use example we discuss at 1h34 minsvoice + browser controlThe must not miss Doom demoDriving cars in gamesExcalidrawvirtual try-ons“Smart Games”/smart NPCsguided responses in text messagesJev for coding agents has an official guide jev for lintingcompacting tool callsreasonable pushback from Theo - Diogo has published a note on the Tyranny of the KV Cache that you should read as a followup after the pod for Jev + coding agents, because of his belief that Cache Rules EverythingProgramming Languages built atop Jev (Diogo’s fave)Jev for analytics replay and user journey review“dark data”entity resolutionnatural language search“smart software”a core goal of Jev is to “disappear into the background” - eg as unremarkable as regexJev as a judgeJev memesJev vs LLM capabiltiiesblending transformers and classifiersabout the confidence apiJev vs GLiNER (note difference/pushback, agreed, agreed, agreed)Jev on trolley problemJev BushInstead we’ll focus on what we can uniquely offer — a broader philosophical and mission-based understanding of how and why Jev ",
+      "published": "2026-09-21T22:13:49+00:00",
+      "published_dt": "2026-09-21T22:13:49+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "transformer",
+          "agent",
+          "alignment"
+        ]
+      },
+      "summary_en": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI (Latent Space) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Latent Space 报道：Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "published": "2026-09-21T12:00:00+00:00",
+      "published_dt": "2026-09-21T12:00:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Higgsfield AI ships new video features in a day with GPT-6 Astra (OpenAI Blog) highlights a notable AI development with score 8.1.",
+      "summary_zh": "OpenAI Blog 报道：Higgsfield AI ships new video features in a day with GPT-6 Astra，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+          "title": "The current balance of power in open models",
+          "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "I was recently invited to brief a group of Congressional members and staff on the state of open-weight models in the lens of U.S.-China competition. I’m sharing my prepared remarks as a state of the union on open models that is accessible to a broader audience.Interconnects AI is a reader-supported publication. Consider becoming a subscriber.Recap: What is an open source v. open-weight vs. closed model?Open language models are AI models where their weights are publicly available for inspection or downstream use. These are most often contrasted to so-called “closed” AI models. Closed models offer access only through Application Programming Interfaces (APIs) that developers can use to directly query a model, like GPT-4 or Claude Opus 4.5, or through products, like ChatGPT and Claude Code.Open language models primarily are bucketed into two categories, open-weight and open-source models. Open-weight models are the most common form, such as popular models like Meta’s Llama, Alibaba’s Qwen, Google’s Gemma, or DeepSeek’s models. These models are governed by licenses, governing documents dictating what is allowed with downstream use, and are often accompanied by inference code in libraries such as Transformers, VLLM, SGLANG, etc. Since about April 2025, Chinese AI companies have been the clear leader in open-weight models.True “open-source” models are similar to these, as they include the weights, licenses, and inference code, but they also include the complete information needed to reproduce the model – the training code and training data. The most prominent open-source models have been built in the United States, led recently by the Allen Institute for AI’s Olmo models that I helped build in my recent 2.5 years there. The other prominent open-source models are also built by American non-profit organizations, including OpenAthena’s Marin models and EleutherAI’s Pythia models.Open-weight, open-source, and every other label for a model – including closed models primarily of",
+          "published": "2026-09-21T11:56:56+00:00",
+          "published_dt": "2026-09-21T11:56:56+00:00",
+          "score": 9.8,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Google",
+              "Meta",
+              "DeepSeek",
+              "Alibaba"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "inference",
+              "transformer",
+              "vLLM"
+            ]
+          },
+          "summary_en": "The current balance of power in open models (Interconnects (Nathan Lambert)) highlights a notable AI development with score 9.8.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：The current balance of power in open models，综合评分 9.8，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3166744",
+          "title": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25 at 11:59 p.m. PT. Register now.",
+          "published": "2026-09-21T15:00:00+00:00",
+          "published_dt": "2026-09-21T15:00:00+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "benchmark"
+            ]
+          },
+          "summary_en": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49783133",
+          "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+          "url": "https://github.com/volotat/mini-AGI/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Sorry for the pretentious name, I know, I know.. It just contains all the pieces I would like to see a AGI model to have, and I can't stand the temptation. Before throwing rocks at me, please take a glance at the Readme, and I hope it will cover your mood a little bit.So, first of all it does work and you can see the sample from the whole training run here: https://raw.githubusercontent.com/volotat/mini-AGI/refs/head...Here is the scaling law graph I have so far, and it looks very promising: https://github.com/volotat/mini-AGI/blob/main/assets/scaling...The model was built under my deep dissatisfaction so we cannot really train even moderately big models (1B+ scale) on the consumer's hardware. We can inference and fine-tune them for sure, but I would like to have full control over what the model sees over the training run, so it is fully aligned with my interests, not some corporations.I was thinking about for some time and come up with two interesting ideas I thought worth pursuing: MoE with a lot of experts that gets added and pruned from the model while it trains, where only a small subset of of experts are actually in use at any particular moment + batch 1 training on the single continuous stream of data.First allows us to be bounded only by the disk space in terms of number of parameters and load and unload experts only when they are needed. The second (if figured out and it turns out to be doable) allows us to get aways with small VRAM capacity because we do not need to store big randomized batches and their respective gradients.I started brainstorming with Claude and after some time we found an approach that seems to be promising, and low and behold, a few weeks pass and you can see the results yourself.Obviously, I did use AI in the process of making this project and I am pretty sure it would be completely impossible for me to do something like this without it, so I hope it is more than justified.The model is still running over the first of 7.8B characters c",
+          "published": "2026-09-21T04:42:37+00:00",
+          "published_dt": "2026-09-21T04:42:37+00:00",
+          "hn_score": 255,
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "inference",
+              "MoE"
+            ]
+          },
+          "summary_en": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM (Hacker News) highlights a notable AI development with score 7.9.",
+          "summary_zh": "Hacker News 报道：Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3167174",
+          "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+          "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
+          "published": "2026-09-21T20:15:58+00:00",
+          "published_dt": "2026-09-21T20:15:58+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI forms math advisory group as its AI resolves more than 100 open problems (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI forms math advisory group as its AI resolves more than 100 open problems，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3167032",
+          "title": "Meta’s AI agent has been blocked from using Amazon.com",
+          "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they're under no legal obligation to open the doors to Muse, why would they?",
+          "published": "2026-09-21T17:55:18+00:00",
+          "published_dt": "2026-09-21T17:55:18+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Meta",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "inference",
+              "agent"
+            ]
+          },
+          "summary_en": "Meta’s AI agent has been blocked from using Amazon.com (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Meta’s AI agent has been blocked from using Amazon.com，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3166970",
+          "title": "With Tabby, a former accountant is using AI to make accountants obsolete",
+          "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Tabby is designed to be a real-time bookkeeping interface, handling clients’ paperwork as it gives them up-to-the-minute data on their business’s profit and loss.",
+          "published": "2026-09-21T16:38:51+00:00",
+          "published_dt": "2026-09-21T16:38:51+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "With Tabby, a former accountant is using AI to make accountants obsolete (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：With Tabby, a former accountant is using AI to make accountants obsolete，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://openai.com/index/building-standards-next-phase-ai",
+          "title": "Building standards for the next phase of AI",
+          "url": "https://openai.com/index/building-standards-next-phase-ai",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+          "published": "2026-09-21T10:00:00+00:00",
+          "published_dt": "2026-09-21T10:00:00+00:00",
+          "score": 7.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "Building standards for the next phase of AI (OpenAI Blog) highlights a notable AI development with score 7.6.",
+          "summary_zh": "OpenAI Blog 报道：Building standards for the next phase of AI，综合评分 7.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=998191",
+          "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
+          "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10th, 2024, and March 29th, 2025, you can file a claim on the settlement's website, as reported earlier by MacRumors. You can receive an estimated $25 per eligible device, but the settlement's website notes that this can increase to $95 depending on how many people file claims. To file a claim, you'll need to enter your name, contact information, and iPhone serial number on the … Read the full story at The Verge.",
+          "published": "2026-09-21T13:36:52+00:00",
+          "published_dt": "2026-09-21T13:36:52+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$250 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement (The Verge AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "The Verge AI 报道：iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/21/jev/",
+          "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+          "url": "https://simonwillison.net/2026/Sep/21/jev/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores. TypeSafe describe Jev like this: Think of Jev as a frontier-intelligence function call: unstructured state in, typed probabilistic decisions out. It's also very fast, and really cheap. Regular LLMs are priced in terms of input and output tokens, with output generally charged at significantly higher rates. Jev charges only for input - output is free - and the input price of their first model is $0.042 per million tokens - cheaper even than OpenAI's GPT-5 Nano ($0.05/million). Jev lets you ask questions about text or semi-structured data. You compose a \"state\" object containing a string, array of strings, or set of name-value pairs - this might describe an article, or a customer, or any other kind of record. You then send that to their API with one or more questions, and get a reply back for each. You can ask three kinds of questions: Yes/No questions, which Jev calls \"Noul\" questions - their CEO confirmed on Hacker News that this is short for Bernoulli, from the Bernoulli distribution. You pose a statement and get back a floating point number between 0 and 1 for how confident the model is that the statement is true. Choice questions, where the model picks one from a set of provided options - actually a confidence score plus a probability distribution across all of the options. Score questions, where you provide sequence of numeric levels with descriptions and it provides a floating point score somewhere along that range. The Jev API can accept a single document (\"state\") and as many questions as you can cram into the context window.",
+          "published": "2026-09-21T23:09:20+00:00",
+          "published_dt": "2026-09-21T23:09:20+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Jev introduces a new shape of LLM - System One, aka Decision Models (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：Jev introduces a new shape of LLM - System One, aka Decision Models，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3167098",
+          "title": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket",
+          "url": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Five days left to save up to $200 on your TechCrunch Disrupt 2026 pass + 50% off a second one. Join 10,000+ founders, investors, and operators at San Francisco’s Moscone West, October 13-15. Grab your ticket savings before prices go up on September 25 at 11:59 p.m. PT.",
+          "published": "2026-09-21T19:25:00+00:00",
+          "published_dt": "2026-09-21T19:25:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3166726",
+          "title": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
+          "published": "2026-09-21T14:30:00+00:00",
+          "published_dt": "2026-09-21T14:30:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49787535",
+          "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+          "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-21T14:10:49+00:00",
+          "published_dt": "2026-09-21T14:10:49+00:00",
+          "hn_score": 214,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "macOS 27: Workaround to avoid downloading AI models and save storage (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：macOS 27: Workaround to avoid downloading AI models and save storage，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3166772",
+          "title": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of the most intense startup pitch competitions.",
+          "published": "2026-09-21T14:15:00+00:00",
+          "published_dt": "2026-09-21T14:15:00+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3167075",
+          "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+          "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures.",
+          "published": "2026-09-21T19:19:21+00:00",
+          "published_dt": "2026-09-21T19:19:21+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Meta",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Meta’s Muse is outpacing ChatGPT’s early mobile launch (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Meta’s Muse is outpacing ChatGPT’s early mobile launch，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/jev",
+          "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+          "url": "https://www.latent.space/p/jev",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Tickets for AIE NYC now open, and apply for the invite-only AIE CODE. Join us!We have an unusual relationship with today’s guest: for years since coauthoring the InstructGPT paper, Diogo Almeida had been saying that API-available frontier models have been going down the wrong path, everything from the alignment to refusals to reliability perspectives, that we have dropped every mode other than autoregressive chat-tuned LLMs because of the overwhelming success of ChatGPT.In a launch video now viewed ~40M times (by comparison, GPT4o was 22M, Fable 5 was 15M, Navier Stokes was 74M, and 6 Astra was 137M), Diogo introduced Jev and it immediately took over the AI timeline — we’ll skip full Jev explainers because your favorite AI influencer/educator has probably already done one. We also collected:the official patterns and cookbooks you should see first, from AllieJev usecasesspeed based - games and computer usethe voice + computer use example we discuss at 1h34 minsvoice + browser controlThe must not miss Doom demoDriving cars in gamesExcalidrawvirtual try-ons“Smart Games”/smart NPCsguided responses in text messagesJev for coding agents has an official guide jev for lintingcompacting tool callsreasonable pushback from Theo - Diogo has published a note on the Tyranny of the KV Cache that you should read as a followup after the pod for Jev + coding agents, because of his belief that Cache Rules EverythingProgramming Languages built atop Jev (Diogo’s fave)Jev for analytics replay and user journey review“dark data”entity resolutionnatural language search“smart software”a core goal of Jev is to “disappear into the background” - eg as unremarkable as regexJev as a judgeJev memesJev vs LLM capabiltiiesblending transformers and classifiersabout the confidence apiJev vs GLiNER (note difference/pushback, agreed, agreed, agreed)Jev on trolley problemJev BushInstead we’ll focus on what we can uniquely offer — a broader philosophical and mission-based understanding of how and why Jev ",
+          "published": "2026-09-21T22:13:49+00:00",
+          "published_dt": "2026-09-21T22:13:49+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "transformer",
+              "agent",
+              "alignment"
+            ]
+          },
+          "summary_en": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI (Latent Space) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Latent Space 报道：Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+          "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+          "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+          "published": "2026-09-21T12:00:00+00:00",
+          "published_dt": "2026-09-21T12:00:00+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Higgsfield AI ships new video features in a day with GPT-6 Astra (OpenAI Blog) highlights a notable AI development with score 8.1.",
+          "summary_zh": "OpenAI Blog 报道：Higgsfield AI ships new video features in a day with GPT-6 Astra，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+          "title": "Cloudflare Python Workers are now generally available",
+          "url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Cloudflare Python Workers are now generally available After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: \"Python is now a first-class, fully supported language on the Cloudflare Developer Platform\". A neat thing about this is how it works. Cloudflare are running Python compiled to WebAssembly via Pyodide in their V8-based workerd runtime. This comes with some limitations, documented here - most notably both multiprocessing and threading are non-functional in the WebAssembly VM. One particularly interesting detail of this is the local development environment story - their pywrangler development tool (confusingly packaged as workers-py on PyPI) runs a full local simulation of their stack, including executing code with Pyodide in WebAssembly in V8 in a 123MB workerd binary, which for me ended up in node_modules/@cloudflare/workerd-darwin-arm64/bin/workerd. Python Workers represent a significant investment in the wider Python ecosystem by Cloudflare. The release announcement is credited to Gyeongjae Choi, Dominik Picheta, and Hood Chatham - Gyeongjae and Hood are both Pyodide core maintainers. Via Hacker News Tags: python, cloudflare, webassembly, pyodide",
+          "published": "2026-09-21T22:25:44+00:00",
+          "published_dt": "2026-09-21T22:25:44+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Cloudflare Python Workers are now generally available (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：Cloudflare Python Workers are now generally available，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=996874",
+          "title": "Can John Ternus find Apple’s next big thing?",
+          "url": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On. Earlier this month, Apple hosted its annual iPhone hardware event, virtually every detail of which was reported ahead of time by Mark. But this event was special, for a number of reasons. It was new Apple CEO John Ternus’ first major product launch since he took over for former CEO Tim Cook less than two weeks prior. It was also the debut of the iPhone Duo, Apple’s first foldable smartphone. The timing of those two things was not at all coincidental, as you’ll hear Mark explain. Apple takes these hardware events — and the stories they tell — extremely seriously. This year’s story actually says a great deal about what’s happening at Apple, how Cook managed in wholesale leadership ranks over the past year, and how all of that might change Apple’s culture. Furthermore, what all that tells about Ternus’ plan to navigate Apple from what you might call the iPhone era into the AI era. Okay: Bloomberg’s Mark Gurman on the future of Apple. Here we go. This interview has been lightly edited for length and clarity. Mark Gurman, you’re the chief Apple correspondent and the managing editor of consumer technology at Bloomberg. Welcome to Decoder. Good to be here finally. Thanks for having me. And it’s been a while, so it’s good to catch up on all things Apple. Yeah, I’m really excited to talk to you. Obviously, Apple just had its big event. They announced the iPhone Duo. It was John Ternus’s first event as CEO. This is a Decoder episode, so we’ve got a new CEO, and we’ve got a new org chart inside of Apple. There’s been a lot of shuffling. You’ve been chronicling them very, very deeply over the past few years. Let’s just start with the event. I have a very basic question for you. Sure. Do you ever get nostalgic for a time when you didn’t know what was going to happen at the iPhone event? Do I ever get no",
+          "published": "2026-09-21T14:00:00+00:00",
+          "published_dt": "2026-09-21T14:00:00+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Can John Ternus find Apple’s next big thing? (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Can John Ternus find Apple’s next big thing?，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.qbitai.com/?p=493179",
+          "title": "开源Top2！实测阶跃Step 5 Preview，真有点猛啊…",
+          "url": "https://www.qbitai.com/2026/09/493179.html",
+          "source": "量子位",
+          "source_type": "rss",
+          "content": "激活参数仅27B",
+          "published": "2026-09-21T03:46:43+00:00",
+          "published_dt": "2026-09-21T03:46:43+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "开源Top2！实测阶跃Step 5 Preview，真有点猛啊… (量子位) highlights a notable AI development with score 5.3.",
+          "summary_zh": "量子位 报道：开源Top2！实测阶跃Step 5 Preview，真有点猛啊…，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 7,
+      "items": [
+        {
+          "id": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+          "title": "Advisory Group on Mathematics and Artificial Intelligence",
+          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+          "published": "2026-09-21T12:00:00+00:00",
+          "published_dt": "2026-09-21T12:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Advisory Group on Mathematics and Artificial Intelligence (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Advisory Group on Mathematics and Artificial Intelligence，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+          "title": "Expanding OpenAI Academy with new learning paths",
+          "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+          "published": "2026-09-21T07:00:00+00:00",
+          "published_dt": "2026-09-21T07:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Expanding OpenAI Academy with new learning paths (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Expanding OpenAI Academy with new learning paths，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+          "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-09-21T13:44:34+00:00",
+          "published_dt": "2026-09-21T13:44:34+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3167267",
+          "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+          "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
+          "published": "2026-09-21T23:44:28+00:00",
+          "published_dt": "2026-09-21T23:44:28+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49792342",
+          "title": "Transformers Explained Visually",
+          "url": "https://poloclub.github.io/transformer-explainer/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-21T19:43:49+00:00",
+          "published_dt": "2026-09-21T19:43:49+00:00",
+          "hn_score": 226,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "transformer"
+            ]
+          },
+          "summary_en": "Transformers Explained Visually (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Transformers Explained Visually，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49791509",
+          "title": "US halts flights at busy East Coast airports, says fiber line cut",
+          "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-21T18:41:59+00:00",
+          "published_dt": "2026-09-21T18:41:59+00:00",
+          "hn_score": 211,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "US halts flights at busy East Coast airports, says fiber line cut (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：US halts flights at busy East Coast airports, says fiber line cut，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3166866",
+          "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets, and other parts of the desktop experience.",
+          "published": "2026-09-21T14:39:22+00:00",
+          "published_dt": "2026-09-21T14:39:22+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-09-22T03:04:48.722935+00:00",
+          "published_dt": "2026-09-22T03:04:48.722935+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-09-22T03:04:48.722935+00:00",
+          "published_dt": "2026-09-22T03:04:48.722935+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "I was recently invited to brief a group of Congressional members and staff on the state of open-weight models in the lens of U.S.-China competition. I’m sharing my prepared remarks as a state of the union on open models that is accessible to a broader audience.Interconnects AI is a reader-supported publication. Consider becoming a subscriber.Recap: What is an open source v. open-weight vs. closed model?Open language models are AI models where their weights are publicly available for inspection or downstream use. These are most often contrasted to so-called “closed” AI models. Closed models offer access only through Application Programming Interfaces (APIs) that developers can use to directly query a model, like GPT-4 or Claude Opus 4.5, or through products, like ChatGPT and Claude Code.Open language models primarily are bucketed into two categories, open-weight and open-source models. Open-weight models are the most common form, such as popular models like Meta’s Llama, Alibaba’s Qwen, Google’s Gemma, or DeepSeek’s models. These models are governed by licenses, governing documents dictating what is allowed with downstream use, and are often accompanied by inference code in libraries such as Transformers, VLLM, SGLANG, etc. Since about April 2025, Chinese AI companies have been the clear leader in open-weight models.True “open-source” models are similar to these, as they include the weights, licenses, and inference code, but they also include the complete information needed to reproduce the model – the training code and training data. The most prominent open-source models have been built in the United States, led recently by the Allen Institute for AI’s Olmo models that I helped build in my recent 2.5 years there. The other prominent open-source models are also built by American non-profit organizations, including OpenAthena’s Marin models and EleutherAI’s Pythia models.Open-weight, open-source, and every other label for a model – including closed models primarily of",
+      "published": "2026-09-21T11:56:56+00:00",
+      "published_dt": "2026-09-21T11:56:56+00:00",
+      "score": 9.8,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google",
+          "Meta",
+          "DeepSeek",
+          "Alibaba"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "inference",
+          "transformer",
+          "vLLM"
+        ]
+      },
+      "summary_en": "The current balance of power in open models (Interconnects (Nathan Lambert)) highlights a notable AI development with score 9.8.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：The current balance of power in open models，综合评分 9.8，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/jev",
+      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+      "url": "https://www.latent.space/p/jev",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Tickets for AIE NYC now open, and apply for the invite-only AIE CODE. Join us!We have an unusual relationship with today’s guest: for years since coauthoring the InstructGPT paper, Diogo Almeida had been saying that API-available frontier models have been going down the wrong path, everything from the alignment to refusals to reliability perspectives, that we have dropped every mode other than autoregressive chat-tuned LLMs because of the overwhelming success of ChatGPT.In a launch video now viewed ~40M times (by comparison, GPT4o was 22M, Fable 5 was 15M, Navier Stokes was 74M, and 6 Astra was 137M), Diogo introduced Jev and it immediately took over the AI timeline — we’ll skip full Jev explainers because your favorite AI influencer/educator has probably already done one. We also collected:the official patterns and cookbooks you should see first, from AllieJev usecasesspeed based - games and computer usethe voice + computer use example we discuss at 1h34 minsvoice + browser controlThe must not miss Doom demoDriving cars in gamesExcalidrawvirtual try-ons“Smart Games”/smart NPCsguided responses in text messagesJev for coding agents has an official guide jev for lintingcompacting tool callsreasonable pushback from Theo - Diogo has published a note on the Tyranny of the KV Cache that you should read as a followup after the pod for Jev + coding agents, because of his belief that Cache Rules EverythingProgramming Languages built atop Jev (Diogo’s fave)Jev for analytics replay and user journey review“dark data”entity resolutionnatural language search“smart software”a core goal of Jev is to “disappear into the background” - eg as unremarkable as regexJev as a judgeJev memesJev vs LLM capabiltiiesblending transformers and classifiersabout the confidence apiJev vs GLiNER (note difference/pushback, agreed, agreed, agreed)Jev on trolley problemJev BushInstead we’ll focus on what we can uniquely offer — a broader philosophical and mission-based understanding of how and why Jev ",
+      "published": "2026-09-21T22:13:49+00:00",
+      "published_dt": "2026-09-21T22:13:49+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "transformer",
+          "agent",
+          "alignment"
+        ]
+      },
+      "summary_en": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI (Latent Space) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Latent Space 报道：Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "published": "2026-09-21T12:00:00+00:00",
+      "published_dt": "2026-09-21T12:00:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Higgsfield AI ships new video features in a day with GPT-6 Astra (OpenAI Blog) highlights a notable AI development with score 8.1.",
+      "summary_zh": "OpenAI Blog 报道：Higgsfield AI ships new video features in a day with GPT-6 Astra，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166744",
+      "title": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25 at 11:59 p.m. PT. Register now.",
+      "published": "2026-09-21T15:00:00+00:00",
+      "published_dt": "2026-09-21T15:00:00+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "benchmark"
+        ]
+      },
+      "summary_en": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49783133",
+      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+      "url": "https://github.com/volotat/mini-AGI/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Sorry for the pretentious name, I know, I know.. It just contains all the pieces I would like to see a AGI model to have, and I can't stand the temptation. Before throwing rocks at me, please take a glance at the Readme, and I hope it will cover your mood a little bit.So, first of all it does work and you can see the sample from the whole training run here: https://raw.githubusercontent.com/volotat/mini-AGI/refs/head...Here is the scaling law graph I have so far, and it looks very promising: https://github.com/volotat/mini-AGI/blob/main/assets/scaling...The model was built under my deep dissatisfaction so we cannot really train even moderately big models (1B+ scale) on the consumer's hardware. We can inference and fine-tune them for sure, but I would like to have full control over what the model sees over the training run, so it is fully aligned with my interests, not some corporations.I was thinking about for some time and come up with two interesting ideas I thought worth pursuing: MoE with a lot of experts that gets added and pruned from the model while it trains, where only a small subset of of experts are actually in use at any particular moment + batch 1 training on the single continuous stream of data.First allows us to be bounded only by the disk space in terms of number of parameters and load and unload experts only when they are needed. The second (if figured out and it turns out to be doable) allows us to get aways with small VRAM capacity because we do not need to store big randomized batches and their respective gradients.I started brainstorming with Claude and after some time we found an approach that seems to be promising, and low and behold, a few weeks pass and you can see the results yourself.Obviously, I did use AI in the process of making this project and I am pretty sure it would be completely impossible for me to do something like this without it, so I hope it is more than justified.The model is still running over the first of 7.8B characters c",
+      "published": "2026-09-21T04:42:37+00:00",
+      "published_dt": "2026-09-21T04:42:37+00:00",
+      "hn_score": 255,
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "MoE"
+        ]
+      },
+      "summary_en": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM (Hacker News) highlights a notable AI development with score 7.9.",
+      "summary_zh": "Hacker News 报道：Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+      "title": "Cloudflare Python Workers are now generally available",
+      "url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Cloudflare Python Workers are now generally available After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: \"Python is now a first-class, fully supported language on the Cloudflare Developer Platform\". A neat thing about this is how it works. Cloudflare are running Python compiled to WebAssembly via Pyodide in their V8-based workerd runtime. This comes with some limitations, documented here - most notably both multiprocessing and threading are non-functional in the WebAssembly VM. One particularly interesting detail of this is the local development environment story - their pywrangler development tool (confusingly packaged as workers-py on PyPI) runs a full local simulation of their stack, including executing code with Pyodide in WebAssembly in V8 in a 123MB workerd binary, which for me ended up in node_modules/@cloudflare/workerd-darwin-arm64/bin/workerd. Python Workers represent a significant investment in the wider Python ecosystem by Cloudflare. The release announcement is credited to Gyeongjae Choi, Dominik Picheta, and Hood Chatham - Gyeongjae and Hood are both Pyodide core maintainers. Via Hacker News Tags: python, cloudflare, webassembly, pyodide",
+      "published": "2026-09-21T22:25:44+00:00",
+      "published_dt": "2026-09-21T22:25:44+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Cloudflare Python Workers are now generally available (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：Cloudflare Python Workers are now generally available，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/building-standards-next-phase-ai",
+      "title": "Building standards for the next phase of AI",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "published": "2026-09-21T10:00:00+00:00",
+      "published_dt": "2026-09-21T10:00:00+00:00",
+      "score": 7.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "Building standards for the next phase of AI (OpenAI Blog) highlights a notable AI development with score 7.6.",
+      "summary_zh": "OpenAI Blog 报道：Building standards for the next phase of AI，综合评分 7.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-09-22T03:04:48.722935+00:00",
+      "published_dt": "2026-09-22T03:04:48.722935+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-09-22T03:04:48.722935+00:00",
+      "published_dt": "2026-09-22T03:04:48.722935+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=996874",
+      "title": "Can John Ternus find Apple’s next big thing?",
+      "url": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On. Earlier this month, Apple hosted its annual iPhone hardware event, virtually every detail of which was reported ahead of time by Mark. But this event was special, for a number of reasons. It was new Apple CEO John Ternus’ first major product launch since he took over for former CEO Tim Cook less than two weeks prior. It was also the debut of the iPhone Duo, Apple’s first foldable smartphone. The timing of those two things was not at all coincidental, as you’ll hear Mark explain. Apple takes these hardware events — and the stories they tell — extremely seriously. This year’s story actually says a great deal about what’s happening at Apple, how Cook managed in wholesale leadership ranks over the past year, and how all of that might change Apple’s culture. Furthermore, what all that tells about Ternus’ plan to navigate Apple from what you might call the iPhone era into the AI era. Okay: Bloomberg’s Mark Gurman on the future of Apple. Here we go. This interview has been lightly edited for length and clarity. Mark Gurman, you’re the chief Apple correspondent and the managing editor of consumer technology at Bloomberg. Welcome to Decoder. Good to be here finally. Thanks for having me. And it’s been a while, so it’s good to catch up on all things Apple. Yeah, I’m really excited to talk to you. Obviously, Apple just had its big event. They announced the iPhone Duo. It was John Ternus’s first event as CEO. This is a Decoder episode, so we’ve got a new CEO, and we’ve got a new org chart inside of Apple. There’s been a lot of shuffling. You’ve been chronicling them very, very deeply over the past few years. Let’s just start with the event. I have a very basic question for you. Sure. Do you ever get nostalgic for a time when you didn’t know what was going to happen at the iPhone event? Do I ever get no",
+      "published": "2026-09-21T14:00:00+00:00",
+      "published_dt": "2026-09-21T14:00:00+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Can John Ternus find Apple’s next big thing? (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Can John Ternus find Apple’s next big thing?，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166772",
+      "title": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of the most intense startup pitch competitions.",
+      "published": "2026-09-21T14:15:00+00:00",
+      "published_dt": "2026-09-21T14:15:00+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3167075",
+      "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+      "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures.",
+      "published": "2026-09-21T19:19:21+00:00",
+      "published_dt": "2026-09-21T19:19:21+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Meta",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Meta’s Muse is outpacing ChatGPT’s early mobile launch (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Meta’s Muse is outpacing ChatGPT’s early mobile launch，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=998191",
+      "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
+      "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10th, 2024, and March 29th, 2025, you can file a claim on the settlement's website, as reported earlier by MacRumors. You can receive an estimated $25 per eligible device, but the settlement's website notes that this can increase to $95 depending on how many people file claims. To file a claim, you'll need to enter your name, contact information, and iPhone serial number on the … Read the full story at The Verge.",
+      "published": "2026-09-21T13:36:52+00:00",
+      "published_dt": "2026-09-21T13:36:52+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$250 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement (The Verge AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "The Verge AI 报道：iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Sep/21/jev/",
+      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+      "url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores. TypeSafe describe Jev like this: Think of Jev as a frontier-intelligence function call: unstructured state in, typed probabilistic decisions out. It's also very fast, and really cheap. Regular LLMs are priced in terms of input and output tokens, with output generally charged at significantly higher rates. Jev charges only for input - output is free - and the input price of their first model is $0.042 per million tokens - cheaper even than OpenAI's GPT-5 Nano ($0.05/million). Jev lets you ask questions about text or semi-structured data. You compose a \"state\" object containing a string, array of strings, or set of name-value pairs - this might describe an article, or a customer, or any other kind of record. You then send that to their API with one or more questions, and get a reply back for each. You can ask three kinds of questions: Yes/No questions, which Jev calls \"Noul\" questions - their CEO confirmed on Hacker News that this is short for Bernoulli, from the Bernoulli distribution. You pose a statement and get back a floating point number between 0 and 1 for how confident the model is that the statement is true. Choice questions, where the model picks one from a set of provided options - actually a confidence score plus a probability distribution across all of the options. Score questions, where you provide sequence of numeric levels with descriptions and it provides a floating point score somewhere along that range. The Jev API can accept a single document (\"state\") and as many questions as you can cram into the context window.",
+      "published": "2026-09-21T23:09:20+00:00",
+      "published_dt": "2026-09-21T23:09:20+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Jev introduces a new shape of LLM - System One, aka Decision Models (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：Jev introduces a new shape of LLM - System One, aka Decision Models，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "published": "2026-09-21T12:00:00+00:00",
+      "published_dt": "2026-09-21T12:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Advisory Group on Mathematics and Artificial Intelligence (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Advisory Group on Mathematics and Artificial Intelligence，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "published": "2026-09-21T07:00:00+00:00",
+      "published_dt": "2026-09-21T07:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Expanding OpenAI Academy with new learning paths (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Expanding OpenAI Academy with new learning paths，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3167174",
+      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
+      "published": "2026-09-21T20:15:58+00:00",
+      "published_dt": "2026-09-21T20:15:58+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI forms math advisory group as its AI resolves more than 100 open problems (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI forms math advisory group as its AI resolves more than 100 open problems，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3167098",
+      "title": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket",
+      "url": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Five days left to save up to $200 on your TechCrunch Disrupt 2026 pass + 50% off a second one. Join 10,000+ founders, investors, and operators at San Francisco’s Moscone West, October 13-15. Grab your ticket savings before prices go up on September 25 at 11:59 p.m. PT.",
+      "published": "2026-09-21T19:25:00+00:00",
+      "published_dt": "2026-09-21T19:25:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3167032",
+      "title": "Meta’s AI agent has been blocked from using Amazon.com",
+      "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they're under no legal obligation to open the doors to Muse, why would they?",
+      "published": "2026-09-21T17:55:18+00:00",
+      "published_dt": "2026-09-21T17:55:18+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Meta",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "Meta’s AI agent has been blocked from using Amazon.com (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Meta’s AI agent has been blocked from using Amazon.com，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166970",
+      "title": "With Tabby, a former accountant is using AI to make accountants obsolete",
+      "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Tabby is designed to be a real-time bookkeeping interface, handling clients’ paperwork as it gives them up-to-the-minute data on their business’s profit and loss.",
+      "published": "2026-09-21T16:38:51+00:00",
+      "published_dt": "2026-09-21T16:38:51+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "With Tabby, a former accountant is using AI to make accountants obsolete (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：With Tabby, a former accountant is using AI to make accountants obsolete，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166726",
+      "title": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
+      "published": "2026-09-21T14:30:00+00:00",
+      "published_dt": "2026-09-21T14:30:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026 (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49787535",
+      "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+      "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-21T14:10:49+00:00",
+      "published_dt": "2026-09-21T14:10:49+00:00",
+      "hn_score": 214,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "macOS 27: Workaround to avoid downloading AI models and save storage (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：macOS 27: Workaround to avoid downloading AI models and save storage，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-09-21T13:44:34+00:00",
+      "published_dt": "2026-09-21T13:44:34+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.qbitai.com/?p=493179",
+      "title": "开源Top2！实测阶跃Step 5 Preview，真有点猛啊…",
+      "url": "https://www.qbitai.com/2026/09/493179.html",
+      "source": "量子位",
+      "source_type": "rss",
+      "content": "激活参数仅27B",
+      "published": "2026-09-21T03:46:43+00:00",
+      "published_dt": "2026-09-21T03:46:43+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "开源Top2！实测阶跃Step 5 Preview，真有点猛啊… (量子位) highlights a notable AI development with score 5.3.",
+      "summary_zh": "量子位 报道：开源Top2！实测阶跃Step 5 Preview，真有点猛啊…，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3167267",
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
+      "published": "2026-09-21T23:44:28+00:00",
+      "published_dt": "2026-09-21T23:44:28+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49792342",
+      "title": "Transformers Explained Visually",
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-21T19:43:49+00:00",
+      "published_dt": "2026-09-21T19:43:49+00:00",
+      "hn_score": 226,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "transformer"
+        ]
+      },
+      "summary_en": "Transformers Explained Visually (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Transformers Explained Visually，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49791509",
+      "title": "US halts flights at busy East Coast airports, says fiber line cut",
+      "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-21T18:41:59+00:00",
+      "published_dt": "2026-09-21T18:41:59+00:00",
+      "hn_score": 211,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "US halts flights at busy East Coast airports, says fiber line cut (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：US halts flights at busy East Coast airports, says fiber line cut，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166866",
+      "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+      "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets, and other parts of the desktop experience.",
+      "published": "2026-09-21T14:39:22+00:00",
+      "published_dt": "2026-09-21T14:39:22+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
