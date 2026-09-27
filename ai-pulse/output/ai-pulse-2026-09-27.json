@@ -1,0 +1,648 @@
+{
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T03:24:40",
+  "stats": {
+    "total_items": 10,
+    "high_importance": 0,
+    "medium_importance": 10,
+    "categories_covered": 5
+  },
+  "top_stories": [],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3167791",
+          "title": "I created an interactive digital avatar of myself — and you can talk to it",
+          "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
+          "published": "2026-09-26T14:00:00+00:00",
+          "published_dt": "2026-09-26T14:00:00+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "I created an interactive digital avatar of myself — and you can talk to it (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：I created an interactive digital avatar of myself — and you can talk to it，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1001049",
+          "title": "OpenAI pauses training of its ‘most capable models’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access. The incident happened on September 20th, and \"All training, evaluation, and inference with tool-use\" remains paused as of Saturday evening, September 25th. In addition, OpenAI revealed on Friday that its agents had inappropriately uploaded 53nimages from ChatGPT users to image-hosting sites. The company has not stated if the images were AI- … Read the full story at The Verge.",
+          "published": "2026-09-26T16:34:59+00:00",
+          "published_dt": "2026-09-26T16:34:59+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "inference",
+              "agent"
+            ]
+          },
+          "summary_en": "OpenAI pauses training of its ‘most capable models’ (The Verge AI) highlights a notable AI development with score 6.4.",
+          "summary_zh": "The Verge AI 报道：OpenAI pauses training of its ‘most capable models’，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+          "title": "Kākāpō Party",
+          "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of kakapo parrots just to remind you what they look like I need you to make an animation in animated pixel art on HTML 5 canvas of obviously pixel art kakapo jumping up and down having a party with confetti and suchlike - there should be at least 20 of them Here's the transcript, and this is the resulting page. It's pretty great! I wanted to embed it in a Keynote presentation file, so I downloaded the HTML and told a local Claude Code session: Make me a video of file:///Users/simon/Downloads/kakapo-party.html - you need to load it in a browser and click on it a few times to get the confetti effect, the video should be 15s long don't start clicking until 3s in make sure several clicks are spread around the clickable area Claude Code used Playwright (transcript here) and produced this video, which was exactly what I needed for my final slide: Your browser does not support HTML5 video. Here's the full Playwright script it used, which was pleasingly short: # /// script # dependencies = [\"playwright\"] # /// import time from playwright.sync_api import sync_playwright W, H = 1280, 720 # Canvas fills the viewport; spread clicks across corners, edges and centre clicks = [ (3.0, 640, 360), # centre (4.2, 160, 120), # top-left (5.4, 1120, 120), # top-right (6.6, 180, 600), # bottom-left (7.8, 1100, 600), # bottom-right (9.0, 640, 100), # top-centre (10.0, 380, 380), # mid-left (11.0, 900, 380), # mid-right (12.2, 640, 620), # bottom-centre (13.2, 640, 300), # finale centre ] with sync_playwrig",
+          "published": "2026-09-26T23:39:06+00:00",
+          "published_dt": "2026-09-26T23:39:06+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Kākāpō Party (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：Kākāpō Party，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49857528",
+          "title": "Show HN: A Claude Code skill to analyze your chess games",
+          "url": "https://github.com/brumar/chess-postmortem-skills",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hello HN,It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can.The next experiment was to see whether Claude + Stockfish could explain a game. Somehow it can too.A few sessions later, I had a system that takes my live audio notes (or text, for that matter) and a vague instruction like \"analyze my last lichess game\", and gives me a commented video of the game. The result is not perfect and it takes time to deliver (an hour or so), but for me it is a much more pleasant and memorable experience than clicking around Stockfish branches. It burns tokens, so make sure you have enough quota. From the session logs, the last analyzed game would have cost around $15 at API prices.The fact that it reflects on my own thinking during the game makes it interesting from a teaching point of view, so I thought it was worth sharing.",
+          "published": "2026-09-26T15:34:53+00:00",
+          "published_dt": "2026-09-26T15:34:53+00:00",
+          "hn_score": 72,
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Show HN: A Claude Code skill to analyze your chess games (Hacker News) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Hacker News 报道：Show HN: A Claude Code skill to analyze your chess games，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://www.qbitai.com/?p=498271",
+          "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+          "url": "https://www.qbitai.com/2026/09/498271.html",
+          "source": "量子位",
+          "source_type": "rss",
+          "content": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线。",
+          "published": "2026-09-26T09:07:41+00:00",
+          "published_dt": "2026-09-26T09:07:41+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo (量子位) highlights a notable AI development with score 5.3.",
+          "summary_zh": "量子位 报道：AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3170285",
+          "title": "Insurers claim AI is already increasing healthcare costs",
+          "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+          "published": "2026-09-26T21:02:06+00:00",
+          "published_dt": "2026-09-26T21:02:06+00:00",
+          "score": 6.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$942M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Insurers claim AI is already increasing healthcare costs (TechCrunch AI) highlights a notable AI development with score 6.5.",
+          "summary_zh": "TechCrunch AI 报道：Insurers claim AI is already increasing healthcare costs，综合评分 6.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3170226",
+          "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+          "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+          "published": "2026-09-27T01:30:00+00:00",
+          "published_dt": "2026-09-27T01:30:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-09-27T03:24:38.833164+00:00",
+          "published_dt": "2026-09-27T03:24:38.833164+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-09-27T03:24:38.833164+00:00",
+          "published_dt": "2026-09-27T03:24:38.833164+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.qbitai.com/?p=497624",
+          "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+          "url": "https://www.qbitai.com/2026/09/497624.html",
+          "source": "量子位",
+          "source_type": "rss",
+          "content": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？",
+          "published": "2026-09-26T09:01:00+00:00",
+          "published_dt": "2026-09-26T09:01:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub (量子位) highlights a notable AI development with score 5.3.",
+          "summary_zh": "量子位 报道：笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-09-27T03:24:38.833164+00:00",
+      "published_dt": "2026-09-27T03:24:38.833164+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-09-27T03:24:38.833164+00:00",
+      "published_dt": "2026-09-27T03:24:38.833164+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3167791",
+      "title": "I created an interactive digital avatar of myself — and you can talk to it",
+      "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
+      "published": "2026-09-26T14:00:00+00:00",
+      "published_dt": "2026-09-26T14:00:00+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "I created an interactive digital avatar of myself — and you can talk to it (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：I created an interactive digital avatar of myself — and you can talk to it，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170285",
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+      "published": "2026-09-26T21:02:06+00:00",
+      "published_dt": "2026-09-26T21:02:06+00:00",
+      "score": 6.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$942M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Insurers claim AI is already increasing healthcare costs (TechCrunch AI) highlights a notable AI development with score 6.5.",
+      "summary_zh": "TechCrunch AI 报道：Insurers claim AI is already increasing healthcare costs，综合评分 6.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1001049",
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access. The incident happened on September 20th, and \"All training, evaluation, and inference with tool-use\" remains paused as of Saturday evening, September 25th. In addition, OpenAI revealed on Friday that its agents had inappropriately uploaded 53nimages from ChatGPT users to image-hosting sites. The company has not stated if the images were AI- … Read the full story at The Verge.",
+      "published": "2026-09-26T16:34:59+00:00",
+      "published_dt": "2026-09-26T16:34:59+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "OpenAI pauses training of its ‘most capable models’ (The Verge AI) highlights a notable AI development with score 6.4.",
+      "summary_zh": "The Verge AI 报道：OpenAI pauses training of its ‘most capable models’，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+      "title": "Kākāpō Party",
+      "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of kakapo parrots just to remind you what they look like I need you to make an animation in animated pixel art on HTML 5 canvas of obviously pixel art kakapo jumping up and down having a party with confetti and suchlike - there should be at least 20 of them Here's the transcript, and this is the resulting page. It's pretty great! I wanted to embed it in a Keynote presentation file, so I downloaded the HTML and told a local Claude Code session: Make me a video of file:///Users/simon/Downloads/kakapo-party.html - you need to load it in a browser and click on it a few times to get the confetti effect, the video should be 15s long don't start clicking until 3s in make sure several clicks are spread around the clickable area Claude Code used Playwright (transcript here) and produced this video, which was exactly what I needed for my final slide: Your browser does not support HTML5 video. Here's the full Playwright script it used, which was pleasingly short: # /// script # dependencies = [\"playwright\"] # /// import time from playwright.sync_api import sync_playwright W, H = 1280, 720 # Canvas fills the viewport; spread clicks across corners, edges and centre clicks = [ (3.0, 640, 360), # centre (4.2, 160, 120), # top-left (5.4, 1120, 120), # top-right (6.6, 180, 600), # bottom-left (7.8, 1100, 600), # bottom-right (9.0, 640, 100), # top-centre (10.0, 380, 380), # mid-left (11.0, 900, 380), # mid-right (12.2, 640, 620), # bottom-centre (13.2, 640, 300), # finale centre ] with sync_playwrig",
+      "published": "2026-09-26T23:39:06+00:00",
+      "published_dt": "2026-09-26T23:39:06+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Kākāpō Party (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：Kākāpō Party，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49857528",
+      "title": "Show HN: A Claude Code skill to analyze your chess games",
+      "url": "https://github.com/brumar/chess-postmortem-skills",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hello HN,It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can.The next experiment was to see whether Claude + Stockfish could explain a game. Somehow it can too.A few sessions later, I had a system that takes my live audio notes (or text, for that matter) and a vague instruction like \"analyze my last lichess game\", and gives me a commented video of the game. The result is not perfect and it takes time to deliver (an hour or so), but for me it is a much more pleasant and memorable experience than clicking around Stockfish branches. It burns tokens, so make sure you have enough quota. From the session logs, the last analyzed game would have cost around $15 at API prices.The fact that it reflects on my own thinking during the game makes it interesting from a teaching point of view, so I thought it was worth sharing.",
+      "published": "2026-09-26T15:34:53+00:00",
+      "published_dt": "2026-09-26T15:34:53+00:00",
+      "hn_score": 72,
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Show HN: A Claude Code skill to analyze your chess games (Hacker News) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Hacker News 报道：Show HN: A Claude Code skill to analyze your chess games，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.qbitai.com/?p=498271",
+      "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+      "url": "https://www.qbitai.com/2026/09/498271.html",
+      "source": "量子位",
+      "source_type": "rss",
+      "content": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线。",
+      "published": "2026-09-26T09:07:41+00:00",
+      "published_dt": "2026-09-26T09:07:41+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo (量子位) highlights a notable AI development with score 5.3.",
+      "summary_zh": "量子位 报道：AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.qbitai.com/?p=497624",
+      "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+      "url": "https://www.qbitai.com/2026/09/497624.html",
+      "source": "量子位",
+      "source_type": "rss",
+      "content": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？",
+      "published": "2026-09-26T09:01:00+00:00",
+      "published_dt": "2026-09-26T09:01:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub (量子位) highlights a notable AI development with score 5.3.",
+      "summary_zh": "量子位 报道：笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170226",
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+      "published": "2026-09-27T01:30:00+00:00",
+      "published_dt": "2026-09-27T01:30:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
