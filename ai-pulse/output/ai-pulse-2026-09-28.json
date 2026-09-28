@@ -1,0 +1,949 @@
+{
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28T03:22:22",
+  "stats": {
+    "total_items": 14,
+    "high_importance": 1,
+    "medium_importance": 13,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "title": "2026 in LLMs (so far)",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube; here are my annotated slides and notes to accompany the talk. # I'm going to give a lightning tour of everything that has happened so far in 2026. The year isn't over yet! # For me, 2026 started a couple of months earlier in November 2025. # November saw the release of two important models: Claude Opus 4.5 and GPT-5.1. As is usually the case with new models, these were incremental improvements on the models that came before them. But every now and then when a model improves, it crosses an invisible line where something that didn't really work starts working. In this case, the thing that started working was their coding agents. Claude Code had been around since February 2025, Codex was a little younger. These two new models, when paired with their respective coding agent harnesses, improved from \"often make mistakes\" to \"reliable enough to use on a day-to-day basis\". # For a couple of years now I've been evaluating new models by asking them to \"Generate an SVG of a pelican riding a bicycle\". It's probably the world's stupidest benchmark - there's only so much you can learn from it. But it's still a challenge for models, because drawing pelicans is difficult, drawing bicycles is difficult, and pelicans can't ride bicycles in the first place. Here's the state of the art for November. Claude still couldn't really draw a bicycle! The GPT-5.1 bicycle frame is pretty crap too. # Also in November, we had the first commit to an obscure GitHub repository called \"Warelay\". We'll come back to this repository shortly. # An then there were the December holidays, and individual developers took some time off and many started tinkering with these new coding agent model combinations... and it began to dawn on us quite how much they could do ",
+      "published": "2026-09-27T23:54:15+00:00",
+      "published_dt": "2026-09-27T23:54:15+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark",
+          "LoRA"
+        ]
+      },
+      "summary_en": "2026 in LLMs (so far) (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：2026 in LLMs (so far)，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+          "title": "2026 in LLMs (so far)",
+          "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube; here are my annotated slides and notes to accompany the talk. # I'm going to give a lightning tour of everything that has happened so far in 2026. The year isn't over yet! # For me, 2026 started a couple of months earlier in November 2025. # November saw the release of two important models: Claude Opus 4.5 and GPT-5.1. As is usually the case with new models, these were incremental improvements on the models that came before them. But every now and then when a model improves, it crosses an invisible line where something that didn't really work starts working. In this case, the thing that started working was their coding agents. Claude Code had been around since February 2025, Codex was a little younger. These two new models, when paired with their respective coding agent harnesses, improved from \"often make mistakes\" to \"reliable enough to use on a day-to-day basis\". # For a couple of years now I've been evaluating new models by asking them to \"Generate an SVG of a pelican riding a bicycle\". It's probably the world's stupidest benchmark - there's only so much you can learn from it. But it's still a challenge for models, because drawing pelicans is difficult, drawing bicycles is difficult, and pelicans can't ride bicycles in the first place. Here's the state of the art for November. Claude still couldn't really draw a bicycle! The GPT-5.1 bicycle frame is pretty crap too. # Also in November, we had the first commit to an obscure GitHub repository called \"Warelay\". We'll come back to this repository shortly. # An then there were the December holidays, and individual developers took some time off and many started tinkering with these new coding agent model combinations... and it began to dawn on us quite how much they could do ",
+          "published": "2026-09-27T23:54:15+00:00",
+          "published_dt": "2026-09-27T23:54:15+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent",
+              "benchmark",
+              "LoRA"
+            ]
+          },
+          "summary_en": "2026 in LLMs (so far) (Simon Willison) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Simon Willison 报道：2026 in LLMs (so far)，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1001178",
+          "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "The United Nations logo on a gate outside the UN headquarters in New York. | AFP via Getty Images Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government sites, it's yet another concerning example of AI agents going outside the normal bounds to accomplish a task. According to Howard-Jones, the agents were likely tasked with retrieving publicly available data related to the Productive Capacities Index (PCI) through the UNCTADstat API. However, the agents did not appear to have direct API access and … Read the full story at The Verge.",
+          "published": "2026-09-27T17:21:07+00:00",
+          "published_dt": "2026-09-27T17:21:07+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "OpenAI agents tried to ‘bruteforce’ a UN website (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：OpenAI agents tried to ‘bruteforce’ a UN website，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49867775",
+          "title": "Show HN: TinyAIArena watch AI agents battle it out",
+          "url": "https://tinyaiarena.com/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win!Click on any of the matches to spectate them.Code: https://github.com/hp6/ai-arena",
+          "published": "2026-09-27T15:51:28+00:00",
+          "published_dt": "2026-09-27T15:51:28+00:00",
+          "hn_score": 103,
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "Show HN: TinyAIArena watch AI agents battle it out (Hacker News) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Hacker News 报道：Show HN: TinyAIArena watch AI agents battle it out，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
+          "title": "Bluesky reply bot checker",
+          "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies. They've started manifesting on Bluesky as well. Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slow down the bots, but it does make investigating them a lot more frustrating. So I had Opus 5.5 vibe code this tool, which examines any Bluesky profile for evidence of a likely reply bot. It looks for signals like replies posted within seconds of other posts from the same account, or accounts that never post their own content (or images or links) but instead consistently reply to messages from other, higher-follower users. It also looks for question marks, because I'm extra infuriated by reply bots that I no tie me to waste my time answering a question that no human ever posed. Tags: twitter, bluesky, vibe-coding, ai-misuse",
+          "published": "2026-09-27T18:41:44+00:00",
+          "published_dt": "2026-09-27T18:41:44+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Bluesky reply bot checker (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：Bluesky reply bot checker，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=1001193",
+          "title": "Engram is a sampler that turns broken AI hallucinations into music",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 radio. It's about creating experimental, uncanny sounds and pushing AI audio models beyond their limits. Engram isn't connected to the internet. Instead, it runs a \"tiny AI\" locally. According to the Kickstarter listing, the model is designed in-house and custom-trained. The company says: … Read the full story at The Verge.",
+          "published": "2026-09-27T20:46:36+00:00",
+          "published_dt": "2026-09-27T20:46:36+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Engram is a sampler that turns broken AI hallucinations into music (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Engram is a sampler that turns broken AI hallucinations into music，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3170334",
+          "title": "Can Muse overcome Meta’s trust issues?",
+          "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+          "published": "2026-09-27T19:57:30+00:00",
+          "published_dt": "2026-09-27T19:57:30+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Can Muse overcome Meta’s trust issues? (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Can Muse overcome Meta’s trust issues?，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 6,
+      "items": [
+        {
+          "id": "hn-49863864",
+          "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+          "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-27T06:19:33+00:00",
+          "published_dt": "2026-09-27T06:19:33+00:00",
+          "hn_score": 607,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3170341",
+          "title": "Anthropic’s CEO is about to have dinner with President Trump",
+          "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+          "published": "2026-09-27T20:34:28+00:00",
+          "published_dt": "2026-09-27T20:34:28+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic’s CEO is about to have dinner with President Trump (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic’s CEO is about to have dinner with President Trump，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3170300",
+          "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+          "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "\"AI is the devil and I its maker.\"",
+          "published": "2026-09-27T16:30:00+00:00",
+          "published_dt": "2026-09-27T16:30:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic’s Dario Amodei gets the SNL treatment (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic’s Dario Amodei gets the SNL treatment，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49868083",
+          "title": "There are no \"rogue\" AI agents",
+          "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-27T16:19:46+00:00",
+          "published_dt": "2026-09-27T16:19:46+00:00",
+          "hn_score": 338,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "There are no \"rogue\" AI agents (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：There are no \"rogue\" AI agents，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49867486",
+          "title": "The Normalization of Inexplicable Failures",
+          "url": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-27T15:26:40+00:00",
+          "published_dt": "2026-09-27T15:26:40+00:00",
+          "hn_score": 252,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Normalization of Inexplicable Failures (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：The Normalization of Inexplicable Failures，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49864642",
+          "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
+          "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-09-27T08:44:04+00:00",
+          "published_dt": "2026-09-27T08:44:04+00:00",
+          "hn_score": 425,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-09-28T03:22:20.126815+00:00",
+          "published_dt": "2026-09-28T03:22:20.126815+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-09-28T03:22:20.126815+00:00",
+          "published_dt": "2026-09-28T03:22:20.126815+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "title": "2026 in LLMs (so far)",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube; here are my annotated slides and notes to accompany the talk. # I'm going to give a lightning tour of everything that has happened so far in 2026. The year isn't over yet! # For me, 2026 started a couple of months earlier in November 2025. # November saw the release of two important models: Claude Opus 4.5 and GPT-5.1. As is usually the case with new models, these were incremental improvements on the models that came before them. But every now and then when a model improves, it crosses an invisible line where something that didn't really work starts working. In this case, the thing that started working was their coding agents. Claude Code had been around since February 2025, Codex was a little younger. These two new models, when paired with their respective coding agent harnesses, improved from \"often make mistakes\" to \"reliable enough to use on a day-to-day basis\". # For a couple of years now I've been evaluating new models by asking them to \"Generate an SVG of a pelican riding a bicycle\". It's probably the world's stupidest benchmark - there's only so much you can learn from it. But it's still a challenge for models, because drawing pelicans is difficult, drawing bicycles is difficult, and pelicans can't ride bicycles in the first place. Here's the state of the art for November. Claude still couldn't really draw a bicycle! The GPT-5.1 bicycle frame is pretty crap too. # Also in November, we had the first commit to an obscure GitHub repository called \"Warelay\". We'll come back to this repository shortly. # An then there were the December holidays, and individual developers took some time off and many started tinkering with these new coding agent model combinations... and it began to dawn on us quite how much they could do ",
+      "published": "2026-09-27T23:54:15+00:00",
+      "published_dt": "2026-09-27T23:54:15+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark",
+          "LoRA"
+        ]
+      },
+      "summary_en": "2026 in LLMs (so far) (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：2026 in LLMs (so far)，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-09-28T03:22:20.126815+00:00",
+      "published_dt": "2026-09-28T03:22:20.126815+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-09-28T03:22:20.126815+00:00",
+      "published_dt": "2026-09-28T03:22:20.126815+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170334",
+      "title": "Can Muse overcome Meta’s trust issues?",
+      "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+      "published": "2026-09-27T19:57:30+00:00",
+      "published_dt": "2026-09-27T19:57:30+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Can Muse overcome Meta’s trust issues? (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Can Muse overcome Meta’s trust issues?，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1001193",
+      "title": "Engram is a sampler that turns broken AI hallucinations into music",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 radio. It's about creating experimental, uncanny sounds and pushing AI audio models beyond their limits. Engram isn't connected to the internet. Instead, it runs a \"tiny AI\" locally. According to the Kickstarter listing, the model is designed in-house and custom-trained. The company says: … Read the full story at The Verge.",
+      "published": "2026-09-27T20:46:36+00:00",
+      "published_dt": "2026-09-27T20:46:36+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Engram is a sampler that turns broken AI hallucinations into music (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Engram is a sampler that turns broken AI hallucinations into music，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
+      "title": "Bluesky reply bot checker",
+      "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies. They've started manifesting on Bluesky as well. Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slow down the bots, but it does make investigating them a lot more frustrating. So I had Opus 5.5 vibe code this tool, which examines any Bluesky profile for evidence of a likely reply bot. It looks for signals like replies posted within seconds of other posts from the same account, or accounts that never post their own content (or images or links) but instead consistently reply to messages from other, higher-follower users. It also looks for question marks, because I'm extra infuriated by reply bots that I no tie me to waste my time answering a question that no human ever posed. Tags: twitter, bluesky, vibe-coding, ai-misuse",
+      "published": "2026-09-27T18:41:44+00:00",
+      "published_dt": "2026-09-27T18:41:44+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Bluesky reply bot checker (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：Bluesky reply bot checker，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1001178",
+      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "The United Nations logo on a gate outside the UN headquarters in New York. | AFP via Getty Images Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government sites, it's yet another concerning example of AI agents going outside the normal bounds to accomplish a task. According to Howard-Jones, the agents were likely tasked with retrieving publicly available data related to the Productive Capacities Index (PCI) through the UNCTADstat API. However, the agents did not appear to have direct API access and … Read the full story at The Verge.",
+      "published": "2026-09-27T17:21:07+00:00",
+      "published_dt": "2026-09-27T17:21:07+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "OpenAI agents tried to ‘bruteforce’ a UN website (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：OpenAI agents tried to ‘bruteforce’ a UN website，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49867775",
+      "title": "Show HN: TinyAIArena watch AI agents battle it out",
+      "url": "https://tinyaiarena.com/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win!Click on any of the matches to spectate them.Code: https://github.com/hp6/ai-arena",
+      "published": "2026-09-27T15:51:28+00:00",
+      "published_dt": "2026-09-27T15:51:28+00:00",
+      "hn_score": 103,
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Show HN: TinyAIArena watch AI agents battle it out (Hacker News) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Hacker News 报道：Show HN: TinyAIArena watch AI agents battle it out，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49863864",
+      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-27T06:19:33+00:00",
+      "published_dt": "2026-09-27T06:19:33+00:00",
+      "hn_score": 607,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170341",
+      "title": "Anthropic’s CEO is about to have dinner with President Trump",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+      "published": "2026-09-27T20:34:28+00:00",
+      "published_dt": "2026-09-27T20:34:28+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic’s CEO is about to have dinner with President Trump (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic’s CEO is about to have dinner with President Trump，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170300",
+      "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "\"AI is the devil and I its maker.\"",
+      "published": "2026-09-27T16:30:00+00:00",
+      "published_dt": "2026-09-27T16:30:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic’s Dario Amodei gets the SNL treatment (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic’s Dario Amodei gets the SNL treatment，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49868083",
+      "title": "There are no \"rogue\" AI agents",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-27T16:19:46+00:00",
+      "published_dt": "2026-09-27T16:19:46+00:00",
+      "hn_score": 338,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "There are no \"rogue\" AI agents (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：There are no \"rogue\" AI agents，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49867486",
+      "title": "The Normalization of Inexplicable Failures",
+      "url": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-27T15:26:40+00:00",
+      "published_dt": "2026-09-27T15:26:40+00:00",
+      "hn_score": 252,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Normalization of Inexplicable Failures (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：The Normalization of Inexplicable Failures，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49864642",
+      "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
+      "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-09-27T08:44:04+00:00",
+      "published_dt": "2026-09-27T08:44:04+00:00",
+      "hn_score": 425,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
