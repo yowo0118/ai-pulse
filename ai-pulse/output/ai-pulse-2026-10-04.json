@@ -1,0 +1,799 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T04:05:23",
+  "stats": {
+    "total_items": 12,
+    "high_importance": 0,
+    "medium_importance": 12,
+    "categories_covered": 4
+  },
+  "top_stories": [],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+          "title": "[AINews] not much happened today",
+          "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "If you’re even seeing this, you should probably just go enjoy your weekend.AI News for 10/1/2026-10/2/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGPT-6.1 Sol and Sonnet 5.5 Reshape the Cost–Performance FrontierGPT-6.1 Sol launch: OpenAI priced Sol at $2/$10 per million input/output tokens, compared with $10/$50 for Astra (pricing summary).Claimed results: It reportedly beats GPT-6 Sol by 6.4 points on DeepSWE v1.1 and Opus 5.5 by 2.2 points on AutomationBench (summary).Positioning: OpenAI staff describe it as “good, cheap AND fast” (@reach_vb).Codex usage: A global Codex usage reset was set for Oct 2 at 10AM PT (@reach_vb).Tool use: Sol reportedly “REALLY loves codemode,” consistent with GPT models being trained on it (@badlogicgames, codemode note).Agent Arena placements: Sol [Max] entered at #5 (+11.23%) with a $0.56 median cost per task (@arena).Sol cost comparison: That is 39% cheaper than GPT-6 Sol while scoring 1.52 points higher. It is 81% cheaper than Astra while landing within 1.04 points.Sonnet 5.5: Sonnet 5.5 [Max] debuted at #3 (+12.5%) and ranked #1 in the Chat category. It costs $2.74 per task, versus $1.58 for #2 Opus 5.5, which keeps it off the Pareto frontier (debut, frontier).Anthropic’s position: Anthropic models now hold the top three Agent Arena spots.Code and Text Arena: Sol briefly entered WebDev at #3 before Sonnet 5.5 pushed it to #4 (weekly recap).Sonnet on WebDev: Sonnet now sits 2 points behind GPT-6 Astra [Max] at 80% lower cost.Gemini 4 Argon: Argon [High] took #1 in Text Arena.Open models: MiMo-V2.6-Pro and Flash entered Agent Arena at #5 and #9 among open models.Other independent evals: WeirdML v3 finds Sol very token-efficient, close to Astra but with a lower peak. On the same benchmark, Sonnet 5.5 beats Opus 5 and Grok 4.7 beats Kimi-K3; these resul",
+          "published": "2026-10-03T08:45:15+00:00",
+          "published_dt": "2026-10-03T08:45:15+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 0,
+      "items": []
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+          "title": "We're going to need default hard budget caps on pretty much everything",
+          "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps. I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be hard limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it. Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of spinning up code that can do useful things. Sometimes those things cost money - calls to paid APIs, or hosted web applications, or systems that can bill for additional storage and compute. Nobody wants to wake up to an email sent at midnight warning about a budget limit and find that, while they slept, their rogue service had consumed several hundred (or several thousand) more dollars of usage. An argument against this is that businesses don't want their hosted applications to start throwing errors because some budget was exceeded. I expect that most businesses and individuals would prefer errors to a surprise $10,000+ bill. I think hard budget caps need to be the default. If someone wants to live dangerously they should be able to do that, but it needs to be on an opt-in basis. Have a nice, clear checkbox somewhere prominent: Remove the budget cap. My application will not be shut down if I exceed the configured budget limit, and I will be responsible for subsequent charges. The service I most want to see this from is AWS. I've heard plenty of stories from people who refuse to use AWS for personal projects out of (justified) fear that a runaway service might bankrupt them. I've also heard stories from people who didn't anticipate this and ended up seriously burned. ... and it turns out AWS finally launched spending limits a few weeks ago! From their announcement New AWS experience helps builders get started and ship faster on 16th September: When you're ready to upgrade to a paid pl",
+          "published": "2026-10-03T23:34:02+00:00",
+          "published_dt": "2026-10-03T23:34:02+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "agent"
+            ]
+          },
+          "summary_en": "We're going to need default hard budget caps on pretty much everything (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：We're going to need default hard budget caps on pretty much everything，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/3/newsletter/",
+          "title": "September sponsors-only newsletter",
+          "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "I just sent the September edition of my sponsors-only monthly newsletter. If you are a sponsor (or start a sponsorship now) you can access it here. This month: More Fable class models A pricing war 3D graphics, Blender, and pixel art LLMs come for mathematics So many more accidental cyberattacks The vulnapocalypse comes for Datasette What I'm using right now My software releases this month 2026 in LLMs (so far) Here's a copy of the August newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+          "published": "2026-10-03T22:00:31+00:00",
+          "published_dt": "2026-10-03T22:00:31+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "September sponsors-only newsletter (Simon Willison) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Simon Willison 报道：September sponsors-only newsletter，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=1004408",
+          "title": "An OpenAI safety employee has quit and is sounding the alarm",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwork to warn about how dangerous the thing they helped build is. They did, after all, make this mess. But that doesn't mean we should discount their warnings. Robinson says that the culture in industry is fundamentally broken. That this is a deeper issue than simply slapping a few new rules or regulations on how we handle training models. Silicon … Read the full story at The Verge.",
+          "published": "2026-10-03T14:31:56+00:00",
+          "published_dt": "2026-10-03T14:31:56+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "An OpenAI safety employee has quit and is sounding the alarm (The Verge AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "The Verge AI 报道：An OpenAI safety employee has quit and is sounding the alarm，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-49948332",
+          "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-10-03T22:18:13+00:00",
+          "published_dt": "2026-10-03T22:18:13+00:00",
+          "hn_score": 233,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "OpenAI safety leader quits, warning AI company's culture is 'broken' (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：OpenAI safety leader quits, warning AI company's culture is 'broken'，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3173499",
+          "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+          "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+          "published": "2026-10-03T16:30:01+00:00",
+          "published_dt": "2026-10-03T16:30:01+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’ (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI safety employee resigns, claiming the company’s ‘culture is broken’，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/microsoft/thinkingbox",
+          "title": "The Agent Said It Was Done. The Database Disagreed.",
+          "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-10-03T22:56:48+00:00",
+          "published_dt": "2026-10-03T22:56:48+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "The Agent Said It Was Done. The Database Disagreed. (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：The Agent Said It Was Done. The Database Disagreed.，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3173505",
+          "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+          "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
+          "published": "2026-10-03T18:43:57+00:00",
+          "published_dt": "2026-10-03T18:43:57+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon responds to data center backlash, says it no longer uses NDAs (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Amazon responds to data center backlash, says it no longer uses NDAs，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3173132",
+          "title": "All the AI agents that can live in your text messages",
+          "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+          "published": "2026-10-03T14:00:00+00:00",
+          "published_dt": "2026-10-03T14:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "All the AI agents that can live in your text messages (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：All the AI agents that can live in your text messages，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-10-04T04:05:21.561831+00:00",
+          "published_dt": "2026-10-04T04:05:21.561831+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-10-04T04:05:21.561831+00:00",
+          "published_dt": "2026-10-04T04:05:21.561831+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1004162",
+          "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+          "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espresso\" by Sabrina Carpenter. (The original samples are here and here, for the curious.) Before that, Kakul held executive roles at Flickr, Yahoo, GitHub, and Adobe. Throughout her career, Kakul has found herself at the intersection of Silicon Valley and creatives. That's been especially true at Splice, where she's not just expanded the platform's footprint by acquiring Spitfire Audio, but also overseen its forays into the wor … Read the full story at The Verge.",
+          "published": "2026-10-03T15:00:00+00:00",
+          "published_dt": "2026-10-03T15:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Splice CEO Kakul Srivastava thinks AI emails are killing conversations，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps. I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be hard limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it. Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of spinning up code that can do useful things. Sometimes those things cost money - calls to paid APIs, or hosted web applications, or systems that can bill for additional storage and compute. Nobody wants to wake up to an email sent at midnight warning about a budget limit and find that, while they slept, their rogue service had consumed several hundred (or several thousand) more dollars of usage. An argument against this is that businesses don't want their hosted applications to start throwing errors because some budget was exceeded. I expect that most businesses and individuals would prefer errors to a surprise $10,000+ bill. I think hard budget caps need to be the default. If someone wants to live dangerously they should be able to do that, but it needs to be on an opt-in basis. Have a nice, clear checkbox somewhere prominent: Remove the budget cap. My application will not be shut down if I exceed the configured budget limit, and I will be responsible for subsequent charges. The service I most want to see this from is AWS. I've heard plenty of stories from people who refuse to use AWS for personal projects out of (justified) fear that a runaway service might bankrupt them. I've also heard stories from people who didn't anticipate this and ended up seriously burned. ... and it turns out AWS finally launched spending limits a few weeks ago! From their announcement New AWS experience helps builders get started and ship faster on 16th September: When you're ready to upgrade to a paid pl",
+      "published": "2026-10-03T23:34:02+00:00",
+      "published_dt": "2026-10-03T23:34:02+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "We're going to need default hard budget caps on pretty much everything (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：We're going to need default hard budget caps on pretty much everything，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1004408",
+      "title": "An OpenAI safety employee has quit and is sounding the alarm",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwork to warn about how dangerous the thing they helped build is. They did, after all, make this mess. But that doesn't mean we should discount their warnings. Robinson says that the culture in industry is fundamentally broken. That this is a deeper issue than simply slapping a few new rules or regulations on how we handle training models. Silicon … Read the full story at The Verge.",
+      "published": "2026-10-03T14:31:56+00:00",
+      "published_dt": "2026-10-03T14:31:56+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "An OpenAI safety employee has quit and is sounding the alarm (The Verge AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "The Verge AI 报道：An OpenAI safety employee has quit and is sounding the alarm，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-10-04T04:05:21.561831+00:00",
+      "published_dt": "2026-10-04T04:05:21.561831+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-10-04T04:05:21.561831+00:00",
+      "published_dt": "2026-10-04T04:05:21.561831+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Oct/3/newsletter/",
+      "title": "September sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "I just sent the September edition of my sponsors-only monthly newsletter. If you are a sponsor (or start a sponsorship now) you can access it here. This month: More Fable class models A pricing war 3D graphics, Blender, and pixel art LLMs come for mathematics So many more accidental cyberattacks The vulnapocalypse comes for Datasette What I'm using right now My software releases this month 2026 in LLMs (so far) Here's a copy of the August newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+      "published": "2026-10-03T22:00:31+00:00",
+      "published_dt": "2026-10-03T22:00:31+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "September sponsors-only newsletter (Simon Willison) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Simon Willison 报道：September sponsors-only newsletter，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "If you’re even seeing this, you should probably just go enjoy your weekend.AI News for 10/1/2026-10/2/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGPT-6.1 Sol and Sonnet 5.5 Reshape the Cost–Performance FrontierGPT-6.1 Sol launch: OpenAI priced Sol at $2/$10 per million input/output tokens, compared with $10/$50 for Astra (pricing summary).Claimed results: It reportedly beats GPT-6 Sol by 6.4 points on DeepSWE v1.1 and Opus 5.5 by 2.2 points on AutomationBench (summary).Positioning: OpenAI staff describe it as “good, cheap AND fast” (@reach_vb).Codex usage: A global Codex usage reset was set for Oct 2 at 10AM PT (@reach_vb).Tool use: Sol reportedly “REALLY loves codemode,” consistent with GPT models being trained on it (@badlogicgames, codemode note).Agent Arena placements: Sol [Max] entered at #5 (+11.23%) with a $0.56 median cost per task (@arena).Sol cost comparison: That is 39% cheaper than GPT-6 Sol while scoring 1.52 points higher. It is 81% cheaper than Astra while landing within 1.04 points.Sonnet 5.5: Sonnet 5.5 [Max] debuted at #3 (+12.5%) and ranked #1 in the Chat category. It costs $2.74 per task, versus $1.58 for #2 Opus 5.5, which keeps it off the Pareto frontier (debut, frontier).Anthropic’s position: Anthropic models now hold the top three Agent Arena spots.Code and Text Arena: Sol briefly entered WebDev at #3 before Sonnet 5.5 pushed it to #4 (weekly recap).Sonnet on WebDev: Sonnet now sits 2 points behind GPT-6 Astra [Max] at 80% lower cost.Gemini 4 Argon: Argon [High] took #1 in Text Arena.Open models: MiMo-V2.6-Pro and Flash entered Agent Arena at #5 and #9 among open models.Other independent evals: WeirdML v3 finds Sol very token-efficient, close to Astra but with a lower peak. On the same benchmark, Sonnet 5.5 beats Opus 5 and Grok 4.7 beats Kimi-K3; these resul",
+      "published": "2026-10-03T08:45:15+00:00",
+      "published_dt": "2026-10-03T08:45:15+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] not much happened today (Latent Space) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Latent Space 报道：[AINews] not much happened today，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-49948332",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-10-03T22:18:13+00:00",
+      "published_dt": "2026-10-03T22:18:13+00:00",
+      "hn_score": 233,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "OpenAI safety leader quits, warning AI company's culture is 'broken' (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：OpenAI safety leader quits, warning AI company's culture is 'broken'，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3173499",
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+      "published": "2026-10-03T16:30:01+00:00",
+      "published_dt": "2026-10-03T16:30:01+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’ (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI safety employee resigns, claiming the company’s ‘culture is broken’，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-10-03T22:56:48+00:00",
+      "published_dt": "2026-10-03T22:56:48+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "The Agent Said It Was Done. The Database Disagreed. (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：The Agent Said It Was Done. The Database Disagreed.，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1004162",
+      "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+      "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espresso\" by Sabrina Carpenter. (The original samples are here and here, for the curious.) Before that, Kakul held executive roles at Flickr, Yahoo, GitHub, and Adobe. Throughout her career, Kakul has found herself at the intersection of Silicon Valley and creatives. That's been especially true at Splice, where she's not just expanded the platform's footprint by acquiring Spitfire Audio, but also overseen its forays into the wor … Read the full story at The Verge.",
+      "published": "2026-10-03T15:00:00+00:00",
+      "published_dt": "2026-10-03T15:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Splice CEO Kakul Srivastava thinks AI emails are killing conversations，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3173505",
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
+      "published": "2026-10-03T18:43:57+00:00",
+      "published_dt": "2026-10-03T18:43:57+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon responds to data center backlash, says it no longer uses NDAs (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Amazon responds to data center backlash, says it no longer uses NDAs，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3173132",
+      "title": "All the AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "published": "2026-10-03T14:00:00+00:00",
+      "published_dt": "2026-10-03T14:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "All the AI agents that can live in your text messages (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：All the AI agents that can live in your text messages，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
