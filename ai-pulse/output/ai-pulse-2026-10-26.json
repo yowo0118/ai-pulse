@@ -1,0 +1,798 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T02:58:41",
+  "stats": {
+    "total_items": 12,
+    "high_importance": 1,
+    "medium_importance": 11,
+    "categories_covered": 4
+  },
+  "top_stories": [
+    {
+      "id": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "We — Nathan and Florian — wanted to discuss all the messy trade-offs of a busy week in AI and ask all the pressing questions like:Why did Kimi K3.1 Pro have a mixed reaction with such incredible benchmarks? Will it be adopted?Were we wrong about the risks of open-weight models and cybersecurity?Why do cyber experts discuss recent events so differently than AI experts?What comes next in the few months? What will change our minds?We will write more about this subject, but wanted to bring you behind the curtain as we aspire to quickly learn more about the cybersecurity industry and trends across the last few years that have been leading us today. We conclude the podcast with some lighter topics, from Muse-maxing to excitement in still hiring junior technical talent. Please send us questions and topics, as we plan to record more of these podcasts going forward.ShareListen on Apple Podcasts, Spotify, and wherever you get your podcasts. For other Interconnects podcasts, go here. YouTube ↓Chapters00:00 Kimi K3.1 Reaction08:15 Kimi’s open-weight cyber principles11:23 You can hack everything era15:54 PHP2Shell, LiteLLM, and the new internet24:00 Abliterated APIs, safeguards, and trusted access31:41 Anthropic not hiring juniors employees36:16 Florian’s Muse addiction45:30 Wrap-upLinks we discussMy thread with Dean Ball about the “boy who cried wolf” story of the frontier labsKimi K3.1 Pro announcement blogKimi K3.1 Pro on Artificial Analysis Intelligence IndexKimi K3.1 on Artificial Analysis defensive cyber benchmarksProgram BenchOpen-weight Mythos would’ve been fine takePHP “hasn’t caused a disaster yet” updateAbliteration.ai serving abliterated models APIMorph serving abliterated DeepSeek via APIJoshua Saxe’s Substack on AI and cybersecurityAzeem Azhar, “The internet’s Wuhan moment”Anthropic, “How employment is changing at Anthropic”LiteLLM security incident reportTranscript00:00:00 Nathan Lambert: We are back with another Interconnects podcast. We are with Florian, eval gu",
+      "published": "2026-10-25T11:49:00+00:00",
+      "published_dt": "2026-10-25T11:49:00+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings (Interconnects (Nathan Lambert)) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 0,
+      "items": []
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3181532",
+          "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+          "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+          "published": "2026-10-25T16:57:32+00:00",
+          "published_dt": "2026-10-25T16:57:32+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：AI delivers ‘zero financial payoff’ to most companies, Apollo economist says，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+          "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+          "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "We — Nathan and Florian — wanted to discuss all the messy trade-offs of a busy week in AI and ask all the pressing questions like:Why did Kimi K3.1 Pro have a mixed reaction with such incredible benchmarks? Will it be adopted?Were we wrong about the risks of open-weight models and cybersecurity?Why do cyber experts discuss recent events so differently than AI experts?What comes next in the few months? What will change our minds?We will write more about this subject, but wanted to bring you behind the curtain as we aspire to quickly learn more about the cybersecurity industry and trends across the last few years that have been leading us today. We conclude the podcast with some lighter topics, from Muse-maxing to excitement in still hiring junior technical talent. Please send us questions and topics, as we plan to record more of these podcasts going forward.ShareListen on Apple Podcasts, Spotify, and wherever you get your podcasts. For other Interconnects podcasts, go here. YouTube ↓Chapters00:00 Kimi K3.1 Reaction08:15 Kimi’s open-weight cyber principles11:23 You can hack everything era15:54 PHP2Shell, LiteLLM, and the new internet24:00 Abliterated APIs, safeguards, and trusted access31:41 Anthropic not hiring juniors employees36:16 Florian’s Muse addiction45:30 Wrap-upLinks we discussMy thread with Dean Ball about the “boy who cried wolf” story of the frontier labsKimi K3.1 Pro announcement blogKimi K3.1 Pro on Artificial Analysis Intelligence IndexKimi K3.1 on Artificial Analysis defensive cyber benchmarksProgram BenchOpen-weight Mythos would’ve been fine takePHP “hasn’t caused a disaster yet” updateAbliteration.ai serving abliterated models APIMorph serving abliterated DeepSeek via APIJoshua Saxe’s Substack on AI and cybersecurityAzeem Azhar, “The internet’s Wuhan moment”Anthropic, “How employment is changing at Anthropic”LiteLLM security incident reportTranscript00:00:00 Nathan Lambert: We are back with another Interconnects podcast. We are with Florian, eval gu",
+          "published": "2026-10-25T11:49:00+00:00",
+          "published_dt": "2026-10-25T11:49:00+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "benchmark"
+            ]
+          },
+          "summary_en": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings (Interconnects (Nathan Lambert)) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3181554",
+          "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+          "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+          "published": "2026-10-25T21:31:16+00:00",
+          "published_dt": "2026-10-25T21:31:16+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’ (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Grok releases the first seven minutes of its AI-generated ‘Odyssey’，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1017983",
+          "title": "Google’s AI search changes upended online publishing",
+          "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on Google for a very long time. Many outlets spent time and money optimizing their webpages to show up at the top of the search engine, with the goal of getting readers to click on their articles or discover their websites for the first time. For years, the relationship between Google and publishers was largely reciprocal; online pub … Read the full story at The Verge.",
+          "published": "2026-10-25T12:00:00+00:00",
+          "published_dt": "2026-10-25T12:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google’s AI search changes upended online publishing (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：Google’s AI search changes upended online publishing，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 4,
+      "items": [
+        {
+          "id": "hn-50233779",
+          "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+          "url": "https://lynchlab.net/llm-skin-cancer",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-10-25T17:15:38+00:00",
+          "published_dt": "2026-10-25T17:15:38+00:00",
+          "hn_score": 462,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50233304",
+          "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+          "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-10-25T16:28:26+00:00",
+          "published_dt": "2026-10-25T16:28:26+00:00",
+          "hn_score": 204,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI use leads UC Berkeley math professor to see 'no point' in grading homework (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：AI use leads UC Berkeley math professor to see 'no point' in grading homework，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3067743",
+          "title": "The hottest AI wearables and gadgets you should know about",
+          "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+          "published": "2026-10-25T14:10:00+00:00",
+          "published_dt": "2026-10-25T14:10:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The hottest AI wearables and gadgets you should know about (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：The hottest AI wearables and gadgets you should know about，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50230384",
+          "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+          "url": "https://github.com/ihhub/fheroes2",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-10-25T11:09:12+00:00",
+          "published_dt": "2026-10-25T11:09:12+00:00",
+          "hn_score": 204,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "fheroes2: A recreation of Heroes of Might and Magic II game engine (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：fheroes2: A recreation of Heroes of Might and Magic II game engine，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 4,
+      "items": [
+        {
+          "id": "hn-50234474",
+          "title": "Dolly Parton's Imagination Library",
+          "url": "https://imaginationlibrary.com/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "With today's news, I thought I'd share this great program:“When I was growing up in the hills of East Tennessee, I knew my dreams would come true. I know there are children in your community with their own dreams. They dream of becoming a doctor or an inventor or a minister. Who knows, maybe there is a little girl whose dream is to be a writer and singer.The seeds of these dreams are often found in books and the seeds you help plant in your community can grow across the world.”",
+          "published": "2026-10-25T18:23:54+00:00",
+          "published_dt": "2026-10-25T18:23:54+00:00",
+          "hn_score": 424,
+          "score": 7.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Dolly Parton's Imagination Library (Hacker News) highlights a notable AI development with score 7.4.",
+          "summary_zh": "Hacker News 报道：Dolly Parton's Imagination Library，综合评分 7.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-10-26T02:58:38.998103+00:00",
+          "published_dt": "2026-10-26T02:58:38.998103+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-10-26T02:58:38.998103+00:00",
+          "published_dt": "2026-10-26T02:58:38.998103+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1018217",
+          "title": "r/opensource just banned AI, non-English speakers, and more",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source community.\" The new rules have set off a firestorm in the comments, and even spurred the creation of a rival sub r/trueopensource. Moderator Wolvereness has waded into the comments to explain that there's nuance and room for selective enforcement, such as \"software that incidentally has accessibility features that use AI,\" including … Read the full story at The Verge.",
+          "published": "2026-10-25T13:25:32+00:00",
+          "published_dt": "2026-10-25T13:25:32+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "r/opensource just banned AI, non-English speakers, and more (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：r/opensource just banned AI, non-English speakers, and more，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "We — Nathan and Florian — wanted to discuss all the messy trade-offs of a busy week in AI and ask all the pressing questions like:Why did Kimi K3.1 Pro have a mixed reaction with such incredible benchmarks? Will it be adopted?Were we wrong about the risks of open-weight models and cybersecurity?Why do cyber experts discuss recent events so differently than AI experts?What comes next in the few months? What will change our minds?We will write more about this subject, but wanted to bring you behind the curtain as we aspire to quickly learn more about the cybersecurity industry and trends across the last few years that have been leading us today. We conclude the podcast with some lighter topics, from Muse-maxing to excitement in still hiring junior technical talent. Please send us questions and topics, as we plan to record more of these podcasts going forward.ShareListen on Apple Podcasts, Spotify, and wherever you get your podcasts. For other Interconnects podcasts, go here. YouTube ↓Chapters00:00 Kimi K3.1 Reaction08:15 Kimi’s open-weight cyber principles11:23 You can hack everything era15:54 PHP2Shell, LiteLLM, and the new internet24:00 Abliterated APIs, safeguards, and trusted access31:41 Anthropic not hiring juniors employees36:16 Florian’s Muse addiction45:30 Wrap-upLinks we discussMy thread with Dean Ball about the “boy who cried wolf” story of the frontier labsKimi K3.1 Pro announcement blogKimi K3.1 Pro on Artificial Analysis Intelligence IndexKimi K3.1 on Artificial Analysis defensive cyber benchmarksProgram BenchOpen-weight Mythos would’ve been fine takePHP “hasn’t caused a disaster yet” updateAbliteration.ai serving abliterated models APIMorph serving abliterated DeepSeek via APIJoshua Saxe’s Substack on AI and cybersecurityAzeem Azhar, “The internet’s Wuhan moment”Anthropic, “How employment is changing at Anthropic”LiteLLM security incident reportTranscript00:00:00 Nathan Lambert: We are back with another Interconnects podcast. We are with Florian, eval gu",
+      "published": "2026-10-25T11:49:00+00:00",
+      "published_dt": "2026-10-25T11:49:00+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings (Interconnects (Nathan Lambert)) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50234474",
+      "title": "Dolly Parton's Imagination Library",
+      "url": "https://imaginationlibrary.com/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "With today's news, I thought I'd share this great program:“When I was growing up in the hills of East Tennessee, I knew my dreams would come true. I know there are children in your community with their own dreams. They dream of becoming a doctor or an inventor or a minister. Who knows, maybe there is a little girl whose dream is to be a writer and singer.The seeds of these dreams are often found in books and the seeds you help plant in your community can grow across the world.”",
+      "published": "2026-10-25T18:23:54+00:00",
+      "published_dt": "2026-10-25T18:23:54+00:00",
+      "hn_score": 424,
+      "score": 7.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Dolly Parton's Imagination Library (Hacker News) highlights a notable AI development with score 7.4.",
+      "summary_zh": "Hacker News 报道：Dolly Parton's Imagination Library，综合评分 7.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-10-26T02:58:38.998103+00:00",
+      "published_dt": "2026-10-26T02:58:38.998103+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-10-26T02:58:38.998103+00:00",
+      "published_dt": "2026-10-26T02:58:38.998103+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3181532",
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "published": "2026-10-25T16:57:32+00:00",
+      "published_dt": "2026-10-25T16:57:32+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：AI delivers ‘zero financial payoff’ to most companies, Apollo economist says，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3181554",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "published": "2026-10-25T21:31:16+00:00",
+      "published_dt": "2026-10-25T21:31:16+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’ (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Grok releases the first seven minutes of its AI-generated ‘Odyssey’，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1018217",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source community.\" The new rules have set off a firestorm in the comments, and even spurred the creation of a rival sub r/trueopensource. Moderator Wolvereness has waded into the comments to explain that there's nuance and room for selective enforcement, such as \"software that incidentally has accessibility features that use AI,\" including … Read the full story at The Verge.",
+      "published": "2026-10-25T13:25:32+00:00",
+      "published_dt": "2026-10-25T13:25:32+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "r/opensource just banned AI, non-English speakers, and more (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：r/opensource just banned AI, non-English speakers, and more，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1017983",
+      "title": "Google’s AI search changes upended online publishing",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on Google for a very long time. Many outlets spent time and money optimizing their webpages to show up at the top of the search engine, with the goal of getting readers to click on their articles or discover their websites for the first time. For years, the relationship between Google and publishers was largely reciprocal; online pub … Read the full story at The Verge.",
+      "published": "2026-10-25T12:00:00+00:00",
+      "published_dt": "2026-10-25T12:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google’s AI search changes upended online publishing (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：Google’s AI search changes upended online publishing，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50233779",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-10-25T17:15:38+00:00",
+      "published_dt": "2026-10-25T17:15:38+00:00",
+      "hn_score": 462,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50233304",
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-10-25T16:28:26+00:00",
+      "published_dt": "2026-10-25T16:28:26+00:00",
+      "hn_score": 204,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI use leads UC Berkeley math professor to see 'no point' in grading homework (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：AI use leads UC Berkeley math professor to see 'no point' in grading homework，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3067743",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "published": "2026-10-25T14:10:00+00:00",
+      "published_dt": "2026-10-25T14:10:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The hottest AI wearables and gadgets you should know about (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：The hottest AI wearables and gadgets you should know about，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50230384",
+      "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+      "url": "https://github.com/ihhub/fheroes2",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-10-25T11:09:12+00:00",
+      "published_dt": "2026-10-25T11:09:12+00:00",
+      "hn_score": 204,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "fheroes2: A recreation of Heroes of Might and Magic II game engine (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：fheroes2: A recreation of Heroes of Might and Magic II game engine，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
