@@ -1,0 +1,2107 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T04:09:45",
+  "stats": {
+    "total_items": 31,
+    "high_importance": 9,
+    "medium_importance": 22,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "urn:latent-space:post:post_5b8f3496-af90-414a-aed2-a87d44870a49",
+      "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+      "url": "https://latent.space/p/elorian/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "This month Elorian launched its first visual reasoning model, Glimpse. It’s being promoted as “a new category of visual thinking model: a system that reasons about the physical world from what it sees.” View post on X ↗ So how does Glimpse compare to both frontier models and world models in vision tests? A new benchmark called DecoyCount, co-released by Elorian, provides some answers. We quizzed CEO Andrew Dai on the benchmark, and also talked about Elorian’s positioning in a crowded models landscape. DecoyCount results Elorian emerged from stealth in April with $55 million in seed funding, co-led by Striker Venture Partners, Menlo Ventures and Altimeter Capital. Now, in partnership with AI data company Mercor, Elorian is announcing the DecoyCount benchmark, which tests whether language models genuinely count objects or rely on visual shortcuts and substitution heuristics. According to a paper accompanying the release, frontier models scored below 50% accuracy on DecoyCount — the highest was GPT-6 Astra, with 43.17%. Elorian’s new model isn’t mentioned in the paper, but Dai told us that Glimpse scored 50.48% in an internal test. Regarding the frontier models, the paper concludes that “stronger general reasoning does not by itself generalize to aligned visual reasoning.” How the benchmark works: “DecoyCount exposes interpretable counting failures across seven mechanisms.” To make sure it was a like-for-like comparison with the frontier models, we asked whether the paper’s evaluation images were withheld from Glimpse’s training? “The evaluation images and text were withheld from our training, and our contamination check found no overlap in the training data checked,” Dai replied, via email. “Without any cues, Glimpse scored 50.48% on the 1,660 DecoyCount items, making it the only model in the comparison to clear 50%. The closest was GPT-6 Astra at 43.17%, about 7 points behind, and Gemini-3.8-flash scored 32.71% while Qwen3.8-max scored 28.31%, and Claude-Fable-5.1 ca",
+      "published": "2026-10-29T16:00:00+00:00",
+      "published_dt": "2026-10-29T16:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$55 million"
+        ],
+        "technologies": [
+          "reasoning model",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183066",
+      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+      "published": "2026-10-29T14:35:26+00:00",
+      "published_dt": "2026-10-29T14:35:26+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$1.25B",
+          "$55 million",
+          "$1.25 billion",
+          "raised $55 million"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94301",
+      "title": "Series B Funding Is Up, But Fewer Deals Are Getting Done",
+      "url": "https://news.crunchbase.com/venture/seriesb-startup-funding-up-deals-down-ai-prometheus/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "More money, fewer rounds. That, in short, is the state of U.S. Series B startup funding in 2026, as venture capital investment continues to concentrate heavily around a handful of AI hotshots. Crunchbase data shows that so far this year, investors have poured around $48 billion into financings around the Series B stage 1, the highest tally in years. Yet round counts are below year-ago levels and are on track for a multiyear low. Smaller Series B rounds grow scarcer One trend driving capital concentration is a sharp decline in small and mid-sized Series B rounds. So far this year, less than a third of deals in our sample set 2 were for under $30 million. By contrast, between 2021 and 2025, rounds in this range accounted for about half of deals, per Crunchbase data. The smallest Series B deals have gotten particularly scarce. This year there were just 26 rounds under $10 million in our sample set. Big rounds still a big thing On the flip side, really large Series B rounds are quite popular. At least 110 companies have raised rounds of $100 million or more around this stage so far this year. That’s roughly a quarter of all deals. Of these, the largest by far was a $12 billion round 3 for Prometheus, Jeff Bezos’ physical AI startup that launched last year. Model developer World Labs, led by AI pioneer Fei-Fei Li, was tied for next-biggest fundraiser, closing on $1 billion in February. Nuclear energy startup Valar Atomics also secured $1 billion in Series B funding across tranches this year, with Sequoia Capital as lead investor. For a wider snapshot, below we put together a sample list of more of this year’s biggest U.S. Series B recipients. Mostly an AI story Meanwhile, one of the least surprising findings from our analysis of Series B recipients is that it was a heavily AI-focused group. So far this year, about two-thirds of Series B funding has gone to AI-focused startups, per Crunchbase data. In 2025, by comparison, about half of investment went to companies in AI c",
+      "published": "2026-10-29T11:00:35+00:00",
+      "published_dt": "2026-10-29T11:00:35+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Sequoia"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$48 billion",
+          "$30 million",
+          "$10 million",
+          "$100 million",
+          "$12 billion",
+          "$1 billion",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Series B Funding Is Up, But Fewer Deals Are Getting Done (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Series B Funding Is Up, But Fewer Deals Are Getting Done，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94300",
+      "title": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups",
+      "url": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Global startups have closed at least 114 Series A rounds of $100 million or more so far this year, Crunchbase reported in late September, and more than 70% of them went to AI companies. For most seed founders, that headline is a warning. U.S. startups closed 272 Series A rounds in the third quarter, according to Crunchbase data, about 28% fewer than the 377 a year earlier. Seed held up better, at 984 rounds vs. 1,059. The megarounds hide how few A rounds are getting done. Seed checks keep growing. The median U.S. seed round was about $3 million last year, 3x its 2018 level, according to Crunchbase. Yet only 24% of companies that raised a $1 million-plus seed in 2023 have moved past seed, and just 16% of the 2024 cohort, down from 55% or higher through 2020. Size your seed against the Series A Uncork Capital‘s Andy McLoughlin told Crunchbase News that Series A investors now expect $2 million to $3 million in ARR, sometimes $4 million, and the time from seed to A has stretched past two years. If a seed won’t carry you to that bar with six months to spare, a smaller round is the better deal. A bigger seed isn’t required. Take Atomic, a New York-based supply chain planning software company founded in 2023 (and not an MGV portfolio company). It raised a $3 million seed, right at the median, in April 2025, led by Madrona and DVx Ventures, then closed a $12.5 million Series A led by Madrona and Klass Capital about 17 months later. Map your Series A leads now Funds of $100 million to $500 million typically lead the Series A. Figure out which ones lead at your stage and when their current fund closes, then send the right partners updates for a year before you ask for anything. Sell your way to the bar The Series A bar is now a revenue bar, which makes it a go-to-market problem first. Most seed companies I meet have a stronger product than sales motion. At MGV, our work starts with a first session we call Sales Jumpstart: we interview the founders and their team. We then scor",
+      "published": "2026-10-29T11:00:12+00:00",
+      "published_dt": "2026-10-29T11:00:12+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$100 million",
+          "$3 million",
+          "$1 million",
+          "$2 million",
+          "$4 million",
+          "$12.5 million",
+          "$500 million",
+          "Series A"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183106",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "published": "2026-10-29T16:21:00+00:00",
+      "published_dt": "2026-10-29T16:21:00+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "a16z"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$17M"
+        ],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3182668",
+          "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+          "published": "2026-10-29T17:00:00+00:00",
+          "published_dt": "2026-10-29T17:00:00+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Mistral"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 10,
+      "items": [
+        {
+          "id": "urn:latent-space:post:post_5b8f3496-af90-414a-aed2-a87d44870a49",
+          "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+          "url": "https://latent.space/p/elorian/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "This month Elorian launched its first visual reasoning model, Glimpse. It’s being promoted as “a new category of visual thinking model: a system that reasons about the physical world from what it sees.” View post on X ↗ So how does Glimpse compare to both frontier models and world models in vision tests? A new benchmark called DecoyCount, co-released by Elorian, provides some answers. We quizzed CEO Andrew Dai on the benchmark, and also talked about Elorian’s positioning in a crowded models landscape. DecoyCount results Elorian emerged from stealth in April with $55 million in seed funding, co-led by Striker Venture Partners, Menlo Ventures and Altimeter Capital. Now, in partnership with AI data company Mercor, Elorian is announcing the DecoyCount benchmark, which tests whether language models genuinely count objects or rely on visual shortcuts and substitution heuristics. According to a paper accompanying the release, frontier models scored below 50% accuracy on DecoyCount — the highest was GPT-6 Astra, with 43.17%. Elorian’s new model isn’t mentioned in the paper, but Dai told us that Glimpse scored 50.48% in an internal test. Regarding the frontier models, the paper concludes that “stronger general reasoning does not by itself generalize to aligned visual reasoning.” How the benchmark works: “DecoyCount exposes interpretable counting failures across seven mechanisms.” To make sure it was a like-for-like comparison with the frontier models, we asked whether the paper’s evaluation images were withheld from Glimpse’s training? “The evaluation images and text were withheld from our training, and our contamination check found no overlap in the training data checked,” Dai replied, via email. “Without any cues, Glimpse scored 50.48% on the 1,660 DecoyCount items, making it the only model in the comparison to clear 50%. The closest was GPT-6 Astra at 43.17%, about 7 points behind, and Gemini-3.8-flash scored 32.71% while Qwen3.8-max scored 28.31%, and Claude-Fable-5.1 ca",
+          "published": "2026-10-29T16:00:00+00:00",
+          "published_dt": "2026-10-29T16:00:00+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$55 million"
+            ],
+            "technologies": [
+              "reasoning model",
+              "benchmark"
+            ]
+          },
+          "summary_en": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3183066",
+          "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+          "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+          "published": "2026-10-29T14:35:26+00:00",
+          "published_dt": "2026-10-29T14:35:26+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$1.25B",
+              "$55 million",
+              "$1.25 billion",
+              "raised $55 million"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round (TechCrunch AI) highlights a notable AI development with score 10.0.",
+          "summary_zh": "TechCrunch AI 报道：Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=94301",
+          "title": "Series B Funding Is Up, But Fewer Deals Are Getting Done",
+          "url": "https://news.crunchbase.com/venture/seriesb-startup-funding-up-deals-down-ai-prometheus/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "More money, fewer rounds. That, in short, is the state of U.S. Series B startup funding in 2026, as venture capital investment continues to concentrate heavily around a handful of AI hotshots. Crunchbase data shows that so far this year, investors have poured around $48 billion into financings around the Series B stage 1, the highest tally in years. Yet round counts are below year-ago levels and are on track for a multiyear low. Smaller Series B rounds grow scarcer One trend driving capital concentration is a sharp decline in small and mid-sized Series B rounds. So far this year, less than a third of deals in our sample set 2 were for under $30 million. By contrast, between 2021 and 2025, rounds in this range accounted for about half of deals, per Crunchbase data. The smallest Series B deals have gotten particularly scarce. This year there were just 26 rounds under $10 million in our sample set. Big rounds still a big thing On the flip side, really large Series B rounds are quite popular. At least 110 companies have raised rounds of $100 million or more around this stage so far this year. That’s roughly a quarter of all deals. Of these, the largest by far was a $12 billion round 3 for Prometheus, Jeff Bezos’ physical AI startup that launched last year. Model developer World Labs, led by AI pioneer Fei-Fei Li, was tied for next-biggest fundraiser, closing on $1 billion in February. Nuclear energy startup Valar Atomics also secured $1 billion in Series B funding across tranches this year, with Sequoia Capital as lead investor. For a wider snapshot, below we put together a sample list of more of this year’s biggest U.S. Series B recipients. Mostly an AI story Meanwhile, one of the least surprising findings from our analysis of Series B recipients is that it was a heavily AI-focused group. So far this year, about two-thirds of Series B funding has gone to AI-focused startups, per Crunchbase data. In 2025, by comparison, about half of investment went to companies in AI c",
+          "published": "2026-10-29T11:00:35+00:00",
+          "published_dt": "2026-10-29T11:00:35+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Sequoia"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$48 billion",
+              "$30 million",
+              "$10 million",
+              "$100 million",
+              "$12 billion",
+              "$1 billion",
+              "Series B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Series B Funding Is Up, But Fewer Deals Are Getting Done (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Series B Funding Is Up, But Fewer Deals Are Getting Done，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=94300",
+          "title": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups",
+          "url": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Global startups have closed at least 114 Series A rounds of $100 million or more so far this year, Crunchbase reported in late September, and more than 70% of them went to AI companies. For most seed founders, that headline is a warning. U.S. startups closed 272 Series A rounds in the third quarter, according to Crunchbase data, about 28% fewer than the 377 a year earlier. Seed held up better, at 984 rounds vs. 1,059. The megarounds hide how few A rounds are getting done. Seed checks keep growing. The median U.S. seed round was about $3 million last year, 3x its 2018 level, according to Crunchbase. Yet only 24% of companies that raised a $1 million-plus seed in 2023 have moved past seed, and just 16% of the 2024 cohort, down from 55% or higher through 2020. Size your seed against the Series A Uncork Capital‘s Andy McLoughlin told Crunchbase News that Series A investors now expect $2 million to $3 million in ARR, sometimes $4 million, and the time from seed to A has stretched past two years. If a seed won’t carry you to that bar with six months to spare, a smaller round is the better deal. A bigger seed isn’t required. Take Atomic, a New York-based supply chain planning software company founded in 2023 (and not an MGV portfolio company). It raised a $3 million seed, right at the median, in April 2025, led by Madrona and DVx Ventures, then closed a $12.5 million Series A led by Madrona and Klass Capital about 17 months later. Map your Series A leads now Funds of $100 million to $500 million typically lead the Series A. Figure out which ones lead at your stage and when their current fund closes, then send the right partners updates for a year before you ask for anything. Sell your way to the bar The Series A bar is now a revenue bar, which makes it a go-to-market problem first. Most seed companies I meet have a stronger product than sales motion. At MGV, our work starts with a first session we call Sales Jumpstart: we interview the founders and their team. We then scor",
+          "published": "2026-10-29T11:00:12+00:00",
+          "published_dt": "2026-10-29T11:00:12+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$100 million",
+              "$3 million",
+              "$1 million",
+              "$2 million",
+              "$4 million",
+              "$12.5 million",
+              "$500 million",
+              "Series A"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3183106",
+          "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+          "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+          "published": "2026-10-29T16:21:00+00:00",
+          "published_dt": "2026-10-29T16:21:00+00:00",
+          "score": 9.4,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "a16z"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$17M"
+            ],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction (TechCrunch AI) highlights a notable AI development with score 9.4.",
+          "summary_zh": "TechCrunch AI 报道：Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction，综合评分 9.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+          "title": "Building a multiplayer game world with autonomous Fable-class models",
+          "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world. I fired it up on my phone for a few minutes and was able to prompt a castle into existence, then a dragon, then ride the dragon to fly around that castle. By Jacob's telling, Spawn is now being developed autonomously by a swarm of Fable-powered agents costing over $3 million in tokens per month (\"we spend 30x payroll on AI tokens\"). Our agents change the live code directly and ship to production hourly, so they read every error, bug report and metric themselves. About 60% of our work starts from a production error, a Savi bug report (Savi is the AI you build games with in Spawn), something odd in our logs, or a feature request. Savi files bugs herself. When a user hits one, or Savi hits one in the product, she files it. It goes straight to an agent that decides whether it's a real bug to fix, something we won't fix, or intentional design that needs a decision. Usually it becomes a change, delivered to that user within an hour, with a message in the same chat. This is continuous deployment turned up to 11: A loop this tight only works if it never stops, so we treat an hour without a ship as a SEV-0, our most severe kind of incident. Unshipped changes pile up, and every problem already in production lasts longer. The feedback slows down too. An agent can only keep a few hours of work in its head, so shipping faster than that actually helps it stay coherent. [...] We can roll back a broken change in 30 seconds, exactly where it's broken and nowhere else. When a monitor or a log alert fires, it starts or wakes an agent that owns the incident, and we break th",
+          "published": "2026-10-29T17:00:26+00:00",
+          "published_dt": "2026-10-29T17:00:26+00:00",
+          "score": 8.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Cohere"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$3 million"
+            ],
+            "technologies": [
+              "RAG",
+              "agent",
+              "LoRA"
+            ]
+          },
+          "summary_en": "Building a multiplayer game world with autonomous Fable-class models (Simon Willison) highlights a notable AI development with score 8.4.",
+          "summary_zh": "Simon Willison 报道：Building a multiplayer game world with autonomous Fable-class models，综合评分 8.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3183253",
+          "title": "Rivian expands joint venture with VW to include AI assistant",
+          "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+          "published": "2026-10-29T20:05:47+00:00",
+          "published_dt": "2026-10-29T20:05:47+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$5.8 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Rivian expands joint venture with VW to include AI assistant (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：Rivian expands joint venture with VW to include AI assistant，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1021322",
+          "title": "Anthropic is asking Wall Street to believe in AGI",
+          "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it could start trading as soon as next month at a valuation of anywhere between $1.5 trillion and $2 trillion. That would immediately make it one of the most valuable companies on the planet. But the price tag really isn’t the whole story here. The S-1 document published earlier this week is hundreds upon hundreds of pages filled with details that finally paint a picture of the economics of a frontier AI lab. As you might imagine, that picture is both really complicated and built on a series of very, very ambitious assumptions about the future and what AI will do to it. So I wanted to have Joey on the show to help break down what this document tells us, both about Anthropic’s finances and the broader AI economy. Joey and his colleagues at SemiAnalysis actually built a model of Anthropic’s finances from the outside back in July, so he’s been waiting for this filing about as eagerly as anyone, and I was excited to hear his take on what we’ve learned and, importantly, what we still don’t know. Okay: SemiAnalysis’ Joey Brookhart on the Anthropic S-1 and the costs and risks of building frontier AI. Here we go. This interview has been lightly edited for length and clarity. Joey Brookhart, you are an analyst at SemiAnalysis. You’re also co-lead on SemiAnalysis’ Tokenomics model, which is going to come up a lot in this episode. Welcome to Decoder. Yeah, thanks so much, Nilay. I am very excited to talk to you. We’re talking just a couple days after the big Anthropic S-1 was filed. It’s our first look inside of the finances of one of the leading frontier models. What’s your take? What’s your read into it? It was an awesome S-1. It’s been a rough three weeks since the investor day. Some people were somewhat ",
+          "published": "2026-10-29T14:00:00+00:00",
+          "published_dt": "2026-10-29T14:00:00+00:00",
+          "score": 8.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic is asking Wall Street to believe in AGI (The Verge AI) highlights a notable AI development with score 8.0.",
+          "summary_zh": "The Verge AI 报道：Anthropic is asking Wall Street to believe in AGI，综合评分 8.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3183214",
+          "title": "OpenAI-backed Thrive Holdings acquires ADT",
+          "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+          "published": "2026-10-29T19:56:19+00:00",
+          "published_dt": "2026-10-29T19:56:19+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$15.3 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "OpenAI-backed Thrive Holdings acquires ADT (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI-backed Thrive Holdings acquires ADT，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3183099",
+          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
+          "published": "2026-10-29T16:42:32+00:00",
+          "published_dt": "2026-10-29T16:42:32+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "US investigated Chinese spy plot aimed at Nvidia CEO (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：US investigated Chinese spy plot aimed at Nvidia CEO，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3183122",
+          "title": "Meta quietly launches an AI fashion app called Style Sketch",
+          "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+          "published": "2026-10-29T19:14:36+00:00",
+          "published_dt": "2026-10-29T19:14:36+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Meta quietly launches an AI fashion app called Style Sketch (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Meta quietly launches an AI fashion app called Style Sketch，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 9,
+      "items": [
+        {
+          "id": "urn:latent-space:post:post_211d308e-4494-4480-adc1-9d69c85efd19",
+          "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+          "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "It’s a good thing we published our Opus 5.5 podcast calling it the world’s best model before today’s launch. In a very pleasant surprise, Gemini announced Carbon, a newer frontier model than the 3 week old Argon, with fantastic benchmarks: Taking it to the new #1 on the Artificial Analysis consolidated benchmark, putting GDM in the lead for possibly the first time in AAII history: View post on X ↗ sd AI News for 10/27/2026-10/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGemini 4 Carbon Tops Independent Leaderboards, with Access Limited to Cyber DefendersLaunch: Google DeepMind announced Gemini 4 Carbon two weeks after Argon. It is positioned as state of the art on cybersecurity and long-horizon tasks (@sundarpichai, @GoogleDeepMind). Claimed cyber results: 88.2% on SEC-bench Pro for vulnerability finding, 54.8% on ExploitGym for exploitation and 71.0% on CWE-bench for patching (@sundarpichai). Availability: Carbon first goes to trusted cyber defenders through the Fairwind Program, with wider developer access promised \"as soon as possible\" (@GoogleAI). Pricing: Phil Schmid quotes $2/$10 per million input/output tokens with an asterisk (@_philschmid). Artificial Analysis lists $4/$20 standard pricing with a 50% launch discount that has no end date. Cached input costs $0.20 per million tokens (@ArtificialAnlys). Specs: The model has a 1M-token context window and 1M max output. Inputs are text, image, video and speech; output is text (@ValsAI). Safety claims (Google): Successful cheating on Terminal-Bench 4.0 fell to 0.0%, and cheating attempts fell to 0.4%. Unsupported claims are down about 2x versus Argon. Overreach fell 26% and under-service fell 29% (@OfficialLoganK). Artificial Analysis: Carbon is #1 on Intelligence Index v5 with a score of 59. It leads 4 of the 9 index evals: HL",
+          "published": "2026-10-29T05:55:19+00:00",
+          "published_dt": "2026-10-29T05:55:19+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google",
+              "DeepMind"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "benchmark",
+              "safety"
+            ]
+          },
+          "summary_en": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders (Latent Space) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Latent Space 报道：[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/29/api-credits/",
+          "title": "API credits benefit for eligible ChatGPT subscriptions",
+          "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API. OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations. I maintain subscriptions with both companies, so this is great news for me! I may even ship some public-facing demos now that the credits are already covered by my existing subscriptions. Tags: ai, openai, generative-ai, llms, anthropic, llm-pricing",
+          "published": "2026-10-29T22:48:29+00:00",
+          "published_dt": "2026-10-29T22:48:29+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "API credits benefit for eligible ChatGPT subscriptions (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：API credits benefit for eligible ChatGPT subscriptions，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/updated-model-spec",
+          "title": "An updated Model Spec for more capable and beneficial AI",
+          "url": "https://openai.com/index/updated-model-spec",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+          "published": "2026-10-29T17:00:00+00:00",
+          "published_dt": "2026-10-29T17:00:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "An updated Model Spec for more capable and beneficial AI (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：An updated Model Spec for more capable and beneficial AI，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3183224",
+          "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+          "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+          "published": "2026-10-29T20:08:31+00:00",
+          "published_dt": "2026-10-29T20:08:31+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：As search traffic dries up, Reddit announces it’s shifting to a logged-in experience，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+          "title": "Granite Switch 4.1.1 — Update models like you update software",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-10-29T13:37:07+00:00",
+          "published_dt": "2026-10-29T13:37:07+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Granite Switch 4.1.1 — Update models like you update software (Hugging Face Blog) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hugging Face Blog 报道：Granite Switch 4.1.1 — Update models like you update software，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3182981",
+          "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
+          "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
+          "published": "2026-10-29T13:00:00+00:00",
+          "published_dt": "2026-10-29T13:00:00+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1022519",
+          "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in the web version for now. Google added support for generating and downloading files in Gemini earlier this year, but now you can tweak those files without leaving the Gemini app. Google says you can expand documents to edit them in full-screen mode and highlight text in files to ask Gemini questions or prompt … Read the full story at The Verge.",
+          "published": "2026-10-29T18:45:31+00:00",
+          "published_dt": "2026-10-29T18:45:31+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "You can generate and edit Google Docs files directly in Gemini chats now (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：You can generate and edit Google Docs files directly in Gemini chats now，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1022193",
+          "title": "The NYT Cooking app is testing AI recipe modifications",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "The AI tool provides recommendations and adjusts the recipe accordingly. | Image: The New York Times The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any number of servings, and \"generally make our recipes work for what a cook needs at that moment.\" One of the examples given in the article shows a user asking to use baby spinach instead of kale, with the Cooking app feature advising that because baby spinach wilts faster, it should be added during a later step of the reci … Read the full story at The Verge.",
+          "published": "2026-10-29T14:39:37+00:00",
+          "published_dt": "2026-10-29T14:39:37+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The NYT Cooking app is testing AI recipe modifications (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：The NYT Cooking app is testing AI recipe modifications，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6ae2117191edfe18440518da",
+          "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+          "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.",
+          "published": "2026-10-29T14:00:00+00:00",
+          "published_dt": "2026-10-29T14:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Mistral",
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 6,
+      "items": [
+        {
+          "id": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "title": "How we detect frontier model misalignment",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+          "published": "2026-10-29T09:00:00+00:00",
+          "published_dt": "2026-10-29T09:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "alignment"
+            ]
+          },
+          "summary_en": "How we detect frontier model misalignment (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：How we detect frontier model misalignment，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/ropes-gray-ai-diligence",
+          "title": "How Ropes & Gray is developing AI for transactional diligence",
+          "url": "https://openai.com/index/ropes-gray-ai-diligence",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+          "published": "2026-10-29T07:00:00+00:00",
+          "published_dt": "2026-10-29T07:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How Ropes & Gray is developing AI for transactional diligence (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：How Ropes & Gray is developing AI for transactional diligence，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3183095",
+          "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+          "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+          "published": "2026-10-30T01:20:48+00:00",
+          "published_dt": "2026-10-30T01:20:48+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "You don’t need to believe in a god to get a religious exemption from using AI at work (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：You don’t need to believe in a god to get a religious exemption from using AI at work，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3183387",
+          "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+          "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+          "published": "2026-10-29T23:42:22+00:00",
+          "published_dt": "2026-10-29T23:42:22+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AWS will be a $1T business, Jassy says. But first, it will spend big. (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：AWS will be a $1T business, Jassy says. But first, it will spend big.，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3183181",
+          "title": "Granola crunches up a dictation feature to compete with Wispr",
+          "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+          "published": "2026-10-29T17:54:38+00:00",
+          "published_dt": "2026-10-29T17:54:38+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Granola crunches up a dictation feature to compete with Wispr (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Granola crunches up a dictation feature to compete with Wispr，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3182652",
+          "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+          "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
+          "published": "2026-10-29T13:00:00+00:00",
+          "published_dt": "2026-10-29T13:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-10-30T04:09:42.721400+00:00",
+          "published_dt": "2026-10-30T04:09:42.721400+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-10-30T04:09:42.721400+00:00",
+          "published_dt": "2026-10-30T04:09:42.721400+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "urn:latent-space:post:post_5b8f3496-af90-414a-aed2-a87d44870a49",
+      "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+      "url": "https://latent.space/p/elorian/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "This month Elorian launched its first visual reasoning model, Glimpse. It’s being promoted as “a new category of visual thinking model: a system that reasons about the physical world from what it sees.” View post on X ↗ So how does Glimpse compare to both frontier models and world models in vision tests? A new benchmark called DecoyCount, co-released by Elorian, provides some answers. We quizzed CEO Andrew Dai on the benchmark, and also talked about Elorian’s positioning in a crowded models landscape. DecoyCount results Elorian emerged from stealth in April with $55 million in seed funding, co-led by Striker Venture Partners, Menlo Ventures and Altimeter Capital. Now, in partnership with AI data company Mercor, Elorian is announcing the DecoyCount benchmark, which tests whether language models genuinely count objects or rely on visual shortcuts and substitution heuristics. According to a paper accompanying the release, frontier models scored below 50% accuracy on DecoyCount — the highest was GPT-6 Astra, with 43.17%. Elorian’s new model isn’t mentioned in the paper, but Dai told us that Glimpse scored 50.48% in an internal test. Regarding the frontier models, the paper concludes that “stronger general reasoning does not by itself generalize to aligned visual reasoning.” How the benchmark works: “DecoyCount exposes interpretable counting failures across seven mechanisms.” To make sure it was a like-for-like comparison with the frontier models, we asked whether the paper’s evaluation images were withheld from Glimpse’s training? “The evaluation images and text were withheld from our training, and our contamination check found no overlap in the training data checked,” Dai replied, via email. “Without any cues, Glimpse scored 50.48% on the 1,660 DecoyCount items, making it the only model in the comparison to clear 50%. The closest was GPT-6 Astra at 43.17%, about 7 points behind, and Gemini-3.8-flash scored 32.71% while Qwen3.8-max scored 28.31%, and Claude-Fable-5.1 ca",
+      "published": "2026-10-29T16:00:00+00:00",
+      "published_dt": "2026-10-29T16:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$55 million"
+        ],
+        "technologies": [
+          "reasoning model",
+          "benchmark"
+        ]
+      },
+      "summary_en": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183066",
+      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+      "published": "2026-10-29T14:35:26+00:00",
+      "published_dt": "2026-10-29T14:35:26+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$1.25B",
+          "$55 million",
+          "$1.25 billion",
+          "raised $55 million"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94301",
+      "title": "Series B Funding Is Up, But Fewer Deals Are Getting Done",
+      "url": "https://news.crunchbase.com/venture/seriesb-startup-funding-up-deals-down-ai-prometheus/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "More money, fewer rounds. That, in short, is the state of U.S. Series B startup funding in 2026, as venture capital investment continues to concentrate heavily around a handful of AI hotshots. Crunchbase data shows that so far this year, investors have poured around $48 billion into financings around the Series B stage 1, the highest tally in years. Yet round counts are below year-ago levels and are on track for a multiyear low. Smaller Series B rounds grow scarcer One trend driving capital concentration is a sharp decline in small and mid-sized Series B rounds. So far this year, less than a third of deals in our sample set 2 were for under $30 million. By contrast, between 2021 and 2025, rounds in this range accounted for about half of deals, per Crunchbase data. The smallest Series B deals have gotten particularly scarce. This year there were just 26 rounds under $10 million in our sample set. Big rounds still a big thing On the flip side, really large Series B rounds are quite popular. At least 110 companies have raised rounds of $100 million or more around this stage so far this year. That’s roughly a quarter of all deals. Of these, the largest by far was a $12 billion round 3 for Prometheus, Jeff Bezos’ physical AI startup that launched last year. Model developer World Labs, led by AI pioneer Fei-Fei Li, was tied for next-biggest fundraiser, closing on $1 billion in February. Nuclear energy startup Valar Atomics also secured $1 billion in Series B funding across tranches this year, with Sequoia Capital as lead investor. For a wider snapshot, below we put together a sample list of more of this year’s biggest U.S. Series B recipients. Mostly an AI story Meanwhile, one of the least surprising findings from our analysis of Series B recipients is that it was a heavily AI-focused group. So far this year, about two-thirds of Series B funding has gone to AI-focused startups, per Crunchbase data. In 2025, by comparison, about half of investment went to companies in AI c",
+      "published": "2026-10-29T11:00:35+00:00",
+      "published_dt": "2026-10-29T11:00:35+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Sequoia"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$48 billion",
+          "$30 million",
+          "$10 million",
+          "$100 million",
+          "$12 billion",
+          "$1 billion",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Series B Funding Is Up, But Fewer Deals Are Getting Done (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Series B Funding Is Up, But Fewer Deals Are Getting Done，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94300",
+      "title": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups",
+      "url": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Global startups have closed at least 114 Series A rounds of $100 million or more so far this year, Crunchbase reported in late September, and more than 70% of them went to AI companies. For most seed founders, that headline is a warning. U.S. startups closed 272 Series A rounds in the third quarter, according to Crunchbase data, about 28% fewer than the 377 a year earlier. Seed held up better, at 984 rounds vs. 1,059. The megarounds hide how few A rounds are getting done. Seed checks keep growing. The median U.S. seed round was about $3 million last year, 3x its 2018 level, according to Crunchbase. Yet only 24% of companies that raised a $1 million-plus seed in 2023 have moved past seed, and just 16% of the 2024 cohort, down from 55% or higher through 2020. Size your seed against the Series A Uncork Capital‘s Andy McLoughlin told Crunchbase News that Series A investors now expect $2 million to $3 million in ARR, sometimes $4 million, and the time from seed to A has stretched past two years. If a seed won’t carry you to that bar with six months to spare, a smaller round is the better deal. A bigger seed isn’t required. Take Atomic, a New York-based supply chain planning software company founded in 2023 (and not an MGV portfolio company). It raised a $3 million seed, right at the median, in April 2025, led by Madrona and DVx Ventures, then closed a $12.5 million Series A led by Madrona and Klass Capital about 17 months later. Map your Series A leads now Funds of $100 million to $500 million typically lead the Series A. Figure out which ones lead at your stage and when their current fund closes, then send the right partners updates for a year before you ask for anything. Sell your way to the bar The Series A bar is now a revenue bar, which makes it a go-to-market problem first. Most seed companies I meet have a stronger product than sales motion. At MGV, our work starts with a first session we call Sales Jumpstart: we interview the founders and their team. We then scor",
+      "published": "2026-10-29T11:00:12+00:00",
+      "published_dt": "2026-10-29T11:00:12+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$100 million",
+          "$3 million",
+          "$1 million",
+          "$2 million",
+          "$4 million",
+          "$12.5 million",
+          "$500 million",
+          "Series A"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183106",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "published": "2026-10-29T16:21:00+00:00",
+      "published_dt": "2026-10-29T16:21:00+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "a16z"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$17M"
+        ],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_211d308e-4494-4480-adc1-9d69c85efd19",
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "It’s a good thing we published our Opus 5.5 podcast calling it the world’s best model before today’s launch. In a very pleasant surprise, Gemini announced Carbon, a newer frontier model than the 3 week old Argon, with fantastic benchmarks: Taking it to the new #1 on the Artificial Analysis consolidated benchmark, putting GDM in the lead for possibly the first time in AAII history: View post on X ↗ sd AI News for 10/27/2026-10/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGemini 4 Carbon Tops Independent Leaderboards, with Access Limited to Cyber DefendersLaunch: Google DeepMind announced Gemini 4 Carbon two weeks after Argon. It is positioned as state of the art on cybersecurity and long-horizon tasks (@sundarpichai, @GoogleDeepMind). Claimed cyber results: 88.2% on SEC-bench Pro for vulnerability finding, 54.8% on ExploitGym for exploitation and 71.0% on CWE-bench for patching (@sundarpichai). Availability: Carbon first goes to trusted cyber defenders through the Fairwind Program, with wider developer access promised \"as soon as possible\" (@GoogleAI). Pricing: Phil Schmid quotes $2/$10 per million input/output tokens with an asterisk (@_philschmid). Artificial Analysis lists $4/$20 standard pricing with a 50% launch discount that has no end date. Cached input costs $0.20 per million tokens (@ArtificialAnlys). Specs: The model has a 1M-token context window and 1M max output. Inputs are text, image, video and speech; output is text (@ValsAI). Safety claims (Google): Successful cheating on Terminal-Bench 4.0 fell to 0.0%, and cheating attempts fell to 0.4%. Unsupported claims are down about 2x versus Argon. Overreach fell 26% and under-service fell 29% (@OfficialLoganK). Artificial Analysis: Carbon is #1 on Intelligence Index v5 with a score of 59. It leads 4 of the 9 index evals: HL",
+      "published": "2026-10-29T05:55:19+00:00",
+      "published_dt": "2026-10-29T05:55:19+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "benchmark",
+          "safety"
+        ]
+      },
+      "summary_en": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders (Latent Space) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Latent Space 报道：[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world. I fired it up on my phone for a few minutes and was able to prompt a castle into existence, then a dragon, then ride the dragon to fly around that castle. By Jacob's telling, Spawn is now being developed autonomously by a swarm of Fable-powered agents costing over $3 million in tokens per month (\"we spend 30x payroll on AI tokens\"). Our agents change the live code directly and ship to production hourly, so they read every error, bug report and metric themselves. About 60% of our work starts from a production error, a Savi bug report (Savi is the AI you build games with in Spawn), something odd in our logs, or a feature request. Savi files bugs herself. When a user hits one, or Savi hits one in the product, she files it. It goes straight to an agent that decides whether it's a real bug to fix, something we won't fix, or intentional design that needs a decision. Usually it becomes a change, delivered to that user within an hour, with a message in the same chat. This is continuous deployment turned up to 11: A loop this tight only works if it never stops, so we treat an hour without a ship as a SEV-0, our most severe kind of incident. Unshipped changes pile up, and every problem already in production lasts longer. The feedback slows down too. An agent can only keep a few hours of work in its head, so shipping faster than that actually helps it stay coherent. [...] We can roll back a broken change in 30 seconds, exactly where it's broken and nowhere else. When a monitor or a log alert fires, it starts or wakes an agent that owns the incident, and we break th",
+      "published": "2026-10-29T17:00:26+00:00",
+      "published_dt": "2026-10-29T17:00:26+00:00",
+      "score": 8.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Cohere"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$3 million"
+        ],
+        "technologies": [
+          "RAG",
+          "agent",
+          "LoRA"
+        ]
+      },
+      "summary_en": "Building a multiplayer game world with autonomous Fable-class models (Simon Willison) highlights a notable AI development with score 8.4.",
+      "summary_zh": "Simon Willison 报道：Building a multiplayer game world with autonomous Fable-class models，综合评分 8.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183253",
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+      "published": "2026-10-29T20:05:47+00:00",
+      "published_dt": "2026-10-29T20:05:47+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$5.8 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Rivian expands joint venture with VW to include AI assistant (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：Rivian expands joint venture with VW to include AI assistant，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1021322",
+      "title": "Anthropic is asking Wall Street to believe in AGI",
+      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it could start trading as soon as next month at a valuation of anywhere between $1.5 trillion and $2 trillion. That would immediately make it one of the most valuable companies on the planet. But the price tag really isn’t the whole story here. The S-1 document published earlier this week is hundreds upon hundreds of pages filled with details that finally paint a picture of the economics of a frontier AI lab. As you might imagine, that picture is both really complicated and built on a series of very, very ambitious assumptions about the future and what AI will do to it. So I wanted to have Joey on the show to help break down what this document tells us, both about Anthropic’s finances and the broader AI economy. Joey and his colleagues at SemiAnalysis actually built a model of Anthropic’s finances from the outside back in July, so he’s been waiting for this filing about as eagerly as anyone, and I was excited to hear his take on what we’ve learned and, importantly, what we still don’t know. Okay: SemiAnalysis’ Joey Brookhart on the Anthropic S-1 and the costs and risks of building frontier AI. Here we go. This interview has been lightly edited for length and clarity. Joey Brookhart, you are an analyst at SemiAnalysis. You’re also co-lead on SemiAnalysis’ Tokenomics model, which is going to come up a lot in this episode. Welcome to Decoder. Yeah, thanks so much, Nilay. I am very excited to talk to you. We’re talking just a couple days after the big Anthropic S-1 was filed. It’s our first look inside of the finances of one of the leading frontier models. What’s your take? What’s your read into it? It was an awesome S-1. It’s been a rough three weeks since the investor day. Some people were somewhat ",
+      "published": "2026-10-29T14:00:00+00:00",
+      "published_dt": "2026-10-29T14:00:00+00:00",
+      "score": 8.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic is asking Wall Street to believe in AGI (The Verge AI) highlights a notable AI development with score 8.0.",
+      "summary_zh": "The Verge AI 报道：Anthropic is asking Wall Street to believe in AGI，综合评分 8.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3182668",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+      "published": "2026-10-29T17:00:00+00:00",
+      "published_dt": "2026-10-29T17:00:00+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Mistral"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API. OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations. I maintain subscriptions with both companies, so this is great news for me! I may even ship some public-facing demos now that the credits are already covered by my existing subscriptions. Tags: ai, openai, generative-ai, llms, anthropic, llm-pricing",
+      "published": "2026-10-29T22:48:29+00:00",
+      "published_dt": "2026-10-29T22:48:29+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "API credits benefit for eligible ChatGPT subscriptions (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：API credits benefit for eligible ChatGPT subscriptions，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183214",
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "published": "2026-10-29T19:56:19+00:00",
+      "published_dt": "2026-10-29T19:56:19+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$15.3 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenAI-backed Thrive Holdings acquires ADT (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI-backed Thrive Holdings acquires ADT，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-10-30T04:09:42.721400+00:00",
+      "published_dt": "2026-10-30T04:09:42.721400+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-10-30T04:09:42.721400+00:00",
+      "published_dt": "2026-10-30T04:09:42.721400+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/updated-model-spec",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "published": "2026-10-29T17:00:00+00:00",
+      "published_dt": "2026-10-29T17:00:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "An updated Model Spec for more capable and beneficial AI (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：An updated Model Spec for more capable and beneficial AI，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183224",
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "published": "2026-10-29T20:08:31+00:00",
+      "published_dt": "2026-10-29T20:08:31+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：As search traffic dries up, Reddit announces it’s shifting to a logged-in experience，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183122",
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+      "published": "2026-10-29T19:14:36+00:00",
+      "published_dt": "2026-10-29T19:14:36+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Meta quietly launches an AI fashion app called Style Sketch (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Meta quietly launches an AI fashion app called Style Sketch，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-10-29T13:37:07+00:00",
+      "published_dt": "2026-10-29T13:37:07+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Granite Switch 4.1.1 — Update models like you update software (Hugging Face Blog) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hugging Face Blog 报道：Granite Switch 4.1.1 — Update models like you update software，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "published": "2026-10-29T09:00:00+00:00",
+      "published_dt": "2026-10-29T09:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "alignment"
+        ]
+      },
+      "summary_en": "How we detect frontier model misalignment (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：How we detect frontier model misalignment，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/ropes-gray-ai-diligence",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_dt": "2026-10-29T07:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How Ropes & Gray is developing AI for transactional diligence (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：How Ropes & Gray is developing AI for transactional diligence，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183099",
+      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
+      "published": "2026-10-29T16:42:32+00:00",
+      "published_dt": "2026-10-29T16:42:32+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "US investigated Chinese spy plot aimed at Nvidia CEO (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：US investigated Chinese spy plot aimed at Nvidia CEO，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3182981",
+      "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
+      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
+      "published": "2026-10-29T13:00:00+00:00",
+      "published_dt": "2026-10-29T13:00:00+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1022023",
+      "title": "Microsoft’s AI future has fewer jobs",
+      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to around 60,000 employees across the US, UK, Canada, and India. It's the first time the company has presented such an offer to so many employees, expanding greatly upon the retirement offer that was limited to around 9,000 employees earlier this year. It's all part of an ongoing effort to avoid reducing investment in AI infrastructure by lowering Microsoft's operating cos … Read the full story at The Verge.",
+      "published": "2026-10-29T16:00:00+00:00",
+      "published_dt": "2026-10-29T16:00:00+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Microsoft’s AI future has fewer jobs (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：Microsoft’s AI future has fewer jobs，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?post_type=vm_custom_story&p=1016650",
+      "title": "AI has come for Arizona’s water",
+      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the mountains that surround it, and it is endless. I drive past one building, and then another, and then the ground opens up where construction crews have dug up the earth so a third building can rise. There is a parking lot, and then another, and then another. There is an empty lot on the other side of the street, full of cars and the occasional food truck to feed the thousands of laborers who are busy transforming this expanse of desert into an industrial park. There is dust, so much of it, choking the air. I stand before the savior of Arizona’s economy. Like all great deities, it demands sacrifice. In the desert, nothing is more precious than water, and water is what must be given — nearly 5 million gallons a day, every day, sourced from Phoenix’s municipal supply. The offering has been well worth it. All of this is the fruit of the Taiwan Semiconductor Manufacturing Company, the world’s leading producer of microchips. Its Arizona operation is the result of a pre-pandemic gamble Phoenix made to revive its sluggish economy, which never quite rebounded from the Great Recession. Now TSMC’s foundry looms over the city’s outskirts. TSMC is a success story, one that some local leaders may have hoped to repeat with hyperscale data center developments. The progression may have seemed natural: The Grand Canyon State is not only home to the largest chip factory this side of the Pacific but also 172 data centers, neither of which faced much pushback. But the newer, larger developments being proposed from Phoenix to Tucson demand more of everything — more water, more power, more land — than Arizonans are willing to give. Where TSMC was welcomed with open arms and the first wave of data centers was largel",
+      "published": "2026-10-29T10:00:04+00:00",
+      "published_dt": "2026-10-29T10:00:04+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI has come for Arizona’s water (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：AI has come for Arizona’s water，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1022519",
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in the web version for now. Google added support for generating and downloading files in Gemini earlier this year, but now you can tweak those files without leaving the Gemini app. Google says you can expand documents to edit them in full-screen mode and highlight text in files to ask Gemini questions or prompt … Read the full story at The Verge.",
+      "published": "2026-10-29T18:45:31+00:00",
+      "published_dt": "2026-10-29T18:45:31+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "You can generate and edit Google Docs files directly in Gemini chats now (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：You can generate and edit Google Docs files directly in Gemini chats now，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1022193",
+      "title": "The NYT Cooking app is testing AI recipe modifications",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "The AI tool provides recommendations and adjusts the recipe accordingly. | Image: The New York Times The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any number of servings, and \"generally make our recipes work for what a cook needs at that moment.\" One of the examples given in the article shows a user asking to use baby spinach instead of kale, with the Cooking app feature advising that because baby spinach wilts faster, it should be added during a later step of the reci … Read the full story at The Verge.",
+      "published": "2026-10-29T14:39:37+00:00",
+      "published_dt": "2026-10-29T14:39:37+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The NYT Cooking app is testing AI recipe modifications (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：The NYT Cooking app is testing AI recipe modifications，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6ae2117191edfe18440518da",
+      "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+      "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.",
+      "published": "2026-10-29T14:00:00+00:00",
+      "published_dt": "2026-10-29T14:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Mistral",
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183095",
+      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "published": "2026-10-30T01:20:48+00:00",
+      "published_dt": "2026-10-30T01:20:48+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "You don’t need to believe in a god to get a religious exemption from using AI at work (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：You don’t need to believe in a god to get a religious exemption from using AI at work，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183387",
+      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "published": "2026-10-29T23:42:22+00:00",
+      "published_dt": "2026-10-29T23:42:22+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AWS will be a $1T business, Jassy says. But first, it will spend big. (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：AWS will be a $1T business, Jassy says. But first, it will spend big.，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183181",
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+      "published": "2026-10-29T17:54:38+00:00",
+      "published_dt": "2026-10-29T17:54:38+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Granola crunches up a dictation feature to compete with Wispr (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Granola crunches up a dictation feature to compete with Wispr，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3182652",
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
+      "published": "2026-10-29T13:00:00+00:00",
+      "published_dt": "2026-10-29T13:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
