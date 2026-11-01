@@ -1,0 +1,1052 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T04:03:15",
+  "stats": {
+    "total_items": 15,
+    "high_importance": 2,
+    "medium_importance": 13,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "urn:latent-space:post:post_5b764e38-11dc-428b-b25b-2b9b740ebb8b",
+      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+      "url": "https://latent.space/p/arca/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "At AI Engineer New York this month, we sat down with Aman Singh, the lead AI Engineer at Arca, an “AI-native” company providing wealth management services. We discovered that while agents do most of the background work in the firm, there are guardrails in place to ensure that human advisors are making the final decisions. The goal is for AI to guide the process; or as Singh nicely put it, “agents prompt people more than people prompt agents.” Arca recently raised $48.5 Million in a round led by General Catalyst, with participation from Index Ventures and Venrock. One of the features of using AI in financial services, explained Singh, is that it’s typically long-horizon work — although not long-running. In his AIE presentation, Singh noted that agent tasks at Arca can take up to ten days. “It's very stop-start, there's many actors in between, many decision points, many handoffs,” he said. For this reason, Arca has developed an internal memory system. “So we have this persistence for every client,” Singh said in our podcast discussion. “What has happened so far? What are we tracking for next? What needs to happen immediately in the next couple of days [and] what are we tracking for the long term? Which individual is responsible for which action? All of this is being tracked by our memory systems that our agents contribute to.” Arca uses models from frontier labs like Anthropic and OpenAI, with Claude its primary model provider. The company has built its own harness, which automatically selects the best model to use for a particular task, based on the company’s internal benchmarks. Owning the harness, rather than using a managed agent harness, also means that Arca has the flexibility to change model providers if it needs to. Safety is obviously key for financial services. Singh noted that although agents do much of the work, an agent’s role is limited to analysis and proposing solutions. Trading and any other money movement is handled by a human advisor. “All of our sa",
+      "published": "2026-10-31T16:05:00+00:00",
+      "published_dt": "2026-10-31T16:05:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$48.5 Million",
+          "raised $48.5 Million"
+        ],
+        "technologies": [
+          "agent",
+          "benchmark",
+          "safety"
+        ]
+      },
+      "summary_en": "Agents Prompt People: Using Agents for Long-Horizon Financial Work (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Agents Prompt People: Using Agents for Long-Horizon Financial Work，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_da09d759-cdcb-4e0e-8da3-a546632e0a0f",
+      "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+      "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "As an engineer-focused newsletter we only very rarely let financial stories through (our last example was Jan 2025), but when this is about the future of Google and Google Search, with a recently departed AI leadership, you cannot not care. At its heart is the tension between overview pages and underlying pages they summarize. Any good enough summary obviates the need for you reading the source. Google’s Featured Snippets or Knowledge Panels have long had that tension with the publishers that supply that data. But now, Google’s own AI Overviews are potentially affecting traffic with… Google's Search revenue. Google doesn’t break out AI Mode in sufficient detail that we can make any sort of rigorous analysis, but most people are quoting Philipp Schindler (Chief Business Officer): “It’s worth noting that the strong growth in AI Mode queries had an impact because of the lower monetization we were seeing in AI Mode.” Together with other bad earnings results it set off a range of steep declines throughout tech: View post on X ↗ This is against a backdrop of souring tech/AI sentiment in public markets - and with OpenAI raising at $1.25T not $1.4T, not the sort of thing you want in the lead up to one of the biggest tech IPOs of all time. View post on X ↗AI News for 10/29/2026-10/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapClaude Ultra Drops the 5-Hour Limit as Anthropic Renames Its Max TiersPlan rename: Anthropic renamed its Max tiers. Max 5x is now \"Max\" at $100/month, and Max 20x is now \"Ultra\" at $200/month. Existing subscribers do not need to take any action (announcement). 5-hour limit removed: Verified Ultra accounts no longer have the 5-hour session limit. The change starts today for most existing subscribers (@claudeai, @bcherny, @alexalbert__). Rollout caveat: Newer accounts ke",
+      "published": "2026-10-31T05:00:48+00:00",
+      "published_dt": "2026-10-31T05:00:48+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$500B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming? (Latent Space) highlights a notable AI development with score 9.2.",
+      "summary_zh": "Latent Space 报道：[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 2,
+      "items": [
+        {
+          "id": "hn-50319358",
+          "title": "Anthropic blocks users for anything touching training larger models",
+          "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-10-31T19:39:19+00:00",
+          "published_dt": "2026-10-31T19:39:19+00:00",
+          "hn_score": 250,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic blocks users for anything touching training larger models (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：Anthropic blocks users for anything touching training larger models，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6ae3cd3d378f1dacd59d6cc7",
+          "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+          "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+          "published": "2026-10-31T10:00:00+00:00",
+          "published_dt": "2026-10-31T10:00:00+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "An AI Agent Injected Drugs Into a Live Mouse’s Brain (Wired AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Wired AI 报道：An AI Agent Injected Drugs Into a Live Mouse’s Brain，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 2,
+      "items": [
+        {
+          "id": "urn:latent-space:post:post_5b764e38-11dc-428b-b25b-2b9b740ebb8b",
+          "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+          "url": "https://latent.space/p/arca/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "At AI Engineer New York this month, we sat down with Aman Singh, the lead AI Engineer at Arca, an “AI-native” company providing wealth management services. We discovered that while agents do most of the background work in the firm, there are guardrails in place to ensure that human advisors are making the final decisions. The goal is for AI to guide the process; or as Singh nicely put it, “agents prompt people more than people prompt agents.” Arca recently raised $48.5 Million in a round led by General Catalyst, with participation from Index Ventures and Venrock. One of the features of using AI in financial services, explained Singh, is that it’s typically long-horizon work — although not long-running. In his AIE presentation, Singh noted that agent tasks at Arca can take up to ten days. “It's very stop-start, there's many actors in between, many decision points, many handoffs,” he said. For this reason, Arca has developed an internal memory system. “So we have this persistence for every client,” Singh said in our podcast discussion. “What has happened so far? What are we tracking for next? What needs to happen immediately in the next couple of days [and] what are we tracking for the long term? Which individual is responsible for which action? All of this is being tracked by our memory systems that our agents contribute to.” Arca uses models from frontier labs like Anthropic and OpenAI, with Claude its primary model provider. The company has built its own harness, which automatically selects the best model to use for a particular task, based on the company’s internal benchmarks. Owning the harness, rather than using a managed agent harness, also means that Arca has the flexibility to change model providers if it needs to. Safety is obviously key for financial services. Singh noted that although agents do much of the work, an agent’s role is limited to analysis and proposing solutions. Trading and any other money movement is handled by a human advisor. “All of our sa",
+          "published": "2026-10-31T16:05:00+00:00",
+          "published_dt": "2026-10-31T16:05:00+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$48.5 Million",
+              "raised $48.5 Million"
+            ],
+            "technologies": [
+              "agent",
+              "benchmark",
+              "safety"
+            ]
+          },
+          "summary_en": "Agents Prompt People: Using Agents for Long-Horizon Financial Work (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：Agents Prompt People: Using Agents for Long-Horizon Financial Work，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3184004",
+          "title": "OpenAI reportedly lowers funding target for new round",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+          "published": "2026-10-31T16:12:55+00:00",
+          "published_dt": "2026-10-31T16:12:55+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI reportedly lowers funding target for new round (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI reportedly lowers funding target for new round，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3184015",
+          "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+          "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+          "published": "2026-10-31T21:36:07+00:00",
+          "published_dt": "2026-10-31T21:36:07+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 4,
+      "items": [
+        {
+          "id": "urn:latent-space:post:post_da09d759-cdcb-4e0e-8da3-a546632e0a0f",
+          "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+          "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "As an engineer-focused newsletter we only very rarely let financial stories through (our last example was Jan 2025), but when this is about the future of Google and Google Search, with a recently departed AI leadership, you cannot not care. At its heart is the tension between overview pages and underlying pages they summarize. Any good enough summary obviates the need for you reading the source. Google’s Featured Snippets or Knowledge Panels have long had that tension with the publishers that supply that data. But now, Google’s own AI Overviews are potentially affecting traffic with… Google's Search revenue. Google doesn’t break out AI Mode in sufficient detail that we can make any sort of rigorous analysis, but most people are quoting Philipp Schindler (Chief Business Officer): “It’s worth noting that the strong growth in AI Mode queries had an impact because of the lower monetization we were seeing in AI Mode.” Together with other bad earnings results it set off a range of steep declines throughout tech: View post on X ↗ This is against a backdrop of souring tech/AI sentiment in public markets - and with OpenAI raising at $1.25T not $1.4T, not the sort of thing you want in the lead up to one of the biggest tech IPOs of all time. View post on X ↗AI News for 10/29/2026-10/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapClaude Ultra Drops the 5-Hour Limit as Anthropic Renames Its Max TiersPlan rename: Anthropic renamed its Max tiers. Max 5x is now \"Max\" at $100/month, and Max 20x is now \"Ultra\" at $200/month. Existing subscribers do not need to take any action (announcement). 5-hour limit removed: Verified Ultra accounts no longer have the 5-hour session limit. The change starts today for most existing subscribers (@claudeai, @bcherny, @alexalbert__). Rollout caveat: Newer accounts ke",
+          "published": "2026-10-31T05:00:48+00:00",
+          "published_dt": "2026-10-31T05:00:48+00:00",
+          "score": 9.2,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$500B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming? (Latent Space) highlights a notable AI development with score 9.2.",
+          "summary_zh": "Latent Space 报道：[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?，综合评分 9.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+          "title": "How We Took Over ChatGPT Accounts",
+          "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard, which can be triggered in the parent page via postMessage() from the sandboxed iframe. That message receiving code uses innerHTML, so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method. This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions. OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it. Once the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via an image reference. The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf. OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious. Via Hacker News Tags: iframes, javascript, sandboxing, security, xss, openai, chatgpt, content-security-policy",
+          "published": "2026-10-31T23:15:22+00:00",
+          "published_dt": "2026-10-31T23:15:22+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "How We Took Over ChatGPT Accounts (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：How We Took Over ChatGPT Accounts，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3184023",
+          "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Apple's new CEO defended the company's current position in the AI landscape.",
+          "published": "2026-10-31T21:41:00+00:00",
+          "published_dt": "2026-10-31T21:41:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’ (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+          "title": "datasette-llm 0.1a9",
+          "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM, which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra. Tags: datasette, llm, datasette-agent",
+          "published": "2026-10-31T22:10:01+00:00",
+          "published_dt": "2026-10-31T22:10:01+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "datasette-llm 0.1a9 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：datasette-llm 0.1a9，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 4,
+      "items": [
+        {
+          "id": "hn-50314654",
+          "title": "Serbia just elected the world's brainiest parliament",
+          "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-10-31T10:21:30+00:00",
+          "published_dt": "2026-10-31T10:21:30+00:00",
+          "hn_score": 832,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Serbia just elected the world's brainiest parliament (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Serbia just elected the world's brainiest parliament，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3184013",
+          "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+          "published": "2026-10-31T21:17:03+00:00",
+          "published_dt": "2026-10-31T21:17:03+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "xAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Judge allows NAACP lawsuit over xAI data center pollution to move forward (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Judge allows NAACP lawsuit over xAI data center pollution to move forward，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50316531",
+          "title": "Malware uses LLMs to rank victims by how much they're worth",
+          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-10-31T14:29:03+00:00",
+          "published_dt": "2026-10-31T14:29:03+00:00",
+          "hn_score": 237,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Malware uses LLMs to rank victims by how much they're worth (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Malware uses LLMs to rank victims by how much they're worth，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50314699",
+          "title": "Do the math: How we took over ChatGPT accounts",
+          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-10-31T10:30:11+00:00",
+          "published_dt": "2026-10-31T10:30:11+00:00",
+          "hn_score": 311,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Do the math: How we took over ChatGPT accounts (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Do the math: How we took over ChatGPT accounts，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-01T04:03:12.430259+00:00",
+          "published_dt": "2026-11-01T04:03:12.430259+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-01T04:03:12.430259+00:00",
+          "published_dt": "2026-11-01T04:03:12.430259+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "urn:latent-space:post:post_5b764e38-11dc-428b-b25b-2b9b740ebb8b",
+      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+      "url": "https://latent.space/p/arca/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "At AI Engineer New York this month, we sat down with Aman Singh, the lead AI Engineer at Arca, an “AI-native” company providing wealth management services. We discovered that while agents do most of the background work in the firm, there are guardrails in place to ensure that human advisors are making the final decisions. The goal is for AI to guide the process; or as Singh nicely put it, “agents prompt people more than people prompt agents.” Arca recently raised $48.5 Million in a round led by General Catalyst, with participation from Index Ventures and Venrock. One of the features of using AI in financial services, explained Singh, is that it’s typically long-horizon work — although not long-running. In his AIE presentation, Singh noted that agent tasks at Arca can take up to ten days. “It's very stop-start, there's many actors in between, many decision points, many handoffs,” he said. For this reason, Arca has developed an internal memory system. “So we have this persistence for every client,” Singh said in our podcast discussion. “What has happened so far? What are we tracking for next? What needs to happen immediately in the next couple of days [and] what are we tracking for the long term? Which individual is responsible for which action? All of this is being tracked by our memory systems that our agents contribute to.” Arca uses models from frontier labs like Anthropic and OpenAI, with Claude its primary model provider. The company has built its own harness, which automatically selects the best model to use for a particular task, based on the company’s internal benchmarks. Owning the harness, rather than using a managed agent harness, also means that Arca has the flexibility to change model providers if it needs to. Safety is obviously key for financial services. Singh noted that although agents do much of the work, an agent’s role is limited to analysis and proposing solutions. Trading and any other money movement is handled by a human advisor. “All of our sa",
+      "published": "2026-10-31T16:05:00+00:00",
+      "published_dt": "2026-10-31T16:05:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$48.5 Million",
+          "raised $48.5 Million"
+        ],
+        "technologies": [
+          "agent",
+          "benchmark",
+          "safety"
+        ]
+      },
+      "summary_en": "Agents Prompt People: Using Agents for Long-Horizon Financial Work (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：Agents Prompt People: Using Agents for Long-Horizon Financial Work，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_da09d759-cdcb-4e0e-8da3-a546632e0a0f",
+      "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+      "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "As an engineer-focused newsletter we only very rarely let financial stories through (our last example was Jan 2025), but when this is about the future of Google and Google Search, with a recently departed AI leadership, you cannot not care. At its heart is the tension between overview pages and underlying pages they summarize. Any good enough summary obviates the need for you reading the source. Google’s Featured Snippets or Knowledge Panels have long had that tension with the publishers that supply that data. But now, Google’s own AI Overviews are potentially affecting traffic with… Google's Search revenue. Google doesn’t break out AI Mode in sufficient detail that we can make any sort of rigorous analysis, but most people are quoting Philipp Schindler (Chief Business Officer): “It’s worth noting that the strong growth in AI Mode queries had an impact because of the lower monetization we were seeing in AI Mode.” Together with other bad earnings results it set off a range of steep declines throughout tech: View post on X ↗ This is against a backdrop of souring tech/AI sentiment in public markets - and with OpenAI raising at $1.25T not $1.4T, not the sort of thing you want in the lead up to one of the biggest tech IPOs of all time. View post on X ↗AI News for 10/29/2026-10/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapClaude Ultra Drops the 5-Hour Limit as Anthropic Renames Its Max TiersPlan rename: Anthropic renamed its Max tiers. Max 5x is now \"Max\" at $100/month, and Max 20x is now \"Ultra\" at $200/month. Existing subscribers do not need to take any action (announcement). 5-hour limit removed: Verified Ultra accounts no longer have the 5-hour session limit. The change starts today for most existing subscribers (@claudeai, @bcherny, @alexalbert__). Rollout caveat: Newer accounts ke",
+      "published": "2026-10-31T05:00:48+00:00",
+      "published_dt": "2026-10-31T05:00:48+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$500B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming? (Latent Space) highlights a notable AI development with score 9.2.",
+      "summary_zh": "Latent Space 报道：[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard, which can be triggered in the parent page via postMessage() from the sandboxed iframe. That message receiving code uses innerHTML, so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method. This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions. OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it. Once the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via an image reference. The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf. OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious. Via Hacker News Tags: iframes, javascript, sandboxing, security, xss, openai, chatgpt, content-security-policy",
+      "published": "2026-10-31T23:15:22+00:00",
+      "published_dt": "2026-10-31T23:15:22+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How We Took Over ChatGPT Accounts (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：How We Took Over ChatGPT Accounts，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-01T04:03:12.430259+00:00",
+      "published_dt": "2026-11-01T04:03:12.430259+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-01T04:03:12.430259+00:00",
+      "published_dt": "2026-11-01T04:03:12.430259+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3184004",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "published": "2026-10-31T16:12:55+00:00",
+      "published_dt": "2026-10-31T16:12:55+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI reportedly lowers funding target for new round (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI reportedly lowers funding target for new round，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3184023",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "published": "2026-10-31T21:41:00+00:00",
+      "published_dt": "2026-10-31T21:41:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’ (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50314654",
+      "title": "Serbia just elected the world's brainiest parliament",
+      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-10-31T10:21:30+00:00",
+      "published_dt": "2026-10-31T10:21:30+00:00",
+      "hn_score": 832,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Serbia just elected the world's brainiest parliament (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Serbia just elected the world's brainiest parliament，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3184015",
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+      "published": "2026-10-31T21:36:07+00:00",
+      "published_dt": "2026-10-31T21:36:07+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50319358",
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-10-31T19:39:19+00:00",
+      "published_dt": "2026-10-31T19:39:19+00:00",
+      "hn_score": 250,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic blocks users for anything touching training larger models (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：Anthropic blocks users for anything touching training larger models，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6ae3cd3d378f1dacd59d6cc7",
+      "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+      "published": "2026-10-31T10:00:00+00:00",
+      "published_dt": "2026-10-31T10:00:00+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "An AI Agent Injected Drugs Into a Live Mouse’s Brain (Wired AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Wired AI 报道：An AI Agent Injected Drugs Into a Live Mouse’s Brain，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM, which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra. Tags: datasette, llm, datasette-agent",
+      "published": "2026-10-31T22:10:01+00:00",
+      "published_dt": "2026-10-31T22:10:01+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "datasette-llm 0.1a9 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：datasette-llm 0.1a9，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3184013",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "published": "2026-10-31T21:17:03+00:00",
+      "published_dt": "2026-10-31T21:17:03+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "xAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Judge allows NAACP lawsuit over xAI data center pollution to move forward (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Judge allows NAACP lawsuit over xAI data center pollution to move forward，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50316531",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-10-31T14:29:03+00:00",
+      "published_dt": "2026-10-31T14:29:03+00:00",
+      "hn_score": 237,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Malware uses LLMs to rank victims by how much they're worth (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Malware uses LLMs to rank victims by how much they're worth，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50314699",
+      "title": "Do the math: How we took over ChatGPT accounts",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-10-31T10:30:11+00:00",
+      "published_dt": "2026-10-31T10:30:11+00:00",
+      "hn_score": 311,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Do the math: How we took over ChatGPT accounts (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Do the math: How we took over ChatGPT accounts，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
