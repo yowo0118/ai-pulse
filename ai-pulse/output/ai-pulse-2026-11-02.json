@@ -1,0 +1,466 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T04:07:47",
+  "stats": {
+    "total_items": 7,
+    "high_importance": 0,
+    "medium_importance": 7,
+    "categories_covered": 3
+  },
+  "top_stories": [],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 0,
+      "items": []
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+          "title": "If in doubt, delete the uv.lock file",
+          "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock versions for anything else that uses it. Running uv run pytest etc tends to leave uv.lock files lying around, which are listed in .gitignore and so do not get committed to my repositories. But... sometimes that uv.lock pins a version of a dependency that doesn't yet have a Python 3.15 wheel. An example from earlier today: error: Failed to build `watchfiles==1.1.1` cause: Call to `maturin.build_wheel` failed error: the configured Python interpreter version (3.15) is newer than PyO3's maximum supported version (3.14) Deleting that file and running uv run pytest again usually fixes the problem. Tags: uv, til, python",
+          "published": "2026-11-01T23:24:22+00:00",
+          "published_dt": "2026-11-01T23:24:22+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "If in doubt, delete the uv.lock file (Simon Willison) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Simon Willison 报道：If in doubt, delete the uv.lock file，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 0,
+      "items": []
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 3,
+      "items": [
+        {
+          "id": "hn-50330456",
+          "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+          "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-01T22:10:45+00:00",
+          "published_dt": "2026-11-01T22:10:45+00:00",
+          "hn_score": 205,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI delivers 'zero financial payoff' to most companies, Apollo economist says (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：AI delivers 'zero financial payoff' to most companies, Apollo economist says，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3184048",
+          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Data centers are deeply unpopular. But what if we called them something else?",
+          "published": "2026-11-01T21:55:23+00:00",
+          "published_dt": "2026-11-01T21:55:23+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI might rebrand its data centers as ‘AI compute campuses’ (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI might rebrand its data centers as ‘AI compute campuses’，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3184041",
+          "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+          "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+          "published": "2026-11-01T20:57:58+00:00",
+          "published_dt": "2026-11-01T20:57:58+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI can make tech CEOs’ lives easier. What about everyone else? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：AI can make tech CEOs’ lives easier. What about everyone else?，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-02T04:07:44.982259+00:00",
+          "published_dt": "2026-11-02T04:07:44.982259+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-02T04:07:44.982259+00:00",
+          "published_dt": "2026-11-02T04:07:44.982259+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50323088",
+          "title": "The AI cost of JavaScript frameworks",
+          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-01T06:06:19+00:00",
+          "published_dt": "2026-11-01T06:06:19+00:00",
+          "hn_score": 323,
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The AI cost of JavaScript frameworks (Hacker News) highlights a notable AI development with score 5.8.",
+          "summary_zh": "Hacker News 报道：The AI cost of JavaScript frameworks，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-02T04:07:44.982259+00:00",
+      "published_dt": "2026-11-02T04:07:44.982259+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-02T04:07:44.982259+00:00",
+      "published_dt": "2026-11-02T04:07:44.982259+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50323088",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-01T06:06:19+00:00",
+      "published_dt": "2026-11-01T06:06:19+00:00",
+      "hn_score": 323,
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The AI cost of JavaScript frameworks (Hacker News) highlights a notable AI development with score 5.8.",
+      "summary_zh": "Hacker News 报道：The AI cost of JavaScript frameworks，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+      "title": "If in doubt, delete the uv.lock file",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock versions for anything else that uses it. Running uv run pytest etc tends to leave uv.lock files lying around, which are listed in .gitignore and so do not get committed to my repositories. But... sometimes that uv.lock pins a version of a dependency that doesn't yet have a Python 3.15 wheel. An example from earlier today: error: Failed to build `watchfiles==1.1.1` cause: Call to `maturin.build_wheel` failed error: the configured Python interpreter version (3.15) is newer than PyO3's maximum supported version (3.14) Deleting that file and running uv run pytest again usually fixes the problem. Tags: uv, til, python",
+      "published": "2026-11-01T23:24:22+00:00",
+      "published_dt": "2026-11-01T23:24:22+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "If in doubt, delete the uv.lock file (Simon Willison) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Simon Willison 报道：If in doubt, delete the uv.lock file，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50330456",
+      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-01T22:10:45+00:00",
+      "published_dt": "2026-11-01T22:10:45+00:00",
+      "hn_score": 205,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI delivers 'zero financial payoff' to most companies, Apollo economist says (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：AI delivers 'zero financial payoff' to most companies, Apollo economist says，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3184048",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Data centers are deeply unpopular. But what if we called them something else?",
+      "published": "2026-11-01T21:55:23+00:00",
+      "published_dt": "2026-11-01T21:55:23+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI might rebrand its data centers as ‘AI compute campuses’ (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI might rebrand its data centers as ‘AI compute campuses’，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3184041",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "published": "2026-11-01T20:57:58+00:00",
+      "published_dt": "2026-11-01T20:57:58+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI can make tech CEOs’ lives easier. What about everyone else? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：AI can make tech CEOs’ lives easier. What about everyone else?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
