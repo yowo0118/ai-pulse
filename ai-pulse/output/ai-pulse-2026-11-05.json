@@ -1,0 +1,2445 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T04:54:34",
+  "stats": {
+    "total_items": 39,
+    "high_importance": 6,
+    "medium_importance": 33,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.theverge.com/?p=1026867",
+      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier this year. The company expects that portion of its business to grow quickly, forecasting around $650 million in data center revenue during the first quarter of 2027. But it anticipates that will reach $5 billion by the end of 2027 and $15 billion by 2029. Considering the company's total revenue for 2026 was $10.4 billion, … Read the full story at The Verge.",
+      "published": "2026-11-04T22:42:15+00:00",
+      "published_dt": "2026-11-04T22:42:15+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$650 million",
+          "$5 billion",
+          "$15 billion",
+          "$10.4 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Qualcomm is betting big on data centers as smartphone sales sink (The Verge AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "The Verge AI 报道：Qualcomm is betting big on data centers as smartphone sales sink，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94324",
+      "title": "Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States",
+      "url": "https://news.crunchbase.com/venture/2026-post-election-funding-red-states-drops/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "For the past few decades, the vast majority of U.S. startup funding has consistently gone to companies in blue states or purple states, where Democrats control all or some statewide offices. But with Tuesday’s election results, the investment divide between blue, purple and red states has grown even more pronounced. So far this year, less than 2% of all startup investment has gone to companies in post-election red states, defined as those that will have both a Republican governor and two Republican U.S. senators. The red states’ share is much smaller than in years’ past due to five states shifting to purple. Of those, the largest venture hub is Texas, which shifted to purple with the election of Democratic Senator James Talarico and Governor Gina Hinojosa, followed by Ohio. This year, as of Election Day, startups in the remaining 17 red states 1, which are home to nearly a quarter of Americans, had collectively pulled in just $8.6 billion in venture funding, with Florida, Tennessee and Utah among the largest contributors. To put that in perspective: It’s less than the typical nationwide total in a single week. Purple states rising The 10 purple U.S. states2, meanwhile, are home to just over a quarter of Americans and pulled in about $28.6 billion this year as of Election Day. That’s much higher than the red state tally, but still less than 6% of all U.S. startup funding. Beyond the aforementioned newcomers Texas and Ohio, several other purple states regularly pull in sizable venture funding, including Pennsylvania, North Carolina and to some extent Wisconsin. Also worth noting: The divide between red, purple and blue states is somewhat less stark when it comes to round counts. About 12% of startup financings of $1 million or more went to purple state companies this year, and about 9% went to red states. Broadly, it looks like backers are still finding plenty of investment-worthy talent outside of blue states when it comes to smaller deals. However, they are concentr",
+      "published": "2026-11-04T19:47:54+00:00",
+      "published_dt": "2026-11-04T19:47:54+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$8.6 billion",
+          "$28.6 billion",
+          "$1 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "title": "How big is the open model economy today?",
+      "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "My longest running agent testbed has been building the Interconnects Dashboard — an aggregator of all of the best data on open model adoption and performance from across the web. This dashboard is freely available and becoming quite useful. Still, all the measurements we have on open model adoption are incredibly imprecise. We have noisy platform metrics, marketing-related metrics from startups, and imperfect public evaluations. It takes an informed eye to figure out where things are going. These research notes are my current best approximations of where we stand.As with most things on Interconnects, our goal is to build well more value than we capture, so the data on the dashboard will remain free for the foreseeable future. These notes will be more raw than many of my articles, a place for sharing what I’m mulling over but don’t have complete evidence for (yet). They will be primarily paid, enabling me to speak more freely. If you work in AI policy or policy-facing research, please reach out to us and we can likely get discounted or free access.The primary question I wanted to address today is: What is the market for open model inference? Is it growing? Is it a rounding error relative to OpenAI/Anthropic?ShareI’ve been building the best measurements I can here, primarily using the open model inference startups Baseten, Fireworks, and Together AI as the bellwethers here (along with the open model share of OpenRouter’s token volume, which they thankfully report in their API). The hyperscalers also likely have a major footprint here, e.g. Amazon Bedrock and Azure’s model garden, but I haven’t seen them break down usage by model category. The startups’ fates are much more directly correlated with the success of open model inference as a category.For the latest data, we can start with a slide from my talk on the open model economy (recording here). These are the public disclosures from the open model startups on their token volume, over time, log-scale. This shows near",
+      "published": "2026-11-04T16:35:44+00:00",
+      "published_dt": "2026-11-04T16:35:44+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Amazon",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "How big is the open model economy today? (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：How big is the open model economy today?，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94318",
+      "title": "Most Venture Capital Is Going To Companies That Are Founded Or Led By Billionaires",
+      "url": "https://news.crunchbase.com/venture/startup-billionaire-founders-ai-defense-anthropic-spcx/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "The majority of U.S. venture capital nowadays goes to companies founded or led by men who are already billionaires. This is not a difficult stat to unearth. So far this year, just seven companies raised more than half of all seed- through growth-stage investment. They’re mostly familiar names: OpenAI, Anthropic, xAI (now part of SpaceX), Anduril Industries, Databricks, Prometheus and The Boring Co. These companies raised more than $260 billion in equity funding in the first 10 months of the year. That’s just over 50% of the U.S. seed and venture investment over the same period, per Crunchbase data. Founders and CEOs of these seven companies are also well-known — and exceptionally well-off to boot. The world’s wealthiest men Two founders are particularly famous. They are the world’s wealthiest men: Elon Musk and Jeff Bezos. Musk founded xAI and The Boring Co., and also co-founded OpenAI, (though he has no known equity stake in the latter). And while outside investors funded these companies, Musk could have also afforded to do so himself. Ditto for Bezos, who in 2025 launched the physical AI startup Prometheus, which raised $12 billion earlier this year. Bezos’ own net worth, meanwhile, is calculated at more than $350 billion. AI’s leading names The two highest valuation startups — OpenAI and the soon-to-be-public Anthropic — also have prominent billionaire founders and CEOs. However, they have mixed backstories to their wealth. OpenAI co-founder and CEO Sam Altman primarily made his vast wealth through investments in Y Combinator startups, including Stripe and Reddit. Altman has said he does not have an equity stake in OpenAI beyond a sliver from an old YC round. Co-founder Greg Brockman, by contrast, has a larger stake in OpenAI that was reportedly valued around $30 billion earlier this year. At Anthropic, meanwhile, all seven company co-founders have similar-sized equity stakes, and each is worth billions. This includes the AI giant’s most famous co-founder, CEO Da",
+      "published": "2026-11-04T12:00:14+00:00",
+      "published_dt": "2026-11-04T12:00:14+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "xAI",
+          "Databricks",
+          "Y Combinator"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$260 billion",
+          "$12 billion",
+          "$350 billion",
+          "$30 billion",
+          "raised $12 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Most Venture Capital Is Going To Companies That Are Founded Or Led By Billionaires (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Most Venture Capital Is Going To Companies That Are Founded Or Led By Billionaires，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_podcast&p=3185167",
+      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+      "published": "2026-11-04T18:44:57+00:00",
+      "published_dt": "2026-11-04T18:44:57+00:00",
+      "score": 8.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs (TechCrunch AI) highlights a notable AI development with score 8.7.",
+      "summary_zh": "TechCrunch AI 报道：Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs，综合评分 8.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+          "title": "How big is the open model economy today?",
+          "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+          "source": "Interconnects (Nathan Lambert)",
+          "source_type": "rss",
+          "content": "My longest running agent testbed has been building the Interconnects Dashboard — an aggregator of all of the best data on open model adoption and performance from across the web. This dashboard is freely available and becoming quite useful. Still, all the measurements we have on open model adoption are incredibly imprecise. We have noisy platform metrics, marketing-related metrics from startups, and imperfect public evaluations. It takes an informed eye to figure out where things are going. These research notes are my current best approximations of where we stand.As with most things on Interconnects, our goal is to build well more value than we capture, so the data on the dashboard will remain free for the foreseeable future. These notes will be more raw than many of my articles, a place for sharing what I’m mulling over but don’t have complete evidence for (yet). They will be primarily paid, enabling me to speak more freely. If you work in AI policy or policy-facing research, please reach out to us and we can likely get discounted or free access.The primary question I wanted to address today is: What is the market for open model inference? Is it growing? Is it a rounding error relative to OpenAI/Anthropic?ShareI’ve been building the best measurements I can here, primarily using the open model inference startups Baseten, Fireworks, and Together AI as the bellwethers here (along with the open model share of OpenRouter’s token volume, which they thankfully report in their API). The hyperscalers also likely have a major footprint here, e.g. Amazon Bedrock and Azure’s model garden, but I haven’t seen them break down usage by model category. The startups’ fates are much more directly correlated with the success of open model inference as a category.For the latest data, we can start with a slide from my talk on the open model economy (recording here). These are the public disclosures from the open model startups on their token volume, over time, log-scale. This shows near",
+          "published": "2026-11-04T16:35:44+00:00",
+          "published_dt": "2026-11-04T16:35:44+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Amazon",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "inference",
+              "agent"
+            ]
+          },
+          "summary_en": "How big is the open model economy today? (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Interconnects (Nathan Lambert) 报道：How big is the open model economy today?，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "urn:latent-space:post:post_648fd7ef-adde-48f2-8823-488d55480202",
+          "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+          "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "There’s a lot of dispute to yesterday’s title story on “Weight Space Programming” — and we agree that some of the claims are presented in overly favorable light and overall took away from the impact of the paper’s more substantial discoveries. However it is still a big wakeup moment and has had multiple independent replications by now that it is not worth either doing some kind of retraction or a followup title story saying it was bogus. Instead today we’re featuring AI Engineer Shanghai and also sharing an exclusive interview on the history of Latent Space! AI News for 11/02/2026-11/03/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapWeight-Space Programming: Frontier Models Reading and Writing Neural Network WeightsCore claim and replications: Several groups report that frontier LLMs can generate or edit small networks' weights directly, without gradient training or tools. Cross-generation replication: Alex Krentsel's replication of MIT's experiment found a sharp capability jump across model generations; the latest models generated Breakout networks scoring up to 22× an RL-trained baseline (summary). Hugging Face reproduction: Hugging Face reproduced the paper with ML Intern, its open-source AI-research harness, and released the model and a demo (NielsRogge). Hand-written classifier: A user had Fable hand-write a 100K-parameter network that classifies real versus fake legal citations, reportedly outperforming a trained version (jacsebl). Legora's CTO highlighted the result (mstockton). Astra's Qwen edit, reconstructed: GPT-6 Astra edited 131,072 weights in Qwen3.5-0.8B without backprop, raising MATH-500 from 7.9% to 48.1%. A Zhihu reconstruction from the logs shows the gain is narrower than the headline (ZhihuFrontier): Failure mode: 576 of 579 repaired answers had originally hit the 3",
+          "published": "2026-11-04T19:17:30+00:00",
+          "published_dt": "2026-11-04T19:17:30+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai (Latent Space) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Latent Space 报道：[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50368804",
+          "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+          "url": "https://news.ycombinator.com/item?id=50368804",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hi HN! I'm Luke from Kino (https://kino.ai). Kino lets you make great videos with your agents and your teammates. Storage of footage and assets, a rich video editor, and review links for teammates are all bundled into one. Your colleagues and Codex / Claude Code can work on the same timeline with review notes and footage all in one place. See a basic overview at https://kino.ai/walkthrough-video and our launch video (made entirely with Kino!) at https://kino.ai/launch-videoOpus 5.5 can edit videos and make great motion graphics now. But with a raw agent harness, you need to describe tiny edits either in words or in quick one-off UIs, you can’t refer to footage shared across your devices, and feedback from teammates comes as screenshots on Slack.Kino is code-first. All editing, all motion graphics, all dragging of timeline items around, all teammate comments, and all 3D scenes are expressed as code, built on Remotion. This was hard to get right, as we found ourselves building a what-you-see-is-what-you-get editor for React, which we then turned into a video editor. For our launch video I told Claude-with-Kino to find a macOS Leopard install disk and reskin our whole video to match.Kino is also fully collaborative and real-time, so you can see your teammates' cursors and exactly which part of the timeline they’re currently watching. For our launch video I had 5+ agents editing the timeline concurrently while my friend Donald had his swarm working a few minutes further down. Donald had one agent rotoscoping to make our visual effects work, I had an LLM color grading all media via our LUT support, and we both made tiny tweaks to the timeline along the way.To make this code-first editor work with video footage, everything gets transcribed, embedded, described, and face-detected. You can scrub your footage locally after you drag it in, but we upload a low-res proxy so your teammates and cloud inference can see it. This local scrubbing plus custom pro media decoders means ",
+          "published": "2026-11-04T17:31:53+00:00",
+          "published_dt": "2026-11-04T17:31:53+00:00",
+          "hn_score": 79,
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "RAG",
+              "inference",
+              "agent"
+            ]
+          },
+          "summary_en": "Launch HN: Kino AI (YC S23) – AI media manager and video editor (Hacker News) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Hacker News 报道：Launch HN: Kino AI (YC S23) – AI media manager and video editor，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6ae4c8c62e6231fc04066403",
+          "title": "UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google",
+          "url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "The AI minister now concedes the estimated figure is less than a third of that. Researchers blame the country’s slow rate of adoption.",
+          "published": "2026-11-04T13:49:51+00:00",
+          "published_dt": "2026-11-04T13:49:51+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Google",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google (Wired AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Wired AI 报道：UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=1026867",
+          "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier this year. The company expects that portion of its business to grow quickly, forecasting around $650 million in data center revenue during the first quarter of 2027. But it anticipates that will reach $5 billion by the end of 2027 and $15 billion by 2029. Considering the company's total revenue for 2026 was $10.4 billion, … Read the full story at The Verge.",
+          "published": "2026-11-04T22:42:15+00:00",
+          "published_dt": "2026-11-04T22:42:15+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Meta",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$650 million",
+              "$5 billion",
+              "$15 billion",
+              "$10.4 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Qualcomm is betting big on data centers as smartphone sales sink (The Verge AI) highlights a notable AI development with score 10.0.",
+          "summary_zh": "The Verge AI 报道：Qualcomm is betting big on data centers as smartphone sales sink，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=94324",
+          "title": "Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States",
+          "url": "https://news.crunchbase.com/venture/2026-post-election-funding-red-states-drops/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "For the past few decades, the vast majority of U.S. startup funding has consistently gone to companies in blue states or purple states, where Democrats control all or some statewide offices. But with Tuesday’s election results, the investment divide between blue, purple and red states has grown even more pronounced. So far this year, less than 2% of all startup investment has gone to companies in post-election red states, defined as those that will have both a Republican governor and two Republican U.S. senators. The red states’ share is much smaller than in years’ past due to five states shifting to purple. Of those, the largest venture hub is Texas, which shifted to purple with the election of Democratic Senator James Talarico and Governor Gina Hinojosa, followed by Ohio. This year, as of Election Day, startups in the remaining 17 red states 1, which are home to nearly a quarter of Americans, had collectively pulled in just $8.6 billion in venture funding, with Florida, Tennessee and Utah among the largest contributors. To put that in perspective: It’s less than the typical nationwide total in a single week. Purple states rising The 10 purple U.S. states2, meanwhile, are home to just over a quarter of Americans and pulled in about $28.6 billion this year as of Election Day. That’s much higher than the red state tally, but still less than 6% of all U.S. startup funding. Beyond the aforementioned newcomers Texas and Ohio, several other purple states regularly pull in sizable venture funding, including Pennsylvania, North Carolina and to some extent Wisconsin. Also worth noting: The divide between red, purple and blue states is somewhat less stark when it comes to round counts. About 12% of startup financings of $1 million or more went to purple state companies this year, and about 9% went to red states. Broadly, it looks like backers are still finding plenty of investment-worthy talent outside of blue states when it comes to smaller deals. However, they are concentr",
+          "published": "2026-11-04T19:47:54+00:00",
+          "published_dt": "2026-11-04T19:47:54+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$8.6 billion",
+              "$28.6 billion",
+              "$1 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=94318",
+          "title": "Most Venture Capital Is Going To Companies That Are Founded Or Led By Billionaires",
+          "url": "https://news.crunchbase.com/venture/startup-billionaire-founders-ai-defense-anthropic-spcx/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "The majority of U.S. venture capital nowadays goes to companies founded or led by men who are already billionaires. This is not a difficult stat to unearth. So far this year, just seven companies raised more than half of all seed- through growth-stage investment. They’re mostly familiar names: OpenAI, Anthropic, xAI (now part of SpaceX), Anduril Industries, Databricks, Prometheus and The Boring Co. These companies raised more than $260 billion in equity funding in the first 10 months of the year. That’s just over 50% of the U.S. seed and venture investment over the same period, per Crunchbase data. Founders and CEOs of these seven companies are also well-known — and exceptionally well-off to boot. The world’s wealthiest men Two founders are particularly famous. They are the world’s wealthiest men: Elon Musk and Jeff Bezos. Musk founded xAI and The Boring Co., and also co-founded OpenAI, (though he has no known equity stake in the latter). And while outside investors funded these companies, Musk could have also afforded to do so himself. Ditto for Bezos, who in 2025 launched the physical AI startup Prometheus, which raised $12 billion earlier this year. Bezos’ own net worth, meanwhile, is calculated at more than $350 billion. AI’s leading names The two highest valuation startups — OpenAI and the soon-to-be-public Anthropic — also have prominent billionaire founders and CEOs. However, they have mixed backstories to their wealth. OpenAI co-founder and CEO Sam Altman primarily made his vast wealth through investments in Y Combinator startups, including Stripe and Reddit. Altman has said he does not have an equity stake in OpenAI beyond a sliver from an old YC round. Co-founder Greg Brockman, by contrast, has a larger stake in OpenAI that was reportedly valued around $30 billion earlier this year. At Anthropic, meanwhile, all seven company co-founders have similar-sized equity stakes, and each is worth billions. This includes the AI giant’s most famous co-founder, CEO Da",
+          "published": "2026-11-04T12:00:14+00:00",
+          "published_dt": "2026-11-04T12:00:14+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "xAI",
+              "Databricks",
+              "Y Combinator"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$260 billion",
+              "$12 billion",
+              "$350 billion",
+              "$30 billion",
+              "raised $12 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Most Venture Capital Is Going To Companies That Are Founded Or Led By Billionaires (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Most Venture Capital Is Going To Companies That Are Founded Or Led By Billionaires，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?post_type=tc_podcast&p=3185167",
+          "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+          "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+          "published": "2026-11-04T18:44:57+00:00",
+          "published_dt": "2026-11-04T18:44:57+00:00",
+          "score": 8.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs (TechCrunch AI) highlights a notable AI development with score 8.7.",
+          "summary_zh": "TechCrunch AI 报道：Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs，综合评分 8.7，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6ae4a770bd1058bb39c86ec2",
+          "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
+          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Leading the Future, backed by Silicon Valley’s biggest billionaires, had a war chest of $100 million and an aggressive stance against AI regulation. All of it didn’t add up to much on Tuesday night.",
+          "published": "2026-11-04T20:41:29+00:00",
+          "published_dt": "2026-11-04T20:41:29+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$100 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms (Wired AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "Wired AI 报道：The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?post_type=tc_video&p=3185186",
+          "title": "Open source AI is booming. Hugging Face explains who profits.",
+          "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+          "published": "2026-11-04T19:30:04+00:00",
+          "published_dt": "2026-11-04T19:30:04+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Open source AI is booming. Hugging Face explains who profits. (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：Open source AI is booming. Hugging Face explains who profits.，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=84369",
+          "title": "The Crunchbase Tech Layoffs Tracker",
+          "url": "https://news.crunchbase.com/startups/tech-layoffs/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Methodology This tracker includes layoffs conducted by U.S.-based companies or those with a strong U.S. presence and is updated at least bi-weekly. We’ve included both startups and publicly traded, tech-heavy companies. We’ve also included companies based elsewhere that have a sizable team in the United States, such as Klarna, even when it’s unclear how much of the U.S. workforce has been affected by layoffs. Layoff and workforce figures are best estimates based on reporting. We source the layoffs from media reports, our own reporting, social media posts and layoffs.fyi, a crowdsourced database of tech layoffs. We recently updated our layoffs tracker to reflect the most recent round of layoffs each company has conducted. This allows us to quickly and more accurately track layoff trends, which is why you might notice some changes in our most recent numbers. If an employee headcount cannot be confirmed to our standards, we note it as “unclear.”",
+          "published": "2026-11-04T17:42:30+00:00",
+          "published_dt": "2026-11-04T17:42:30+00:00",
+          "score": 7.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Crunchbase Tech Layoffs Tracker (Crunchbase News) highlights a notable AI development with score 7.2.",
+          "summary_zh": "Crunchbase News 报道：The Crunchbase Tech Layoffs Tracker，综合评分 7.2，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1024862",
+          "title": "Google hasn&#8217;t figured out how to make AI pay like its search engine",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Google Chief Business Officer Philipp Schindler. | Bloomberg via Getty Images Search queries are growing at their fastest rate in five years, Google parent Alphabet said in its earnings report last week. However, Google's Search revenue growth slowed to 12 percent year over year in the third quarter, down from roughly 17 percent in the previous quarter. Meanwhile, growth in paid clicks - clicks on ads that generate revenue for Google - slowed from 13 percent to 8 percent. That's still substantial growth, but not the direction investors were hoping for from a company planning to spend about $200 billion this year on infrastructure, largely to support AI. Alphabet shares have fallen about 14 percent since it reported e … Read the full story at The Verge.",
+          "published": "2026-11-04T12:00:00+00:00",
+          "published_dt": "2026-11-04T12:00:00+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$200 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Google hasn&#8217;t figured out how to make AI pay like its search engine (The Verge AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "The Verge AI 报道：Google hasn&#8217;t figured out how to make AI pay like its search engine，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1026878",
+          "title": "17 better ways Elon Musk could have wasted $446 million",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Dream bigger, babe. | Image: Cath Virginia / The Verge, Getty Images One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the outside world, you may delusionally throw away nearly $500 million dollars on midterm elections, just like Elon Musk. In particular, $47 million of that money from Musk's America PAC was aimed at defeating Texas Democrat James Talarico, who trounced Musk's preferred Senate candidate, Ken Paxton, with 55 percent of the vote. Talarico even made Musk's influence a cent … Read the full story at The Verge.",
+          "published": "2026-11-04T21:45:00+00:00",
+          "published_dt": "2026-11-04T21:45:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$446 million",
+              "$500 million",
+              "$47 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "17 better ways Elon Musk could have wasted $446 million (The Verge AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "The Verge AI 报道：17 better ways Elon Musk could have wasted $446 million，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
+          "title": "Binance says hackers who stole billions in crypto spent months planning heist",
+          "url": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "The hackers who stole billions of dollars in cryptocurrency from the Binance exchange spent months working on the theft and used both social engineering and novel malware in the process, the company said Tuesday. The heist, which both the FBI and the TRM Security firm attributed to North Korean actors, initially targeted $6.34 billion in cryptocurrency from Binance wallets. The exchange has since frozen or intercepted $2.85 billion of that sum. Binance said it has set aside funds required to cover the loss and provided this link to a Proof of Reserves page. The $6.34 billion represents the biggest sum ever targeted in a cryptocurrency theft. Advanced persistent threat Binance said the people behind the heist began no later than June and continued until last Thursday, when they successfully compromised an engineer's laptop and withdrew assets from several wallets. Like just about every organization that suffers a public, high-consequence hack, Binance said the threat actor was sophisticated and resourceful.Read full article Comments",
+          "published": "2026-11-04T16:06:03+00:00",
+          "published_dt": "2026-11-04T16:06:03+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$6.34 billion",
+              "$2.85 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Binance says hackers who stole billions in crypto spent months planning heist (Ars Technica) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Ars Technica 报道：Binance says hackers who stole billions in crypto spent months planning heist，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3185172",
+          "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+          "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+          "published": "2026-11-04T22:13:16+00:00",
+          "published_dt": "2026-11-04T22:13:16+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Nothing CEO says company’s mysterious AI-first device is dropping next month (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Nothing CEO says company’s mysterious AI-first device is dropping next month，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3185181",
+          "title": "Meta acquires AI coding startup Conductor",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+          "published": "2026-11-04T21:10:56+00:00",
+          "published_dt": "2026-11-04T21:10:56+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Meta acquires AI coding startup Conductor (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Meta acquires AI coding startup Conductor，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 4,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=1026586",
+          "title": "Nothing teases a screen-free AI device ahead of launch next month",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, only that one feature it won't have is a screen: \"Our first AI-native product ships next month. It's a tool, but one built with the personality and care that have come to define a Nothing product. It has no new screen, and it couldn't have been an app.\" Pei shared an image with the post that says \"NOTHING(R)\" in the top left corner, above an ambiguous black rounded … Read the full story at The Verge.",
+          "published": "2026-11-04T18:26:07+00:00",
+          "published_dt": "2026-11-04T18:26:07+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nothing teases a screen-free AI device ahead of launch next month (The Verge AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "The Verge AI 报道：Nothing teases a screen-free AI device ahead of launch next month，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
+          "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
+          "url": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "After alienating many long-time small- to medium-sized business (SMB) customers, Broadcom’s VMware is trying to appeal to its smaller customers. Today, the virtualization company announced vSphere Express, a lower-end virtualization offering for organizations that require “cost-effective essential virtualization.” vSphere Express comes after many customers reported that VMware was pushing them to VMware Cloud Foundation (VCF), the flagship private cloud bundle that has many features SMBs don’t need and is expensive. Some SMB users have reported that VMware sales representatives previously told them that vSphere Standard, VMware's prior entry-level virtualization offering, wasn’t available anymore.Read full article Comments",
+          "published": "2026-11-04T21:38:49+00:00",
+          "published_dt": "2026-11-04T21:38:49+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "VMware releases vSphere Express for virtualization on up to 128 cores (Ars Technica) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Ars Technica 报道：VMware releases vSphere Express for virtualization on up to 128 cores，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1026464",
+          "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
+          "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Also, can I just say this LED indicator light is way too small and unnoticeable? This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you feel?\" I get asked this a lot in therapy. Plenty of life events, big and small, have triggered this question. Three weeks ago, it was the fact that I had to ask my therapist for her consent because I was wearing the Amazon Bee Frontier during our session. That first week, I didn't really have an answer. A lot had changed since I first tested Bee, an always-recording AI wearable, early last year. The ele … Read the full story at The Verge.",
+          "published": "2026-11-04T18:00:00+00:00",
+          "published_dt": "2026-11-04T18:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "My therapist thinks I should chuck the Amazon Bee Frontier out a window (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：My therapist thinks I should chuck the Amazon Bee Frontier out a window，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+          "title": "datasette-llm 0.1a10",
+          "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette, llm",
+          "published": "2026-11-04T15:26:02+00:00",
+          "published_dt": "2026-11-04T15:26:02+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "datasette-llm 0.1a10 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：datasette-llm 0.1a10，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "hn-50364336",
+          "title": "AI is forcing us to pay off 40 years of technical debt",
+          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-04T11:52:17+00:00",
+          "published_dt": "2026-11-04T11:52:17+00:00",
+          "hn_score": 1125,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI is forcing us to pay off 40 years of technical debt (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：AI is forcing us to pay off 40 years of technical debt，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "title": "A thousand fewer paths to root",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+          "published": "2026-11-04T08:00:00+00:00",
+          "published_dt": "2026-11-04T08:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "A thousand fewer paths to root (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：A thousand fewer paths to root，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/daybreak-red-aws-govcloud",
+          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+          "published": "2026-11-04T07:00:00+00:00",
+          "published_dt": "2026-11-04T07:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Daybreak Red is now available in AWS GovCloud (US-East) (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Daybreak Red is now available in AWS GovCloud (US-East)，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3185129",
+          "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+          "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
+          "published": "2026-11-04T19:29:52+00:00",
+          "published_dt": "2026-11-04T19:29:52+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+          "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-11-04T17:50:10+00:00",
+          "published_dt": "2026-11-04T17:50:10+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：Dharma Field Extractor: Any Document In, Structured Fields in JSON Out，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3185305",
+          "title": "Apple is reportedly cutting budgets for its internal AI usage",
+          "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+          "published": "2026-11-05T01:26:22+00:00",
+          "published_dt": "2026-11-05T01:26:22+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Apple is reportedly cutting budgets for its internal AI usage (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Apple is reportedly cutting budgets for its internal AI usage，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3185307",
+          "title": "After the midterms, a bigger clash over data centers could be coming",
+          "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Data center opposition crossed party lines in Tuesday’s midterms.",
+          "published": "2026-11-05T01:02:14+00:00",
+          "published_dt": "2026-11-05T01:02:14+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "After the midterms, a bigger clash over data centers could be coming (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：After the midterms, a bigger clash over data centers could be coming，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3185205",
+          "title": "Almost no one uses AI agents to book their Uber, company says",
+          "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+          "published": "2026-11-04T21:56:01+00:00",
+          "published_dt": "2026-11-04T21:56:01+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Almost no one uses AI agents to book their Uber, company says (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Almost no one uses AI agents to book their Uber, company says，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3185152",
+          "title": "OpenAI is already trying to shape the 2028 election",
+          "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+          "published": "2026-11-04T21:25:44+00:00",
+          "published_dt": "2026-11-04T21:25:44+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI is already trying to shape the 2028 election (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI is already trying to shape the 2028 election，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3185071",
+          "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+          "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+          "published": "2026-11-04T16:51:35+00:00",
+          "published_dt": "2026-11-04T16:51:35+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-05T04:54:32.067944+00:00",
+          "published_dt": "2026-11-05T04:54:32.067944+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-05T04:54:32.067944+00:00",
+          "published_dt": "2026-11-05T04:54:32.067944+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6ad2762c3bafd52c8d60c16a",
+          "title": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
+          "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "“Most of the risk is actually created by a couple of players building behind closed doors,” Clément Delangue said of the need for open source AI.",
+          "published": "2026-11-04T19:16:25+00:00",
+          "published_dt": "2026-11-04T19:16:25+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’ (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.theverge.com/?p=1026867",
+      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier this year. The company expects that portion of its business to grow quickly, forecasting around $650 million in data center revenue during the first quarter of 2027. But it anticipates that will reach $5 billion by the end of 2027 and $15 billion by 2029. Considering the company's total revenue for 2026 was $10.4 billion, … Read the full story at The Verge.",
+      "published": "2026-11-04T22:42:15+00:00",
+      "published_dt": "2026-11-04T22:42:15+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Meta",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$650 million",
+          "$5 billion",
+          "$15 billion",
+          "$10.4 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Qualcomm is betting big on data centers as smartphone sales sink (The Verge AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "The Verge AI 报道：Qualcomm is betting big on data centers as smartphone sales sink，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94324",
+      "title": "Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States",
+      "url": "https://news.crunchbase.com/venture/2026-post-election-funding-red-states-drops/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "For the past few decades, the vast majority of U.S. startup funding has consistently gone to companies in blue states or purple states, where Democrats control all or some statewide offices. But with Tuesday’s election results, the investment divide between blue, purple and red states has grown even more pronounced. So far this year, less than 2% of all startup investment has gone to companies in post-election red states, defined as those that will have both a Republican governor and two Republican U.S. senators. The red states’ share is much smaller than in years’ past due to five states shifting to purple. Of those, the largest venture hub is Texas, which shifted to purple with the election of Democratic Senator James Talarico and Governor Gina Hinojosa, followed by Ohio. This year, as of Election Day, startups in the remaining 17 red states 1, which are home to nearly a quarter of Americans, had collectively pulled in just $8.6 billion in venture funding, with Florida, Tennessee and Utah among the largest contributors. To put that in perspective: It’s less than the typical nationwide total in a single week. Purple states rising The 10 purple U.S. states2, meanwhile, are home to just over a quarter of Americans and pulled in about $28.6 billion this year as of Election Day. That’s much higher than the red state tally, but still less than 6% of all U.S. startup funding. Beyond the aforementioned newcomers Texas and Ohio, several other purple states regularly pull in sizable venture funding, including Pennsylvania, North Carolina and to some extent Wisconsin. Also worth noting: The divide between red, purple and blue states is somewhat less stark when it comes to round counts. About 12% of startup financings of $1 million or more went to purple state companies this year, and about 9% went to red states. Broadly, it looks like backers are still finding plenty of investment-worthy talent outside of blue states when it comes to smaller deals. However, they are concentr",
+      "published": "2026-11-04T19:47:54+00:00",
+      "published_dt": "2026-11-04T19:47:54+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$8.6 billion",
+          "$28.6 billion",
+          "$1 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "title": "How big is the open model economy today?",
+      "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "source": "Interconnects (Nathan Lambert)",
+      "source_type": "rss",
+      "content": "My longest running agent testbed has been building the Interconnects Dashboard — an aggregator of all of the best data on open model adoption and performance from across the web. This dashboard is freely available and becoming quite useful. Still, all the measurements we have on open model adoption are incredibly imprecise. We have noisy platform metrics, marketing-related metrics from startups, and imperfect public evaluations. It takes an informed eye to figure out where things are going. These research notes are my current best approximations of where we stand.As with most things on Interconnects, our goal is to build well more value than we capture, so the data on the dashboard will remain free for the foreseeable future. These notes will be more raw than many of my articles, a place for sharing what I’m mulling over but don’t have complete evidence for (yet). They will be primarily paid, enabling me to speak more freely. If you work in AI policy or policy-facing research, please reach out to us and we can likely get discounted or free access.The primary question I wanted to address today is: What is the market for open model inference? Is it growing? Is it a rounding error relative to OpenAI/Anthropic?ShareI’ve been building the best measurements I can here, primarily using the open model inference startups Baseten, Fireworks, and Together AI as the bellwethers here (along with the open model share of OpenRouter’s token volume, which they thankfully report in their API). The hyperscalers also likely have a major footprint here, e.g. Amazon Bedrock and Azure’s model garden, but I haven’t seen them break down usage by model category. The startups’ fates are much more directly correlated with the success of open model inference as a category.For the latest data, we can start with a slide from my talk on the open model economy (recording here). These are the public disclosures from the open model startups on their token volume, over time, log-scale. This shows near",
+      "published": "2026-11-04T16:35:44+00:00",
+      "published_dt": "2026-11-04T16:35:44+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Amazon",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "How big is the open model economy today? (Interconnects (Nathan Lambert)) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Interconnects (Nathan Lambert) 报道：How big is the open model economy today?，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94318",
+      "title": "Most Venture Capital Is Going To Companies That Are Founded Or Led By Billionaires",
+      "url": "https://news.crunchbase.com/venture/startup-billionaire-founders-ai-defense-anthropic-spcx/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "The majority of U.S. venture capital nowadays goes to companies founded or led by men who are already billionaires. This is not a difficult stat to unearth. So far this year, just seven companies raised more than half of all seed- through growth-stage investment. They’re mostly familiar names: OpenAI, Anthropic, xAI (now part of SpaceX), Anduril Industries, Databricks, Prometheus and The Boring Co. These companies raised more than $260 billion in equity funding in the first 10 months of the year. That’s just over 50% of the U.S. seed and venture investment over the same period, per Crunchbase data. Founders and CEOs of these seven companies are also well-known — and exceptionally well-off to boot. The world’s wealthiest men Two founders are particularly famous. They are the world’s wealthiest men: Elon Musk and Jeff Bezos. Musk founded xAI and The Boring Co., and also co-founded OpenAI, (though he has no known equity stake in the latter). And while outside investors funded these companies, Musk could have also afforded to do so himself. Ditto for Bezos, who in 2025 launched the physical AI startup Prometheus, which raised $12 billion earlier this year. Bezos’ own net worth, meanwhile, is calculated at more than $350 billion. AI’s leading names The two highest valuation startups — OpenAI and the soon-to-be-public Anthropic — also have prominent billionaire founders and CEOs. However, they have mixed backstories to their wealth. OpenAI co-founder and CEO Sam Altman primarily made his vast wealth through investments in Y Combinator startups, including Stripe and Reddit. Altman has said he does not have an equity stake in OpenAI beyond a sliver from an old YC round. Co-founder Greg Brockman, by contrast, has a larger stake in OpenAI that was reportedly valued around $30 billion earlier this year. At Anthropic, meanwhile, all seven company co-founders have similar-sized equity stakes, and each is worth billions. This includes the AI giant’s most famous co-founder, CEO Da",
+      "published": "2026-11-04T12:00:14+00:00",
+      "published_dt": "2026-11-04T12:00:14+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "xAI",
+          "Databricks",
+          "Y Combinator"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$260 billion",
+          "$12 billion",
+          "$350 billion",
+          "$30 billion",
+          "raised $12 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Most Venture Capital Is Going To Companies That Are Founded Or Led By Billionaires (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Most Venture Capital Is Going To Companies That Are Founded Or Led By Billionaires，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_podcast&p=3185167",
+      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+      "published": "2026-11-04T18:44:57+00:00",
+      "published_dt": "2026-11-04T18:44:57+00:00",
+      "score": 8.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs (TechCrunch AI) highlights a notable AI development with score 8.7.",
+      "summary_zh": "TechCrunch AI 报道：Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs，综合评分 8.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_648fd7ef-adde-48f2-8823-488d55480202",
+      "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+      "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "There’s a lot of dispute to yesterday’s title story on “Weight Space Programming” — and we agree that some of the claims are presented in overly favorable light and overall took away from the impact of the paper’s more substantial discoveries. However it is still a big wakeup moment and has had multiple independent replications by now that it is not worth either doing some kind of retraction or a followup title story saying it was bogus. Instead today we’re featuring AI Engineer Shanghai and also sharing an exclusive interview on the history of Latent Space! AI News for 11/02/2026-11/03/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapWeight-Space Programming: Frontier Models Reading and Writing Neural Network WeightsCore claim and replications: Several groups report that frontier LLMs can generate or edit small networks' weights directly, without gradient training or tools. Cross-generation replication: Alex Krentsel's replication of MIT's experiment found a sharp capability jump across model generations; the latest models generated Breakout networks scoring up to 22× an RL-trained baseline (summary). Hugging Face reproduction: Hugging Face reproduced the paper with ML Intern, its open-source AI-research harness, and released the model and a demo (NielsRogge). Hand-written classifier: A user had Fable hand-write a 100K-parameter network that classifies real versus fake legal citations, reportedly outperforming a trained version (jacsebl). Legora's CTO highlighted the result (mstockton). Astra's Qwen edit, reconstructed: GPT-6 Astra edited 131,072 weights in Qwen3.5-0.8B without backprop, raising MATH-500 from 7.9% to 48.1%. A Zhihu reconstruction from the logs shows the gain is narrower than the headline (ZhihuFrontier): Failure mode: 576 of 579 repaired answers had originally hit the 3",
+      "published": "2026-11-04T19:17:30+00:00",
+      "published_dt": "2026-11-04T19:17:30+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai (Latent Space) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Latent Space 报道：[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6ae4a770bd1058bb39c86ec2",
+      "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
+      "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Leading the Future, backed by Silicon Valley’s biggest billionaires, had a war chest of $100 million and an aggressive stance against AI regulation. All of it didn’t add up to much on Tuesday night.",
+      "published": "2026-11-04T20:41:29+00:00",
+      "published_dt": "2026-11-04T20:41:29+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$100 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms (Wired AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "Wired AI 报道：The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_video&p=3185186",
+      "title": "Open source AI is booming. Hugging Face explains who profits.",
+      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+      "published": "2026-11-04T19:30:04+00:00",
+      "published_dt": "2026-11-04T19:30:04+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Open source AI is booming. Hugging Face explains who profits. (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：Open source AI is booming. Hugging Face explains who profits.，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1026586",
+      "title": "Nothing teases a screen-free AI device ahead of launch next month",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, only that one feature it won't have is a screen: \"Our first AI-native product ships next month. It's a tool, but one built with the personality and care that have come to define a Nothing product. It has no new screen, and it couldn't have been an app.\" Pei shared an image with the post that says \"NOTHING(R)\" in the top left corner, above an ambiguous black rounded … Read the full story at The Verge.",
+      "published": "2026-11-04T18:26:07+00:00",
+      "published_dt": "2026-11-04T18:26:07+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nothing teases a screen-free AI device ahead of launch next month (The Verge AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "The Verge AI 报道：Nothing teases a screen-free AI device ahead of launch next month，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=84369",
+      "title": "The Crunchbase Tech Layoffs Tracker",
+      "url": "https://news.crunchbase.com/startups/tech-layoffs/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Methodology This tracker includes layoffs conducted by U.S.-based companies or those with a strong U.S. presence and is updated at least bi-weekly. We’ve included both startups and publicly traded, tech-heavy companies. We’ve also included companies based elsewhere that have a sizable team in the United States, such as Klarna, even when it’s unclear how much of the U.S. workforce has been affected by layoffs. Layoff and workforce figures are best estimates based on reporting. We source the layoffs from media reports, our own reporting, social media posts and layoffs.fyi, a crowdsourced database of tech layoffs. We recently updated our layoffs tracker to reflect the most recent round of layoffs each company has conducted. This allows us to quickly and more accurately track layoff trends, which is why you might notice some changes in our most recent numbers. If an employee headcount cannot be confirmed to our standards, we note it as “unclear.”",
+      "published": "2026-11-04T17:42:30+00:00",
+      "published_dt": "2026-11-04T17:42:30+00:00",
+      "score": 7.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Crunchbase Tech Layoffs Tracker (Crunchbase News) highlights a notable AI development with score 7.2.",
+      "summary_zh": "Crunchbase News 报道：The Crunchbase Tech Layoffs Tracker，综合评分 7.2，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1024862",
+      "title": "Google hasn&#8217;t figured out how to make AI pay like its search engine",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Google Chief Business Officer Philipp Schindler. | Bloomberg via Getty Images Search queries are growing at their fastest rate in five years, Google parent Alphabet said in its earnings report last week. However, Google's Search revenue growth slowed to 12 percent year over year in the third quarter, down from roughly 17 percent in the previous quarter. Meanwhile, growth in paid clicks - clicks on ads that generate revenue for Google - slowed from 13 percent to 8 percent. That's still substantial growth, but not the direction investors were hoping for from a company planning to spend about $200 billion this year on infrastructure, largely to support AI. Alphabet shares have fallen about 14 percent since it reported e … Read the full story at The Verge.",
+      "published": "2026-11-04T12:00:00+00:00",
+      "published_dt": "2026-11-04T12:00:00+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$200 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Google hasn&#8217;t figured out how to make AI pay like its search engine (The Verge AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "The Verge AI 报道：Google hasn&#8217;t figured out how to make AI pay like its search engine，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-05T04:54:32.067944+00:00",
+      "published_dt": "2026-11-05T04:54:32.067944+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-05T04:54:32.067944+00:00",
+      "published_dt": "2026-11-05T04:54:32.067944+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
+      "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
+      "url": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "After alienating many long-time small- to medium-sized business (SMB) customers, Broadcom’s VMware is trying to appeal to its smaller customers. Today, the virtualization company announced vSphere Express, a lower-end virtualization offering for organizations that require “cost-effective essential virtualization.” vSphere Express comes after many customers reported that VMware was pushing them to VMware Cloud Foundation (VCF), the flagship private cloud bundle that has many features SMBs don’t need and is expensive. Some SMB users have reported that VMware sales representatives previously told them that vSphere Standard, VMware's prior entry-level virtualization offering, wasn’t available anymore.Read full article Comments",
+      "published": "2026-11-04T21:38:49+00:00",
+      "published_dt": "2026-11-04T21:38:49+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "VMware releases vSphere Express for virtualization on up to 128 cores (Ars Technica) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Ars Technica 报道：VMware releases vSphere Express for virtualization on up to 128 cores，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50368804",
+      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+      "url": "https://news.ycombinator.com/item?id=50368804",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hi HN! I'm Luke from Kino (https://kino.ai). Kino lets you make great videos with your agents and your teammates. Storage of footage and assets, a rich video editor, and review links for teammates are all bundled into one. Your colleagues and Codex / Claude Code can work on the same timeline with review notes and footage all in one place. See a basic overview at https://kino.ai/walkthrough-video and our launch video (made entirely with Kino!) at https://kino.ai/launch-videoOpus 5.5 can edit videos and make great motion graphics now. But with a raw agent harness, you need to describe tiny edits either in words or in quick one-off UIs, you can’t refer to footage shared across your devices, and feedback from teammates comes as screenshots on Slack.Kino is code-first. All editing, all motion graphics, all dragging of timeline items around, all teammate comments, and all 3D scenes are expressed as code, built on Remotion. This was hard to get right, as we found ourselves building a what-you-see-is-what-you-get editor for React, which we then turned into a video editor. For our launch video I told Claude-with-Kino to find a macOS Leopard install disk and reskin our whole video to match.Kino is also fully collaborative and real-time, so you can see your teammates' cursors and exactly which part of the timeline they’re currently watching. For our launch video I had 5+ agents editing the timeline concurrently while my friend Donald had his swarm working a few minutes further down. Donald had one agent rotoscoping to make our visual effects work, I had an LLM color grading all media via our LUT support, and we both made tiny tweaks to the timeline along the way.To make this code-first editor work with video footage, everything gets transcribed, embedded, described, and face-detected. You can scrub your footage locally after you drag it in, but we upload a low-res proxy so your teammates and cloud inference can see it. This local scrubbing plus custom pro media decoders means ",
+      "published": "2026-11-04T17:31:53+00:00",
+      "published_dt": "2026-11-04T17:31:53+00:00",
+      "hn_score": 79,
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "RAG",
+          "inference",
+          "agent"
+        ]
+      },
+      "summary_en": "Launch HN: Kino AI (YC S23) – AI media manager and video editor (Hacker News) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Hacker News 报道：Launch HN: Kino AI (YC S23) – AI media manager and video editor，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1026878",
+      "title": "17 better ways Elon Musk could have wasted $446 million",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Dream bigger, babe. | Image: Cath Virginia / The Verge, Getty Images One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the outside world, you may delusionally throw away nearly $500 million dollars on midterm elections, just like Elon Musk. In particular, $47 million of that money from Musk's America PAC was aimed at defeating Texas Democrat James Talarico, who trounced Musk's preferred Senate candidate, Ken Paxton, with 55 percent of the vote. Talarico even made Musk's influence a cent … Read the full story at The Verge.",
+      "published": "2026-11-04T21:45:00+00:00",
+      "published_dt": "2026-11-04T21:45:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$446 million",
+          "$500 million",
+          "$47 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "17 better ways Elon Musk could have wasted $446 million (The Verge AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "The Verge AI 报道：17 better ways Elon Musk could have wasted $446 million，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
+      "title": "Binance says hackers who stole billions in crypto spent months planning heist",
+      "url": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "The hackers who stole billions of dollars in cryptocurrency from the Binance exchange spent months working on the theft and used both social engineering and novel malware in the process, the company said Tuesday. The heist, which both the FBI and the TRM Security firm attributed to North Korean actors, initially targeted $6.34 billion in cryptocurrency from Binance wallets. The exchange has since frozen or intercepted $2.85 billion of that sum. Binance said it has set aside funds required to cover the loss and provided this link to a Proof of Reserves page. The $6.34 billion represents the biggest sum ever targeted in a cryptocurrency theft. Advanced persistent threat Binance said the people behind the heist began no later than June and continued until last Thursday, when they successfully compromised an engineer's laptop and withdrew assets from several wallets. Like just about every organization that suffers a public, high-consequence hack, Binance said the threat actor was sophisticated and resourceful.Read full article Comments",
+      "published": "2026-11-04T16:06:03+00:00",
+      "published_dt": "2026-11-04T16:06:03+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$6.34 billion",
+          "$2.85 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Binance says hackers who stole billions in crypto spent months planning heist (Ars Technica) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Ars Technica 报道：Binance says hackers who stole billions in crypto spent months planning heist，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50364336",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-04T11:52:17+00:00",
+      "published_dt": "2026-11-04T11:52:17+00:00",
+      "hn_score": 1125,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI is forcing us to pay off 40 years of technical debt (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：AI is forcing us to pay off 40 years of technical debt，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_dt": "2026-11-04T08:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "A thousand fewer paths to root (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：A thousand fewer paths to root，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "published": "2026-11-04T07:00:00+00:00",
+      "published_dt": "2026-11-04T07:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Daybreak Red is now available in AWS GovCloud (US-East) (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Daybreak Red is now available in AWS GovCloud (US-East)，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185268",
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+      "published": "2026-11-04T22:45:09+00:00",
+      "published_dt": "2026-11-04T22:45:09+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI PACs spent millions trying to shape Congress — here’s how they fared (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：AI PACs spent millions trying to shape Congress — here’s how they fared，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185172",
+      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+      "published": "2026-11-04T22:13:16+00:00",
+      "published_dt": "2026-11-04T22:13:16+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Nothing CEO says company’s mysterious AI-first device is dropping next month (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Nothing CEO says company’s mysterious AI-first device is dropping next month，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185181",
+      "title": "Meta acquires AI coding startup Conductor",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+      "published": "2026-11-04T21:10:56+00:00",
+      "published_dt": "2026-11-04T21:10:56+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Meta acquires AI coding startup Conductor (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Meta acquires AI coding startup Conductor，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185129",
+      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
+      "published": "2026-11-04T19:29:52+00:00",
+      "published_dt": "2026-11-04T19:29:52+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1026306",
+      "title": "Uber only fulfilled 4 rides from AI agents last quarter",
+      "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little higher, with the company recording \"around 500\" during the week of Halloween, out of a total 320 million Uber rides and Uber Eats deliveries. This is the first time that Uber has disclosed the number of third-party AI agents that have arranged deliveries or rides on its platform. With the rise of AI agents like Meta's Muse or OpenAI's Dots, some experts are predictin … Read the full story at The Verge.",
+      "published": "2026-11-04T15:58:45+00:00",
+      "published_dt": "2026-11-04T15:58:45+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Uber only fulfilled 4 rides from AI agents last quarter (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：Uber only fulfilled 4 rides from AI agents last quarter，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6ae4c8c62e6231fc04066403",
+      "title": "UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google",
+      "url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "The AI minister now concedes the estimated figure is less than a third of that. Researchers blame the country’s slow rate of adoption.",
+      "published": "2026-11-04T13:49:51+00:00",
+      "published_dt": "2026-11-04T13:49:51+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google (Wired AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Wired AI 报道：UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-11-04T17:50:10+00:00",
+      "published_dt": "2026-11-04T17:50:10+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：Dharma Field Extractor: Any Document In, Structured Fields in JSON Out，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6ad2762c3bafd52c8d60c16a",
+      "title": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
+      "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "“Most of the risk is actually created by a couple of players building behind closed doors,” Clément Delangue said of the need for open source AI.",
+      "published": "2026-11-04T19:16:25+00:00",
+      "published_dt": "2026-11-04T19:16:25+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’ (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1026464",
+      "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
+      "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Also, can I just say this LED indicator light is way too small and unnoticeable? This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you feel?\" I get asked this a lot in therapy. Plenty of life events, big and small, have triggered this question. Three weeks ago, it was the fact that I had to ask my therapist for her consent because I was wearing the Amazon Bee Frontier during our session. That first week, I didn't really have an answer. A lot had changed since I first tested Bee, an always-recording AI wearable, early last year. The ele … Read the full story at The Verge.",
+      "published": "2026-11-04T18:00:00+00:00",
+      "published_dt": "2026-11-04T18:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "My therapist thinks I should chuck the Amazon Bee Frontier out a window (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：My therapist thinks I should chuck the Amazon Bee Frontier out a window，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette, llm",
+      "published": "2026-11-04T15:26:02+00:00",
+      "published_dt": "2026-11-04T15:26:02+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "datasette-llm 0.1a10 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：datasette-llm 0.1a10，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185305",
+      "title": "Apple is reportedly cutting budgets for its internal AI usage",
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+      "published": "2026-11-05T01:26:22+00:00",
+      "published_dt": "2026-11-05T01:26:22+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Apple is reportedly cutting budgets for its internal AI usage (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Apple is reportedly cutting budgets for its internal AI usage，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185307",
+      "title": "After the midterms, a bigger clash over data centers could be coming",
+      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Data center opposition crossed party lines in Tuesday’s midterms.",
+      "published": "2026-11-05T01:02:14+00:00",
+      "published_dt": "2026-11-05T01:02:14+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "After the midterms, a bigger clash over data centers could be coming (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：After the midterms, a bigger clash over data centers could be coming，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185205",
+      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+      "published": "2026-11-04T21:56:01+00:00",
+      "published_dt": "2026-11-04T21:56:01+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Almost no one uses AI agents to book their Uber, company says (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Almost no one uses AI agents to book their Uber, company says，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185152",
+      "title": "OpenAI is already trying to shape the 2028 election",
+      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+      "published": "2026-11-04T21:25:44+00:00",
+      "published_dt": "2026-11-04T21:25:44+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI is already trying to shape the 2028 election (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI is already trying to shape the 2028 election，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185071",
+      "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+      "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+      "published": "2026-11-04T16:51:35+00:00",
+      "published_dt": "2026-11-04T16:51:35+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185072",
+      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+      "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
+      "published": "2026-11-04T16:17:22+00:00",
+      "published_dt": "2026-11-04T16:17:22+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google faces backlash for plan that would turn off Search for schools that restrict AI (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google faces backlash for plan that would turn off Search for schools that restrict AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50366863",
+      "title": "OpenAI to acquire Pierre Computer Company",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://twitter.com/pierrecomputer/status/211799903617518818...",
+      "published": "2026-11-04T15:21:21+00:00",
+      "published_dt": "2026-11-04T15:21:21+00:00",
+      "hn_score": 211,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI to acquire Pierre Computer Company (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：OpenAI to acquire Pierre Computer Company，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185013",
+      "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+      "url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+      "published": "2026-11-04T13:00:00+00:00",
+      "published_dt": "2026-11-04T13:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50363554",
+      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-04T10:23:34+00:00",
+      "published_dt": "2026-11-04T10:23:34+00:00",
+      "hn_score": 303,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Geoffrey Hinton: it might turn out we were better off without AI (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Geoffrey Hinton: it might turn out we were better off without AI，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
