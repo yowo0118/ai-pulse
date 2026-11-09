@@ -1,0 +1,992 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T04:24:40",
+  "stats": {
+    "total_items": 15,
+    "high_importance": 1,
+    "medium_importance": 14,
+    "categories_covered": 4
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted: I'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '£' and '%', handles a leading '-', and returns 'NULL' for anything it can’t parse Explore the difference between building this as a SQLite extension in C v.s. in Rust - I want to compare performance and code complexity and size of the resulting.so(or whatever) file This gave me a solid starting point - the Rust extension was 321 KB (using Rusqlite) and 298 KB (using sqlite-loadable-rs), while the C extension was 14 KB. But the Rust extension was faster! Turns out that's because the Rust equivalent of C's strtod is \"twice as fast\". So I prompted: Try writing your own C function for parsing text into a decimal number that catches up to or beats the Rust implementation And it did: Net cost per row over 2 million rows, lower is better: first C new C rusqlite sqlite-loadable Mixed data 67 ns 19 ns 46 ns 41 ns Integers only 25 ns 16 ns 36 ns 32 ns Decimals only 106 ns 18 ns 55 ns 47 ns Finally, I had it rewrite the prototype as a research report to match the others in simonw/research by prompting this: Clone simonw/research from GitHub and turn your above investigation into a research report as seen in that repository - you can give me a zip file to download that contains your new folder Here's the resulting report. Tags: c, research, sqlite, rust, claude",
+      "published": "2026-11-08T22:26:00+00:00",
+      "published_dt": "2026-11-08T22:26:00+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "parse_number() as a SQLite extension: C vs Rust (Simon Willison) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Simon Willison 报道：parse_number() as a SQLite extension: C vs Rust，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 0,
+      "items": []
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+          "title": "parse_number() as a SQLite extension: C vs Rust",
+          "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted: I'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '£' and '%', handles a leading '-', and returns 'NULL' for anything it can’t parse Explore the difference between building this as a SQLite extension in C v.s. in Rust - I want to compare performance and code complexity and size of the resulting.so(or whatever) file This gave me a solid starting point - the Rust extension was 321 KB (using Rusqlite) and 298 KB (using sqlite-loadable-rs), while the C extension was 14 KB. But the Rust extension was faster! Turns out that's because the Rust equivalent of C's strtod is \"twice as fast\". So I prompted: Try writing your own C function for parsing text into a decimal number that catches up to or beats the Rust implementation And it did: Net cost per row over 2 million rows, lower is better: first C new C rusqlite sqlite-loadable Mixed data 67 ns 19 ns 46 ns 41 ns Integers only 25 ns 16 ns 36 ns 32 ns Decimals only 106 ns 18 ns 55 ns 47 ns Finally, I had it rewrite the prototype as a research report to match the others in simonw/research by prompting this: Clone simonw/research from GitHub and turn your above investigation into a research report as seen in that repository - you can give me a zip file to download that contains your new folder Here's the resulting report. Tags: c, research, sqlite, rust, claude",
+          "published": "2026-11-08T22:26:00+00:00",
+          "published_dt": "2026-11-08T22:26:00+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "parse_number() as a SQLite extension: C vs Rust (Simon Willison) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Simon Willison 报道：parse_number() as a SQLite extension: C vs Rust，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "urn:latent-space:post:post_c965535e-89a8-4755-b38e-4e9eda7f9bb3",
+          "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+          "url": "https://latent.space/p/cs146s/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "The AI Engineer YouTube channel just crossed one million subscribers. Thank you to everyone who’s watched a talk, sent one to a teammate, or put something they learned into production. For this special, we wanted to sit down with someone who has to answer a question a lot of us are asking at work: what should a software engineer actually learn now? Mihail Eric has two places to test his answer. He teaches The Modern Software Developer at Stanford and leads AI at Monaco, where his colleagues use coding agents to ship software and investigate outages. I asked him to take us through the syllabus, then tell us which parts survived contact with his own engineering team. This is also meant as a preview for all of you joining us in San Francisco for AIE Code next week, as required knowledge for all the conversations with the speakers, sponsors and attendees you’re about to have. If you can see this as a LS subscriber and haven’t got a ticket yet, you can use this code for 30% off (no refunds, sorry) Last year’s homework takes one prompt The first run of CS146S had nine assignments and a capstone. In one exercise, students ran an AI code reviewer on a repo and evaluated its feedback. By the next run, Mihail figured students could one-shot a lot of those exercises. When he asked a room of Stanford sophomores and juniors how they coded, everyone he surveyed was already using an agent. So this time, part of the homework is contributing to an open-source project. The person who maintains the repo reviews the student’s patch. I like what that does to the assignment. You can ask an agent to implement a feature in an afternoon. You still have to find out whether the maintainer wants it, why the code behaves the way it does, and what else your patch might break. That conversation is also how a junior engineer gets to learn from a senior one. There’s an exercise in the episode you can borrow for your next PR. Geoffrey Litt’s explain-diff skill turns a change into a visual walkthroug",
+          "published": "2026-11-08T21:41:44+00:00",
+          "published_dt": "2026-11-08T21:41:44+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco (Latent Space) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Latent Space 报道：How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3186128",
+          "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "In a memo to the company, Huang admitted that he had an affair.",
+          "published": "2026-11-08T21:00:11+00:00",
+          "published_dt": "2026-11-08T21:00:11+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "urn:latent-space:post:pod_ep_01a1bcf7-771f-7c67-ba1d-94f856e787b0",
+          "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+          "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and explain the patch to the person who might merge it. We invited Mihail, who teaches The Modern Software Developer at Stanford and leads AI at Monaco, to celebrate one million subscribers on the AI Engineer YouTube channel. He opens up the course syllabus and shows us which lessons survived contact with his own engineering team. Monaco built its agent workspaces, bought its code review tools, and gave an on-call agent access to Datadog and GitHub. We ask how he decides which tools his team needs to own. Watch the full interview and screenshares on YouTube. Show notes Stanford CS146S — The ten-week syllabus and assignments. The Emperor Has No Clothes — Mihail builds a coding agent from scratch. Demystifying Claude Code — Mihail traces a real agent harness. Monaco’s agent workspaces — How the team sets up a workspace for each agent. How to Kill the Code Review — Our essay on what happens when code generation outruns review. Basis’s Authority Map — How agents distinguish current behavior from earlier design decisions. Stripe’s Minions — A look inside Stripe’s background coding agents. AI Engineer CODE Summit — The conference mentioned in the opening. Timestamps 0:00 One million AI Engineer subscribers and the CODE Summit0:51 Mihail Eric and Stanford CS146S5:26 What junior engineers need to learn now10:02 Open-source maintainers review the students’ code15:04 A tour of the ten-week syllabus24:04 The loop, tools and harness inside a coding agent32:18 Context engineering for a large codebase38:15 Skills that make you understand the diff46:42 The Monaco.com dispute and the airplane banner50:23 What Monaco does for sales teams59:21 Inside Monaco’s engineering team1:01:40 “You buy to learn, and you build to keep”1:05:24 Making re",
+          "published": "2026-11-08T21:23:29+00:00",
+          "published_dt": "2026-11-08T21:23:29+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco (Latent Space) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Latent Space 报道：[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50413822",
+          "title": "OpenAI raises $11B at a $1.25T valuation",
+          "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-08T14:49:23+00:00",
+          "published_dt": "2026-11-08T14:49:23+00:00",
+          "hn_score": 184,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$11B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "OpenAI raises $11B at a $1.25T valuation (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：OpenAI raises $11B at a $1.25T valuation，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=1029595",
+          "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp. to build a homegrown foundational AI model for robots. Photographer: Kiyoshi Ota/Bloomberg via Getty Images | Bloomberg via Getty Images On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my colleagues at NVIDIA, I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry. Throughout my life, my family has given me love and support. They deserve my honesty and loyalty. Instead, I … Read the full story at The Verge.",
+          "published": "2026-11-08T22:54:50+00:00",
+          "published_dt": "2026-11-08T22:54:50+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Here’s the full text of Jensen Huang’s memo to Nvidia (The Verge AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "The Verge AI 报道：Here’s the full text of Jensen Huang’s memo to Nvidia，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1029562",
+          "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the investigation. The Board prioritizes U.S. national and economic security, which is paramou … Read the full story at The Verge.",
+          "published": "2026-11-08T20:22:39+00:00",
+          "published_dt": "2026-11-08T20:22:39+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Nvidia is investigating Jensen Huang’s relationship with a Chinese spy，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6aed1403f979e2b672d1308c",
+          "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+          "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+          "published": "2026-11-08T12:00:00+00:00",
+          "published_dt": "2026-11-08T12:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 5,
+      "items": [
+        {
+          "id": "hn-50415628",
+          "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+          "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-08T18:16:07+00:00",
+          "published_dt": "2026-11-08T18:16:07+00:00",
+          "hn_score": 669,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Goldman Sachs is pulling Claude Code from its bankers and traders (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Goldman Sachs is pulling Claude Code from its bankers and traders，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50418016",
+          "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-aff..., https://archive.ph/Hxn5hhttps://www.nytimes.com/2026/11/06/us/politics/chinese-spy-a..., https://archive.ph/atMcp",
+          "published": "2026-11-08T22:20:09+00:00",
+          "published_dt": "2026-11-08T22:20:09+00:00",
+          "hn_score": 417,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "MCP"
+            ]
+          },
+          "summary_en": "Nvidia CEO Jensen Huang's letter to staff about affair (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Nvidia CEO Jensen Huang's letter to staff about affair，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50416158",
+          "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+          "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-08T19:20:32+00:00",
+          "published_dt": "2026-11-08T19:20:32+00:00",
+          "hn_score": 304,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Outlook.com Is Quietly Rejecting Email from Domains Without DMARC，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50415172",
+          "title": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
+          "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-08T17:20:29+00:00",
+          "published_dt": "2026-11-08T17:20:29+00:00",
+          "hn_score": 216,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50411961",
+          "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+          "url": "https://github.com/synchopate/llama-modchip",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-08T10:22:04+00:00",
+          "published_dt": "2026-11-08T10:22:04+00:00",
+          "hn_score": 388,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-09T04:24:37.707940+00:00",
+          "published_dt": "2026-11-09T04:24:37.707940+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-09T04:24:37.707940+00:00",
+          "published_dt": "2026-11-09T04:24:37.707940+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted: I'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '£' and '%', handles a leading '-', and returns 'NULL' for anything it can’t parse Explore the difference between building this as a SQLite extension in C v.s. in Rust - I want to compare performance and code complexity and size of the resulting.so(or whatever) file This gave me a solid starting point - the Rust extension was 321 KB (using Rusqlite) and 298 KB (using sqlite-loadable-rs), while the C extension was 14 KB. But the Rust extension was faster! Turns out that's because the Rust equivalent of C's strtod is \"twice as fast\". So I prompted: Try writing your own C function for parsing text into a decimal number that catches up to or beats the Rust implementation And it did: Net cost per row over 2 million rows, lower is better: first C new C rusqlite sqlite-loadable Mixed data 67 ns 19 ns 46 ns 41 ns Integers only 25 ns 16 ns 36 ns 32 ns Decimals only 106 ns 18 ns 55 ns 47 ns Finally, I had it rewrite the prototype as a research report to match the others in simonw/research by prompting this: Clone simonw/research from GitHub and turn your above investigation into a research report as seen in that repository - you can give me a zip file to download that contains your new folder Here's the resulting report. Tags: c, research, sqlite, rust, claude",
+      "published": "2026-11-08T22:26:00+00:00",
+      "published_dt": "2026-11-08T22:26:00+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "parse_number() as a SQLite extension: C vs Rust (Simon Willison) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Simon Willison 报道：parse_number() as a SQLite extension: C vs Rust，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1029595",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp. to build a homegrown foundational AI model for robots. Photographer: Kiyoshi Ota/Bloomberg via Getty Images | Bloomberg via Getty Images On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my colleagues at NVIDIA, I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry. Throughout my life, my family has given me love and support. They deserve my honesty and loyalty. Instead, I … Read the full story at The Verge.",
+      "published": "2026-11-08T22:54:50+00:00",
+      "published_dt": "2026-11-08T22:54:50+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Here’s the full text of Jensen Huang’s memo to Nvidia (The Verge AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "The Verge AI 报道：Here’s the full text of Jensen Huang’s memo to Nvidia，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_c965535e-89a8-4755-b38e-4e9eda7f9bb3",
+      "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/cs146s/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "The AI Engineer YouTube channel just crossed one million subscribers. Thank you to everyone who’s watched a talk, sent one to a teammate, or put something they learned into production. For this special, we wanted to sit down with someone who has to answer a question a lot of us are asking at work: what should a software engineer actually learn now? Mihail Eric has two places to test his answer. He teaches The Modern Software Developer at Stanford and leads AI at Monaco, where his colleagues use coding agents to ship software and investigate outages. I asked him to take us through the syllabus, then tell us which parts survived contact with his own engineering team. This is also meant as a preview for all of you joining us in San Francisco for AIE Code next week, as required knowledge for all the conversations with the speakers, sponsors and attendees you’re about to have. If you can see this as a LS subscriber and haven’t got a ticket yet, you can use this code for 30% off (no refunds, sorry) Last year’s homework takes one prompt The first run of CS146S had nine assignments and a capstone. In one exercise, students ran an AI code reviewer on a repo and evaluated its feedback. By the next run, Mihail figured students could one-shot a lot of those exercises. When he asked a room of Stanford sophomores and juniors how they coded, everyone he surveyed was already using an agent. So this time, part of the homework is contributing to an open-source project. The person who maintains the repo reviews the student’s patch. I like what that does to the assignment. You can ask an agent to implement a feature in an afternoon. You still have to find out whether the maintainer wants it, why the code behaves the way it does, and what else your patch might break. That conversation is also how a junior engineer gets to learn from a senior one. There’s an exercise in the episode you can borrow for your next PR. Geoffrey Litt’s explain-diff skill turns a change into a visual walkthroug",
+      "published": "2026-11-08T21:41:44+00:00",
+      "published_dt": "2026-11-08T21:41:44+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco (Latent Space) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Latent Space 报道：How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186128",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "In a memo to the company, Huang admitted that he had an affair.",
+      "published": "2026-11-08T21:00:11+00:00",
+      "published_dt": "2026-11-08T21:00:11+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-09T04:24:37.707940+00:00",
+      "published_dt": "2026-11-09T04:24:37.707940+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-09T04:24:37.707940+00:00",
+      "published_dt": "2026-11-09T04:24:37.707940+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:pod_ep_01a1bcf7-771f-7c67-ba1d-94f856e787b0",
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and explain the patch to the person who might merge it. We invited Mihail, who teaches The Modern Software Developer at Stanford and leads AI at Monaco, to celebrate one million subscribers on the AI Engineer YouTube channel. He opens up the course syllabus and shows us which lessons survived contact with his own engineering team. Monaco built its agent workspaces, bought its code review tools, and gave an on-call agent access to Datadog and GitHub. We ask how he decides which tools his team needs to own. Watch the full interview and screenshares on YouTube. Show notes Stanford CS146S — The ten-week syllabus and assignments. The Emperor Has No Clothes — Mihail builds a coding agent from scratch. Demystifying Claude Code — Mihail traces a real agent harness. Monaco’s agent workspaces — How the team sets up a workspace for each agent. How to Kill the Code Review — Our essay on what happens when code generation outruns review. Basis’s Authority Map — How agents distinguish current behavior from earlier design decisions. Stripe’s Minions — A look inside Stripe’s background coding agents. AI Engineer CODE Summit — The conference mentioned in the opening. Timestamps 0:00 One million AI Engineer subscribers and the CODE Summit0:51 Mihail Eric and Stanford CS146S5:26 What junior engineers need to learn now10:02 Open-source maintainers review the students’ code15:04 A tour of the ten-week syllabus24:04 The loop, tools and harness inside a coding agent32:18 Context engineering for a large codebase38:15 Skills that make you understand the diff46:42 The Monaco.com dispute and the airplane banner50:23 What Monaco does for sales teams59:21 Inside Monaco’s engineering team1:01:40 “You buy to learn, and you build to keep”1:05:24 Making re",
+      "published": "2026-11-08T21:23:29+00:00",
+      "published_dt": "2026-11-08T21:23:29+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco (Latent Space) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Latent Space 报道：[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1029562",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the investigation. The Board prioritizes U.S. national and economic security, which is paramou … Read the full story at The Verge.",
+      "published": "2026-11-08T20:22:39+00:00",
+      "published_dt": "2026-11-08T20:22:39+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Nvidia is investigating Jensen Huang’s relationship with a Chinese spy，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50413822",
+      "title": "OpenAI raises $11B at a $1.25T valuation",
+      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-08T14:49:23+00:00",
+      "published_dt": "2026-11-08T14:49:23+00:00",
+      "hn_score": 184,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$11B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "OpenAI raises $11B at a $1.25T valuation (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：OpenAI raises $11B at a $1.25T valuation，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50415628",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-08T18:16:07+00:00",
+      "published_dt": "2026-11-08T18:16:07+00:00",
+      "hn_score": 669,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Goldman Sachs is pulling Claude Code from its bankers and traders (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Goldman Sachs is pulling Claude Code from its bankers and traders，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6aed1403f979e2b672d1308c",
+      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+      "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+      "published": "2026-11-08T12:00:00+00:00",
+      "published_dt": "2026-11-08T12:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50418016",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-aff..., https://archive.ph/Hxn5hhttps://www.nytimes.com/2026/11/06/us/politics/chinese-spy-a..., https://archive.ph/atMcp",
+      "published": "2026-11-08T22:20:09+00:00",
+      "published_dt": "2026-11-08T22:20:09+00:00",
+      "hn_score": 417,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "MCP"
+        ]
+      },
+      "summary_en": "Nvidia CEO Jensen Huang's letter to staff about affair (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Nvidia CEO Jensen Huang's letter to staff about affair，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50416158",
+      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-08T19:20:32+00:00",
+      "published_dt": "2026-11-08T19:20:32+00:00",
+      "hn_score": 304,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Outlook.com Is Quietly Rejecting Email from Domains Without DMARC，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50415172",
+      "title": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
+      "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-08T17:20:29+00:00",
+      "published_dt": "2026-11-08T17:20:29+00:00",
+      "hn_score": 216,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50411961",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-08T10:22:04+00:00",
+      "published_dt": "2026-11-08T10:22:04+00:00",
+      "hn_score": 388,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
