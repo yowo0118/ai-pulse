@@ -1,0 +1,3057 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T04:29:22",
+  "stats": {
+    "total_items": 49,
+    "high_importance": 9,
+    "medium_importance": 40,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "urn:latent-space:post:post_e9d76b13-59aa-4ee4-9132-5d55b5763030",
+      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "url": "https://latent.space/p/naiveai/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Editor’s note: With this post, we are launching a new series focused on trying new models and products with unbiased reviews. Reach out with suggestions to tips@latent.space.Naive-N0.5-Flash is a new open-weights model built for AI coding tasks and tuned to generate as many tokens per second as possible. It was developed by a Chinese company called NaiveAI, with the aim of speeding up engineering and research workflows so that teams can experiment, iterate and solve complex problems faster. The model is an evolution of Xiaomi’s MiMo-V2.5, which NaiveAI has trained further for long-context reasoning and paired with its own NaiveRT inference engine. Naive-N0.5-Flash arrives with a bold pitch: a model built largely by AI and trained to do AI research itself, with recursive self-improvement as the long-term goal. To see what changed, it helps to know where it started. MiMo-V2.5 is a 310B-parameter sparse Mixture-of-Experts model with 15B active parameters, trained on 48T tokens. Its language backbone inherits the hybrid design of MiMo-V2-Flash, which mixes sliding-window attention (SWA) with global self-attention. NaiveAI's recipe starts from those weights. Through continued, multi-stage training, the team adapted the checkpoint to DeepSeek Sparse Attention layers. According to the NaiveAI technical blog, this took roughly 3.25T additional tokens on top of MiMo's original 48T. About 3T of those additional tokens were trained at a fixed 1M context length and with a constant learning rate. Benchmarking NaiveAI vs. DeepSeek and Z.ai We benchmarked the ultrafast mode of Naive-N0.5-Flash against DeepSeek V4.1 Flash 1017 and GLM 5.3 Flash, and then gave all three the same app-building prompts. The trade-off, we discovered, is that Naive-N0.5-Flash takes longer to reason through harder problems, yet it still delivers answers faster overall. However, that comes at a slightly higher cost per question — although that may be an acceptable price for applications where speed comes f",
+      "published": "2026-11-10T18:56:32+00:00",
+      "published_dt": "2026-11-10T18:56:32+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "benchmark"
+        ]
+      },
+      "summary_en": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code? (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94374",
+      "title": "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
+      "url": "https://news.crunchbase.com/ai/anthropic-record-ipo-ant-public-market-debut-spcx/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Anthropic is seeking to secure up to $88.5 billion in its planned IPO and a concurrent private placement, potentially making it the largest-ever fundraise tied to a public market debut. On Tuesday, the AI giant submitted an updated S-1 filing for its upcoming public offering, unveiling new details including a proposed share price range offering size. The offering could set a fully diluted valuation of up to $1.4 trillion for the San Francisco company. Anthropic’s expected valuation comes in below earlier projections, with many investors reportedly forecasting something closer to $2 trillion. That said, even at $1.4 trillion, Anthropic would still be going public at the second-highest valuation in history, topped only by SpaceX’s June debut. An IPO and a private placement The offering should also provide Anthropic with plentiful capital to pursue its expensive expansion and infrastructure investment plans. For the IPO portion of its fundraise, Anthropic plans to sell just over 800 million shares 1 at $70 to $78 each. At the high end, that would bring in around $62.5 billion — the largest ever IPO fundraise after SpaceX’s $75 billion offering. Anthropic also expects to pull in another $26 billion from a private placement slated to close immediately following the IPO. Investors in this include AMD, Broadcom, Google, Micron Technology, Microsoft, Nvidia and TSMC. Put together, it’s a record-setting capital haul for a company making its market debut, which Anthropic is expected to do later this month on Nasdaq under the ticker symbol ANT. Revenue and recent updates Anthropic also recently updated its financial disclosures, showing results through September of this year. For the first nine months of the year, the company had $33.2 billion in revenue, up from $2.5 billion in the same period a year ago. It’s an astounding growth rate, albeit Anthropic is already known for this. The company claims it has the fastest enterprise adoption of any technology in history, growing r",
+      "published": "2026-11-10T18:51:25+00:00",
+      "published_dt": "2026-11-10T18:51:25+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google",
+          "Microsoft",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$88.5B",
+          "$88.5 billion",
+          "$62.5 billion",
+          "$75 billion",
+          "$26 billion",
+          "$33.2 billion",
+          "$2.5 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Anthropic Seeks Record $88.5B Tied To Public Market Debut (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Anthropic Seeks Record $88.5B Tied To Public Market Debut，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94362",
+      "title": "The Crunchbase Unicorn Board Tops 1,900 Companies In October, With 34 Companies Joining — Half Under 4 Years Old",
+      "url": "https://news.crunchbase.com/venture/october-2026-unicorn-board-gains-34-tops-1900-ai-defense/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A total of 34 companies joined The Crunchbase Unicorn Board in October, adding more than $96 billion in value and $14.8 billion in total funding to the board. The board also reached a new record of 1,900 private companies last month, including an all-time high of more than 1,000 such startups based in the U.S. Last month’s new unicorn cohort also highlighted how quickly this AI cycle is awarding some companies with billion-dollar-plus valuations: Half of October’s new unicorns are less than 4 years old, and nine companies that joined the board during the month did so via seed or Series A raises. Leading industries for unicorn formation last month were frontier labs, agentic AI, aerospace and semiconductors. The U.S. accounts for 23 of the companies, while China and Korea each added three. Estonia added two, a record for the nation in a single month. Singapore, Germany and Japan each added one new unicorn. The most valuable of the newly minted unicorns were electrical infrastructure company Axiom Solutions International, TypeSafe AI a model developer of Jev, and agentic AI assistant company Manus AI. Familiar names topped the list of investors backing the latest cohort. Andreessen Horowitz has led rounds across seven portfolio companies over time, Sequoia Capital and General Catalyst in four companies and Eclipse three companies from this batch. New unicorns in October 2026 Here are October’s new unicorn companies by industry segment. AI models, assistants and agents TypeSafe AI: San Francisco-based AI model developer TypeSafe AI raised an $870 million Series A at a $7.5 billion valuation. Andreessen Horowitz led the round, with participation from DCVC and Sequoia Capital. The 2-year-old company develops an AI model Jev for structured decision-making, helping applications automate tasks such as classification, scoring and routing with confidence estimates. Manus AI: Singapore-based AI assistant Manus AI raised $500 million at a $4 billion valuation. Boyu Capital and ",
+      "published": "2026-11-10T12:00:34+00:00",
+      "published_dt": "2026-11-10T12:00:34+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Sequoia"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$96 billion",
+          "$14.8 billion",
+          "$870 million",
+          "$7.5 billion",
+          "$500 million",
+          "$4 billion",
+          "raised $500 million",
+          "Series A"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "The Crunchbase Unicorn Board Tops 1,900 Companies In October, With 34 Companies Joining — Half Under 4 Years Old (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Crunchbase Unicorn Board Tops 1,900 Companies In October, With 34 Companies Joining — Half Under 4 Years Old，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187050",
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+      "published": "2026-11-10T19:23:34+00:00",
+      "published_dt": "2026-11-10T19:23:34+00:00",
+      "score": 9.7,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$625M",
+          "$2.2 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Oura to acquire AI-native primary care startup Counsel Health for $625M (TechCrunch AI) highlights a notable AI development with score 9.7.",
+      "summary_zh": "TechCrunch AI 报道：Oura to acquire AI-native primary care startup Counsel Health for $625M，综合评分 9.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else. This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5). Here are three pelicans for the low, medium and high thinking efforts (it defaults to medium). This is the pelican I got for high: Gemini pelicans have all been great for a while now, so I also tested it out using Google's Antigravity IDE with a prompt I first tried with Claude Fable 5.2 yesterday: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's the HTML result (I had to prompt \"build that into a standalone HTML file\" to get a version with no external dependencies). I then screen-captured that as a video: Update: Huh, just saw this on YouTube: Using Google Antigravity’s /swarm feature, Carbon built an open-world 3D game where you explore Google’s Mountain View campus as a pelican riding a GBike — coordinating subagents to model 3D assets in Blender from Omni and Nano Banana references, build the browser game in Three.js with WebGL shaders, and pair procedural Web Audio sound effects with Lyria music. Tags: llm-release, gemini, llm, google, generative-ai, ai, llms, pelican-riding-a-bicycle",
+      "published": "2026-11-10T20:09:44+00:00",
+      "published_dt": "2026-11-10T20:09:44+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "llm-gemini 0.36 (Simon Willison) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Simon Willison 报道：llm-gemini 0.36，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 5,
+      "items": [
+        {
+          "id": "urn:latent-space:post:post_e9d76b13-59aa-4ee4-9132-5d55b5763030",
+          "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+          "url": "https://latent.space/p/naiveai/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Editor’s note: With this post, we are launching a new series focused on trying new models and products with unbiased reviews. Reach out with suggestions to tips@latent.space.Naive-N0.5-Flash is a new open-weights model built for AI coding tasks and tuned to generate as many tokens per second as possible. It was developed by a Chinese company called NaiveAI, with the aim of speeding up engineering and research workflows so that teams can experiment, iterate and solve complex problems faster. The model is an evolution of Xiaomi’s MiMo-V2.5, which NaiveAI has trained further for long-context reasoning and paired with its own NaiveRT inference engine. Naive-N0.5-Flash arrives with a bold pitch: a model built largely by AI and trained to do AI research itself, with recursive self-improvement as the long-term goal. To see what changed, it helps to know where it started. MiMo-V2.5 is a 310B-parameter sparse Mixture-of-Experts model with 15B active parameters, trained on 48T tokens. Its language backbone inherits the hybrid design of MiMo-V2-Flash, which mixes sliding-window attention (SWA) with global self-attention. NaiveAI's recipe starts from those weights. Through continued, multi-stage training, the team adapted the checkpoint to DeepSeek Sparse Attention layers. According to the NaiveAI technical blog, this took roughly 3.25T additional tokens on top of MiMo's original 48T. About 3T of those additional tokens were trained at a fixed 1M context length and with a constant learning rate. Benchmarking NaiveAI vs. DeepSeek and Z.ai We benchmarked the ultrafast mode of Naive-N0.5-Flash against DeepSeek V4.1 Flash 1017 and GLM 5.3 Flash, and then gave all three the same app-building prompts. The trade-off, we discovered, is that Naive-N0.5-Flash takes longer to reason through harder problems, yet it still delivers answers faster overall. However, that comes at a slightly higher cost per question — although that may be an acceptable price for applications where speed comes f",
+          "published": "2026-11-10T18:56:32+00:00",
+          "published_dt": "2026-11-10T18:56:32+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "DeepSeek"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "inference",
+              "benchmark"
+            ]
+          },
+          "summary_en": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code? (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/closing-ai-guidance-gap-education",
+          "title": "Closing the AI guidance gap in education",
+          "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+          "published": "2026-11-10T09:00:00+00:00",
+          "published_dt": "2026-11-10T09:00:00+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Closing the AI guidance gap in education (OpenAI Blog) highlights a notable AI development with score 8.1.",
+          "summary_zh": "OpenAI Blog 报道：Closing the AI guidance gap in education，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/ai-effect-on-freelance-work",
+          "title": "Work at the Frontier: AI’s effect on freelance work",
+          "url": "https://openai.com/index/ai-effect-on-freelance-work",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+          "published": "2026-11-10T07:00:00+00:00",
+          "published_dt": "2026-11-10T07:00:00+00:00",
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Work at the Frontier: AI’s effect on freelance work (OpenAI Blog) highlights a notable AI development with score 6.8.",
+          "summary_zh": "OpenAI Blog 报道：Work at the Frontier: AI’s effect on freelance work，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=94358",
+          "title": "Startup Founders Are Using AI To File Patents. Here’s Where DIY Becomes A Liability.",
+          "url": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "By Michael Drapkin and Nathan Mutter Patents can help startups establish competitive advantage, attract investors and protect innovations. But the traditional patent process is expensive, slow and difficult to navigate, particularly for companies with limited resources. Michael Drapkin, founding partner of Landfall IP. AI is changing that equation. General-purpose tools can research existing patents, document inventions and generate drafts that look like patent applications in minutes. Handling the process themselves can seem like an easy way for founders to save money. But AI’s capabilities are jagged. AI can perform some tasks remarkably well while missing legal and strategic issues that determine a patent’s commercial value. An application can look sophisticated while providing little meaningful protection. For example, a patent’s claims define its legal boundaries and what you can stop competitors from doing. Mistakes involving claim scope may remain hidden until an investor, acquirer or competitor scrutinizes the company’s intellectual property. Nathan Mutter, managing partner and founder of Landfall IP. The question isn’t whether startups should use AI. It’s how much founders can safely do themselves and when legal expertise becomes essential. Where AI can help startups save time and money Founders can use AI to organize technical documentation, summarize existing patents and identify potentially relevant prior art. Turning engineering notes into an organized invention disclosure, for example, can reduce preparation costs and help counsel focus on strategy. But the opportunity extends beyond DIY. The right counsel can orchestrate AI across the workflow, coordinating invention discovery, drafting, drawings and quality checks. AI can help counsel explore alternative implementations with the inventors, identify disclosure gaps and check support for claims. Attorneys can direct that work, evaluate the results and connect each step to best protect business needs. T",
+          "published": "2026-11-10T12:00:16+00:00",
+          "published_dt": "2026-11-10T12:00:16+00:00",
+          "score": 6.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Startup Founders Are Using AI To File Patents. Here’s Where DIY Becomes A Liability. (Crunchbase News) highlights a notable AI development with score 6.4.",
+          "summary_zh": "Crunchbase News 报道：Startup Founders Are Using AI To File Patents. Here’s Where DIY Becomes A Liability.，综合评分 6.4，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3186193",
+          "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+          "published": "2026-11-10T15:54:08+00:00",
+          "published_dt": "2026-11-10T15:54:08+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google broadens its AI hardware portfolio with two new specialized chips (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Google broadens its AI hardware portfolio with two new specialized chips，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 9,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=94374",
+          "title": "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
+          "url": "https://news.crunchbase.com/ai/anthropic-record-ipo-ant-public-market-debut-spcx/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Anthropic is seeking to secure up to $88.5 billion in its planned IPO and a concurrent private placement, potentially making it the largest-ever fundraise tied to a public market debut. On Tuesday, the AI giant submitted an updated S-1 filing for its upcoming public offering, unveiling new details including a proposed share price range offering size. The offering could set a fully diluted valuation of up to $1.4 trillion for the San Francisco company. Anthropic’s expected valuation comes in below earlier projections, with many investors reportedly forecasting something closer to $2 trillion. That said, even at $1.4 trillion, Anthropic would still be going public at the second-highest valuation in history, topped only by SpaceX’s June debut. An IPO and a private placement The offering should also provide Anthropic with plentiful capital to pursue its expensive expansion and infrastructure investment plans. For the IPO portion of its fundraise, Anthropic plans to sell just over 800 million shares 1 at $70 to $78 each. At the high end, that would bring in around $62.5 billion — the largest ever IPO fundraise after SpaceX’s $75 billion offering. Anthropic also expects to pull in another $26 billion from a private placement slated to close immediately following the IPO. Investors in this include AMD, Broadcom, Google, Micron Technology, Microsoft, Nvidia and TSMC. Put together, it’s a record-setting capital haul for a company making its market debut, which Anthropic is expected to do later this month on Nasdaq under the ticker symbol ANT. Revenue and recent updates Anthropic also recently updated its financial disclosures, showing results through September of this year. For the first nine months of the year, the company had $33.2 billion in revenue, up from $2.5 billion in the same period a year ago. It’s an astounding growth rate, albeit Anthropic is already known for this. The company claims it has the fastest enterprise adoption of any technology in history, growing r",
+          "published": "2026-11-10T18:51:25+00:00",
+          "published_dt": "2026-11-10T18:51:25+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google",
+              "Microsoft",
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$88.5B",
+              "$88.5 billion",
+              "$62.5 billion",
+              "$75 billion",
+              "$26 billion",
+              "$33.2 billion",
+              "$2.5 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Anthropic Seeks Record $88.5B Tied To Public Market Debut (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Anthropic Seeks Record $88.5B Tied To Public Market Debut，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=94362",
+          "title": "The Crunchbase Unicorn Board Tops 1,900 Companies In October, With 34 Companies Joining — Half Under 4 Years Old",
+          "url": "https://news.crunchbase.com/venture/october-2026-unicorn-board-gains-34-tops-1900-ai-defense/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "A total of 34 companies joined The Crunchbase Unicorn Board in October, adding more than $96 billion in value and $14.8 billion in total funding to the board. The board also reached a new record of 1,900 private companies last month, including an all-time high of more than 1,000 such startups based in the U.S. Last month’s new unicorn cohort also highlighted how quickly this AI cycle is awarding some companies with billion-dollar-plus valuations: Half of October’s new unicorns are less than 4 years old, and nine companies that joined the board during the month did so via seed or Series A raises. Leading industries for unicorn formation last month were frontier labs, agentic AI, aerospace and semiconductors. The U.S. accounts for 23 of the companies, while China and Korea each added three. Estonia added two, a record for the nation in a single month. Singapore, Germany and Japan each added one new unicorn. The most valuable of the newly minted unicorns were electrical infrastructure company Axiom Solutions International, TypeSafe AI a model developer of Jev, and agentic AI assistant company Manus AI. Familiar names topped the list of investors backing the latest cohort. Andreessen Horowitz has led rounds across seven portfolio companies over time, Sequoia Capital and General Catalyst in four companies and Eclipse three companies from this batch. New unicorns in October 2026 Here are October’s new unicorn companies by industry segment. AI models, assistants and agents TypeSafe AI: San Francisco-based AI model developer TypeSafe AI raised an $870 million Series A at a $7.5 billion valuation. Andreessen Horowitz led the round, with participation from DCVC and Sequoia Capital. The 2-year-old company develops an AI model Jev for structured decision-making, helping applications automate tasks such as classification, scoring and routing with confidence estimates. Manus AI: Singapore-based AI assistant Manus AI raised $500 million at a $4 billion valuation. Boyu Capital and ",
+          "published": "2026-11-10T12:00:34+00:00",
+          "published_dt": "2026-11-10T12:00:34+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Sequoia"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$96 billion",
+              "$14.8 billion",
+              "$870 million",
+              "$7.5 billion",
+              "$500 million",
+              "$4 billion",
+              "raised $500 million",
+              "Series A"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "The Crunchbase Unicorn Board Tops 1,900 Companies In October, With 34 Companies Joining — Half Under 4 Years Old (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：The Crunchbase Unicorn Board Tops 1,900 Companies In October, With 34 Companies Joining — Half Under 4 Years Old，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3187050",
+          "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+          "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+          "published": "2026-11-10T19:23:34+00:00",
+          "published_dt": "2026-11-10T19:23:34+00:00",
+          "score": 9.7,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$625M",
+              "$2.2 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Oura to acquire AI-native primary care startup Counsel Health for $625M (TechCrunch AI) highlights a notable AI development with score 9.7.",
+          "summary_zh": "TechCrunch AI 报道：Oura to acquire AI-native primary care startup Counsel Health for $625M，综合评分 9.7，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "urn:latent-space:post:post_f42d43bf-dd23-4475-b625-93262d8e7d3a",
+          "title": "Designing for Agents — Zeno Rocha, Resend",
+          "url": "https://latent.space/p/resend/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Today’s podcast comes from a real life mystery: We are big fans of Cloudflare’s developer platform, and Cloudflare Email is a convenient tool especially when all your domains are already on Cloudflare. So why do agents keep suggesting we use Resend despite having an existing “home bias” and much larger incumbent player? Well, we got the guy who “does AEO for resend” - the CEO of AEO, Zeno Rocha, who has been writing about AEO since 2024 and Agent Experience since Feb 2025, on the pod today: In a recent AEO study, Claude Code picked Resend first in 64 of the 102 email recommendations the researchers could extract. SendGrid came first seven times, yet showed up 55 times as an alternative. If the developer asks an agent to implement email and accepts the patch, how often does anyone get around to trying the second choice? The study breaks down the results by model and app. Our more recent comprehensive AEO study was a bit more competitive, with Postmark coming up top for most models. Zeno Rocha, Resend’s co-founder and CEO, joined us to walk through what happens on both sides of that pull request. He says Resend had 4.3 million users and 120,000 paying customers when we recorded. He discovered one of them, Warner Bros. Discovery, by sorting through short .com domains in the customer database on a Saturday. The developer gets there before the model Resend’s first useful bit of distribution was an email template. While Zeno and his team were building the sending API, developers kept telling them how painful it was to get the email itself to look right. So they released React Email. You could build a template with it and send it through SendGrid. They even documented how. By the time a developer needed a different provider, some of Resend’s code was already in the repo. React Email Now try the same journey as an agent comparing providers. Resend’s pricing page has a slider. A person can drag it to the right volume and read off the price. Add .md to the URL and the agent g",
+          "published": "2026-11-10T20:05:17+00:00",
+          "published_dt": "2026-11-10T20:05:17+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG",
+              "agent"
+            ]
+          },
+          "summary_en": "Designing for Agents — Zeno Rocha, Resend (Latent Space) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Latent Space 报道：Designing for Agents — Zeno Rocha, Resend，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3187028",
+          "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company.",
+          "published": "2026-11-10T19:57:52+00:00",
+          "published_dt": "2026-11-10T19:57:52+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$250M",
+              "$250 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "All 7 Anthropic founders will each cash out about $250M in IPO (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：All 7 Anthropic founders will each cash out about $250M in IPO，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3186772",
+          "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+          "published": "2026-11-10T14:01:39+00:00",
+          "published_dt": "2026-11-10T14:01:39+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50447036",
+          "title": "$30M Raised to Redo the CPU",
+          "url": "https://tendrils.co/blog/2026-11-10/30m-raised",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-10T22:14:03+00:00",
+          "published_dt": "2026-11-10T22:14:03+00:00",
+          "hn_score": 54,
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$30M"
+            ],
+            "technologies": []
+          },
+          "summary_en": "$30M Raised to Redo the CPU (Hacker News) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Hacker News 报道：$30M Raised to Redo the CPU，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1030703",
+          "title": "Anthropic targets $1.4 trillion IPO",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, which would put its valuation as high as $1.4 trillion, according to the The New York Times. The Wall Street Journal reports that according to its sources, Anthropic is \"aiming for its shares to start trading Thursday or Friday next week.\" As Reuters notes, the Anthropic IPO was previously expected to be valued at as much as $2 trillion. As of last week, Anthropic's rival OpenAI was valued at $1.25 trillion. Those lower expectations follow month … Read the full story at The Verge.",
+          "published": "2026-11-10T14:06:54+00:00",
+          "published_dt": "2026-11-10T14:06:54+00:00",
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic targets $1.4 trillion IPO (The Verge AI) highlights a notable AI development with score 5.6.",
+          "summary_zh": "The Verge AI 报道：Anthropic targets $1.4 trillion IPO，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50439616",
+          "title": "Anthropic to Seek $1.3T Valuation in IPO",
+          "url": "https://www.wsj.com/finance/stocks/anthropic-to-seek-1-3-trillion-valuation-in-ipo-8337b669",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-10T12:49:32+00:00",
+          "published_dt": "2026-11-10T12:49:32+00:00",
+          "hn_score": 59,
+          "score": 5.6,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic to Seek $1.3T Valuation in IPO (Hacker News) highlights a notable AI development with score 5.6.",
+          "summary_zh": "Hacker News 报道：Anthropic to Seek $1.3T Valuation in IPO，综合评分 5.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 5,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3186876",
+          "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+          "published": "2026-11-10T17:30:00+00:00",
+          "published_dt": "2026-11-10T17:30:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3186334",
+          "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+          "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+          "published": "2026-11-10T14:00:00+00:00",
+          "published_dt": "2026-11-10T14:00:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3186635",
+          "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+          "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+          "published": "2026-11-10T13:30:00+00:00",
+          "published_dt": "2026-11-10T13:30:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3187116",
+          "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
+          "published": "2026-11-10T21:08:52+00:00",
+          "published_dt": "2026-11-10T21:08:52+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI acquires Odessia, travel startup created by Sonder founder (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI acquires Odessia, travel startup created by Sonder founder，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+          "title": "Google Cloud launches Gemini for healthcare.",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+          "source": "Google AI Blog",
+          "source_type": "rss",
+          "content": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+          "published": "2026-11-10T13:00:00+00:00",
+          "published_dt": "2026-11-10T13:00:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google Cloud launches Gemini for healthcare. (Google AI Blog) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Google AI Blog 报道：Google Cloud launches Gemini for healthcare.，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+          "title": "llm-gemini 0.36",
+          "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else. This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5). Here are three pelicans for the low, medium and high thinking efforts (it defaults to medium). This is the pelican I got for high: Gemini pelicans have all been great for a while now, so I also tested it out using Google's Antigravity IDE with a prompt I first tried with Claude Fable 5.2 yesterday: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's the HTML result (I had to prompt \"build that into a standalone HTML file\" to get a version with no external dependencies). I then screen-captured that as a video: Update: Huh, just saw this on YouTube: Using Google Antigravity’s /swarm feature, Carbon built an open-world 3D game where you explore Google’s Mountain View campus as a pelican riding a GBike — coordinating subagents to model 3D assets in Blender from Omni and Nano Banana references, build the browser game in Three.js with WebGL shaders, and pair procedural Web Audio sound effects with Lyria music. Tags: llm-release, gemini, llm, google, generative-ai, ai, llms, pelican-riding-a-bicycle",
+          "published": "2026-11-10T20:09:44+00:00",
+          "published_dt": "2026-11-10T20:09:44+00:00",
+          "score": 9.3,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "llm-gemini 0.36 (Simon Willison) highlights a notable AI development with score 9.3.",
+          "summary_zh": "Simon Willison 报道：llm-gemini 0.36，综合评分 9.3，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "urn:latent-space:post:post_df4afb4d-ec92-48c2-a5a9-92147e7325c8",
+          "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+          "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "On Friday, we asked Jamin Ball what comes next for Anthropic’s IPO. On Monday the roadshow started and Anthropic shipped the long-anticipated next-version of Claude Fable and Mythos. Of course, it is the new top model in the world, taking back Opus 5.5’s #1 spot from Gemini 4 Carbon which had its brief moment in the sun (10 days). View post on X ↗ Fable comes with a 20% per token price cut… but is more token hungry, as both SemiAnalysis GDPx and Artificial Analysis agree: Fable 5.1 cost $10 per million input tokens and $50 per million output tokens. Fable 5.2 costs $8 and $40. Yet on GDPx, a benchmark of professional tasks, SemiAnalysis paid $88.15 per task, up from $67.16. The run logs give a clue. Where Opus 5.5 and Fable 5.1 would try about 20 test cases, 5.2 sometimes wrote hundreds or thousands and spun up subagents to check its work independently. All that checking helped Fable take first place at 16.4%. You pay for the checks either way. Which effort setting should you put in production? On FrontierCode 2.0, Anthropic reports that Fable at High matched Opus 5.5 at Max for about half the cost per task… but don’t talk about Fable at Max.AI News for 11/07/2026-11/09/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: Claude Fable 5.2 / Mythos 5.2 Benchmarks, Economics, Restrictions, and First ImpressionsWhat happenedAnthropic shipped Claude Fable 5.2 and Claude Mythos 5.2, claiming both are \"a step above Opus 5.5 in almost all the capabilities we evaluated.\" It tops most independent leaderboards. It also arrives with deliberate RSI nerfs, heavier per-task costs and restricted subscription access. Launch claims. @claudeai announced the pair as built for \"the most daunting technical challenges,\" with gains in coding, reasoning and vision. @marktenenholtz flagged unusual system-",
+          "published": "2026-11-10T06:34:44+00:00",
+          "published_dt": "2026-11-10T06:34:44+00:00",
+          "score": 9.3,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins (Latent Space) highlights a notable AI development with score 9.3.",
+          "summary_zh": "Latent Space 报道：[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins，综合评分 9.3，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+          "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+          "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts it's priced the same as GPT-6 Luna and Claude Haiku 5.5 - both are $0.10/million input tokens and $0.50/million output. Today's other big model release, Claude Fable 5.2, is 80x that price at $8/$40. The pricing is a little less straightforward as prompts get longer, though. Luna, Ember, and Haiku all support up to a million input tokens, but they also all have a threshold after which the price goes up. Taking that threshold into account Ember is priced between the two others: Model Prompt size Input ($/M) Cached input Output GPT-6 Luna ≤272k $0.10 $0.01 $0.50 >272k $0.20 $0.02 $0.75 Muse Ember 1.0 ≤200k $0.10 $0.004 $0.50 >200k $0.30 $0.012 $1.50 Claude Haiku 5.5 ≤100k $0.10 $0.01 $0.50 >100k $0.50 $0.05 $2.50 But comparing price-per-token doesn't really make sense these days, when reasoning tokens mean that different models might use dramatically different numbers of tokens to solve the same problem. For that, one measure that's useful is the Artificial Analysis. And even more useful than that is their Intelligence Index vs. Cost per Task chart, which shows the following for those three models: The Muse Ember models sit right on that Pareto line - the line at which you can only improve one dimension by giving up another. Meta call this out in their announcement: It also sits on the efficiency frontier of the full Artificial Analysis leaderboard: no model scores higher for less per task. (That grey dot on the Pareto line in the middle of the green area is GPT-6.1 Terra (low) - clearly I should be paying more attention to the Terra family!) Muse Ember has six reasoning levels - minimal, ",
+          "published": "2026-11-10T07:28:21+00:00",
+          "published_dt": "2026-11-10T07:28:21+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Introducing Our Smallest, Most Efficient Model: Muse Ember (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：Introducing Our Smallest, Most Efficient Model: Muse Ember，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1030552",
+          "title": "ChatGPT is getting verified AI ‘Business Agents’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in ChatGPT being announced today in beta. You can start talking with a Business Agent if a business that has created one appears in a response from ChatGPT. While chatting with a custom agent, you can ask about a business's offerings and ask follow-up questions, like asking about differences between two different products. Businesses can specify a Busi … Read the full story at The Verge.",
+          "published": "2026-11-10T18:00:00+00:00",
+          "published_dt": "2026-11-10T18:00:00+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "ChatGPT is getting verified AI ‘Business Agents’ (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：ChatGPT is getting verified AI ‘Business Agents’，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1030593",
+          "title": "Adobe is going all in on agentic AI",
+          "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced today at Adobe's Max conference in Miami, Florida, include allowing your preferred third-party AI agents to access and change Creative Cloud projects, new capabilities for Adobe's Firefly AI Assistant, and the ability for AI agents to keep perpetually running recurring work in the background. Local Model Context Protocol (MCP) integrations for Creative Cloud tools were previewed at the event, which aim to give you a choice b … Read the full story at The Verge.",
+          "published": "2026-11-10T14:00:00+00:00",
+          "published_dt": "2026-11-10T14:00:00+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent",
+              "MCP"
+            ]
+          },
+          "summary_en": "Adobe is going all in on agentic AI (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Adobe is going all in on agentic AI，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1030653",
+          "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
+          "url": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Photoshop’s Quick Compare feature lets you quickly review a before-and-after comparison of edits. | Image: Adobe Adobe is expanding its Creative Cloud apps and Firefly AI platform with new capabilities that aim to make design and editing projects faster and less complicated. Some of the announcements from Adobe's Max event today include features for automatically removing objects, blemishes, and other unwanted distractions in Premiere, Photoshop, and Lightroom, alongside new generative AI tools and collaborative experiences across Adobe's apps and Firefly suite. In Premiere, Adobe is introducing a new Generative Remove tool in beta that lets you erase unwanted objects and distractions like boom mics and background clutter directly on the video editing … Read the full story at The Verge.",
+          "published": "2026-11-10T14:00:00+00:00",
+          "published_dt": "2026-11-10T14:00:00+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Photoshop, Lightroom, and Premiere are making it easier to remove things (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Photoshop, Lightroom, and Premiere are making it easier to remove things，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1030601",
+          "title": "Hands-on with Ring’s new AI drone camera for your home",
+          "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Ring’s new Drone Cam is a flying indoor security camera. Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week. If it does actually ship, it will arrive almost six years after the company announced its first flying camera, the Ring Always Home Cam. Designed to patrol inside your home when you're not there, the Drone Cam is an AI-powered drone that can react to triggers from Ring sensors, such as detecting motion, a door opening, a water leak, or an alarm sounding. When triggered, it flies along preprogrammed routes to a set location, … Read the full story at The Verge.",
+          "published": "2026-11-10T13:30:00+00:00",
+          "published_dt": "2026-11-10T13:30:00+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Hands-on with Ring’s new AI drone camera for your home (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Hands-on with Ring’s new AI drone camera for your home，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3186906",
+          "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+          "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+          "published": "2026-11-10T19:03:52+00:00",
+          "published_dt": "2026-11-10T19:03:52+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "PSI is trying to make a business out of AI-driven scientific discovery (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：PSI is trying to make a business out of AI-driven scientific discovery，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1030787",
+          "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago. Google claims Carbon is its \"strongest model\" yet, and capable of competing with the very best systems from Anthropic and OpenAI. Google says Gemini 4 Carbon \"pushes the frontier even further\" than Argon, referring to the company's other frontier model that launched only last month. The company said Argon will likely remain \"the ideal choice for the majority of software engineering and knowledge work,\" but that Carbon is \"built for tasks that test the limits of a model's intellige … Read the full story at The Verge.",
+          "published": "2026-11-10T16:00:00+00:00",
+          "published_dt": "2026-11-10T16:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Google releases Gemini 4 Carbon with agent ‘swarm’ feature，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1030838",
+          "title": "eBay appears to have shut the door on third-party AI agents",
+          "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platform - the latest speed bump in the AI agent race. A reader tells The Verge that for several weeks he's had his Muse agent browse and curate a daily digest of watches for sale on platforms like eBay, including a link to listings, price, shipping details, and relevant notes about condition or style. This weekend, though, Muse was unable to pull any links or details from eBay, with Muse saying it was blocked from the site. The Verge was able to re-create the experience using other search requests, and in some cases we found that Muse instead directed users … Read the full story at The Verge.",
+          "published": "2026-11-10T16:20:30+00:00",
+          "published_dt": "2026-11-10T16:20:30+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "eBay appears to have shut the door on third-party AI agents (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：eBay appears to have shut the door on third-party AI agents，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+          "published": "2026-11-12T00:00:00+00:00",
+          "published_dt": "2026-11-12T00:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Gilbert + Tobin rethinks the business of law with AI (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Gilbert + Tobin rethinks the business of law with AI，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "title": "Helping caregivers use AI in everyday life",
+          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+          "published": "2026-11-10T12:00:00+00:00",
+          "published_dt": "2026-11-10T12:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Helping caregivers use AI in everyday life (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Helping caregivers use AI in everyday life，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/introducing-businesses-chatgpt",
+          "title": "Introducing Businesses in ChatGPT",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "published": "2026-11-10T10:00:00+00:00",
+          "published_dt": "2026-11-10T10:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Introducing Businesses in ChatGPT (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Introducing Businesses in ChatGPT，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3187145",
+          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+          "published": "2026-11-10T20:52:13+00:00",
+          "published_dt": "2026-11-10T20:52:13+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50447074",
+          "title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
+          "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-10T22:17:56+00:00",
+          "published_dt": "2026-11-10T22:17:56+00:00",
+          "hn_score": 344,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "After 7 months, Glasswing overwelms maintainers with underwhelming findings (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：After 7 months, Glasswing overwelms maintainers with underwhelming findings，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3186632",
+          "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
+          "published": "2026-11-10T18:49:52+00:00",
+          "published_dt": "2026-11-10T18:49:52+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50443824",
+          "title": "Synaptics patent claims stop work on DisplayLink drivers",
+          "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-10T18:02:02+00:00",
+          "published_dt": "2026-11-10T18:02:02+00:00",
+          "hn_score": 327,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Synaptics patent claims stop work on DisplayLink drivers (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Synaptics patent claims stop work on DisplayLink drivers，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3186475",
+          "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+          "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+          "published": "2026-11-10T17:04:19+00:00",
+          "published_dt": "2026-11-10T17:04:19+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50442303",
+          "title": "Gemini 4 Carbon is now available",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-10T16:07:15+00:00",
+          "published_dt": "2026-11-10T16:07:15+00:00",
+          "hn_score": 281,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Gemini 4 Carbon is now available (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Gemini 4 Carbon is now available，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3186827",
+          "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+          "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
+          "published": "2026-11-10T15:29:30+00:00",
+          "published_dt": "2026-11-10T15:29:30+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Meta’s AI agent Muse lands on Apple Watch and Android Wear OS，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-11T04:29:18.740175+00:00",
+          "published_dt": "2026-11-11T04:29:18.740175+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-11T04:29:18.740175+00:00",
+          "published_dt": "2026-11-11T04:29:18.740175+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3185992",
+          "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+          "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
+          "published": "2026-11-10T13:00:00+00:00",
+          "published_dt": "2026-11-10T13:00:00+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "urn:latent-space:post:post_e9d76b13-59aa-4ee4-9132-5d55b5763030",
+      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "url": "https://latent.space/p/naiveai/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Editor’s note: With this post, we are launching a new series focused on trying new models and products with unbiased reviews. Reach out with suggestions to tips@latent.space.Naive-N0.5-Flash is a new open-weights model built for AI coding tasks and tuned to generate as many tokens per second as possible. It was developed by a Chinese company called NaiveAI, with the aim of speeding up engineering and research workflows so that teams can experiment, iterate and solve complex problems faster. The model is an evolution of Xiaomi’s MiMo-V2.5, which NaiveAI has trained further for long-context reasoning and paired with its own NaiveRT inference engine. Naive-N0.5-Flash arrives with a bold pitch: a model built largely by AI and trained to do AI research itself, with recursive self-improvement as the long-term goal. To see what changed, it helps to know where it started. MiMo-V2.5 is a 310B-parameter sparse Mixture-of-Experts model with 15B active parameters, trained on 48T tokens. Its language backbone inherits the hybrid design of MiMo-V2-Flash, which mixes sliding-window attention (SWA) with global self-attention. NaiveAI's recipe starts from those weights. Through continued, multi-stage training, the team adapted the checkpoint to DeepSeek Sparse Attention layers. According to the NaiveAI technical blog, this took roughly 3.25T additional tokens on top of MiMo's original 48T. About 3T of those additional tokens were trained at a fixed 1M context length and with a constant learning rate. Benchmarking NaiveAI vs. DeepSeek and Z.ai We benchmarked the ultrafast mode of Naive-N0.5-Flash against DeepSeek V4.1 Flash 1017 and GLM 5.3 Flash, and then gave all three the same app-building prompts. The trade-off, we discovered, is that Naive-N0.5-Flash takes longer to reason through harder problems, yet it still delivers answers faster overall. However, that comes at a slightly higher cost per question — although that may be an acceptable price for applications where speed comes f",
+      "published": "2026-11-10T18:56:32+00:00",
+      "published_dt": "2026-11-10T18:56:32+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "inference",
+          "benchmark"
+        ]
+      },
+      "summary_en": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code? (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94374",
+      "title": "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
+      "url": "https://news.crunchbase.com/ai/anthropic-record-ipo-ant-public-market-debut-spcx/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Anthropic is seeking to secure up to $88.5 billion in its planned IPO and a concurrent private placement, potentially making it the largest-ever fundraise tied to a public market debut. On Tuesday, the AI giant submitted an updated S-1 filing for its upcoming public offering, unveiling new details including a proposed share price range offering size. The offering could set a fully diluted valuation of up to $1.4 trillion for the San Francisco company. Anthropic’s expected valuation comes in below earlier projections, with many investors reportedly forecasting something closer to $2 trillion. That said, even at $1.4 trillion, Anthropic would still be going public at the second-highest valuation in history, topped only by SpaceX’s June debut. An IPO and a private placement The offering should also provide Anthropic with plentiful capital to pursue its expensive expansion and infrastructure investment plans. For the IPO portion of its fundraise, Anthropic plans to sell just over 800 million shares 1 at $70 to $78 each. At the high end, that would bring in around $62.5 billion — the largest ever IPO fundraise after SpaceX’s $75 billion offering. Anthropic also expects to pull in another $26 billion from a private placement slated to close immediately following the IPO. Investors in this include AMD, Broadcom, Google, Micron Technology, Microsoft, Nvidia and TSMC. Put together, it’s a record-setting capital haul for a company making its market debut, which Anthropic is expected to do later this month on Nasdaq under the ticker symbol ANT. Revenue and recent updates Anthropic also recently updated its financial disclosures, showing results through September of this year. For the first nine months of the year, the company had $33.2 billion in revenue, up from $2.5 billion in the same period a year ago. It’s an astounding growth rate, albeit Anthropic is already known for this. The company claims it has the fastest enterprise adoption of any technology in history, growing r",
+      "published": "2026-11-10T18:51:25+00:00",
+      "published_dt": "2026-11-10T18:51:25+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google",
+          "Microsoft",
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$88.5B",
+          "$88.5 billion",
+          "$62.5 billion",
+          "$75 billion",
+          "$26 billion",
+          "$33.2 billion",
+          "$2.5 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Anthropic Seeks Record $88.5B Tied To Public Market Debut (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Anthropic Seeks Record $88.5B Tied To Public Market Debut，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94362",
+      "title": "The Crunchbase Unicorn Board Tops 1,900 Companies In October, With 34 Companies Joining — Half Under 4 Years Old",
+      "url": "https://news.crunchbase.com/venture/october-2026-unicorn-board-gains-34-tops-1900-ai-defense/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "A total of 34 companies joined The Crunchbase Unicorn Board in October, adding more than $96 billion in value and $14.8 billion in total funding to the board. The board also reached a new record of 1,900 private companies last month, including an all-time high of more than 1,000 such startups based in the U.S. Last month’s new unicorn cohort also highlighted how quickly this AI cycle is awarding some companies with billion-dollar-plus valuations: Half of October’s new unicorns are less than 4 years old, and nine companies that joined the board during the month did so via seed or Series A raises. Leading industries for unicorn formation last month were frontier labs, agentic AI, aerospace and semiconductors. The U.S. accounts for 23 of the companies, while China and Korea each added three. Estonia added two, a record for the nation in a single month. Singapore, Germany and Japan each added one new unicorn. The most valuable of the newly minted unicorns were electrical infrastructure company Axiom Solutions International, TypeSafe AI a model developer of Jev, and agentic AI assistant company Manus AI. Familiar names topped the list of investors backing the latest cohort. Andreessen Horowitz has led rounds across seven portfolio companies over time, Sequoia Capital and General Catalyst in four companies and Eclipse three companies from this batch. New unicorns in October 2026 Here are October’s new unicorn companies by industry segment. AI models, assistants and agents TypeSafe AI: San Francisco-based AI model developer TypeSafe AI raised an $870 million Series A at a $7.5 billion valuation. Andreessen Horowitz led the round, with participation from DCVC and Sequoia Capital. The 2-year-old company develops an AI model Jev for structured decision-making, helping applications automate tasks such as classification, scoring and routing with confidence estimates. Manus AI: Singapore-based AI assistant Manus AI raised $500 million at a $4 billion valuation. Boyu Capital and ",
+      "published": "2026-11-10T12:00:34+00:00",
+      "published_dt": "2026-11-10T12:00:34+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Sequoia"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$96 billion",
+          "$14.8 billion",
+          "$870 million",
+          "$7.5 billion",
+          "$500 million",
+          "$4 billion",
+          "raised $500 million",
+          "Series A"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "The Crunchbase Unicorn Board Tops 1,900 Companies In October, With 34 Companies Joining — Half Under 4 Years Old (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Crunchbase Unicorn Board Tops 1,900 Companies In October, With 34 Companies Joining — Half Under 4 Years Old，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187050",
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+      "published": "2026-11-10T19:23:34+00:00",
+      "published_dt": "2026-11-10T19:23:34+00:00",
+      "score": 9.7,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$625M",
+          "$2.2 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Oura to acquire AI-native primary care startup Counsel Health for $625M (TechCrunch AI) highlights a notable AI development with score 9.7.",
+      "summary_zh": "TechCrunch AI 报道：Oura to acquire AI-native primary care startup Counsel Health for $625M，综合评分 9.7，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else. This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5). Here are three pelicans for the low, medium and high thinking efforts (it defaults to medium). This is the pelican I got for high: Gemini pelicans have all been great for a while now, so I also tested it out using Google's Antigravity IDE with a prompt I first tried with Claude Fable 5.2 yesterday: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's the HTML result (I had to prompt \"build that into a standalone HTML file\" to get a version with no external dependencies). I then screen-captured that as a video: Update: Huh, just saw this on YouTube: Using Google Antigravity’s /swarm feature, Carbon built an open-world 3D game where you explore Google’s Mountain View campus as a pelican riding a GBike — coordinating subagents to model 3D assets in Blender from Omni and Nano Banana references, build the browser game in Three.js with WebGL shaders, and pair procedural Web Audio sound effects with Lyria music. Tags: llm-release, gemini, llm, google, generative-ai, ai, llms, pelican-riding-a-bicycle",
+      "published": "2026-11-10T20:09:44+00:00",
+      "published_dt": "2026-11-10T20:09:44+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "llm-gemini 0.36 (Simon Willison) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Simon Willison 报道：llm-gemini 0.36，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_df4afb4d-ec92-48c2-a5a9-92147e7325c8",
+      "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "On Friday, we asked Jamin Ball what comes next for Anthropic’s IPO. On Monday the roadshow started and Anthropic shipped the long-anticipated next-version of Claude Fable and Mythos. Of course, it is the new top model in the world, taking back Opus 5.5’s #1 spot from Gemini 4 Carbon which had its brief moment in the sun (10 days). View post on X ↗ Fable comes with a 20% per token price cut… but is more token hungry, as both SemiAnalysis GDPx and Artificial Analysis agree: Fable 5.1 cost $10 per million input tokens and $50 per million output tokens. Fable 5.2 costs $8 and $40. Yet on GDPx, a benchmark of professional tasks, SemiAnalysis paid $88.15 per task, up from $67.16. The run logs give a clue. Where Opus 5.5 and Fable 5.1 would try about 20 test cases, 5.2 sometimes wrote hundreds or thousands and spun up subagents to check its work independently. All that checking helped Fable take first place at 16.4%. You pay for the checks either way. Which effort setting should you put in production? On FrontierCode 2.0, Anthropic reports that Fable at High matched Opus 5.5 at Max for about half the cost per task… but don’t talk about Fable at Max.AI News for 11/07/2026-11/09/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: Claude Fable 5.2 / Mythos 5.2 Benchmarks, Economics, Restrictions, and First ImpressionsWhat happenedAnthropic shipped Claude Fable 5.2 and Claude Mythos 5.2, claiming both are \"a step above Opus 5.5 in almost all the capabilities we evaluated.\" It tops most independent leaderboards. It also arrives with deliberate RSI nerfs, heavier per-task costs and restricted subscription access. Launch claims. @claudeai announced the pair as built for \"the most daunting technical challenges,\" with gains in coding, reasoning and vision. @marktenenholtz flagged unusual system-",
+      "published": "2026-11-10T06:34:44+00:00",
+      "published_dt": "2026-11-10T06:34:44+00:00",
+      "score": 9.3,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins (Latent Space) highlights a notable AI development with score 9.3.",
+      "summary_zh": "Latent Space 报道：[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins，综合评分 9.3，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_f42d43bf-dd23-4475-b625-93262d8e7d3a",
+      "title": "Designing for Agents — Zeno Rocha, Resend",
+      "url": "https://latent.space/p/resend/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Today’s podcast comes from a real life mystery: We are big fans of Cloudflare’s developer platform, and Cloudflare Email is a convenient tool especially when all your domains are already on Cloudflare. So why do agents keep suggesting we use Resend despite having an existing “home bias” and much larger incumbent player? Well, we got the guy who “does AEO for resend” - the CEO of AEO, Zeno Rocha, who has been writing about AEO since 2024 and Agent Experience since Feb 2025, on the pod today: In a recent AEO study, Claude Code picked Resend first in 64 of the 102 email recommendations the researchers could extract. SendGrid came first seven times, yet showed up 55 times as an alternative. If the developer asks an agent to implement email and accepts the patch, how often does anyone get around to trying the second choice? The study breaks down the results by model and app. Our more recent comprehensive AEO study was a bit more competitive, with Postmark coming up top for most models. Zeno Rocha, Resend’s co-founder and CEO, joined us to walk through what happens on both sides of that pull request. He says Resend had 4.3 million users and 120,000 paying customers when we recorded. He discovered one of them, Warner Bros. Discovery, by sorting through short .com domains in the customer database on a Saturday. The developer gets there before the model Resend’s first useful bit of distribution was an email template. While Zeno and his team were building the sending API, developers kept telling them how painful it was to get the email itself to look right. So they released React Email. You could build a template with it and send it through SendGrid. They even documented how. By the time a developer needed a different provider, some of Resend’s code was already in the repo. React Email Now try the same journey as an agent comparing providers. Resend’s pricing page has a slider. A person can drag it to the right volume and read off the price. Add .md to the URL and the agent g",
+      "published": "2026-11-10T20:05:17+00:00",
+      "published_dt": "2026-11-10T20:05:17+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "Designing for Agents — Zeno Rocha, Resend (Latent Space) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Latent Space 报道：Designing for Agents — Zeno Rocha, Resend，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187028",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company.",
+      "published": "2026-11-10T19:57:52+00:00",
+      "published_dt": "2026-11-10T19:57:52+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$250M",
+          "$250 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "All 7 Anthropic founders will each cash out about $250M in IPO (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：All 7 Anthropic founders will each cash out about $250M in IPO，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "published": "2026-11-10T09:00:00+00:00",
+      "published_dt": "2026-11-10T09:00:00+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Closing the AI guidance gap in education (OpenAI Blog) highlights a notable AI development with score 8.1.",
+      "summary_zh": "OpenAI Blog 报道：Closing the AI guidance gap in education，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts it's priced the same as GPT-6 Luna and Claude Haiku 5.5 - both are $0.10/million input tokens and $0.50/million output. Today's other big model release, Claude Fable 5.2, is 80x that price at $8/$40. The pricing is a little less straightforward as prompts get longer, though. Luna, Ember, and Haiku all support up to a million input tokens, but they also all have a threshold after which the price goes up. Taking that threshold into account Ember is priced between the two others: Model Prompt size Input ($/M) Cached input Output GPT-6 Luna ≤272k $0.10 $0.01 $0.50 >272k $0.20 $0.02 $0.75 Muse Ember 1.0 ≤200k $0.10 $0.004 $0.50 >200k $0.30 $0.012 $1.50 Claude Haiku 5.5 ≤100k $0.10 $0.01 $0.50 >100k $0.50 $0.05 $2.50 But comparing price-per-token doesn't really make sense these days, when reasoning tokens mean that different models might use dramatically different numbers of tokens to solve the same problem. For that, one measure that's useful is the Artificial Analysis. And even more useful than that is their Intelligence Index vs. Cost per Task chart, which shows the following for those three models: The Muse Ember models sit right on that Pareto line - the line at which you can only improve one dimension by giving up another. Meta call this out in their announcement: It also sits on the efficiency frontier of the full Artificial Analysis leaderboard: no model scores higher for less per task. (That grey dot on the Pareto line in the middle of the green area is GPT-6.1 Terra (low) - clearly I should be paying more attention to the Terra family!) Muse Ember has six reasoning levels - minimal, ",
+      "published": "2026-11-10T07:28:21+00:00",
+      "published_dt": "2026-11-10T07:28:21+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Introducing Our Smallest, Most Efficient Model: Muse Ember (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：Introducing Our Smallest, Most Efficient Model: Muse Ember，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-11T04:29:18.740175+00:00",
+      "published_dt": "2026-11-11T04:29:18.740175+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-11T04:29:18.740175+00:00",
+      "published_dt": "2026-11-11T04:29:18.740175+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1030552",
+      "title": "ChatGPT is getting verified AI ‘Business Agents’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in ChatGPT being announced today in beta. You can start talking with a Business Agent if a business that has created one appears in a response from ChatGPT. While chatting with a custom agent, you can ask about a business's offerings and ask follow-up questions, like asking about differences between two different products. Businesses can specify a Busi … Read the full story at The Verge.",
+      "published": "2026-11-10T18:00:00+00:00",
+      "published_dt": "2026-11-10T18:00:00+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "ChatGPT is getting verified AI ‘Business Agents’ (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：ChatGPT is getting verified AI ‘Business Agents’，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1030593",
+      "title": "Adobe is going all in on agentic AI",
+      "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced today at Adobe's Max conference in Miami, Florida, include allowing your preferred third-party AI agents to access and change Creative Cloud projects, new capabilities for Adobe's Firefly AI Assistant, and the ability for AI agents to keep perpetually running recurring work in the background. Local Model Context Protocol (MCP) integrations for Creative Cloud tools were previewed at the event, which aim to give you a choice b … Read the full story at The Verge.",
+      "published": "2026-11-10T14:00:00+00:00",
+      "published_dt": "2026-11-10T14:00:00+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent",
+          "MCP"
+        ]
+      },
+      "summary_en": "Adobe is going all in on agentic AI (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Adobe is going all in on agentic AI，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1030653",
+      "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
+      "url": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Photoshop’s Quick Compare feature lets you quickly review a before-and-after comparison of edits. | Image: Adobe Adobe is expanding its Creative Cloud apps and Firefly AI platform with new capabilities that aim to make design and editing projects faster and less complicated. Some of the announcements from Adobe's Max event today include features for automatically removing objects, blemishes, and other unwanted distractions in Premiere, Photoshop, and Lightroom, alongside new generative AI tools and collaborative experiences across Adobe's apps and Firefly suite. In Premiere, Adobe is introducing a new Generative Remove tool in beta that lets you erase unwanted objects and distractions like boom mics and background clutter directly on the video editing … Read the full story at The Verge.",
+      "published": "2026-11-10T14:00:00+00:00",
+      "published_dt": "2026-11-10T14:00:00+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Photoshop, Lightroom, and Premiere are making it easier to remove things (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Photoshop, Lightroom, and Premiere are making it easier to remove things，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1030601",
+      "title": "Hands-on with Ring’s new AI drone camera for your home",
+      "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Ring’s new Drone Cam is a flying indoor security camera. Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week. If it does actually ship, it will arrive almost six years after the company announced its first flying camera, the Ring Always Home Cam. Designed to patrol inside your home when you're not there, the Drone Cam is an AI-powered drone that can react to triggers from Ring sensors, such as detecting motion, a door opening, a water leak, or an alarm sounding. When triggered, it flies along preprogrammed routes to a set location, … Read the full story at The Verge.",
+      "published": "2026-11-10T13:30:00+00:00",
+      "published_dt": "2026-11-10T13:30:00+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Hands-on with Ring’s new AI drone camera for your home (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Hands-on with Ring’s new AI drone camera for your home，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/ai-effect-on-freelance-work",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "published": "2026-11-10T07:00:00+00:00",
+      "published_dt": "2026-11-10T07:00:00+00:00",
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Work at the Frontier: AI’s effect on freelance work (OpenAI Blog) highlights a notable AI development with score 6.8.",
+      "summary_zh": "OpenAI Blog 报道：Work at the Frontier: AI’s effect on freelance work，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186772",
+      "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+      "published": "2026-11-10T14:01:39+00:00",
+      "published_dt": "2026-11-10T14:01:39+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94358",
+      "title": "Startup Founders Are Using AI To File Patents. Here’s Where DIY Becomes A Liability.",
+      "url": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By Michael Drapkin and Nathan Mutter Patents can help startups establish competitive advantage, attract investors and protect innovations. But the traditional patent process is expensive, slow and difficult to navigate, particularly for companies with limited resources. Michael Drapkin, founding partner of Landfall IP. AI is changing that equation. General-purpose tools can research existing patents, document inventions and generate drafts that look like patent applications in minutes. Handling the process themselves can seem like an easy way for founders to save money. But AI’s capabilities are jagged. AI can perform some tasks remarkably well while missing legal and strategic issues that determine a patent’s commercial value. An application can look sophisticated while providing little meaningful protection. For example, a patent’s claims define its legal boundaries and what you can stop competitors from doing. Mistakes involving claim scope may remain hidden until an investor, acquirer or competitor scrutinizes the company’s intellectual property. Nathan Mutter, managing partner and founder of Landfall IP. The question isn’t whether startups should use AI. It’s how much founders can safely do themselves and when legal expertise becomes essential. Where AI can help startups save time and money Founders can use AI to organize technical documentation, summarize existing patents and identify potentially relevant prior art. Turning engineering notes into an organized invention disclosure, for example, can reduce preparation costs and help counsel focus on strategy. But the opportunity extends beyond DIY. The right counsel can orchestrate AI across the workflow, coordinating invention discovery, drafting, drawings and quality checks. AI can help counsel explore alternative implementations with the inventors, identify disclosure gaps and check support for claims. Attorneys can direct that work, evaluate the results and connect each step to best protect business needs. T",
+      "published": "2026-11-10T12:00:16+00:00",
+      "published_dt": "2026-11-10T12:00:16+00:00",
+      "score": 6.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Startup Founders Are Using AI To File Patents. Here’s Where DIY Becomes A Liability. (Crunchbase News) highlights a notable AI development with score 6.4.",
+      "summary_zh": "Crunchbase News 报道：Startup Founders Are Using AI To File Patents. Here’s Where DIY Becomes A Liability.，综合评分 6.4，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50447036",
+      "title": "$30M Raised to Redo the CPU",
+      "url": "https://tendrils.co/blog/2026-11-10/30m-raised",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-10T22:14:03+00:00",
+      "published_dt": "2026-11-10T22:14:03+00:00",
+      "hn_score": 54,
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$30M"
+        ],
+        "technologies": []
+      },
+      "summary_en": "$30M Raised to Redo the CPU (Hacker News) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Hacker News 报道：$30M Raised to Redo the CPU，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186906",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+      "published": "2026-11-10T19:03:52+00:00",
+      "published_dt": "2026-11-10T19:03:52+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "PSI is trying to make a business out of AI-driven scientific discovery (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：PSI is trying to make a business out of AI-driven scientific discovery，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186876",
+      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+      "published": "2026-11-10T17:30:00+00:00",
+      "published_dt": "2026-11-10T17:30:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186334",
+      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+      "published": "2026-11-10T14:00:00+00:00",
+      "published_dt": "2026-11-10T14:00:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186635",
+      "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+      "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+      "published": "2026-11-10T13:30:00+00:00",
+      "published_dt": "2026-11-10T13:30:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185992",
+      "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
+      "published": "2026-11-10T13:00:00+00:00",
+      "published_dt": "2026-11-10T13:00:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1030787",
+      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago. Google claims Carbon is its \"strongest model\" yet, and capable of competing with the very best systems from Anthropic and OpenAI. Google says Gemini 4 Carbon \"pushes the frontier even further\" than Argon, referring to the company's other frontier model that launched only last month. The company said Argon will likely remain \"the ideal choice for the majority of software engineering and knowledge work,\" but that Carbon is \"built for tasks that test the limits of a model's intellige … Read the full story at The Verge.",
+      "published": "2026-11-10T16:00:00+00:00",
+      "published_dt": "2026-11-10T16:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Google releases Gemini 4 Carbon with agent ‘swarm’ feature，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "published": "2026-11-12T00:00:00+00:00",
+      "published_dt": "2026-11-12T00:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Gilbert + Tobin rethinks the business of law with AI (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Gilbert + Tobin rethinks the business of law with AI，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "published": "2026-11-10T12:00:00+00:00",
+      "published_dt": "2026-11-10T12:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Helping caregivers use AI in everyday life (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Helping caregivers use AI in everyday life，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/introducing-businesses-chatgpt",
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "published": "2026-11-10T10:00:00+00:00",
+      "published_dt": "2026-11-10T10:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Introducing Businesses in ChatGPT (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Introducing Businesses in ChatGPT，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187116",
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
+      "published": "2026-11-10T21:08:52+00:00",
+      "published_dt": "2026-11-10T21:08:52+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI acquires Odessia, travel startup created by Sonder founder (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI acquires Odessia, travel startup created by Sonder founder，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187145",
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+      "published": "2026-11-10T20:52:13+00:00",
+      "published_dt": "2026-11-10T20:52:13+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186193",
+      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+      "published": "2026-11-10T15:54:08+00:00",
+      "published_dt": "2026-11-10T15:54:08+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google broadens its AI hardware portfolio with two new specialized chips (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Google broadens its AI hardware portfolio with two new specialized chips，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1030703",
+      "title": "Anthropic targets $1.4 trillion IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, which would put its valuation as high as $1.4 trillion, according to the The New York Times. The Wall Street Journal reports that according to its sources, Anthropic is \"aiming for its shares to start trading Thursday or Friday next week.\" As Reuters notes, the Anthropic IPO was previously expected to be valued at as much as $2 trillion. As of last week, Anthropic's rival OpenAI was valued at $1.25 trillion. Those lower expectations follow month … Read the full story at The Verge.",
+      "published": "2026-11-10T14:06:54+00:00",
+      "published_dt": "2026-11-10T14:06:54+00:00",
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic targets $1.4 trillion IPO (The Verge AI) highlights a notable AI development with score 5.6.",
+      "summary_zh": "The Verge AI 报道：Anthropic targets $1.4 trillion IPO，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50439616",
+      "title": "Anthropic to Seek $1.3T Valuation in IPO",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-to-seek-1-3-trillion-valuation-in-ipo-8337b669",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-10T12:49:32+00:00",
+      "published_dt": "2026-11-10T12:49:32+00:00",
+      "hn_score": 59,
+      "score": 5.6,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic to Seek $1.3T Valuation in IPO (Hacker News) highlights a notable AI development with score 5.6.",
+      "summary_zh": "Hacker News 报道：Anthropic to Seek $1.3T Valuation in IPO，综合评分 5.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1030838",
+      "title": "eBay appears to have shut the door on third-party AI agents",
+      "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platform - the latest speed bump in the AI agent race. A reader tells The Verge that for several weeks he's had his Muse agent browse and curate a daily digest of watches for sale on platforms like eBay, including a link to listings, price, shipping details, and relevant notes about condition or style. This weekend, though, Muse was unable to pull any links or details from eBay, with Muse saying it was blocked from the site. The Verge was able to re-create the experience using other search requests, and in some cases we found that Muse instead directed users … Read the full story at The Verge.",
+      "published": "2026-11-10T16:20:30+00:00",
+      "published_dt": "2026-11-10T16:20:30+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "eBay appears to have shut the door on third-party AI agents (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：eBay appears to have shut the door on third-party AI agents，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "content": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "published": "2026-11-10T14:00:00+00:00",
+      "published_dt": "2026-11-10T14:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps. (Google AI Blog) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Google AI Blog 报道：We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "content": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "published": "2026-11-10T13:00:00+00:00",
+      "published_dt": "2026-11-10T13:00:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google Cloud launches Gemini for healthcare. (Google AI Blog) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Google AI Blog 报道：Google Cloud launches Gemini for healthcare.，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code. [...] If you want the model to improve the structure as it works, say that the code is its own: This codebase is yours: what it's for and how it's built are your call, and you'll keep building on it. In Anthropic’s testing on small coding tasks, the model merged repeated code in about half of the tries with this sentence, and in under a tenth of the tries without it. — Prompting Claude Fable 5.2, Anthropic documentation Tags: prompt-engineering, anthropic, generative-ai, ai, llms, claude-mythos-fable",
+      "published": "2026-11-10T05:34:14+00:00",
+      "published_dt": "2026-11-10T05:34:14+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Quoting Prompting Claude Fable 5.2 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：Quoting Prompting Claude Fable 5.2，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50447074",
+      "title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-10T22:17:56+00:00",
+      "published_dt": "2026-11-10T22:17:56+00:00",
+      "hn_score": 344,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "After 7 months, Glasswing overwelms maintainers with underwhelming findings (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：After 7 months, Glasswing overwelms maintainers with underwhelming findings，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186632",
+      "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
+      "published": "2026-11-10T18:49:52+00:00",
+      "published_dt": "2026-11-10T18:49:52+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50443824",
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-10T18:02:02+00:00",
+      "published_dt": "2026-11-10T18:02:02+00:00",
+      "hn_score": 327,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Synaptics patent claims stop work on DisplayLink drivers (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Synaptics patent claims stop work on DisplayLink drivers，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186475",
+      "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+      "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "published": "2026-11-10T17:04:19+00:00",
+      "published_dt": "2026-11-10T17:04:19+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50442303",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-10T16:07:15+00:00",
+      "published_dt": "2026-11-10T16:07:15+00:00",
+      "hn_score": 281,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Gemini 4 Carbon is now available (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Gemini 4 Carbon is now available，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186827",
+      "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+      "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
+      "published": "2026-11-10T15:29:30+00:00",
+      "published_dt": "2026-11-10T15:29:30+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Meta’s AI agent Muse lands on Apple Watch and Android Wear OS，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50441518",
+      "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
+      "url": "https://tinyvalencia.com/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-10T15:12:16+00:00",
+      "published_dt": "2026-11-10T15:12:16+00:00",
+      "hn_score": 210,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Show HN: Valencia, Spain in Sim City/Isometric View (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Show HN: Valencia, Spain in Sim City/Isometric View，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186771",
+      "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+      "published": "2026-11-10T14:05:10+00:00",
+      "published_dt": "2026-11-10T14:05:10+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186535",
+      "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+      "published": "2026-11-10T14:00:00+00:00",
+      "published_dt": "2026-11-10T14:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Spotify’s AI DJ gets new voices, personalities, and an option for less chatter，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50438318",
+      "title": "AI usage generates a fragile codebase",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-10T10:25:58+00:00",
+      "published_dt": "2026-11-10T10:25:58+00:00",
+      "hn_score": 429,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "AI usage generates a fragile codebase (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：AI usage generates a fragile codebase，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185546",
+      "title": "Otter AI can now follow conversations across 30+ languages",
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+      "published": "2026-11-10T07:00:00+00:00",
+      "published_dt": "2026-11-10T07:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Otter AI can now follow conversations across 30+ languages (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Otter AI can now follow conversations across 30+ languages，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
