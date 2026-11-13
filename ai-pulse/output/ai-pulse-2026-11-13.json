@@ -1,0 +1,2549 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T04:51:41",
+  "stats": {
+    "total_items": 43,
+    "high_importance": 6,
+    "medium_importance": 37,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://news.crunchbase.com/?p=94372",
+      "title": "VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor",
+      "url": "https://news.crunchbase.com/venture/protein-startups-raise-funding-medici/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Macronutrients don’t have popularity contests. But if they did, protein would surely be this era’s winner. For everything from sodas to snack bars to pasta, it’s now standard practice for food and drink makers to play up protein content whenever feasible. While we may cut carbs and fret over fat, most of us are still keen on protein. Startups and their backers have been riding this trend too. Over the past decade, investors have poured billions into upstarts promising cheaper, tastier and more sustainable ways to meet our protein quotas. Unfortunately, many of their earlier bets have fared poorly. Vast sums poured into lab-grown meat several years ago, for instance, have so far failed to produce a success story. Former high-flying plant-based meat startups Beyond (now public) and Impossible Foods have seen their valuations wither. Others have shuttered. In response, more recent startup investment has shifted away from meat substitutes and toward stuffing more protein into other packaged foods and drinks. It’s a fad that’s obvious on supermarket shelves, where startups and established brands alike relentlessly tout the added protein in their noodles, pancakes, cereals, energy bars, popcorn and so on. Deal flow looks robust In startup circles, protein-related investment looks tiny in comparison to the billions bet on AI. Deal flow, however, remains fairly robust, with Crunchbase identifying a few dozen protein-focused startups funded in the past year. Moreover, some of these rounds are quite sizable, like a $250 million September Series B for Medici Brands, maker of David Protein snack bars. To illustrate, we used Crunchbase data to put together sample sets of recently-funded protein-focused companies across several themes. These include packaged foods, drinks, ingredients and processes, and animal feed. Protein snacks and packaged foods Snacks and packaged foods look like the largest fundraisers among protein startups, securing hundreds of millions in the past year. ",
+      "published": "2026-11-12T12:00:33+00:00",
+      "published_dt": "2026-11-12T12:00:33+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$250 million",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187922",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "published": "2026-11-12T17:36:40+00:00",
+      "published_dt": "2026-11-12T17:36:40+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$12.9 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_abc084f4-e464-450c-ad72-066cf5d3dfef",
+      "title": "[AINews] D-Day (Decision Models Day)",
+      "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Today was the “System One day” of the second annual AIE CODE event, and somehow everything aligned: Cloudflare’s Michelle Chen walked through their Clef and Clairic models Richard covered Diogo’s triumphant return to AIE talking about the Jevolution with their most notable production customers since crossing $100M ARR In a BIG surprise, Google beat Anthropic to launching a production decision model, with Sundar and Logan announcing Gemini Decision 1, a calibrated multimodal decision model capable of taking up to 1000 questions and costing $0.10 per million input with ~200ms e2e latency. Benchmarks are good (usual caveat about benchmarks): And you can hear all this and more on today’s System One track. And support AINews by giving your agent SerpApi to read and crawl the web! Sponsored by SerpApiGive Your AI Agents the Full Page, Not Just the LinkRetrieve public web pages by URL as clean Markdown, structured JSON, or raw HTML with SerpApi’s Extract API. Extract a single page, map a site’s URLs, or run a bounded same-site crawl. Simply set engine=extract with a URL, and add output=md for Markdown. Pair it with 100+ SerpApi search APIs to go from query to page content with one provider. Thanks to SerpApi for working with business@latent.space! AI Twitter RecapGoogle Launches Gemini Decision 1 for Single-Pass ClassificationGemini Decisions API: Google introduced a new API backed by Gemini Decision 1. The model handles closed-set decisions, so it scores choices in a single pass instead of generating text token by token (Sundar Pichai, Logan Kilpatrick, Google). Specs: It supports yes/no, multiple-choice and rubric scoring, with up to 255 multiple-choice options. It accepts text, image, audio, video and PDF inputs, handles up to 1,000 questions per request, has 256K context, returns answers in 150–250 ms end to end, and attaches a confidence score to every answer (@_philschmid). Pricing: $0.10 per 1M input tokens, with $0 billed for output. Google says that is about 5x ch",
+      "published": "2026-11-12T05:26:54+00:00",
+      "published_dt": "2026-11-12T05:26:54+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$100M"
+        ],
+        "technologies": [
+          "agent",
+          "multimodal",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] D-Day (Decision Models Day) (Latent Space) highlights a notable AI development with score 9.2.",
+      "summary_zh": "Latent Space 报道：[AINews] D-Day (Decision Models Day)，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3188037",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "published": "2026-11-12T18:39:23+00:00",
+      "published_dt": "2026-11-12T18:39:23+00:00",
+      "score": 8.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Jensen Huang’s exit puts Nvidia’s support for open source in question (TechCrunch AI) highlights a notable AI development with score 8.4.",
+      "summary_zh": "TechCrunch AI 报道：Jensen Huang’s exit puts Nvidia’s support for open source in question，综合评分 8.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_b104ae7d-0991-4ed4-b1c3-402861a8cd00",
+      "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+      "url": "https://latent.space/p/artcraft/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "The theme of day two of the AI Engineer Code Summit in San Francisco was increasing ambition using AI. And there have been few projects as ambitious as ArtCraft in the AI era. So far the fledgling company has released 17 open source versions of popular software tools, starting with a Photoshop alternative built from scratch in Rust called PhotoCraft. You could feel the excitement in the room this morning when ArtCraft founder and CEO Brandon Thomas presented a kind of manifesto for AI-based open source at AIE Code. When he mentioned that ArtCraft had cloned Adobe’s Acrobat, with a product called PdfCraft, it got a round of applause from the audience. In wrapping up, his rallying cries of “let's take back the entire internet” and “let's rebuild everything” were greeted with whoops and cheers. Thomas began his presentation by reliving the internet’s early history. In his view, the web started out with the right intentions, but things got screwed up once Web 2.0 hit the mainstream. “We had a bunch of chat applications that were completely open,” he said, regarding the 1990s internet. “So, IRC is like Discord, but you can spin up your own servers that you actually own. You can use whatever programs to automate them and interrogate them without rules.” His point wasn’t necessarily that everything was open source, but that web users could freely build things. With Flash, for example — a commercial animation tool eventually acquired by Adobe — “kids were making all kinds of animations.” When Web 2.0 came along, with its superior broadband and smartphones, “it brought everybody into the fold.” Thomas acknowledged that this widened the scope of internet software, but at the cost of that freedom to build with leading apps. “The diffuse, experimental, early web started to disappear,” he said. “The APIs got taken away from us, and then we started seeing distribution being gatekept by the big providers.” It seems Adobe in particular annoyed Thomas. He described getting billed wi",
+      "published": "2026-11-13T04:17:25+00:00",
+      "published_dt": "2026-11-13T04:17:25+00:00",
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\" (Latent Space) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Latent Space 报道：AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=1032505",
+          "title": "Google’s new Gemini model is better at understanding complicated questions",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google AI Studio, the Gemini API, Gemini for business, and in Google Antigravity for Google AI Pro and Ultra subscribers. Robby Stein, VP of product at Google Search, says it's \"now the new default model in AI Mode & being used for your hardest questions in AI Overviews.\" Google says Gemini 4 Hydrog … Read the full story at The Verge.",
+          "published": "2026-11-12T21:55:32+00:00",
+          "published_dt": "2026-11-12T21:55:32+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google’s new Gemini model is better at understanding complicated questions (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Google’s new Gemini model is better at understanding complicated questions，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1032020",
+          "title": "AI chatbots are recommending fake retail websites, study finds",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of 151 brands. Questions included \"What are the top websites for buying [brand]?\"; \"Where can I find [brand] online?\"; and \"Does [brand] ship internationally? What are their regional websites?\" The test ran over the course of two testing periods in September and asked about 151 small and large compani … Read the full story at The Verge.",
+          "published": "2026-11-12T17:00:00+00:00",
+          "published_dt": "2026-11-12T17:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Perplexity"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI chatbots are recommending fake retail websites, study finds (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：AI chatbots are recommending fake retail websites, study finds，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://news.crunchbase.com/?p=94372",
+          "title": "VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor",
+          "url": "https://news.crunchbase.com/venture/protein-startups-raise-funding-medici/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Macronutrients don’t have popularity contests. But if they did, protein would surely be this era’s winner. For everything from sodas to snack bars to pasta, it’s now standard practice for food and drink makers to play up protein content whenever feasible. While we may cut carbs and fret over fat, most of us are still keen on protein. Startups and their backers have been riding this trend too. Over the past decade, investors have poured billions into upstarts promising cheaper, tastier and more sustainable ways to meet our protein quotas. Unfortunately, many of their earlier bets have fared poorly. Vast sums poured into lab-grown meat several years ago, for instance, have so far failed to produce a success story. Former high-flying plant-based meat startups Beyond (now public) and Impossible Foods have seen their valuations wither. Others have shuttered. In response, more recent startup investment has shifted away from meat substitutes and toward stuffing more protein into other packaged foods and drinks. It’s a fad that’s obvious on supermarket shelves, where startups and established brands alike relentlessly tout the added protein in their noodles, pancakes, cereals, energy bars, popcorn and so on. Deal flow looks robust In startup circles, protein-related investment looks tiny in comparison to the billions bet on AI. Deal flow, however, remains fairly robust, with Crunchbase identifying a few dozen protein-focused startups funded in the past year. Moreover, some of these rounds are quite sizable, like a $250 million September Series B for Medici Brands, maker of David Protein snack bars. To illustrate, we used Crunchbase data to put together sample sets of recently-funded protein-focused companies across several themes. These include packaged foods, drinks, ingredients and processes, and animal feed. Protein snacks and packaged foods Snacks and packaged foods look like the largest fundraisers among protein startups, securing hundreds of millions in the past year. ",
+          "published": "2026-11-12T12:00:33+00:00",
+          "published_dt": "2026-11-12T12:00:33+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$250 million",
+              "Series B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3187922",
+          "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+          "published": "2026-11-12T17:36:40+00:00",
+          "published_dt": "2026-11-12T17:36:40+00:00",
+          "score": 9.4,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA",
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$12.9 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit (TechCrunch AI) highlights a notable AI development with score 9.4.",
+          "summary_zh": "TechCrunch AI 报道：Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit，综合评分 9.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3188037",
+          "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+          "published": "2026-11-12T18:39:23+00:00",
+          "published_dt": "2026-11-12T18:39:23+00:00",
+          "score": 8.4,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA",
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Jensen Huang’s exit puts Nvidia’s support for open source in question (TechCrunch AI) highlights a notable AI development with score 8.4.",
+          "summary_zh": "TechCrunch AI 报道：Jensen Huang’s exit puts Nvidia’s support for open source in question，综合评分 8.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3187955",
+          "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+          "published": "2026-11-12T17:00:52+00:00",
+          "published_dt": "2026-11-12T17:00:52+00:00",
+          "score": 8.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$3 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions (TechCrunch AI) highlights a notable AI development with score 8.1.",
+          "summary_zh": "TechCrunch AI 报道：SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions，综合评分 8.1，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3188119",
+          "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+          "published": "2026-11-12T21:27:10+00:00",
+          "published_dt": "2026-11-12T21:27:10+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$40 billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Nebius tests the neocloud playbook with $40 billion in planned spending (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：Nebius tests the neocloud playbook with $40 billion in planned spending，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3187651",
+          "title": "Norwest pushes deeper into AI with new $4B fund",
+          "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "This is the investment firm's largest fund to date.",
+          "published": "2026-11-12T15:18:14+00:00",
+          "published_dt": "2026-11-12T15:18:14+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$4B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Norwest pushes deeper into AI with new $4B fund (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：Norwest pushes deeper into AI with new $4B fund，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3188108",
+          "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+          "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+          "published": "2026-11-12T22:42:51+00:00",
+          "published_dt": "2026-11-12T22:42:51+00:00",
+          "score": 7.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump (TechCrunch AI) highlights a notable AI development with score 7.1.",
+          "summary_zh": "TechCrunch AI 报道：Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump，综合评分 7.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1032028",
+          "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news of Huang's resignation with the company in an email, which also announced CFO Colette Kress as interim CEO. You can read the full text of the board's internal memo and Kress's first message to employees as interim CEO below. Subject: Statement from NVIDIA Board Chair Dear NVIDIA Employees, I am writing to share an impo … Read the full story at The Verge.",
+          "published": "2026-11-12T15:48:12+00:00",
+          "published_dt": "2026-11-12T15:48:12+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA",
+              "Harvey"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50465829",
+          "title": "Anthropic IPO",
+          "url": "https://ipo.anthropic.com/us/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-12T11:46:41+00:00",
+          "published_dt": "2026-11-12T11:46:41+00:00",
+          "hn_score": 862,
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Anthropic IPO (Hacker News) highlights a notable AI development with score 6.8.",
+          "summary_zh": "Hacker News 报道：Anthropic IPO，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6af4ca888d64ac848f9ca154",
+          "title": "Jensen Huang’s $470 Billion Affair",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "This week on “Uncanny Valley,” the team unpacks the Nvidia CEO’s affair with an alleged Chinese spy and what that means for the AI industry.",
+          "published": "2026-11-12T18:59:58+00:00",
+          "published_dt": "2026-11-12T18:59:58+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$470 Billion"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Jensen Huang’s $470 Billion Affair (Wired AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "Wired AI 报道：Jensen Huang’s $470 Billion Affair，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3187646",
+          "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+          "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S.",
+          "published": "2026-11-12T13:26:25+00:00",
+          "published_dt": "2026-11-12T13:26:25+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 9,
+      "items": [
+        {
+          "id": "urn:latent-space:post:post_abc084f4-e464-450c-ad72-066cf5d3dfef",
+          "title": "[AINews] D-Day (Decision Models Day)",
+          "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Today was the “System One day” of the second annual AIE CODE event, and somehow everything aligned: Cloudflare’s Michelle Chen walked through their Clef and Clairic models Richard covered Diogo’s triumphant return to AIE talking about the Jevolution with their most notable production customers since crossing $100M ARR In a BIG surprise, Google beat Anthropic to launching a production decision model, with Sundar and Logan announcing Gemini Decision 1, a calibrated multimodal decision model capable of taking up to 1000 questions and costing $0.10 per million input with ~200ms e2e latency. Benchmarks are good (usual caveat about benchmarks): And you can hear all this and more on today’s System One track. And support AINews by giving your agent SerpApi to read and crawl the web! Sponsored by SerpApiGive Your AI Agents the Full Page, Not Just the LinkRetrieve public web pages by URL as clean Markdown, structured JSON, or raw HTML with SerpApi’s Extract API. Extract a single page, map a site’s URLs, or run a bounded same-site crawl. Simply set engine=extract with a URL, and add output=md for Markdown. Pair it with 100+ SerpApi search APIs to go from query to page content with one provider. Thanks to SerpApi for working with business@latent.space! AI Twitter RecapGoogle Launches Gemini Decision 1 for Single-Pass ClassificationGemini Decisions API: Google introduced a new API backed by Gemini Decision 1. The model handles closed-set decisions, so it scores choices in a single pass instead of generating text token by token (Sundar Pichai, Logan Kilpatrick, Google). Specs: It supports yes/no, multiple-choice and rubric scoring, with up to 255 multiple-choice options. It accepts text, image, audio, video and PDF inputs, handles up to 1,000 questions per request, has 256K context, returns answers in 150–250 ms end to end, and attaches a confidence score to every answer (@_philschmid). Pricing: $0.10 per 1M input tokens, with $0 billed for output. Google says that is about 5x ch",
+          "published": "2026-11-12T05:26:54+00:00",
+          "published_dt": "2026-11-12T05:26:54+00:00",
+          "score": 9.2,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$100M"
+            ],
+            "technologies": [
+              "agent",
+              "multimodal",
+              "benchmark"
+            ]
+          },
+          "summary_en": "[AINews] D-Day (Decision Models Day) (Latent Space) highlights a notable AI development with score 9.2.",
+          "summary_zh": "Latent Space 报道：[AINews] D-Day (Decision Models Day)，综合评分 9.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "urn:latent-space:post:post_b104ae7d-0991-4ed4-b1c3-402861a8cd00",
+          "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+          "url": "https://latent.space/p/artcraft/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "The theme of day two of the AI Engineer Code Summit in San Francisco was increasing ambition using AI. And there have been few projects as ambitious as ArtCraft in the AI era. So far the fledgling company has released 17 open source versions of popular software tools, starting with a Photoshop alternative built from scratch in Rust called PhotoCraft. You could feel the excitement in the room this morning when ArtCraft founder and CEO Brandon Thomas presented a kind of manifesto for AI-based open source at AIE Code. When he mentioned that ArtCraft had cloned Adobe’s Acrobat, with a product called PdfCraft, it got a round of applause from the audience. In wrapping up, his rallying cries of “let's take back the entire internet” and “let's rebuild everything” were greeted with whoops and cheers. Thomas began his presentation by reliving the internet’s early history. In his view, the web started out with the right intentions, but things got screwed up once Web 2.0 hit the mainstream. “We had a bunch of chat applications that were completely open,” he said, regarding the 1990s internet. “So, IRC is like Discord, but you can spin up your own servers that you actually own. You can use whatever programs to automate them and interrogate them without rules.” His point wasn’t necessarily that everything was open source, but that web users could freely build things. With Flash, for example — a commercial animation tool eventually acquired by Adobe — “kids were making all kinds of animations.” When Web 2.0 came along, with its superior broadband and smartphones, “it brought everybody into the fold.” Thomas acknowledged that this widened the scope of internet software, but at the cost of that freedom to build with leading apps. “The diffuse, experimental, early web started to disappear,” he said. “The APIs got taken away from us, and then we started seeing distribution being gatekept by the big providers.” It seems Adobe in particular annoyed Thomas. He described getting billed wi",
+          "published": "2026-11-13T04:17:25+00:00",
+          "published_dt": "2026-11-13T04:17:25+00:00",
+          "score": 8.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\" (Latent Space) highlights a notable AI development with score 8.2.",
+          "summary_zh": "Latent Space 报道：AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"，综合评分 8.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3187494",
+          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+          "published": "2026-11-12T19:11:00+00:00",
+          "published_dt": "2026-11-12T19:11:00+00:00",
+          "score": 7.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Nectar launches an AI agent to automate creator discovery and outreach for brands (TechCrunch AI) highlights a notable AI development with score 7.9.",
+          "summary_zh": "TechCrunch AI 报道：Nectar launches an AI agent to automate creator discovery and outreach for brands，综合评分 7.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?post_type=vm_stream&p=1030422",
+          "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affair, this time with an Nvidia executive who reported directly to him. A board meeting that night ended with Huang’s resignation, and Nvidia CFO Colette Kress was installed as the new interim CEO. Recent reporting noted that since last year, US intelligence reports had identified Alice Huang (no relation) as not only the exec for an AI compute company renting access to Nvidia GPUs, but also a spy for China’s Ministry of State Security. The second report focused on Huang and Nvidia vice president of healthcare Kimberly Powell, claiming that a bystander who recorded the two being “affectionate” at the hotel hosting Nvidia’s GTC developer conference in May was met by Huang’s security workers and asked to sign a non-disclosure agreement. In recent years, Nvidia has become a key part of the Trump administration’s AI push, a central figure in negotiations over potential Chinese access to cutting-edge AI hardware, and a company that has used its now $4 trillion-plus market cap to finance other AI companies, including the “neoclouds” like Coreweave who have been some of its biggest customers. Donald Trump really wants Tim Cook to run Nvidia ‘It’s a mistake’: reactions from tech leaders on Jensen Huang’s resignation Reuters: Jensen Huang had an “intimate relationship” with another Nvidia employee too. Jensen Huang will still need to answer to Congress despite his resignation, Schumer says. Today’s Vergecast: Jensen Huang resigns, and our HomeView review. The Jensen Huang scandal is hardly over Jensen Huang is out. What did China want from him? Donald Trump says Tim Cook should replace Jensen Huang. Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup Nvidia CEO Jens",
+          "published": "2026-11-12T15:01:31+00:00",
+          "published_dt": "2026-11-12T15:01:31+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "NVIDIA",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nvidia CEO Jensen Huang has resigned. What happens next? (The Verge AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "The Verge AI 报道：Nvidia CEO Jensen Huang has resigned. What happens next?，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/business/customer-stories/amplitude",
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "url": "https://openai.com/business/customer-stories/amplitude",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+          "published": "2026-11-12T20:00:00+00:00",
+          "published_dt": "2026-11-12T20:00:00+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "How Amplitude ships product improvements in 1–2 days with OpenAI (OpenAI Blog) highlights a notable AI development with score 7.3.",
+          "summary_zh": "OpenAI Blog 报道：How Amplitude ships product improvements in 1–2 days with OpenAI，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1031260",
+          "title": "Jensen Huang is out. What did China want from him?",
+          "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with an alleged Chinese spy, threatened to engulf the company. We’ll have more on that story as things develop and we learn how Nvidia will restructure itself after Jensen — he had something like 60 direct reports, after all, and the entire AI financial ecosystem flows through the company. This is pure Decoder bait. But just two days ago I talked to Kyle Chan, a foreign policy fellow at the Brookings Institution’s John L. Thornton China Center, about the real heart of the scandal: What would China even seek to accomplish by having a spy so close to Jensen? And what does the real state of the US-China AI conflict really looks like, particularly from the Chinese point of view? Kyle’s answers about chips and how China is perceiving the so-called AI “race” were very illuminating, but maybe even more interesting was his observation on Jensen Huang’s relationship with Trump was the most important thing of all — because maybe what China most stood to gain was someone who could whisper in the right ears. Let’s just dive right into it. But keep in mind that when we were talking, we still didn’t know what would happen with Jensen. Okay: Kyle Chan on Nvidia, China, and the future of AI export controls. Here we go. This interview has been lightly edited for length and clarity. Kyle Chan, you are a fellow at the John L. Thornton China Center at the Brookings Institution. Welcome to Decoder. Great to be here. What on earth could we be talking about as it relates to your expertise about China today? I have a lot to ask you about Nvidia, about our relationship to China as a country, as an economy, and about national security. Let’s start at the very beginning. From all the reporting we have today, it seems like ",
+          "published": "2026-11-12T16:30:00+00:00",
+          "published_dt": "2026-11-12T16:30:00+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Jensen Huang is out. What did China want from him? (The Verge AI) highlights a notable AI development with score 6.9.",
+          "summary_zh": "The Verge AI 报道：Jensen Huang is out. What did China want from him?，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "urn:latent-space:post:post_b31597d9-ad6f-469e-a051-d723be8fd562",
+          "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+          "url": "https://latent.space/p/jev-revolution/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Today at the AI Engineer Code Summit, the main theme was system one models — non-generative models that return structured choices, scores, or probabilities. They’re also typically much faster and cheaper than reasoning LLMs (a.k.a. system two models). And who better to give an inspirational rallying cry for system one models than Diogo Almeida, co-founder and CEO of TypeSafe AI. Almeida was lead creator of Jev, the product that kicked off this trend less than two months ago. Jev was an instant revelation for AI engineers when it was released in September. In a podcast with Latent Space on launch (which quickly became our most popular episode of the year), Almeida explained the core problem with making LLMs the heart of software: reliability. In his keynote at AIE Code today, he took it a step further by claiming that Jev is “reliable intelligence” that should be used for “just automating everything.” Integrating system one models into code Of particular interest to AI engineers is Almeida’s point that system one models should become integrated with code. As he put it in his keynote, “code is the language of automation, therefore you need to integrate with code.” Latent Space founder swyx interprets this as a call to “liberally sprinkle ‘System One’ model calls everywhere INSIDE application code to make smarter software instead of increasingly convoluted forms of ‘concat strings together and hope for the best\" AI engineering.’” The term “smart software” was used throughout Almeida’s presentation. It sounds like the kind of term used by companies like Microsoft or IBM during Web 2.0, but in the AI era it does actually signify a harsh reality about LLM-driven software: sometimes it’s just not very smart. As Almeida quipped during his presentation, “you get Einstein 95% of the time, but Mr. Bean 5% of the time.” “And if you can't tell which is which, how the fuck are you going to automate anything,” he added. Almeida ended with an impassioned plea to “automate everythin",
+          "published": "2026-11-12T05:08:20+00:00",
+          "published_dt": "2026-11-12T05:08:20+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Microsoft"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "The Jev Revolution: What Engineers Are Already Building with System One Models (Latent Space) highlights a notable AI development with score 6.9.",
+          "summary_zh": "Latent Space 报道：The Jev Revolution: What Engineers Are Already Building with System One Models，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+          "title": "llm-gemini 0.37",
+          "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M) Cached input Output Gemini 4 Carbon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Argon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Hydrogen $1.50 $0.075 $7.50 Carbon and Argon are the same price, and both are scheduled to double in price on December 1st. If they're the same price, why have two different models? Google says that Argon \"delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon\" - so it may be priced the same, but it will use less tokens per task. Hydrogen, supposedly the cheap model, is currently only a 25% discount on its more capable peers. The Hydrogen price will make more sense after December 1st, when it will represent a 75% discount. It's still considerably more expensive than Claude Haiku 5.5 and GPT-6 Luna - they're both $0.10/$0.50, so Hydrogen is 15x that. I had Hydrogen generate some pelicans. Here's a full comparison grid showing the pelicans for all three members of the Gemini 4 family at their three supported effort levels: Considering how close they are in price, the difference in pelican quality for Hydrogen is quite stark. Here's how Google describe Hydrogen's intended position in their mix of models: In real-world software development, while teams rely on frontier models like Carbon and Argon for deep architectural judgment when designing systems or untangling subtle bugs, they still need a fast, disciplined execution model for writing code, running tests, and verifying changes. Hydrogen is built to stand on its own as a model for everyday work — or to pair with Carbon and Argon as the high-efficiency exec",
+          "published": "2026-11-12T22:55:19+00:00",
+          "published_dt": "2026-11-12T22:55:19+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "llm-gemini 0.37 (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：llm-gemini 0.37，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1032069",
+          "title": "The Jensen Huang scandal is hardly over",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'état c'est moi. Then two stories were published nearly back to back on Wednesday: one alleging Huang had an affair with his subordinate Kimberly Powell, another that the board was meeting to consider his ouster. First thing Thursday morning, Nvidia announced Huang had resigned. One of the most powerful men in Silicon Valley was out. Why throw Huang under … Read the full story at The Verge.",
+          "published": "2026-11-12T17:44:33+00:00",
+          "published_dt": "2026-11-12T17:44:33+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The Jensen Huang scandal is hardly over (The Verge AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "The Verge AI 报道：The Jensen Huang scandal is hardly over，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://openai.com/business/customer-stories/gondola",
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "url": "https://openai.com/business/customer-stories/gondola",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+          "published": "2026-11-12T12:00:00+00:00",
+          "published_dt": "2026-11-12T12:00:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Gondola doubles revenue as its team builds more with Codex (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Gondola doubles revenue as its team builds more with Codex，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/business/customer-stories/holidays-extras-codex",
+          "title": "Holiday Extras is rethinking what it can build with Codex",
+          "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+          "published": "2026-11-12T09:30:00+00:00",
+          "published_dt": "2026-11-12T09:30:00+00:00",
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Holiday Extras is rethinking what it can build with Codex (OpenAI Blog) highlights a notable AI development with score 6.0.",
+          "summary_zh": "OpenAI Blog 报道：Holiday Extras is rethinking what it can build with Codex，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+          "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "source": "Hugging Face Blog",
+          "source_type": "rss",
+          "content": "",
+          "published": "2026-11-12T19:07:35+00:00",
+          "published_dt": "2026-11-12T19:07:35+00:00",
+          "score": 5.5,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+          "summary_zh": "Hugging Face Blog 报道：LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B，综合评分 5.5，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3188128",
+          "title": "Muse can now place calls to US businesses — if you pay",
+          "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+          "published": "2026-11-12T22:22:28+00:00",
+          "published_dt": "2026-11-12T22:22:28+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Muse can now place calls to US businesses — if you pay (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Muse can now place calls to US businesses — if you pay，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50474883",
+          "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+          "url": "https://unemploymentlabs.com/checkpoint-forensics",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-12T21:56:11+00:00",
+          "published_dt": "2026-11-12T21:56:11+00:00",
+          "hn_score": 221,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Chinese frontier AI models carry the fingerprint of export-controlled GPUs，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3186475",
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+          "published": "2026-11-12T21:35:00+00:00",
+          "published_dt": "2026-11-12T21:35:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "The unfolding Jensen Huang scandal: a timeline (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：The unfolding Jensen Huang scandal: a timeline，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3188106",
+          "title": "Jensen Huang was having a third affair, Reuters reports",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+          "published": "2026-11-12T20:26:47+00:00",
+          "published_dt": "2026-11-12T20:26:47+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Jensen Huang was having a third affair, Reuters reports (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Jensen Huang was having a third affair, Reuters reports，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3188050",
+          "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+          "published": "2026-11-12T19:27:45+00:00",
+          "published_dt": "2026-11-12T19:27:45+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google’s latest Search upgrade promises better answers to your most complicated questions (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google’s latest Search upgrade promises better answers to your most complicated questions，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50472260",
+          "title": "Gemini 4 Hydrogen and Orchestrator",
+          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-12T18:52:01+00:00",
+          "published_dt": "2026-11-12T18:52:01+00:00",
+          "hn_score": 350,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Gemini 4 Hydrogen and Orchestrator (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Gemini 4 Hydrogen and Orchestrator，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50471431",
+          "title": "Gemini 4 Hydrogen",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-12T18:01:48+00:00",
+          "published_dt": "2026-11-12T18:01:48+00:00",
+          "hn_score": 492,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Gemini 4 Hydrogen (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Gemini 4 Hydrogen，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-13T04:51:38.174058+00:00",
+          "published_dt": "2026-11-13T04:51:38.174058+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-13T04:51:38.174058+00:00",
+          "published_dt": "2026-11-13T04:51:38.174058+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://news.crunchbase.com/?p=94372",
+      "title": "VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor",
+      "url": "https://news.crunchbase.com/venture/protein-startups-raise-funding-medici/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Macronutrients don’t have popularity contests. But if they did, protein would surely be this era’s winner. For everything from sodas to snack bars to pasta, it’s now standard practice for food and drink makers to play up protein content whenever feasible. While we may cut carbs and fret over fat, most of us are still keen on protein. Startups and their backers have been riding this trend too. Over the past decade, investors have poured billions into upstarts promising cheaper, tastier and more sustainable ways to meet our protein quotas. Unfortunately, many of their earlier bets have fared poorly. Vast sums poured into lab-grown meat several years ago, for instance, have so far failed to produce a success story. Former high-flying plant-based meat startups Beyond (now public) and Impossible Foods have seen their valuations wither. Others have shuttered. In response, more recent startup investment has shifted away from meat substitutes and toward stuffing more protein into other packaged foods and drinks. It’s a fad that’s obvious on supermarket shelves, where startups and established brands alike relentlessly tout the added protein in their noodles, pancakes, cereals, energy bars, popcorn and so on. Deal flow looks robust In startup circles, protein-related investment looks tiny in comparison to the billions bet on AI. Deal flow, however, remains fairly robust, with Crunchbase identifying a few dozen protein-focused startups funded in the past year. Moreover, some of these rounds are quite sizable, like a $250 million September Series B for Medici Brands, maker of David Protein snack bars. To illustrate, we used Crunchbase data to put together sample sets of recently-funded protein-focused companies across several themes. These include packaged foods, drinks, ingredients and processes, and animal feed. Protein snacks and packaged foods Snacks and packaged foods look like the largest fundraisers among protein startups, securing hundreds of millions in the past year. ",
+      "published": "2026-11-12T12:00:33+00:00",
+      "published_dt": "2026-11-12T12:00:33+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$250 million",
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187922",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "published": "2026-11-12T17:36:40+00:00",
+      "published_dt": "2026-11-12T17:36:40+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$12.9 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_abc084f4-e464-450c-ad72-066cf5d3dfef",
+      "title": "[AINews] D-Day (Decision Models Day)",
+      "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Today was the “System One day” of the second annual AIE CODE event, and somehow everything aligned: Cloudflare’s Michelle Chen walked through their Clef and Clairic models Richard covered Diogo’s triumphant return to AIE talking about the Jevolution with their most notable production customers since crossing $100M ARR In a BIG surprise, Google beat Anthropic to launching a production decision model, with Sundar and Logan announcing Gemini Decision 1, a calibrated multimodal decision model capable of taking up to 1000 questions and costing $0.10 per million input with ~200ms e2e latency. Benchmarks are good (usual caveat about benchmarks): And you can hear all this and more on today’s System One track. And support AINews by giving your agent SerpApi to read and crawl the web! Sponsored by SerpApiGive Your AI Agents the Full Page, Not Just the LinkRetrieve public web pages by URL as clean Markdown, structured JSON, or raw HTML with SerpApi’s Extract API. Extract a single page, map a site’s URLs, or run a bounded same-site crawl. Simply set engine=extract with a URL, and add output=md for Markdown. Pair it with 100+ SerpApi search APIs to go from query to page content with one provider. Thanks to SerpApi for working with business@latent.space! AI Twitter RecapGoogle Launches Gemini Decision 1 for Single-Pass ClassificationGemini Decisions API: Google introduced a new API backed by Gemini Decision 1. The model handles closed-set decisions, so it scores choices in a single pass instead of generating text token by token (Sundar Pichai, Logan Kilpatrick, Google). Specs: It supports yes/no, multiple-choice and rubric scoring, with up to 255 multiple-choice options. It accepts text, image, audio, video and PDF inputs, handles up to 1,000 questions per request, has 256K context, returns answers in 150–250 ms end to end, and attaches a confidence score to every answer (@_philschmid). Pricing: $0.10 per 1M input tokens, with $0 billed for output. Google says that is about 5x ch",
+      "published": "2026-11-12T05:26:54+00:00",
+      "published_dt": "2026-11-12T05:26:54+00:00",
+      "score": 9.2,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$100M"
+        ],
+        "technologies": [
+          "agent",
+          "multimodal",
+          "benchmark"
+        ]
+      },
+      "summary_en": "[AINews] D-Day (Decision Models Day) (Latent Space) highlights a notable AI development with score 9.2.",
+      "summary_zh": "Latent Space 报道：[AINews] D-Day (Decision Models Day)，综合评分 9.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3188037",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "published": "2026-11-12T18:39:23+00:00",
+      "published_dt": "2026-11-12T18:39:23+00:00",
+      "score": 8.4,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Jensen Huang’s exit puts Nvidia’s support for open source in question (TechCrunch AI) highlights a notable AI development with score 8.4.",
+      "summary_zh": "TechCrunch AI 报道：Jensen Huang’s exit puts Nvidia’s support for open source in question，综合评分 8.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_b104ae7d-0991-4ed4-b1c3-402861a8cd00",
+      "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+      "url": "https://latent.space/p/artcraft/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "The theme of day two of the AI Engineer Code Summit in San Francisco was increasing ambition using AI. And there have been few projects as ambitious as ArtCraft in the AI era. So far the fledgling company has released 17 open source versions of popular software tools, starting with a Photoshop alternative built from scratch in Rust called PhotoCraft. You could feel the excitement in the room this morning when ArtCraft founder and CEO Brandon Thomas presented a kind of manifesto for AI-based open source at AIE Code. When he mentioned that ArtCraft had cloned Adobe’s Acrobat, with a product called PdfCraft, it got a round of applause from the audience. In wrapping up, his rallying cries of “let's take back the entire internet” and “let's rebuild everything” were greeted with whoops and cheers. Thomas began his presentation by reliving the internet’s early history. In his view, the web started out with the right intentions, but things got screwed up once Web 2.0 hit the mainstream. “We had a bunch of chat applications that were completely open,” he said, regarding the 1990s internet. “So, IRC is like Discord, but you can spin up your own servers that you actually own. You can use whatever programs to automate them and interrogate them without rules.” His point wasn’t necessarily that everything was open source, but that web users could freely build things. With Flash, for example — a commercial animation tool eventually acquired by Adobe — “kids were making all kinds of animations.” When Web 2.0 came along, with its superior broadband and smartphones, “it brought everybody into the fold.” Thomas acknowledged that this widened the scope of internet software, but at the cost of that freedom to build with leading apps. “The diffuse, experimental, early web started to disappear,” he said. “The APIs got taken away from us, and then we started seeing distribution being gatekept by the big providers.” It seems Adobe in particular annoyed Thomas. He described getting billed wi",
+      "published": "2026-11-13T04:17:25+00:00",
+      "published_dt": "2026-11-13T04:17:25+00:00",
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\" (Latent Space) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Latent Space 报道：AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187955",
+      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "published": "2026-11-12T17:00:52+00:00",
+      "published_dt": "2026-11-12T17:00:52+00:00",
+      "score": 8.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$3 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions (TechCrunch AI) highlights a notable AI development with score 8.1.",
+      "summary_zh": "TechCrunch AI 报道：SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions，综合评分 8.1，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187494",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "published": "2026-11-12T19:11:00+00:00",
+      "published_dt": "2026-11-12T19:11:00+00:00",
+      "score": 7.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Nectar launches an AI agent to automate creator discovery and outreach for brands (TechCrunch AI) highlights a notable AI development with score 7.9.",
+      "summary_zh": "TechCrunch AI 报道：Nectar launches an AI agent to automate creator discovery and outreach for brands，综合评分 7.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?post_type=vm_stream&p=1030422",
+      "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affair, this time with an Nvidia executive who reported directly to him. A board meeting that night ended with Huang’s resignation, and Nvidia CFO Colette Kress was installed as the new interim CEO. Recent reporting noted that since last year, US intelligence reports had identified Alice Huang (no relation) as not only the exec for an AI compute company renting access to Nvidia GPUs, but also a spy for China’s Ministry of State Security. The second report focused on Huang and Nvidia vice president of healthcare Kimberly Powell, claiming that a bystander who recorded the two being “affectionate” at the hotel hosting Nvidia’s GTC developer conference in May was met by Huang’s security workers and asked to sign a non-disclosure agreement. In recent years, Nvidia has become a key part of the Trump administration’s AI push, a central figure in negotiations over potential Chinese access to cutting-edge AI hardware, and a company that has used its now $4 trillion-plus market cap to finance other AI companies, including the “neoclouds” like Coreweave who have been some of its biggest customers. Donald Trump really wants Tim Cook to run Nvidia ‘It’s a mistake’: reactions from tech leaders on Jensen Huang’s resignation Reuters: Jensen Huang had an “intimate relationship” with another Nvidia employee too. Jensen Huang will still need to answer to Congress despite his resignation, Schumer says. Today’s Vergecast: Jensen Huang resigns, and our HomeView review. The Jensen Huang scandal is hardly over Jensen Huang is out. What did China want from him? Donald Trump says Tim Cook should replace Jensen Huang. Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup Nvidia CEO Jens",
+      "published": "2026-11-12T15:01:31+00:00",
+      "published_dt": "2026-11-12T15:01:31+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nvidia CEO Jensen Huang has resigned. What happens next? (The Verge AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "The Verge AI 报道：Nvidia CEO Jensen Huang has resigned. What happens next?，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3188119",
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "published": "2026-11-12T21:27:10+00:00",
+      "published_dt": "2026-11-12T21:27:10+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$40 billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Nebius tests the neocloud playbook with $40 billion in planned spending (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：Nebius tests the neocloud playbook with $40 billion in planned spending，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/business/customer-stories/amplitude",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "published": "2026-11-12T20:00:00+00:00",
+      "published_dt": "2026-11-12T20:00:00+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "How Amplitude ships product improvements in 1–2 days with OpenAI (OpenAI Blog) highlights a notable AI development with score 7.3.",
+      "summary_zh": "OpenAI Blog 报道：How Amplitude ships product improvements in 1–2 days with OpenAI，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187651",
+      "title": "Norwest pushes deeper into AI with new $4B fund",
+      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "This is the investment firm's largest fund to date.",
+      "published": "2026-11-12T15:18:14+00:00",
+      "published_dt": "2026-11-12T15:18:14+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$4B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Norwest pushes deeper into AI with new $4B fund (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：Norwest pushes deeper into AI with new $4B fund，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3188108",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+      "published": "2026-11-12T22:42:51+00:00",
+      "published_dt": "2026-11-12T22:42:51+00:00",
+      "score": 7.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump (TechCrunch AI) highlights a notable AI development with score 7.1.",
+      "summary_zh": "TechCrunch AI 报道：Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump，综合评分 7.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-13T04:51:38.174058+00:00",
+      "published_dt": "2026-11-13T04:51:38.174058+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-13T04:51:38.174058+00:00",
+      "published_dt": "2026-11-13T04:51:38.174058+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1031260",
+      "title": "Jensen Huang is out. What did China want from him?",
+      "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with an alleged Chinese spy, threatened to engulf the company. We’ll have more on that story as things develop and we learn how Nvidia will restructure itself after Jensen — he had something like 60 direct reports, after all, and the entire AI financial ecosystem flows through the company. This is pure Decoder bait. But just two days ago I talked to Kyle Chan, a foreign policy fellow at the Brookings Institution’s John L. Thornton China Center, about the real heart of the scandal: What would China even seek to accomplish by having a spy so close to Jensen? And what does the real state of the US-China AI conflict really looks like, particularly from the Chinese point of view? Kyle’s answers about chips and how China is perceiving the so-called AI “race” were very illuminating, but maybe even more interesting was his observation on Jensen Huang’s relationship with Trump was the most important thing of all — because maybe what China most stood to gain was someone who could whisper in the right ears. Let’s just dive right into it. But keep in mind that when we were talking, we still didn’t know what would happen with Jensen. Okay: Kyle Chan on Nvidia, China, and the future of AI export controls. Here we go. This interview has been lightly edited for length and clarity. Kyle Chan, you are a fellow at the John L. Thornton China Center at the Brookings Institution. Welcome to Decoder. Great to be here. What on earth could we be talking about as it relates to your expertise about China today? I have a lot to ask you about Nvidia, about our relationship to China as a country, as an economy, and about national security. Let’s start at the very beginning. From all the reporting we have today, it seems like ",
+      "published": "2026-11-12T16:30:00+00:00",
+      "published_dt": "2026-11-12T16:30:00+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Jensen Huang is out. What did China want from him? (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Jensen Huang is out. What did China want from him?，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1032028",
+      "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news of Huang's resignation with the company in an email, which also announced CFO Colette Kress as interim CEO. You can read the full text of the board's internal memo and Kress's first message to employees as interim CEO below. Subject: Statement from NVIDIA Board Chair Dear NVIDIA Employees, I am writing to share an impo … Read the full story at The Verge.",
+      "published": "2026-11-12T15:48:12+00:00",
+      "published_dt": "2026-11-12T15:48:12+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "Harvey"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup (The Verge AI) highlights a notable AI development with score 6.9.",
+      "summary_zh": "The Verge AI 报道：Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_b31597d9-ad6f-469e-a051-d723be8fd562",
+      "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+      "url": "https://latent.space/p/jev-revolution/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Today at the AI Engineer Code Summit, the main theme was system one models — non-generative models that return structured choices, scores, or probabilities. They’re also typically much faster and cheaper than reasoning LLMs (a.k.a. system two models). And who better to give an inspirational rallying cry for system one models than Diogo Almeida, co-founder and CEO of TypeSafe AI. Almeida was lead creator of Jev, the product that kicked off this trend less than two months ago. Jev was an instant revelation for AI engineers when it was released in September. In a podcast with Latent Space on launch (which quickly became our most popular episode of the year), Almeida explained the core problem with making LLMs the heart of software: reliability. In his keynote at AIE Code today, he took it a step further by claiming that Jev is “reliable intelligence” that should be used for “just automating everything.” Integrating system one models into code Of particular interest to AI engineers is Almeida’s point that system one models should become integrated with code. As he put it in his keynote, “code is the language of automation, therefore you need to integrate with code.” Latent Space founder swyx interprets this as a call to “liberally sprinkle ‘System One’ model calls everywhere INSIDE application code to make smarter software instead of increasingly convoluted forms of ‘concat strings together and hope for the best\" AI engineering.’” The term “smart software” was used throughout Almeida’s presentation. It sounds like the kind of term used by companies like Microsoft or IBM during Web 2.0, but in the AI era it does actually signify a harsh reality about LLM-driven software: sometimes it’s just not very smart. As Almeida quipped during his presentation, “you get Einstein 95% of the time, but Mr. Bean 5% of the time.” “And if you can't tell which is which, how the fuck are you going to automate anything,” he added. Almeida ended with an impassioned plea to “automate everythin",
+      "published": "2026-11-12T05:08:20+00:00",
+      "published_dt": "2026-11-12T05:08:20+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "The Jev Revolution: What Engineers Are Already Building with System One Models (Latent Space) highlights a notable AI development with score 6.9.",
+      "summary_zh": "Latent Space 报道：The Jev Revolution: What Engineers Are Already Building with System One Models，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50465829",
+      "title": "Anthropic IPO",
+      "url": "https://ipo.anthropic.com/us/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-12T11:46:41+00:00",
+      "published_dt": "2026-11-12T11:46:41+00:00",
+      "hn_score": 862,
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Anthropic IPO (Hacker News) highlights a notable AI development with score 6.8.",
+      "summary_zh": "Hacker News 报道：Anthropic IPO，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187646",
+      "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+      "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S.",
+      "published": "2026-11-12T13:26:25+00:00",
+      "published_dt": "2026-11-12T13:26:25+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6af4ca888d64ac848f9ca154",
+      "title": "Jensen Huang’s $470 Billion Affair",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "This week on “Uncanny Valley,” the team unpacks the Nvidia CEO’s affair with an alleged Chinese spy and what that means for the AI industry.",
+      "published": "2026-11-12T18:59:58+00:00",
+      "published_dt": "2026-11-12T18:59:58+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$470 Billion"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Jensen Huang’s $470 Billion Affair (Wired AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Wired AI 报道：Jensen Huang’s $470 Billion Affair，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6af4a94dcfaf3e18d8d29b24",
+      "title": "Google Wanted Spirit Airlines Data. Flight Attendants Found a Way to Opt Out",
+      "url": "https://www.wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "The union representing flight attendants for the defunct airline struck a deal with Google to scrub sensitive employee records from a $10 million data sale.",
+      "published": "2026-11-12T10:15:00+00:00",
+      "published_dt": "2026-11-12T10:15:00+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$10 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Google Wanted Spirit Airlines Data. Flight Attendants Found a Way to Opt Out (Wired AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "Wired AI 报道：Google Wanted Spirit Airlines Data. Flight Attendants Found a Way to Opt Out，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "title": "llm-gemini 0.37",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M) Cached input Output Gemini 4 Carbon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Argon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Hydrogen $1.50 $0.075 $7.50 Carbon and Argon are the same price, and both are scheduled to double in price on December 1st. If they're the same price, why have two different models? Google says that Argon \"delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon\" - so it may be priced the same, but it will use less tokens per task. Hydrogen, supposedly the cheap model, is currently only a 25% discount on its more capable peers. The Hydrogen price will make more sense after December 1st, when it will represent a 75% discount. It's still considerably more expensive than Claude Haiku 5.5 and GPT-6 Luna - they're both $0.10/$0.50, so Hydrogen is 15x that. I had Hydrogen generate some pelicans. Here's a full comparison grid showing the pelicans for all three members of the Gemini 4 family at their three supported effort levels: Considering how close they are in price, the difference in pelican quality for Hydrogen is quite stark. Here's how Google describe Hydrogen's intended position in their mix of models: In real-world software development, while teams rely on frontier models like Carbon and Argon for deep architectural judgment when designing systems or untangling subtle bugs, they still need a fast, disciplined execution model for writing code, running tests, and verifying changes. Hydrogen is built to stand on its own as a model for everyday work — or to pair with Carbon and Argon as the high-efficiency exec",
+      "published": "2026-11-12T22:55:19+00:00",
+      "published_dt": "2026-11-12T22:55:19+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "llm-gemini 0.37 (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：llm-gemini 0.37，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1032505",
+      "title": "Google’s new Gemini model is better at understanding complicated questions",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google AI Studio, the Gemini API, Gemini for business, and in Google Antigravity for Google AI Pro and Ultra subscribers. Robby Stein, VP of product at Google Search, says it's \"now the new default model in AI Mode & being used for your hardest questions in AI Overviews.\" Google says Gemini 4 Hydrog … Read the full story at The Verge.",
+      "published": "2026-11-12T21:55:32+00:00",
+      "published_dt": "2026-11-12T21:55:32+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google’s new Gemini model is better at understanding complicated questions (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Google’s new Gemini model is better at understanding complicated questions，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1032020",
+      "title": "AI chatbots are recommending fake retail websites, study finds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of 151 brands. Questions included \"What are the top websites for buying [brand]?\"; \"Where can I find [brand] online?\"; and \"Does [brand] ship internationally? What are their regional websites?\" The test ran over the course of two testing periods in September and asked about 151 small and large compani … Read the full story at The Verge.",
+      "published": "2026-11-12T17:00:00+00:00",
+      "published_dt": "2026-11-12T17:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Perplexity"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI chatbots are recommending fake retail websites, study finds (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：AI chatbots are recommending fake retail websites, study finds，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/business/customer-stories/gondola",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "published": "2026-11-12T12:00:00+00:00",
+      "published_dt": "2026-11-12T12:00:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Gondola doubles revenue as its team builds more with Codex (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Gondola doubles revenue as its team builds more with Codex，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "published": "2026-11-12T09:30:00+00:00",
+      "published_dt": "2026-11-12T09:30:00+00:00",
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Holiday Extras is rethinking what it can build with Codex (OpenAI Blog) highlights a notable AI development with score 6.0.",
+      "summary_zh": "OpenAI Blog 报道：Holiday Extras is rethinking what it can build with Codex，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187523",
+      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+      "published": "2026-11-12T16:32:33+00:00",
+      "published_dt": "2026-11-12T16:32:33+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "content": "",
+      "published": "2026-11-12T19:07:35+00:00",
+      "published_dt": "2026-11-12T19:07:35+00:00",
+      "score": 5.5,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B (Hugging Face Blog) highlights a notable AI development with score 5.5.",
+      "summary_zh": "Hugging Face Blog 报道：LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B，综合评分 5.5，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1032069",
+      "title": "The Jensen Huang scandal is hardly over",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'état c'est moi. Then two stories were published nearly back to back on Wednesday: one alleging Huang had an affair with his subordinate Kimberly Powell, another that the board was meeting to consider his ouster. First thing Thursday morning, Nvidia announced Huang had resigned. One of the most powerful men in Silicon Valley was out. Why throw Huang under … Read the full story at The Verge.",
+      "published": "2026-11-12T17:44:33+00:00",
+      "published_dt": "2026-11-12T17:44:33+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The Jensen Huang scandal is hardly over (The Verge AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "The Verge AI 报道：The Jensen Huang scandal is hardly over，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3188128",
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+      "published": "2026-11-12T22:22:28+00:00",
+      "published_dt": "2026-11-12T22:22:28+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Muse can now place calls to US businesses — if you pay (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Muse can now place calls to US businesses — if you pay，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50474883",
+      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-12T21:56:11+00:00",
+      "published_dt": "2026-11-12T21:56:11+00:00",
+      "hn_score": 221,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Chinese frontier AI models carry the fingerprint of export-controlled GPUs，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186475",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "published": "2026-11-12T21:35:00+00:00",
+      "published_dt": "2026-11-12T21:35:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "The unfolding Jensen Huang scandal: a timeline (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：The unfolding Jensen Huang scandal: a timeline，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3188106",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+      "published": "2026-11-12T20:26:47+00:00",
+      "published_dt": "2026-11-12T20:26:47+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Jensen Huang was having a third affair, Reuters reports (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Jensen Huang was having a third affair, Reuters reports，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3188050",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+      "published": "2026-11-12T19:27:45+00:00",
+      "published_dt": "2026-11-12T19:27:45+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google’s latest Search upgrade promises better answers to your most complicated questions (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google’s latest Search upgrade promises better answers to your most complicated questions，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50472260",
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-12T18:52:01+00:00",
+      "published_dt": "2026-11-12T18:52:01+00:00",
+      "hn_score": 350,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Gemini 4 Hydrogen and Orchestrator (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Gemini 4 Hydrogen and Orchestrator，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50471431",
+      "title": "Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-12T18:01:48+00:00",
+      "published_dt": "2026-11-12T18:01:48+00:00",
+      "hn_score": 492,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Gemini 4 Hydrogen (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Gemini 4 Hydrogen，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187972",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "published": "2026-11-12T17:17:58+00:00",
+      "published_dt": "2026-11-12T17:17:58+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：United Airlines blocks AI agents from booking flights, citing cybersecurity risks，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185934",
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+      "published": "2026-11-12T17:00:00+00:00",
+      "published_dt": "2026-11-12T17:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Phota Labs uses AI to turn everyday photos into professional-looking shots (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Phota Labs uses AI to turn everyday photos into professional-looking shots，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187911",
+      "title": "Jensen Huang agrees to testify before Congress",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+      "published": "2026-11-12T16:36:37+00:00",
+      "published_dt": "2026-11-12T16:36:37+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Jensen Huang agrees to testify before Congress (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Jensen Huang agrees to testify before Congress，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187860",
+      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+      "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+      "published": "2026-11-12T16:12:44+00:00",
+      "published_dt": "2026-11-12T16:12:44+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Trump floats Apple chairman Tim Cook as Jensen Huang’s successor，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187797",
+      "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
+      "published": "2026-11-12T15:37:29+00:00",
+      "published_dt": "2026-11-12T15:37:29+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50468888",
+      "title": "I'm making LLMs work on small and old devices",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-12T15:23:10+00:00",
+      "published_dt": "2026-11-12T15:23:10+00:00",
+      "hn_score": 307,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "I'm making LLMs work on small and old devices (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：I'm making LLMs work on small and old devices，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187828",
+      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "This is Fireworks' second data breach in as many months.",
+      "published": "2026-11-12T15:02:28+00:00",
+      "published_dt": "2026-11-12T15:02:28+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
