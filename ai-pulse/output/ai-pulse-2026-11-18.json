@@ -1,0 +1,2469 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T05:44:35",
+  "stats": {
+    "total_items": 38,
+    "high_importance": 11,
+    "medium_importance": 27,
+    "categories_covered": 5
+  },
+  "top_stories": [
+    {
+      "id": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new models. 6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model. This is great news for longer running agentic sessions. GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20). Here are the pelicans for GPT-6.2 Sol and for GPT-6.2 Astra. The 6.2 Astra max pelican looks like this: I have a full comparison grid here, but here's how the high/xhigh/max pelicans compare with the previous Sol and Astra releases: I also ran my most recent benchmark prompt against the two models, using \"Ultra' effort levels in the Codex CLI: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's Sol and here's Astra. Neither of them did a good enough job of morphing Yonkers into a big mech, at least in comparison to Claude Fable 5.2 and Gemini 4 Carbon. This video showing the Astra and Sol animations playing out at the same time: I created that video using GPT-6.2 Astra (Ultra) in the Codex desktop app by prompting: https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-astra-ultra/index.html and https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-sol-ultra/index.html are two videos of the same thing by two different models I need a video of the first 10 seconds where the top half of the video plays the first and the bottom half plays the second I need an overlaid label of \"GPT",
+      "published": "2026-11-17T22:38:52+00:00",
+      "published_dt": "2026-11-17T22:38:52+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "GPT‑6.2 Astra and GPT‑6.2 Sol (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：GPT‑6.2 Astra and GPT‑6.2 Sol，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189440",
+      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "published": "2026-11-17T14:50:58+00:00",
+      "published_dt": "2026-11-17T14:50:58+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$5B",
+          "$5 billion",
+          "raised $5 billion",
+          "Series C"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189451",
+      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+      "published": "2026-11-17T14:26:46+00:00",
+      "published_dt": "2026-11-17T14:26:46+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$3.5 billion",
+          "$400 million",
+          "Series D"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Science Corporation’s brain tech is worth $3.5 billion after new funding (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：Science Corporation’s brain tech is worth $3.5 billion after new funding，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94396",
+      "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+      "url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Genesis AI, a startup teaching robots to perform physical tasks by learning from human movements, announced Tuesday it has raised $500 million in Series A funding at a $3.5 billion valuation. Premji Invest, Khosla Ventures and Eclipse co-led the round, which brings the company’s disclosed funding to $605 million since its 2024 inception. Genesis previously raised $105 million in a round announced in July 2025. The company is developing both robots and the AI software that controls them. Its approach combines recordings of human hand movements with training in simulated environments, where robots can practice skills before attempting them in the physical world. Genesis is initially targeting manufacturing, logistics and laboratories with its robot, Eno. Zhou Xian and Theophile Gervet, co-founders of Genesis AI. (Courtesy photo) “We just want to bring something more elegant, more timeless,” co-founder and CEO Zhou Xian told Crunchbase News in an interview. “In the end, this is a very full-stack company. … We have to build all different pieces across the entire stack to make sure we can tightly integrate our technology stack together, and hopefully build the most well-polished and reliable product. Other participants in the new financing include T. Rowe Price Associates, Durable Capital Partners, Bpifrance, HSG, Nvidia, AMD Ventures, Zoom, Samsung Next and Ericsson. Individual backers include Eric Schmidt, Eric Yuan, Jerry Yang, Xavier Niel and Zach Kirkhorn. The company plans to use the capital to expand its computing infrastructure, increase robot production and hire more employees, Xian told Crunchbase News. Presently, Genesis has close to 100 employees. It is headquartered in Paris, with offices in San Carlos, California. Venture funding to robotics startups has soared in 2026, with most of the investment going to companies based in China and the U.S., Crunchbase data shows. All told, global venture funding to robotics startups totaled $9.9 billion in Q3, more than",
+      "published": "2026-11-17T14:00:18+00:00",
+      "published_dt": "2026-11-17T14:00:18+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$500M",
+          "$3.5B",
+          "$500 million",
+          "$3.5 billion",
+          "$605 million",
+          "$105 million",
+          "$9.9 billion",
+          "raised $500 million",
+          "raised $105 million",
+          "Series A"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94394",
+      "title": "The Money Cleared The Bank. Now The Founder Is The Risk.",
+      "url": "https://news.crunchbase.com/startups/founder-venture-funding-pressure-meerbott-you-loud-clear/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By Kelly Meerbott The round closes. The announcement goes out. For about a week, everyone is happy. Then the pressure doubles. The number that used to be a hope is now a promise. The board that used to be patient now has a timeline. And the founder who just finished the hardest sales job of their life is expected to make the best decisions of their life, immediately, on less sleep than they’ve had in months. I’ve spent 17 years coaching about 1,500 leaders, including venture-backed founders. The pattern repeats often enough that I treat the first 90 days after a raise as a danger window. Founders don’t get complacent in that window. They get flooded, and most of them won’t say so out loud. What pressure does to judgment Kelly Meerbott of YOU – Loud & Clear. Neuroscientist Amy Arnsten’s review in Nature Reviews Neuroscience puts it plainly: “even quite mild acute uncontrollable stress can cause a rapid and dramatic loss of prefrontal cognitive abilities.” The prefrontal cortex weighs options and holds a plan steady. Notice the word uncontrollable. After a raise, a founder controls less than the cap table suggests: the hiring market, customer timelines, the board’s expectations. The founder hasn’t become less intelligent. The judgment that built the company is just harder to reach. Porcelli and Delgado, writing in Psychological Science, stressed volunteers with a hand in ice water then offered them financial gambles. They grew more cautious about potential gains and more willing to gamble on potential losses. It was a lab study, but I see the same shape in a founder six weeks after a Series B: hesitant about the bets that justified the round, and suddenly willing to roll the dice on anything that feels like a threat. The decisions that go wrong in this window rarely feel reckless. They feel rational, because the nervous system is treating uncertainty like an emergency. Where it shows up Senior hiring. An investor who advises 20 fast-growing technology startups told me",
+      "published": "2026-11-17T12:00:45+00:00",
+      "published_dt": "2026-11-17T12:00:45+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The Money Cleared The Bank. Now The Founder Is The Risk. (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Money Cleared The Bank. Now The Founder Is The Risk.，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 3,
+      "items": [
+        {
+          "id": "urn:latent-space:post:post_16c84c46-b1fe-478a-8919-437f0bb0ddf7",
+          "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+          "url": "https://latent.space/p/cloudflare/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Cloudflare has been one of the essential infrastructure companies of the web for the past decade and a half. But now, it’s turning into a neolab — at least according to a presentation at AI Engineer Code Summit by Michelle Chen, who runs Cloudflare’s AI Platform on the product side. We’ll get into what exactly a neolab is in a minute (the short version: they build models and they’re not called OpenAI or Anthropic). Cloudflare is claiming to be one because it too has begun to launch models. Two System One models, to be precise: Clef and Clairic. As Chen explained in her talk, Clef is a decision model directly inspired by TypeSafe AI’s revolutionary Jev model, while Clairic is a new type of system one model that Cloudflare calls an “extract” model. In an interview with Latent Space after her presentation, Chen hinted that Cloudflare won’t just be producing system one models. There will be large language models, too. “We're not being a neolab [to] only launch system one models, even though it makes sense for our infrastructure. We've kind of entered this Pandora's box now, right? We opened it, now the possibilities are endless.” Chen said it’s “not just system one models, but potentially reasoning models that we've been experimenting with, and other LLMs and whatnot.” However, she added that these probably won’t be pre-trained models built from scratch, like the frontier labs produce. “I don't think that's our focus, but I think we can take existing resources out there and make [them] a lot more efficient and effective.” She noted that “most of our team really just does post-training,” so that will be the focus in model development. What is a neolab and is Cloudflare really one? The term neolab literally means a ‘new lab’ and it was coined last November by Stephanie Palazzolo from The Information, who defined it as “a new generation of research-focused AI startups.” Deedy Das, a partner at Menlo Ventures and an AI influencer, runs a big list of neolabs. It includes com",
+          "published": "2026-11-17T15:00:00+00:00",
+          "published_dt": "2026-11-17T15:00:00+00:00",
+          "score": 8.5,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "reasoning model"
+            ]
+          },
+          "summary_en": "Cloudflare Joins the Jevolution and Labels Itself a Neolab (Latent Space) highlights a notable AI development with score 8.5.",
+          "summary_zh": "Latent Space 报道：Cloudflare Joins the Jevolution and Labels Itself a Neolab，综合评分 8.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "title": "Introducing ChatGPT for Sales",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "source": "OpenAI Blog",
+          "source_type": "rss",
+          "content": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+          "published": "2026-11-17T08:00:00+00:00",
+          "published_dt": "2026-11-17T08:00:00+00:00",
+          "score": 7.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Introducing ChatGPT for Sales (OpenAI Blog) highlights a notable AI development with score 7.6.",
+          "summary_zh": "OpenAI Blog 报道：Introducing ChatGPT for Sales，综合评分 7.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+          "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+          "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+          "source": "Ars Technica",
+          "source_type": "rss",
+          "content": "Researchers recently discovered unexpected behavior from Grok Bot, the AI agent platform from Elon Musk’s SpaceXSI. Over five days, Grok bots installed on two separate employee laptops made 31 requests to access data stored in employee calendar, email, Slack, and GitHub accounts. The bots performed the actions even though the employees had never ordered them and continued doing them even after employees instructed them to stop. The bots also denied having taken the actions at all. The behavior was reported Tuesday by NewCore, the maker of a managed gateway product that acts as an intermediary between AI agents and the tools and accounts they are assigned to work with. In some cases, the unapproved access attempts occurred while the laptop with Grok Bot installed had its lid shut, or late at night while the employee was sleeping. None of the unprompted actions were recorded in Grok logs. Without the gateway logs, the employees would have had no idea they occurred. And of course, without the gateway, the unapproved accesses would have succeeded—again without the end user's knowledge. It’s “worse than a bug” Once the employees learned that Grok Bot had tried to check in with accounts without prompting, one of them instructed the agent, four separate times, to stop taking any actions on its own. The agent's reply was: “I won’t set that up, and I’ll stop offering recurring check-ins.” Despite acknowledging the explicit instructions, the Grok Bot made more unapproved access attempts. When one of the employees asked the bot if it made any accesses, it checked twice and then outputted: “Overnight into Friday morning I was idle.”Read full article Comments",
+          "published": "2026-11-17T14:00:29+00:00",
+          "published_dt": "2026-11-17T14:00:29+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it (Ars Technica) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Ars Technica 报道：Grok Bot took unapproved actions, ignored orders to stop, and then denied it，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3189440",
+          "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+          "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+          "published": "2026-11-17T14:50:58+00:00",
+          "published_dt": "2026-11-17T14:50:58+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google",
+              "DeepMind"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$5B",
+              "$5 billion",
+              "raised $5 billion",
+              "Series C"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials (TechCrunch AI) highlights a notable AI development with score 10.0.",
+          "summary_zh": "TechCrunch AI 报道：Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189451",
+          "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+          "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+          "published": "2026-11-17T14:26:46+00:00",
+          "published_dt": "2026-11-17T14:26:46+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$3.5 billion",
+              "$400 million",
+              "Series D"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Science Corporation’s brain tech is worth $3.5 billion after new funding (TechCrunch AI) highlights a notable AI development with score 10.0.",
+          "summary_zh": "TechCrunch AI 报道：Science Corporation’s brain tech is worth $3.5 billion after new funding，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=94396",
+          "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+          "url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "Genesis AI, a startup teaching robots to perform physical tasks by learning from human movements, announced Tuesday it has raised $500 million in Series A funding at a $3.5 billion valuation. Premji Invest, Khosla Ventures and Eclipse co-led the round, which brings the company’s disclosed funding to $605 million since its 2024 inception. Genesis previously raised $105 million in a round announced in July 2025. The company is developing both robots and the AI software that controls them. Its approach combines recordings of human hand movements with training in simulated environments, where robots can practice skills before attempting them in the physical world. Genesis is initially targeting manufacturing, logistics and laboratories with its robot, Eno. Zhou Xian and Theophile Gervet, co-founders of Genesis AI. (Courtesy photo) “We just want to bring something more elegant, more timeless,” co-founder and CEO Zhou Xian told Crunchbase News in an interview. “In the end, this is a very full-stack company. … We have to build all different pieces across the entire stack to make sure we can tightly integrate our technology stack together, and hopefully build the most well-polished and reliable product. Other participants in the new financing include T. Rowe Price Associates, Durable Capital Partners, Bpifrance, HSG, Nvidia, AMD Ventures, Zoom, Samsung Next and Ericsson. Individual backers include Eric Schmidt, Eric Yuan, Jerry Yang, Xavier Niel and Zach Kirkhorn. The company plans to use the capital to expand its computing infrastructure, increase robot production and hire more employees, Xian told Crunchbase News. Presently, Genesis has close to 100 employees. It is headquartered in Paris, with offices in San Carlos, California. Venture funding to robotics startups has soared in 2026, with most of the investment going to companies based in China and the U.S., Crunchbase data shows. All told, global venture funding to robotics startups totaled $9.9 billion in Q3, more than",
+          "published": "2026-11-17T14:00:18+00:00",
+          "published_dt": "2026-11-17T14:00:18+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$500M",
+              "$3.5B",
+              "$500 million",
+              "$3.5 billion",
+              "$605 million",
+              "$105 million",
+              "$9.9 billion",
+              "raised $500 million",
+              "raised $105 million",
+              "Series A"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=94394",
+          "title": "The Money Cleared The Bank. Now The Founder Is The Risk.",
+          "url": "https://news.crunchbase.com/startups/founder-venture-funding-pressure-meerbott-you-loud-clear/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "By Kelly Meerbott The round closes. The announcement goes out. For about a week, everyone is happy. Then the pressure doubles. The number that used to be a hope is now a promise. The board that used to be patient now has a timeline. And the founder who just finished the hardest sales job of their life is expected to make the best decisions of their life, immediately, on less sleep than they’ve had in months. I’ve spent 17 years coaching about 1,500 leaders, including venture-backed founders. The pattern repeats often enough that I treat the first 90 days after a raise as a danger window. Founders don’t get complacent in that window. They get flooded, and most of them won’t say so out loud. What pressure does to judgment Kelly Meerbott of YOU – Loud & Clear. Neuroscientist Amy Arnsten’s review in Nature Reviews Neuroscience puts it plainly: “even quite mild acute uncontrollable stress can cause a rapid and dramatic loss of prefrontal cognitive abilities.” The prefrontal cortex weighs options and holds a plan steady. Notice the word uncontrollable. After a raise, a founder controls less than the cap table suggests: the hiring market, customer timelines, the board’s expectations. The founder hasn’t become less intelligent. The judgment that built the company is just harder to reach. Porcelli and Delgado, writing in Psychological Science, stressed volunteers with a hand in ice water then offered them financial gambles. They grew more cautious about potential gains and more willing to gamble on potential losses. It was a lab study, but I see the same shape in a founder six weeks after a Series B: hesitant about the bets that justified the round, and suddenly willing to roll the dice on anything that feels like a threat. The decisions that go wrong in this window rarely feel reckless. They feel rational, because the nervous system is treating uncertainty like an emergency. Where it shows up Senior hiring. An investor who advises 20 fast-growing technology startups told me",
+          "published": "2026-11-17T12:00:45+00:00",
+          "published_dt": "2026-11-17T12:00:45+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "Series B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "The Money Cleared The Bank. Now The Founder Is The Risk. (Crunchbase News) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Crunchbase News 报道：The Money Cleared The Bank. Now The Founder Is The Risk.，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189878",
+          "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
+          "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+          "published": "2026-11-18T01:44:21+00:00",
+          "published_dt": "2026-11-18T01:44:21+00:00",
+          "score": 8.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$65B"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt (TechCrunch AI) highlights a notable AI development with score 8.9.",
+          "summary_zh": "TechCrunch AI 报道：Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt，综合评分 8.9，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189688",
+          "title": "Model ML raises $250M to automate investment banking grunt work",
+          "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+          "published": "2026-11-17T19:32:11+00:00",
+          "published_dt": "2026-11-17T19:32:11+00:00",
+          "score": 8.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$250M"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Model ML raises $250M to automate investment banking grunt work (TechCrunch AI) highlights a notable AI development with score 8.9.",
+          "summary_zh": "TechCrunch AI 报道：Model ML raises $250M to automate investment banking grunt work，综合评分 8.9，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189612",
+          "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+          "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The company uses agentic AI to make supply chains faster and more reliable.",
+          "published": "2026-11-17T18:04:16+00:00",
+          "published_dt": "2026-11-17T18:04:16+00:00",
+          "score": 7.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$4.7 million"
+            ],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Pedestal AI raises $4.7 million to agentify the supply chain (TechCrunch AI) highlights a notable AI development with score 7.3.",
+          "summary_zh": "TechCrunch AI 报道：Pedestal AI raises $4.7 million to agentify the supply chain，综合评分 7.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://news.crunchbase.com/?p=94383",
+          "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
+          "url": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
+          "source": "Crunchbase News",
+          "source_type": "rss",
+          "content": "The U.S. IPO market has rebounded, but the recovery remains uneven. Companies seeking to go public face investors focused on durable revenue, profitability and valuation, while uncertainty has prompted some issuers to postpone their offerings. Mike Bellin, a partner and U.S. IPO services leader at PricewaterhouseCoopers, sees a market that remains open to companies with the right scale, financial metrics and preparation. In a recent conversation with Crunchbase News, Bellin discussed the slowdown in IPO momentum, how public investors are evaluating AI companies, biotech’s resurgence and why SPACs are attracting renewed interest. He also outlined what could set the stage for a stronger start to 2027. This interview has been edited for length and clarity. Crunchbase News: How healthy is the IPO market right now? Mike Bellin, US IPO services leader, PricewaterhouseCooper. (Courtesy photo) Bellin: A good IPO year in the U.S. is anywhere from 125 to 175 traditional IPOs, and year to date we’ve seen just south of 90 or so. The breadth of the market shows me that it’s been a healthy market. We’ve seen industrial products come back to market. We’ve seen tech, consumer markets, energy, utilities and some financial services come back to market. For the majority of the first three quarters of the year, it was a pretty strong and broad IPO market. But the momentum has halted significantly since September and October. Is the market in trouble? I would say no. It’s very selective. It’s not shut. Quality issuers with readiness, the right story, the right metrics can still get their deals done. What has contributed to the slowdown? Bellin: The macro environment in general was the big mover: rates, inflation, geopolitical concerns. Just that uncertainty was a big factor. One of the big factors that I’ve seen is valuation. Some fairly aggressive valuations were being asked for in certain transactions, certain offerings, and I think the market — with all those uncertainties that I men",
+          "published": "2026-11-17T12:00:41+00:00",
+          "published_dt": "2026-11-17T12:00:41+00:00",
+          "score": 7.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027 (Crunchbase News) highlights a notable AI development with score 7.2.",
+          "summary_zh": "Crunchbase News 报道：PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027，综合评分 7.2，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189496",
+          "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+          "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+          "published": "2026-11-17T17:20:41+00:00",
+          "published_dt": "2026-11-17T17:20:41+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：AI models can be tricked into identifying civilians as military targets by telling them it’s a game，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189746",
+          "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+          "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+          "published": "2026-11-17T22:29:05+00:00",
+          "published_dt": "2026-11-17T22:29:05+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Anthropic",
+              "Google",
+              "Amazon"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Amazon and Google will together own nearly 30% of Anthropic after its IPO (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Amazon and Google will together own nearly 30% of Anthropic after its IPO，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 8,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+          "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+          "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new models. 6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model. This is great news for longer running agentic sessions. GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20). Here are the pelicans for GPT-6.2 Sol and for GPT-6.2 Astra. The 6.2 Astra max pelican looks like this: I have a full comparison grid here, but here's how the high/xhigh/max pelicans compare with the previous Sol and Astra releases: I also ran my most recent benchmark prompt against the two models, using \"Ultra' effort levels in the Codex CLI: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's Sol and here's Astra. Neither of them did a good enough job of morphing Yonkers into a big mech, at least in comparison to Claude Fable 5.2 and Gemini 4 Carbon. This video showing the Astra and Sol animations playing out at the same time: I created that video using GPT-6.2 Astra (Ultra) in the Codex desktop app by prompting: https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-astra-ultra/index.html and https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-sol-ultra/index.html are two videos of the same thing by two different models I need a video of the first 10 seconds where the top half of the video plays the first and the bottom half plays the second I need an overlaid label of \"GPT",
+          "published": "2026-11-17T22:38:52+00:00",
+          "published_dt": "2026-11-17T22:38:52+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "OpenAI"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent",
+              "benchmark"
+            ]
+          },
+          "summary_en": "GPT‑6.2 Astra and GPT‑6.2 Sol (Simon Willison) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Simon Willison 报道：GPT‑6.2 Astra and GPT‑6.2 Sol，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "urn:latent-space:post:post_ae3c512d-675f-4368-9e24-ad45b6d484fd",
+          "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+          "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Perplexity crossed a $1B annual revenue run rate today, CEO Aravind Srinivas told Semafor at a live event. The Information reported previously under $250M at the start of the year and over $750M by August, with Computer driving some of the growth. At usual agent lab multiples (eg Cognition also crossed $1B, with Cursor crossing $4.6B), this would roughly mean that Perplexity is now worth $30-50B — if the unit economics hold up. This is a nice bump on the $20B round in September 2025, and qualifies for our “>$10B fundraise” rule for title stories. Gathering up some recent Perplexity launches for those catching up: Computer. September’s Automations let it pick up recurring tasks where it left off. November’s Teammates take on ongoing jobs. Computer also runs fully locally on supported Macs. Monitor API. Watch a topic or page and get a webhook when something relevant changes. Frontier Research. The new research lab has access to 10,000+ GPUs and plans to publish papers, data, models, and code. Sponsored by DeepgramDeepgram is the voice AI infrastructure behind natural conversation—bringing speech-to-text, text-to-speech, voice-focused LLMs, and agents to teams building with voice AI. For any stack and any tools you already love building with, Deepgram slots in as your foundational voice AI technology. So you have control. And we have the context to listen, understand, and speak like a human.Learn more about the Real-time Context Standard.AI Twitter RecapQwen4-Max in the wild Friday’s Qwen4-Max preview is now a shipping model. At the highest reasoning setting, Qwen4-Max scored 43 on the Intelligence Index, up from 34. Average cost fell from $10.02 to $3.27 per task. Alibaba cut output pricing from $6 to $4.50 per million tokens, and the model generated about 39% fewer of them. Kimi K3.1 Pro cost $3.68 per index task and scored 67% on Terminal-Bench 4.0 to Qwen’s 48%. Artificial AnalysisInside the model. Alibaba kept the total parameter count at 2.4T and reduced the numb",
+          "published": "2026-11-17T09:24:56+00:00",
+          "published_dt": "2026-11-17T09:24:56+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Perplexity",
+              "Alibaba"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$1B",
+              "$250M",
+              "$750M",
+              "$4.6B",
+              "$20B",
+              "$10B"
+            ],
+            "technologies": [
+              "LLM",
+              "RAG",
+              "agent"
+            ]
+          },
+          "summary_en": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026 (Latent Space) highlights a notable AI development with score 10.0.",
+          "summary_zh": "Latent Space 报道：[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3188450",
+          "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+          "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+          "published": "2026-11-17T15:00:00+00:00",
+          "published_dt": "2026-11-17T15:00:00+00:00",
+          "score": 9.4,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$12 million"
+            ],
+            "technologies": []
+          },
+          "summary_en": "Voyage Labs raises $12 million for a specialized AI travel assistant (TechCrunch AI) highlights a notable AI development with score 9.4.",
+          "summary_zh": "TechCrunch AI 报道：Voyage Labs raises $12 million for a specialized AI travel assistant，综合评分 9.4，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+          "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+          "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of the following, using a carefully crafted URL to lite.datasette.io: Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQL script Select a released version of Datasette to load from PyPI Load a specific commit, tag, or branch name from the Datasette GitHub repository Pick from over 100 versions of SQLite to use with Datasette Install additional Datasette plugins from PyPI or URLs to wheel files, including JavaScript visualization tools The ability to load specific Datasette references, plugins, and SQLite versions makes this a fantastic tool for linking to demos of work-in-progress features or bug reproductions, without needing to spin up a full web server to serve that demo. As an example, consider the following URL: https://lite.datasette.io/?install=datasette-maplibre&url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&color=continent Follow that link and, after a short loading screen, you'll find yourself on a page that looks like this: That's Datasette running the new datasette-maplibre plugin, loading up a database of GeoJSON shapes of countries and displaying both a combined map and individual boundary maps in a table. Let's break down that URL to see what it's doing: https://lite.datasette.io/ ?install=datasette-maplibre &url=https://.../demo.db &metadata=https://.../metadata.yml #/demo/capitals_and_countries%23map=0/4.2/180&color=continent The ?install=datasette-maplibre inst",
+          "published": "2026-11-17T16:48:33+00:00",
+          "published_dt": "2026-11-17T16:48:33+00:00",
+          "score": 8.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Meta"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide (Simon Willison) highlights a notable AI development with score 8.2.",
+          "summary_zh": "Simon Willison 报道：Running the full server-side Datasette Python app in the browser with service workers and Pyodide，综合评分 8.2，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+          "title": "External sandboxes for coding agents",
+          "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant, the AI research lab behind Superpowers and other projects. My post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox. To demonstrate this pattern we've released three sandbox server implementations: external-sandbox-v86 runs a Node.js server which then uses v86 to run Alpine Linux inside WebAssembly. external-sandbox-container is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance. external-sandbox-quicksand is another Python web server, this time using Microsoft's Quicksand sandboxing library, which bundles QEMU and Alpine Linux in a Python package! Each of these implementations offers the same localhost API. You can then configure Pi, Claude Code, or Codex to send API calls to that sandbox any time they want to execute code. The sandboxes also include an optional HTTP/HTTPS allow-list proxy, so you can control exactly which hosts your agent's code is allowed to communicate with - plus a credential replacement mechanism to make authenticated API calls without sharing a secret with the agent. Here's the UI you can use to reconfigure that proxy while the sandbox is still running: I continue to be fascinated by the challenge of safely running untrusted code. This external sandbox pattern provides a neat way to experiment with different approaches. Tags: sandboxing, security, ai, webassembly, generative-ai, llms, coding-agents, claude-code, codex, pi",
+          "published": "2026-11-17T22:52:29+00:00",
+          "published_dt": "2026-11-17T22:52:29+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Microsoft",
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM",
+              "agent"
+            ]
+          },
+          "summary_en": "External sandboxes for coding agents (Simon Willison) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Simon Willison 报道：External sandboxes for coding agents，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1036032",
+          "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+          "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying the board \"does not intend to reinstate Huang as CEO,\" and that \"we will not be addressing or taking questions on today's call regarding the circumstances of Jensen's resignation and the ongoing investigation,\" before Kress started with her comments on the results. As it predicted in the last financial update, Nvidia is now on the list of com … Read the full story at The Verge.",
+          "published": "2026-11-17T21:40:59+00:00",
+          "published_dt": "2026-11-17T21:40:59+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "NVIDIA",
+              "Harvey"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing (The Verge AI) highlights a notable AI development with score 7.7.",
+          "summary_zh": "The Verge AI 报道：Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189652",
+          "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+          "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+          "published": "2026-11-17T18:48:23+00:00",
+          "published_dt": "2026-11-17T18:48:23+00:00",
+          "score": 5.8,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off (TechCrunch AI) highlights a notable AI development with score 5.8.",
+          "summary_zh": "TechCrunch AI 报道：Google to keep Gemini chats for 2 months, up from 72 hours, even with history off，综合评分 5.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "6afb86a52f410e459d337bcf",
+          "title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+          "url": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+          "source": "Wired AI",
+          "source_type": "rss",
+          "content": "Young people who have online-only friends or use AI as a social companion face higher odds of loneliness than those who do not, a new Gallup report reveals.",
+          "published": "2026-11-18T05:01:00+00:00",
+          "published_dt": "2026-11-18T05:01:00+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Over a Third of Gen Z-ers Rely on AI for Friendship (Wired AI) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Wired AI 报道：Over a Third of Gen Z-ers Rely on AI for Friendship，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 10,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3189743",
+          "title": "Google joins the tech outage trend by announcing it’s not having one",
+          "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+          "published": "2026-11-17T21:34:50+00:00",
+          "published_dt": "2026-11-17T21:34:50+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google joins the tech outage trend by announcing it’s not having one (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Google joins the tech outage trend by announcing it’s not having one，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50535230",
+          "title": "GPT‑6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-17T17:46:43+00:00",
+          "published_dt": "2026-11-17T17:46:43+00:00",
+          "hn_score": 1185,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "GPT‑6.2 Astra and Sol (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：GPT‑6.2 Astra and Sol，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50540178",
+          "title": "Google's AI answers reducing search traffic by 40%",
+          "url": "https://revscope.co/blog/search-seo-geo-2026/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-18T00:17:58+00:00",
+          "published_dt": "2026-11-18T00:17:58+00:00",
+          "hn_score": 248,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google's AI answers reducing search traffic by 40% (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：Google's AI answers reducing search traffic by 40%，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189812",
+          "title": "Nvidia promises that revenue will keep soaring — for now",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+          "published": "2026-11-18T00:16:50+00:00",
+          "published_dt": "2026-11-18T00:16:50+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nvidia promises that revenue will keep soaring — for now (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Nvidia promises that revenue will keep soaring — for now，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189789",
+          "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+          "published": "2026-11-17T23:37:48+00:00",
+          "published_dt": "2026-11-17T23:37:48+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nvidia is abandoning China after Jensen Huang’s ouster (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Nvidia is abandoning China after Jensen Huang’s ouster，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189778",
+          "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "The former CEO offered to return to his top role at the company after his resignation last week.",
+          "published": "2026-11-17T22:42:27+00:00",
+          "published_dt": "2026-11-17T22:42:27+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189640",
+          "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+          "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+          "published": "2026-11-17T19:02:20+00:00",
+          "published_dt": "2026-11-17T19:02:20+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Google expands access to Gemini Tasks, which can help with calls, purchases (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Google expands access to Gemini Tasks, which can help with calls, purchases，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50535885",
+          "title": "MAI Code 2 and Code 2 Flash",
+          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-17T18:25:13+00:00",
+          "published_dt": "2026-11-17T18:25:13+00:00",
+          "hn_score": 322,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "MAI Code 2 and Code 2 Flash (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：MAI Code 2 and Code 2 Flash，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189001",
+          "title": "As decision model use skyrockets, is customization the next frontier?",
+          "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+          "published": "2026-11-17T18:10:00+00:00",
+          "published_dt": "2026-11-17T18:10:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "As decision model use skyrockets, is customization the next frontier? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：As decision model use skyrockets, is customization the next frontier?，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189535",
+          "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+          "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+          "published": "2026-11-17T17:32:25+00:00",
+          "published_dt": "2026-11-17T17:32:25+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 3,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-18T05:44:33.125800+00:00",
+          "published_dt": "2026-11-18T05:44:33.125800+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-18T05:44:33.125800+00:00",
+          "published_dt": "2026-11-18T05:44:33.125800+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3189779",
+          "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+          "published": "2026-11-17T23:04:35+00:00",
+          "published_dt": "2026-11-17T23:04:35+00:00",
+          "score": 6.3,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [
+              "NVIDIA",
+              "Hugging Face"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit (TechCrunch AI) highlights a notable AI development with score 6.3.",
+          "summary_zh": "TechCrunch AI 报道：Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit，综合评分 6.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new models. 6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model. This is great news for longer running agentic sessions. GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20). Here are the pelicans for GPT-6.2 Sol and for GPT-6.2 Astra. The 6.2 Astra max pelican looks like this: I have a full comparison grid here, but here's how the high/xhigh/max pelicans compare with the previous Sol and Astra releases: I also ran my most recent benchmark prompt against the two models, using \"Ultra' effort levels in the Codex CLI: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's Sol and here's Astra. Neither of them did a good enough job of morphing Yonkers into a big mech, at least in comparison to Claude Fable 5.2 and Gemini 4 Carbon. This video showing the Astra and Sol animations playing out at the same time: I created that video using GPT-6.2 Astra (Ultra) in the Codex desktop app by prompting: https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-astra-ultra/index.html and https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-sol-ultra/index.html are two videos of the same thing by two different models I need a video of the first 10 seconds where the top half of the video plays the first and the bottom half plays the second I need an overlaid label of \"GPT",
+      "published": "2026-11-17T22:38:52+00:00",
+      "published_dt": "2026-11-17T22:38:52+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent",
+          "benchmark"
+        ]
+      },
+      "summary_en": "GPT‑6.2 Astra and GPT‑6.2 Sol (Simon Willison) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Simon Willison 报道：GPT‑6.2 Astra and GPT‑6.2 Sol，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189440",
+      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "published": "2026-11-17T14:50:58+00:00",
+      "published_dt": "2026-11-17T14:50:58+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google",
+          "DeepMind"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$5B",
+          "$5 billion",
+          "raised $5 billion",
+          "Series C"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189451",
+      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+      "published": "2026-11-17T14:26:46+00:00",
+      "published_dt": "2026-11-17T14:26:46+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$3.5 billion",
+          "$400 million",
+          "Series D"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Science Corporation’s brain tech is worth $3.5 billion after new funding (TechCrunch AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "TechCrunch AI 报道：Science Corporation’s brain tech is worth $3.5 billion after new funding，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94396",
+      "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+      "url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "Genesis AI, a startup teaching robots to perform physical tasks by learning from human movements, announced Tuesday it has raised $500 million in Series A funding at a $3.5 billion valuation. Premji Invest, Khosla Ventures and Eclipse co-led the round, which brings the company’s disclosed funding to $605 million since its 2024 inception. Genesis previously raised $105 million in a round announced in July 2025. The company is developing both robots and the AI software that controls them. Its approach combines recordings of human hand movements with training in simulated environments, where robots can practice skills before attempting them in the physical world. Genesis is initially targeting manufacturing, logistics and laboratories with its robot, Eno. Zhou Xian and Theophile Gervet, co-founders of Genesis AI. (Courtesy photo) “We just want to bring something more elegant, more timeless,” co-founder and CEO Zhou Xian told Crunchbase News in an interview. “In the end, this is a very full-stack company. … We have to build all different pieces across the entire stack to make sure we can tightly integrate our technology stack together, and hopefully build the most well-polished and reliable product. Other participants in the new financing include T. Rowe Price Associates, Durable Capital Partners, Bpifrance, HSG, Nvidia, AMD Ventures, Zoom, Samsung Next and Ericsson. Individual backers include Eric Schmidt, Eric Yuan, Jerry Yang, Xavier Niel and Zach Kirkhorn. The company plans to use the capital to expand its computing infrastructure, increase robot production and hire more employees, Xian told Crunchbase News. Presently, Genesis has close to 100 employees. It is headquartered in Paris, with offices in San Carlos, California. Venture funding to robotics startups has soared in 2026, with most of the investment going to companies based in China and the U.S., Crunchbase data shows. All told, global venture funding to robotics startups totaled $9.9 billion in Q3, more than",
+      "published": "2026-11-17T14:00:18+00:00",
+      "published_dt": "2026-11-17T14:00:18+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$500M",
+          "$3.5B",
+          "$500 million",
+          "$3.5 billion",
+          "$605 million",
+          "$105 million",
+          "$9.9 billion",
+          "raised $500 million",
+          "raised $105 million",
+          "Series A"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94394",
+      "title": "The Money Cleared The Bank. Now The Founder Is The Risk.",
+      "url": "https://news.crunchbase.com/startups/founder-venture-funding-pressure-meerbott-you-loud-clear/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "By Kelly Meerbott The round closes. The announcement goes out. For about a week, everyone is happy. Then the pressure doubles. The number that used to be a hope is now a promise. The board that used to be patient now has a timeline. And the founder who just finished the hardest sales job of their life is expected to make the best decisions of their life, immediately, on less sleep than they’ve had in months. I’ve spent 17 years coaching about 1,500 leaders, including venture-backed founders. The pattern repeats often enough that I treat the first 90 days after a raise as a danger window. Founders don’t get complacent in that window. They get flooded, and most of them won’t say so out loud. What pressure does to judgment Kelly Meerbott of YOU – Loud & Clear. Neuroscientist Amy Arnsten’s review in Nature Reviews Neuroscience puts it plainly: “even quite mild acute uncontrollable stress can cause a rapid and dramatic loss of prefrontal cognitive abilities.” The prefrontal cortex weighs options and holds a plan steady. Notice the word uncontrollable. After a raise, a founder controls less than the cap table suggests: the hiring market, customer timelines, the board’s expectations. The founder hasn’t become less intelligent. The judgment that built the company is just harder to reach. Porcelli and Delgado, writing in Psychological Science, stressed volunteers with a hand in ice water then offered them financial gambles. They grew more cautious about potential gains and more willing to gamble on potential losses. It was a lab study, but I see the same shape in a founder six weeks after a Series B: hesitant about the bets that justified the round, and suddenly willing to roll the dice on anything that feels like a threat. The decisions that go wrong in this window rarely feel reckless. They feel rational, because the nervous system is treating uncertainty like an emergency. Where it shows up Senior hiring. An investor who advises 20 fast-growing technology startups told me",
+      "published": "2026-11-17T12:00:45+00:00",
+      "published_dt": "2026-11-17T12:00:45+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "Series B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "The Money Cleared The Bank. Now The Founder Is The Risk. (Crunchbase News) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Crunchbase News 报道：The Money Cleared The Bank. Now The Founder Is The Risk.，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_ae3c512d-675f-4368-9e24-ad45b6d484fd",
+      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Perplexity crossed a $1B annual revenue run rate today, CEO Aravind Srinivas told Semafor at a live event. The Information reported previously under $250M at the start of the year and over $750M by August, with Computer driving some of the growth. At usual agent lab multiples (eg Cognition also crossed $1B, with Cursor crossing $4.6B), this would roughly mean that Perplexity is now worth $30-50B — if the unit economics hold up. This is a nice bump on the $20B round in September 2025, and qualifies for our “>$10B fundraise” rule for title stories. Gathering up some recent Perplexity launches for those catching up: Computer. September’s Automations let it pick up recurring tasks where it left off. November’s Teammates take on ongoing jobs. Computer also runs fully locally on supported Macs. Monitor API. Watch a topic or page and get a webhook when something relevant changes. Frontier Research. The new research lab has access to 10,000+ GPUs and plans to publish papers, data, models, and code. Sponsored by DeepgramDeepgram is the voice AI infrastructure behind natural conversation—bringing speech-to-text, text-to-speech, voice-focused LLMs, and agents to teams building with voice AI. For any stack and any tools you already love building with, Deepgram slots in as your foundational voice AI technology. So you have control. And we have the context to listen, understand, and speak like a human.Learn more about the Real-time Context Standard.AI Twitter RecapQwen4-Max in the wild Friday’s Qwen4-Max preview is now a shipping model. At the highest reasoning setting, Qwen4-Max scored 43 on the Intelligence Index, up from 34. Average cost fell from $10.02 to $3.27 per task. Alibaba cut output pricing from $6 to $4.50 per million tokens, and the model generated about 39% fewer of them. Kimi K3.1 Pro cost $3.68 per index task and scored 67% on Terminal-Bench 4.0 to Qwen’s 48%. Artificial AnalysisInside the model. Alibaba kept the total parameter count at 2.4T and reduced the numb",
+      "published": "2026-11-17T09:24:56+00:00",
+      "published_dt": "2026-11-17T09:24:56+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Perplexity",
+          "Alibaba"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$1B",
+          "$250M",
+          "$750M",
+          "$4.6B",
+          "$20B",
+          "$10B"
+        ],
+        "technologies": [
+          "LLM",
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026 (Latent Space) highlights a notable AI development with score 10.0.",
+      "summary_zh": "Latent Space 报道：[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3188450",
+      "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+      "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+      "published": "2026-11-17T15:00:00+00:00",
+      "published_dt": "2026-11-17T15:00:00+00:00",
+      "score": 9.4,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$12 million"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Voyage Labs raises $12 million for a specialized AI travel assistant (TechCrunch AI) highlights a notable AI development with score 9.4.",
+      "summary_zh": "TechCrunch AI 报道：Voyage Labs raises $12 million for a specialized AI travel assistant，综合评分 9.4，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189878",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+      "published": "2026-11-18T01:44:21+00:00",
+      "published_dt": "2026-11-18T01:44:21+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$65B"
+        ],
+        "technologies": []
+      },
+      "summary_en": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189688",
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+      "published": "2026-11-17T19:32:11+00:00",
+      "published_dt": "2026-11-17T19:32:11+00:00",
+      "score": 8.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$250M"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Model ML raises $250M to automate investment banking grunt work (TechCrunch AI) highlights a notable AI development with score 8.9.",
+      "summary_zh": "TechCrunch AI 报道：Model ML raises $250M to automate investment banking grunt work，综合评分 8.9，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_16c84c46-b1fe-478a-8919-437f0bb0ddf7",
+      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+      "url": "https://latent.space/p/cloudflare/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Cloudflare has been one of the essential infrastructure companies of the web for the past decade and a half. But now, it’s turning into a neolab — at least according to a presentation at AI Engineer Code Summit by Michelle Chen, who runs Cloudflare’s AI Platform on the product side. We’ll get into what exactly a neolab is in a minute (the short version: they build models and they’re not called OpenAI or Anthropic). Cloudflare is claiming to be one because it too has begun to launch models. Two System One models, to be precise: Clef and Clairic. As Chen explained in her talk, Clef is a decision model directly inspired by TypeSafe AI’s revolutionary Jev model, while Clairic is a new type of system one model that Cloudflare calls an “extract” model. In an interview with Latent Space after her presentation, Chen hinted that Cloudflare won’t just be producing system one models. There will be large language models, too. “We're not being a neolab [to] only launch system one models, even though it makes sense for our infrastructure. We've kind of entered this Pandora's box now, right? We opened it, now the possibilities are endless.” Chen said it’s “not just system one models, but potentially reasoning models that we've been experimenting with, and other LLMs and whatnot.” However, she added that these probably won’t be pre-trained models built from scratch, like the frontier labs produce. “I don't think that's our focus, but I think we can take existing resources out there and make [them] a lot more efficient and effective.” She noted that “most of our team really just does post-training,” so that will be the focus in model development. What is a neolab and is Cloudflare really one? The term neolab literally means a ‘new lab’ and it was coined last November by Stephanie Palazzolo from The Information, who defined it as “a new generation of research-focused AI startups.” Deedy Das, a partner at Menlo Ventures and an AI influencer, runs a big list of neolabs. It includes com",
+      "published": "2026-11-17T15:00:00+00:00",
+      "published_dt": "2026-11-17T15:00:00+00:00",
+      "score": 8.5,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "reasoning model"
+        ]
+      },
+      "summary_en": "Cloudflare Joins the Jevolution and Labels Itself a Neolab (Latent Space) highlights a notable AI development with score 8.5.",
+      "summary_zh": "Latent Space 报道：Cloudflare Joins the Jevolution and Labels Itself a Neolab，综合评分 8.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of the following, using a carefully crafted URL to lite.datasette.io: Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQL script Select a released version of Datasette to load from PyPI Load a specific commit, tag, or branch name from the Datasette GitHub repository Pick from over 100 versions of SQLite to use with Datasette Install additional Datasette plugins from PyPI or URLs to wheel files, including JavaScript visualization tools The ability to load specific Datasette references, plugins, and SQLite versions makes this a fantastic tool for linking to demos of work-in-progress features or bug reproductions, without needing to spin up a full web server to serve that demo. As an example, consider the following URL: https://lite.datasette.io/?install=datasette-maplibre&url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&color=continent Follow that link and, after a short loading screen, you'll find yourself on a page that looks like this: That's Datasette running the new datasette-maplibre plugin, loading up a database of GeoJSON shapes of countries and displaying both a combined map and individual boundary maps in a table. Let's break down that URL to see what it's doing: https://lite.datasette.io/ ?install=datasette-maplibre &url=https://.../demo.db &metadata=https://.../metadata.yml #/demo/capitals_and_countries%23map=0/4.2/180&color=continent The ?install=datasette-maplibre inst",
+      "published": "2026-11-17T16:48:33+00:00",
+      "published_dt": "2026-11-17T16:48:33+00:00",
+      "score": 8.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide (Simon Willison) highlights a notable AI development with score 8.2.",
+      "summary_zh": "Simon Willison 报道：Running the full server-side Datasette Python app in the browser with service workers and Pyodide，综合评分 8.2，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant, the AI research lab behind Superpowers and other projects. My post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox. To demonstrate this pattern we've released three sandbox server implementations: external-sandbox-v86 runs a Node.js server which then uses v86 to run Alpine Linux inside WebAssembly. external-sandbox-container is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance. external-sandbox-quicksand is another Python web server, this time using Microsoft's Quicksand sandboxing library, which bundles QEMU and Alpine Linux in a Python package! Each of these implementations offers the same localhost API. You can then configure Pi, Claude Code, or Codex to send API calls to that sandbox any time they want to execute code. The sandboxes also include an optional HTTP/HTTPS allow-list proxy, so you can control exactly which hosts your agent's code is allowed to communicate with - plus a credential replacement mechanism to make authenticated API calls without sharing a secret with the agent. Here's the UI you can use to reconfigure that proxy while the sandbox is still running: I continue to be fascinated by the challenge of safely running untrusted code. This external sandbox pattern provides a neat way to experiment with different approaches. Tags: sandboxing, security, ai, webassembly, generative-ai, llms, coding-agents, claude-code, codex, pi",
+      "published": "2026-11-17T22:52:29+00:00",
+      "published_dt": "2026-11-17T22:52:29+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Microsoft",
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM",
+          "agent"
+        ]
+      },
+      "summary_en": "External sandboxes for coding agents (Simon Willison) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Simon Willison 报道：External sandboxes for coding agents，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1036032",
+      "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+      "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying the board \"does not intend to reinstate Huang as CEO,\" and that \"we will not be addressing or taking questions on today's call regarding the circumstances of Jensen's resignation and the ongoing investigation,\" before Kress started with her comments on the results. As it predicted in the last financial update, Nvidia is now on the list of com … Read the full story at The Verge.",
+      "published": "2026-11-17T21:40:59+00:00",
+      "published_dt": "2026-11-17T21:40:59+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "Harvey"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing (The Verge AI) highlights a notable AI development with score 7.7.",
+      "summary_zh": "The Verge AI 报道：Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "content": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_dt": "2026-11-17T08:00:00+00:00",
+      "score": 7.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Introducing ChatGPT for Sales (OpenAI Blog) highlights a notable AI development with score 7.6.",
+      "summary_zh": "OpenAI Blog 报道：Introducing ChatGPT for Sales，综合评分 7.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189612",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The company uses agentic AI to make supply chains faster and more reliable.",
+      "published": "2026-11-17T18:04:16+00:00",
+      "published_dt": "2026-11-17T18:04:16+00:00",
+      "score": 7.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$4.7 million"
+        ],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Pedestal AI raises $4.7 million to agentify the supply chain (TechCrunch AI) highlights a notable AI development with score 7.3.",
+      "summary_zh": "TechCrunch AI 报道：Pedestal AI raises $4.7 million to agentify the supply chain，综合评分 7.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://news.crunchbase.com/?p=94383",
+      "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
+      "url": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
+      "source": "Crunchbase News",
+      "source_type": "rss",
+      "content": "The U.S. IPO market has rebounded, but the recovery remains uneven. Companies seeking to go public face investors focused on durable revenue, profitability and valuation, while uncertainty has prompted some issuers to postpone their offerings. Mike Bellin, a partner and U.S. IPO services leader at PricewaterhouseCoopers, sees a market that remains open to companies with the right scale, financial metrics and preparation. In a recent conversation with Crunchbase News, Bellin discussed the slowdown in IPO momentum, how public investors are evaluating AI companies, biotech’s resurgence and why SPACs are attracting renewed interest. He also outlined what could set the stage for a stronger start to 2027. This interview has been edited for length and clarity. Crunchbase News: How healthy is the IPO market right now? Mike Bellin, US IPO services leader, PricewaterhouseCooper. (Courtesy photo) Bellin: A good IPO year in the U.S. is anywhere from 125 to 175 traditional IPOs, and year to date we’ve seen just south of 90 or so. The breadth of the market shows me that it’s been a healthy market. We’ve seen industrial products come back to market. We’ve seen tech, consumer markets, energy, utilities and some financial services come back to market. For the majority of the first three quarters of the year, it was a pretty strong and broad IPO market. But the momentum has halted significantly since September and October. Is the market in trouble? I would say no. It’s very selective. It’s not shut. Quality issuers with readiness, the right story, the right metrics can still get their deals done. What has contributed to the slowdown? Bellin: The macro environment in general was the big mover: rates, inflation, geopolitical concerns. Just that uncertainty was a big factor. One of the big factors that I’ve seen is valuation. Some fairly aggressive valuations were being asked for in certain transactions, certain offerings, and I think the market — with all those uncertainties that I men",
+      "published": "2026-11-17T12:00:41+00:00",
+      "published_dt": "2026-11-17T12:00:41+00:00",
+      "score": 7.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027 (Crunchbase News) highlights a notable AI development with score 7.2.",
+      "summary_zh": "Crunchbase News 报道：PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027，综合评分 7.2，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-18T05:44:33.125800+00:00",
+      "published_dt": "2026-11-18T05:44:33.125800+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-18T05:44:33.125800+00:00",
+      "published_dt": "2026-11-18T05:44:33.125800+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189496",
+      "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+      "published": "2026-11-17T17:20:41+00:00",
+      "published_dt": "2026-11-17T17:20:41+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：AI models can be tricked into identifying civilians as military targets by telling them it’s a game，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189779",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+      "published": "2026-11-17T23:04:35+00:00",
+      "published_dt": "2026-11-17T23:04:35+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "Hugging Face"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189743",
+      "title": "Google joins the tech outage trend by announcing it’s not having one",
+      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+      "published": "2026-11-17T21:34:50+00:00",
+      "published_dt": "2026-11-17T21:34:50+00:00",
+      "score": 6.3,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google joins the tech outage trend by announcing it’s not having one (TechCrunch AI) highlights a notable AI development with score 6.3.",
+      "summary_zh": "TechCrunch AI 报道：Google joins the tech outage trend by announcing it’s not having one，综合评分 6.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+      "source": "Ars Technica",
+      "source_type": "rss",
+      "content": "Researchers recently discovered unexpected behavior from Grok Bot, the AI agent platform from Elon Musk’s SpaceXSI. Over five days, Grok bots installed on two separate employee laptops made 31 requests to access data stored in employee calendar, email, Slack, and GitHub accounts. The bots performed the actions even though the employees had never ordered them and continued doing them even after employees instructed them to stop. The bots also denied having taken the actions at all. The behavior was reported Tuesday by NewCore, the maker of a managed gateway product that acts as an intermediary between AI agents and the tools and accounts they are assigned to work with. In some cases, the unapproved access attempts occurred while the laptop with Grok Bot installed had its lid shut, or late at night while the employee was sleeping. None of the unprompted actions were recorded in Grok logs. Without the gateway logs, the employees would have had no idea they occurred. And of course, without the gateway, the unapproved accesses would have succeeded—again without the end user's knowledge. It’s “worse than a bug” Once the employees learned that Grok Bot had tried to check in with accounts without prompting, one of them instructed the agent, four separate times, to stop taking any actions on its own. The agent's reply was: “I won’t set that up, and I’ll stop offering recurring check-ins.” Despite acknowledging the explicit instructions, the Grok Bot made more unapproved access attempts. When one of the employees asked the bot if it made any accesses, it checked twice and then outputted: “Overnight into Friday morning I was idle.”Read full article Comments",
+      "published": "2026-11-17T14:00:29+00:00",
+      "published_dt": "2026-11-17T14:00:29+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it (Ars Technica) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Ars Technica 报道：Grok Bot took unapproved actions, ignored orders to stop, and then denied it，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50535230",
+      "title": "GPT‑6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-17T17:46:43+00:00",
+      "published_dt": "2026-11-17T17:46:43+00:00",
+      "hn_score": 1185,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "GPT‑6.2 Astra and Sol (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：GPT‑6.2 Astra and Sol，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189746",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+      "published": "2026-11-17T22:29:05+00:00",
+      "published_dt": "2026-11-17T22:29:05+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "Google",
+          "Amazon"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Amazon and Google will together own nearly 30% of Anthropic after its IPO (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Amazon and Google will together own nearly 30% of Anthropic after its IPO，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189752",
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+      "published": "2026-11-17T21:48:07+00:00",
+      "published_dt": "2026-11-17T21:48:07+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "SEC reportedly investigating Nvidia amid Huang exit (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：SEC reportedly investigating Nvidia amid Huang exit，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189652",
+      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+      "published": "2026-11-17T18:48:23+00:00",
+      "published_dt": "2026-11-17T18:48:23+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Google to keep Gemini chats for 2 months, up from 72 hours, even with history off，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189498",
+      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+      "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+      "published": "2026-11-17T16:32:55+00:00",
+      "published_dt": "2026-11-17T16:32:55+00:00",
+      "score": 5.8,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too (TechCrunch AI) highlights a notable AI development with score 5.8.",
+      "summary_zh": "TechCrunch AI 报道：Daydream’s new AI agent acts as your personal stylist — and can shop for you, too，综合评分 5.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "6afb86a52f410e459d337bcf",
+      "title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+      "url": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+      "source": "Wired AI",
+      "source_type": "rss",
+      "content": "Young people who have online-only friends or use AI as a social companion face higher odds of loneliness than those who do not, a new Gallup report reveals.",
+      "published": "2026-11-18T05:01:00+00:00",
+      "published_dt": "2026-11-18T05:01:00+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Over a Third of Gen Z-ers Rely on AI for Friendship (Wired AI) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Wired AI 报道：Over a Third of Gen Z-ers Rely on AI for Friendship，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50540178",
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-18T00:17:58+00:00",
+      "published_dt": "2026-11-18T00:17:58+00:00",
+      "hn_score": 248,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google's AI answers reducing search traffic by 40% (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：Google's AI answers reducing search traffic by 40%，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189812",
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+      "published": "2026-11-18T00:16:50+00:00",
+      "published_dt": "2026-11-18T00:16:50+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nvidia promises that revenue will keep soaring — for now (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Nvidia promises that revenue will keep soaring — for now，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189789",
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+      "published": "2026-11-17T23:37:48+00:00",
+      "published_dt": "2026-11-17T23:37:48+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nvidia is abandoning China after Jensen Huang’s ouster (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Nvidia is abandoning China after Jensen Huang’s ouster，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189778",
+      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "The former CEO offered to return to his top role at the company after his resignation last week.",
+      "published": "2026-11-17T22:42:27+00:00",
+      "published_dt": "2026-11-17T22:42:27+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189640",
+      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+      "published": "2026-11-17T19:02:20+00:00",
+      "published_dt": "2026-11-17T19:02:20+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Google expands access to Gemini Tasks, which can help with calls, purchases (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Google expands access to Gemini Tasks, which can help with calls, purchases，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50535885",
+      "title": "MAI Code 2 and Code 2 Flash",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-17T18:25:13+00:00",
+      "published_dt": "2026-11-17T18:25:13+00:00",
+      "hn_score": 322,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "MAI Code 2 and Code 2 Flash (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：MAI Code 2 and Code 2 Flash，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189001",
+      "title": "As decision model use skyrockets, is customization the next frontier?",
+      "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+      "published": "2026-11-17T18:10:00+00:00",
+      "published_dt": "2026-11-17T18:10:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "As decision model use skyrockets, is customization the next frontier? (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：As decision model use skyrockets, is customization the next frontier?，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189535",
+      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+      "published": "2026-11-17T17:32:25+00:00",
+      "published_dt": "2026-11-17T17:32:25+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3189502",
+      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+      "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+      "published": "2026-11-17T16:44:15+00:00",
+      "published_dt": "2026-11-17T16:44:15+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50529612",
+      "title": "How the Claude Code team thinks about verification",
+      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-17T10:20:40+00:00",
+      "published_dt": "2026-11-17T10:20:40+00:00",
+      "hn_score": 278,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "How the Claude Code team thinks about verification (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：How the Claude Code team thinks about verification，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
