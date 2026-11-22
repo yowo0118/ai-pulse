@@ -1,0 +1,697 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T04:51:23",
+  "stats": {
+    "total_items": 10,
+    "high_importance": 1,
+    "medium_importance": 9,
+    "categories_covered": 6
+  },
+  "top_stories": [
+    {
+      "id": "https://www.theverge.com/?p=1038701",
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to say that Anthropic has become one of the most valuable companies on the planet. The real story is what happens now — and whether Anthropic can continue to thread the needle of caring about and investing in AI safety while also being a public company beholden to shareholders. Oh, and it also continuously growing the amount of money it makes so it can keep paying its ever-increasing compute bills, which total roughly $900 billion over the coming years. All of these ideas sit in a fascinating tension with one another, and so Hayden and I really tried to break down how we think this might play out as Anthropic navigates the pressures of the public markets. You’ll hear us talk about the company’s unique corporate governance structure, something that is especially relevant in the wake of the ongoing Jensen Huang saga. We also get into why OpenAI seems happy to have let Anthropic go public first, and why Anthropic’s whole pitch to big customers boils down to the same safety branding that now sits in conflict with the profit-oriented part of its business. Before we get going, do me a favor and subscribe to Decoder on YouTube, where we put out new episodes every Monday and Thursday. Okay: Hayden Field, The Verge’s senior AI reporter, on the Anthropic IPO and the economics of frontier AI. Here we go. This interview has been lightly edited for length and clarity. Hayden Field, welcome back to Decoder. Thanks. Great to be here. I’m excited to talk to you today because it’s not pure soap opera drama chaos. I know. It’s like a normal thing that happened. It’s for once not personality-based and soap opera. It’s about cold, hard would-be cash. [Laughs] Well, there is so",
+      "published": "2026-11-21T15:00:00+00:00",
+      "published_dt": "2026-11-21T15:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$900 billion"
+        ],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "Can Anthropic afford to put safety first? (The Verge AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "The Verge AI 报道：Can Anthropic afford to put safety first?，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 1,
+      "items": [
+        {
+          "id": "urn:latent-space:post:post_3976c9e6-ac0c-4bf2-92c8-c83510a92539",
+          "title": "[AINews] Riemann Hypothesis proved...twice independently",
+          "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "Within a few hours of each other (timeline), two mathematicians claimed independent proofs of the Riemann Hypothesis, the most famous open problem in mathematics (Scientific American). Levent Alpöge of Anthropic first made his Claude-driven proof in a note released with Lean code (1.3GB worth, ~250,000 page equivalent) rather than a full paper. Elliot Glazer confirms that the formalized statement is GRH and puts the chance of a Lean bug well under 1%. So if it finishes compiling with no extra axioms, it is probably correct, and no human will ever have read all of it… …prompting Alessandro Masullo to release his 940 page, 100% human, work in progress proof he had been working on for the last 12 years (and had been undergoing secret manual review and revision per Kevin Hartnett). This is the third in the trilogy of frontier math breakthroughs, following from the Navier Stokes solutions and the Quasi-Riemann bounding, but it doesn’t feel over. OpenAI's September Navier-Stokes claim is still the cautionary tale: critics argued that its Lean proof did not match the natural-language result. Both AI-claimed Millennium Prize results will take years to verify. Apart from the incredible accomplishment of the most famous problem in mathematics, one cannot miss the contrast that the AI-written solution is probably correct but incomprehensible, and the other solution is probably technically incorrect but understandable. Sponsored by Agentfield.AIOpen models are ready. Most coding harnesses aren’t. On DeepSWE, CodeAF finished #1 of ten on the same open model, ahead of Claude Code, at the lowest cost per fix.Try CodeAF! As Levent eloquently put it: “Claude far outpaced me near the finish line. No, Claude flew, and danced, and sparkled near that finish line.” This also ties into other AI themes we’ve covered on the podcast and on this newsletter: The nature of Slop: Levent says “I am presenting the world with a complete argument before having mastered a massive neighbourhood around",
+          "published": "2026-11-21T05:02:13+00:00",
+          "published_dt": "2026-11-21T05:02:13+00:00",
+          "score": 7.7,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "[AINews] Riemann Hypothesis proved...twice independently (Latent Space) highlights a notable AI development with score 7.7.",
+          "summary_zh": "Latent Space 报道：[AINews] Riemann Hypothesis proved...twice independently，综合评分 7.7，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 2,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=1038701",
+          "title": "Can Anthropic afford to put safety first?",
+          "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to say that Anthropic has become one of the most valuable companies on the planet. The real story is what happens now — and whether Anthropic can continue to thread the needle of caring about and investing in AI safety while also being a public company beholden to shareholders. Oh, and it also continuously growing the amount of money it makes so it can keep paying its ever-increasing compute bills, which total roughly $900 billion over the coming years. All of these ideas sit in a fascinating tension with one another, and so Hayden and I really tried to break down how we think this might play out as Anthropic navigates the pressures of the public markets. You’ll hear us talk about the company’s unique corporate governance structure, something that is especially relevant in the wake of the ongoing Jensen Huang saga. We also get into why OpenAI seems happy to have let Anthropic go public first, and why Anthropic’s whole pitch to big customers boils down to the same safety branding that now sits in conflict with the profit-oriented part of its business. Before we get going, do me a favor and subscribe to Decoder on YouTube, where we put out new episodes every Monday and Thursday. Okay: Hayden Field, The Verge’s senior AI reporter, on the Anthropic IPO and the economics of frontier AI. Here we go. This interview has been lightly edited for length and clarity. Hayden Field, welcome back to Decoder. Thanks. Great to be here. I’m excited to talk to you today because it’s not pure soap opera drama chaos. I know. It’s like a normal thing that happened. It’s for once not personality-based and soap opera. It’s about cold, hard would-be cash. [Laughs] Well, there is so",
+          "published": "2026-11-21T15:00:00+00:00",
+          "published_dt": "2026-11-21T15:00:00+00:00",
+          "score": 10.0,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 3,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "OpenAI",
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [
+              "$900 billion"
+            ],
+            "technologies": [
+              "safety"
+            ]
+          },
+          "summary_en": "Can Anthropic afford to put safety first? (The Verge AI) highlights a notable AI development with score 10.0.",
+          "summary_zh": "The Verge AI 报道：Can Anthropic afford to put safety first?，综合评分 10.0，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Nov/21/muru/",
+          "title": "Muru",
+          "url": "https://simonwillison.net/2026/Nov/21/muru/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture, he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process. Here's everything he's published so far, all in the last three weeks: 2026-11-04 — Twenty years of mod_wsgi, and what comes next 2026-11-05 — A first look at Muru 2026-11-07 — Muru: looking inside the workers 2026-11-08 — Muru: how it fits together 2026-11-09 — Muru: import once, fork many 2026-11-10 — Muru: HTTPS in development 2026-11-11 — Muru: WSGI and ASGI together 2026-11-11 — AI as a lifestyle choice 2026-11-12 — Muru: releases, not restarts 2026-11-13 — Muru: canaries without a service mesh 2026-11-14 — Muru: a better tenant in a container 2026-11-15 — Muru: working with Kubernetes, not around it 2026-11-16 — Muru: scaling from what the workers report 2026-11-17 — Muru: scaling to zero 2026-11-18 — Muru: overlays on a schedule 2026-11-19 — Muru: noticing and responding 2026-11-20 — Muru: a toolbar on every page 2026-11-21 — Muru: tracing in the toolbar That post about AI as a lifestyle choice is particularly worth a read: The AI may be doing a lot of the work on the surface, but deciding what isn't good enough yet is still down to me, and twenty years of getting things wrong with mod_wsgi turns out to be useful for that. I am prepared to put in the hard work to keep polishing Muru until it is something I would trust, and something you would too. Tags: graham-dumpleton, modwsgi, python, wsgi, ai, rust, asgi, generative-ai, llms, ai-assisted-programming",
+          "published": "2026-11-21T23:56:28+00:00",
+          "published_dt": "2026-11-21T23:56:28+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "Muru (Simon Willison) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Simon Willison 报道：Muru，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3188069",
+          "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+          "published": "2026-11-21T16:00:00+00:00",
+          "published_dt": "2026-11-21T16:00:00+00:00",
+          "score": 6.6,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "创业公司",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Is selling an AI version of your face to this microdrama startup the future of Hollywood? (TechCrunch AI) highlights a notable AI development with score 6.6.",
+          "summary_zh": "TechCrunch AI 报道：Is selling an AI version of your face to this microdrama startup the future of Hollywood?，综合评分 6.6，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://www.theverge.com/?p=1038099",
+          "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+          "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching its public beta on Saturday on the web and through a new app for iOS and Android. \"Our cofounders have had many people come up to them and say, 'Hey, I run a mahjong night on Wednesdays' or 'I go to this local bar in Chicago with like five people, and we love playing go, but we lack a Chess.c … Read the full story at The Verge.",
+          "published": "2026-11-21T14:00:00+00:00",
+          "published_dt": "2026-11-21T14:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Chess.com’s next move is a new hub for classic games, from mahjong to sudoku，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 3,
+      "items": [
+        {
+          "id": "https://techcrunch.com/?p=3191147",
+          "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+          "published": "2026-11-21T21:37:10+00:00",
+          "published_dt": "2026-11-21T21:37:10+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3191145",
+          "title": "A tale of two Nvidias",
+          "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+          "published": "2026-11-21T21:07:42+00:00",
+          "published_dt": "2026-11-21T21:07:42+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [
+              "NVIDIA"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "A tale of two Nvidias (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：A tale of two Nvidias，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://techcrunch.com/?p=3173132",
+          "title": "Here are the top AI agents that can live in your text messages",
+          "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "source": "TechCrunch AI",
+          "source_type": "rss",
+          "content": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+          "published": "2026-11-21T17:00:00+00:00",
+          "published_dt": "2026-11-21T17:00:00+00:00",
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 2
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "agent"
+            ]
+          },
+          "summary_en": "Here are the top AI agents that can live in your text messages (TechCrunch AI) highlights a notable AI development with score 5.0.",
+          "summary_zh": "TechCrunch AI 报道：Here are the top AI agents that can live in your text messages，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-22T04:51:21.458537+00:00",
+          "published_dt": "2026-11-22T04:51:21.458537+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-22T04:51:21.458537+00:00",
+          "published_dt": "2026-11-22T04:51:21.458537+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "https://www.theverge.com/?p=1038701",
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to say that Anthropic has become one of the most valuable companies on the planet. The real story is what happens now — and whether Anthropic can continue to thread the needle of caring about and investing in AI safety while also being a public company beholden to shareholders. Oh, and it also continuously growing the amount of money it makes so it can keep paying its ever-increasing compute bills, which total roughly $900 billion over the coming years. All of these ideas sit in a fascinating tension with one another, and so Hayden and I really tried to break down how we think this might play out as Anthropic navigates the pressures of the public markets. You’ll hear us talk about the company’s unique corporate governance structure, something that is especially relevant in the wake of the ongoing Jensen Huang saga. We also get into why OpenAI seems happy to have let Anthropic go public first, and why Anthropic’s whole pitch to big customers boils down to the same safety branding that now sits in conflict with the profit-oriented part of its business. Before we get going, do me a favor and subscribe to Decoder on YouTube, where we put out new episodes every Monday and Thursday. Okay: Hayden Field, The Verge’s senior AI reporter, on the Anthropic IPO and the economics of frontier AI. Here we go. This interview has been lightly edited for length and clarity. Hayden Field, welcome back to Decoder. Thanks. Great to be here. I’m excited to talk to you today because it’s not pure soap opera drama chaos. I know. It’s like a normal thing that happened. It’s for once not personality-based and soap opera. It’s about cold, hard would-be cash. [Laughs] Well, there is so",
+      "published": "2026-11-21T15:00:00+00:00",
+      "published_dt": "2026-11-21T15:00:00+00:00",
+      "score": 10.0,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 3,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [
+          "$900 billion"
+        ],
+        "technologies": [
+          "safety"
+        ]
+      },
+      "summary_en": "Can Anthropic afford to put safety first? (The Verge AI) highlights a notable AI development with score 10.0.",
+      "summary_zh": "The Verge AI 报道：Can Anthropic afford to put safety first?，综合评分 10.0，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_3976c9e6-ac0c-4bf2-92c8-c83510a92539",
+      "title": "[AINews] Riemann Hypothesis proved...twice independently",
+      "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "Within a few hours of each other (timeline), two mathematicians claimed independent proofs of the Riemann Hypothesis, the most famous open problem in mathematics (Scientific American). Levent Alpöge of Anthropic first made his Claude-driven proof in a note released with Lean code (1.3GB worth, ~250,000 page equivalent) rather than a full paper. Elliot Glazer confirms that the formalized statement is GRH and puts the chance of a Lean bug well under 1%. So if it finishes compiling with no extra axioms, it is probably correct, and no human will ever have read all of it… …prompting Alessandro Masullo to release his 940 page, 100% human, work in progress proof he had been working on for the last 12 years (and had been undergoing secret manual review and revision per Kevin Hartnett). This is the third in the trilogy of frontier math breakthroughs, following from the Navier Stokes solutions and the Quasi-Riemann bounding, but it doesn’t feel over. OpenAI's September Navier-Stokes claim is still the cautionary tale: critics argued that its Lean proof did not match the natural-language result. Both AI-claimed Millennium Prize results will take years to verify. Apart from the incredible accomplishment of the most famous problem in mathematics, one cannot miss the contrast that the AI-written solution is probably correct but incomprehensible, and the other solution is probably technically incorrect but understandable. Sponsored by Agentfield.AIOpen models are ready. Most coding harnesses aren’t. On DeepSWE, CodeAF finished #1 of ten on the same open model, ahead of Claude Code, at the lowest cost per fix.Try CodeAF! As Levent eloquently put it: “Claude far outpaced me near the finish line. No, Claude flew, and danced, and sparkled near that finish line.” This also ties into other AI themes we’ve covered on the podcast and on this newsletter: The nature of Slop: Levent says “I am presenting the world with a complete argument before having mastered a massive neighbourhood around",
+      "published": "2026-11-21T05:02:13+00:00",
+      "published_dt": "2026-11-21T05:02:13+00:00",
+      "score": 7.7,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "[AINews] Riemann Hypothesis proved...twice independently (Latent Space) highlights a notable AI development with score 7.7.",
+      "summary_zh": "Latent Space 报道：[AINews] Riemann Hypothesis proved...twice independently，综合评分 7.7，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-22T04:51:21.458537+00:00",
+      "published_dt": "2026-11-22T04:51:21.458537+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-22T04:51:21.458537+00:00",
+      "published_dt": "2026-11-22T04:51:21.458537+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3188069",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "published": "2026-11-21T16:00:00+00:00",
+      "published_dt": "2026-11-21T16:00:00+00:00",
+      "score": 6.6,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "创业公司",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Is selling an AI version of your face to this microdrama startup the future of Hollywood? (TechCrunch AI) highlights a notable AI development with score 6.6.",
+      "summary_zh": "TechCrunch AI 报道：Is selling an AI version of your face to this microdrama startup the future of Hollywood?，综合评分 6.6，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Nov/21/muru/",
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture, he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process. Here's everything he's published so far, all in the last three weeks: 2026-11-04 — Twenty years of mod_wsgi, and what comes next 2026-11-05 — A first look at Muru 2026-11-07 — Muru: looking inside the workers 2026-11-08 — Muru: how it fits together 2026-11-09 — Muru: import once, fork many 2026-11-10 — Muru: HTTPS in development 2026-11-11 — Muru: WSGI and ASGI together 2026-11-11 — AI as a lifestyle choice 2026-11-12 — Muru: releases, not restarts 2026-11-13 — Muru: canaries without a service mesh 2026-11-14 — Muru: a better tenant in a container 2026-11-15 — Muru: working with Kubernetes, not around it 2026-11-16 — Muru: scaling from what the workers report 2026-11-17 — Muru: scaling to zero 2026-11-18 — Muru: overlays on a schedule 2026-11-19 — Muru: noticing and responding 2026-11-20 — Muru: a toolbar on every page 2026-11-21 — Muru: tracing in the toolbar That post about AI as a lifestyle choice is particularly worth a read: The AI may be doing a lot of the work on the surface, but deciding what isn't good enough yet is still down to me, and twenty years of getting things wrong with mod_wsgi turns out to be useful for that. I am prepared to put in the hard work to keep polishing Muru until it is something I would trust, and something you would too. Tags: graham-dumpleton, modwsgi, python, wsgi, ai, rust, asgi, generative-ai, llms, ai-assisted-programming",
+      "published": "2026-11-21T23:56:28+00:00",
+      "published_dt": "2026-11-21T23:56:28+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "Muru (Simon Willison) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Simon Willison 报道：Muru，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1038099",
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching its public beta on Saturday on the web and through a new app for iOS and Android. \"Our cofounders have had many people come up to them and say, 'Hey, I run a mahjong night on Wednesdays' or 'I go to this local bar in Chicago with like five people, and we love playing go, but we lack a Chess.c … Read the full story at The Verge.",
+      "published": "2026-11-21T14:00:00+00:00",
+      "published_dt": "2026-11-21T14:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Chess.com’s next move is a new hub for classic games, from mahjong to sudoku，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3191147",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "published": "2026-11-21T21:37:10+00:00",
+      "published_dt": "2026-11-21T21:37:10+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3191145",
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "published": "2026-11-21T21:07:42+00:00",
+      "published_dt": "2026-11-21T21:07:42+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "A tale of two Nvidias (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：A tale of two Nvidias，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://techcrunch.com/?p=3173132",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "source_type": "rss",
+      "content": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "published": "2026-11-21T17:00:00+00:00",
+      "published_dt": "2026-11-21T17:00:00+00:00",
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 2
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "agent"
+        ]
+      },
+      "summary_en": "Here are the top AI agents that can live in your text messages (TechCrunch AI) highlights a notable AI development with score 5.0.",
+      "summary_zh": "TechCrunch AI 报道：Here are the top AI agents that can live in your text messages，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
