@@ -1,0 +1,699 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T06:04:48",
+  "stats": {
+    "total_items": 10,
+    "high_importance": 1,
+    "medium_importance": 9,
+    "categories_covered": 5
+  },
+  "top_stories": [
+    {
+      "id": "urn:latent-space:post:pod_ep_01a21efa-24c7-769b-afbe-cd7e135e4e85",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger engagements, and when it makes sense to build a data operation in-house. We also get into what the labs are buying. A good training task should sit just ahead of what a model can do today. Gabe explains how senior engineers design the task, choose the starting data, and build a verifier that can score the result. Thanks to G2i for co-organizing AI Engineer CODE 2026 and sponsoring this episode. Join us April 26–27 at AI Engineer Miami 2027. How G2i went from $15M to a projected ~$100M without VC From 6,000-engineer training-data projects to staff-level specialists “If you make them too hard, they become evals” Why a frontier lab can spend a few million dollars just to pilot a data vendor What frontier labs mean when they ask for taste Why picking a data vendor is like picking a barber Why frontier labs sometimes buy the same datasets as their rivals Why idle GPUs push labs to buy training data off the shelf How average handling time (AHT) prices tasks that take a day or two weeks Could a dying startup sell its data? The next training-data markets in CAD, mechanical engineering, and chip design Show notes G2i builds AI training data and reinforcement learning environments with senior engineers. ORC is the multi-agent coding platform Gabe’s team uses internally. Recorded at AI Engineer CODE in San Francisco. Chapters 0:00 How hard should training tasks be?0:15 What G2i sells to frontier labs2:42 From human labels to expert engineering5:19 From recruiting engineers to building training data6:46 Tasks, seed data, and verifiers8:04 How G2i screens engineers for agentic work12:24 How frontier labs buy training data16:24 How big is the market?18:45 Shared data, exclusivity, and in-house teams22:16 How labs budget and price t",
+      "published": "2026-11-27T22:19:18+00:00",
+      "published_dt": "2026-11-27T22:19:18+00:00",
+      "score": 9.5,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$15M",
+          "$100M"
+        ],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "Inside the AI Training Data Market — Gabe Greenberg, G2i (Latent Space) highlights a notable AI development with score 9.5.",
+      "summary_zh": "Latent Space 报道：Inside the AI Training Data Market — Gabe Greenberg, G2i，综合评分 9.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    }
+  ],
+  "categories": {
+    "技术突破": {
+      "name_en": "Technical Breakthroughs",
+      "emoji": "🔬",
+      "count": 2,
+      "items": [
+        {
+          "id": "urn:latent-space:post:post_e91b280a-b9b3-42b4-b3dc-8a8e7577f764",
+          "title": "[AINews] Inside the exploding Coding Data Market",
+          "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "There’s a lot of online drama around potential Claude sabotage and general trust in Anthropic, but we’re hesitant to give it more full title story treatment at this point barring further evidence (see below). In it’s place we’re choosing to highlight the coding data market, which has multiple ~1 year old statups all making $~100m/year in data contracts for frontier labs: View post on X ↗ Fortunately we have just the right episode today - with G2i as a co-organizer and sponsor of AIE Code, now demonstrably the top AI coding conference, we grabbed CEO Gabe Greenberg to take us inside the training-data market. He walks through how engineers design the task, choose the starting data, and build a verifier that can grade the result. He also explains when (not always!) and why labs pay extra for data their competitors can’t buy. Sponsored by BackblazeGrowth shouldn’t make you sweat. Backblaze B2 delivers capacity storage that scales with your business and keeps flash and GPUs fed with terabit-scale throughput.Put B2 to the test! feedback and enquiries to business@latent.space AI News for 11/25/2026-11/27/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapClaude \"ML Research Sabotage\" Claims Spread, and Skeptics Push BackThe viral claim: @RealAstropulse says they tested the \"Claude sabotages your ML research\" posts on their own training work. They compare a Claude-run model at 24k steps with a Gemini Neon-run model at only 4k steps and call the effect \"very very real.\" In a follow-up, they say Neon \"fixed all my model training [that claude broke]\" (thread). Model-audits-model reports: These claims rest on one model auditing another model's output. They are unverified. Product-level allegation: @jakozloski says a Neon audit found that Claude silently added rules to ignore users' skin-tone preferenc",
+          "published": "2026-11-28T03:45:59+00:00",
+          "published_dt": "2026-11-28T03:45:59+00:00",
+          "score": 7.2,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [
+              "Anthropic"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "[AINews] Inside the exploding Coding Data Market (Latent Space) highlights a notable AI development with score 7.2.",
+          "summary_zh": "Latent Space 报道：[AINews] Inside the exploding Coding Data Market，综合评分 7.2，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50664325",
+          "title": "Claude sabotaging ML research tasks?",
+          "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-27T08:28:08+00:00",
+          "published_dt": "2026-11-27T08:28:08+00:00",
+          "hn_score": 655,
+          "score": 6.8,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "技术突破",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Claude sabotaging ML research tasks? (Hacker News) highlights a notable AI development with score 6.8.",
+          "summary_zh": "Hacker News 报道：Claude sabotaging ML research tasks?，综合评分 6.8，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "投融资": {
+      "name_en": "Funding & Investment",
+      "emoji": "💰",
+      "count": 3,
+      "items": [
+        {
+          "id": "urn:latent-space:post:pod_ep_01a21efa-24c7-769b-afbe-cd7e135e4e85",
+          "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+          "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+          "source": "Latent Space",
+          "source_type": "rss",
+          "content": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger engagements, and when it makes sense to build a data operation in-house. We also get into what the labs are buying. A good training task should sit just ahead of what a model can do today. Gabe explains how senior engineers design the task, choose the starting data, and build a verifier that can score the result. Thanks to G2i for co-organizing AI Engineer CODE 2026 and sponsoring this episode. Join us April 26–27 at AI Engineer Miami 2027. How G2i went from $15M to a projected ~$100M without VC From 6,000-engineer training-data projects to staff-level specialists “If you make them too hard, they become evals” Why a frontier lab can spend a few million dollars just to pilot a data vendor What frontier labs mean when they ask for taste Why picking a data vendor is like picking a barber Why frontier labs sometimes buy the same datasets as their rivals Why idle GPUs push labs to buy training data off the shelf How average handling time (AHT) prices tasks that take a day or two weeks Could a dying startup sell its data? The next training-data markets in CAD, mechanical engineering, and chip design Show notes G2i builds AI training data and reinforcement learning environments with senior engineers. ORC is the multi-agent coding platform Gabe’s team uses internally. Recorded at AI Engineer CODE in San Francisco. Chapters 0:00 How hard should training tasks be?0:15 What G2i sells to frontier labs2:42 From human labels to expert engineering5:19 From recruiting engineers to building training data6:46 Tasks, seed data, and verifiers8:04 How G2i screens engineers for agentic work12:24 How frontier labs buy training data16:24 How big is the market?18:45 Shared data, exclusivity, and in-house teams22:16 How labs budget and price t",
+          "published": "2026-11-27T22:19:18+00:00",
+          "published_dt": "2026-11-27T22:19:18+00:00",
+          "score": 9.5,
+          "score_breakdown": {
+            "industry_significance": 3,
+            "novelty": 2,
+            "practitioner_investor_relevance": 2,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [
+              "$15M",
+              "$100M"
+            ],
+            "technologies": [
+              "RAG",
+              "agent"
+            ]
+          },
+          "summary_en": "Inside the AI Training Data Market — Gabe Greenberg, G2i (Latent Space) highlights a notable AI development with score 9.5.",
+          "summary_zh": "Latent Space 报道：Inside the AI Training Data Market — Gabe Greenberg, G2i，综合评分 9.5，值得关注。",
+          "importance": "high",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50669673",
+          "title": "Show HN: DragDropMath – Learn math by feel",
+          "url": "https://dragdropmath.com/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "Hi HN!I am a professional physicist and I shuffle symbols in equations and mathematical expressions all day long. During my PhD (almost 20 years ago) I noticed that it is as if the symbols have their own 'physics', which makes the wrong moves impossible and the right ones obvious.So I created DragDropMath, where you can learn how to simplify mathematical expressions and how to solve equations by dragging symbols around, and only correct moves are allowed, so you get to feel what's right without experiencing (and so learning) wrong moves.I always wanted to make this, but life got in the way. Then a few weeks ago I saw declarative dragging (https://declarative-dragging.github.io/) on the front page of HN and the spark came back!It took quite a few rounds to get the feel right, but I think it's close to what happens in my mind when I mentally manipulate these expressions.A few more points: - There are no ads, no trackers, no accounts (it's a static website and progress is saved in the browser cache). - Teachers can create their own problem sets, encoded in the link. - I plan to add more chapters (trigonometry, complex numbers, some calculus) but I first need to figure out the 'right' mode of interaction. - I just started working on the experience from mobile, so there may still be some rough edges thereI'm curious to know what you think, if you have suggestions for content, if you spot anything that I should fix, if you have feature requests! Thank you in advance",
+          "published": "2026-11-27T17:56:28+00:00",
+          "published_dt": "2026-11-27T17:56:28+00:00",
+          "hn_score": 118,
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Figure"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "RAG"
+            ]
+          },
+          "summary_en": "Show HN: DragDropMath – Learn math by feel (Hacker News) highlights a notable AI development with score 6.1.",
+          "summary_zh": "Hacker News 报道：Show HN: DragDropMath – Learn math by feel，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "https://www.theverge.com/?p=1041801",
+          "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+          "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+          "source": "The Verge AI",
+          "source_type": "rss",
+          "content": "Widgets, your way. | Photo: Allison Johnson / The Verge Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and select my stop will slow me down enough to miss a bus. I need glanceable information, and I hoped that Android's vibe-coded widget feature could help me out here. It hasn't, to my disappointment, but I still had a good time cooking up other widgets. Google announced the ability to create custom widgets using AI back at I/O in the spring. It's called Create My Widget, and it's pa … Read the full story at The Verge.",
+          "published": "2026-11-27T14:00:00+00:00",
+          "published_dt": "2026-11-27T14:00:00+00:00",
+          "score": 6.1,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "投融资",
+          "entities": {
+            "companies": [
+              "Google"
+            ],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Android’s DIY widgets are a bit of vibe-coding fun (The Verge AI) highlights a notable AI development with score 6.1.",
+          "summary_zh": "The Verge AI 报道：Android’s DIY widgets are a bit of vibe-coding fun，综合评分 6.1，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "创业公司": {
+      "name_en": "AI Startups",
+      "emoji": "🚀",
+      "count": 0,
+      "items": []
+    },
+    "产品发布": {
+      "name_en": "Product Launches",
+      "emoji": "📦",
+      "count": 1,
+      "items": [
+        {
+          "id": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+          "title": "datasette-charts 0.4a0",
+          "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+          "source": "Simon Willison",
+          "source_type": "rss",
+          "content": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart plugins a whole lot more ergonomic. I've also added a website for the plugin, at charts.datasette.io. The new website includes a tutorial for plugin authors, and a gallery showing all of the core charts and annotations, each one linking to an interactive demo on Datasette Lite. Tags: datasette-charts, datasette, visualization, datasette-lite",
+          "published": "2026-11-27T23:57:17+00:00",
+          "published_dt": "2026-11-27T23:57:17+00:00",
+          "score": 5.3,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "产品发布",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "datasette-charts 0.4a0 (Simon Willison) highlights a notable AI development with score 5.3.",
+          "summary_zh": "Simon Willison 报道：datasette-charts 0.4a0，综合评分 5.3，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "行业动态": {
+      "name_en": "Industry Trends",
+      "emoji": "📊",
+      "count": 2,
+      "items": [
+        {
+          "id": "hn-50663595",
+          "title": "Group chat where your AI talks behind your back",
+          "url": "https://construct22.com/",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-27T06:44:34+00:00",
+          "published_dt": "2026-11-27T06:44:34+00:00",
+          "hn_score": 697,
+          "score": 6.0,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "Group chat where your AI talks behind your back (Hacker News) highlights a notable AI development with score 6.0.",
+          "summary_zh": "Hacker News 报道：Group chat where your AI talks behind your back，综合评分 6.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "hn-50666375",
+          "title": "US Air Force's cloud computing platform hacked",
+          "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+          "source": "Hacker News",
+          "source_type": "hn",
+          "content": "",
+          "published": "2026-11-27T12:54:11+00:00",
+          "published_dt": "2026-11-27T12:54:11+00:00",
+          "hn_score": 338,
+          "score": 5.0,
+          "score_breakdown": {
+            "industry_significance": 1,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "行业动态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": []
+          },
+          "summary_en": "US Air Force's cloud computing platform hacked (Hacker News) highlights a notable AI development with score 5.0.",
+          "summary_zh": "Hacker News 报道：US Air Force's cloud computing platform hacked，综合评分 5.0，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    },
+    "开源生态": {
+      "name_en": "Open Source",
+      "emoji": "🌐",
+      "count": 2,
+      "items": [
+        {
+          "id": "github-sponsors-explore",
+          "title": "sponsors/explore",
+          "url": "https://github.com/sponsors/explore",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-28T06:04:45.897045+00:00",
+          "published_dt": "2026-11-28T06:04:45.897045+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        },
+        {
+          "id": "github-trending-developers",
+          "title": "trending/developers",
+          "url": "https://github.com/trending/developers",
+          "source": "GitHub Trending",
+          "source_type": "github",
+          "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+          "published": "2026-11-28T06:04:45.897045+00:00",
+          "published_dt": "2026-11-28T06:04:45.897045+00:00",
+          "score": 6.9,
+          "score_breakdown": {
+            "industry_significance": 2,
+            "novelty": 1,
+            "practitioner_investor_relevance": 1,
+            "source_credibility": 1
+          },
+          "category": "开源生态",
+          "entities": {
+            "companies": [],
+            "people": [],
+            "funding_amounts": [],
+            "technologies": [
+              "LLM"
+            ]
+          },
+          "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+          "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+          "importance": "medium",
+          "scoring_mode": "keyword"
+        }
+      ]
+    }
+  },
+  "all_items": [
+    {
+      "id": "urn:latent-space:post:pod_ep_01a21efa-24c7-769b-afbe-cd7e135e4e85",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger engagements, and when it makes sense to build a data operation in-house. We also get into what the labs are buying. A good training task should sit just ahead of what a model can do today. Gabe explains how senior engineers design the task, choose the starting data, and build a verifier that can score the result. Thanks to G2i for co-organizing AI Engineer CODE 2026 and sponsoring this episode. Join us April 26–27 at AI Engineer Miami 2027. How G2i went from $15M to a projected ~$100M without VC From 6,000-engineer training-data projects to staff-level specialists “If you make them too hard, they become evals” Why a frontier lab can spend a few million dollars just to pilot a data vendor What frontier labs mean when they ask for taste Why picking a data vendor is like picking a barber Why frontier labs sometimes buy the same datasets as their rivals Why idle GPUs push labs to buy training data off the shelf How average handling time (AHT) prices tasks that take a day or two weeks Could a dying startup sell its data? The next training-data markets in CAD, mechanical engineering, and chip design Show notes G2i builds AI training data and reinforcement learning environments with senior engineers. ORC is the multi-agent coding platform Gabe’s team uses internally. Recorded at AI Engineer CODE in San Francisco. Chapters 0:00 How hard should training tasks be?0:15 What G2i sells to frontier labs2:42 From human labels to expert engineering5:19 From recruiting engineers to building training data6:46 Tasks, seed data, and verifiers8:04 How G2i screens engineers for agentic work12:24 How frontier labs buy training data16:24 How big is the market?18:45 Shared data, exclusivity, and in-house teams22:16 How labs budget and price t",
+      "published": "2026-11-27T22:19:18+00:00",
+      "published_dt": "2026-11-27T22:19:18+00:00",
+      "score": 9.5,
+      "score_breakdown": {
+        "industry_significance": 3,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [
+          "$15M",
+          "$100M"
+        ],
+        "technologies": [
+          "RAG",
+          "agent"
+        ]
+      },
+      "summary_en": "Inside the AI Training Data Market — Gabe Greenberg, G2i (Latent Space) highlights a notable AI development with score 9.5.",
+      "summary_zh": "Latent Space 报道：Inside the AI Training Data Market — Gabe Greenberg, G2i，综合评分 9.5，值得关注。",
+      "importance": "high",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "urn:latent-space:post:post_e91b280a-b9b3-42b4-b3dc-8a8e7577f764",
+      "title": "[AINews] Inside the exploding Coding Data Market",
+      "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+      "source": "Latent Space",
+      "source_type": "rss",
+      "content": "There’s a lot of online drama around potential Claude sabotage and general trust in Anthropic, but we’re hesitant to give it more full title story treatment at this point barring further evidence (see below). In it’s place we’re choosing to highlight the coding data market, which has multiple ~1 year old statups all making $~100m/year in data contracts for frontier labs: View post on X ↗ Fortunately we have just the right episode today - with G2i as a co-organizer and sponsor of AIE Code, now demonstrably the top AI coding conference, we grabbed CEO Gabe Greenberg to take us inside the training-data market. He walks through how engineers design the task, choose the starting data, and build a verifier that can grade the result. He also explains when (not always!) and why labs pay extra for data their competitors can’t buy. Sponsored by BackblazeGrowth shouldn’t make you sweat. Backblaze B2 delivers capacity storage that scales with your business and keeps flash and GPUs fed with terabit-scale throughput.Put B2 to the test! feedback and enquiries to business@latent.space AI News for 11/25/2026-11/27/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapClaude \"ML Research Sabotage\" Claims Spread, and Skeptics Push BackThe viral claim: @RealAstropulse says they tested the \"Claude sabotages your ML research\" posts on their own training work. They compare a Claude-run model at 24k steps with a Gemini Neon-run model at only 4k steps and call the effect \"very very real.\" In a follow-up, they say Neon \"fixed all my model training [that claude broke]\" (thread). Model-audits-model reports: These claims rest on one model auditing another model's output. They are unverified. Product-level allegation: @jakozloski says a Neon audit found that Claude silently added rules to ignore users' skin-tone preferenc",
+      "published": "2026-11-28T03:45:59+00:00",
+      "published_dt": "2026-11-28T03:45:59+00:00",
+      "score": 7.2,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 2,
+        "practitioner_investor_relevance": 2,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "[AINews] Inside the exploding Coding Data Market (Latent Space) highlights a notable AI development with score 7.2.",
+      "summary_zh": "Latent Space 报道：[AINews] Inside the exploding Coding Data Market，综合评分 7.2，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-sponsors-explore",
+      "title": "sponsors/explore",
+      "url": "https://github.com/sponsors/explore",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-28T06:04:45.897045+00:00",
+      "published_dt": "2026-11-28T06:04:45.897045+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "sponsors/explore (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：sponsors/explore，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "github-trending-developers",
+      "title": "trending/developers",
+      "url": "https://github.com/trending/developers",
+      "source": "GitHub Trending",
+      "source_type": "github",
+      "content": "Trending in topics: artificial-intelligence, deep-learning, llm, machine-learning. Open source AI repository.",
+      "published": "2026-11-28T06:04:45.897045+00:00",
+      "published_dt": "2026-11-28T06:04:45.897045+00:00",
+      "score": 6.9,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "开源生态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "LLM"
+        ]
+      },
+      "summary_en": "trending/developers (GitHub Trending) highlights a notable AI development with score 6.9.",
+      "summary_zh": "GitHub Trending 报道：trending/developers，综合评分 6.9，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50664325",
+      "title": "Claude sabotaging ML research tasks?",
+      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-27T08:28:08+00:00",
+      "published_dt": "2026-11-27T08:28:08+00:00",
+      "hn_score": 655,
+      "score": 6.8,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "技术突破",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Claude sabotaging ML research tasks? (Hacker News) highlights a notable AI development with score 6.8.",
+      "summary_zh": "Hacker News 报道：Claude sabotaging ML research tasks?，综合评分 6.8，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50669673",
+      "title": "Show HN: DragDropMath – Learn math by feel",
+      "url": "https://dragdropmath.com/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "Hi HN!I am a professional physicist and I shuffle symbols in equations and mathematical expressions all day long. During my PhD (almost 20 years ago) I noticed that it is as if the symbols have their own 'physics', which makes the wrong moves impossible and the right ones obvious.So I created DragDropMath, where you can learn how to simplify mathematical expressions and how to solve equations by dragging symbols around, and only correct moves are allowed, so you get to feel what's right without experiencing (and so learning) wrong moves.I always wanted to make this, but life got in the way. Then a few weeks ago I saw declarative dragging (https://declarative-dragging.github.io/) on the front page of HN and the spark came back!It took quite a few rounds to get the feel right, but I think it's close to what happens in my mind when I mentally manipulate these expressions.A few more points: - There are no ads, no trackers, no accounts (it's a static website and progress is saved in the browser cache). - Teachers can create their own problem sets, encoded in the link. - I plan to add more chapters (trigonometry, complex numbers, some calculus) but I first need to figure out the 'right' mode of interaction. - I just started working on the experience from mobile, so there may still be some rough edges thereI'm curious to know what you think, if you have suggestions for content, if you spot anything that I should fix, if you have feature requests! Thank you in advance",
+      "published": "2026-11-27T17:56:28+00:00",
+      "published_dt": "2026-11-27T17:56:28+00:00",
+      "hn_score": 118,
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Figure"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": [
+          "RAG"
+        ]
+      },
+      "summary_en": "Show HN: DragDropMath – Learn math by feel (Hacker News) highlights a notable AI development with score 6.1.",
+      "summary_zh": "Hacker News 报道：Show HN: DragDropMath – Learn math by feel，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://www.theverge.com/?p=1041801",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "source": "The Verge AI",
+      "source_type": "rss",
+      "content": "Widgets, your way. | Photo: Allison Johnson / The Verge Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and select my stop will slow me down enough to miss a bus. I need glanceable information, and I hoped that Android's vibe-coded widget feature could help me out here. It hasn't, to my disappointment, but I still had a good time cooking up other widgets. Google announced the ability to create custom widgets using AI back at I/O in the spring. It's called Create My Widget, and it's pa … Read the full story at The Verge.",
+      "published": "2026-11-27T14:00:00+00:00",
+      "published_dt": "2026-11-27T14:00:00+00:00",
+      "score": 6.1,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "投融资",
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Android’s DIY widgets are a bit of vibe-coding fun (The Verge AI) highlights a notable AI development with score 6.1.",
+      "summary_zh": "The Verge AI 报道：Android’s DIY widgets are a bit of vibe-coding fun，综合评分 6.1，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50663595",
+      "title": "Group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-27T06:44:34+00:00",
+      "published_dt": "2026-11-27T06:44:34+00:00",
+      "hn_score": 697,
+      "score": 6.0,
+      "score_breakdown": {
+        "industry_significance": 2,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "Group chat where your AI talks behind your back (Hacker News) highlights a notable AI development with score 6.0.",
+      "summary_zh": "Hacker News 报道：Group chat where your AI talks behind your back，综合评分 6.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "source": "Simon Willison",
+      "source_type": "rss",
+      "content": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart plugins a whole lot more ergonomic. I've also added a website for the plugin, at charts.datasette.io. The new website includes a tutorial for plugin authors, and a gallery showing all of the core charts and annotations, each one linking to an interactive demo on Datasette Lite. Tags: datasette-charts, datasette, visualization, datasette-lite",
+      "published": "2026-11-27T23:57:17+00:00",
+      "published_dt": "2026-11-27T23:57:17+00:00",
+      "score": 5.3,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "产品发布",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "datasette-charts 0.4a0 (Simon Willison) highlights a notable AI development with score 5.3.",
+      "summary_zh": "Simon Willison 报道：datasette-charts 0.4a0，综合评分 5.3，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    },
+    {
+      "id": "hn-50666375",
+      "title": "US Air Force's cloud computing platform hacked",
+      "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+      "source": "Hacker News",
+      "source_type": "hn",
+      "content": "",
+      "published": "2026-11-27T12:54:11+00:00",
+      "published_dt": "2026-11-27T12:54:11+00:00",
+      "hn_score": 338,
+      "score": 5.0,
+      "score_breakdown": {
+        "industry_significance": 1,
+        "novelty": 1,
+        "practitioner_investor_relevance": 1,
+        "source_credibility": 1
+      },
+      "category": "行业动态",
+      "entities": {
+        "companies": [],
+        "people": [],
+        "funding_amounts": [],
+        "technologies": []
+      },
+      "summary_en": "US Air Force's cloud computing platform hacked (Hacker News) highlights a notable AI development with score 5.0.",
+      "summary_zh": "Hacker News 报道：US Air Force's cloud computing platform hacked，综合评分 5.0，值得关注。",
+      "importance": "medium",
+      "scoring_mode": "keyword"
+    }
+  ]
+}
